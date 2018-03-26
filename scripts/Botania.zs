@@ -59,3 +59,5 @@ mods.botania.PureDaisy.addRecipe(log13, log14, 60);
 mods.botania.PureDaisy.addRecipe(log14, log15, 60);
 mods.botania.PureDaisy.addRecipe(log15, log0, 60);
 
+//If you see this, it worked.
+
