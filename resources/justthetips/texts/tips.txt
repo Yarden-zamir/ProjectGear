@@ -1,0 +1,14 @@
+You can automate the manual squeezer from Integrated Dynamics by dropping armor stands on it
+Pebbles are a good source of ores
+Buildcraft uses its own energy system
+Charge Tinkers' lasers with Immersive Engineering's charging station
+Quarries are fairly slow unless powered by oil or fuel
+You can place balloons in mid air
+Search "Disabled" in JEI to see a list of all disabled items
+Buildcraft's advanced crafters are very fast if you have enough lasers
+Rare flowers are found on top of rich ore deposits
+Rich ore deposits are rare, but contains huge amounts of one or two types of ore
+Vector plates and super lubricant stone is a fun combination
+The player trap acts as a player kill. Mobs drop xp, wither skulls, etc
+Loot structures when you find them. Some have unique modded loot.
+Ender bridges can teleport mobs and items long distances, but they require some setup
