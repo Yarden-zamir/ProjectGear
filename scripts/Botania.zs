@@ -14,6 +14,7 @@ mods.botania.ManaInfusion.addAlchemy(lead, nickel, 100);
 mods.botania.ManaInfusion.addAlchemy(nickel, silver, 100);
 mods.botania.ManaInfusion.addAlchemy(silver, aluminum, 100);
 
+//this is a test comment
 //Use pure daisy to get bog oak:
 
 //recipes.addShapeless(<advancedrocketry:charcoallog>, [<ore:logWood>, <forestry:ash>]);
@@ -58,4 +59,3 @@ mods.botania.PureDaisy.addRecipe(log12, log13, 60);
 mods.botania.PureDaisy.addRecipe(log13, log14, 60);
 mods.botania.PureDaisy.addRecipe(log14, log15, 60);
 mods.botania.PureDaisy.addRecipe(log15, log0, 60);
-
