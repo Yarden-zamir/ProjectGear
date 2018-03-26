@@ -1,0 +1,51 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"copper_lv": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": "thermalfoundation:ore",
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 5,
+			"min-height": 40,
+			"max-height": 70,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"tin_lv": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"sparse": true,
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 1
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 5,
+			"min-height": 10,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
