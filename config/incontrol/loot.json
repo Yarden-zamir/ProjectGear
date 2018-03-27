@@ -1,1 +1,14 @@
-[ { "mob": "Enderman", "item": "minecraft:ender_pearl" } ]
+[
+	{ 
+		"mob": "Enderman",
+		"item": "minecraft:ender_pearl" 
+	},
+	{
+		"mob": "minecraft:wither_skeleton",
+		"remove": "quark:black_ash"
+	},
+	{
+		"mob": "minecraft:wither_skeleton",
+		"remove": "darkutils:material@0"
+	}
+]

@@ -17,14 +17,15 @@ recipes.addShaped(<darkutils:trap_move> * 4,
 recipes.addShaped(<darkutils:trap_move> * 4,
 	[[<quark:black_ash:0>, <quark:black_ash:0>, <quark:black_ash:0>],
 	 [<immersiveengineering:conveyor:0>, <immersiveengineering:conveyor:0>, <immersiveengineering:conveyor:0>]]);
-	 
-	 
+ 
+
 	//Convert similar items:
-		//Chest:
+	//Chest:
 recipes.addShapeless(<minecraft:chest>, [<ore:chestWood>]);
-		//Wither ash:
+	//Wither ash:
 recipes.addShapeless(<quark:black_ash>, [<darkutils:material:0>]);
 recipes.addShapeless(<darkutils:material:0>, [<quark:black_ash>]);
+recipes.addShapeless(<darkutils:material:0> * 4, [<tconstruct:materials:17>]);
 
 
 
