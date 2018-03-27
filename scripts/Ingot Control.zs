@@ -16,6 +16,17 @@ val redstoneBlock = <ore:blockRedstone>;
 val electrumDust = <thermalfoundation:material:97>;
 val copperDust = <ore:dustCopper>;
 val goldDust = <ore:dustGold>;
+val tinNugget = <ore:nuggetTin>;
+val glass = <ore:blockGlass>;
+
+//Template:
+/*
+recipes.removeShaped(<x>);
+recipes.addShaped(<X>,
+	[[<X>, <X>, <X>],
+	 [<X>, <X>, <X>],
+	 [<X>, <X>, <X>]]);
+*/
 
 //Crafting recipes:
 
@@ -160,33 +171,99 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:7>, c
 mods.tconstruct.Alloy.removeRecipe(<liquid:electrum>);
 mods.tconstruct.Alloy.addRecipe(<liquid:electrum> * 2, [<liquid:gold> * 1, <liquid:copper> * 1]);
 
-//Prevent Integrated Dynamics squeezer from doubling ores
+	//Applies Energistics - Replace iron with aluminum
+recipes.removeShaped(<appliedenergistics2:material:25>);
+recipes.addShaped(<appliedenergistics2:material:25> * 2,
+	[[goldIngot, aluminumIngot, null],
+	 [redstone, <appliedenergistics2:material:23>, aluminumIngot],
+	 [goldIngot, aluminumIngot, null]]);
+	 
 
-/*
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<immersiveengineering:metal:*>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<libvulpes:productdust:*>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<morebees:dustiron>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<morebees:dustcopper>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<morebees:dustgold>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<morebees:dusttin>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<gadgetrymachines:dust_iron>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<gadgetrymachines:dust_gold>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<terraqueous:item_main:203>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<terraqueous:item_main:205>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:blaze_powder>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:dye:*>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:sugar>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:string>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:sand:*>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:coal>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:emerald>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:diamond>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:glowstone_dust>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:gravel>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:flint>, null);
-mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:prismarine_crystals>, null);
-*/
+recipes.removeShaped(<appliedenergistics2:material:28>);
+recipes.addShaped(<appliedenergistics2:material:28> * 2,
+	[[<minecraft:diamond>, aluminumIngot, null],
+	 [redstone, <appliedenergistics2:material:23>, aluminumIngot],
+	 [<minecraft:diamond>, aluminumIngot, null]]);
+	 
+recipes.removeShaped(<appliedenergistics2:interface>);
+recipes.addShaped(<appliedenergistics2:interface>,
+	[[aluminumIngot, glass, aluminumIngot],
+	 [<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
+	 [aluminumIngot, glass, aluminumIngot]]);
 
+	 
+recipes.removeShaped(<appliedenergistics2:part:240>);
+recipes.addShaped(<appliedenergistics2:part:240>,
+	[[null, null, null],
+	 [null, <appliedenergistics2:material:44>, null],
+	 [aluminumIngot, <minecraft:sticky_piston>, aluminumIngot]]);
 
+	 
+recipes.removeShaped(<appliedenergistics2:part:260>);
+recipes.addShaped(<appliedenergistics2:part:260>,
+	[[null, null, null],
+	 [aluminumIngot, <appliedenergistics2:material:43>, aluminumIngot],
+	 [null, <minecraft:piston>, null]]);
 
+	//RFTools - Replace iron with tin
+	 
+recipes.removeShaped(<rftools:machine_frame>);
+recipes.addShaped(<rftools:machine_frame>,
+	[[tinIngot, <ore:dyeBlue>, tinIngot],
+	 [<ore:nuggetGold>, null, <ore:nuggetGold>],
+	 [tinIngot, <ore:dyeBlue>, tinIngot]]);
+
+recipes.removeShaped(<rftools:screen>);
+recipes.addShaped(<rftools:screen>,
+	[[glass, glass, glass],
+	 [glass, <rftools:machine_base>, glass],
+	 [tinIngot, tinIngot, tinIngot]]);
+	 
+recipes.removeShaped(<rftools:shape_card:0>);
+recipes.addShaped(<rftools:shape_card:0>,
+	[[<ore:paper>, <minecraft:brick>, <ore:paper>],
+	 [redstone, tinIngot, redstone],
+	 [<ore:paper>, <minecraft:brick>, <ore:paper>]]);
+	 
+recipes.removeShaped(<rftools:syringe:0>);
+recipes.addShaped(<rftools:syringe:0>,
+	[[tinIngot, null, null],
+	 [null, tinIngot, null],
+	 [null, null, <minecraft:glass_bottle>]]);
+	 
+recipes.removeShaped(<waterworks:water_pipe>);
+recipes.addShaped(<waterworks:water_pipe> * 8,
+	[[tinIngot, <minecraft:iron_bars>, tinIngot],
+	 [tinIngot, <minecraft:iron_bars>, tinIngot],
+	 [tinIngot, <minecraft:iron_bars>, tinIngot]]);
+
+recipes.removeShaped(<waterworks:groundwater_pump>);
+recipes.addShaped(<waterworks:groundwater_pump>,
+	[[<minecraft:iron_bars>, <waterworks:materials:0>, <minecraft:iron_bars>],
+	 [tinIngot, <waterworks:rain_tank_wood>, tinIngot],
+	 [tinIngot, <waterworks:water_pipe>, tinIngot]]);
+	 
+recipes.removeShaped(<opencomputers:cable>);
+recipes.addShaped(<opencomputers:cable> * 4,
+	[[null, tinNugget, null],
+	 [tinNugget, redstone, tinNugget],
+	 [null, tinNugget, null]]);
+
+recipes.removeShaped(<opencomputers:material:7>);
+recipes.addShaped(<opencomputers:material:7> * 8,
+	[[tinNugget, tinNugget, tinNugget],
+	 [redstone, <opencomputers:material:6>, redstone],
+	 [tinNugget, tinNugget, tinNugget]]);
+ 
+recipes.removeShaped(<opencomputers:material:5>);
+recipes.addShaped(<opencomputers:material:5>,
+	[[tinNugget, null, null],
+	 [tinNugget, <opencomputers:material:4>, null],
+	 [tinNugget, <ore:nuggetGold>, null]]);
+
+recipes.removeShaped(<opencomputers:material:6>);
+recipes.addShaped(<opencomputers:material:6> * 8,
+	[[tinNugget, tinNugget, tinNugget],
+	 [<ore:nuggetGold>, <ore:paper>, <ore:nuggetGold>],
+	 [null, redstone, null]]);
 
