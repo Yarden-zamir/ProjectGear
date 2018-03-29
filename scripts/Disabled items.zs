@@ -106,3 +106,25 @@ recipes.remove(<immersiveengineering:metal_device1:13>);
 <immersiveengineering:metal_device1:13>.addTooltip(format.darkRed("Disabled!"));
 
 //Note: Disabled to encourage more interesting farms
+
+recipes.remove(<stevescarts:modulecomponents:17>);
+<stevescarts:modulecomponents:17>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:15>);
+<stevescarts:stevescarts:cartmodule:15>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:79>);
+<stevescarts:stevescarts:cartmodule:79>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:80>);
+<stevescarts:stevescarts:cartmodule:90>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:14>);
+<stevescarts:stevescarts:cartmodule:14>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:84>);
+<stevescarts:stevescarts:cartmodule:84>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:89>);
+<stevescarts:stevescarts:cartmodule:89>.addTooltip(format.darkRed("Disabled!"));
+

@@ -16,7 +16,7 @@ val redstoneBlock = <ore:blockRedstone>;
 val electrumDust = <thermalfoundation:material:97>;
 val copperDust = <ore:dustCopper>;
 val goldDust = <ore:dustGold>;
-val tinNugget = <ore:nuggetTin>;
+val tinNugget = <thermalfoundation:material:193>;
 val glass = <ore:blockGlass>;
 
 //Template:
@@ -230,7 +230,7 @@ recipes.addShaped(<rftools:syringe:0>,
 	[[tinIngot, null, null],
 	 [null, tinIngot, null],
 	 [null, null, <minecraft:glass_bottle>]]);
-	 
+
 recipes.removeShaped(<waterworks:water_pipe>);
 recipes.addShaped(<waterworks:water_pipe> * 8,
 	[[tinIngot, <minecraft:iron_bars>, tinIngot],
@@ -242,9 +242,9 @@ recipes.addShaped(<waterworks:groundwater_pump>,
 	[[<minecraft:iron_bars>, <waterworks:materials:0>, <minecraft:iron_bars>],
 	 [tinIngot, <waterworks:rain_tank_wood>, tinIngot],
 	 [tinIngot, <waterworks:water_pipe>, tinIngot]]);
-	 
-recipes.removeShaped(<opencomputers:cable>);
-recipes.addShaped(<opencomputers:cable> * 4,
+/*
+recipes.removeShaped(<opencomputers:cable:0>);
+recipes.addShaped(<opencomputers:cable:0> * 4,
 	[[null, tinNugget, null],
 	 [tinNugget, redstone, tinNugget],
 	 [null, tinNugget, null]]);
@@ -266,4 +266,4 @@ recipes.addShaped(<opencomputers:material:6> * 8,
 	[[tinNugget, tinNugget, tinNugget],
 	 [<ore:nuggetGold>, <ore:paper>, <ore:nuggetGold>],
 	 [null, redstone, null]]);
-
+*/

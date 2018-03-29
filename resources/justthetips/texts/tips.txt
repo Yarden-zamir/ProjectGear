@@ -11,4 +11,5 @@ Rich ore deposits are rare, but contains huge amounts of one or two types of ore
 Vector plates and super lubricant stone is a fun combination
 The player trap acts as a player kill. Mobs drop xp, wither skulls, etc
 Loot structures when you find them. Some have unique modded loot.
-Ender bridges can teleport mobs and items long distances, but they require some setup
+Ender bridges can teleport mobs and items long distances, but they require some setup.
+Tinkers' tools made of Botania metals will use mana from a mana tablet instead of taking durability
