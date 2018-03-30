@@ -20,4 +20,5 @@
 
 log:
 fixed the auto tagging of new to-dos, now they will properly be tagged as todo
-Fixed manual tagging for new issues, Now you can add #[tag] at the end of an issue and it will add a tag if one exists (for now create them through the site)
+fixed manual tagging for new issues, Now you can add #[tag] at the end of an issue and it will add a tag if one exists (for now create them through the site)
+fixed /list when character limit is reached
