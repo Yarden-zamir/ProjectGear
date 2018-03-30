@@ -1,2 +1,2 @@
 # ProjectGear
-First test of github for modpack development
+Project gear development
