@@ -10,9 +10,11 @@
 
 /list                            <-- lists all open issues
 
-[issue title]                    <-- adds an issue with only a title
+{
+  [issue title]                    <-- adds an issue with only a title
 
-[issue title]                    <-
-[issue description]              <-- adds an issue with a title and description
-
-fixed the auto tagging of new to-dos, now they will properly be tagged as todo 
+  [issue title]                    <-
+  [issue description]              <-- adds an issue with a title and description
+} -- possible arguments:
+                        #[tag] to add tag to an issue, use that at the end of the issue
+fixed the auto tagging of new to-dos, now they will properly be tagged as todo
