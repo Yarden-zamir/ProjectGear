@@ -1,0 +1,16 @@
+/help                            <-- shows this screen
+
+/update [issue index] [comment]  <-- adds a comment to an issue
+
+/sync                            <-- first time setup
+
+/show [issue index]              <-- shows more info on an issue
+
+/close [issue index]/all/last    <-- closes/finishes an issue
+
+/list                            <-- lists all open issues
+
+[issue title]                    <-- adds an issue with only a title
+
+[issue title]                    <-
+[issue description]              <-- adds an issue with a title and description
