@@ -161,3 +161,8 @@ recipes.remove(<nuclearcraft:solar_panel_basic>);
 <nuclearcraft:solar_panel_basic>.addTooltip(format.darkRed("Disabled!"));
 
 //Note: There are more fun ways to generate power
+
+recipes.remove(<nuclearcraft:manufactory_idle>);
+<nuclearcraft:manufactory_idle>.addTooltip(format.darkRed("Disabled!"));
+
+//Note: Use an Immersive Engineering crusher or a smeltery
