@@ -14,3 +14,5 @@
 
 [issue title]                    <-
 [issue description]              <-- adds an issue with a title and description
+
+fixed the auto tagging of new to-dos, now they will properly be tagged as todo 
