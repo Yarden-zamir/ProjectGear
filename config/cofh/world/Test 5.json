@@ -23,9 +23,9 @@
 				]
 			},
 			"chunk-chance": 20,
-			"cluster-count": 500,
+			"cluster-count": 50,
 			"vein-height": 40,
-			"vein-diameter": 500,
+			"vein-diameter": 50,
 			"vertical-density": 5,
 			"horizontal-density": 5,
 			"min-height": 10,

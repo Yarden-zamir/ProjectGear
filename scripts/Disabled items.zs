@@ -106,3 +106,63 @@ recipes.remove(<immersiveengineering:metal_device1:13>);
 <immersiveengineering:metal_device1:13>.addTooltip(format.darkRed("Disabled!"));
 
 //Note: Disabled to encourage more interesting farms
+
+recipes.remove(<stevescarts:modulecomponents:17>);
+<stevescarts:modulecomponents:17>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:15>);
+<stevescarts:cartmodule:15>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:79>);
+<stevescarts:cartmodule:79>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:80>);
+<stevescarts:cartmodule:80>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:14>);
+<stevescarts:cartmodule:14>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:84>);
+<stevescarts:cartmodule:84>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<stevescarts:cartmodule:89>);
+<stevescarts:cartmodule:89>.addTooltip(format.darkRed("Disabled!"));
+
+//Note: Disables Steve's Carts crop/wood farms, as well as the wood cutting core and planter range extended (now useless)
+//Note: Done to encourage more unique crop farming
+
+<randomthings:pitcherplant>.addTooltip(format.darkRed("Disabled!"));
+
+//Note: 
+
+recipes.remove(<nuclearcraft:water_source>);
+<nuclearcraft:water_source>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<nuclearcraft:water_source_compact>);
+<nuclearcraft:water_source_compact>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<nuclearcraft:water_source_dense>);
+<nuclearcraft:water_source_dense>.addTooltip(format.darkRed("Disabled!"));
+
+//Note: Disabled because there are more fun ways to make water
+
+recipes.remove(<nuclearcraft:cobblestone_generator>);
+<nuclearcraft:cobblestone_generator>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<nuclearcraft:cobblestone_generator_compact>);
+<nuclearcraft:cobblestone_generator_compact>.addTooltip(format.darkRed("Disabled!"));
+
+recipes.remove(<nuclearcraft:cobblestone_generator_dense>);
+<nuclearcraft:cobblestone_generator_dense>.addTooltip(format.darkRed("Disabled!"));
+
+//Note: Cobblestone generators are intended to be done in world with block breakers or with quarries, etc
+
+recipes.remove(<nuclearcraft:solar_panel_basic>);
+<nuclearcraft:solar_panel_basic>.addTooltip(format.darkRed("Disabled!"));
+
+//Note: There are more fun ways to generate power
+
+recipes.remove(<nuclearcraft:manufactory_idle>);
+<nuclearcraft:manufactory_idle>.addTooltip(format.darkRed("Disabled!"));
+
+//Note: Use an Immersive Engineering crusher or a smeltery
