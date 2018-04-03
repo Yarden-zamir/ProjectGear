@@ -1,3 +1,9 @@
+import crafttweaker.item.IItemStack;
+
+val itemsToDisable =[
+] as IItemStack[];
+scripts.functions.disableItems(itemsToDisable);
+
 val dyeWhite = <ore:dyeWhite>;
 val dyeOrange = <ore:dyeOrange>;
 val dyeMagenta = <ore:dyeMagenta>;
