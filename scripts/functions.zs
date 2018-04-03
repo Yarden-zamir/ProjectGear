@@ -21,7 +21,6 @@ function disableItems(items as IItemStack[]){
 }
 
 function addToPureDaisyStages(items as IItemStack[], time as int){
-  //var time = 60 as int;
   var lever = true as bool;
   var last = items[0] as IItemStack;
   for item in items {
@@ -29,6 +28,19 @@ function addToPureDaisyStages(items as IItemStack[], time as int){
       last = item;
     }else{
       mods.botania.PureDaisy.addRecipe(last, item, time);
+    }
+    lever = !lever;
+  }
+}
+
+function addAlchemyStages(items as IItemStack[], mana as int){
+  var lever = true as bool;
+  var last = items[0] as IItemStack;
+  for item in items {
+    if (lever){
+      last = item;
+    }else{
+      mods.botania.ManaInfusion.addAlchemy(last, item, mana);
     }
     lever = !lever;
   }
