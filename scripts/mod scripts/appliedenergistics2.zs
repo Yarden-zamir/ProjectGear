@@ -10,7 +10,7 @@ val itemsToDisable =[
   <appliedenergistics2:molecular_assembler>,
   //note: Disabled to encourage more interesting crafting setups
 ] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);
+scripts.functions.disableItems(itemsToDisable); 
 
 
 val goldIngot = <ore:ingotGold>;
@@ -52,3 +52,25 @@ recipes.addShaped(<appliedenergistics2:part:260>,
 	[[null, null, null],
 	 [aluminumIngot, <appliedenergistics2:material:43>, aluminumIngot],
 	 [null, <minecraft:piston>, null]]);
+
+
+//Press recipes
+var ingotSteel = <ore:ingotSteel>;
+var plateTin = <ore:plateTin>;
+var plateLead = <ore:plateLead>;
+recipes.addShaped(<appliedenergistics2:material:13>,
+  [[ingotSteel,plateTin,ingotSteel],
+  [plateLead,<immersiveengineering:mold>,plateLead],
+  [ingotSteel,plateTin,ingotSteel]]);
+recipes.addShaped(<appliedenergistics2:material:14>,
+  [[ingotSteel,plateTin,ingotSteel],
+  [plateLead,<immersiveengineering:mold:2>,plateLead],
+  [ingotSteel,plateTin,ingotSteel]]);
+recipes.addShaped(<appliedenergistics2:material:15>,
+  [[ingotSteel,plateTin,ingotSteel],
+  [plateLead,<immersiveengineering:mold:1>,plateLead],
+  [ingotSteel,plateTin,ingotSteel]]);
+recipes.addShaped(<appliedenergistics2:material:19>,
+  [[ingotSteel,plateTin,ingotSteel],
+  [plateLead,<immersiveengineering:mold:7>,plateLead],
+  [ingotSteel,plateTin,ingotSteel]]);

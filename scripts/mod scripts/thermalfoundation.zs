@@ -1,9 +1,9 @@
-val aluminum = <thermalfoundation:material:132>;
-val lead = <thermalfoundation:material:131>;
-val nickel = <thermalfoundation:material:133>;
-val silver = <thermalfoundation:material:130>;
-
-mods.botania.ManaInfusion.addAlchemy(aluminum, lead, 100);
-mods.botania.ManaInfusion.addAlchemy(lead, nickel, 100);
-mods.botania.ManaInfusion.addAlchemy(nickel, silver, 100);
-mods.botania.ManaInfusion.addAlchemy(silver, aluminum, 100);
+import crafttweaker.item.IItemStack;
+//Use pure daisy to get bog oak:
+val ingotProgressionArray =[
+  <thermalfoundation:material:130>, //silver
+  <thermalfoundation:material:131>, //lead
+  <thermalfoundation:material:132>, //aluminum
+  <thermalfoundation:material:133>, //nickel
+] as IItemStack[];
+scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
