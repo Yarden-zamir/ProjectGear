@@ -1,4 +1,6 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+
 #priority 99
 /*
 * item - the item you want to disable
@@ -43,5 +45,21 @@ function addAlchemyStages(items as IItemStack[], mana as int){
       mods.botania.ManaInfusion.addAlchemy(last, item, mana);
     }
     lever = !lever;
+  }
+}
+
+function applyOreDict(item as IItemStack, oreD as IOreDictEntry, add as bool){
+  if (add){ //adding to the oredict
+    oreD.add(item);
+  }else{//removing from the oredict
+    oreD.remove(item);
+  }
+}
+
+function applyOreDictArray(items as IItemStack[], oreD as IOreDictEntry, add as bool){
+  if (add){ //adding to the oredict
+    oreD.addItems(items);
+  }else{//removing from the oredict
+    oreD.removeItems(items);
   }
 }
