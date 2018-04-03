@@ -1,9 +1,3 @@
-import crafttweaker.item.IItemStack;
-
-val itemsToDisable =[
-] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);
-
 //Make Wireless Charger use Immersive Engineering recipes
 recipes.removeShaped(<wirelesscharger:wirelesscharger>);
 
