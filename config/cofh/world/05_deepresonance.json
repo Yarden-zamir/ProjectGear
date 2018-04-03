@@ -1,0 +1,78 @@
+{
+  "dependencies": "deepresonance",
+  "populate": {
+    "resonating_ore_overworld": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {"name": "deepresonance:resonating_ore", "metadata": 0, "weight": 100}
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 4
+      },
+      "cluster-count": 2,
+      "chunk-chance": 2,
+      "min-height": 2,
+      "max-height": 30,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "resonating_ore_nether": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {"name": "deepresonance:resonating_ore", "metadata": 1, "weight": 100}
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 8
+      },
+      "cluster-count": 1,
+      "chunk-chance": 5,
+      "min-height": 2,
+      "max-height": 40,
+      "retrogen": "true",
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "NETHER"
+          }
+        ]
+      },
+      "dimension": "all"
+    },
+    "resonating_ore_the_end": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {"name": "deepresonance:resonating_ore", "metadata": 2, "weight": 100}
+        ],
+        "material": "minecraft:end_stone",
+        "cluster-size": 4
+      },
+      "cluster-count": 1,
+      "chunk-chance": 5,
+      "min-height": 2,
+      "max-height": 40,
+      "retrogen": "true",
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "END"
+          }
+        ]
+      },
+      "dimension": "all"
+    }
+  }
+}

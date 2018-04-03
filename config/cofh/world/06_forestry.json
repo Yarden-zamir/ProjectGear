@@ -1,0 +1,27 @@
+{
+  "dependencies": "forestry",
+  "populate": {
+    "apatite_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {"name": "forestry:resources", "metadata": 0, "weight": 100}
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 64
+      },
+      "cluster-count": 0.2,
+      "min-height": 56,
+      "max-height": 96,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    }
+  }
+}
