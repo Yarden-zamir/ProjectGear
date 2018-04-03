@@ -1,2 +1,2 @@
 # ProjectGear
-Project gear development
+The main repository for the ProjectGear modpack 
