@@ -1,34 +1,14 @@
 {
 	"dependencies": "thermalfoundation",
 	"populate": {
-		"aluminum": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {"name": "thermalfoundation:ore", "metadata": 4, "weight": 100},
-				"material": "minecraft:stone",
-				"cluster-size": 8
-			},
-			"cluster-count": 4,
-			"min-height": 48,
-			"max-height": 72,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
 		"copper": {
 			"distribution": "uniform",
 			"generator": {
 				"block": "thermalfoundation:ore",
 				"material": "minecraft:stone",
-				"cluster-size": 64
+				"cluster-size": 8
 			},
-			"cluster-count": 0.75,
+			"cluster-count": 8,
 			"min-height": 40,
 			"max-height": 75,
 			"retrogen": "true",
@@ -49,9 +29,9 @@
 					"metadata": 1
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 64
+				"cluster-size": 8
 			},
-			"cluster-count": 0.7,
+			"cluster-count": 7,
 			"min-height": 20,
 			"max-height": 55,
 			"retrogen": "true",
