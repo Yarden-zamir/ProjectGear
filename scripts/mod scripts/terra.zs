@@ -12,14 +12,22 @@ recipes.addShapeless(<quark:limestone> * 2, [<terra:limestone_stone>, <terra:lim
 	//Convert slate into Rustic slate and back
 recipes.addShapeless(<terra:slate_stone> * 2, [<rustic:slate>, <rustic:slate>]);
 recipes.addShapeless(<rustic:slate> * 2, [<terra:marble_stone>, <terra:marble_stone>]);
+
 	//Black diorite
 recipes.addShapeless(<terra:blackdiorite_stone> * 2, [<minecraft:stone:3>, <quark:basalt>]);
-	//Pumice
-recipes.addShapeless(<terra:pumice_stone> * 2, [<minecraft:stone:0>, <tconstruct:brownstone:0>]);
+recipes.addShapedMirrored(<terra:blackdiorite_stone> * 4,
+	[[<minecraft:stone:3>, <quark:basalt>],
+	 [<quark:basalt>, <minecraft:stone:3>]]);
 
+	//Pumice
+recipes.addShapedMirrored(<terra:pumice_stone> * 4,
+	[[<minecraft:stone:0>, <tconstruct:brownstone:0>],
+	 [<tconstruct:brownstone:0>, <minecraft:stone:0>]]);
 	 
 	//Green schist
-recipes.addShapeless(<terra:greenschist_stone> * 4, [<minecraft:stone:3>, <ore:gemApatite>]);
+recipes.addShapedMirrored(<terra:greenschist_stone> * 4,
+	[[<minecraft:stone:3>, <ore:gemApatite>],
+	 [<ore:gemApatite>, <minecraft:stone:3>]]);
 
 	//Blue schist
 recipes.addShapeless(<terra:blueschist_stone> * 4, [<minecraft:stone:3>, <ore:gemPrismarine>]);
