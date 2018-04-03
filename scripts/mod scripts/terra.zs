@@ -1,20 +1,7 @@
-
-
-	//Convert marble into Quark marble and back
-recipes.addShapeless(<terra:marble_stone> * 2, [<quark:marble>, <quark:marble>]);
-recipes.addShapeless(<quark:marble>* 2, [<terra:marble_stone>, <terra:marble_stone>]);
-	//Convert basalt into Quark basalt and back
-recipes.addShapeless(<terra:basalt_stone> * 2, [<quark:basalt>, <quark:basalt>]);
-recipes.addShapeless(<quark:basalt> * 2, [<terra:basalt_stone>, <terra:basalt_stone>]);
-	//Convert limestone into Quark limestone and back
-recipes.addShapeless(<terra:limestone_stone>, [<quark:limestone>, <quark:limestone>]);
-recipes.addShapeless(<quark:limestone> * 2, [<terra:limestone_stone>, <terra:limestone_stone>]);
-	//Convert slate into Rustic slate and back
-recipes.addShapeless(<terra:slate_stone> * 2, [<rustic:slate>, <rustic:slate>]);
-recipes.addShapeless(<rustic:slate> * 2, [<terra:marble_stone>, <terra:marble_stone>]);
+//Note: You can get limestone, basalt and marble by converting their Quark equivalents using the Forge Lexicon
+//or a storage drawer with a conversion upgrade. You can get slate in the same way using Rustic's slate.
 
 	//Black diorite
-recipes.addShapeless(<terra:blackdiorite_stone> * 2, [<minecraft:stone:3>, <quark:basalt>]);
 recipes.addShapedMirrored(<terra:blackdiorite_stone> * 4,
 	[[<minecraft:stone:3>, <quark:basalt>],
 	 [<quark:basalt>, <minecraft:stone:3>]]);
@@ -26,11 +13,13 @@ recipes.addShapedMirrored(<terra:pumice_stone> * 4,
 	 
 	//Green schist
 recipes.addShapedMirrored(<terra:greenschist_stone> * 4,
-	[[<minecraft:stone:3>, <ore:gemApatite>],
-	 [<ore:gemApatite>, <minecraft:stone:3>]]);
+	[[<ore:gemPrismarine>, <minecraft:stone:3>],
+	 [<minecraft:stone:3>, <ore:gemPrismarine>]]);
 
 	//Blue schist
-recipes.addShapeless(<terra:blueschist_stone> * 4, [<minecraft:stone:3>, <ore:gemPrismarine>]);
+recipes.addShapedMirrored(<terra:blueschist_stone> * 4,
+	[[<minecraft:stone:3>, <ore:gemApatite>],
+	 [<ore:gemApatite>, <minecraft:stone:3>]]);
 
 	//Scoria
 recipes.addShapedMirrored(<terra:scoria_stone> * 4,
@@ -38,7 +27,7 @@ recipes.addShapedMirrored(<terra:scoria_stone> * 4,
 	 [<minecraft:stone:0>, <minecraft:netherbrick>]]);
 
 	//Soapstone
-recipes.addShapedMirrored(<terra:scoria_stone> * 4,
+recipes.addShapedMirrored(<terra:soapstone_stone> * 4,
 	[[<minecraft:stone:5>, <minecraft:stone:0>],
 	 [<minecraft:stone:0>, <minecraft:stone:5>]]);
 
@@ -51,7 +40,12 @@ recipes.addShapedMirrored(<terra:kimberlite_stone> * 4,
 recipes.addShapedMirrored(<terra:gneiss_stone> * 4,
 	[[<ore:stoneLimestone>, <terra:scoria_stone>],
 	 [<terra:scoria_stone>, <ore:stoneLimestone>]]);
-
+	 
+	//Migmatite
+recipes.addShapedMirrored(<terra:migmatite_stone> * 4,
+	[[<ore:stoneMarble>, <ore:stoneSlate>],
+	 [<ore:stoneSlate>, <ore:stoneMarble>]]);
+	 
 	//Gabbro
 recipes.addShapedMirrored(<terra:gabbro_stone> * 4,
 	[[<ore:stoneLimestone>, <ore:stoneBasalt>],
@@ -68,9 +62,6 @@ recipes.addShaped(<terra:rhyolite_stone> * 32,
 	[[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
 	 [<minecraft:stone>, <botania:quartztypeblaze:0>, <minecraft:stone>],
 	 [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
-	 
-	//Migmatite
-recipes.addShapeless(<terra:migmatite_stone> * 2, [<ore:stoneSlate>, <ore:stoneMarble>]);
 
 	//Krunaltite
 recipes.addShaped(<terra:krundaltite> * 32,
