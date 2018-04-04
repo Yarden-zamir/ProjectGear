@@ -50,8 +50,4 @@ recipes.addShapeless(<minecraft:chest>, [<ore:chestWood>]);
 recipes.addShapeless(<minecraft:paper> * 2, [<minecraft:book>]);
 recipes.addShapeless(<minecraft:paper> * 3, [<minecraft:reeds> * 3]);
 
-  //XP bottle recipe
-recipes.addShaped(<minecraft:experience_bottle>,
- [[<oreberries:essence_oreberry>, <oreberries:essence_oreberry>, <oreberries:essence_oreberry>],
-  [<oreberries:essence_oreberry>, <minecraft:glass_bottle>, <oreberries:essence_oreberry>],
-  [<oreberries:essence_oreberry>, <oreberries:essence_oreberry>, <oreberries:essence_oreberry>]]);
+  
