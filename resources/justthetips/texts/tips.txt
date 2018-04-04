@@ -4,7 +4,7 @@ Buildcraft uses its own energy system
 Charge Tinkers' lasers with Immersive Engineering's charging station
 Quarries are fairly slow unless powered by oil or fuel
 You can place balloons in mid air
-Search "Disabled" in JEI to see a list of all disabled items
+To see disabled items, turn on item-hiding mode in JEI and then search "disabled"
 Buildcraft's advanced crafters are very fast if you have enough lasers
 Rare flowers are found on top of rich ore deposits
 Rich ore deposits are rare, but contains huge amounts of one or two types of ore
