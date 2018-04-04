@@ -90,18 +90,5 @@
     "sizeChance": 14,
 	"replaceBlocks": ["minecraft:netherrack"],
 	"dimensions": [-1]
-  },
-  "Essence": {
-    "bushName": "Essence Berry Bush",
-    "berryName": "Concentrated Essence Berry",
-    "tooltip": "Tastes like Creeper",
-    "oredictNames": [],
-    "smeltingResult": null,
-    "special": "essence",
-    "growsInLight": true,
-    "tradeable": false,
-    "preferredHeight": 48,
-    "maxHeight": 32,
-    "sizeChance": 8
   }
 }
