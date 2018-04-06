@@ -5,9 +5,6 @@ val itemsToDisable =[
   <rftools:crafter2>,
   <rftools:crafter3>,
   //note: Disabled to encourage more interesting crafting setups
-  <rftools:matter_transmitter>,
-  //note: This is only done to prevent the teleportation of items too easily. You can still teleport to matter receivers using charger porters.
-  //note: The intended long distance method for intra-dimensional transportation is to use ender bridges
   <rftools:coalgenerator>,
   //Note: Too easy, too effective, too boring
   <rftools:shape_card:2>,
