@@ -1,6 +1,5 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
-import crafttweaker.recipes.ICraftingRecipe
 #priority 99
 /*
 * item - the item you want to disable
@@ -65,12 +64,3 @@ function addAlchemyStages(items as IItemStack[], mana as int){
     lever = !lever;
   }
 }
-
-function replaceInRecipe(recipe as IItemStack, from as IItemStack, to as IItemStack){
-  val inputRecipes = recipes.getRecipesFor(recipe) as IRecipe;
-  for inRec in inputRecipes{
-    print(inRec.resourceDomain());
-  }
-}
-
-replaceInRecipe(<minecraft:piston>, <minecraft:iron_ingot>, <thermalfoundation:material:133>);
