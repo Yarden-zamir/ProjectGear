@@ -45,7 +45,7 @@ function applyOreDict(item as IItemStack, oreD as IOreDictEntry, add as bool){
 
 function applyOreDictArray(items as IItemStack[], oreD as IOreDictEntry, add as bool){
   if (add){ //adding to the oredict
-    oreD.addItems(items)
+    oreD.addItems(items);
   }else{//removing from the oredict
     oreD.removeItems(items);
   }
