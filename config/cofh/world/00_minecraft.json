@@ -30,86 +30,8 @@
 				"cluster-size": 33
 			},
 			"cluster-count": 8,
-			"min-height": 0,
+			"min-height": 32,
 			"max-height": 256,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-
-		"diorite": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "stone",
-					"properties": {
-						"variant": "diorite"
-					}
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 33
-			},
-			"cluster-count": 10,
-			"min-height": 0,
-			"max-height": 80,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-
-		"granite": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "stone",
-					"properties": {
-						"variant": "granite"
-					}
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 33
-			},
-			"cluster-count": 10,
-			"min-height": 0,
-			"max-height": 80,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-
-		"andesite": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "stone",
-					"properties": {
-						"variant": "andesite"
-					}
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 33
-			},
-			"cluster-count": 10,
-			"min-height": 0,
-			"max-height": 80,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
