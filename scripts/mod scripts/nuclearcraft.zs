@@ -14,3 +14,6 @@ val itemsToDisable =[
   //note: Disabled in favor of other ore processing setups
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
+
+//## disabled through config:
+//Disabled the abilitiy for nuclearcraft's machines to process ores; see https://git.io/vxQWi for more info
