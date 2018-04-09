@@ -8,7 +8,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 10,
+			"cluster-count": 8,
 			"min-height": 0,
 			"max-height": 256,
 			"retrogen": false,
@@ -29,7 +29,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 8,
+			"cluster-count": 7,
 			"min-height": 32,
 			"max-height": 256,
 			"retrogen": false,
@@ -50,7 +50,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 17
 			},
-			"cluster-count": 20,
+			"cluster-count": 16,
 			"min-height": 0,
 			"max-height": 128,
 			"retrogen": false,
@@ -71,7 +71,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 20,
+			"cluster-count": 16,
 			"min-height": 0,
 			"max-height": 64,
 			"retrogen": false,
@@ -113,7 +113,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 8,
+			"cluster-count": 7,
 			"min-height": 0,
 			"max-height": 16,
 			"retrogen": false,
