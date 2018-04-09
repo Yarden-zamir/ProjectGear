@@ -28,7 +28,7 @@ scripts.functions.disableItems(itemsToDisable);
 val craftingToDisable =[
   <thermalfoundation:material:99>,
   <thermalfoundation:material:97>,
-  //note: Disable crafting of electrum/bronze blend with metal dust:
+  //note: Disable crafting of electrum/bronze blend with metal dust
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
