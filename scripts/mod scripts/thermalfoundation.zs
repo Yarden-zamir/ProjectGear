@@ -8,7 +8,20 @@ val itemsToDisable =[
   <thermalfoundation:tool.hammer_bronze>,
   <thermalfoundation:tool.hammer_electrum>,
   //note: Disable TF hammers
-  
+  <thermalfoundation:tool.bow_copper>,
+  <thermalfoundation:tool.bow_tin>,
+  <thermalfoundation:tool.bow_aluminum>,
+  <thermalfoundation:tool.bow_steel>,
+  <thermalfoundation:tool.bow_bronze>,
+  <thermalfoundation:tool.bow_electrum>,
+  //note: Disable TF bow
+  <thermalfoundation:tool.sickle_copper>,
+  <thermalfoundation:tool.sickle_tin>,
+  <thermalfoundation:tool.sickle_aluminum>,
+  <thermalfoundation:tool.sickle_steel>,
+  <thermalfoundation:tool.sickle_bronze>,
+  <thermalfoundation:tool.sickle_electrum>,
+  //note: Disable TF sickle
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
