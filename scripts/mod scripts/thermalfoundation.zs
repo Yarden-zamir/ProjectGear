@@ -4,7 +4,7 @@ val craftingToDisable =[
   <thermalfoundation:material:97>,
   //note: Disable crafting of electrum/bronze blend with metal dust:
 ] as IItemStack[];
-scripts.functions.disableCraftings(itemsToDisable);
+scripts.functions.disableCraftings(craftingToDisable);
 
 //get asthetic ingots through alchemy
 val ingotProgressionArray =[
