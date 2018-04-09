@@ -1,4 +1,17 @@
 import crafttweaker.item.IItemStack;
+
+val itemsToDisable =[
+  <thermalfoundation:tool.hammer_copper>,
+  <thermalfoundation:tool.hammer_tin>,
+  <thermalfoundation:tool.hammer_aluminum>,
+  <thermalfoundation:tool.hammer_steel>,
+  <thermalfoundation:tool.hammer_bronze>,
+  <thermalfoundation:tool.hammer_electrum>,
+  //note: Disable TF hammers
+  
+] as IItemStack[];
+scripts.functions.disableItems(itemsToDisable);
+
 val craftingToDisable =[
   <thermalfoundation:material:99>,
   <thermalfoundation:material:97>,
