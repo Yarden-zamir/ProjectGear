@@ -21,6 +21,18 @@ function disableItems(items as IItemStack[]){
   }
 }
 
+function disableCrafting(item as IItemStack){
+  //any operation on a disabled crafting happends here
+  recipes.removeShapeless(item);
+  recipes.removeShaped(item);
+}
+
+
+function disableCraftings(items as IItemStack[]){
+  for item in items {
+    disableCrafting(item);
+  }
+}
 function addToPureDaisyStages(items as IItemStack[], time as int){
   //var time = 60 as int;
   var lever = true as bool;
