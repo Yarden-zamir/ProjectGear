@@ -10,5 +10,5 @@ scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
 
 
 //Disable crafting of electrum/bronze blend with metal dust:
-recipes.removeShapeles(<thermalfoundation:material:99>);
-recipes.removeShapeles(<thermalfoundation:material:97>);
+recipes.removeShapeless(<thermalfoundation:material:99>);
+recipes.removeShapeless(<thermalfoundation:material:97>);
