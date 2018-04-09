@@ -1,5 +1,12 @@
 import crafttweaker.item.IItemStack;
-//Use pure daisy to get bog oak:
+val craftingToDisable =[
+  <thermalfoundation:material:99>,
+  <thermalfoundation:material:97>,
+  //note: Disable crafting of electrum/bronze blend with metal dust:
+] as IItemStack[];
+scripts.functions.disableCraftings(itemsToDisable);
+
+//get asthetic ingots through alchemy
 val ingotProgressionArray =[
   <thermalfoundation:material:130>, //silver
   <thermalfoundation:material:131>, //lead
@@ -7,8 +14,3 @@ val ingotProgressionArray =[
   <thermalfoundation:material:133>, //nickel
 ] as IItemStack[];
 scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
-
-
-//Disable crafting of electrum/bronze blend with metal dust:
-recipes.removeShapeless(<thermalfoundation:material:99>);
-recipes.removeShapeless(<thermalfoundation:material:97>);
