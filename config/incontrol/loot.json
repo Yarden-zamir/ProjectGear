@@ -42,5 +42,15 @@
 	{
 		"mob": "natura:nitrocreeper",
 		"remove": "thermalfoundation:material@771"
+	},
+	{
+		"mob": "natura:nitrocreeper",
+		"item": "terraqueous:item_main@251",
+		"random": 0.5
+	},
+	{
+		"mob": "natura:nitrocreeper",
+		"item": "terraqueous:item_main@251",
+		"random": 0.5
 	}
 ]
