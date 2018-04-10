@@ -76,3 +76,14 @@ function addAlchemyStages(items as IItemStack[], mana as int){
     lever = !lever;
   }
 }
+
+function rename(item as IItemStack, newName as string){
+  item.displayName = newName;
+  //game.setLocalization(item.name, newName);
+}
+
+function renameBatch(items as string[IItemStack]){
+  for item, newName in items{
+    rename(item, newName);
+  }
+}
