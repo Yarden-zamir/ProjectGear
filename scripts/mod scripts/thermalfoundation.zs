@@ -1,5 +1,5 @@
 import crafttweaker.item.IItemStack;
-
+import crafttweaker.liquid.ILiquidStack;
 val itemsToDisable =[
   <thermalfoundation:tool.hammer_copper>,
   <thermalfoundation:tool.hammer_tin>,
@@ -40,3 +40,7 @@ val ingotProgressionArray =[
   <thermalfoundation:material:133>, //nickel
 ] as IItemStack[];
 scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
+
+
+//Renames
+scripts.functions.rename(<thermalfoundation:material:832>,"Solidified Brine");
