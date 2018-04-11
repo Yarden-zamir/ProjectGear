@@ -10,5 +10,47 @@
 	{
 		"mob": "minecraft:wither_skeleton",
 		"remove": "darkutils:material@0"
+	},
+	{
+		"mob": "minecraft:wither_skeleton",
+		"remove": "tconstruct:materials@17"
+	},
+	{
+		"mob": "minecraft:wither_skeleton",
+		"remove": "nex:item_bone_wither"
+	},
+	{
+		"mob": "minecraft:wither_skeleton",
+		"remove": "thermalfoundation:material@771"
+	},
+	{
+		"mob": "minecraft:zombie_pigman",
+		"remove": "thermalfoundation:material@771"
+	},
+	{
+		"mob": "minecraft:magma_cube",
+		"remove": "thermalfoundation:material@771"
+	},
+	{
+		"mob": "minecraft:blaze",
+		"remove": "thermalfoundation:material@771"
+	},
+	{
+		"mob": "natura:imp",
+		"remove": "thermalfoundation:material@771"
+	},
+	{
+		"mob": "natura:nitrocreeper",
+		"remove": "thermalfoundation:material@771"
+	},
+	{
+		"mob": "natura:nitrocreeper",
+		"item": "terraqueous:item_main@251",
+		"random": 0.5
+	},
+	{
+		"mob": "natura:nitrocreeper",
+		"item": "terraqueous:item_main@251",
+		"random": 0.5
 	}
 ]
