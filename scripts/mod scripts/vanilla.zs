@@ -50,4 +50,7 @@ recipes.addShapeless(<minecraft:chest>, [<ore:chestWood>]);
 recipes.addShapeless(<minecraft:paper> * 2, [<minecraft:book>]);
 recipes.addShapeless(<minecraft:paper> * 3, [<minecraft:reeds> * 3]);
 
+  //Shulker shell
+ recipes.addShapeless(<minecraft:shulker_shell>, [<ceramics:unfired_clay:9>, <minecraft:dye:5>]);
+
   
