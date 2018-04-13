@@ -17,7 +17,17 @@ scripts.functions.disableItems(itemsToDisable);
 
 #oredics
 <ore:plateLead>.add(<nuclearcraft:part>);
-<ore:gearIron>.add(<factorytech:machinepart:3>);
+
+
+#recipes
+recipes.addShaped(<nuclearcraft:bin> * 1,
+	[[<ore:plateLead>, <botania:manaresource>, <ore:plateLead>],
+	 [<botania:manaresource>, null, <botania:manaresource>],
+	 [<ore:plateLead>, <botania:manaresource>, <ore:plateLead>]]);
+recipes.addShaped(<nuclearcraft:bin> * 1,
+	[[<ore:plateLead>, <tconstruct:ingots:1>, <ore:plateLead>],
+	 [<tconstruct:ingots:1>, null, <tconstruct:ingots:1>],
+	 [<ore:plateLead>, <tconstruct:ingots:1>, <ore:plateLead>]]);
 
 //## disabled through config:
 //Disabled the abilitiy for nuclearcraft's machines to process ores; see https://git.io/vxQWi for more info
