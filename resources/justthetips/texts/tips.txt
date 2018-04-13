@@ -1,5 +1,5 @@
 You can automate the manual squeezer from Integrated Dynamics by dropping armor stands on it
-Pebbles are a good source of ores
+Pebbles are a good source of metal
 Buildcraft uses its own energy system
 Charge Tinkers' lasers with Immersive Engineering's charging station
 Quarries are fairly slow unless powered by oil or fuel
