@@ -18,7 +18,9 @@ scripts.functions.disableItems(itemsToDisable);
 //## disabled through config:
 //Disabled the abilitiy for nuclearcraft's machines to process ores; see https://git.io/vxQWi for more info
 
-//Renames
+#Renames
 scripts.functions.rename(<nuclearcraft:part:6>,"Plastic sheet");
+scripts.functions.rename(<nuclearcraft:ore:5>,"Borax Ore");
+scripts.functions.rename(<nuclearcraft:ore:3>,"Thorite Ore");
 
-//Ore dict
+#Ore dict

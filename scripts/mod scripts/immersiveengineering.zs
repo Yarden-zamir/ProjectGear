@@ -80,3 +80,6 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:7>, c
 mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:7>, copperDust, null, 100, 512, [goldDust]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:7>, copperDust, null, 100, 512, [goldIngot]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:7>, copperIngot, null, 100, 512, [goldDust]);
+
+#renames:
+scripts.functions.rename(<immersiveengineering:ore:5>,"Uraninite Ore");
