@@ -15,6 +15,10 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
+#oredics
+<ore:plateLead>.add(<nuclearcraft:part>);
+<ore:gearIron>.add(<factorytech:machinepart:3>);
+
 //## disabled through config:
 //Disabled the abilitiy for nuclearcraft's machines to process ores; see https://git.io/vxQWi for more info
 
