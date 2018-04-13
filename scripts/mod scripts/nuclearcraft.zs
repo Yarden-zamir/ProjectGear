@@ -28,6 +28,10 @@ recipes.addShaped(<nuclearcraft:bin> * 1,
 	[[<ore:plateLead>, <tconstruct:ingots:1>, <ore:plateLead>],
 	 [<tconstruct:ingots:1>, null, <tconstruct:ingots:1>],
 	 [<ore:plateLead>, <tconstruct:ingots:1>, <ore:plateLead>]]);
+recipes.addShaped(<nuclearcraft:bin> * 1,
+	[[<ore:plateLead>, <ore:ingotPlatinum>, <ore:plateLead>],
+	 [<ore:ingotPlatinum>, null, <ore:ingotPlatinum>],
+	 [<ore:plateLead>, <ore:ingotPlatinum>, <ore:plateLead>]]);
 
 //## disabled through config:
 //Disabled the abilitiy for nuclearcraft's machines to process ores; see https://git.io/vxQWi for more info
