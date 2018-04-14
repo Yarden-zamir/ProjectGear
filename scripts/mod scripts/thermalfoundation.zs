@@ -31,7 +31,6 @@ val craftingToDisable =[
   //note: Disable crafting of electrum/bronze blend with metal dust
   <thermalfoundation:material:24>,
   <thermalfoundation:material:25>,
-  <thermalfoundation:material:96>,
   <thermalfoundation:material:156>,
   <thermalfoundation:material:256>,
   <thermalfoundation:material:258>,
@@ -48,7 +47,30 @@ val craftingToDisable =[
   <thermalfoundation:material:291>,
   <thermalfoundation:material:290>,
   <thermalfoundation:material:289>,
-  <thermalfoundation:material:288>
+  <thermalfoundation:material:288>,
+  //Makes gears uncraftable. Machines are required instead.
+  <thermalfoundation:material:32>,
+  <thermalfoundation:material:33>,
+  <thermalfoundation:material:327>,
+  <thermalfoundation:material:328>,
+  <thermalfoundation:material:352>,
+  <thermalfoundation:material:353>,
+  <thermalfoundation:material:354>,
+  <thermalfoundation:material:355>,
+  <thermalfoundation:material:356>,
+  <thermalfoundation:material:357>,
+  <thermalfoundation:material:358>,
+  <thermalfoundation:material:359>,
+  <thermalfoundation:material:320>,
+  <thermalfoundation:material:321>,
+  <thermalfoundation:material:322>,
+  <thermalfoundation:material:323>,
+  <thermalfoundation:material:324>,
+  <thermalfoundation:material:325>,
+  <thermalfoundation:material:326>
+  //Makes plates uncraftable. Machines are required instead.
+
+  
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
