@@ -70,7 +70,7 @@ val craftingToDisable =[
   <thermalfoundation:material:326>
   //Makes plates uncraftable. Machines are required instead.
 
-  
+
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
@@ -86,3 +86,4 @@ scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
 
 //Renames
 scripts.functions.rename(<thermalfoundation:material:832>,"Solidified Brine");
+scripts.functions.rename(<thermalfoundation:material:833>,"Flinted Ash");
