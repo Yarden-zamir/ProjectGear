@@ -19,6 +19,10 @@ recipes.addShaped(<stevescarts:modulecomponents:46>,
 	 [<stevescarts:modulecomponents:45>, <minecaft:glowstone_dust>, <stevescarts:modulecomponents:45>],
 	 [<stevescarts:modulecomponents:21>, <stevescarts:modulecomponents:45>, <stevescarts:modulecomponents:21>]]);
 
-
+	//Alternative raw hardener recipe using cobalt instead of diamond
+recipes.addShaped(<stevescarts:modulecomponents:18>,
+	[[<minecraft:obsidian>, null, <minecaft:obsidian>],
+	 [null, <ore:ingotCobalt>, null],
+	 [<minecraft:obsidian>, null, <minecaft:obsidian>]]);
 	 
 
