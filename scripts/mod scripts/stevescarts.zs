@@ -12,3 +12,13 @@ val itemsToDisable =[
   //note: Disabled to encourage more complex farms
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
+
+	//Alternative lump of galgador recipe using ardite instead of diamond
+recipes.addShaped(<stevescarts:modulecomponents:46>,
+	[[<minecraft:glowstone_dust>, <ore:blockArdite>, <minecaft:glowstone_dust>],
+	 [<stevescarts:modulecomponents:45>, <minecaft:glowstone_dust>, <stevescarts:modulecomponents:45>],
+	 [<stevescarts:modulecomponents:21>, <stevescarts:modulecomponents:45>, <stevescarts:modulecomponents:21>]]);
+
+
+	 
+
