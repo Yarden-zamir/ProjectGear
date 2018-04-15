@@ -14,15 +14,15 @@ val itemsToDisable =[
 scripts.functions.disableItems(itemsToDisable);
 
 	//Alternative lump of galgador recipe using ardite instead of diamond
-recipes.addShaped(<stevescarts:modulecomponents:46>,
-	[[<minecraft:glowstone_dust>, <ore:blockArdite>, <minecaft:glowstone_dust>],
-	 [<stevescarts:modulecomponents:45>, <minecaft:glowstone_dust>, <stevescarts:modulecomponents:45>],
+recipes.addShaped(<stevescarts:modulecomponents:46> * 2,
+	[[<minecraft:glowstone_dust>, <ore:blockArdite>, <minecraft:glowstone_dust>],
+	 [<stevescarts:modulecomponents:45>, <minecraft:glowstone_dust>, <stevescarts:modulecomponents:45>],
 	 [<stevescarts:modulecomponents:21>, <stevescarts:modulecomponents:45>, <stevescarts:modulecomponents:21>]]);
 
 	//Alternative raw hardener recipe using cobalt instead of diamond
 recipes.addShaped(<stevescarts:modulecomponents:18>,
-	[[<minecraft:obsidian>, null, <minecaft:obsidian>],
+	[[<minecraft:obsidian>, null, <minecraft:obsidian>],
 	 [null, <ore:ingotCobalt>, null],
-	 [<minecraft:obsidian>, null, <minecaft:obsidian>]]);
+	 [<minecraft:obsidian>, null, <minecraft:obsidian>]]);
 	 
 
