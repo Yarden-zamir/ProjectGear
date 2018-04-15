@@ -37,7 +37,7 @@ recipes.addShaped(<nuclearcraft:bin> * 1,
 //Disabled the abilitiy for nuclearcraft's machines to process ores; see https://git.io/vxQWi for more info
 
 #Renames
-scripts.functions.rename(<nuclearcraft:part:6>,"Plastic sheet");
+scripts.functions.rename(<nuclearcraft:part:6>,"Plastic Sheet");
 scripts.functions.rename(<nuclearcraft:ore:5>,"Borax Ore");
 scripts.functions.rename(<nuclearcraft:ore:3>,"Thorite Ore");
 
