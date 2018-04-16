@@ -4,7 +4,7 @@ This pack is very carefully balanced so that those inefficient factories are the
 
 **Interesting automation:**
 
-We looked at every machine you'd want to make, from quarries to , and chose the options we thought were the most fun to automate. Magic, one block solutions were removed in favor of Pneumaticraft pressure chambers and orchids.
+We looked at every machine you'd want to make, from quarries to , and chose the options we thought were the most fun to automate. Magic, one block solutions were removed in favor of Pneumaticraft pressure chambers and orechids.
 
 For example, there are no easy / simple autocrafting solutions. Charset's crafter is large and slow, but free to operate. Factory Tech's crafter has parts that wear out and need to be replaced, but is faster. Buildcraft's crafter requires lasers to run, but it's by far the fastest. That's the one you probably want to attach to your ME system. etc... All of the "simple" crafters are disabled.
 
