@@ -66,8 +66,8 @@ recipes.addShaped(<minecraft:sponge:1>,
 	 [<ore:dustWood>, <ore:slimeball>, <ore:dustWood>]]);
 	//Hemp + slime
 recipes.addShaped(<minecraft:sponge:1>,
-	[[<ore:dustWood>, <ore:slimeball>, <ore:dustWood>],
-	 [<ore:slimeball>, <ore:dustWood>, <ore:slimeball>],
-	 [<ore:dustWood>, <ore:slimeball>, <ore:dustWood>]]);
+	[[<immersiveengineering:material:4>, <ore:slimeball>, <immersiveengineering:material:4>],
+	 [<ore:slimeball>, <immersiveengineering:material:4>, <ore:slimeball>],
+	 [<immersiveengineering:material:4>, <ore:slimeball>, <immersiveengineering:material:4>]]);
 
   
