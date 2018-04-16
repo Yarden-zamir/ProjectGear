@@ -33,3 +33,4 @@ config/buildcraft/detailed.properties
 config/AppliedEnergistics2/Facades.cfg
 config/AppliedEnergistics2/AppliedEnergistics2.cfg
 config/AppliedEnergistics2/aerecipes/items.csv
+config/randomtweaks/timeofdayoverlayworlds.json

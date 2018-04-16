@@ -64,7 +64,7 @@
     {
       "weight": 0.35883715748786926,
       "min": 1,
-      "max": 64,
+      "max": 10,
       "item": {
         "id": "terraqueous:item_main",
         "damage": 103,
@@ -74,7 +74,7 @@
     {
       "weight": 0.35883715748786926,
       "min": 1,
-      "max": 64,
+      "max": 10,
       "item": {
         "id": "terraqueous:item_main",
         "damage": 102,
@@ -84,7 +84,7 @@
     {
       "weight": 0.35883715748786926,
       "min": 1,
-      "max": 64,
+      "max": 10,
       "item": {
         "id": "terraqueous:item_main",
         "damage": 101,
