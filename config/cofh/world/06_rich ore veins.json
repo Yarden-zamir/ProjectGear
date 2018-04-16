@@ -1,0 +1,121 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"iron_tin": {
+			"distribution": "fractal",
+			"generator": {
+				"type": "sparse-cluster",
+					"block": [
+				{
+					"name": "minecraft:iron_ore",
+					"metadata": 0,
+					"weight": 65
+				},
+				{
+                "name": "thermalfoundation:ore",
+                "metadata": 1,
+                "weight": 35
+				}
+		],
+				"sparse": false,
+				"cluster-size": 10,
+				"material": [
+					"minecraft:air"
+				]
+			},
+			"chunk-chance": 185,
+			"cluster-count": 350,
+			"vein-height": 60,
+			"vein-diameter": 50,
+			"vertical-density": 10,
+			"horizontal-density": 15,
+			"min-height": 10,
+			"retrogen": true,
+			"biome": [],
+				"dimensions": [
+					0,
+					6
+			]
+		},
+		
+		"iron_nickel": {
+			"distribution": "fractal",
+			"generator": {
+				"type": "sparse-cluster",
+					"block": [
+				{
+					"name": "minecraft:iron_ore",
+					"metadata": 0,
+					"weight": 80
+				},
+				{
+                "name": "thermalfoundation:ore",
+                "metadata": 5,
+                "weight": 20
+				}
+		],
+				"sparse": false,
+				"cluster-size": 10,
+				"material": [
+					"minecraft:air"
+				]
+			},
+			"chunk-chance": 400,
+			"cluster-count": 350,
+			"vein-height": 60,
+			"vein-diameter": 50,
+			"vertical-density": 10,
+			"horizontal-density": 15,
+			"min-height": 10,
+			"retrogen": true,
+			"biome": [],
+				"dimensions": [
+					0,
+					6
+			]
+		},
+		
+		"copper_gold": {
+			"distribution": "fractal",
+			"generator": {
+				"type": "sparse-cluster",
+					"block": [
+				{
+					"name": "minecraft:gold_ore",
+					"metadata": 0,
+					"weight": 35
+				},
+				{
+                "name": "thermalfoundation:ore",
+                "metadata": 0,
+                "weight": 65
+				}
+		],
+				"sparse": false,
+				"cluster-size": 10,
+				"material": [
+					"minecraft:air"
+				]
+			},
+			"chunk-chance": 450,
+			"cluster-count": 350,
+			"vein-height": 60,
+			"vein-diameter": 50,
+			"vertical-density": 10,
+			"horizontal-density": 15,
+			"min-height": 10,
+			"retrogen": true,
+			"biome": [],
+				"dimensions": [
+					0,
+					6
+			]
+		}
+		
+
+	}
+	
+	
+	
+	
+}
