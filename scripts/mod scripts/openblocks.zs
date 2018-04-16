@@ -12,6 +12,6 @@ recipes.removeShapeless(<openblocks:sponge>);
 //Elevator - there are alot of other ways to 'elevate' yourself
 
 //Craft open blocks sponges with vanilla sponges and pipe sealant:
-recipes.addShaped(<openblocks:sponge>,
+recipes.addShapedMirrored(<openblocks:sponge>,
 	[[<minecraft:sponge>, <buildcrafttransport:waterproof>],
 	 [<buildcrafttransport:waterproof>, <minecraft:sponge>]]);
