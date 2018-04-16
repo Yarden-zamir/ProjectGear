@@ -57,5 +57,17 @@ recipes.addShapeless(<minecraft:paper> * 3, [<minecraft:reeds> * 3]);
 recipes.addShaped(<minecraft:end_rod>,
 	[[<minecraft:blaze_rod>],
 	 [<ore:ingotManyullyn>]]);
+	 
+  //Craft sponge:
+	//Sawdust + slime
+recipes.addShaped(<minecraft:sponge:1>,
+	[[<ore:dustWood>, <ore:slimeball>, <ore:dustWood>],
+	 [<ore:slimeball>, <ore:dustWood>, <ore:slimeball>],
+	 [<ore:dustWood>, <ore:slimeball>, <ore:dustWood>]]);
+	//Hemp + slime
+recipes.addShaped(<minecraft:sponge:1>,
+	[[<ore:dustWood>, <ore:slimeball>, <ore:dustWood>],
+	 [<ore:slimeball>, <ore:dustWood>, <ore:slimeball>],
+	 [<ore:dustWood>, <ore:slimeball>, <ore:dustWood>]]);
 
   
