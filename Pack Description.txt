@@ -1,6 +1,3 @@
-# ProjectGear
-https://discord.gg/hAPKbx6
-
 Project Gear is a pack designed around large, complex, and interesting factories. Expect to build Immersive Engineering multiblock crushers, Botania tree farms and Buildcraft laser-powered crafting tables.
 
 This pack is very carefully balanced so that those inefficient factories are the best option available. This is not an expert mode pack, though. It's a sandbox, kitchen-sink pack where no mods are required, and there are always multiple ways to solve a problem.
