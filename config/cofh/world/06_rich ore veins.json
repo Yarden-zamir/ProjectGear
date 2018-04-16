@@ -1,13 +1,13 @@
 {
 	"dependencies": "thermalfoundation",
 	"populate": {
-		"iron_tin": {
+		"copper_tin": {
 			"distribution": "fractal",
 			"generator": {
 				"type": "sparse-cluster",
 					"block": [
 				{
-					"name": "minecraft:iron_ore",
+					"name": "thermalfoundation:ore",
 					"metadata": 0,
 					"weight": 65
 				},
