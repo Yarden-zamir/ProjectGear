@@ -8,13 +8,13 @@ recipes.removeShapeless(<redstonearsenal:material:0>);
 
 recipes.addShapeless(<redstonearsenal:material:160> * 9, [<redstonearsenal:storage:1>]);
 
-/*
-	//Flux crystal
-//mods.factorytech.Agitator.addRecipe(<liquid:redstone> * 1000, null, <minecraft:diamond>, null, <redstonearsenal:material:160>);
-	//Fluxed electrum blend
-//mods.factorytech.Agitator.addRecipe(<liquid:redstone> * 500, null, <ore:dustElectrum>, null, <redstonearsenal:material:0>);
 
-*/
+	//Flux crystal
+mods.factorytech.Agitator.addRecipe(<liquid:redstone> * 1000, null, <minecraft:diamond>, null, <redstonearsenal:material:160>);
+	//Fluxed electrum blend
+mods.factorytech.Agitator.addRecipe(<liquid:redstone> * 500, null, <ore:dustElectrum>, null, <redstonearsenal:material:0>);
+
+
 
 #Apparently this doesn't work due to a bug with the mod's CraftTweaker integration. Will enable once fixed.
 
