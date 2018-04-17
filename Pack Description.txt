@@ -10,7 +10,7 @@ For example, there are no easy / simple autocrafting solutions. Charset's crafte
 
 **Long processing chains:**
 
-Many resources can be made in small quantities with fairly normal means, but if you want large amounts or a product or more biproducts there's usually a more complex way to get it. There are a lot of interchangeable processes that you can mix and match to fit your needs, they require multiple machines and resources from different mods, but might be more efficient, faster or have more by-products. These are of course completely optional, but once you reach end game you may want to automate several of them.
+Many resources can be made in small quantities with fairly normal means, but if you want large amounts of that item or more biproducts there's usually a more complex way to get it. There are a lot of interchangeable processes that you can mix and match to fit your needs, they require multiple machines and resources from different mods, but might be more efficient, faster or have more by-products. These are of course completely optional, but once you reach end game you may want to automate several of them.
 
 **Polished:**
 
