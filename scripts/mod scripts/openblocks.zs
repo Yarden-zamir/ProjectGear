@@ -13,5 +13,5 @@ recipes.removeShapeless(<openblocks:sponge>);
 
 //Craft open blocks sponges with vanilla sponges and pipe sealant:
 recipes.addShapedMirrored(<openblocks:sponge>,
-	[[<minecraft:sponge>, <buildcrafttransport:waterproof>],
-	 [<buildcrafttransport:waterproof>, <minecraft:sponge>]]);
+	[[<minecraft:sponge>, <thermalfoundation:rockwool:*>],
+	 [<thermalfoundation:rockwool:*>, <minecraft:sponge>]]);
