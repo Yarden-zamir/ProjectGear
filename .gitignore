@@ -34,3 +34,7 @@ config/AppliedEnergistics2/Facades.cfg
 config/AppliedEnergistics2/AppliedEnergistics2.cfg
 config/AppliedEnergistics2/aerecipes/items.csv
 config/randomtweaks/timeofdayoverlayworlds.json
+config/buildcraft/detailed.properties
+config/jei/worldSettings.cfg
+config/randomtweaks/timeofdayoverlayworlds.json
+resources/pack.mcmeta
