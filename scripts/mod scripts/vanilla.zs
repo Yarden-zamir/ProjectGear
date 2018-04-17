@@ -4,6 +4,7 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.item.IItemStack;
+#priority 99
 
 val itemsToDisable =[
 ] as IItemStack[];
@@ -52,12 +53,12 @@ recipes.addShapeless(<minecraft:paper> * 3, [<minecraft:reeds> * 3]);
 
   //Shulker shell
  recipes.addShapeless(<minecraft:shulker_shell>, [<ceramics:unfired_clay:9>, <minecraft:dye:5>]);
- 
+
   //Craft end rod with manyullyn
 recipes.addShaped(<minecraft:end_rod>,
 	[[<minecraft:blaze_rod>],
 	 [<ore:ingotManyullyn>]]);
-	 
+
   //Craft sponge:
 	//Sawdust + slime
 recipes.addShaped(<minecraft:sponge:1>,
@@ -70,4 +71,6 @@ recipes.addShaped(<minecraft:sponge:1>,
 	 [<ore:slimeball>, <immersiveengineering:material:4>, <ore:slimeball>],
 	 [<immersiveengineering:material:4>, <ore:slimeball>, <immersiveengineering:material:4>]]);
 
-  
+#recipe removal
+//roten flesh -> leather
+recipes.removeShaped(<minecraft:leather>);
