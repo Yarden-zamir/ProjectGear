@@ -1,5 +1,6 @@
 # ProjectGear
-https://discord.gg/hAPKbx6
+https://discord.gg/hAPKbx6                    <-- Discord link
+https://trello.com/b/1zn2NHdV/machine-sheet   <-- Trello crafttweaker board
 
 Project Gear is a pack designed around large, complex, and interesting factories. Expect to build Immersive Engineering multiblock crushers, Botania tree farms and Buildcraft laser-powered crafting tables.
 
