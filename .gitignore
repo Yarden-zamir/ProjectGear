@@ -38,3 +38,4 @@ config/buildcraft/detailed.properties
 config/jei/worldSettings.cfg
 config/randomtweaks/timeofdayoverlayworlds.json
 resources/pack.mcmeta
+config/worldedit/worldedit.properties
