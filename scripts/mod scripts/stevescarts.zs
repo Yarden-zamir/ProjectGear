@@ -25,4 +25,10 @@ recipes.addShaped(<stevescarts:modulecomponents:18>,
 	 [null, <ore:ingotCobalt>, null],
 	 [<minecraft:obsidian>, null, <minecraft:obsidian>]]);
 	 
+	//Alternative divine shield recipe using cobalt instead of dimaond
+recipes.addShaped(<stevescarts:cartmodule:32>,
+	[[<minecraft:obsidian>, <stevescarts:modulecomponents:19>, <minecraft:obsidian>],
+	 [<stevescarts:modulecomponents:19>, <ore:blockCobalt>, <stevescarts:modulecomponents:19>],
+	 [<minecraft:obsidian>, <stevescarts:modulecomponents:19>, <minecraft:obsidian>]]);
+	 
 
