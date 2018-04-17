@@ -12,3 +12,6 @@ brine.register();
 //
 var treatedPlate = VanillaFactory.createItem("plate_treated");
 treatedPlate.register();
+
+var oiledLeather = VanillaFactory.createItem("leather_oiled");
+treatedPlate.register();
