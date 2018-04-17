@@ -74,3 +74,4 @@ recipes.addShaped(<minecraft:sponge:1>,
 #recipe removal
 //roten flesh -> leather
 recipes.removeShaped(<minecraft:leather>);
+mods.integrateddynamics.DryingBasin.removeRecipesWithOutput(<minecraft:leather>);
