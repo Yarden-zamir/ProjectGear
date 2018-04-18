@@ -87,3 +87,17 @@ function renameBatch(items as string[IItemStack]){
     rename(item, newName);
   }
 }
+
+function addDesc(item as IItemStack, desk as string){
+  item.addShiftTooltip(format.darkAqua(desk));
+}
+
+function addDescBatch(items as string[IItemStack]){
+  for item, desk in items{
+    addTooltip(item, desk);
+  }
+}
+
+function addDescWithRefs(item as IItemStack, desk as string, refs as IItemStack[]){
+  
+}
