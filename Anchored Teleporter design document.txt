@@ -1,0 +1,60 @@
+Achored teleporter:
+
+•Design goal:
+
+Using mods like Railcraft, Random Things and Immersive Railroading, you can move items between bases in an interesting way. Unfortunately, moving items between dimensions is a problem that I can't find a good solution to. To fill that role, I'd like a block that can teleport items between dimensions without making rails irrelevant.
+
+To do this, I propose a portal block that can teleport items between dimensions. To use it, you need two portal blocks, one being in one dimension and one being in another. However, there's a catch: Both blocks must be in roughly the same coordinates in their respective dimensions.
+
+If you have a base at 0,0 in the overworld and another at 0,1000 in the nether, you can't simply teleport them like you would with an ender chest. Instead you need to move the items in the overworld to a portal at 0,000 before they can be teleported.
+
+•Teleportation block basic mechanics:
+
+How to use this block:
+
+1. Craft two portal blocks. Place one in the world, and hold the other in your hand. Right click one portal block on the other. They are now linked. This works the same as RFTools wireless redstone blocks.
+
+2. Place both teleporters at roughly the same coordinates in two different dimensions.
+
+3. Drop an item directly on top of one of the teleporters
+
+4. Make sure it's supplied with popped chorus fruit and RF (details below)
+
+5. Supply the machine with a redstone signal.
+
+Other details:
+
+1. If the machine has insufficient RF or chorus fruit, it will fail. When this happens it creates some smoke particles and do nothing.
+
+2. If the destination portal can't be found, it also fails.
+
+3. When it fails the machine doesn't destroy the items. It simply stays there.
+
+4. The machine has an internal buffer for 20,000 RF and 64 popped chorus fruit, but not the item it's trying to send. That just floats.
+
+5. When a portal receives an item, it appears directly below the portal block and falls.
+
+6. The portal can send a single item stack at a time.
+
+7. Items directly above the portal cannot despawn.
+
+8. If the machine is ready to teleport the item above it, a comparator will give a redstone signal strength output of 15.
+
+9. The teleporter cannot teleport to another teleporter within the same dimension. It only works between two different dimnsions.
+
+•Cost calculation:
+
+Sending an item requires a base cost of 10,000 RF. If the other block isn't exactly at the destination coordinates, this cost increases depending on how far away
+it is.
+
+This distance penalty is calculated like this:
+
+  ( Horizontal distance * 500 ) + (verticle distance + 125)
+
+Vertical distance is a raw number that ignores Z/X levels, so if the destination is 5 blocks north, 5 blocks east and 10 blocks up, this number would be 10.
+
+Horizontal distance is calculated using the "as the crow flies" distance, which would be about 3. That means that in this case, 
+
+Adding a chorus fruit decreases this penalty by 1,000.
+
+If the final number is has an RF cost that's greater than 1,000 the process fails. Chorus fruits are taken into account when calculating this, so by adding chorus fruit you can increase the maximum range of the teleproter.
