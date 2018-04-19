@@ -75,6 +75,11 @@ recipes.addShaped(<rustic:painted_wood_purple>,
 	 [treatedWood, <ore:dyePurple>, treatedWood],
 	 [treatedWood, treatedWood, treatedWood]]);
 	 
+recipes.addShaped(<rustic:painted_wood_blue>,
+	[[treatedWood, treatedWood, treatedWood],
+	 [treatedWood, <ore:dyeBlue>, treatedWood],
+	 [treatedWood, treatedWood, treatedWood]]);
+	 
 recipes.addShaped(<rustic:painted_wood_brown>,
 	[[treatedWood, treatedWood, treatedWood],
 	 [treatedWood, <ore:dyeBrown>, treatedWood],
@@ -150,6 +155,11 @@ recipes.addShaped(<rustic:painted_wood_cyan>,
 recipes.addShaped(<rustic:painted_wood_purple>,
 	[[livingWood, livingWood, livingWood],
 	 [livingWood, <ore:dyePurple>, livingWood],
+	 [livingWood, livingWood, livingWood]]);
+	 
+recipes.addShaped(<rustic:painted_wood_blue>,
+	[[livingWood, livingWood, livingWood],
+	 [livingWood, <ore:dyeBlue>, livingWood],
 	 [livingWood, livingWood, livingWood]]);
 	 
 recipes.addShaped(<rustic:painted_wood_brown>,
