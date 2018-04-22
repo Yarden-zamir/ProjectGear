@@ -4,7 +4,7 @@ import scripts.functions.addDescBatch;
 //this is for adding single entries
 addDesc(<examplemod:exampleItem>, "This is an example description");
 
-//and this is for adding a lot at once, use this in most cases, there is no real reason to use the former.
+//and this is for adding a lot at once, use this in most cases, there is no real reason to use the former
 val batch = {
   <examplemod:exampleItem1> : "Example description",
   <examplemod:exampleItem2> : "Example description",
