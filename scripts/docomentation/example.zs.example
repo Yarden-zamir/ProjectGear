@@ -14,3 +14,5 @@ val batch = {
   <examplemod:exampleItem6> : "Example description"
 } as string[IItemStack];
 addDescBatch(batch);
+
+print("Documentation for examplemod loaded successfully");
