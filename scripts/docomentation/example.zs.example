@@ -1,0 +1,16 @@
+import scripts.functions.addDesc;
+import scripts.functions.addDescBatch;
+
+//this is for adding single entries
+addDesc(<examplemod:exampleItem>, "This is an example description");
+
+//and this is for adding a lot at once, use this in most cases, there is no real reason to use the former.
+val batch = {
+  <examplemod:exampleItem1> : "Example description",
+  <examplemod:exampleItem2> : "Example description",
+  <examplemod:exampleItem3> : "Example description",
+  <examplemod:exampleItem4> : "Example description",
+  <examplemod:exampleItem5> : "Example description",
+  <examplemod:exampleItem6> : "Example description"
+} as string[IItemStack];
+addDescBatch(batch);
