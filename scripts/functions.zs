@@ -94,10 +94,6 @@ function addDesc(item as IItemStack, desk as string){
 
 function addDescBatch(items as string[IItemStack]){
   for item, desk in items{
-    addTooltip(item, desk);
+    addDesc(item, desk);
   }
-}
-
-function addDescWithRefs(item as IItemStack, desk as string, refs as IItemStack[]){
-  
 }
