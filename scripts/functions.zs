@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import scripts.settings as S;
 #priority 99
 /*
 * item - the item you want to disable
@@ -89,7 +90,15 @@ function renameBatch(items as string[IItemStack]){
 }
 
 function addDesc(item as IItemStack, desk as string){
-  item.addShiftTooltip(format.darkAqua(desk));
+  if (S.showJEIinfoPageForItems==true){
+    mods.jei.JEI.addDescription(item,desk);
+  }
+  if (S.showAlwaysOnTooltipForItems==true){
+    item.addTooltip(format.darkAqua(desk));
+  }
+  if (S.showShiftTooltipForItems){
+    item.addShiftTooltip(format.darkAqua(desk));
+  }
 }
 
 function addDescBatch(items as string[IItemStack]){
