@@ -17,5 +17,5 @@ recipes.addShapeless(<redstonearsenal:material:160> * 9, [<redstonearsenal:stora
 
 #Apparently this doesn't work due to a bug with the mod's CraftTweaker integration. Will enable once fixed.
 
-mods.tconstruct.Casting.addTableRecipe(<redstonearsenal:material:0>, <minecraft:diamond>, <liquid:redstone>, 500, true);
+mods.tconstruct.Casting.addTableRecipe(<redstonearsenal:material:0>, <ore:dustElectrum>, <liquid:redstone>, 500, true);
 mods.tconstruct.Casting.addTableRecipe(<redstonearsenal:material:160>, <minecraft:diamond>, <liquid:redstone>, 1000, true);
