@@ -124,121 +124,17 @@
     {
       "weight": 0.12706157565116882,
       "min": 1,
-      "max": 1,
+      "max": 32,
       "item": {
-        "id": "potionfingers:ring",
-        "damage": 1,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {
-            "effect": {
-              "nbtType": "string",
-              "nbt": "minecraft:regeneration"
-            }
-          }
-        }
+        "id": "minecraft:mossy_cobblestone",
+        "damage": 0,
+        "count": 1
       }
     },
     {
       "weight": 0.12706157565116882,
       "min": 1,
       "max": 1,
-      "item": {
-        "id": "potionfingers:ring",
-        "damage": 1,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {
-            "effect": {
-              "nbtType": "string",
-              "nbt": "minecraft:strength"
-            }
-          }
-        }
-      }
-    },
-    {
-      "weight": 0.12706157565116882,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "potionfingers:ring",
-        "damage": 1,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {
-            "effect": {
-              "nbtType": "string",
-              "nbt": "minecraft:resistance"
-            }
-          }
-        }
-      }
-    },
-    {
-      "weight": 0.12706157565116882,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "potionfingers:ring",
-        "damage": 1,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {
-            "effect": {
-              "nbtType": "string",
-              "nbt": "minecraft:jump_boost"
-            }
-          }
-        }
-      }
-    },
-    {
-      "weight": 0.12706157565116882,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "potionfingers:ring",
-        "damage": 1,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {
-            "effect": {
-              "nbtType": "string",
-              "nbt": "minecraft:haste"
-            }
-          }
-        }
-      }
-    },
-    {
-      "weight": 0.12706157565116882,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "potionfingers:ring",
-        "damage": 1,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {
-            "effect": {
-              "nbtType": "string",
-              "nbt": "minecraft:speed"
-            }
-          }
-        }
-      }
-    },
-    {
-      "weight": 1.6340234279632568,
-      "min": 1,
-      "max": 4,
       "item": {
         "id": "waystones:return_scroll",
         "damage": 0,
@@ -246,9 +142,9 @@
       }
     },
     {
-      "weight": 2.7249209880828857,
+      "weight": 0.12706157565116882,
       "min": 1,
-      "max": 16,
+      "max": 8,
       "item": {
         "id": "forestry:crated.minecraft.sand.1",
         "damage": 0,
@@ -256,9 +152,9 @@
       }
     },
     {
-      "weight": 2.7249209880828857,
+      "weight": 0.12706157565116882,
       "min": 1,
-      "max": 16,
+      "max": 8,
       "item": {
         "id": "forestry:crated.minecraft.sand.0",
         "damage": 0,
@@ -302,6 +198,16 @@
             }
           }
         }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "forestry:crated.forestry.bee_combs.7",
+        "damage": 0,
+        "count": 1
       }
     }
   ],

@@ -235,16 +235,6 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 12,
-      "item": {
-        "id": "immersiveengineering:metal",
-        "damage": 3,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
       "max": 16,
       "item": {
         "id": "minecraft:golden_carrot",
@@ -265,9 +255,29 @@
     {
       "weight": 1.0,
       "min": 1,
+      "max": 24,
+      "item": {
+        "id": "thaumcraft:amber",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
       "max": 1,
       "item": {
-        "id": "yoyos:gold_yoyo",
+        "id": "thermalfoundation:material",
+        "damage": 25,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "buildcraftcore:gear_diamond",
         "damage": 0,
         "count": 1
       }

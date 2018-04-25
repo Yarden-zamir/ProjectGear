@@ -191,6 +191,36 @@
         "damage": 0,
         "count": 1
       }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "forestry:forester_bag",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "immersiveengineering:treated_wood",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "botania:livingwood",
+        "damage": 0,
+        "count": 1
+      }
     }
   ],
   "dependencyExpression": ""

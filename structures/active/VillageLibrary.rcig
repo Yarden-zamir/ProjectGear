@@ -130,7 +130,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "yoyos:book",
+        "id": "integrateddynamics:on_the_dynamics_of_integration",
         "damage": 0,
         "count": 1
       }
@@ -148,7 +148,7 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 64,
+      "max": 1,
       "item": {
         "id": "buildcraftlib:guide",
         "damage": 0,
@@ -158,7 +158,7 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 64,
+      "max": 1,
       "item": {
         "id": "bibliocraft:biblioredbook",
         "damage": 0,
@@ -199,13 +199,9 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "rockhounding_rocks:rock_finder",
+        "id": "thermalfoundation:tome_lexicon",
         "damage": 0,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {}
-        }
+        "count": 1
       }
     },
     {
@@ -240,6 +236,76 @@
             }
           }
         }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "charset:tablet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "opencomputers:tool",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rftools:rftools_manual",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rftools:rftools_shape_manual",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rftoolscontrol:rftoolscontrol_manual",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "xnet:xnet_manual",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "openblocks:info_book",
+        "damage": 0,
+        "count": 1
       }
     }
   ],

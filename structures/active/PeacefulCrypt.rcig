@@ -117,29 +117,39 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 12,
+      "max": 15,
       "item": {
-        "id": "forestry:ingot_tin",
-        "damage": 0,
+        "id": "thermalfoundation:material",
+        "damage": 129,
         "count": 1
       }
     },
     {
       "weight": 1.0,
       "min": 1,
-      "max": 12,
+      "max": 15,
       "item": {
-        "id": "immersiveengineering:metal",
-        "damage": 1,
+        "id": "thermalfoundation:material",
+        "damage": 128,
         "count": 1
       }
     },
     {
       "weight": 1.0,
       "min": 1,
-      "max": 12,
+      "max": 15,
       "item": {
-        "id": "immersiveengineering:metal",
+        "id": "thermalfoundation:material",
+        "damage": 133,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.0475566387176514,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "tconstruct:materials",
         "damage": 0,
         "count": 1
       }

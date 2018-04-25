@@ -160,16 +160,6 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 16,
-      "item": {
-        "id": "immersiveengineering:metal",
-        "damage": 3,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
       "max": 8,
       "item": {
         "id": "minecraft:emerald",
