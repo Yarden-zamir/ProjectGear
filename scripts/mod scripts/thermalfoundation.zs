@@ -26,9 +26,6 @@ val itemsToDisable =[
 scripts.functions.disableItems(itemsToDisable);
 
 val craftingToDisable =[
-  <thermalfoundation:material:99>,
-  <thermalfoundation:material:97>,
-  //note: Disable crafting of electrum/bronze blend with metal dust
   <thermalfoundation:material:24>,
   <thermalfoundation:material:25>,
   <thermalfoundation:material:156>,
@@ -67,8 +64,13 @@ val craftingToDisable =[
   <thermalfoundation:material:323>,
   <thermalfoundation:material:324>,
   <thermalfoundation:material:325>,
-  <thermalfoundation:material:326>
+  <thermalfoundation:material:326>,
   //Makes plates uncraftable. Machines are required instead.
+  <thermalfoundation:material:97>,
+  <thermalfoundation:material:98>,
+  <thermalfoundation:material:99>,
+  <thermalfoundation:material:100>
+  //Makes electrum, bronze, constantan and invar dust uncraftable
 
 
 ] as IItemStack[];
