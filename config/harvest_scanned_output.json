@@ -1,0 +1,38 @@
+[
+  {
+    "initialBlock": {
+      "blockName": "minecraft:wheat",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "minecraft:carrots",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "minecraft:potatoes",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "minecraft:beetroots",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "extratrees:hops",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "rockhounding_surface:ricegrass_crop",
+      "meta": 7
+    }
+  }
+]
