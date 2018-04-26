@@ -298,7 +298,7 @@
                             "featureType": "ore",
                             "blockToSpawn": { "blockId": "nex:ore_amethyst", "meta": 0 },
                             "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
-                            "size": 3,
+                            "size": 0,
                             "rarity": 16,
                             "minHeight": 10,
                             "maxHeight": 118
@@ -946,7 +946,7 @@
                             "featureType": "ore",
                             "blockToSpawn": { "blockId": "nex:ore_rime", "meta": 0 },
                             "targetBlock": { "blockId": "nex:block_netherrack", "meta": 1 },
-                            "size": 7,
+                            "size": 0,
                             "rarity": 16,
                             "minHeight": 10,
                             "maxHeight": 118
