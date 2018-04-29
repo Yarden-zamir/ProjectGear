@@ -76,7 +76,7 @@ val craftingToDisable =[
 
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
-
+furnace.remove(<thermalfoundation:material:864>);
 //get asthetic ingots through alchemy
 val ingotProgressionArray =[
   <thermalfoundation:material:130>, //silver
