@@ -22,6 +22,7 @@ val itemsToDisable =[
   <thermalfoundation:tool.sickle_bronze>,
   <thermalfoundation:tool.sickle_electrum>,
   //note: Disable TF sickle
+  <thermalfoundation:material:864>,
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
