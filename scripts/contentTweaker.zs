@@ -10,8 +10,8 @@ var brine = VanillaFactory.createFluid("brine", Color.fromHex("F29223"));
 brine.register();
 
 //
-var treatedPlate = VanillaFactory.createItem("plate_treated");
+var treatedPlate = VanillaFactory.createItem("treated_plate");
 treatedPlate.register();
 
-var oiledLeather = VanillaFactory.createItem("leather_oiled");
+var oiledLeather = VanillaFactory.createItem("oiled_leather");
 treatedPlate.register();
