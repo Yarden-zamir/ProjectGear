@@ -7,6 +7,8 @@ val itemsToDisable =[
 
 scripts.functions.disableItems(itemsToDisable);
 //
+scripts.functions.applyOreDict(<immersiveengineering:material:18>,<ore:dustGraphite>,true);
+//
 
 val ironIngot = <ore:ingotIron>;
 val goldIngot = <ore:ingotGold>;
