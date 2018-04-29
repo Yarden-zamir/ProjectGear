@@ -4,7 +4,7 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.item.IItemStack;
-#priority 99
+#priority 80
 
 val itemsToDisable =[
 ] as IItemStack[];

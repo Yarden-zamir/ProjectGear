@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import scripts.settings as S;
-#priority 99
+#priority 90
 /*
 * item - the item you want to disable
 */
