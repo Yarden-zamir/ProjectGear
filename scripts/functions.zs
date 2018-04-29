@@ -96,7 +96,7 @@ function addDesc(item as IItemStack, desk as string){
   if (S.showAlwaysOnTooltipForItems==true){
     item.addTooltip(format.darkAqua(desk));
   }
-  if (S.showShiftTooltipForItems){
+  if (S.showShiftTooltipForItems==true){
     item.addShiftTooltip(format.darkAqua(desk));
   }
 }
