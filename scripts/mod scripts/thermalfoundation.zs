@@ -86,6 +86,8 @@ val ingotProgressionArray =[
 ] as IItemStack[];
 scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
 
+//mess with phyto-gro recipes
+recipes.remove(<thermalfoundation:fertilizer:1>);
 
 //Renames
 scripts.functions.rename(<thermalfoundation:material:832>,"Solidified Brine");
