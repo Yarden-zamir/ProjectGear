@@ -1,4 +1,4 @@
 #priority 99
-static showJEIinfoPageForItems = true;
-static showShiftTooltipForItems = false;
-static showAlwaysOnTooltipForItems = false;
+static showJEIinfoPageForItems as bool = true;
+static showShiftTooltipForItems as bool = false;
+static showAlwaysOnTooltipForItems as bool = false;
