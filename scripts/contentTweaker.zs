@@ -14,5 +14,8 @@ treatedPlate.register();
 var oiledLeather = VanillaFactory.createItem("oiled_leather");
 treatedPlate.register();
 
-var irradiatedFlesh = VanillaFactory.createItem("Irradiated_Flesh");
+var irradiatedFlesh = VanillaFactory.createItem("irradiated_flesh");
+treatedPlate.register();
+
+var crudeSteelIngot = VanillaFactory.createItem("ingot_crude_steel");
 treatedPlate.register();
