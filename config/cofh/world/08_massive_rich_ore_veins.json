@@ -1,7 +1,7 @@
 {
 	"dependencies": "thermalfoundation",
 	"populate": {
-		"copper_tin": {
+		"massive_copper_tin": {
 			"distribution": "fractal",
 			"generator": {
 				"type": "sparse-cluster",
@@ -24,11 +24,11 @@
 				]
 			},
 			"chunk-chance": 280,
-			"cluster-count": 450,
+			"cluster-count": 500,
 			"vein-height": 60,
-			"vein-diameter": 50,
+			"vein-diameter": 100,
 			"vertical-density": 10,
-			"horizontal-density": 12,
+			"horizontal-density": 5,
 			"min-height": 10,
 			"retrogen": true,
 			"biome": [],
@@ -38,7 +38,7 @@
 			]
 		},
 		
-		"iron_nickel": {
+		"massive_iron_nickel": {
 			"distribution": "fractal",
 			"generator": {
 				"type": "sparse-cluster",
@@ -61,11 +61,11 @@
 				]
 			},
 			"chunk-chance": 525,
-			"cluster-count": 450,
+			"cluster-count": 500,
 			"vein-height": 60,
-			"vein-diameter": 50,
+			"vein-diameter": 100,
 			"vertical-density": 10,
-			"horizontal-density": 12,
+			"horizontal-density": 5,
 			"min-height": 10,
 			"retrogen": true,
 			"biome": [],
@@ -75,7 +75,7 @@
 			]
 		},
 		
-		"copper_gold": {
+		"massive_copper_gold": {
 			"distribution": "fractal",
 			"generator": {
 				"type": "sparse-cluster",
@@ -98,11 +98,11 @@
 				]
 			},
 			"chunk-chance": 675,
-			"cluster-count": 450,
+			"cluster-count": 500,
 			"vein-height": 60,
-			"vein-diameter": 50,
+			"vein-diameter": 100,
 			"vertical-density": 10,
-			"horizontal-density": 12,
+			"horizontal-density": 5,
 			"min-height": 10,
 			"retrogen": true,
 			"biome": [],

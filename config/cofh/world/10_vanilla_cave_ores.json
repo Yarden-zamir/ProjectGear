@@ -1,0 +1,304 @@
+{
+	"populate": {
+
+		"coal_top": {
+			"distribution": "cave",
+			"generator": {
+				"block": "coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 17
+			},
+			"cluster-count": 10,
+			"ceiling": false,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"coal_bottom": {
+			"distribution": "cave",
+			"generator": {
+				"block": "coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 17
+			},
+			"cluster-count": 10,
+			"ceiling": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"iron_top": {
+			"distribution": "cave",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 10,
+			"ceiling": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"iron_bottom": {
+			"distribution": "cave",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 10,
+			"ceiling": false,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"gold_top": {
+			"distribution": "cave",
+			"generator": {
+				"block": "gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 1,
+			"ceiling": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"gold_bottom": {
+			"distribution": "cave",
+			"generator": {
+				"block": "gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 1,
+			"ceiling": false,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"redstone_top": {
+			"distribution": "cave",
+			"generator": {
+				"block": "redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 3,
+			"ceiling": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"redstone_bottom": {
+			"distribution": "cave",
+			"generator": {
+				"block": "redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 3,
+			"ceiling": false,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"diamond_bottom": {
+			"distribution": "cave",
+			"generator": {
+				"block": "diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"ceiling": false,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"lapis_bottom": {
+			"distribution": "cave",
+			"generator": {
+				"block": "lapis_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 1,
+			"ceiling": false,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"mesa_gold": {
+			"enabled": true,
+			"distribution": "cave",
+			"generator": {
+				"block": {
+					"name": "gold_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 10,
+			"ceiling": true,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"mesa",
+							"mesa_rock",
+							"mesa_clear_rock",
+							"mutated_mesa",
+							"mutated_mesa_rock",
+							"mutated_mesa_clear_rock"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"emerald_bottom": {
+			"distribution": "cave",
+			"generator": {
+				"block": {
+					"name": "emerald_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"ceiling": false,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"extreme_hills",
+							"smaller_extreme_hills",
+							"extreme_hills_with_trees",
+							"mutated_extreme_hills",
+							"mutated_extreme_hills_with_trees"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quartz_ore",
+				"material": "minecraft:netherrack",
+				"cluster-size": 14
+			},
+			"cluster-count": 16,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

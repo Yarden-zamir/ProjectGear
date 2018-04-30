@@ -1,0 +1,24 @@
+{
+		"wool": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "diamond_block",
+				"material": "minecraft:netherrack",
+				"cluster-size": 14
+			},
+			"cluster-count": 16,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+}
