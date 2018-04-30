@@ -12,7 +12,15 @@ var liquidatedIrradiatedBlood = VanillaFactory.createFluid("irradiated_Blood", C
 liquidatedIrradiatedBlood.register();
 
 var liquidCrudeSteel = VanillaFactory.createFluid("crude_steel", Color.fromHex("454141"));
+liquidCrudeSteel.luminosity = 2;
+liquidCrudeSteel.tempreature = 1000; // need to test
+liquidCrudeSteel.viscosity = 250;
 liquidCrudeSteel.register();
+
+var monsterEssence = VanillaFactory.createFluid("monster_essence", Color.fromHex("39A00A"));
+monsterEssence.luminosity = 4;
+monsterEssence.viscosity = 500;
+monsterEssence.register();
 
 //
 
