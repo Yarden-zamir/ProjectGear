@@ -15,7 +15,7 @@ val goldIngot = <ore:ingotGold>;
 val copperIngot = <ore:ingotCopper>;
 val tinIngot = <ore:ingotTin>;
 val leadIngot = <ore:ingotLead>;
-val aluminumIngot = <ore:ingotAluminum>;
+val nickelIngot = <ore:ingotNickel>;
 val nickelIngot = <ore:ingotNickel>;
 val electrumIngot = <ore:ingotElectrum>;
 val steelIngot = <ore:ingotSteel>;
@@ -47,19 +47,19 @@ recipes.addShaped(<immersiveengineering:metal_device0:1>,
 recipes.removeShaped(<immersiveengineering:metal_device0:2>);
 recipes.addShaped(<immersiveengineering:metal_device0:2>,
 [[ironIngot, ironIngot, ironIngot],
- [aluminumIngot, <ore:blockGold>, aluminumIngot],
+ [nickelIngot, <ore:blockGold>, nickelIngot],
  [treatedWood, redstoneBlock, treatedWood]]);
 
 //Conveyor belt
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8,
 [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
- [aluminumIngot, <minecraft:redstone>, aluminumIngot]]);
+ [nickelIngot, <minecraft:redstone>, nickelIngot]]);
 
 //
 recipes.addShaped(<immersiveengineering:metal_decoration0:4> * 2,
-[[aluminumIngot, <immersiveengineering:material:8>, aluminumIngot],
+[[nickelIngot, <immersiveengineering:material:8>, nickelIngot],
  [copperIngot, copperIngot, copperIngot],
- [aluminumIngot, <immersiveengineering:material:8>, aluminumIngot]]);
+ [nickelIngot, <immersiveengineering:material:8>, nickelIngot]]);
 
 
  //Electrum -> Corinthian Bronze

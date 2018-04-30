@@ -4,36 +4,36 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
-val aluminumIngot = <ore:ingotAluminum>;
+val invarIngot = <ore:ingotInvar>;
 val electrumIngot = <ore:ingotElectrum>;
 
 
 recipes.removeShaped(<funkylocomotion:frame_0:0>);
 recipes.addShaped(<funkylocomotion:frame_0:0> * 8,
-	[[aluminumIngot, aluminumIngot, aluminumIngot],
-	 [<ore:nuggetAluminum>, null, <ore:nuggetAluminum>],
-	 [aluminumIngot, aluminumIngot, aluminumIngot]]);
+	[[nickelIngot, nickelIngot, nickelIngot],
+	 [<ore:nuggetInvar>, null, <ore:nuggetInvar>],
+	 [nickelIngot, nickelIngot, nickelIngot]]);
 
 recipes.removeShaped(<funkylocomotion:booster>);
 recipes.addShaped(<funkylocomotion:booster>,
 	[[electrumIngot, electrumIngot, electrumIngot],
-	 [aluminumIngot, <minecraft:piston>, aluminumIngot],
-	 [aluminumIngot, <funkylocomotion:pusher:0>, aluminumIngot]]);
+	 [nickelIngot, <minecraft:piston>, nickelIngot],
+	 [nickelIngot, <funkylocomotion:pusher:0>, nickelIngot]]);
 
 recipes.removeShaped(<funkylocomotion:frame_projector>);
 recipes.addShaped(<funkylocomotion:frame_projector>,
 	[[<minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>],
-	 [aluminumIngot, <minecraft:piston>, aluminumIngot],
-	 [aluminumIngot, <funkylocomotion:pusher:1>, aluminumIngot]]);
+	 [nickelIngot, <minecraft:piston>, nickelIngot],
+	 [nickelIngot, <funkylocomotion:pusher:1>, nickelIngot]]);
 
 recipes.removeShaped(<funkylocomotion:pusher:0>);
 recipes.addShaped(<funkylocomotion:pusher:0>,
 	[[<minecraft:ender_eye>, <minecraft:ender_eye>, <minecraft:ender_eye>],
-	 [aluminumIngot, <minecraft:piston>, aluminumIngot],
-	 [aluminumIngot, <minecraft:diamond>, aluminumIngot]]);
+	 [nickelIngot, <minecraft:piston>, nickelIngot],
+	 [nickelIngot, <minecraft:diamond>, nickelIngot]]);
 
 recipes.removeShaped(<funkylocomotion:wrench:2>);
 recipes.addShaped(<funkylocomotion:wrench:2>,
-	[[<funkylocomotion:wrench:0>, aluminumIngot, <funkylocomotion:wrench:0>],
-	[null, aluminumIngot, null],
-	[null, aluminumIngot, null]]);
+	[[<funkylocomotion:wrench:0>, nickelIngot, <funkylocomotion:wrench:0>],
+	[null, nickelIngot, null],
+	[null, nickelIngot, null]]);

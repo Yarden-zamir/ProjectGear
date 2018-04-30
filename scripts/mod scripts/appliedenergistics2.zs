@@ -14,43 +14,43 @@ scripts.functions.disableItems(itemsToDisable);
 
 
 val goldIngot = <ore:ingotGold>;
-val aluminumIngot = <ore:ingotAluminum>;
+val nickelIngot = <ore:ingotNickel>;
 val redstone = <ore:dustRedstone>;
 val glass = <ore:blockGlass>;
 
 
-//Replace iron with aluminum
+//Replace iron with nickel
 recipes.removeShaped(<appliedenergistics2:material:25>);
 recipes.addShaped(<appliedenergistics2:material:25> * 2,
-	[[goldIngot, aluminumIngot, null],
-	 [redstone, <appliedenergistics2:material:23>, aluminumIngot],
-	 [goldIngot, aluminumIngot, null]]);
+	[[goldIngot, nickelIngot, null],
+	 [redstone, <appliedenergistics2:material:23>, nickelIngot],
+	 [goldIngot, nickelIngot, null]]);
 
 
 recipes.removeShaped(<appliedenergistics2:material:28>);
 recipes.addShaped(<appliedenergistics2:material:28> * 2,
-	[[<minecraft:diamond>, aluminumIngot, null],
-	 [redstone, <appliedenergistics2:material:23>, aluminumIngot],
-	 [<minecraft:diamond>, aluminumIngot, null]]);
+	[[<minecraft:diamond>, nickelIngot, null],
+	 [redstone, <appliedenergistics2:material:23>, nickelIngot],
+	 [<minecraft:diamond>, nickelIngot, null]]);
 
 recipes.removeShaped(<appliedenergistics2:interface>);
 recipes.addShaped(<appliedenergistics2:interface>,
-	[[aluminumIngot, glass, aluminumIngot],
+	[[nickelIngot, glass, nickelIngot],
 	 [<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
-	 [aluminumIngot, glass, aluminumIngot]]);
+	 [nickelIngot, glass, nickelIngot]]);
 
 
 recipes.removeShaped(<appliedenergistics2:part:240>);
 recipes.addShaped(<appliedenergistics2:part:240>,
 	[[null, null, null],
 	 [null, <appliedenergistics2:material:44>, null],
-	 [aluminumIngot, <minecraft:sticky_piston>, aluminumIngot]]);
+	 [nickelIngot, <minecraft:sticky_piston>, nickelIngot]]);
 
 
 recipes.removeShaped(<appliedenergistics2:part:260>);
 recipes.addShaped(<appliedenergistics2:part:260>,
 	[[null, null, null],
-	 [aluminumIngot, <appliedenergistics2:material:43>, aluminumIngot],
+	 [nickelIngot, <appliedenergistics2:material:43>, nickelIngot],
 	 [null, <minecraft:piston>, null]]);
 
 
