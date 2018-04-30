@@ -8,6 +8,11 @@ import mods.contenttweaker.Commands;
 var brine = VanillaFactory.createFluid("brine", Color.fromHex("F29223"));
 brine.register();
 
+var liquidatedIrradiatedBlood = VanillaFactory.createFluid("irradiated_Blood", Color.fromHex("511607"));
+brine.register();
+
+//
+
 var treatedPlate = VanillaFactory.createItem("treated_plate");
 treatedPlate.register();
 
