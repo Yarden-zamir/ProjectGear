@@ -16,7 +16,6 @@ val copperIngot = <ore:ingotCopper>;
 val tinIngot = <ore:ingotTin>;
 val leadIngot = <ore:ingotLead>;
 val nickelIngot = <ore:ingotNickel>;
-val nickelIngot = <ore:ingotNickel>;
 val electrumIngot = <ore:ingotElectrum>;
 val steelIngot = <ore:ingotSteel>;
 
