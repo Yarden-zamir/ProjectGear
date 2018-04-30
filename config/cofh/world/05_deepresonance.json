@@ -1,29 +1,6 @@
 {
   "dependencies": "deepresonance",
   "populate": {
-    "resonating_ore_overworld": {
-      "distribution": "uniform",
-      "generator": {
-        "block": [
-          {"name": "deepresonance:resonating_ore", "metadata": 0, "weight": 100}
-        ],
-        "material": "minecraft:stone",
-        "cluster-size": 4
-      },
-      "cluster-count": 2,
-      "chunk-chance": 2,
-      "min-height": 2,
-      "max-height": 30,
-      "retrogen": "true",
-      "biome": "all",
-      "dimension": {
-        "restriction": "blacklist",
-        "value": [
-          -1,
-          1
-        ]
-      }
-    },
     "resonating_ore_nether": {
       "distribution": "uniform",
       "generator": {
