@@ -10,30 +10,30 @@ val electrumIngot = <ore:ingotElectrum>;
 
 recipes.removeShaped(<funkylocomotion:frame_0:0>);
 recipes.addShaped(<funkylocomotion:frame_0:0> * 8,
-	[[nickelIngot, nickelIngot, nickelIngot],
+	[[invarIngot, invarIngot, invarIngot],
 	 [<ore:nuggetInvar>, null, <ore:nuggetInvar>],
-	 [nickelIngot, nickelIngot, nickelIngot]]);
+	 [invarIngot, invarIngot, invarIngot]]);
 
 recipes.removeShaped(<funkylocomotion:booster>);
 recipes.addShaped(<funkylocomotion:booster>,
 	[[electrumIngot, electrumIngot, electrumIngot],
-	 [nickelIngot, <minecraft:piston>, nickelIngot],
-	 [nickelIngot, <funkylocomotion:pusher:0>, nickelIngot]]);
+	 [invarIngot, <minecraft:piston>, invarIngot],
+	 [invarIngot, <funkylocomotion:pusher:0>, invarIngot]]);
 
 recipes.removeShaped(<funkylocomotion:frame_projector>);
 recipes.addShaped(<funkylocomotion:frame_projector>,
 	[[<minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>],
-	 [nickelIngot, <minecraft:piston>, nickelIngot],
-	 [nickelIngot, <funkylocomotion:pusher:1>, nickelIngot]]);
+	 [invarIngot, <minecraft:piston>, invarIngot],
+	 [invarIngot, <funkylocomotion:pusher:1>, invarIngot]]);
 
 recipes.removeShaped(<funkylocomotion:pusher:0>);
 recipes.addShaped(<funkylocomotion:pusher:0>,
 	[[<minecraft:ender_eye>, <minecraft:ender_eye>, <minecraft:ender_eye>],
-	 [nickelIngot, <minecraft:piston>, nickelIngot],
-	 [nickelIngot, <minecraft:diamond>, nickelIngot]]);
+	 [invarIngot, <minecraft:piston>, invarIngot],
+	 [invarIngot, <minecraft:diamond>, invarIngot]]);
 
 recipes.removeShaped(<funkylocomotion:wrench:2>);
 recipes.addShaped(<funkylocomotion:wrench:2>,
-	[[<funkylocomotion:wrench:0>, nickelIngot, <funkylocomotion:wrench:0>],
-	[null, nickelIngot, null],
-	[null, nickelIngot, null]]);
+	[[<funkylocomotion:wrench:0>, invarIngot, <funkylocomotion:wrench:0>],
+	[null, invarIngot, null],
+	[null, invarIngot, null]]);
