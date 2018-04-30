@@ -87,7 +87,14 @@ val ingotProgressionArray =[
 scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
 
 //mess with phyto-gro recipes
-recipes.remove(<thermalfoundation:fertilizer:1>);
+var fert = <thermalfoundation:fertilizer:1>;
+
+recipes.remove(fert);
+recipes.addShapeless(fert,
+	[<ore:dustWood>,<ore:dustWood>, <ore:itemSlagRich>,<ore:dustSaltpeter>]);
+recipes.addShapeless(fert,
+  [<ore:dustCharcoal>*4, <ore:itemSlagRich>,<ore:dustSaltpeter>]);
+
 
 //Renames
 scripts.functions.rename(<thermalfoundation:material:832>,"Solidified Brine");
