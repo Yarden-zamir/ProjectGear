@@ -1,0 +1,98 @@
+{
+	"populate": {
+
+		"diamond_stalagmite": {
+			"distribution": "cave",
+			"generator": {
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"weight": 90
+						},
+						{
+							"name": "minecraft:diamond_ore",
+							"weight": 5
+						},
+						{
+							"name": "minecraft:emerald_ore",
+							"weight": 5
+						}
+					],
+					"material": [
+						"minecraft:obsidian",
+						"minecraft:stone"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"minecraft:lava"
+						],
+					"smooth": false,
+					"fat": false,
+					"min-height": 10,
+					"height-variance": 6,
+					"height-mod": 3,
+					"gen-size": 2,
+					"size-variance": 1
+				},
+			"cluster-count": 1,
+			"ceiling": false,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+		
+	"diamond_stalactite": {
+			"distribution": "cave",
+			"generator": {
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"weight": 90
+						},
+						{
+							"name": "minecraft:diamond_ore",
+							"weight": 5
+						},
+						{
+							"name": "minecraft:emerald_ore",
+							"weight": 5
+						}
+					],
+					"material": [
+						"minecraft:obsidian",
+						"minecraft:stone"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"minecraft:lava"
+						],
+					"smooth": false,
+					"fat": false,
+					"min-height": 10,
+					"height-variance": 6,
+					"height-mod": 3,
+					"gen-size": 4,
+					"size-variance": 1
+				},
+			"cluster-count": 1,
+			"ceiling": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

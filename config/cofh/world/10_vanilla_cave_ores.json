@@ -161,15 +161,17 @@
 			}
 		},
 
-		"diamond_bottom": {
+		"diamond_top": {
 			"distribution": "cave",
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 1
 			},
 			"cluster-count": 1,
-			"ceiling": false,
+			"min-height": 1,
+			"max-height": 15,
+			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
