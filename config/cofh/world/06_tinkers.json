@@ -1,12 +1,49 @@
 {
-		"wool": {
+	"populate": {
+
+		"cobalt": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "diamond_block",
-				"material": "minecraft:netherrack",
-				"cluster-size": 14
+				"block": {
+					"name": "tconstruct:ore",
+					"metadata": 0 
+				},
+				"material": [
+					"minecraft:netherrack",
+					"nex:block_netherrack"
+							],
+				"cluster-size": 3
 			},
-			"cluster-count": 16,
+			"cluster-count": 32,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"ardite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "tconstruct:ore",
+					"metadata": 1
+				},
+				"material": [
+					"minecraft:netherrack",
+					"nex:block_netherrack"
+							],
+				"cluster-size": 3
+			},
+			"cluster-count": 32,
 			"min-height": 10,
 			"max-height": 118,
 			"retrogen": false,
@@ -21,4 +58,5 @@
 			},
 			"dimension": "all"
 		}
+	}
 }
