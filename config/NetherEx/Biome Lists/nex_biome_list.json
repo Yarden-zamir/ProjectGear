@@ -945,7 +945,7 @@
                         {
                             "featureType": "ore",
                             "blockToSpawn": { "blockId": "nex:ore_rime", "meta": 0 },
-                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 1 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 15 },
                             "size": 0,
                             "rarity": 16,
                             "minHeight": 10,
