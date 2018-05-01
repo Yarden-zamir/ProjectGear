@@ -1,0 +1,32 @@
+{
+	"populate": 
+	{
+		"redstone_orb": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": "thermalfoundation:fluid_redstone",
+				"material": [
+					"minecraft:stone"
+				],
+				"hollow": true,
+				"filler": "thermalfoundation:fluid_redstone",
+				"crust": "appliedenergistics2:sky_stone_block"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 5,
+			"min-height": 5,
+			"max-height": 32,
+			"biome": "all",
+			"in-village": false,
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
