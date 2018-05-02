@@ -26,3 +26,5 @@ If you lose your Universal Manual, you can craft another one with an Akashic Tom
 Items placed on an Immersive Engineering conveyor belt never despawn
 Ores appear in caves and rich ore veins, but almost never anywhere else. Strip mining isn't very effective.
 Bedrocks ores must be mined with a bedrock miner, not by hand
+Shulker boxes are extremely cheap
+Metal ores are somewhat rare. Quarry a rich ore vein, use a rivergate or mine a bedrock ore to compensate.
