@@ -1,7 +1,6 @@
 import crafttweaker.item.IItemStack;
 //disable applied energistics disc storage
 val itemsToDisable =[
-  <appliedenergistics2:storage_cell_1k>,
   <appliedenergistics2:storage_cell_16k>,
   <appliedenergistics2:storage_cell_64k>,
   //Note: Disabled to encourage more interesting methods for storing items.
