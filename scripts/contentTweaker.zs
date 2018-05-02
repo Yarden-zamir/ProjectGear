@@ -22,7 +22,7 @@ monsterEssence.luminosity = 4;
 monsterEssence.viscosity = 1500;
 monsterEssence.register();
 
-var unPrecipitateMoltenGold = VanillaFactory.createFluid("un_precipitated_molten_gold", Color.fromHex("#F4B908"));
+var unPrecipitateMoltenGold = VanillaFactory.createFluid("un_precipitated_molten_gold", Color.fromHex("F4B908"));
 unPrecipitateMoltenGold.luminosity = 6;
 liquidCrudeSteel.temperature = 6000; // need to test
 unPrecipitateMoltenGold.viscosity = 1500;
