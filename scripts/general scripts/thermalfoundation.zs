@@ -86,6 +86,14 @@ val ingotProgressionArray =[
 ] as IItemStack[];
 scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
 
+//Blazing Pyrotheum recipes
+mods.tconstruct.Melting.addRecipe(
+  <liquid:pyrotheum>*144, <ore:dustPyrotheum>
+);
+mods.factorytech.Crucible.addRecipe(
+  <liquid:pyrotheum>*144, <ore:dustPyrotheum>
+);
+
 //mess with phyto-gro recipes
 var fert = <thermalfoundation:fertilizer:1>;
 
