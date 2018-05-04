@@ -11,7 +11,6 @@ Rich ore deposits are rare, but contains huge amounts of one or two types of ore
 Vector plates and super lubricant stone is a fun combination
 The player trap acts as a player kill. Mobs drop xp, wither skulls, etc
 Loot structures when you find them. Many have unique modded loot.
-Ender bridges can teleport mobs and items long distances, but they require some setup.
 Tinkers' tools made of Botania metals will use mana from a mana tablet instead of taking durability
 You can press [ctrl]+[F] to start searching in JEI
 You can [right click] the search bar in JEI to clear it
@@ -28,3 +27,4 @@ Ores appear in caves and rich ore veins, but almost never anywhere else. Strip m
 Bedrocks ores must be mined with a bedrock miner, not by hand
 Shulker boxes are extremely cheap
 Metal ores are somewhat rare. Quarry a rich ore vein, use a rivergate or mine a bedrock ore to compensate.
+Broken Factory Tech parts are deposited into crates if there's one nearby
