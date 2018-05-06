@@ -85,3 +85,43 @@ mods.immersiveengineering.Mixer.addRecipe(
     <magneticraft:chunks>
   ], 6144
 );
+
+// iron ore -> Ground Iron ore(x2)
+mods.factorytech.DrillGrinder.addRecipe(
+  <factorytech:ore_dust>*2, ironOre
+);
+
+// Ground Iron ore, sulfuric acid -> Iron chunk
+mods.factorytech.Electroplater.addRecipe(
+  <magneticraft:chunks>, <factorytech:ore_dust>
+);
+
+// iron ore -> ground iron ore, iron rocky chunk
+mods.immersiveengineering.Crusher.removeRecipesForInput(
+  <minecraft:iron_ore>
+);
+
+mods.immersiveengineering.Crusher.addRecipe(
+  <factorytech:ore_dust>, ironOre, 2048, <magneticraft:rocky_chunks>
+);
+
+// iron ore, limestone/chiseled sandstone -> iron ingot (2x)
+mods.immersiveengineering.AlloySmelter.removeRecipe(
+  ironIngot
+);
+mods.immersiveengineering.AlloySmelter.addRecipe(
+  ironIngot*2, ironOre, <ore:sandstone>*4, 1000
+);
+mods.immersiveengineering.AlloySmelter.addRecipe(
+  ironIngot*2, ironOre, <ore:blockLimestone>, 1000
+);
+
+//iron ore -> iron dust, ground iron ore
+mods.integrateddynamics.Squeezer.removeRecipesWithOutput(
+  <thermalfoundation:material>, 1.0, <thermalfoundation:material>, 0.75
+);
+mods.integrateddynamics.Squeezer.addRecipe(
+  <minecraft:iron_ore>,
+  <thermalfoundation:material>, 1.0,
+  <factorytech:ore_dust>, 1.0
+);
