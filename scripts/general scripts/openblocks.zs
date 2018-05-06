@@ -15,3 +15,6 @@ recipes.removeShapeless(<openblocks:sponge>);
 recipes.addShapedMirrored(<openblocks:sponge>,
 	[[<minecraft:sponge>, <thermalfoundation:rockwool:*>],
 	 [<thermalfoundation:rockwool:*>, <minecraft:sponge>]]);
+
+//rename sponge to something more interesting
+<openblocks:sponge>.displayName = "hydrophobic sponge";
