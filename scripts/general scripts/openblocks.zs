@@ -17,4 +17,4 @@ recipes.addShapedMirrored(<openblocks:sponge>,
 	 [<thermalfoundation:rockwool:*>, <minecraft:sponge>]]);
 
 //rename sponge to something more interesting
-<openblocks:sponge>.displayName = "hydrophobic sponge";
+<openblocks:sponge>.displayName = "Hydrophilic Sponge";
