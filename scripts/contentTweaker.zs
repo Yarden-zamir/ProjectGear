@@ -33,4 +33,10 @@ treatedPlate.register();
 var guanoIngot = VanillaFactory.createItem("ingot_guano");
 guanoIngot.register();
 
+var HardenedGlassIngot = VanillaFactory.createItem("ingot_hardened_glass");
+guanoIngot.register();
+
+var hotHardenedGlassIngot = VanillaFactory.createItem("ingot_hot_hardened_glass");
+guanoIngot.register();
+
 //blocks
