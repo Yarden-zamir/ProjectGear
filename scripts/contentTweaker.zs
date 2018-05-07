@@ -5,6 +5,8 @@ import mods.contenttweaker.Color;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Commands;
 
+//fluids
+
 var brine = VanillaFactory.createFluid("brine", Color.fromHex("F29223"));
 brine.register();
 
@@ -14,7 +16,7 @@ liquidatedIrradiatedBlood.register();
 var monsterEssence = VanillaFactory.createFluid("monster_essence", Color.fromHex("39A00A"));
 monsterEssence.register();
 
-//
+//items
 
 var treatedPlate = VanillaFactory.createItem("treated_plate");
 treatedPlate.register();
@@ -27,3 +29,5 @@ treatedPlate.register();
 
 var crudeSteelIngot = VanillaFactory.createItem("ingot_crude_steel");
 treatedPlate.register();
+
+//blocks
