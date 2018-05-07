@@ -30,4 +30,7 @@ treatedPlate.register();
 var crudeSteelIngot = VanillaFactory.createItem("ingot_crude_steel");
 treatedPlate.register();
 
+var guanoIngot = VanillaFactory.createItem("ingot_guano");
+guanoIngot.register();
+
 //blocks
