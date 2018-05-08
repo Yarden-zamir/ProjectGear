@@ -29,11 +29,39 @@
 			}
 		},
 		
+		"ender_orb": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": "thermalfoundation:fluid_ender",
+				"material": [
+					"minecraft:end_stone"
+				],
+				"hollow": true,
+				"filler": "thermalfoundation:fluid_ender",
+				"crust": "appliedenergistics2:sky_stone_block"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 5,
+			"min-height": 5,
+			"max-height": 32,
+			"biome": "all",
+			"in-village": false,
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0
+				]
+			}
+		},
+		
 		"glowstone_orb": {
 			"distribution": "uniform",
 			"generator": {
 				"type": "geode",
-				"block": "thermalfoundation:fluid_redstone",
+				"block": "thermalfoundation:fluid_glowstone",
 				"material": [
 					"minecraft:netherrack"
 				],
