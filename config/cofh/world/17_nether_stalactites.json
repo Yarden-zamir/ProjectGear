@@ -1,0 +1,46 @@
+{
+	"populate": {
+		"quartz_stalactite": {
+			"distribution": "uniform",
+				"generator": {
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "minecraft:netherrack",
+							"weight": 60
+						},
+						{
+							"name": "minecraft:quartz_ore",
+							"weight": 40
+						}
+					],
+					"material": [
+						"minecraft:netherrack"
+					],
+					"gen-body": [
+						"minecraft:air"
+						],
+					"smooth": false,
+					"fat": false,
+					"min-height": 10,
+					"height-variance": 6,
+					"height-mod": 3,
+					"gen-size": 4,
+					"size-variance": 1
+				},
+			"cluster-count": 1,
+			"min-height": 70,
+			"max-height": 127,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,
+					1
+				]
+			}
+		}
+
+	}
+}
