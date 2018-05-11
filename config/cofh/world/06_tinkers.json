@@ -9,8 +9,7 @@
 					"metadata": 0 
 				},
 				"material": [
-					"minecraft:netherrack",
-					"nex:block_netherrack"
+					"minecraft:netherrack"
 							],
 				"cluster-size": 3
 			},
@@ -38,8 +37,7 @@
 					"metadata": 1
 				},
 				"material": [
-					"minecraft:netherrack",
-					"nex:block_netherrack"
+					"minecraft:netherrack"
 							],
 				"cluster-size": 3
 			},
