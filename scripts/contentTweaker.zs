@@ -22,21 +22,21 @@ var treatedPlate = VanillaFactory.createItem("treated_plate");
 treatedPlate.register();
 
 var oiledLeather = VanillaFactory.createItem("oiled_leather");
-treatedPlate.register();
+oiledLeather.register();
 
 var irradiatedFlesh = VanillaFactory.createItem("irradiated_flesh");
-treatedPlate.register();
+irradiatedFlesh.register();
 
 var crudeSteelIngot = VanillaFactory.createItem("ingot_crude_steel");
-treatedPlate.register();
+crudeSteelIngot.register();
 
 var guanoIngot = VanillaFactory.createItem("ingot_guano");
 guanoIngot.register();
 
 var hardenedGlassIngot = VanillaFactory.createItem("ingot_hardened_glass");
-guanoIngot.register();
+hardenedGlassIngot.register();
 
 var hotHardenedGlassIngot = VanillaFactory.createItem("ingot_hot_hardened_glass");
-guanoIngot.register();
+hotHardenedGlassIngot.register();
 
 //blocks

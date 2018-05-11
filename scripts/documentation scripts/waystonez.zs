@@ -1,5 +1,6 @@
 import scripts.functions.addDesc;
 import scripts.functions.addDescBatch;
+import crafttweaker.item.IItemStack;
 
 //and this is for adding a lot at once, use this in most cases, there is no real reason to use the former
 val batch = {
