@@ -1,5 +1,6 @@
 import scripts.functions.addDesc;
 import scripts.functions.addDescBatch;
+import crafttweaker.item.IItemStack;
 
 //this is for adding single entries
 addDesc(<examplemod:exampleItem>, "This is an example description");
