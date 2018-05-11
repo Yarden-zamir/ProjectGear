@@ -114,7 +114,6 @@
 						}
 					],
 					"material": [
-						"minecraft:obsidian",
 						"minecraft:stone"
 					],
 					"gen-body": [
@@ -161,7 +160,6 @@
 						}
 					],
 					"material": [
-						"minecraft:obsidian",
 						"minecraft:stone"
 					],
 					"gen-body": [
