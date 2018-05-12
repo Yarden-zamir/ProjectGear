@@ -88,10 +88,10 @@ scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
 
 //Blazing Pyrotheum recipes
 mods.tconstruct.Melting.addRecipe(
-  <liquid:pyrotheum>*144, <ore:dustPyrotheum>
+  <liquid:pyrotheum>*144, <thermalfoundation:material:1024>
 );
 mods.factorytech.Crucible.addRecipe(
-  <liquid:pyrotheum>*144, <ore:dustPyrotheum>
+  <liquid:pyrotheum>*144, <thermalfoundation:material:1024>
 );
 
 //mess with phyto-gro recipes
