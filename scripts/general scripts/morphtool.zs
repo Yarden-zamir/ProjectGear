@@ -1,0 +1,10 @@
+print("Beginning ashestictome.zs");
+
+val universalwrench = <morphtool:tool>.withTag({"morphtool:is_morphing": 1 as byte, RepairCost: 0, "morphtool:data": {funkylocomotion: {id: "funkylocomotion:wrench", Count: 1 as byte, Damage: 1 as short}, buildersguides: {id: "buildersguides:mallet", Count: 1 as byte, tag: {}, Damage: 0 as short}, immersiveengineering: {id: "immersiveengineering:tool", Count: 1 as byte, Damage: 0 as short}, immersiverailroading: {id: "immersiverailroading:item_large_wrench", Count: 1 as byte, Damage: 0 as short}, rockhounding_core: {id: "rockhounding_core:mod_wrench", Count: 1 as byte, Damage: 0 as short}, rftools: {id: "rftools:smartwrench", Count: 1 as byte, Damage: 0 as short}, factorytech: {id: "factorytech:wrench", Count: 1 as byte, Damage: 0 as short}, platforms: {id: "platforms:wrench", Count: 1 as byte, Damage: 0 as short}, waterworks: {id: "waterworks:pipe_wrench", Count: 1 as byte, Damage: 0 as short}, thermalfoundation: {id: "thermalfoundation:wrench", Count: 1 as byte, Damage: 0 as short}, chiselsandbits: {id: "chiselsandbits:wrench_wood", Count: 1 as byte, Damage: 0 as short}, opencomputers: {id: "opencomputers:wrench", Count: 1 as byte, Damage: 0 as short}, integrateddynamics: {id: "integrateddynamics:wrench", Count: 1 as byte, Damage: 0 as short}, buildcraftcore: {id: "buildcraftcore:wrench", Count: 1 as byte, tag: {"morphtool:is_morphing": 1 as byte, display: {Name: "§rMorphing Tool (§aWrench§r)"}, "morphtool:displayName": "Wrench"}, Damage: 0 as short}, openblocks: {id: "openblocks:wrench", Count: 1 as byte, Damage: 0 as short}, forestry: {id: "forestry:wrench", Count: 1 as byte, Damage: 0 as short}, appliedenergistics2: {id: "appliedenergistics2:certus_quartz_wrench", Count: 1 as byte, Damage: 0 as short}, base: {id: "base:wrench", Count: 1 as byte, Damage: 0 as short}, extratrees: {id: "extratrees:durable_hammer", Count: 1 as byte, Damage: 0 as short}}, display: {Name: "Universal Omniwrench"}});
+
+recipes.addShapeless(universalwrench,
+ [<akashictome:tome>, <ore:gearStone>]);
+ 
+mods.jei.JEI.addItem(universalwrench);
+ 
+ print("Completed morphtool.zs");
