@@ -171,6 +171,16 @@
         "damage": 51,
         "count": 1
       }
+    },
+    {
+      "weight": 2.540874481201172,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "forestry:crated.minecraft.clay_ball.0",
+        "damage": 0,
+        "count": 1
+      }
     }
   ],
   "dependencyExpression": ""
