@@ -102,18 +102,19 @@
 					"block": [
 						{
 							"name": "minecraft:stone",
-							"weight": 80
+							"weight": 59
 						},
 						{
 							"name": "minecraft:lapis_ore",
-							"weight": 10
+							"weight": 40
 						},
 						{
-							"name": "minecraft:redstone_ore",
-							"weight": 10
+							"name": "minecraft:diamond_ore",
+							"weight": 1
 						}
 					],
 					"material": [
+						"minecraft:obsidian",
 						"minecraft:stone"
 					],
 					"gen-body": [
@@ -160,6 +161,7 @@
 						}
 					],
 					"material": [
+						"minecraft:obsidian",
 						"minecraft:stone"
 					],
 					"gen-body": [
