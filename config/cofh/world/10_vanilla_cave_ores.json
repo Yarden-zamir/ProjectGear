@@ -183,26 +183,6 @@
 			}
 		},
 
-		"lapis_bottom": {
-			"distribution": "cave",
-			"generator": {
-				"block": "lapis_ore",
-				"material": "minecraft:stone",
-				"cluster-size": 7
-			},
-			"cluster-count": 1,
-			"ceiling": false,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-
 		"mesa_gold": {
 			"enabled": true,
 			"distribution": "cave",
