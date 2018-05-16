@@ -6,7 +6,7 @@
 			"generator": {
 				"block": "thermalfoundation:ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 6
 			},
 			"cluster-count": 3,
 			"min-height": 40,
@@ -29,7 +29,7 @@
 					"metadata": 1
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 6
 			},
 			"cluster-count": 2,
 			"min-height": 20,
