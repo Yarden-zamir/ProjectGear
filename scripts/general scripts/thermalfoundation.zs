@@ -91,7 +91,7 @@ mods.tconstruct.Melting.addRecipe(
   <liquid:pyrotheum>*144, <ore:dustPyrotheum>
 );
 mods.factorytech.Crucible.addRecipe(
-  <liquid:pyrotheum>*144, <ore:dustPyrotheum>
+  <liquid:pyrotheum>*144, <ore:dustPyrotheum>, false
 );
 
 //mess with phyto-gro recipes
