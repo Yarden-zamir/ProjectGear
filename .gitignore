@@ -67,3 +67,4 @@ config/pregenerator/PregenConfig.cfg
 config/randomtweaks/timeofdayoverlayworlds.json
 config/splash.properties
 config/worldedit/worldedit.properties
+config/randomtweaks/data.json
