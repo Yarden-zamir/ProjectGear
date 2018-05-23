@@ -5,7 +5,10 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
-<ore:wireCopper>.add(<factorytech:machinepart:6>);
+//adding OreDict
+<ore:wireCopper>.add(<factorytech:machinepart:20>);
 <ore:gearIron>.add(<factorytech:machinepart:3>);
-scripts.functions.rename(<factorytech:machinepart:33>,"Water Mesh");
-recipes.removeShaped(<factorytech:machinepart:33>);
+<ore:magnet>.add(<magneticraft:crafting:4>);
+
+scripts.functions.rename(<factorytech:machinepart:180>,"Water Mesh");
+//recipes.removeShaped(<factorytech:machinepart:33>); will remove recipe when adding the alternative that's in the diagram.

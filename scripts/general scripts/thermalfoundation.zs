@@ -1,5 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+
 val itemsToDisable =[
   <thermalfoundation:tool.hammer_copper>,
   <thermalfoundation:tool.hammer_tin>,
@@ -103,7 +105,8 @@ recipes.addShapeless(fert,
 recipes.addShapeless(fert*4,
   [<ore:dustCharcoal>, <ore:itemSlagRich>,<ore:dustSaltpeter>]);
 
-
+//add things to OreDict
+<ore:drillheadIron>.add(<thermalfoundation:material:656>);
 
 //Renames
 scripts.functions.rename(<thermalfoundation:material:832>,"Solidified Brine");
