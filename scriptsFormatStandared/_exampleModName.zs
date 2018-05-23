@@ -1,24 +1,28 @@
 /*
-*the name of the file has to be _[modName].zs
+*The name of the file has to be _[modName].zs
 
-*in this file there should be only recipes added / removed for items in the mod,
+*In this file there should be only recipes added / removed for items in the mod,
  even by other mod's machines / processes.
 
-*if you remove a recipe it is recommended to add a comment saying why.
+*If you remove a recipe it is recommended to add a comment saying why.
 
-*never use values inside a function, always use variables or a value effected
- by a variable that was initiated beforehand(at least as much as possible)
+*Try to use variables or a value effected by a variable that was initiated
+ beforehand.
 
-*add variables in area categories, for example items, fluids,
+*Add variables in area categories, for example items, fluids,
  modifiers(eg timeModifier), etc...
 
-*use as many new lines as you need to make the file look cozy and easy to read, they are free.
+*Use as many new lines as you need to make the file look cozy and easy to read, they are free.
 
-*any function you need to use that MIGHT be useful in some other script, needs to
+*Any function you need to use that MIGHT be useful in some other script, needs to
  be added into the functions.zs file and used as an external call.
  eg: scripts.functions.exampleFunction(text as String),
      scripts.functions.exampleFunction2(newName as String, item as IItemStack),
      etc...
+
+*To get item id's, use the /ct hand command in game
+
+*Use the command /ct syntax to check for syntax errors without reopening the game.
 */
 
 
@@ -41,3 +45,4 @@ scripts.functions.exampleFunction2("new name for item",<modName:item>);
 
 mods.modName.coolCrafting.add(<minecraft:stone>, <modName:item>, <minecraft:clock>, <modName:item>); // <--- that's wrong, this should be placed in the _vanilla.zs file instead, because the output is from vanilla
 //----------
+obvious
