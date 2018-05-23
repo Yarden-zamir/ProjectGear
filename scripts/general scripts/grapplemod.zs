@@ -35,7 +35,7 @@ recipes.addShapeless(
 recipes.remove(<grapplemod:repeller>);
 recipes.addShapeless(
                     <grapplemod:repeller>,
-                    [<ore:magnet, <ore:gemCrystalFlux>]
+                    [<ore:magnet>, <ore:gemCrystalFlux>]
                     ); // Make the magnetic forcefield from an actual magnet, with flux crystal for the force part
 recipes.remove(<grapplemod:longfallboots>);
 recipes.addShapeless(
