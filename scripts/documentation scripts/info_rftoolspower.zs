@@ -14,4 +14,4 @@ val batch = {
 } as string[IItemStack];
 addDescBatch(batch);
 
-print("Documentation for rftoolspower loaded successfully");
+print("Documentation for rftools power loaded successfully");
