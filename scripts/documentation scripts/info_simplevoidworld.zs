@@ -4,13 +4,8 @@ import crafttweaker.item.IItemStack;
 
 //and this is for adding a lot at once, use this in most cases, there is no real reason to use the former
 val batch = {
-	<thermalinnovation:drill> : "",
-	<thermalinnovation:drill:1> : "",
-	<thermalinnovation:drill:2> : "",
-	<thermalinnovation:drill:3> : "",
-	<thermalinnovation:drill:4> : "",
-	<thermalinnovation:drill:32000> : "",
+	<simplevoidworld:portal>: "When right clicked the portal will teleport player to small platform in void dimension. To get back click the portal again and you will be taken to the last bed you slept in or world spawn."
 } as string[IItemStack];
 addDescBatch(batch);
 
-print("Documentation for examplemod loaded successfully");
+print("Documentation for simple void world loaded successfully");

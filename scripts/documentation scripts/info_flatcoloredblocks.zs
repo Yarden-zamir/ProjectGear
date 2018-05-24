@@ -4,13 +4,8 @@ import crafttweaker.item.IItemStack;
 
 //and this is for adding a lot at once, use this in most cases, there is no real reason to use the former
 val batch = {
-	<thermalinnovation:drill> : "",
-	<thermalinnovation:drill:1> : "",
-	<thermalinnovation:drill:2> : "",
-	<thermalinnovation:drill:3> : "",
-	<thermalinnovation:drill:4> : "",
-	<thermalinnovation:drill:32000> : "",
+	<flatcoloredblocks:coloredcraftingitem> : "Use with cobblestone, glass or glowstone with dyes in inventory to craft colored blocks."
 } as string[IItemStack];
 addDescBatch(batch);
 
-print("Documentation for examplemod loaded successfully");
+print("Documentation for flat colored blocks loaded successfully");
