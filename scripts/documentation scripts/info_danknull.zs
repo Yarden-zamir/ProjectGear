@@ -16,4 +16,4 @@ val batch = {
 } as string[IItemStack];
 addDescBatch(batch);
 
-print("Documentation for examplemod loaded successfully");
+print("Documentation for dank null loaded successfully");
