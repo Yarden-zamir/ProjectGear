@@ -30,3 +30,4 @@ Metal ores are somewhat rare. Quarry a rich ore vein, use a rivergate or mine a 
 Broken Factory Tech parts are deposited into crates if there's one nearby
 Random Things spectres spawn 200 times more frequently during full moons. They can only be killed by magic damage, such as potions.
 Mom's Spaghetti is an excelent food source, especially when enchanted with mending and topped with meat and red sauce
+Chunk loaders from Chicken Chunks can be turned off with a redstone signal
