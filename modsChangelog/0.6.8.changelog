@@ -1,5 +1,7 @@
 Updated
   bibliocraft
+  bookshelf
+  caliper
   cd4017be
   charcoalpit - some new ct additions, need to take a look.
   chiselsandbits
@@ -7,6 +9,8 @@ Updated
   cofhworld
   ctdcore
   cyclopscore
+  deepresonance
+  fastworkbench
   forestry
   ftblib
   ftbutils
@@ -14,27 +18,33 @@ Updated
   immersiveetech
   integrateddynamic
   integratedtunnles
+  inventorytweaks
+  ironchests
   jei
+  justenoughresources
   lostcities
+  mcjtlib
   mrtjpcore
   mtlib
   mystcraft
   plustic
   project red
-    base
-    fabrication
-    integration
-    lighting
-    mechanical
-    world
   randomthings
   randomtweakes
   reborncore
   reborncore
   redstonearsenal
   redstoneflux
+  rflux
+  rftools
+  rftoolsctrl
+  rftoolspower
   rockhounding_core
+  rockhounding_surface
+  signals
+  silentlib
   steavescarts
+  tconstruct
   tellme
   thermalfoundation
   thermalinovation
