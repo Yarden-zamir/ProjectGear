@@ -47,3 +47,25 @@ Updated
 - tellme
 - thermalfoundation
 - thermalinovation
+
+Added:
+
+- Bed Bugs: Fixed the "stuck in bed" bug
+- Container Fix: Fixes that bug where chests stay open on laggy servers
+- MAGE: Adds a few of Optifine's graphical improvements without including Optifine
+- Charset Audio: Turn an audio file into a music disk. This has potential.
+- Syntek Runic Teleporters: A potentially broken but very interesting player teleportation mod
+- Tip the scales: Better control over GUI scale
+- TOP Addons: More The One Probe information is always nice
+- NoNausea: Disabled the nausea animation which really doesn't deserve to exist
+- FindMe: Lets you find an item in nearby inventories by searching it in JEI and pressing 'Y'.(edited)
+- The Package Mod: Factorio-style bulk crafting with a research system. Not sure if we will keep it, but it looks promising.
+- ExtraBitManipulation: This looks fun, and you all seem to like it
+- ProjextX 2: Awesome aesthetic blocks. This needs some stability testing.
+
+Removed:
+
+- Mystcraft: This mod WILL be making a return, but right now just being in the pack is causing some massive performance drops for apparently everyone but me. I will keep this installed on my instance so I can keep tweaking it. Ignore any Mystcraft-related CraftTweaker errors.
+- RSWires: Project Red is better
+- Simple Logic: Project Red is better
+- Quacklib: Unneeded library mod
