@@ -41,3 +41,6 @@ dyeRed.remove(<botania:dye:14>);
 dyeBlack.remove(<botania:dye:15>);
 
 dye.remove(<botania:dye:*>);
+
+val moreManasteel = <botania:manaresource> * 2;
+mods.botania.ManaInfusion.addInfusion(moreManasteel, <ore:ingotSteel>, 3000);
