@@ -127,16 +127,6 @@
       "min": 1,
       "max": 12,
       "item": {
-        "id": "immersiveengineering:metal",
-        "damage": 3,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 12,
-      "item": {
         "id": "minecraft:dye",
         "damage": 4,
         "count": 1
