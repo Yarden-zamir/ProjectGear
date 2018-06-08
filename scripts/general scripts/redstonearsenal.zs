@@ -4,7 +4,7 @@ recipes.removeShaped(<redstonearsenal:material:96>);
 recipes.removeShaped(<redstonearsenal:material:0>);
 
 recipes.removeShapeless(<redstonearsenal:material:160>);
-recipes.removeShapeless(<redstonearsenal:material:0>);
+recipes.removeShapeless(<redstonearsenal:material>);
 
 recipes.addShapeless(<redstonearsenal:material:160> * 9, [<redstonearsenal:storage:1>]);
 
