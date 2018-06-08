@@ -11,6 +11,9 @@ val itemsToDisable =[
   <stevescarts:cartmodule:89>,
   //Note: Disables Steve's Carts crop/wood farms, as well as the wood cutting core and planter range extended (now useless)
   //note: Disabled to encourage more complex farms
+  <stevescarts:cartmodule:87>,
+  <stevescarts:cartmodule:92>,
+  //Note: Disables autocrafters. Use Buildcraft, Factory Tech or Charset for that.
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
