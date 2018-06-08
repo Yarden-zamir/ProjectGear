@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 val itemsToDisable =[
   <terraqueous:crafting:5>,
   <terraqueous:crafting:6>,
+  <terraqueous:crafting:2>,
   <terraqueous:item_main:201>,
   //note: disabled ender dust, AE2's ender dust will be used
 ] as IItemStack[];
