@@ -42,3 +42,14 @@ recipes.addShapeless(
                     <grapplemod:longfallboots>,
                     [<minecraft:diamond_boots>, <minecraft:wool>]
                     ); // Make shapeless
+					
+recipes.remove(<grapplemod:launcheritem>);
+recipes.addShapedMirrored(<grapplemod:launcheritem>,
+	[[null, <minecraft:ender_pearl>],
+	 [<tconstruct:tough_tool_rod>.withTag({Material: "steel"}), null]]);
+
+recipes.addShapedMirrored(<grapplemod:launcheritem>,
+	[[null, null, <botania:manaresource:1>],
+	 [null, <botania:manaresource:0>, null],
+	 [<botania:manaresource:0>, null, null]]);
+	 
