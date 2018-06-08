@@ -41,3 +41,10 @@ dyeRed.remove(<botania:dye:14>);
 dyeBlack.remove(<botania:dye:15>);
 
 dye.remove(<botania:dye:*>);
+
+#Change stack size of music discs:
+val disc1 = <botania:recordgaia1>;
+val disc2 = <botania:recordgaia2>;
+
+disc1.maxStackSize = 16;
+disc2.maxStackSize = 16;
