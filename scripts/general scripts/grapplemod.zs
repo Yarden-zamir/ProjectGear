@@ -37,11 +37,6 @@ recipes.addShapeless(
                     <grapplemod:repeller>,
                     [<ore:magnet>, <ore:gemCrystalFlux>]
                     ); // Make the magnetic forcefield from an actual magnet, with flux crystal for the force part
-recipes.remove(<grapplemod:longfallboots>);
-recipes.addShapeless(
-                    <grapplemod:longfallboots>,
-                    [<minecraft:diamond_boots>, <minecraft:wool>]
-                    ); // Make shapeless
 					
 recipes.remove(<grapplemod:launcheritem>);
 recipes.addShapedMirrored(<grapplemod:launcheritem>,
@@ -52,4 +47,11 @@ recipes.addShapedMirrored(<grapplemod:launcheritem>,
 	[[null, null, <botania:manaresource:1>],
 	 [null, <botania:manaresource:0>, null],
 	 [<botania:manaresource:0>, null, null]]);
+	 
+recipes.remove(<grapplemod:longfallboots>);
+recipes.addShaped(<grapplemod:longfallboots>,
+	[[<minecraft:feather>, null, <minecraft:feather>],
+	 [<ore:plateIron>, <minecraft:leather_boots>, <ore:plateIron>]]);
+	 
+
 	 
