@@ -1,0 +1,136 @@
+import loottweaker.vanilla.loot.LootTables;
+import loottweaker.vanilla.loot.LootTable;
+import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Conditions;
+import loottweaker.vanilla.loot.Functions;
+
+//Note: This script is sorted by loot table.
+
+############ simple_dungeon ############
+
+val table_simple_dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
+val pool_simple_dungeon_main = table_simple_dungeon.getPool("main");
+
+//Remove items:
+pool_simple_dungeon_main.removeEntry("nuclearcraft:plating");
+
+//Adds all vanilla and nuclearcraft music discs to dungeon loot
+//Botania not included because it's intended to be a reward for slaying the Gaia Guardian
+
+val pool_simpleDungeonInject = table_simple_dungeon.addPool("pool_simpleDungeonInject", 1, 1, 1, 1);
+
+val disc1 = <minecraft:record_13>;
+val disc2 = <minecraft:record_cat>;
+val disc3 = <minecraft:record_blocks>;
+val disc4 = <minecraft:record_chirp>;
+val disc5 = <minecraft:record_far>;
+val disc6 = <minecraft:record_mall>;
+val disc7 = <minecraft:record_mellohi>;
+val disc8 = <minecraft:record_stal>;
+val disc9 = <minecraft:record_strad>;
+val disc10 = <minecraft:record_ward>;
+val disc11 = <minecraft:record_11>;
+val disc12 = <minecraft:record_wait>;
+
+val disc13 = <nuclearcraft:record_end_of_the_world>;
+val disc14 = <nuclearcraft:record_wanderer>;
+val disc15 = <nuclearcraft:record_money_for_nothing>;
+
+pool_simpleDungeonInject.addItemEntryHelper(disc1,  20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc2,  20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc3,  20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc4,  20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc5,  20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc6,  20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc7,  20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc8,  20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc9,  20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc11, 20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc12, 20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc13, 20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc14, 20, 1, [Functions.setCount(1, 1)], []);
+pool_simpleDungeonInject.addItemEntryHelper(disc15, 20, 1, [Functions.setCount(1, 1)], []);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############ stronghold_crossing ############
+
+val table_stronghold_crossing = LootTables.getTable("minecraft:chests/stronghold_crossing");
+val pool_stronghold_crossing_main = table_stronghold_crossing.getPool("main");
+
+val pool_stronghold_crossingInject = table_stronghold_crossing.addPool("pool_stronghold_crossingInject", 1, 1, 1, 1);
+
+//Remove items:
+pool_stronghold_crossing_main.removeEntry("nuclearcraft:plating");
+
+############ stronghold_library ############
+
+val table_stronghold_library = LootTables.getTable("minecraft:chests/stronghold_library");
+val pool_stronghold_library_main = table_stronghold_library.getPool("main");
+
+val pool_stronghold_libraryInject = table_stronghold_library.addPool("pool_stronghold_libraryInject", 1, 1, 1, 1);
+
+
+############ woodland_mansion ############
+
+val table_woodland_mansion = LootTables.getTable("minecraft:chests/woodland_mansion");
+val pool_woodland_mansion_main = table_woodland_mansion.getPool("main");
+
+val pool_woodland_mansionInject = table_woodland_mansion.addPool("pool_woodland_mansionInject", 1, 1, 1, 1);
+
+############ spawn_bonus_chest ############
+
+val table_spawn_bonus_chest = LootTables.getTable("minecraft:chests/spawn_bonus_chest");
+val pool_spawn_bonus_chest_main = table_spawn_bonus_chest.getPool("main");
+
+val pool_spawn_bonus_chestInject = table_spawn_bonus_chest.addPool("pool_spawn_bonus_chestInject", 1, 1, 1, 1);
+
+
+############ jungle_temple ############
+
+val table_jungle_temple = LootTables.getTable("minecraft:chests/jungle_temple");
+val pool_jungle_temple_main = table_jungle_temple.getPool("main");
+
+val pool_jungle_templeInject = table_jungle_temple.addPool("pool_jungle_templeInject", 1, 1, 1, 1);
+
+//Remove items:
+pool_jungle_temple_main.removeEntry("nuclearcraft:plating");
+
+############ jungle_temple_dispenser ############
+
+val table_jungle_temple_dispenser = LootTables.getTable("minecraft:chests/jungle_temple_dispenser");
+val pool_jungle_temple_dispenser_main = table_jungle_temple_dispenser.getPool("main");
+
+val pool_jungle_temple_dispenserInject = table_jungle_temple_dispenser.addPool("pool_jungle_temple_dispenserInject", 1, 1, 1, 1);
+
+############ desert_pyramid ############
+
+val table_desert_pyramid = LootTables.getTable("minecraft:chests/desert_pyramid");
+val pool_desert_pyramid_main = table_desert_pyramid.getPool("main");
+
+val pool_desert_pyramidInject = table_desert_pyramid.addPool("pool_desert_pyramidInject", 1, 1, 1, 1);
+
+
+############ ignoo_chest ############
+
+val table_ignoo_chest = LootTables.getTable("minecraft:chests/ignoo_chest");
+val pool_ignoo_chest_main = table_ignoo_chest.getPool("main");
+
+val pool_ignoo_chestInject = table_ignoo_chest.addPool("pool_ignoo_chestInject", 1, 1, 1, 1);
+
+
+

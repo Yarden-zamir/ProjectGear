@@ -44,7 +44,7 @@ scripts.functions.rename(<nuclearcraft:ore:3>,"Thorite Ore");
 #Ore dict
 
 
-#
+#Change stack size of discs to 16
 val disc1 = <nuclearcraft:record_end_of_the_world>;
 val disc2 = <nuclearcraft:record_wanderer>;
 val disc3 = <nuclearcraft:record_money_for_nothing>;
