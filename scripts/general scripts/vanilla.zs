@@ -70,6 +70,11 @@ recipes.addShaped(<minecraft:sponge:1>,
 	[[<immersiveengineering:material:4>, <ore:slimeball>, <immersiveengineering:material:4>],
 	 [<ore:slimeball>, <immersiveengineering:material:4>, <ore:slimeball>],
 	 [<immersiveengineering:material:4>, <ore:slimeball>, <immersiveengineering:material:4>]]);
+	 
+  //Craft torches with tallow:
+recipes.addShaped(<minecraft:torch> * 8,
+	[[<quark:tallow>],
+	 [<ore:stickWood>]]);
 
 #recipe removal
 //roten flesh -> leather
