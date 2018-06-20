@@ -27,7 +27,7 @@ val batch = {
   <quark:soul_bead> : "Right clicking it will break it, and inflict a Curse potion effect on the player for 20 minutes. Mobs in a 64 block radius of a player with Curse will spawn ignoring light levels and other conditions (like slime chunk restrictions). Curse can not be cleansed with Milk.",
   <quark:biotite> : "Dropped from biotite ore.",
   <quark:tallow> : "Dropped by pigs, and used to craft candles.",
-  <quark:charcoal_block> : "It has the fuel value of 10 pieces of charcoal. Like netherrack, when lit on fire the fire will never go out."
+  //<quark:charcoal_block> : "It has the fuel value of 10 pieces of charcoal. Like netherrack, when lit on fire the fire will never go out." //This block is disabled to save block IDs
 } as string[IItemStack];
 addDescBatch(batch);
 
