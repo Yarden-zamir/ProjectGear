@@ -44,11 +44,11 @@ mods.immersiveengineering.MetalPress.addRecipe(<mekanism:compressedobsidian>, <m
 
   //Pneumaticraft: Repressurized pressure chamber:
 	//3 HDPE pellet > 1 HDPE sheet
-mods.pneumaticcraft.pressurechamber.addRecipe([<mekanism:polyethene:2> * 3], 2.0, [<mekanism:polyethene:0>]);
+mods.pneumaticcraft.pressurechamber.addRecipe([<mekanism:polyethene:0> * 3], 2.0, [<mekanism:polyethene:2>]);
 
   //Factory Tech compression chamber
 	//3 HDPE pellet > 1 HDPE sheet
-mods.factorytech.CompressionChamber.addRecipe(<mekanism:polyethene:0>, <mekanism:polyethene:2>, null);
+mods.factorytech.CompressionChamber.addRecipe(<mekanism:polyethene:0> * 3, <mekanism:polyethene:2>, null);
 
 #################
 
