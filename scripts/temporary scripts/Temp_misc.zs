@@ -24,3 +24,4 @@ recipes.addShaped(<factorytech:machinepart:180> * 4, [[<ore:slimeball>, <immersi
 
 //Make necrotic bones:
 mods.immersiveengineering.CokeOven.addRecipe(<tconstruct:materials:17>, 2, <minecraft:bone>, 200);
+
