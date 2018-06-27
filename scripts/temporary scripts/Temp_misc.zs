@@ -25,3 +25,6 @@ recipes.addShaped(<factorytech:machinepart:180> * 4, [[<ore:slimeball>, <immersi
 //Make necrotic bones:
 mods.immersiveengineering.CokeOven.addRecipe(<tconstruct:materials:17>, 2, <minecraft:bone>, 200);
 
+//Make obtaining Nuclearcraft glowing mushrooms more interesting
+recipes.removeShapeless(<nuclearcraft:glowing_mushroom>);
+recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<ore:mushroomAny>, <natura:nether_glowshroom:*>]);
