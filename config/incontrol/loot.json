@@ -5,10 +5,10 @@
 	},
 	{
 		"mob": "minecraft:wither_skeleton",
-		"remove": "quark:black_ash"
+		"remove": "tconstruct:materials@17"
 	},
 	{
-		"mob": "minecraft:wither_skeleton",
-		"remove": "tconstruct:materials@17"
+		"mob": "minecraft:zombie",
+		"item": "minecraft:dirt"
 	}
 ]
