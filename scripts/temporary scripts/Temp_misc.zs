@@ -27,4 +27,13 @@ mods.immersiveengineering.CokeOven.addRecipe(<tconstruct:materials:17>, 2, <mine
 
 //Make obtaining Nuclearcraft glowing mushrooms more interesting
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>);
-recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<ore:mushroomAny>, <natura:nether_glowshroom:*>]);
+recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<ore:mushroomAny>, <ore:mushroomAny>, <natura:nether_glowshroom:*>, <natura:nether_glowshroom:*>]);
+
+//Make glowing bread recipe more interesting:
+recipes.removeShapeless(<xreliquary:glowing_bread>);
+  //Forestry recipe:
+mods.forestry.Carpenter.addRecipe(<xreliquary:glowing_bread>, [[<forestry:honeyed_slice>, <forestry:honeyed_slice>, <forestry:honeyed_slice>]], 30, <liquid:glowstone> * 1000);
+
+
+mods.forestry.Carpenter.addRecipe(<xreliquary:glowing_bread>, [[<forestry:crated.natura.nether_glowshroom.0>, <forestry:crated.natura.nether_glowshroom.0>, <forestry:crated.natura.nether_glowshroom.0>],
+															   [<minecraft:bread>, <minecraft:bread>, <minecraft:bread>]], 30, <liquid:glowstone> * 1000);
