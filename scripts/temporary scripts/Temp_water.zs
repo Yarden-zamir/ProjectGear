@@ -3,11 +3,11 @@ val botaniaHyrdo = <botania:specialflower>.withTag({type: "hydroangeas"});
 //add water recipes to forestry squeezer
  
 mods.forestry.Squeezer.addRecipe(<liquid:water> * 1000, [<minecraft:fish:0>], 30);
-mods.forestry.Squeezer.addRecipe(<liquid:water> * 150, [<minecraft:melon>], 30);
-mods.forestry.Squeezer.addRecipe(<liquid:water> * 200, [<minecraft:reeds>], 30);
+mods.forestry.Squeezer.addRecipe(<liquid:water> * 150, [<minecraft:melon>], 30, <minecraft:melon_seeds> % 10);
+mods.forestry.Squeezer.addRecipe(<liquid:water> * 200, [<minecraft:reeds>], 30, <minecraft:sugar> % 10);
 //No listAllFruit recipe because it can already be turned into fruit juice
-mods.forestry.Squeezer.addRecipe(<liquid:water> * 4000, [botaniaHyrdo], 30);
-mods.forestry.Squeezer.addRecipe(<liquid:water> * 1000, [<forestry:crafting_material:5>], 30);
+mods.forestry.Squeezer.addRecipe(<liquid:water> * 4000, [botaniaHyrdo], 30, <minecraft:dye:6> % 20);
+mods.forestry.Squeezer.addRecipe(<liquid:water> * 1000, [<forestry:crafting_material:5>], 30, <minecraft:ice> % 20);
 //No sapling recipe because it doesn't support ore dictionary tags
 
  
