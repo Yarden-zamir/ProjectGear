@@ -1,36 +1,101 @@
 {
-  "coal_ore": {
-    "ore": [
-      {
-        "block": "minecraft:coal_ore",
-        "weight": 39
-      }
-    ],
-    "stone": "minecraft:stone",
-    "rarity": 30,
-    "min_y": 32,
-    "max_y": 128,
-    "density": 80,
-    "vertical_size": 15,
-    "horizontal_size": 30
-  },
   "iron_nickel": {
     "ore": [{
-            "block": "minecraft:wool",
-            "weight": 50,
+            "block": "thermalfoundation:ore",
+            "weight": 40,
 			"meta": 5
         },
         {
             "block": "minecraft:iron_ore",
+            "weight": 60
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 30,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "gold_copper": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 0
+        },
+        {
+            "block": "thermalfoundation:ore",
             "weight": 50
         }
  
     ],
     "stone": "minecraft:stone",
-    "rarity": 500,
+    "rarity": 2000,
     "min_y": 5,
-    "max_y": 40,
-    "density": 40,
+    "max_y": 55,
+    "density": 30,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "tin_copper": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 1
+        },
+        {
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 0
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 30,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "tin_osmium": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 1
+        },
+        {
+            "block": "mekanism:oreblock",
+            "weight": 50
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 30,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "coal_diamond": {
+    "ore": [{
+            "block": "minecraft:coal_ore",
+            "weight": 99
+        },
+        {
+            "block": "minecraft:diamond_ore",
+            "weight": 1
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 30,
     "vertical_size": 30,
     "horizontal_size": 80
   }
