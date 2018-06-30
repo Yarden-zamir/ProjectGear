@@ -1,0 +1,27 @@
+{
+	"populate": {
+		"SLATEINALLCAPS": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": "rustic:slate",
+				"material": "minecraft:stone",
+				"radius": 15,
+				"height": 9
+			},
+			"cluster-count": 1,
+			"chunk-chance": 100,
+			"min-height": 25,
+			"max-height": 50,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
