@@ -1,0 +1,30 @@
+Added mods:
+-NoFog
+-Mystcraft
+
+Big changes:
+
+•Finished overhauling terrain generation!
+-Moved the massive rich ore veins from CoFH World to Realistic Ore Veins to improve performance drastically
+-Added new, slightly larger ore veins that only generate in specific dimensions
+-Rustic's slate now generates in giant plates
+-Added new stalactite types to the end and nether containing cobalt, ardite, endimium, biotite and dimensional ore
+-Tweaked and polished existing ore generation
+-Made sure all ore generation would work in Mystcraft dimensions
+-Moved ore generation for Mekanism, Valkyrien Warfare, RFTools and Tinkers to CoFH World
+
+•Fixed several tech tree issues:
+-You can now turn leather scraps into oiled leather and dry them into leather
+-Most Reliquary items can be crafted with machines. Some are supposed to be dropping from mods but that's currently broken.
+-Added various recipes for squeezing crops, fish and other items into water
+-Fixed gear and plate recipes
+-Added a few recipes for Factory Tech's river mesh
+
+•Made Mekanism more interesting:
+-Removed the Enrichment Chamber, Crusher, Precision sawmill, Energized smelter
+-Added all important recipes to other machines. This script is still fairly broken.
+
+•Other small tweaks:
+-Made recipe for glowing bread more interesting
+-Disabled generation of endimium and burnium from Terraqueous
+-Removed Mystcraft instability
