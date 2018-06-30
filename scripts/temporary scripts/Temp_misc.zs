@@ -47,3 +47,6 @@ recipes.addShaped(<waystones:warp_stone>,
 //Change endimium dust recipe:
 recipes.removeShapeless(<terraqueous:item_main:253>);
 recipes.addShapeless(<terraqueous:item_main:253> * 4, [<ore:dustEnder>, <minecraft:chorus_fruit_popped>]);
+
+// ProjectRed Silicon renamed "Silicon Wafer"
+<projectred-core:resource_item:301>.displayName = "Silicon Wafer";
