@@ -37,3 +37,25 @@ mods.forestry.Carpenter.addRecipe(<xreliquary:glowing_bread>, [[<forestry:honeye
 
 mods.forestry.Carpenter.addRecipe(<xreliquary:glowing_bread>, [[<forestry:crated.natura.nether_glowshroom.0>, <forestry:crated.natura.nether_glowshroom.1>, <forestry:crated.natura.nether_glowshroom.2>],
 															   [<minecraft:bread>, <minecraft:bread>, <minecraft:bread>]], 30, <liquid:glowstone> * 1000);
+															   
+//Alternate warp stone recipe:
+recipes.addShaped(<waystones:warp_stone>,
+	[[<ore:dyePurple>, <minecraft:ender_pearl>, <ore:dyePurple>],
+	 [<minecraft:ender_pearl>, <terraqueous:item_main:51>, <minecraft:ender_pearl>],
+	 [<ore:dyePurple>, <minecraft:ender_pearl>, <ore:dyePurple>]]);
+	 
+//Change endimium dust recipe:
+recipes.removeShapeless(<terraqueous:item_main:253>);
+recipes.addShapeless(<terraqueous:item_main:253> * 4, [<ore:dustEnder>, <minecraft:chorus_fruit_popped>]);
+
+//Add recipe to endimium crystal:
+recipes.addShaped(<terraqueous:doodads:4>,
+	[[null, <terraqueous:item_main:51>, null],
+	 [<terraqueous:item_main:51>, <valkyrienwarfareworld:etheriumcrystal>, <terraqueous:item_main:51>],
+	 [null, <terraqueous:item_main:51>, null]]);
+	 
+//Add recipe to burnium crystal:
+recipes.addShaped(<terraqueous:doodads:5>,
+	[[null, <terraqueous:item_main:50>, null],
+	 [<terraqueous:item_main:50>, <valkyrienwarfareworld:etheriumcrystal>, <terraqueous:item_main:50>],
+	 [null, <terraqueous:item_main:50>, null]]);
