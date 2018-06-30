@@ -6,11 +6,11 @@
 				"type": "plate",
 				"block": "rustic:slate",
 				"material": "minecraft:stone",
-				"radius": 15,
-				"height": 9
+				"radius": 21,
+				"height": 4
 			},
 			"cluster-count": 1,
-			"chunk-chance": 100,
+			"chunk-chance": 50,
 			"min-height": 25,
 			"max-height": 50,
 			"retrogen": false,
