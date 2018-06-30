@@ -71,3 +71,9 @@ recipes.addShaped(<appliedenergistics2:material:19>,
   [[ingotSteel,plateTin,ingotSteel],
   [plateNickel,<immersiveengineering:mold:7>,plateNickel],
   [ingotSteel,plateTin,ingotSteel]]);
+  
+// Redstone + Sulfuric Acid to 4 Electrotine dust
+mods.factorytech.Electroplater.addRecipe(<minecraft:redstone>, <projectred-core:resource_item:105>);
+
+// Fluxed Electrum Dust + Lapis to 4 Electrotine dust
+mods.forestry.ThermionicFabricator.addCast(<projectred-core:resource_item:105> * 4, [[<minecraft:dye:4>,null,null],[null,null,null],[null,null,null]], <liquid: glass> * 200);
