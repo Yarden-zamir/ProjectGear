@@ -99,7 +99,7 @@
     "vertical_size": 30,
     "horizontal_size": 80
   },
-  "BIOME_iron_nickel": {
+  "TEMPERATE_BIOMES_iron_nickel": {
     "ore": [
 			{	
             "block": "thermalfoundation:ore",	
@@ -113,13 +113,13 @@
  	
     ],	
     "stone": "minecraft:stone",	
-    "rarity": 2000,	
-    "min_y": 5,	
-    "max_y": 55,	
-    "density": 30,	
-    "vertical_size": 30,	
-    "horizontal_size": 80,	
-	"biomes": [	
+    "rarity": 3000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 35,
+    "vertical_size": 30,
+    "horizontal_size": 100,
+	"biomes": [
 		"minecraft:smaller_extreme_hills",	
 		"minecraft:forest_hills",	
 		"minecraft:extreme_hills_with_trees",	
@@ -160,9 +160,9 @@
     "rarity": 3000,	
     "min_y": 5,	
     "max_y": 55,	
-    "density": 30,	
+    "density": 35,	
     "vertical_size": 30,	
-    "horizontal_size": 80,	
+    "horizontal_size": 100,	
 	"biomes": [	
 		"minecraft:desert",	
 		"minecraft:desert_hills",	
@@ -207,8 +207,8 @@
     "min_y": 5,	
     "max_y": 55,	
     "density": 30,	
-    "vertical_size": 30,	
-    "horizontal_size": 80,	
+    "vertical_size": 35,	
+    "horizontal_size": 100,	
 	"biomes": [	
 		"minecraft:smaller_extreme_hills",	
 		"minecraft:forest_hills",	
@@ -251,8 +251,8 @@
     "min_y": 5,	
     "max_y": 55,	
     "density": 30,	
-    "vertical_size": 30,	
-    "horizontal_size": 80,	
+    "vertical_size": 35,	
+    "horizontal_size": 100,	
 	"biomes": [	
 		"minecraft:ocean",	
 		"minecraft:swampland",                         	
@@ -283,8 +283,8 @@
     "min_y": 5,	
     "max_y": 55,	
     "density": 30,	
-    "vertical_size": 30,	
-    "horizontal_size": 80,	
+    "vertical_size": 35,	
+    "horizontal_size": 100,	
 	"biomes": [	
 		"minecraft:taiga",	
 		"minecraft:frozen_ocean",	
