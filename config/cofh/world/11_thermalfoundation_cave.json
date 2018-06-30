@@ -12,7 +12,7 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 4,
-			"ceiling": false,
+			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -35,7 +35,7 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 4,
-			"ceiling": true,
+			"ceiling": false,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -59,7 +59,7 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 5,
-			"ceiling": false,
+			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -82,7 +82,7 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 5,
-			"ceiling": true,
+			"ceiling": false,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -105,7 +105,7 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 5,
-			"ceiling": true,
+			"ceiling": false,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
