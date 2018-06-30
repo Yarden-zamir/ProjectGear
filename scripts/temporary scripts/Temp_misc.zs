@@ -47,15 +47,3 @@ recipes.addShaped(<waystones:warp_stone>,
 //Change endimium dust recipe:
 recipes.removeShapeless(<terraqueous:item_main:253>);
 recipes.addShapeless(<terraqueous:item_main:253> * 4, [<ore:dustEnder>, <minecraft:chorus_fruit_popped>]);
-
-//Add recipe to endimium crystal:
-recipes.addShaped(<terraqueous:doodads:4>,
-	[[null, <terraqueous:item_main:51>, null],
-	 [<terraqueous:item_main:51>, <valkyrienwarfareworld:etheriumcrystal>, <terraqueous:item_main:51>],
-	 [null, <terraqueous:item_main:51>, null]]);
-	 
-//Add recipe to burnium crystal:
-recipes.addShaped(<terraqueous:doodads:5>,
-	[[null, <terraqueous:item_main:50>, null],
-	 [<terraqueous:item_main:50>, <valkyrienwarfareworld:etheriumcrystal>, <terraqueous:item_main:50>],
-	 [null, <terraqueous:item_main:50>, null]]);
