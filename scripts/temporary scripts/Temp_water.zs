@@ -1,3 +1,5 @@
+//Credit to xDorito for making this script
+
 val botaniaHyrdo = <botania:specialflower>.withTag({type: "hydroangeas"});
  
 //add water recipes to forestry squeezer
