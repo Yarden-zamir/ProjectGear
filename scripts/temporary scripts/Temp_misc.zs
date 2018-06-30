@@ -81,6 +81,7 @@ mods.forestry.ThermionicFabricator.addCast(<projectred-core:resource_item:105> *
 val EnderPearl = <minecraft:ender_pearl>;
 val EnderDust = <appliedenergistics2:material:46>;
 
+//Crush ender pearls into ender pearl dust
 mods.immersiveengineering.Crusher.addRecipe(EnderDust, EnderPearl, 2048);
 mods.integrateddynamics.Squeezer.addRecipe(EnderPearl, EnderDust, null);
 mods.factorytech.DrillGrinder.addRecipe(EnderDust, EnderPearl, true);
