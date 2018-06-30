@@ -24,7 +24,13 @@
           }
         ]
       },
-      "dimension": "all"
+		"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					1,
+					0
+				]
+			}
     },
     "resonating_ore_the_end": {
       "distribution": "uniform",
@@ -49,7 +55,33 @@
           }
         ]
       },
-      "dimension": "all"
-    }
+		"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,
+					-1
+				]
+			}
+    },
+	"resonating_cave_top": {
+			"distribution": "cave",
+			"generator": {
+				"block": "deepresonance:resonating_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 4,
+			"ceiling": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
   }
 }

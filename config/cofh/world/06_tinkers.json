@@ -26,7 +26,13 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					1,
+					0
+				]
+			}
 		},
 		
 		"ardite": {
@@ -54,7 +60,13 @@
 					}
 				]
 			},
-			"dimension": "all"
+				"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					1,
+					0
+				]
+			}
 		}
 	}
 }

@@ -198,7 +198,13 @@
 					}
 				]
 			},
-			"dimension": "all"
+				"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					1,
+					0
+				]
+			}
 		}
 	}
 }
