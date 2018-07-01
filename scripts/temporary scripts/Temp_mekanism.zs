@@ -6,10 +6,10 @@ import crafttweaker.oredict.IOreDictEntry;
 //Disable Mekanism machines
 
 val itemsToDisable =[
-  <mekanism:machineblock:0>, //Enrichment Chamber
-  <mekanism:machineblock:3>, //Crusher
+  <mekanism:machineblock:0>,  //Enrichment Chamber
+  <mekanism:machineblock:3>,  //Crusher
   <mekanism:machineblock2:5>, //Precision sawmill
-  <mekanism:machineblock:10> //Energized smelter
+  <mekanism:machineblock:10>  //Energized smelter
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
