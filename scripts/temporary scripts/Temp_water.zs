@@ -23,9 +23,9 @@ mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:water> * 75, <ore:tre
  
  
 //add water recipes to Intergrated Dynamics
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:fish:0>, null, <liquid:water> * 1500, 10);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:melon>, null, <liquid:water> * 225, 10);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:reeds>, null, <liquid:water> * 300, 10);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(botaniaHyrdo, null, <liquid:water> * 6000, 10);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<forestry:crafting_material:5>, null, <liquid:water> * 1500, 10);
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:fish:0>, null, <liquid:water> * 1500);
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:melon>, null, <liquid:water> * 225);
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:reeds>, null, <liquid:water> * 300);
+mods.integrateddynamics.Squeezer.addRecipe(botaniaHyrdo, null, <liquid:water> * 6000);
+mods.integrateddynamics.Squeezer.addRecipe(<forestry:crafting_material:5>, null, <liquid:water> * 1500);
 
