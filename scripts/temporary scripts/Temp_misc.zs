@@ -50,27 +50,6 @@ recipes.addShapeless(<terraqueous:item_main:253> * 4, [<ore:dustEnder>, <minecra
 
 // ProjectRed Silicon renamed "Silicon Wafer"
 <projectred-core:resource_item:301>.displayName = "Silicon Wafer";
-
-// Make Ae2 Presses
-var ingotSteel = <ore:ingotSteel>;
-var plateTin = <ore:plateTin>;
-var plateNickel = <ore:plateNickel>;
-recipes.addShaped(<appliedenergistics2:material:13>,
-  [[ingotSteel,plateTin,ingotSteel],
-  [plateNickel,<immersiveengineering:mold>,plateNickel],
-  [ingotSteel,plateTin,ingotSteel]]);
-recipes.addShaped(<appliedenergistics2:material:14>,
-  [[ingotSteel,plateTin,ingotSteel],
-  [plateNickel,<immersiveengineering:mold:2>,plateNickel],
-  [ingotSteel,plateTin,ingotSteel]]);
-recipes.addShaped(<appliedenergistics2:material:15>,
-  [[ingotSteel,plateTin,ingotSteel],
-  [plateNickel,<immersiveengineering:mold:1>,plateNickel],
-  [ingotSteel,plateTin,ingotSteel]]);
-recipes.addShaped(<appliedenergistics2:material:19>,
-  [[ingotSteel,plateTin,ingotSteel],
-  [plateNickel,<immersiveengineering:mold:7>,plateNickel],
-  [ingotSteel,plateTin,ingotSteel]]);
   
 // Redstone + Sulfuric Acid to 4 Electrotine dust
 mods.factorytech.Electroplater.addRecipe(<minecraft:redstone>, <projectred-core:resource_item:105>);
