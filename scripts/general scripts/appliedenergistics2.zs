@@ -53,22 +53,22 @@ recipes.addShaped(<appliedenergistics2:part:260>,
 	 [null, <minecraft:piston>, null]]);
 
 
-+var ingotSteel = <ore:ingotSteel>;
-+var plateTin = <ore:plateTin>;
-+var plateNickel = <ore:plateNickel>;
-+recipes.addShaped(<appliedenergistics2:material:13>,
-+  [[ingotSteel,plateTin,ingotSteel],
-+  [plateNickel,<immersiveengineering:mold>,plateNickel],
-+  [ingotSteel,plateTin,ingotSteel]]);
-+recipes.addShaped(<appliedenergistics2:material:14>,
-+  [[ingotSteel,plateTin,ingotSteel],
-+  [plateNickel,<immersiveengineering:mold:2>,plateNickel],
-+  [ingotSteel,plateTin,ingotSteel]]);
-+recipes.addShaped(<appliedenergistics2:material:15>,
-+  [[ingotSteel,plateTin,ingotSteel],
-+  [plateNickel,<immersiveengineering:mold:1>,plateNickel],
-+  [ingotSteel,plateTin,ingotSteel]]);
-+recipes.addShaped(<appliedenergistics2:material:19>,
-+  [[ingotSteel,plateTin,ingotSteel],
-+  [plateNickel,<immersiveengineering:mold:7>,plateNickel],
-+  [ingotSteel,plateTin,ingotSteel]]);
+var ingotSteel = <ore:ingotSteel>;
+var plateTin = <ore:plateTin>;
+var plateNickel = <ore:plateNickel>;
+recipes.addShaped(<appliedenergistics2:material:13>,
+  [[ingotSteel,plateTin,ingotSteel],
+  [plateNickel,<immersiveengineering:mold>,plateNickel],
+  [ingotSteel,plateTin,ingotSteel]]);
+recipes.addShaped(<appliedenergistics2:material:14>,
+  [[ingotSteel,plateTin,ingotSteel],
+  [plateNickel,<immersiveengineering:mold:2>,plateNickel],
+  [ingotSteel,plateTin,ingotSteel]]);
+recipes.addShaped(<appliedenergistics2:material:15>,
+  [[ingotSteel,plateTin,ingotSteel],
+  [plateNickel,<immersiveengineering:mold:1>,plateNickel],
+  [ingotSteel,plateTin,ingotSteel]]);
+recipes.addShaped(<appliedenergistics2:material:19>,
+  [[ingotSteel,plateTin,ingotSteel],
+  [plateNickel,<immersiveengineering:mold:7>,plateNickel],
+  [ingotSteel,plateTin,ingotSteel]]);
