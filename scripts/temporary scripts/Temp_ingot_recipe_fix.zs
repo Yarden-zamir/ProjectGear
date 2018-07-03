@@ -70,13 +70,6 @@ recipes.addShaped(<thermalfoundation:meter>,
 	[[<ore:ingotCopper>, null, <ore:ingotCopper>],
 	[<ore:ingotTin>, <thermalfoundation:material:515>, <ore:ingotTin>], 
 	[null, <ore:gearGold>, null]]);
-
-// Enderium Blend recipe removal
-recipes.remove(<thermalfoundation:material:103>);
-
-// Enderium Blend: Lead Dust -> Nickel Dust
-recipes.addShapeless(<thermalfoundation:material:103> * 4, 
-	[<ore:dustNickel>,<ore:dustNickel>,<ore:dustNickel>,<ore:dustPlatinum>,<forge:bucketfilled>.onlyWithTag({FluidName: "ender", Amount: 1000})]);
 	
 // Decay Generator recipe removal
 recipes.remove(<nuclearcraft:decay_generator>);
@@ -131,20 +124,6 @@ recipes.addShaped(<thermalinnovation:injector>,
 	[[<minecraft:glass_bottle>, <minecraft:glowstone_dust>, <minecraft:glass_bottle>],
 	[<ore:ingotCopper>, <minecraft:glass_bottle>, <ore:ingotCopper>], 
 	[null, <ore:ingotTin>, null]]);
-
-// Lumium Blend recipe removal
-recipes.remove(<thermalfoundation:material:102>);
-
-// Lumium Blend: Silver Dust -> Nickel Dust
-recipes.addShapeless(<thermalfoundation:material:102> * 4, 
-	[<ore:dustTin>,<ore:dustTin>,<ore:dustTin>,<ore:dustNickel>,<forge:bucketfilled>.onlyWithTag({FluidName: "glowstone", Amount: 1000})]);
-
-// Signalum Blend recipe removal
-recipes.remove(<thermalfoundation:material:101>);
-
-// Signalum Blend: Silver Dust -> Nickel Dust
-recipes.addShapeless(<thermalfoundation:material:101> * 4, 
-	[<ore:dustCopper>,<ore:dustCopper>,<ore:dustCopper>,<ore:dustNickel>,<forge:bucketfilled>.onlyWithTag({FluidName: "redstone", Amount: 1000})]);
 	
 // Reinforced Upgrade Kit recipe removal
 recipes.remove(<thermalfoundation:upgrade:1>);
