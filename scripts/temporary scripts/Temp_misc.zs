@@ -64,3 +64,11 @@ val EnderDust = <appliedenergistics2:material:46>;
 mods.immersiveengineering.Crusher.addRecipe(EnderDust, EnderPearl, 2048);
 mods.integrateddynamics.Squeezer.addRecipe(EnderPearl, EnderDust, null);
 mods.factorytech.DrillGrinder.addRecipe(EnderDust, EnderPearl, true);
+
+// Leather Mana Infusion recipe removal
+  #Credit to DolphinBlaster for this script
+mods.botania.ManaInfusion.removeRecipe(<minecraft:leather>);
+ 
+// Oiled Leather -> 2 Leather Mana Infusion recipe
+  #Credit to DolphinBlaster for this script
+mods.botania.ManaInfusion.addAlchemy(<minecraft:leather> * 2, <contenttweaker:oiled_leather>, 600);
