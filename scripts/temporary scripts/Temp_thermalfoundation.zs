@@ -1,3 +1,5 @@
+#Credit to DolphinBlaster for writing this script
+
 var etherium = <valkyrienwarfareworld:etheriumcrystal>;
 var rodMold = <immersiveengineering:mold:2>;
 var blitzRod = <thermalfoundation:material:2050>;
@@ -96,3 +98,13 @@ recipes.remove(pyroDust);
 // Pyrotheum Dust recipe
 recipes.addShapeless(pyroDust * 2,
     [blazePowder,blazePowder,<xreliquary:mob_ingredient:7>,<terraqueous:item_main:251>]);
+	
+ 
+// Mana Dust recipes
+var manaDust = <thermalfoundation:material:1028>;
+
+recipes.addShapeless(manaDust * 4,
+    [<botania:manaresource:23>,<projectred-core:resource_item:510>,<botania:manaresource:1>,<botania:manabottle>]);
+   
+recipes.addShapeless(manaDust * 4,
+[<ore:dustCobalt>,<projectred-core:resource_item:510>,<minecraft:ender_pearl>,<redstonearsenal:material>]);
