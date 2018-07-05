@@ -38,7 +38,7 @@ recipes.addShaped(<immersivecables:coil_block:3>,
 recipes.addShaped(<immersivecables:transformer_fluix>,
     [[null, <immersivecables:relay_fluix>, null],
     [<ore:ingotNickel>, <immersivecables:coil_block>, <ore:ingotNickel>],
-    [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]])
+    [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]]);
    
 // Dense Fluix Transformer Nickel recipe
 recipes.addShaped(<immersivecables:transformer_fluix:1>,
