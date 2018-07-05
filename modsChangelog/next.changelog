@@ -1,5 +1,11 @@
 Removed mods:
 -NoFog: Would sometimes bug and create all of the fog, limiting visibility to under a meter
+-Package Mod: Expensive for the sake of being expensive isn't in the spirit of the pack
+-Mekanism Generators: Boring, mostly passive power generation. This pack has more interesting options.
+-GLASS: It was buggy and only worked correctly when looking at very specific angles.
+-iChun Util: Not needed since we removed GLASS
+-Hopper Ducts: Bithop is better. I thought we removed this a long time ago.
+-BadWitherNoCookieReloaded: Random Tweaks does this already
 
 Updated mods:
 -Factory Tech
