@@ -73,10 +73,12 @@ mods.botania.ManaInfusion.removeRecipe(<minecraft:leather>);
   #Credit to DolphinBlaster for this script
 mods.botania.ManaInfusion.addAlchemy(<minecraft:leather> * 2, <contenttweaker:oiled_leather>, 600);
 
-//Adds an ore dictionary value to Etherium ore
+//Adds an ore dictionary value to ores:
+	//Valkyrien Warfare etherium ore:
 val oreEtherium = <ore:oreEtherium>;
-oreEtherium.add(<<valkyrienwarfareworld:etheriumore>>);
+oreEtherium.add(<valkyrienwarfareworld:etheriumore>);
 
+	//AE2 charged certus quartz:
 val oreCertusQuartzCharged = <ore:oreCertusQuartzCharged>;
 oreEtherium.add(<appliedenergistics2:charged_quartz_ore>);
 
