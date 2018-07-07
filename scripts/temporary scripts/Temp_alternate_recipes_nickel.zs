@@ -3,13 +3,7 @@ recipes.addShapedMirrored(<nuclearcraft:part:4> * 2,
     [[<ore:ingotCopper>, <ore:ingotCopper>, null],
     [<ore:ingotNickel>, <ore:ingotNickel>, null],
     [<ore:ingotCopper>, <ore:ingotCopper>, null]]);
-   
-// Redstone Servo Nickel recipe
-recipes.addShapedMirrored(<thermalfoundation:material:512>,
-    [[null, <minecraft:redstone>, null],
-    [null, <ore:ingotNickel>, null],
-    [null, <minecraft:redstone>, null]]);
-   
+
 // Fluix Coil Block Nickel recipe
 recipes.addShaped(<immersivecables:coil_block>,
     [[<immersivecables:wire_coil>, <immersivecables:wire_coil>, <immersivecables:wire_coil>],
@@ -132,13 +126,7 @@ recipes.addShaped(<magneticraft:crafting:3>,
     [[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>],
     [null, <magneticraft:copper_coil>, null],
     [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]]);
-   
-// Electric Connector Nickel recipe
-recipes.addShapedMirrored(<magneticraft:connector> * 8,
-    [[null, null, null],
-    [null, <ore:ingotNickel>, null],
-    [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
-   
+
 // Resonating Machine Frame Nickel recipe
 recipes.addShaped(<deepresonance:machine_frame>,
     [[<ore:ingotNickel>, <deepresonance:resonating_plate>, <ore:ingotNickel>],
