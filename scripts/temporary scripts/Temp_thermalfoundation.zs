@@ -108,3 +108,60 @@ recipes.addShapeless(manaDust * 4,
    
 recipes.addShapeless(manaDust * 4,
 [<ore:dustCobalt>,<projectred-core:resource_item:510>,<minecraft:ender_pearl>,<redstonearsenal:material>]);
+
+
+// Redstone Reception Coil recipe removal
+recipes.remove(<thermalfoundation:material:513>);
+ 
+// Redstone Reception Coil Thermionic Fabricator recipe
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:513>,
+    [[null,null,<minecraft:redstone>],
+    [null,<minecraft:gold_ingot>,null],
+    [<minecraft:redstone>,null,null]],
+    <liquid: glass> * 500);
+ 
+// Remove Lines 99 - 106 Temp_ingot_recipe_fix.zs (Outdated Redstone Transmission Coil recipe)
+ 
+// Redstone Transmission Coil Thermionic Fabricator recipe
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:514>,
+    [[null,null,<minecraft:redstone>],
+    [null,<ore:ingotTin>,null],
+    [<minecraft:redstone>,null,null]],
+    <liquid: glass> * 500);
+   
+// Redstone Conductance Coil recipe removal
+recipes.remove(<thermalfoundation:material:515>);
+ 
+// Redstone Conductance Coil Thermionic Fabricator recipe
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:515>,
+    [[<minecraft:redstone>,null,null],
+    [null,<ore:ingotElectrum>,null],
+    [null,null,<minecraft:redstone>]],
+    <liquid: glass> * 500);
+   
+// Redstone Servo recipe removal
+recipes.remove(<thermalfoundation:material:512>);
+ 
+// Redstone Servo Iron and Nickel Thermionic Fabricator recipes
+// Iron recipe
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:512>,
+    [[null,<minecraft:redstone>,null],
+    [null,<minecraft:iron_ingot>,null],
+    [null,<minecraft:redstone>,null]],
+    <liquid: glass> * 500);
+// Nickel recipe
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:512>,
+    [[null,<minecraft:redstone>,null],
+    [null,<ore:ingotNickel>,null],
+    [null,<minecraft:redstone>,null]],
+    <liquid: glass> * 500);
+   
+// Tool Casing recipe removal
+recipes.remove(<thermalfoundation:material:640>);
+ 
+// Tool Casing Thermionic Fabricator recipe
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:640>,
+    [[null,<minecraft:redstone>,null],
+    [<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:gold_ingot>],
+    [<minecraft:redstone>,<minecraft:iron_ingot>,<minecraft:redstone>]],
+    <liquid: glass> * 500);
