@@ -14,7 +14,7 @@ Updated mods:
 Added mods:
 -Scannable
 -Earthworks
--OCSensors
+-OC Sensors
 
 Major script changes:
 -Basic Open Computers components are now inscriber recipes
@@ -51,7 +51,6 @@ Major script changes:
 -Partially fixed Magneticraft's recipes.
 -Crush ender pearls into ender dust
 -Nuclearcraft's boron spaxelhoe is now made from osmium. This recipe will likely be reverted once Nuclearcraft is fully configurized.
--
 
 Major config changes:
 -Removed XP cost from waystones
