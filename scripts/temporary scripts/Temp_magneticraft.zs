@@ -17,3 +17,17 @@ recipes.addShaped("multiblock_part_striped_ink_sac", <magneticraft:multiblock_pa
     [[inkSac, goldPlate, inkSac],
     [goldPlate, <minecraft:stone:0>, goldPlate],
     [inkSac, goldPlate, inkSac]]);
+	
+// Electric Connector Iron and Nickel Thermionic Fabricator recipe
+// Iron recipe
+mods.forestry.ThermionicFabricator.addCast(<magneticraft:connector>,
+    [[null,null,null],
+    [null,<minecraft:iron_ingot>,null],
+    [<ore:stone>,<ore:ingotCopper>,<ore:stone>]],
+    <liquid: glass> * 500);
+// Nickel recipe
+mods.forestry.ThermionicFabricator.addCast(<magneticraft:connector>,
+    [[null,null,null],
+    [null,<ore:ingotNickel>,null],
+    [<ore:stone>,<ore:ingotCopper>,<ore:stone>]],
+    <liquid: glass> * 500);
