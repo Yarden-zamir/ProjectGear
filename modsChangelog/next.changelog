@@ -15,3 +15,58 @@ Added mods:
 -Scannable
 -Earthworks
 -OCSensors
+
+Major script changes:
+-Basic Open Computers components are now inscriber recipes
+  -Transistor
+  -All 3 tiers of microchip
+  -Cable
+  -Printed PCB
+  -Disk platter
+-Moved several basic crafting components from crafting recipes to thermionic fabricator recipes:
+  -Some Thermal Foundation items (coils, redstone servo, tool casing)
+  -Magneticraft electric connector
+-Removed Tome of Alkahestry
+-Renamed a few items so they don't share the same name as another
+  -Pneumaticraft resistor > Compressed Resistor
+  -Pneumaticraft capacitor > Compressed Capacitor
+  -Project red jetpack > Electrotine Jetpack
+  -Mekanism jetpack > Gas Jetpack
+  -Open Computers cable > Ethernet Cable
+  -Buildcraft tank > Factory Tank
+  -Pneumaticraft Printed Circuit Board > Compressed Printed Circuit Board
+-Added an alternate recipes for Mystcraft's ink vials that uses Forestry water cans. This means no annoying unstackable water bottles.
+-Renamed Factory Tech's cupronickel block to "burnt constantan." It can be made by smelting a nickel block.
+-Factory Tech now uses Thermal Foundation constantan instead of FT's cupronickel. They're the same alloy.
+-Reworked Thermal Innovation recipes
+  -Disabled redstone and leadstone tiers to cut down on clutter
+  -Added new recipes for hardened and resonant tiers
+  -Hardened tier use either invar or steel nuggets
+  -Resonant tier use either terrasteel or enderium nuggets (and don't require hardened tools)
+-Changed a bunch of recipes to use stackable items instead of unstackable ones (ie: iron pickaxes were replaced with iron pickaxe heads)
+-Added 16 alternative recipes that use nickel instead of iron. This was done to commonly crafted items such as pistons, translocators and hoppers. The original recipes were not removed.
+-Added 7 alternate recipes for AE2 items that use osmium instead of iron. The original recipes were not removed.
+-Replaced several recipes that use lead, aluminum or silver with ones that use other metals.
+-Added recipes for Thermal Foundation's hardened glass
+-Partially fixed Magneticraft's recipes.
+-Crush ender pearls into ender dust
+-Nuclearcraft's boron spaxelhoe is now made from osmium. This recipe will likely be reverted once Nuclearcraft is fully configurized.
+-
+
+Major config changes:
+-Removed XP cost from waystones
+-Fixed some Morph-O-Tool alias issues. It now works with Immersive Engineering's addons and the other Buildcraft modules.
+-Squared the durability of the ImE hammer
+-Set OpenComputers to peaceful recipes (This didn't seem to do much)
+-Scannable can detect all modded ores, including Deep Resonance crystals
+-Disabled Tinkers' meat > leather drying rack recipes
+-Disabled Thermal Foundation aluminum/electrum tools, enabled nickel tools
+
+
+Fixes:
+-Several minor script tweaks
+-Fixed AE2 insriber recipes by resetting the mod's recipe configs
+-Replaced lead plates in AE2 press recipes with nickel
+
+Known issues:
+-Magneticraft still uses light metal plates
