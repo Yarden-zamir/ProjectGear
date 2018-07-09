@@ -4,12 +4,6 @@ recipes.addShapedMirrored(<nuclearcraft:part:4> * 2,
     [<ore:ingotNickel>, <ore:ingotNickel>, null],
     [<ore:ingotCopper>, <ore:ingotCopper>, null]]);
    
-// Redstone Servo Nickel recipe
-recipes.addShapedMirrored(<thermalfoundation:material:512>,
-    [[null, <minecraft:redstone>, null],
-    [null, <ore:ingotNickel>, null],
-    [null, <minecraft:redstone>, null]]);
-   
 // Fluix Coil Block Nickel recipe
 recipes.addShaped(<immersivecables:coil_block>,
     [[<immersivecables:wire_coil>, <immersivecables:wire_coil>, <immersivecables:wire_coil>],
