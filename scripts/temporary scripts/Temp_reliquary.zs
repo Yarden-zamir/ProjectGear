@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack;
+
 //Credit to xDorito for making this script
 
 //Compression Chamber
@@ -41,3 +43,18 @@ mods.tconstruct.Casting.addTableRecipe(<xreliquary:mob_ingredient:10>, <minecraf
 mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:5>, [[<contenttweaker:oiled_leather>, <tconstruct:materials:17>]], 30);
 mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:6>, [[<tconstruct:edible:33>, <minecraft:rotten_flesh> * 8]], 30);
 mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:7>, [[<tconstruct:edible:34> * 4, <botania:blazeblock>]], 30);
+
+
+//Script by DolphinBlaster
+ 
+val itemsToDisable =[
+// Disables Tome of Alkahestry
+    <xreliquary:alkahestry_tome:1001>
+] as IItemStack[];
+ 
+val craftingToDisable =[
+// Disables Crafting of Tome of Alkahestry
+    <xreliquary:alkahestry_tome:1001>
+] as IItemStack[];
+ 
+scripts.functions.disableItems(itemsToDisable);
