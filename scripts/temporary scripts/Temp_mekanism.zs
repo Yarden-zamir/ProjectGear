@@ -9,10 +9,28 @@ val itemsToDisable =[
   <mekanism:machineblock:0>,  //Enrichment Chamber
   <mekanism:machineblock:3>,  //Crusher
   <mekanism:machineblock2:5>, //Precision sawmill
-  <mekanism:machineblock:10>  //Energized smelter
+  <mekanism:machineblock:10>,  //Energized smelter
+  //Disabled non-gas cables. We have more interesting and optimized ways to transmit RF, items and fluids
+  //Script segment by DolphinBlaster
+  <mekanism:transmitter>.withTag({tier: 0}),
+  <mekanism:transmitter>.withTag({tier: 1}),
+  <mekanism:transmitter>.withTag({tier: 2}),
+  <mekanism:transmitter>.withTag({tier: 3}),
+  <mekanism:transmitter:1>.withTag({tier: 0}),
+  <mekanism:transmitter:1>.withTag({tier: 1}),
+  <mekanism:transmitter:1>.withTag({tier: 2}),
+  <mekanism:transmitter:1>.withTag({tier: 3}),
+  <mekanism:transmitter:3>.withTag({tier: 0}),
+  <mekanism:transmitter:3>.withTag({tier: 1}),
+  <mekanism:transmitter:3>.withTag({tier: 2}),
+  <mekanism:transmitter:3>.withTag({tier: 3}),
+  <mekanism:transmitter:4>.withTag({tier: 0}),
+  <mekanism:transmitter:5>.withTag({tier: 0}),
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
+
+//Script by DeviantCrafter
 
 //Add important enrichment chamber and crusher recipes to other machines:
 
@@ -40,7 +58,7 @@ mods.pneumaticcraft.pressurechamber.addRecipe([<mekanism:polyethene:0> * 3], 2.0
 
   //Factory Tech compression chamber
 	//3 HDPE pellet > 1 HDPE sheet
-mods.factorytech.CompressionChamber.addRecipe(<mekanism:polyethene:0> * 3, <mekanism:polyethene:2>, null);
+mods.factorytech.CompressionChamber.addRecipe(<mekanism:polyethene:2>, <mekanism:polyethene:0> * 3, null);
 
 #################
 
@@ -72,26 +90,28 @@ mods.immersiveengineering.Crusher.addRecipe(<mekanism:dirtydust:6>, <mekanism:cl
 
   //Integrated Dynamics squeezer:
   //Converts dirty metal clumps into dirty metal dust
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<mekanism:dirtydust:0>, <mekanism:clump:0>, null, 10);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<mekanism:dirtydust:1>, <mekanism:clump:1>, null, 10);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<mekanism:dirtydust:2>, <mekanism:clump:2>, null, 10);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<mekanism:dirtydust:3>, <mekanism:clump:3>, null, 10);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<mekanism:dirtydust:4>, <mekanism:clump:4>, null, 10);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<mekanism:dirtydust:5>, <mekanism:clump:5>, null, 10);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<mekanism:dirtydust:6>, <mekanism:clump:6>, null, 10);
+mods.integrateddynamics.Squeezer.addRecipe(<mekanism:clump:0>, <mekanism:dirtydust:0>,  <liquid:water_black> * 100);
+mods.integrateddynamics.Squeezer.addRecipe(<mekanism:clump:1>, <mekanism:dirtydust:1>, <liquid:water_black> * 100);
+mods.integrateddynamics.Squeezer.addRecipe(<mekanism:clump:2>, <mekanism:dirtydust:2>, <liquid:water_black> * 100);
+mods.integrateddynamics.Squeezer.addRecipe(<mekanism:clump:3>, <mekanism:dirtydust:3>, <liquid:water_black> * 100);
+mods.integrateddynamics.Squeezer.addRecipe(<mekanism:clump:4>, <mekanism:dirtydust:4>, <liquid:water_black> * 100);
+mods.integrateddynamics.Squeezer.addRecipe(<mekanism:clump:5>, <mekanism:dirtydust:5>, <liquid:water_black> * 100);
+mods.integrateddynamics.Squeezer.addRecipe(<mekanism:clump:6>, 	<mekanism:dirtydust:6>, <liquid:water_black> * 100);
+
+mods.factorytech.DrillGrinder.addRecipe(<minecraft:gold_nugget> * 9, <minecraft:gold_ingot>, true);
   
 #################
-  
+/*
   //Factory Tech drill grinder:
   
-mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:1> * 9, <mekanism:clump:1>, false);
-mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:2> * 9, <mekanism:clump:2>, false);
-mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:3> * 9, <mekanism:clump:3>, false);
-mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:4> * 9, <mekanism:clump:4>, false);
-mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:5> * 9, <mekanism:clump:5>, false);
-mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:6> * 9, <mekanism:clump:6>, false);
-mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:7> * 9, <mekanism:clump:7>, false);
-  
+mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:1>, <mekanism:clump:1>, false);
+mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:2>, <mekanism:clump:2>, false);
+mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:3>, <mekanism:clump:3>, false);
+mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:4>, <mekanism:clump:4>, false);
+mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:5>, <mekanism:clump:5>, false);
+mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:6>, <mekanism:clump:6>, false);
+mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:7>, <mekanism:clump:7>, false);
+*/
 #################
 
   //Factory Tech fluid agitator:
@@ -103,10 +123,11 @@ mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:7> * 9, <mekanism:cl
 #################
 
   //Tinkers' Construct liquid casting:
-mods.tconstruct.Casting.addBasinRecipe(<mekanism:dirtydust:1>, <thermalfoundation:material:0>,  <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addBasinRecipe(<mekanism:dirtydust:2>, <thermalfoundation:material:1>,  <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addBasinRecipe(<mekanism:dirtydust:3>, <mekanism:dust:2>, 			    <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addBasinRecipe(<mekanism:dirtydust:4>, <thermalfoundation:material:64>, <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addBasinRecipe(<mekanism:dirtydust:5>, <thermalfoundation:material:65>, <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addBasinRecipe(<mekanism:dirtydust:6>, <thermalfoundation:material:66>, <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addBasinRecipe(<mekanism:dirtydust:7>, <thermalfoundation:material:67>, <liquid:dist_water>, 30, true);
+
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:0>,  <mekanism:dirtydust:1>, <liquid:dist_water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:1>,  <mekanism:dirtydust:2>, <liquid:dist_water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:64>, <mekanism:dirtydust:3>, <liquid:dist_water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<mekanism:dust:2>,  				<mekanism:dirtydust:4>, <liquid:dist_water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:65>, <mekanism:dirtydust:5>, <liquid:dist_water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:66>, <mekanism:dirtydust:6>, <liquid:dist_water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:67>, <mekanism:dirtydust:7>, <liquid:dist_water>, 30, true);
