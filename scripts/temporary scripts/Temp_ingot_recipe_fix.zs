@@ -70,13 +70,6 @@ recipes.addShaped(<thermalfoundation:meter>,
 	[[<ore:ingotCopper>, null, <ore:ingotCopper>],
 	[<ore:ingotTin>, <thermalfoundation:material:515>, <ore:ingotTin>], 
 	[null, <ore:gearGold>, null]]);
-
-// Enderium Blend recipe removal
-recipes.remove(<thermalfoundation:material:103>);
-
-// Enderium Blend: Lead Dust -> Nickel Dust
-recipes.addShapeless(<thermalfoundation:material:103> * 4, 
-	[<ore:dustNickel>,<ore:dustNickel>,<ore:dustNickel>,<ore:dustPlatinum>,<forge:bucketfilled>.onlyWithTag({FluidName: "ender", Amount: 1000})]);
 	
 // Decay Generator recipe removal
 recipes.remove(<nuclearcraft:decay_generator>);
@@ -95,15 +88,6 @@ recipes.addShaped(<nuclearcraft:part:10>,
 	[[<ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotNickel>],
 	[<ore:ingotSteel>, <nuclearcraft:alloy:1>, <ore:ingotSteel>], 
 	[<ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotNickel>]]);
-
-// Redstone Transmission Coil recipe removal
-recipes.remove(<thermalfoundation:material:514>);
-
-// Redstone Transmission Coil: Silver -> Tin
-recipes.addShapedMirrored(<thermalfoundation:material:514>, 
-	[[null, null, <minecraft:redstone>],
-	[null, <ore:ingotTin>, null], 
-	[<minecraft:redstone>, null, null]]);
 
 // Fluxbore (Basic) recipe removal
 recipes.remove(<thermalinnovation:drill>);
@@ -131,20 +115,6 @@ recipes.addShaped(<thermalinnovation:injector>,
 	[[<minecraft:glass_bottle>, <minecraft:glowstone_dust>, <minecraft:glass_bottle>],
 	[<ore:ingotCopper>, <minecraft:glass_bottle>, <ore:ingotCopper>], 
 	[null, <ore:ingotTin>, null]]);
-
-// Lumium Blend recipe removal
-recipes.remove(<thermalfoundation:material:102>);
-
-// Lumium Blend: Silver Dust -> Nickel Dust
-recipes.addShapeless(<thermalfoundation:material:102> * 4, 
-	[<ore:dustTin>,<ore:dustTin>,<ore:dustTin>,<ore:dustNickel>,<forge:bucketfilled>.onlyWithTag({FluidName: "glowstone", Amount: 1000})]);
-
-// Signalum Blend recipe removal
-recipes.remove(<thermalfoundation:material:101>);
-
-// Signalum Blend: Silver Dust -> Nickel Dust
-recipes.addShapeless(<thermalfoundation:material:101> * 4, 
-	[<ore:dustCopper>,<ore:dustCopper>,<ore:dustCopper>,<ore:dustNickel>,<forge:bucketfilled>.onlyWithTag({FluidName: "redstone", Amount: 1000})]);
 	
 // Reinforced Upgrade Kit recipe removal
 recipes.remove(<thermalfoundation:upgrade:1>);
@@ -169,7 +139,7 @@ recipes.remove(<immersiveengineering:connector:5>);
 
 // HV Wire Relay: Aluminum -> Nickel
 recipes.addShaped(<immersiveengineering:connector:5> * 8, 
-	[[null, <ore:ingotNickel>, null],
+	[[null, <magneticraft:connector>, null],
 	[<immersiveengineering:stone_decoration:8>, <ore:ingotNickel>, <immersiveengineering:stone_decoration:8>], 
 	[<immersiveengineering:stone_decoration:8>, <ore:ingotNickel>, <immersiveengineering:stone_decoration:8>]]);
 	
@@ -178,7 +148,7 @@ recipes.remove(<immersiveengineering:connector:4>);
 
 // HV Wire Connector: Aluminum -> Nickel
 recipes.addShaped(<immersiveengineering:connector:4> * 4, 
-	[[null, <ore:ingotNickel>, null],
+	[[null, <magneticraft:connector>, null],
 	[<minecraft:hardened_clay>, <ore:ingotNickel>, <minecraft:hardened_clay>], 
 	[<minecraft:hardened_clay>, <ore:ingotNickel>, <minecraft:hardened_clay>]]);
 
@@ -194,19 +164,27 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "componen
 // Casull Cartridge Blueprint recipe removal
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>.withTag({bullet: "casull"}));
 
-// Casull Cartridge: Lead Nugget -> Tin Nugget
+// Casull Cartridge: Lead Nugget -> Copper Nugget
 mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "casull"}), 
-	[<immersiveengineering:bullet>, <minecraft:gunpowder>, <ore:nuggetTin>, <ore:nuggetTin>]);
+	[<immersiveengineering:bullet>, <minecraft:gunpowder>, <ore:nuggetCopper>, <ore:nuggetCopper>]);
 
 // Silver Cartridge Blueprint recipe removal
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>.withTag({bullet: "silver"}));
+
+// Silver Cartridge: Lead Nugget -> Gold Nugget
+mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "silver"}), 
+	[<immersiveengineering:bullet>, <minecraft:gunpowder>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]);
+
+<immersiveengineering:bullet:2>.withTag({bullet: "silver"}).displayName = "Holy Cartridge";
+
+var dustBurnium = <terraqueous:item_main:251>;
 
 // Dragon's Breath Cartridge Blueprint recipe removal
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>.withTag({bullet: "dragonsbreath"}));
 
 // Dragon's Breath Cartridge: Aluminum Dust -> Tin Dust
 mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "dragonsbreath"}), 
-	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, <ore:dustTin>, <ore:dustTin>]);
+	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, dustBurnium, dustBurnium]);
 	
 // Flare Cartridge Blueprint recipe removal
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>.withTag({flareColour: 16777090, bullet: "flare"}));
@@ -214,12 +192,12 @@ mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>.withTag({flareColour: 13381126, bullet: "flare"}));
 
 // Flare Cartridge: Aluminum Dust -> Tin Dust
-mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "dragonsbreath"}), 
-	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, <ore:dustTin>, <ore:dyeRed>]);
-mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "dragonsbreath"}), 
-	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, <ore:dustTin>, <ore:dyeGreen>]);
-mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "dragonsbreath"}), 
-	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, <ore:dustTin>, <ore:dyeYellow>]);
+mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "flare"}).withTag({flareColour: 16777090, bullet: "flare"}), 
+	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, dustBurnium, <ore:dyeRed>]);
+mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "flare"}).withTag({flareColour: 2925323, bullet: "flare"}), 
+	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, dustBurnium, <ore:dyeGreen>]);
+mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "flare"}).withTag({flareColour: 13381126, bullet: "flare"}), 
+	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, dustBurnium, <ore:dyeYellow>]);
 
 // Napalm recipe removal
 mods.immersiveengineering.Mixer.removeRecipe(<liquid:napalm>);
