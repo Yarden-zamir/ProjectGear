@@ -144,3 +144,9 @@ recipes.addShaped(<deepresonance:tank>,
     [[<ore:ingotNickel>, <minecraft:obsidian>, <ore:ingotNickel>],
     [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
     [<ore:ingotNickel>, <deepresonance:resonating_plate>, <ore:ingotNickel>]]);
+	
+// Copper Solenoid Nickel recipe
+recipes.addShapedMirrored(<nuclearcraft:part:4> * 2,
+    [[<ore:ingotCopper>, <ore:ingotCopper>, null],
+    [<ore:ingotNickel>, <ore:ingotNickel>, null],
+    [<ore:ingotCopper>, <ore:ingotCopper>, null]]);
