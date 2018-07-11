@@ -124,10 +124,10 @@ mods.factorytech.DrillGrinder.addRecipe(<mekanism:dirtydust:7>, <mekanism:clump:
 
   //Tinkers' Construct liquid casting:
 
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:0>,  <mekanism:dirtydust:1>, <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:1>,  <mekanism:dirtydust:2>, <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:64>, <mekanism:dirtydust:3>, <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addTableRecipe(<mekanism:dust:2>,  				<mekanism:dirtydust:4>, <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:65>, <mekanism:dirtydust:5>, <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:66>, <mekanism:dirtydust:6>, <liquid:dist_water>, 30, true);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:67>, <mekanism:dirtydust:7>, <liquid:dist_water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:0>,  <mekanism:dirtydust:1>, <liquid:water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:1>,  <mekanism:dirtydust:2>, <liquid:water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:64>, <mekanism:dirtydust:3>, <liquid:water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<mekanism:dust:2>,  				<mekanism:dirtydust:4>, <liquid:water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:65>, <mekanism:dirtydust:5>, <liquid:water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:66>, <mekanism:dirtydust:6>, <liquid:water>, 30, true);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:67>, <mekanism:dirtydust:7>, <liquid:water>, 30, true);
