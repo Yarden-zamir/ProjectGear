@@ -15,7 +15,7 @@
     "rarity": 2000,
     "min_y": 5,
     "max_y": 55,
-    "density": 30,
+    "density": 15,
     "vertical_size": 30,
     "horizontal_size": 80
   },
@@ -35,7 +35,7 @@
     "rarity": 2000,
     "min_y": 5,
     "max_y": 55,
-    "density": 30,
+    "density": 15,
     "vertical_size": 30,
     "horizontal_size": 80
   },
@@ -56,7 +56,7 @@
     "rarity": 2000,
     "min_y": 5,
     "max_y": 55,
-    "density": 30,
+    "density": 15,
     "vertical_size": 30,
     "horizontal_size": 80
   },
@@ -76,7 +76,7 @@
     "rarity": 2000,
     "min_y": 5,
     "max_y": 55,
-    "density": 30,
+    "density": 15,
     "vertical_size": 30,
     "horizontal_size": 80
   },
@@ -95,7 +95,7 @@
     "rarity": 2000,
     "min_y": 5,
     "max_y": 55,
-    "density": 30,
+    "density": 15,
     "vertical_size": 30,
     "horizontal_size": 80
   },
@@ -206,7 +206,7 @@
     "rarity": 3000,	
     "min_y": 5,	
     "max_y": 55,	
-    "density": 30,	
+    "density": 15,	
     "vertical_size": 35,	
     "horizontal_size": 100,	
 	"biomes": [	
@@ -250,7 +250,7 @@
     "rarity": 3000,	
     "min_y": 5,	
     "max_y": 55,	
-    "density": 30,	
+    "density": 15,	
     "vertical_size": 35,	
     "horizontal_size": 100,	
 	"biomes": [	
@@ -282,7 +282,7 @@
     "rarity": 3000,	
     "min_y": 5,	
     "max_y": 55,	
-    "density": 30,	
+    "density": 15,	
     "vertical_size": 35,	
     "horizontal_size": 100,	
 	"biomes": [	
