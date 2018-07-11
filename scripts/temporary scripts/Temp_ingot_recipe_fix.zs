@@ -169,7 +169,7 @@ recipes.remove(<immersiveengineering:connector:5>);
 
 // HV Wire Relay: Aluminum -> Nickel
 recipes.addShaped(<immersiveengineering:connector:5> * 8, 
-	[[null, <ore:ingotNickel>, null],
+	[[null, <magneticraft:connector>, null],
 	[<immersiveengineering:stone_decoration:8>, <ore:ingotNickel>, <immersiveengineering:stone_decoration:8>], 
 	[<immersiveengineering:stone_decoration:8>, <ore:ingotNickel>, <immersiveengineering:stone_decoration:8>]]);
 	
@@ -178,7 +178,7 @@ recipes.remove(<immersiveengineering:connector:4>);
 
 // HV Wire Connector: Aluminum -> Nickel
 recipes.addShaped(<immersiveengineering:connector:4> * 4, 
-	[[null, <ore:ingotNickel>, null],
+	[[null, <magneticraft:connector>, null],
 	[<minecraft:hardened_clay>, <ore:ingotNickel>, <minecraft:hardened_clay>], 
 	[<minecraft:hardened_clay>, <ore:ingotNickel>, <minecraft:hardened_clay>]]);
 
