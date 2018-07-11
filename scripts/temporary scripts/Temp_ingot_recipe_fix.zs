@@ -96,15 +96,6 @@ recipes.addShaped(<nuclearcraft:part:10>,
 	[<ore:ingotSteel>, <nuclearcraft:alloy:1>, <ore:ingotSteel>], 
 	[<ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotNickel>]]);
 
-// Redstone Transmission Coil recipe removal
-recipes.remove(<thermalfoundation:material:514>);
-
-// Redstone Transmission Coil: Silver -> Tin
-recipes.addShapedMirrored(<thermalfoundation:material:514>, 
-	[[null, null, <minecraft:redstone>],
-	[null, <ore:ingotTin>, null], 
-	[<minecraft:redstone>, null, null]]);
-
 // Fluxbore (Basic) recipe removal
 recipes.remove(<thermalinnovation:drill>);
 
