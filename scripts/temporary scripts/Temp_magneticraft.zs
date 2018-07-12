@@ -2,6 +2,11 @@ import crafttweaker.item.IIngredient;
 
 // plates
 
+recipes.replaceAllOccurences(<magneticraft:light_plates:0>, <ore:plateIron>);
+recipes.replaceAllOccurences(<magneticraft:light_plates:1>, <ore:plateGold>);
+recipes.replaceAllOccurences(<magneticraft:light_plates:2>, <ore:plateCopper>);
+recipes.replaceAllOccurences(<magneticraft:light_plates:6>, <ore:plateSteel>);
+
 recipes.replaceAllOccurences(<magneticraft:heavy_plates:0>, <ore:plateIron>);
 recipes.replaceAllOccurences(<magneticraft:heavy_plates:1>, <ore:plateGold>);
 recipes.replaceAllOccurences(<magneticraft:heavy_plates:2>, <ore:plateCopper>);
