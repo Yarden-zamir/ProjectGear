@@ -66,5 +66,5 @@ recipes.addShapeless("gear_shapeless_explorerJetpack", <ironjetpacks:explorer_je
     return out.withTag(ins.basic_jetpack.tag);
   }, null);
   
-  
+//Repair survivalist jetpack with etherium
 recipes.addShapeless(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}), [<ironjetpacks:survivalist_jetpack>, <valkyrienwarfareworld:etheriumcrystal>]);
