@@ -2,11 +2,11 @@
   "jetpack_type": {
     "name": "basic",
     "disable": false,
-    "tier": 3,
-    "color": 10981685,
+    "tier": 2,
+    "color": 13529601,
     "armor_points": 2,
     "enchantability": 18,
-    "crafting_material": "ore:ingotElectrum",
+    "crafting_material": "ore:ingotTin",
     "force_recipes": false
   },
   "jetpack_info": {
@@ -14,7 +14,7 @@
     "usage": 310,
     "speed_vertical": 0.79,
     "accel_vertical": 0.14,
-    "speed_sideways": 0.17,
+    "speed_sideways": 0.20,
     "speed_hover_descend": 0.37,
     "speed_hover": 0.03,
     "sprint_speed_multi": 1.6,
