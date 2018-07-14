@@ -7,7 +7,7 @@ mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:0>, <mi
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:2>, <minecraft:spider_eye> * 5, null);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:12>, <minecraft:shulker_shell> * 5, <liquid:water_black> * 5000);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:3>, <minecraft:blaze_powder>, <fluid:sulfur> * 666);
-mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:11>, <quark:biotite_ore>, <fluid:liquidchorus> * 1000);
+mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:11>, <quark:biotite>, <fluid:liquidchorus> * 1000);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:4>, <tconstruct:edible:30>, <fluid:glass> * 1000);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:4>, <tconstruct:edible:31>, <fluid:glass> * 1000);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:4>, <tconstruct:edible:32>, <fluid:glass> * 1000);
@@ -23,8 +23,8 @@ mods.pneumaticcraft.pressurechamber.addRecipe([<tconstruct:edible:34>, <tconstru
 mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:oiled_leather>, <tconstruct:materials:17>], 2.0, [<xreliquary:mob_ingredient:5>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<tconstruct:edible:33>, <minecraft:rotten_flesh> * 8], 2.0, [<xreliquary:mob_ingredient:6>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<botania:blazeblock>, <tconstruct:edible:34> * 4], 2.0, [<xreliquary:mob_ingredient:7>]);
-mods.pneumaticcraft.pressurechamber.addRecipe([<quark:biotite_ore> * 5, <minecraft:chorus_fruit_popped>], 2.0, [<xreliquary:mob_ingredient:11>]);
-mods.pneumaticcraft.pressurechamber.addRecipe([<minecraft:dye:0> * 5, <minecraft:shulker_shell>], 2.0, [<xreliquary:mob_ingredient:12>]);
+mods.pneumaticcraft.pressurechamber.addRecipe([<quark:biotite> * 5, <minecraft:chorus_fruit_popped>], 2.0, [<xreliquary:mob_ingredient:11>]);
+mods.pneumaticcraft.pressurechamber.addRecipe([<minecraft:dye:0>, <minecraft:shulker_shell>* 5], 2.0, [<xreliquary:mob_ingredient:12>]);
  
  
 //coke oven
@@ -40,9 +40,9 @@ mods.tconstruct.Casting.addTableRecipe(<xreliquary:mob_ingredient:10>, <minecraf
 //mods.tconstruct.Casting.addTableRecipe(<minecraft:gold_ingot>, <minecraft:iron_ingot>, <liquid:molten_gold>, 30, true, 200);
  
 //forestry Carpenter
-mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:5>, [[<contenttweaker:oiled_leather>, <tconstruct:materials:17>]], 30);
-mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:6>, [[<tconstruct:edible:33>, <minecraft:rotten_flesh> * 8]], 30);
-mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:7>, [[<tconstruct:edible:34> * 4, <botania:blazeblock>]], 30);
+mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:5>, [[<contenttweaker:oiled_leather>, <tconstruct:materials:17>]], 30, <liquid:blood> * 1000);
+mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:6>, [[<tconstruct:edible:33>, <minecraft:rotten_flesh> * 8]], 30, <liquid:blood> * 1000);
+mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:7>, [[<tconstruct:edible:34> * 4, <botania:blazeblock>]], 30, <liquid:lava> * 1000);
 
 
 //Script by DolphinBlaster
