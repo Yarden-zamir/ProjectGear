@@ -13,11 +13,3 @@ val batch = {
 addDescBatch(batch);
 
 print("Documentation for iron jetpacks loaded successfully");
-
-
-
-<ironjetpacks:survivalist_jetpack>.addShiftTooltip("Cheap, efficient, but with terrible stats. Craft with an Etherium shard to recharge.");
-<ironjetpacks:basic_jetpack>.addShiftTooltip("Has roughly average stats. Can be upgraded to three other jetpack types. Those three jetpacks ");
-<ironjetpacks:cloudrider_jetpack>.addShiftTooltip("");
-<ironjetpacks:explorer_jetpack>.addShiftTooltip("");
-<ironjetpacks:architect_jetpack>.addShiftTooltip("");
