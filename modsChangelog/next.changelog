@@ -3,6 +3,21 @@ Added mods:
 -Feeder helmet
 -Equipment tooltips
 -The Aether
+-Gadgetry Core
+-Gadgetry Machines
 
 Changes:
 -Updated to the latest build of Forge
+-Stopped Terraqueous, Reccurent Complex and Tinkers' Construct world gen from generating in the Aether
+-Overhauled Iron Jetpacks
+-Lots of script fixes
+-Fixed several Magneticraft recipes
+-Skeletons and zombies can spawn with copper, tin or ceramic armor
+-Disabled Aether's startup tips. They conflict with Just The Tips.
+-Changed background color and added a gear gif to the loading screen
+-Disabled Terraqueous fruit trees
+-Reduced density of Realistic Ore Veins ores
+-Buffed Ore Excavation from 128 > 2048 blocks
+-Disabled Mystcraft dense ores page
+-Disabled all powerful Mystcraft fluids
+-Fixed enderium, aerotheum and signalum recipes
