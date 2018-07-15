@@ -5,11 +5,12 @@ Added mods:
 -The Aether
 -Gadgetry Core
 -Gadgetry Machines
+-Refraction
+-Building Gadgets
 
 Changes:
 -Updated to the latest build of Forge
 -Stopped Terraqueous, Reccurent Complex and Tinkers' Construct world gen from generating in the Aether
--Overhauled Iron Jetpacks
 -Lots of script fixes
 -Fixed several Magneticraft recipes
 -Skeletons and zombies can spawn with copper, tin or ceramic armor
@@ -21,3 +22,11 @@ Changes:
 -Disabled Mystcraft dense ores page
 -Disabled all powerful Mystcraft fluids
 -Fixed enderium, aerotheum and signalum recipes
+-Added recipes for several stone types that don't generate naturally
+-Convert between types of basalt and marble with a 1-1 shapeless crafting recipe
+-Disabled generation of Earthworks stones
+-Guardians and snow golems drop Reliquary mob items
+-Made steel processing more interesting
+-Updated Buildcraft oil biome blacklist so oil only spawns in Buildcraft oil field biomes
+-Overhauled Iron Jetpacks to so jetpacks are sidegrades instead of tiered upgrades
+-Documented Iron Jetpacks
