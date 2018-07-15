@@ -2,26 +2,28 @@ import crafttweaker.item.IIngredient;
 
 // plates
 
-recipes.replaceAllOccurences(<magneticraft:light_plates:0>, <ore:plateIron>);
+recipes.replaceAllOccurences(<magneticraft:light_plates>, <ore:plateIron>);
 recipes.replaceAllOccurences(<magneticraft:light_plates:1>, <ore:plateGold>);
 recipes.replaceAllOccurences(<magneticraft:light_plates:2>, <ore:plateCopper>);
 recipes.replaceAllOccurences(<magneticraft:light_plates:6>, <ore:plateSteel>);
 
-recipes.replaceAllOccurences(<magneticraft:heavy_plates:0>, <ore:plateIron>);
+recipes.replaceAllOccurences(<magneticraft:heavy_plates>, <ore:plateIron>);
 recipes.replaceAllOccurences(<magneticraft:heavy_plates:1>, <ore:plateGold>);
 recipes.replaceAllOccurences(<magneticraft:heavy_plates:2>, <ore:plateCopper>);
 recipes.replaceAllOccurences(<magneticraft:heavy_plates:6>, <ore:plateSteel>);
+
+//Electric heater
+recipes.removeShaped(<magneticraft:electric_heater>);
+recipes.addShaped(<magneticraft:electric_heater>,
+	[[<ore:ingotIron>, <magneticraft:crafting:3>, <ore:ingotIron>],
+	 [<ore:ingotIron>, <ore:ingotNickel>, <ore:ingotIron>],
+	 [<ore:ingotIron>, <magneticraft:crafting:3>, <ore:ingotIron>]]);
+
 
 // striped machine block
 
 val inkSac = <minecraft:dye:0>;
 val goldPlate = <ore:plateGold>;
-
-recipes.remove(<magneticraft:multiblock_parts:3>);
-recipes.addShaped("multiblock_part_striped_ink_sac", <magneticraft:multiblock_parts:3>,
-    [[inkSac, goldPlate, inkSac],
-    [goldPlate, <minecraft:stone:0>, goldPlate],
-    [inkSac, goldPlate, inkSac]]);
 	
 // Electric Connector Iron and Nickel Thermionic Fabricator recipe
 // Iron recipe
@@ -38,16 +40,6 @@ mods.forestry.ThermionicFabricator.addCast(<magneticraft:connector>,
     <liquid: glass> * 500);
 	
 #Script segment by boblovepsi
-	
-// plates
- 
-recipes.replaceAllOccurences(<ore:lightPlateIron>, <ore:plateIron>);
-recipes.replaceAllOccurences(<ore:lightPlateGold>, <ore:plateGold>);
-recipes.replaceAllOccurences(<ore:lightPlateCopper>, <ore:plateCopper>);
-recipes.replaceAllOccurences(<ore:lightPlateIron>, <ore:plateNickel>);
-recipes.replaceAllOccurences(<ore:lightPlateTungsten>, <ore:plateNickel>);
-recipes.replaceAllOccurences(<ore:lightPlateSteel>, <ore:plateSteel>);
-recipes.replaceAllOccurences(<ore:lightPlateLead>, <ore:plateTin>);
  
 // misc
  
