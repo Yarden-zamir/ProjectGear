@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 
 //Compression Chamber
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:0>, <minecraft:bone> * 5, null);
-mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:2>, <minecraft:spider_eye> * 5, null);
+mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:2>, <minecraft:spider_eye> * 5, <liquid:blood> * 1000);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:12>, <minecraft:shulker_shell> * 5, <liquid:water_black> * 5000);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:3>, <minecraft:blaze_powder>, <fluid:sulfur> * 666);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:11>, <quark:biotite>, <fluid:liquidchorus> * 1000);
