@@ -36,3 +36,6 @@ recipes.addShapedMirrored(<immersiveengineering:connector:3> * 8,
     [[null, null, null],
     [null, <magneticraft:connector>, null],
     [<minecraft:hardened_clay>, <minecraft:iron_ingot>, <minecraft:hardened_clay>]]);
+	
+//Removing Industrial Squeezer Leather Recipe
+mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>);
