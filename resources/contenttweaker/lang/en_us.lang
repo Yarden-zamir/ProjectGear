@@ -2,3 +2,6 @@ item.contenttweaker.plate_treated=Treated Plate
 item.contenttweaker.oiled_leather=Oiled Leather
 item.contenttweaker.irradiated_flesh=Irradiated Flesh
 item.contenttweaker.ingot_crude_steel=Crude Steel Ingot
+item.contenttweaker.impure_steel.name=Impure Steel Ingot
+fluid.quicklime=Molten Quicklime
+fluid.impuresteel=Molten Impure Steel
