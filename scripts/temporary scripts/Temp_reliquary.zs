@@ -58,3 +58,8 @@ val craftingToDisable =[
 ] as IItemStack[];
  
 scripts.functions.disableItems(itemsToDisable);
+
+// Eye of the Storm Laser Assembly Table recipe
+mods.refraction.AssemblyTable.addRecipe("Eye of the Storm", <xreliquary:mob_ingredient:8>,
+    [<minecraft:ender_eye>, <xreliquary:mob_ingredient:9> * 3, <thermalfoundation:material:102> * 5],
+    16, 64, 255, 255, 255, 255, 0, 0);
