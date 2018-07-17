@@ -1,4 +1,14 @@
-import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+
+//Disable Mekanism machines
+
+val itemsToDisable =[
+  <magneticraft:small_tank>
+] as IItemStack[];
+scripts.functions.disableItems(itemsToDisable);
 
 // plates
 

@@ -26,6 +26,10 @@ val itemsToDisable =[
   <mekanism:transmitter:3>.withTag({tier: 3}),
   <mekanism:transmitter:4>.withTag({tier: 0}),
   <mekanism:transmitter:5>.withTag({tier: 0}),
+  <mekanism:machineblock2:11>.withTag({tier: 0, mekData: {}}),
+  <mekanism:machineblock2:11>.withTag({tier: 1, mekData: {}}),
+  <mekanism:machineblock2:11>.withTag({tier: 2, mekData: {}}),
+  <mekanism:machineblock2:11>.withTag({tier: 3, mekData: {}})
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
