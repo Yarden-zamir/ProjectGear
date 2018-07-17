@@ -1,4 +1,4 @@
-•Pack developers:
+﻿•Pack developers:
 
 -DeviantCrafter: Owner and project lead.
 
@@ -18,3 +18,5 @@
 •Other thanks:
 
 -Damien (https://twitter.com/Damien_hazard) - Made the treated wood texture that we modified to make the texture for the treated plank item
+
+-quaternary: Made the main menu ;0
