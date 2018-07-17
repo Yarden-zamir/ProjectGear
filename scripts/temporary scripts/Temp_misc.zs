@@ -12,6 +12,7 @@ mods.forestry.Carpenter.addRecipe(<contenttweaker:oiled_leather>, [[<terraqueous
 	//Drying rack step:
 mods.tconstruct.Drying.addRecipe(<minecraft:leather>, <contenttweaker:oiled_leather>, 6000);
 
+/* Disabled because in hind sight this was kind of dumb
 //Craft Factory Tech water mesh:
 recipes.addShaped(<factorytech:machinepart:180> * 8, [[<ore:stickSteel>, <ore:plateSteel>, <ore:stickSteel>], [<ore:plateSteel>, <ore:logWood>, <ore:plateSteel>], [<ore:stickSteel>, <ore:plateSteel>, <ore:stickSteel>]]);
 
@@ -20,7 +21,7 @@ recipes.addShaped(<factorytech:machinepart:180> * 8, [[<ore:stickSteel>, <ore:pl
 recipes.addShaped(<factorytech:machinepart:180> * 4, [[<ore:slimeball>, <forestry:oak_stick>, <ore:slimeball>], [<forestry:oak_stick>, <ore:trapdoorWood>, <ore:slimeball>], [<ore:slimeball>, <forestry:oak_stick>, <ore:slimeball>]]);
 
 recipes.addShaped(<factorytech:machinepart:180> * 4, [[<ore:slimeball>, <immersiveengineering:material:0>, <ore:slimeball>], [<immersiveengineering:material:0>, <ore:trapdoorWood>, <immersiveengineering:material:0>], [<ore:slimeball>, <immersiveengineering:material:0>, <ore:slimeball>]]);
-
+*/
 
 //Make necrotic bones:
 mods.immersiveengineering.CokeOven.addRecipe(<tconstruct:materials:17>, 2, <minecraft:bone>, 200);
