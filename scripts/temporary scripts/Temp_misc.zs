@@ -3,7 +3,7 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 ####################
-//This script contains temporary recipes to balance the pack while more permanent recipes are being designed. Nothing here is final, and nothing here will be on the diagram.
+//Most mods have their own script file. A few mods only had a couple scripts, and a few recipes didn't clearly belong to one mod. Those go here.
 ####################
 
 //Turn scraps to leather:
@@ -12,16 +12,10 @@ mods.forestry.Carpenter.addRecipe(<contenttweaker:oiled_leather>, [[<terraqueous
 	//Drying rack step:
 mods.tconstruct.Drying.addRecipe(<minecraft:leather>, <contenttweaker:oiled_leather>, 6000);
 
-/* Disabled because in hind sight this was kind of dumb
-//Craft Factory Tech water mesh:
-recipes.addShaped(<factorytech:machinepart:180> * 8, [[<ore:stickSteel>, <ore:plateSteel>, <ore:stickSteel>], [<ore:plateSteel>, <ore:logWood>, <ore:plateSteel>], [<ore:stickSteel>, <ore:plateSteel>, <ore:stickSteel>]]);
+//Run soul sand through a Centrifuge to get a heat sand (25%), tainted soil (25%), soul bead (1%), or ghast tear (1%)
+mods.forestry.Centrifuge.addRecipe([(<natura:nether_heat_sand>) % 25, <natura:nether_tainted_soil> % 25, <quark:soul_bead> % 1, <minecraft:ghast_tear> % 1], <minecraft:soul_sand>, 100);
 
-recipes.addShaped(<factorytech:machinepart:180> * 8, [[<ore:stickSteel>, <ore:plateBronze>, <ore:stickSteel>], [<ore:plateBronze>, <ore:logWood>, <ore:plateBronze>], [<ore:stickSteel>, <ore:plateBronze>, <ore:stickSteel>]]);
 
-recipes.addShaped(<factorytech:machinepart:180> * 4, [[<ore:slimeball>, <forestry:oak_stick>, <ore:slimeball>], [<forestry:oak_stick>, <ore:trapdoorWood>, <ore:slimeball>], [<ore:slimeball>, <forestry:oak_stick>, <ore:slimeball>]]);
-
-recipes.addShaped(<factorytech:machinepart:180> * 4, [[<ore:slimeball>, <immersiveengineering:material:0>, <ore:slimeball>], [<immersiveengineering:material:0>, <ore:trapdoorWood>, <immersiveengineering:material:0>], [<ore:slimeball>, <immersiveengineering:material:0>, <ore:slimeball>]]);
-*/
 
 //Make necrotic bones:
 mods.immersiveengineering.CokeOven.addRecipe(<tconstruct:materials:17>, 2, <minecraft:bone>, 200);
