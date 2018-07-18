@@ -37,3 +37,30 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<refraction:reflective_alloy>, <m
  
 // Reflective Alloy Alloy Kiln recipe
 mods.immersiveengineering.AlloySmelter.addRecipe(<refraction:reflective_alloy>, <minecraft:gold_ingot>, <ore:ingotOsmium>, 2000);
+
+#Script segment by DolphinBlaster
+
+// Electrum Block Laser Assembly Table recipe
+mods.refraction.AssemblyTable.addRecipe("Electrum Block", <thermalfoundation:storage_alloy:1>,
+    [<minecraft:gold_ingot> * 8, <ore:ingotSilver> * 8],
+    16, 64, 255, 255, 255, 255, 0, 0);
+   
+// Lumium Block Laser Assembly Table recipe
+mods.refraction.AssemblyTable.addRecipe("Lumium Block", <thermalfoundation:storage_alloy:6>,
+    [<minecraft:glowstone> * 2, <ore:ingotOsmium> * 2, <ore:ingotTin> * 6],
+    16, 64, 255, 255, 255, 255, 0, 0);
+   
+// Signalum Block Laser Assembly Table recipe
+mods.refraction.AssemblyTable.addRecipe("Signalum Block", <thermalfoundation:storage_alloy:5>,
+    [<minecraft:redstone> * 8, <ore:ingotOsmium> * 2, <ore:ingotCopper> * 6],
+    16, 64, 255, 255, 64, 128, 0, 0);
+   
+// Enderium Block Laser Assembly Table recipe
+mods.refraction.AssemblyTable.addRecipe("Enderium Block", <thermalfoundation:storage_alloy:7>,
+    [<minecraft:ender_pearl> * 8, <ore:ingotOsmium> * 6, <ore:ingotElectrum> * 2],
+    16, 64, 0, 0, 255, 255, 255, 255);
+   
+// Electrotine Block Laser Assembly Table recipe
+mods.refraction.AssemblyTable.addRecipe("Electrotine Block", <projectred-exploration:stone:11>,
+    [<minecraft:dye:4> * 2, <redstonearsenal:material> * 2],
+    16, 64, 0, 0, 0, 0, 255, 255);
