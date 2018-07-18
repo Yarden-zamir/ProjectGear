@@ -82,3 +82,6 @@ oreResonatingCrystal.add(<deepresonance:resonating_crystal>);
 
 //Pyrotheum + Plank to Lavawood
 mods.tconstruct.Casting.addBasinRecipe(<tconstruct:firewood:0>, <ore:plankWood>, <liquid:pyrotheum>, 9, true, 100);
+
+recipes.addShapeless("lump_to_sand",<minecraft:sand:0>,[<terraqueous:item_main:214>,<immersiveengineering:tool:0>]);
+recipes.addShapeless("lump_to_redsand",<minecraft:sand:1>,[<terraqueous:item_main:216>,<immersiveengineering:tool:0>]);
