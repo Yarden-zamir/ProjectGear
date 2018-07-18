@@ -22,6 +22,10 @@ recipes.replaceAllOccurences(<magneticraft:heavy_plates:1>, <ore:plateGold>);
 recipes.replaceAllOccurences(<magneticraft:heavy_plates:2>, <ore:plateCopper>);
 recipes.replaceAllOccurences(<magneticraft:heavy_plates:6>, <ore:plateSteel>);
 
+recipes.replaceAllOccurences(<ore:lightPlateTungsten>, <ore:plateNickel>);
+recipes.replaceAllOccurences(<ore:lightPlateLead>, <ore:plateTin>);
+recipes.replaceAllOccurences(<magneticraft:ingots:5>, <ore:ingotNickel>);
+
 //Electric heater
 recipes.removeShaped(<magneticraft:electric_heater>);
 recipes.addShaped(<magneticraft:electric_heater>,
@@ -91,3 +95,27 @@ recipes.addShaped("battery_low_copper", batteryLow,
     [[<ore:nuggetIron>, <ore:nuggetCopper>, <ore:nuggetIron>],
     [copperPlate, <ore:dustSulfur>, copperPlate],
     [copperPlate, <ore:dustSulfur>, copperPlate]]);
+ 
+recipes.remove(<magneticraft:multiblock_parts:1>);
+recipes.addShaped("multiblock_part_electrical_iron", <magneticraft:multiblock_parts:1>*2,
+    [[plateIron, <ore:blockLapis>, plateIron],
+    [<ore:blockLapis>, <ore:blockQuartz>, <ore:blockLapis>],
+    [plateIron, <ore:blockLapis>, plateIron]]);
+ 
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ingot>);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:32>, true);
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<minecraft:gold_ingot>);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:gold_ingot>, <thermalfoundation:material:33>, true);
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:2>);
+mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:128>, <thermalfoundation:material:320>, true);
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:3>);
+mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:131>, <thermalfoundation:material:323>, true);
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:6>);
+mods.magneticraft.CrushingTable.addRecipe(<magneticraft:material:160>, <thermalfoundation:material:320>, true);
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
