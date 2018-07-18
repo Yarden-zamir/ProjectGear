@@ -80,3 +80,5 @@ oreEtherium.add(<appliedenergistics2:charged_quartz_ore>);
 val oreResonatingCrystal = <ore:oreResonatingCrystal>;
 oreResonatingCrystal.add(<deepresonance:resonating_crystal>);
 
+//Pyrotheum + Plank to Lavawood
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:firewood:0>, <ore:plankWood>, <liquid:pyrotheum>, 9, true, 100);
