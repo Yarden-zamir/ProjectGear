@@ -85,3 +85,16 @@ mods.tconstruct.Casting.addBasinRecipe(<tconstruct:firewood:0>, <ore:plankWood>,
 
 recipes.addShapeless("lump_to_sand",<minecraft:sand:0>,[<terraqueous:item_main:214>,<immersiveengineering:tool:0>]);
 recipes.addShapeless("lump_to_redsand",<minecraft:sand:1>,[<terraqueous:item_main:216>,<immersiveengineering:tool:0>]);
+
+#Script by JoJo Reference:
+// Crusher: Saddle -> 2 Leather Scraps
+mods.immersiveengineering.Crusher.addRecipe(<terraqueous:item_main:100> * 2, <minecraft:saddle>, 2048);
+ 
+// Crusher: Diamond Horse Armor -> 2 Diamond Dust
+mods.immersiveengineering.Crusher.addRecipe(<mekanism:otherdust> * 2, <minecraft:diamond_horse_armor>, 2048);
+ 
+// Crusher: Golden Apple -> 4 Gold Dust
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 4, <minecraft:golden_apple>, 2048);
+ 
+// Crusher: Enchanted Gold Apple -> 36 Gold Dust
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 36, <minecraft:golden_apple:1>, 2048);
