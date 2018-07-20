@@ -98,3 +98,8 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 4, 
  
 // Crusher: Enchanted Gold Apple -> 36 Gold Dust
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 36, <minecraft:golden_apple:1>, 2048);
+
+//Remove Gunpowder
+recipes.removeByRecipeName("immersiveengineering:material/gunpowder0");
+recipes.removeByRecipeName("immersiveengineering:material/gunpowder1");
+recipes.removeByRecipeName("natura:common/gunpowder");
