@@ -15,7 +15,10 @@ val itemsToDisable =[
     <gadgetrymachines:furnace_gen>,     // Furnace Generator
     <gadgetrymachines:energy_cell>,     // Energy Cell
     <gadgetrymachines:solar_panel>,     // Solar Panel
-	<gadgetrymachines:fluid_tank>		// Fluid Tank
+	<gadgetrymachines:fluid_tank>,		// Fluid Tank
+	<gadgetrymachines:oil_well>,		// Oil Well
+	<gadgetrymachines:combustion_gen>,	// Combustion Generator
+	<gadgetrymachines:distiller>		// Distiller
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
