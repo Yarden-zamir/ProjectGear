@@ -16,3 +16,7 @@ myEntry.add(<minecraft:mossy_cobblestone>);
  
 // Orechid: Mossy Cobblestone generates about 50% of the time
 mods.botania.Orechid.addOre(<ore:blockMossyCobblestone>, 80000);
+
+//Orechid: Disable default nickel weight & add new weight
+mods.botania.Orechid.removeOre(<ore:oreNickel>);
+mods.botania.Orechid.addOre(<ore:oreNickel>, 6000);
