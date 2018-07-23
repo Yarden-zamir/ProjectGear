@@ -121,3 +121,10 @@ furnace.addRecipe(<minecraft:tallgrass:1>, <traverse:dead_grass>);
 // Cold Grass recipe (Grass (Item) + Ice)
 recipes.addShapeless(<traverse:cold_grass>,
     [<minecraft:tallgrass:1>,<minecraft:ice>]);
+	
+// Crusher: Log -> 4 Saw Dust
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:800>, <ore:logWood>, 2048);
+ 
+// Saw Dust recipe (Log + Engineer's Hammer)
+recipes.addShapeless(<thermalfoundation:material:800>,
+    [<ore:logWood>,<immersiveengineering:tool>]);
