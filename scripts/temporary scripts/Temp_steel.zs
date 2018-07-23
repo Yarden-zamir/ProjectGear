@@ -32,6 +32,7 @@ mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 288, [<liquid:impuresteel> * 14
 // ie blast furnace
  
 mods.immersiveengineering.BlastFurnace.removeRecipe(<thermalfoundation:material:160>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<thermalfoundation:storage_alloy:0>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160>, <contenttweaker:impure_steel>, 2000, <immersiveengineering:material:7>);
  
 // ie arc furnace
@@ -42,6 +43,11 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:160>,
 // nuclearcraft alloy furnace
  
 mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput(<thermalfoundation:material:160>);
+mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput(<thermalfoundation:storage_alloy:0>);
  
 // gadgetry alloy furnace
 // idk how to crafttweak gadgetry
+
+// mekanism
+
+mods.mekanism.infuser.removeRecipe(<ore:dustSteel>);
