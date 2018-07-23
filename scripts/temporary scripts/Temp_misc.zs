@@ -107,3 +107,10 @@ recipes.removeByRecipeName("natura:common/gunpowder");
 //Wither Ash From Necrotic Bone
 recipes.addShapeless(<quark:black_ash>*5,[<tconstruct:materials:17>]);
 
+//Smokey Quartz from wither ash
+val Quartz =<ore:gemQuartz>;
+recipes.removeByRecipeName("botania:quartz_0");
+recipes.addShaped(<botania:quartz:0>*8,
+ [[Quartz,Quartz,Quartz],
+  [Quartz,<quark:black_ash>,Quartz],
+  [Quartz,Quartz,Quartz]]);
