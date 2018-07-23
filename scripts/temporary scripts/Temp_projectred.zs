@@ -53,3 +53,12 @@ val itemsToDisable =[
     <projectred-exploration:peridot_boots>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
+
+// Screwdriver recipe removal
+recipes.remove(<projectred-core:screwdriver>);
+ 
+// Screwdriver Unbreakable recipe
+recipes.addShaped(<projectred-core:screwdriver>.withTag({ench: [{lvl: 10, id: 34}]}),
+    [[<minecraft:iron_ingot>, null, null],
+    [null, <minecraft:iron_ingot>, <ore:dyeBlue>],
+    [null, <ore:dyeBlue>, <minecraft:iron_ingot>]]);
