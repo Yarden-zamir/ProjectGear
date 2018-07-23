@@ -114,3 +114,10 @@ recipes.addShaped(<botania:quartz:0>*8,
  [[Quartz,Quartz,Quartz],
   [Quartz,<quark:black_ash>,Quartz],
   [Quartz,Quartz,Quartz]]);
+  
+// Furnace: Grass (Item) -> Dead Grass
+furnace.addRecipe(<minecraft:tallgrass:1>, <traverse:dead_grass>);
+ 
+// Cold Grass recipe (Grass (Item) + Ice)
+recipes.addShapeless(<traverse:cold_grass>,
+    [<minecraft:tallgrass:1>,<minecraft:ice>]);
