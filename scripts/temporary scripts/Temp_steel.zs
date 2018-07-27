@@ -30,14 +30,14 @@ mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:impure_steel>, <p
 mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 288, [<liquid:impuresteel> * 144, <liquid:liquidoxygen> * 2000]);
 
 // ie blast furnace
- 
-mods.immersiveengineering.BlastFurnace.removeRecipe(<thermalfoundation:material:160>);
-mods.immersiveengineering.BlastFurnace.removeRecipe(<thermalfoundation:storage_alloy:0>);
+
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160>, <contenttweaker:impure_steel>, 2000, <immersiveengineering:material:7>);
- 
+
 // ie arc furnace
- 
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:160>);
+
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:160>, <ore:dustSteel>, null, 100, 512);
  
 // nuclearcraft alloy furnace
