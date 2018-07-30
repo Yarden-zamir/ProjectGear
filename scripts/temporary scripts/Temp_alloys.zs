@@ -64,3 +64,28 @@ mods.refraction.AssemblyTable.addRecipe("Enderium Block", <thermalfoundation:sto
 mods.refraction.AssemblyTable.addRecipe("Electrotine Block", <projectred-exploration:stone:11>,
     [<minecraft:dye:4> * 2, <redstonearsenal:material> * 2],
     16, 64, 0, 0, 0, 0, 255, 255);
+	
+	
+// localizations
+game.setLocalization("tile.tconstruct.metal.alubrass.name","Osmium Brass Block");
+game.setLocalization("item.tconstruct.ingots.alubrass.name","Osmium Brass Ingot");
+game.setLocalization("item.tconstruct.nuggets.alubrass.name","Osmium Brass Nugget");
+game.setLocalization("fluid.tconstruct.alubrass.name","Molten Osmium Brass");
+ 
+// TiC smeltery
+mods.tconstruct.Alloy.removeRecipe(<liquid:alubrass>);
+mods.tconstruct.Alloy.addRecipe(<liquid:alubrass> * 4, [<liquid:copper> * 3, <liquid:osmium> * 1]);
+ 
+// ie kiln
+mods.immersiveengineering.AlloySmelter.removeRecipe(<tconstruct:ingots:5>);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotOsmium>, <ore:ingotCopper>*3, 100);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotOsmium>, <ore:dustCopper>*3, 100);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:dustOsmium>, <ore:ingotCopper>*3, 100);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:dustOsmium>, <ore:dustCopper>*3, 100);
+ 
+// ie arc furnace
+mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:5>*4);
+mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotOsmium>, null, 100, 512, [<ore:ingotCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotOsmium>, null, 100, 512, [<ore:dustCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:dustOsmium>, null, 100, 512, [<ore:ingotCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:dustOsmium>, null, 100, 512, [<ore:dustCopper>*3]);
