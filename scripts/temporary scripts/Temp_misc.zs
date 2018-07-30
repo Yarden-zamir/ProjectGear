@@ -129,7 +129,9 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:800>, <o
 recipes.addShapeless(<thermalfoundation:material:800>,
     [<ore:logWood>,<immersiveengineering:tool>]);
 	
-recipes.addShaped("menril_to_fertilizer", <forestry:fertilizer_compound> * 16, 
+recipes.addShaped("menril_to_fertilizer"	, <forestry:fertilizer_compound> * 16, 
 	[[<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>], 
 	 [<ore:dustAsh>, <integrateddynamics:crystalized_menril_chunk>, <ore:dustAsh>], 
 	 [<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>]]);
+	 
+recipes.removeByName("mekanism:paper");
