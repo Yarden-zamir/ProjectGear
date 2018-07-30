@@ -134,4 +134,4 @@ recipes.addShaped("menril_to_fertilizer"	, <forestry:fertilizer_compound> * 16,
 	 [<ore:dustAsh>, <integrateddynamics:crystalized_menril_chunk>, <ore:dustAsh>], 
 	 [<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>]]);
 	 
-recipes.removeByName("mekanism:paper");
+recipes.removeByRecipeName("mekanism:paper");
