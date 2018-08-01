@@ -6,11 +6,34 @@ import crafttweaker.oredict.IOreDictEntry;
 //Disable Mekanism machines
 
 val itemsToDisable =[
-  <mekanism:machineblock:0>,  //Enrichment Chamber
-  <mekanism:machineblock:3>,  //Crusher
-  <mekanism:machineblock2:5>, //Precision sawmill
-  <mekanism:machineblock:10>,  //Energized smelter
-  //Disabled non-gas cables. We have more interesting and optimized ways to transmit RF, items and fluids
+  //Enrichment Chamber
+  <mekanism:machineblock:0>,
+  <mekanism:machineblock:5>.withTag({recipeType: 1}),
+  <mekanism:machineblock:6>.withTag({recipeType: 1}),
+  <mekanism:machineblock:7>.withTag({recipeType: 1}),
+  //Crusher
+  <mekanism:machineblock:3>,
+  <mekanism:machineblock:5>.withTag({recipeType: 2}),
+  <mekanism:machineblock:6>.withTag({recipeType: 2}),
+  <mekanism:machineblock:7>.withTag({recipeType: 2}),
+  //Precision sawmill
+  <mekanism:machineblock2:5>,
+  //Energized smelter
+  <mekanism:machineblock:10>,
+  <mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}}),
+  <mekanism:machineblock:6>.withTag({recipeType: 0}),
+  <mekanism:machineblock:7>.withTag({recipeType: 0}),
+  //Combiner
+  <mekanism:machineblock:2>,
+  <mekanism:machineblock:5>.withTag({recipeType: 4}),
+  <mekanism:machineblock:6>.withTag({recipeType: 4}),
+  <mekanism:machineblock:7>.withTag({recipeType: 4}),
+  //Osmium compressor
+  <mekanism:machineblock:1>,
+  <mekanism:machineblock:5>.withTag({recipeType: 3}),
+  <mekanism:machineblock:6>.withTag({recipeType: 3}),
+  <mekanism:machineblock:7>.withTag({recipeType: 3}),
+  //Disable cables, except heat and gas. We have more interesting and optimized ways to transmit RF, items and fluids
   //Script segment by DolphinBlaster
   <mekanism:transmitter>.withTag({tier: 0}),
   <mekanism:transmitter>.withTag({tier: 1}),
@@ -29,7 +52,14 @@ val itemsToDisable =[
   <mekanism:machineblock2:11>.withTag({tier: 0, mekData: {}}),
   <mekanism:machineblock2:11>.withTag({tier: 1, mekData: {}}),
   <mekanism:machineblock2:11>.withTag({tier: 2, mekData: {}}),
-  <mekanism:machineblock2:11>.withTag({tier: 3, mekData: {}})
+  <mekanism:machineblock2:11>.withTag({tier: 3, mekData: {}}),
+  //Disable the digital miner
+  <mekanism:machineblock:4>,
+  //Disable bins
+  <mekanism:basicblock:6>.withTag({tier: 0, mekData: {}}),
+  <mekanism:basicblock:6>.withTag({tier: 1, mekData: {}}),
+  <mekanism:basicblock:6>.withTag({tier: 2, mekData: {}}),
+  <mekanism:basicblock:6>.withTag({tier: 3, mekData: {}})
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
