@@ -165,3 +165,11 @@ mods.tconstruct.Casting.addTableRecipe(<mekanism:dust:2>,  				<mekanism:dirtydu
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:65>, <mekanism:dirtydust:5>, <liquid:water>, 30, true);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:66>, <mekanism:dirtydust:6>, <liquid:water>, 30, true);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:67>, <mekanism:dirtydust:7>, <liquid:water>, 30, true);
+
+//Script segment by JoJo Reference
+//Replacing IE's obsidian crushing to drop refined obsidian dust
+mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:obsidian>);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:770>*2, <ore:obsidian>, 6000, <mekanism:otherdust:5>, 0.02);
+
+//Obsidian Dust into Refined Obsidian Dust
+mods.factorytech.Temperer.addRecipe(<mekanism:otherdust:5>, <thermalfoundation:material:770>, 55);
