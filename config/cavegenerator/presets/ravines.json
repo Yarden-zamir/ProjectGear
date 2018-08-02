@@ -1,0 +1,37 @@
+{
+	"enabled" : false,
+	"tunnels" :
+	{
+		"frequency" : 0,
+		"spawnIsolatedInverseChance" : 0
+	},
+	"ravines" : 
+	{
+		"inverseChance" : 30,
+		"minHeight" : 10,
+		"maxHeight" : 50,
+		"distance" : 140,
+		"twistXZ" :
+		{
+			"randomnessFactor" : 5.0
+		},
+		"scale" :
+		{
+			"startingValue" : 2.0,
+			"startingValueRandomnessFactor" : 2.0
+		},
+		"scaleY" :
+		{
+			"startingValue" : 4.0
+		},
+		"slopeXZ" :
+		{
+			"startingValueRandomnessFactor" : 1.5
+		},
+		"slopeY" :
+		{
+			"startingValueRandomnessFactor" : 0.75
+		},
+		"noiseYFactor" : 0.9
+	}
+}

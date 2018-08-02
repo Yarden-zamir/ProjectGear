@@ -1,0 +1,26 @@
+{
+	"enabled" : false,
+	"rooms" :
+	{
+		"scale" : 7.0,
+		"scaleY" : 0.6
+	},
+	"tunnels" :
+	{
+		"extensions" :
+		{
+			"//" : "vanilla_branches would resize the extensions, thus being inconsistent in this case.",
+			"random" : "matching_branches"
+		},
+		"scale" :
+		{
+			"startingValue" : 2.5,
+			"startingValueRandomnessFactor" : 0.9
+		},
+		"scaleY" :
+		{
+			"randomnessFactor" : 0.05,
+			"startingValue" : 0.7
+		}
+	}
+}

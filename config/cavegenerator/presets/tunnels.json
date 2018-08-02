@@ -1,0 +1,78 @@
+{
+	"enabled" : false,
+	"blockFillers" :
+	{
+		"keys" : ["dirtyFloor", "dirtyFloor2"], 
+		
+		"dirtyFloor" :
+		{
+			"state" : "minecraft:dirt",
+			"chance" : 15.0,
+			"minHeight" : 20,
+			"maxHeight" : 40,
+			"matchers" :
+			[
+				"minecraft:stone"
+			],
+			"directions" : ["down"],
+			"preference" : "replace_match"		
+		},
+		"dirtyFloor2" :
+		{
+			"state" : "minecraft:gravel",
+			"chance" : 15.0,
+			"minHeight" : 20,
+			"maxHeight" : 40,
+			"matchers" :
+			[
+				"minecraft:stone",
+				"minecraft:dirt"
+			],
+			"directions" : ["down"],
+			"preference" : "replace_match"		
+		}
+	},
+	"rooms" :
+	{
+		"scale" : 7.0,
+		"scaleY" : 0.6
+	},
+	"tunnels" :
+	{
+		"minHeight" : 27,
+		"maxHeight" : 33,
+		"spawnInSystemInverseChance" : 1000,
+		"vanillaNoiseYReduction" : false,
+		"extensions" :
+		{
+			"random" : "none"
+		},
+		"twistXZ" :
+		{
+			"factor" : 0.9,
+			"randomnessFactor" : 0.3,
+			"startingValue" : 0.0
+		},
+		"twistY" :
+		{
+			"factor" : 0.9,
+			"randomnessFactor" : 0.1,
+			"startingValue" : 0.0
+		},
+		"scale" :
+		{
+			"randomnessFactor" : 0.25,
+			"startingValue" : 4.0,
+			"startingValueRandomnessFactor" : 1.0
+		},
+		"scaleY" :
+		{
+			"randomnessFactor" : 0.1,
+			"startingValue" : 0.5
+		},
+		"slopeY" :
+		{
+			"startingValueRandomnessFactor" : 0.05
+		}
+	}
+}
