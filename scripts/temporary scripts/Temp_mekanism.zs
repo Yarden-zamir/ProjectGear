@@ -173,3 +173,8 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:770>*2, 
 
 //Obsidian Dust into Refined Obsidian Dust
 mods.factorytech.Temperer.addRecipe(<mekanism:otherdust:5>, <thermalfoundation:material:770>, 55);
+
+//Salt from Salt Blocks
+mods.immersiveengineering.Crusher.addRecipe(<mekanism:salt>*4, <ore:blockSalt>, 3000);
+mods.integrateddynamics.Squeezer.addRecipe(<ore:blockSalt>, <mekanism:salt>*4, null * 0);
+mods.factorytech.ChopSaw.addRecipe(<mekanism:salt>*4, <ore:blockSalt>, true);
