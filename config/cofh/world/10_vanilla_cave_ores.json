@@ -88,7 +88,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 3,
+			"cluster-count": 5,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
