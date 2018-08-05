@@ -126,12 +126,12 @@ recipes.removeShaped(<magneticraft:storage_blocks:3>);
 recipes.removeShaped(<magneticraft:tungsten_gear>);
 
 // Electric Connector craft 4 instead of 8
-recipes.addShapedMirrored(<magneticraft:connector> * 4,
+recipes.addShapedMirrored(<magneticraft:connector> * 2,
     [[null, null, null],
     [null, <ore:ingotIron>, null],
     [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
 
-recipes.addShapedMirrored(<magneticraft:connector> * 4,
+recipes.addShapedMirrored(<magneticraft:connector> * 2,
     [[null, null, null],
     [null, <ore:ingotNickel>, null],
     [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
