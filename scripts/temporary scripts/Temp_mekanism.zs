@@ -177,4 +177,4 @@ mods.factorytech.Temperer.addRecipe(<mekanism:otherdust:5>, <thermalfoundation:m
 //Salt from Salt Blocks
 mods.immersiveengineering.Crusher.addRecipe(<mekanism:salt>*4, <ore:blockSalt>, 3000);
 mods.integrateddynamics.Squeezer.addRecipe(<mekanism:salt> * 4, <mekanism:saltblock>, null);
-mods.factorytech.ChopSaw.addRecipe(<mekanism:salt>*4, <ore:blockSalt>, true);
+mods.factorytech.DrillGrinder.addRecipe(<mekanism:salt>*4, <ore:blockSalt>, true);
