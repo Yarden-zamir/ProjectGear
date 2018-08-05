@@ -149,7 +149,7 @@
 					"block": [
 						{
 							"name": "minecraft:stone",
-							"weight": 60
+							"weight": 70
 						},
 						{
 							"name": "deepresonance:resonating_ore",
@@ -157,7 +157,7 @@
 						},
 						{
 							"name": "minecraft:redstone_ore",
-							"weight": 20
+							"weight": 10
 						}
 					],
 					"material": [
