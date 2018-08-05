@@ -41,13 +41,13 @@ val goldPlate = <ore:plateGold>;
 	
 // Electric Connector Iron and Nickel Thermionic Fabricator recipe
 // Iron recipe
-mods.forestry.ThermionicFabricator.addCast(<magneticraft:connector>,
+mods.forestry.ThermionicFabricator.addCast(<magneticraft:connector> * 8,
     [[null,null,null],
     [null,<minecraft:iron_ingot>,null],
     [<ore:stone>,<ore:ingotCopper>,<ore:stone>]],
     <liquid: glass> * 500);
 // Nickel recipe
-mods.forestry.ThermionicFabricator.addCast(<magneticraft:connector>,
+mods.forestry.ThermionicFabricator.addCast(<magneticraft:connector> * 8,
     [[null,null,null],
     [null,<ore:ingotNickel>,null],
     [<ore:stone>,<ore:ingotCopper>,<ore:stone>]],
@@ -119,3 +119,19 @@ mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:6>);
 mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:320>, false);
  
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
+
+
+recipes.removeShaped(<magneticraft:nuggets:5>);
+recipes.removeShaped(<magneticraft:storage_blocks:3>);
+recipes.removeShaped(<magneticraft:tungsten_gear>);
+
+// Electric Connector craft 4 instead of 8
+recipes.addShapedMirrored(<magneticraft:connector> * 4,
+    [[null, null, null],
+    [null, <ore:ingotIron>, null],
+    [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
+
+recipes.addShapedMirrored(<magneticraft:connector> * 4,
+    [[null, null, null],
+    [null, <ore:ingotNickel>, null],
+    [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
