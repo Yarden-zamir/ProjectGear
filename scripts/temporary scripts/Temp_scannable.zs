@@ -1,3 +1,12 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+val itemsToDisable =[
+	<scannable:module_blank>
+] as IItemStack[];
+scripts.functions.disableItems(itemsToDisable);
+
 recipes.remove(<scannable:scanner>);
 recipes.addShaped(<scannable:scanner>.withTag({energy: 5000}),
 	[[<ore:ingotCopper>, null, <ore:ingotCopper>],
