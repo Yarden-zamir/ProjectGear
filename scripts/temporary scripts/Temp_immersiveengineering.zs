@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemTransformer;
+
 //Script by DolphinBlaster
 //Makes Immersive Engineering relays and wire connectors require Magneticraft wire connectors. These must be made in the Thermionic Fabricator.
 
@@ -40,3 +42,11 @@ recipes.addShapedMirrored(<immersiveengineering:connector:3> * 8,
 	
 //Removing Industrial Squeezer Leather Recipe
 mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>);
+
+//Change aluminum wire to tin wire
+<immersiveengineering:material:22>.displayName = "Tin Wire";
+recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateTin>, <minecraft:shears>.transformDamage()]);
+recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateTin>, <immersiveengineering:tool:1>]);
+
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:22>);
+mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22> * 2, <ore:ingotTin>, <immersiveengineering:mold:4>, 2000);
