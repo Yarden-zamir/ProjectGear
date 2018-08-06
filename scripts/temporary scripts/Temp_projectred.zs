@@ -62,3 +62,10 @@ recipes.addShaped(<projectred-core:screwdriver>.withTag({ench: [{lvl: 10, id: 34
     [[<minecraft:iron_ingot>, null, null],
     [null, <minecraft:iron_ingot>, <ore:dyeBlue>],
     [null, <ore:dyeBlue>, <minecraft:iron_ingot>]]);
+
+//Alternative draw plate recipe
+recipes.removeShaped(<projectred-core:drawplate>);
+recipes.addShaped("draw_plate", <projectred-core:drawplate>,
+    [[null, <ore:plateIron>, null],
+    [<ore:plateIron>, <ore:gemDiamond>, <ore:plateIron>],
+    [null, <ore:plateIron>, null]]);
