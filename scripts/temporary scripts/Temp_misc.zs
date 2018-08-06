@@ -71,7 +71,7 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:leather> * 2, <contenttweaker:oi
 //Adds an ore dictionary value to ores:
 	//Valkyrien Warfare etherium ore:
 val oreEtherium = <ore:oreEtherium>;
-oreEtherium.add(<valkyrienwarfareworld:etheriumore>);
+oreEtherium.add(<valkyrienwarfareworld:etheriumcrystal>);
 
 	//AE2 charged certus quartz:
 val oreCertusQuartzCharged = <ore:oreCertusQuartzCharged>;
@@ -79,6 +79,9 @@ oreEtherium.add(<appliedenergistics2:charged_quartz_ore>);
 
 val oreResonatingCrystal = <ore:oreResonatingCrystal>;
 oreResonatingCrystal.add(<deepresonance:resonating_crystal>);
+
+//Nether Gold Ore works like Gold Ore
+//<ore:goldOre>.add(<contenttweaker:nether_gold_ore>);
 
 //Pyrotheum + Plank to Lavawood
 mods.tconstruct.Casting.addBasinRecipe(<tconstruct:firewood:0>, <ore:plankWood>, <liquid:pyrotheum>, 9, true, 100);
@@ -108,12 +111,12 @@ recipes.removeByRecipeName("natura:common/gunpowder");
 recipes.addShapeless(<quark:black_ash>*5,[<tconstruct:materials:17>]);
 
 //Smokey Quartz from wither ash
-val Quartz =<ore:gemQuartz>;
-recipes.removeByRecipeName("botania:quartz_0");
-recipes.addShaped(<botania:quartz:0>*8,
- [[Quartz,Quartz,Quartz],
-  [Quartz,<quark:black_ash>,Quartz],
-  [Quartz,Quartz,Quartz]]);
+val Quartz = <ore:gemQuartz>;
+recipes.remove(<botania:quartz:0>);
+recipes.addShaped(<botania:quartz:0> * 8,
+ [[Quartz, Quartz, Quartz],
+  [Quartz, <quark:black_ash>, Quartz],
+  [Quartz, Quartz, Quartz]]);
   
 // Furnace: Grass (Item) -> Dead Grass
 furnace.addRecipe(<minecraft:tallgrass:1>, <traverse:dead_grass>);
