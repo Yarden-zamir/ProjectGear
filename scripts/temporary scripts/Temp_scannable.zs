@@ -18,3 +18,5 @@ recipes.addShaped(<scannable:scanner>.withTag({energy: 5000}),
 recipes.addShapeless("gear_shapeless_rechargeScannableScanner", <scannable:scanner>.withTag({energy: 5000}), [<minecraft:redstone_block>, <minecraft:redstone_block>, <minecraft:redstone_block>, <scannable:scanner>.marked("scanner").noReturn()], function(out, ins, cInfo) {
     return out.withTag(ins.scanner.tag);
   }, null);
+  
+recipes.replaceAllOccurences(<scannable:module_blank>, <gendustry:upgrade_frame>);
