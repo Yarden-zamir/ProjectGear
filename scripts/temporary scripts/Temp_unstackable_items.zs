@@ -3,7 +3,7 @@ recipes.remove(<immersiveengineering:toolupgrade:4>);
  
 // Bayonet: Iron Sword -> Iron Sword Blade
 recipes.addShaped(<immersiveengineering:toolupgrade:4>,
-    [[<tconstruct:sword_blade>.onlyWithTag({Material: "iron"}), <ore:ingotSteel>],
+    [[<tconstruct:sword_blade>.withTag({Material: "iron"}), <ore:ingotSteel>],
     [<ore:ingotSteel>, <ore:plankTreatedWood>]]);
  
 // Zombie Pigman Charm Fragment: Gold Sword -> Golden Carrot
@@ -17,10 +17,19 @@ recipes.remove(<projectred-expansion:machine2>);
  
 // Block Breaker (Project Red): Iron Pickaxe -> Iron Pickaxe Head
 recipes.addShaped(<projectred-expansion:machine2>,
-    [[<ore:cobblestone>, <tconstruct:pick_head>.onlyWithTag({Material: "iron"}), <ore:cobblestone>],
+    [[<ore:cobblestone>, <tconstruct:pick_head>.withTag({Material: "iron"}), <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:piston>, <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]]);
-   
+    
+// Block Breaker (Gadgetry Machines) recipe removal
+recipes.remove(<gadgetrymachines:breaker>);
+
+// Block Breaker (Gadgetry Machines) Iron Pickaxe -> Iron Pickaxe Head
+recipes.addShaped(<gadgetrymachines:breaker>,
+    [[null, <minecraft:iron_ingot>, null],
+    [<minecraft:iron_ingot>, <tconstruct:pick_head>.withTag({Material: "iron"}), <minecraft:iron_ingot>], 
+    [<minecraft:redstone>, <ore:ingotSteel>, <minecraft:redstone>]]);
+
 // Block Breaker (Random Things) recipe removal
 recipes.remove(<randomthings:blockbreaker>);
  
@@ -37,14 +46,14 @@ recipes.remove(<buildcraftfactory:mining_well>);
 recipes.addShaped(<buildcraftfactory:mining_well>,
     [[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],
     [<minecraft:iron_ingot>, <ore:gearIron>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <tconstruct:pick_head>.onlyWithTag({Material: "iron"}), <minecraft:iron_ingot>]]);
+    [<minecraft:iron_ingot>, <tconstruct:pick_head>.withTag({Material: "iron"}), <minecraft:iron_ingot>]]);
    
 // Lumbermill recipe removal
 recipes.remove(<extratrees:machine>);
  
 // Lumbermill: Iron Axe -> Iron Axe Head
 recipes.addShaped(<extratrees:machine>,
-    [[<extratrees:misc:2>, <tconstruct:axe_head>.onlyWithTag({Material: "iron"}), <extratrees:misc:2>],
+    [[<extratrees:misc:2>, <tconstruct:axe_head>.withTag({Material: "iron"}), <extratrees:misc:2>],
     [<minecraft:glass>, <forestry:sturdy_machine>, <ore:blockGlassColorless>],
     [<extratrees:misc:2>, <ore:gearBronze>, <extratrees:misc:2>]]);
    
