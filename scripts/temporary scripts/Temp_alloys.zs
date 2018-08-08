@@ -74,7 +74,7 @@ game.setLocalization("fluid.tconstruct.alubrass.name","Molten Gold Brass");
  
 // TiC smeltery
 mods.tconstruct.Alloy.removeRecipe(<liquid:alubrass>);
-mods.tconstruct.Alloy.addRecipe(<liquid:alubrass> * 4, [<liquid:gold> * 3, <liquid:Tin> * 1]);
+mods.tconstruct.Alloy.addRecipe(<liquid:alubrass> * 4, [<liquid:gold> * 3, <liquid:tin> * 1]);
  
 // ie kiln
 mods.immersiveengineering.AlloySmelter.removeRecipe(<tconstruct:ingots:5>);
