@@ -177,3 +177,104 @@ mods.factorytech.Temperer.addRecipe(<mekanism:otherdust:5>, <thermalfoundation:m
 mods.immersiveengineering.Crusher.addRecipe(<mekanism:salt>*4, <ore:blockSalt>, 3000);
 mods.integrateddynamics.Squeezer.addRecipe(<mekanism:salt> * 4, <mekanism:saltblock>, null);
 mods.factorytech.DrillGrinder.addRecipe(<mekanism:salt>*4, <ore:blockSalt>, true);
+
+# priority 3
+ 
+import crafttweaker.item.IIngredient;
+ 
+ 
+// arc furnace recipes
+ 
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:reinforcedalloy>, <ore:alloyAdvanced>, <ore:dustDiamond>, 100, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:atomicalloy>, <ore:alloyElite>, <ore:dustRefinedObsidian>, 100, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:otherdust:5>, <ore:dustDiamond>, <ore:dustObsidian>, 100, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:enrichediron>, <ore:ingotIron>, <ore:fuelCoke>, 100, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:controlcircuit:0>, <opencomputers:material:7>, <ore:ingotRedAlloy>, 100, 512);
+//Disables recipes from several Mekanism machines
+//The machines themselves are already disabled, so this prevents them from appearing in JEI and confusing players
+
+	// disabling mekanism metallurgic infuser recipes
+ 
+mods.mekanism.infuser.removeRecipe(<mekanism:reinforcedalloy>);
+mods.mekanism.infuser.removeRecipe(<mekanism:atomicalloy>);
+mods.mekanism.infuser.removeRecipe(<mekanism:ingot:2>);
+mods.mekanism.infuser.removeRecipe(<minecraft:dirt:2>);
+mods.mekanism.infuser.removeRecipe(<minecraft:stonebrick:1>);
+mods.mekanism.infuser.removeRecipe(<minecraft:dirt:0>);
+mods.mekanism.infuser.removeRecipe(<mekanism:otherdust:5>);
+mods.mekanism.infuser.removeRecipe(<mekanism:controlcircuit:0>);
+mods.mekanism.infuser.removeRecipe(<mekanism:enrichedalloy>);
+mods.mekanism.infuser.removeRecipe(<mekanism:otherDust:1>);
+mods.mekanism.infuser.removeRecipe(<minecraft:mossy_cobblestone>);
+mods.mekanism.infuser.removeRecipe(<minecraft:mycelium>);
+mods.mekanism.infuser.removeRecipe(<mekanism:enrichediron>);
+ 
+	// enrichment chamber
+ 
+mods.mekanism.enrichment.removeRecipe(<mekanism:compressedcarbon>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:compressedredstone>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:compresseddiamond>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:compressedobsidian>);
+mods.mekanism.enrichment.removeRecipe(<minecraft:stonebrick>);
+ 
+mods.mekanism.enrichment.removeRecipe(<mekanism:dust:2>);
+mods.mekanism.enrichment.removeRecipe(<minecraft:redstone>);
+mods.mekanism.enrichment.removeRecipe(<minecraft:glowstone_dust>);
+mods.mekanism.enrichment.removeRecipe(<appliedenergistics2:material:10>);
+mods.mekanism.enrichment.removeRecipe(<appliedenergistics2:material:12>);
+mods.mekanism.enrichment.removeRecipe(<minecraft:gunpowder>);
+mods.mekanism.enrichment.removeRecipe(<immersiveengineering:metal:14>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:dust:0>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:dust:1>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:dust:3>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:dust:4>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:dust:5>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:dust:6>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:salt>);
+mods.mekanism.enrichment.removeRecipe(<minecraft:diamond>);
+mods.mekanism.enrichment.removeRecipe(<minecraft:quartz>);
+mods.mekanism.enrichment.removeRecipe(<thermalfoundation:material:68>);
+mods.mekanism.enrichment.removeRecipe(<thermalfoundation:material:69>);
+mods.mekanism.enrichment.removeRecipe(<thermalfoundation:material:70>);
+mods.mekanism.enrichment.removeRecipe(<thermalfoundation:material:71>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:otherDust:6>);
+ 
+	// precision sawmill
+ 
+mods.mekanism.sawmill.removeRecipe(<minecraft:planks:0>);
+mods.mekanism.sawmill.removeRecipe(<minecraft:planks:1>);
+mods.mekanism.sawmill.removeRecipe(<minecraft:planks:2>);
+mods.mekanism.sawmill.removeRecipe(<minecraft:planks:3>);
+mods.mekanism.sawmill.removeRecipe(<minecraft:planks:4>);
+mods.mekanism.sawmill.removeRecipe(<minecraft:planks:5>);
+mods.mekanism.sawmill.removeRecipe(<minecraft:stick>);
+ 
+	// combiner
+	// ores
+mods.mekanism.combiner.removeRecipe(<minecraft:iron_ore>);
+mods.mekanism.combiner.removeRecipe(<minecraft:gold_ore>);
+mods.mekanism.combiner.removeRecipe(<minecraft:coal_ore>);
+mods.mekanism.combiner.removeRecipe(<minecraft:lapis_ore>);
+mods.mekanism.combiner.removeRecipe(<minecraft:diamond_ore>);
+mods.mekanism.combiner.removeRecipe(<minecraft:redstone_ore>);
+mods.mekanism.combiner.removeRecipe(<minecraft:emerald_ore>);
+mods.mekanism.combiner.removeRecipe(<minecraft:quartz_ore>);
+mods.mekanism.combiner.removeRecipe(<mekanism:oreblock:0>);
+mods.mekanism.combiner.removeRecipe(<nuclearcraft:ore:4>);
+mods.mekanism.combiner.removeRecipe(<mekanism:oreblock:1>);
+mods.mekanism.combiner.removeRecipe(<mekanism:oreblock:2>);
+mods.mekanism.combiner.removeRecipe(<mekanism:oreblock:3>);
+mods.mekanism.combiner.removeRecipe(<mekanism:oreblock:4>);
+mods.mekanism.combiner.removeRecipe(<thermalfoundation:oreore:4>);
+mods.mekanism.combiner.removeRecipe(<thermalfoundation:oreore:5>);
+mods.mekanism.combiner.removeRecipe(<thermalfoundation:oreore:6>);
+mods.mekanism.combiner.removeRecipe(<thermalfoundation:oreore:7>);
+ 
+ 
+	// osmium compressor
+ 
+mods.mekanism.compressor.removeRecipe(<mekanism:ingot:3>);
+mods.mekanism.compressor.removeRecipe(<mekanism:ingot:0>);
+
+// glowstone ingot
+// refined obsidian
