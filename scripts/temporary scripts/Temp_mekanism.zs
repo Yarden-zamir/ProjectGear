@@ -186,11 +186,18 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:atomicalloy>,  <ore:all
 mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:otherdust:5>, <ore:dustDiamond>, null, 100, 512, [<ore:dustObsidian>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:enrichediron>, <ore:ingotIron>, null, 100, 512, [<ore:fuelCoke>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:controlcircuit:0>, <ore:ingotRedAlloy>, null, 100, 512, [<opencomputers:material:7>]);
+
+//Inscriber recipes:
+
+// Basic Control Circuit: (2 Microchip (tier 1) + Red Alloy Ingot)
+mods.appliedenergistics2.Inscriber.addRecipe(<mekanism:controlcircuit:0>, <opencomputers:material:7>, false,
+                                             <ore:ingotRedAlloy>, <opencomputers:material:7>);
+
 //Disables recipes from several Mekanism machines
 //The machines themselves are already disabled, so this prevents them from appearing in JEI and confusing players
 
 	// disabling mekanism metallurgic infuser recipes
- 
+/*
 mods.mekanism.infuser.removeRecipe(<mekanism:reinforcedalloy>);
 mods.mekanism.infuser.removeRecipe(<mekanism:atomicalloy>);
 mods.mekanism.infuser.removeRecipe(<mekanism:ingot:2>);
@@ -207,7 +214,7 @@ mods.mekanism.infuser.removeRecipe(<mekanism:enrichediron>);
  
 	// enrichment chamber
  
-mods.mekanism.enrichment.removeRecipe(<mekanism:compressedcarbon:0>);
+mods.mekanism.enrichment.removeRecipe(<mekanism:compressedcarbon:0>, <minecraft:coal>);
 mods.mekanism.enrichment.removeRecipe(<mekanism:compressedredstone:0>);
 mods.mekanism.enrichment.removeRecipe(<mekanism:compresseddiamond:0>);
 mods.mekanism.enrichment.removeRecipe(<mekanism:compressedobsidian:0>);
@@ -237,7 +244,7 @@ mods.mekanism.enrichment.removeRecipe(<mekanism:otherdust:6>);
  
 	// precision sawmill
  
-/*
+
 mods.mekanism.sawmill.removeRecipe(<minecraft:planks:0>);
 mods.mekanism.sawmill.removeRecipe(<minecraft:planks:1>);
 mods.mekanism.sawmill.removeRecipe(<minecraft:planks:2>);
@@ -245,7 +252,7 @@ mods.mekanism.sawmill.removeRecipe(<minecraft:planks:3>);
 mods.mekanism.sawmill.removeRecipe(<minecraft:planks:4>);
 mods.mekanism.sawmill.removeRecipe(<minecraft:planks:5>);
 mods.mekanism.sawmill.removeRecipe(<minecraft:stick>);
-*/
+
 	// combiner
 	// ores
 mods.mekanism.combiner.removeRecipe(<minecraft:iron_ore>);
@@ -271,5 +278,8 @@ mods.mekanism.combiner.removeRecipe(<thermalfoundation:ore:7>);
 mods.mekanism.compressor.removeRecipe(<mekanism:ingot:3>);
 mods.mekanism.compressor.removeRecipe(<mekanism:ingot:0>);
 
+*/
+
 // glowstone ingot
 // refined obsidian
+
