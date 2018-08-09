@@ -73,6 +73,6 @@ var netherGoldOre = VanillaFactory.createBlock("nether_gold_ore", <blockmaterial
 netherGoldOre.setBlockHardness(3.0); 
 netherGoldOre.setBlockResistance(15.0);
 netherGoldOre.setToolClass("pickaxe"); 
-netherGoldOresetToolLevel(3); 
+netherGoldOre.setToolLevel(3); 
 netherGoldOre.setBlockSoundType(<soundtype:stone>);
 netherGoldOre.register();
