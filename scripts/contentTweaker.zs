@@ -3,7 +3,7 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.Item;
-Import mods.contenttweaker.Block;
+import mods.contenttweaker.Block;
 import mods.contenttweaker.Commands;
 
 //fluids
