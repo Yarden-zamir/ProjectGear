@@ -1,0 +1,19 @@
+Fixes:
+-Fixed steel plate crushing table recipe
+-Fixed dirty dust washing recipes giving the wrong dust
+-Fixed Waystones consuming XP
+-Disabled Natura wooden equipment except for bows. Fixed bow, fence and fence gate recipes to not use Natura sticks.
+-Major Mekanism script fixes
+-Fixed platinum, silver and lead appearing in secondary outputs of the sluice box
+-Fixed Gold Brass recipe
+-Fixed valkyrien warfare ore generation script
+-Removed invalid ores from the Orechid
+-Made Open Computers slightly cheaper
+-Fixed Immersive Engineering tin wire requiring undamaged shears
+-Fixed a few Gadgetry script errors
+-Fixed Universal Omniwrench having the same recipe as the Universal Guide
+
+Changes:
+-Nerfed Essentials' fertile soil
+-Disabled Terraqueous leather junk dropping from zombies. They now drop leather scraps directly, and less of them.
+-You can now make Mekanism's control board in an inscriber or arc furnace
