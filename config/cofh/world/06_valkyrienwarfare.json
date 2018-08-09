@@ -4,7 +4,7 @@
 		"etherium_cave_top": {
 			"distribution": "cave",
 			"generator": {
-				"block": "valkyrienwarfareworld:etheriumore"
+				"block": "valkyrienwarfareworld:etheriumore",
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
@@ -20,5 +20,5 @@
 				]
 			}
 		}
-	},
+	}
 }

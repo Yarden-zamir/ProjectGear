@@ -1,0 +1,34 @@
+Most of the changes in this update are fixes to problems 
+
+Added mods:
+-Ion Chests (compat)
+-Better Railroads
+-Just Enough Petroleum
+-Just Enough Banner Patterns
+-Tinkers Aether
+-Armory Expansion
+-Storage Drawers Extras
+
+Changes:
+-Osmium Spaxelhoe is now made from steel
+-Ore generation changes:
+•Emerald, diamond and lapis stalactites are rarer, but contain more ore. The overall number of ores did not changed.
+•Stalactites have more redstone ore
+•Coal veins are twice as large
+•Reduced copper, tin, and iron ore generation rates by 40%
+•Reduced nickel ore generation rates by 60%
+•Ardite and cobalt ore are now 8 times less common. I left a test script in. My bad.
+-Crush salt blocks into salt
+-Reduced number of scythes in village chests
+-Updated JEI hiding list. Lots of clutter is hidden, and tool stations are now shown
+-Vanilla Fix "something has crashed" messages are now put in the log instead of an annoying toast
+-Changed output of the Magneticraft electric connector recipes. You get 2 while crafting, or 8 in a thermionic fabricator.
+-Buildcraft's stone and diamond gears are now craftable. They can also be made in a smeltery (stone only) or metal press (both)
+-Two Scannable recipe changes:
+•The upgrades use a Gendustry upgrade frame instead of the mod's own blank module. I like uniformity.
+•Improved the scanner recipe
+-Scannable scanners no longer use RF.
+-Fixed Buildcraft stone/diamond gears not being craftable
+-Improved Project Red draw plate recipe
+-Fixed a few script errors
+-Aluminum wires are now made from tin, and have been renamed to "tin wires"

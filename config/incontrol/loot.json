@@ -15,5 +15,10 @@
 		"mob": "minecraft:guardian",
 		"item": "xreliquary:mob_ingredient@16" ,
 		"random": 0.1
+	},
+	{
+		"mob": "minecraft:zombie",
+		"item": "terraqueous:item_main@100",
+		"random": 0.1
 	}
 ]
