@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 //disable forestry farms
 val itemsToDisable =[
-  <forestry:ffarm:*>,
+  <forestry:farm:*>,
   <forestry:arboretum:*>,
   <forestry:farm_crops:*>,
   <forestry:farm_mushroom:*>,
