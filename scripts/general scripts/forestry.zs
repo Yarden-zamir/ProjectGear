@@ -17,4 +17,4 @@ recipes.removeShaped(<forestry:wood_pile>);
 recipes.addShaped(<forestry:wood_pile>,
 [[<ore:logWood>,<ore:string>,<ore:logWood>],
 [<ore:string>,<ore:string>,<ore:string>],
-[<ore:logWood>,<ore:string>,<ore:logWood>]];
+[<ore:logWood>,<ore:string>,<ore:logWood>]]);
