@@ -45,7 +45,7 @@ mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>);
 
 //Change aluminum wire to tin wire
 <immersiveengineering:material:22>.displayName = "Tin Wire";
-recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateTin>, <minecraft:shears>.transformDamage()]);
+recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateTin>, <minecraft:shears:*>.transformDamage()]);
 recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateTin>, <immersiveengineering:tool:1>]);
 
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:22>);
