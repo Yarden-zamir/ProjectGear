@@ -138,3 +138,6 @@ recipes.addShaped("menril_to_fertilizer"	, <forestry:fertilizer_compound> * 16,
 	 [<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>]]);
 	 
 recipes.removeByRecipeName("mekanism:paper");
+
+// Centrifuge: Rotten Flesh -> [Sand Pile (Earthworks) 25%, Leather Scrap 10%, Monster Jerky 5%, Coagulated Blood 1%]
+mods.forestry.Centrifuge.addRecipe([<earthworks:item_sand> % 25, <terraqueous:item_main:100> % 10, <tconstruct:edible:10> % 5, <tconstruct:edible:33> % 1], <minecraft:rotten_flesh>, 100);
