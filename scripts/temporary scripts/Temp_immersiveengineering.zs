@@ -50,3 +50,34 @@ recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateTin>, <immer
 
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:22>);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22> * 2, <ore:ingotTin>, <immersiveengineering:mold:4>, 2000);
+
+// Faraday Armor recipe removal
+val craftingToDisable =[
+    <immersiveengineering:faraday_suit_head>,
+    <immersiveengineering:faraday_suit_chest>,
+    <immersiveengineering:faraday_suit_legs>,
+    <immersiveengineering:faraday_suit_feet>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
+ 
+// Faraday Armor (Aluminum plate replaced with Tin plate) recipes
+// Faraday Helmut
+recipes.addShapedMirrored(<immersiveengineering:faraday_suit_head>,
+    [[null, null, null],
+    [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
+    [<ore:plateTin>, null, <ore:plateTin>]]);
+// Faraday Chestplate
+recipes.addShaped(<immersiveengineering:faraday_suit_chest>,
+    [[<ore:plateTin>, null, <ore:plateTin>],
+    [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
+    [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);
+// Faraday Leggings
+recipes.addShaped(<immersiveengineering:faraday_suit_legs>,
+    [[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
+    [<ore:plateTin>, null, <ore:plateTin>],
+    [<ore:plateTin>, null, <ore:plateTin>]]);
+// Faraday Boots
+recipes.addShapedMirrored(<immersiveengineering:faraday_suit_feet>,
+    [[null, null, null],
+    [<ore:plateTin>, null, <ore:plateTin>],
+    [<ore:plateTin>, null, <ore:plateTin>]]);
