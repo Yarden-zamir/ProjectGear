@@ -1,0 +1,1106 @@
+[
+  "minecraft:beacon",
+  "minecraft:black_shulker_box",
+  "minecraft:blue_shulker_box",
+  "minecraft:brewing_stand",
+  "minecraft:brown_shulker_box",
+  {
+    "block": "minecraft:chain_command_block",
+    "filter": {
+      "conditionMet": "BYTE",
+      "auto": "BYTE",
+      "CustomName": "STRING",
+      "powered": "BYTE",
+      "Command": "STRING",
+      "SuccessCount": "INT",
+      "TrackOutput": "BYTE"
+    }
+  },
+  "minecraft:chest",
+  {
+    "block": "minecraft:command_block",
+    "filter": {
+      "conditionMet": "BYTE",
+      "auto": "BYTE",
+      "CustomName": "STRING",
+      "powered": "BYTE",
+      "Command": "STRING",
+      "SuccessCount": "INT",
+      "TrackOutput": "BYTE"
+    }
+  },
+  "minecraft:cyan_shulker_box",
+  "minecraft:daylight_detector",
+  "minecraft:daylight_detector_inverted",
+  "minecraft:dispenser",
+  "minecraft:dropper",
+  "minecraft:enchanting_table",
+  "minecraft:flower_pot",
+  "minecraft:furnace",
+  "minecraft:gray_shulker_box",
+  "minecraft:green_shulker_box",
+  "minecraft:hopper",
+  "minecraft:jukebox",
+  "minecraft:light_blue_shulker_box",
+  "minecraft:lime_shulker_box",
+  "minecraft:lit_furnace",
+  "minecraft:magenta_shulker_box",
+  {
+    "block": "minecraft:noteblock",
+    "filter": {
+      "note": "BYTE"
+    }
+  },
+  "minecraft:orange_shulker_box",
+  "minecraft:pink_shulker_box",
+  "minecraft:piston",
+  "minecraft:purple_shulker_box",
+  "minecraft:red_shulker_box",
+  {
+    "block": "minecraft:repeating_command_block",
+    "filter": {
+      "conditionMet": "BYTE",
+      "auto": "BYTE",
+      "CustomName": "STRING",
+      "powered": "BYTE",
+      "Command": "STRING",
+      "SuccessCount": "INT",
+      "TrackOutput": "BYTE"
+    }
+  },
+  "minecraft:silver_shulker_box",
+  {
+    "block": "minecraft:skull",
+    "filter": {
+      "Rot": "BYTE",
+      "SkullType": "BYTE"
+    }
+  },
+  {
+    "block": "minecraft:standing_sign",
+    "sortIndex": "attached",
+    "filter": {
+      "Text4": "STRING",
+      "Text3": "STRING",
+      "Text2": "STRING",
+      "Text1": "STRING"
+    }
+  },
+  "minecraft:sticky_piston",
+  {
+    "block": "minecraft:structure_block",
+    "filter": {
+      "metadata": "STRING",
+      "mirror": "STRING",
+      "ignoreEntities": "BYTE",
+      "powered": "BYTE",
+      "seed": "LONG",
+      "author": "STRING",
+      "rotation": "STRING",
+      "posX": "INT",
+      "mode": "STRING",
+      "posY": "INT",
+      "sizeX": "INT",
+      "posZ": "INT",
+      "integrity": "FLOAT",
+      "showair": "BYTE",
+      "name": "STRING",
+      "sizeY": "INT",
+      "sizeZ": "INT",
+      "showboundingbox": "BYTE"
+    }
+  },
+  "minecraft:trapped_chest",
+  {
+    "block": "minecraft:unpowered_comparator",
+    "sortIndex": "attached"
+  },
+  {
+    "block": "minecraft:wall_sign",
+    "sortIndex": "attached",
+    "filter": {
+      "Text4": "STRING",
+      "Text3": "STRING",
+      "Text2": "STRING",
+      "Text1": "STRING"
+    }
+  },
+  "minecraft:white_shulker_box",
+  "minecraft:yellow_shulker_box",
+  {
+    "block": "enderio:blockstirlinggenerator",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockpaintedpressureplate",
+    "filter": {
+      "silent": "BYTE",
+      "paintSource": "COMPOUND",
+      "type": "INT",
+      "rotation": "INT"
+    },
+    "strip": {
+      "paintSource__null": "If present, always ignores paintSource."
+    }
+  },
+  {
+    "block": "enderio:blockcombustiongenerator",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockzombiegenerator",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockreservoir",
+    "filter": {
+      "autoEject": "BYTE"
+    }
+  },
+  {
+    "block": "enderio:blockalloysmelter",
+    "filter": {
+      "mode": "INT",
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  "enderio:blocksolarpanel",
+  {
+    "block": "enderio:blockvat",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockpowermonitorv2",
+    "filter": {
+      "engineControlEnabled": "BYTE",
+      "paintSource": "COMPOUND",
+      "advanced": "BYTE",
+      "facing": "INT",
+      "faceModes": "LONG",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockpowermonitor",
+    "filter": {
+      "engineControlEnabled": "BYTE",
+      "paintSource": "COMPOUND",
+      "advanced": "BYTE",
+      "facing": "INT",
+      "faceModes": "LONG",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blocksagmill",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockcapbank",
+    "filter": {
+      "maxOutput": "INT",
+      "faceDisplayTypes": "LONG",
+      "inputControlMode": "INT",
+      "faceModes": "LONG",
+      "maxInput": "INT",
+      "type": "INT",
+      "outputControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes."
+    }
+  },
+  {
+    "block": "enderio:blockfarmstation",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "lockedSlots": "INT",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blocktank",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT",
+      "voidMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockcrafter",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "craftingGrid": "COMPOUND",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockvacuumchest",
+    "filter": {
+      "range": "INT",
+      "redstoneControlMode": "INT"
+    }
+  },
+  "enderio:blockxpvacuum",
+  "enderio:blockwirelesscharger",
+  {
+    "block": "enderio:blockenchanter",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blocksoulbinder",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blocksliceandsplice",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockattractor",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockspawnguard",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockspawnrelocator",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockexperienceobelisk",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockweatherobelisk",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockinhibitorobelisk",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blocktransceiver",
+    "filter": {
+      "paintSource": "COMPOUND",
+      "recieveItemFilter": "COMPOUND",
+      "sendChannels": "LIST",
+      "facing": "INT",
+      "faceModes": "LONG",
+      "recieveChannels": "LIST",
+      "redstoneControlMode": "INT",
+      "sendItemFilter": "COMPOUND"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockbuffer",
+    "filter": {
+      "hasInventory": "BYTE",
+      "isCreative": "BYTE",
+      "hasPower": "BYTE",
+      "maxIn": "INT",
+      "maxOut": "INT",
+      "paintSource": "COMPOUND",
+      "facing": "INT",
+      "faceModes": "LONG",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockinventorypanel",
+    "filter": {
+      "paintSource": "COMPOUND",
+      "guiSortMode": "INT",
+      "active": "BYTE",
+      "facing": "INT",
+      "faceModes": "LONG",
+      "guiFilterString": "STRING",
+      "storedCraftingRecipes": "COMPOUND",
+      "extractionDisabled": "BYTE",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockinventorychest",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockkillerjoe",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockpainter",
+    "filter": {
+      "facing": "INT",
+      "faceModes": "LONG",
+      "paintSource": "COMPOUND",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "enderio:blockelectriclight",
+    "filter": {
+      "face": "INT",
+      "isInvereted": "BYTE",
+      "isWireless": "BYTE",
+      "requiresPower": "BYTE"
+    }
+  },
+  {
+    "block": "enderio:blocktravelanchor",
+    "filter": {
+      "password": "COMPOUND",
+      "owner.uuid": "STRING",
+      "owner.login": "STRING",
+      "authorisedUsers": "COMPOUND",
+      "label": "STRING",
+      "accessMode": "INT",
+      "itemLabel": "COMPOUND"
+    }
+  },
+  {
+    "block": "enderio:blocktelepad",
+    "filter": {
+      "password": "COMPOUND",
+      "owner.uuid": "STRING",
+      "owner.login": "STRING",
+      "authorisedUsers": "COMPOUND",
+      "label": "STRING",
+      "accessMode": "INT",
+      "itemLabel": "COMPOUND",
+      "target": "COMPOUND"
+    }
+  },
+  {
+    "block": "enderio:blockdialingdevice",
+    "filter": {
+      "facing": "INT",
+      "targets": "COMPOUND"
+    },
+    "strip": {
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  "enderio:blockgauge",
+  {
+    "block": "enderio:blockinventorypanelsensor",
+    "filter": {
+      "itemToCheck": "COMPOUND",
+      "stopCount": "INT",
+      "startCount": "INT",
+      "paintSource": "COMPOUND",
+      "facing": "INT",
+      "faceModes": "LONG",
+      "redstoneControlMode": "INT"
+    },
+    "strip": {
+      "faceModes__null": "If present, always ignores faceModes.",
+      "paintSource__null": "If present, always ignores paintSource.",
+      "facing__null": "If present, always ignores facing."
+    }
+  },
+  {
+    "block": "immersiveengineering:stonedecorationslab",
+    "filter": {
+      "slabType": "INT"
+    }
+  },
+  {
+    "block": "immersiveengineering:storageslab",
+    "filter": {
+      "slabType": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:clothdevice",
+      "properties": {
+        "type": "balloon"
+      }
+    },
+    "filter": {
+      "shader": "COMPOUND",
+      "rotation": "FLOAT",
+      "facing": "INT",
+      "style": "INT",
+      "colour0": "INT",
+      "colour1": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:clothdevice",
+      "properties": {
+        "type": "stripcurtain"
+      }
+    },
+    "filter": {
+      "facing": "INT",
+      "colour": "INT",
+      "ceilingAttached": "BYTE"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:connector",
+      "properties": {
+        "type": "breakerswitch"
+      }
+    },
+    "sortIndex": "attached",
+    "filter": {
+      "facing": "INT",
+      "active": "BYTE",
+      "inverted": "BYTE",
+      "rotation": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:connector",
+      "properties": {
+        "type": "redstone_breaker"
+      }
+    },
+    "sortIndex": "attached",
+    "filter": {
+      "facing": "INT",
+      "inverted": "BYTE",
+      "rotation": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:connector",
+      "properties": {
+        "_0multiblockslave": "false"
+      }
+    },
+    "sortIndex": "attached",
+    "filter": {
+      "facing": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice0",
+      "properties": {
+        "type": "capacitor_lv"
+      }
+    },
+    "filter": {
+      "sideConfig_0": "INT",
+      "sideConfig_1": "INT",
+      "sideConfig_2": "INT",
+      "sideConfig_3": "INT",
+      "sideConfig_4": "INT",
+      "sideConfig_5": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice0",
+      "properties": {
+        "type": "capacitor_mv"
+      }
+    },
+    "filter": {
+      "sideConfig_0": "INT",
+      "sideConfig_1": "INT",
+      "sideConfig_2": "INT",
+      "sideConfig_3": "INT",
+      "sideConfig_4": "INT",
+      "sideConfig_5": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice0",
+      "properties": {
+        "type": "capacitor_hv"
+      }
+    },
+    "filter": {
+      "sideConfig_0": "INT",
+      "sideConfig_1": "INT",
+      "sideConfig_2": "INT",
+      "sideConfig_3": "INT",
+      "sideConfig_4": "INT",
+      "sideConfig_5": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice0",
+      "properties": {
+        "type": "capacitor_creative"
+      }
+    },
+    "filter": {
+      "sideConfig_0": "INT",
+      "sideConfig_1": "INT",
+      "sideConfig_2": "INT",
+      "sideConfig_3": "INT",
+      "sideConfig_4": "INT",
+      "sideConfig_5": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice0",
+      "properties": {
+        "type": "barrel"
+      }
+    },
+    "filter": {
+      "sideConfig": "INT[]"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice0",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "fluid_pump"
+      }
+    },
+    "filter": {
+      "placeCobble": "BYTE",
+      "sideConfig": "INT[]"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice1",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "blast_furnace_preheater"
+      }
+    },
+    "filter": {
+      "facing": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice1",
+      "properties": {
+        "type": "fluid_pipe"
+      }
+    },
+    "filter": {
+      "sideConfig": "INT[]"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice1",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "sample_drill"
+      }
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice1",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "tesla_coil"
+      }
+    },
+    "filter": {
+      "facing": "INT",
+      "redstoneInverted": "BYTE",
+      "lowPower": "BYTE"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice1",
+      "properties": {
+        "type": "floodlight"
+      }
+    },
+    "filter": {
+      "side": "INT",
+      "rotX": "FLOAT",
+      "rotY": "FLOAT",
+      "facing": "INT",
+      "redstoneControlInverted": "BYTE"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice1",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "turret_chem"
+      }
+    },
+    "filter": {
+      "owner": "STRING",
+      "facing": "INT",
+      "ignite": "BYTE",
+      "whitelist": "BYTE",
+      "redstoneInverted": "BYTE",
+      "attackPlayers": "BYTE",
+      "attackNeutrals": "BYTE",
+      "attackAnimals": "BYTE"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice1",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "turret_gun"
+      }
+    },
+    "filter": {
+      "owner": "STRING",
+      "facing": "INT",
+      "expelCasings": "BYTE",
+      "whitelist": "BYTE",
+      "redstoneInverted": "BYTE",
+      "attackPlayers": "BYTE",
+      "attackNeutrals": "BYTE",
+      "attackAnimals": "BYTE"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldevice1",
+      "properties": {
+        "_0multiblockslave": "false"
+      }
+    },
+    "filter": {
+      "facing": "INT"
+    }
+  },
+  {
+    "block": "immersiveengineering:conveyor",
+    "filter": {
+      "conveyorBeltSubtypeNBT": "COMPOUND",
+      "facing": "INT",
+      "conveyorBeltSubtype": "STRING"
+    }
+  },
+  {
+    "block": "immersiveengineering:sheetmetalslab",
+    "filter": {
+      "slabType": "INT"
+    }
+  },
+  {
+    "block": "immersiveengineering:treatedwoodslab",
+    "filter": {
+      "slabType": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldecoration2",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "steel_post"
+      }
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldecoration2",
+      "properties": {
+        "type": "steel_wallmount"
+      }
+    },
+    "filter": {
+      "orientation": "INT",
+      "facing": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldecoration2",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "aluminum_post"
+      }
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldecoration2",
+      "properties": {
+        "type": "aluminum_wallmount"
+      }
+    },
+    "filter": {
+      "orientation": "INT",
+      "facing": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldecoration2",
+      "properties": {
+        "type": "lantern"
+      }
+    },
+    "filter": {
+      "facing": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:metaldecoration2",
+      "properties": {
+        "type": "razor_wire"
+      }
+    },
+    "filter": {
+      "facing": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice0",
+      "properties": {
+        "type": "sorter"
+      }
+    },
+    "filter": {
+      "filter": "LIST",
+      "sideFilter": "INT[]"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice0",
+      "properties": {
+        "type": "barrel"
+      }
+    },
+    "filter": {
+      "sideConfig": "INT[]"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice0",
+      "properties": {
+        "type": "crate"
+      }
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice0",
+      "properties": {
+        "type": "reinforced_crate"
+      }
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice0",
+      "properties": {
+        "type": "turntable"
+      }
+    },
+    "filter": {
+      "invert": "BYTE",
+      "facing": "INT",
+      "redstone": "BYTE"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice0",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "workbench"
+      }
+    },
+    "filter": {
+      "facing": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice1",
+      "properties": {
+        "type": "wallmount"
+      }
+    },
+    "filter": {
+      "orientation": "INT",
+      "facing": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice1",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "post"
+      }
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice1",
+      "properties": {
+        "type": "windmill"
+      }
+    },
+    "filter": {
+      "rotation": "FLOAT",
+      "facing": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice1",
+      "properties": {
+        "type": "windmill_advanced"
+      }
+    },
+    "filter": {
+      "rotation": "FLOAT",
+      "facing": "INT"
+    }
+  },
+  {
+    "block": {
+      "block": "immersiveengineering:woodendevice1",
+      "properties": {
+        "_0multiblockslave": "false",
+        "type": "watermill"
+      }
+    },
+    "filter": {
+      "facing": "INT"
+    }
+  }
+]

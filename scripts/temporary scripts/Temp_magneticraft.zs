@@ -104,7 +104,35 @@ recipes.addShaped("multiblock_part_electrical_iron", <magneticraft:multiblock_pa
     [[plateIron, <ore:blockLapis>, plateIron],
     [<ore:blockLapis>, <ore:blockQuartz>, <ore:blockLapis>],
     [plateIron, <ore:blockLapis>, plateIron]]);
- 
+    
+#Script by DolphinBlaster
+//Removes lead, aluminum and silver dust as biproducts
+	
+// Iron Rocky Chunk Sluice Box & Sieve recipe removal
+mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks>);
+mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
+
+// Iron Rocky Chunk Sluice Box & Sieve recipe without Aluminum Dust
+mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:0>, 1.0, <magneticraft:chunks>, 0.15, <thermalfoundation:material:69>, 0.15, <minecraft:cobblestone>, 0.05, <thermalfoundation:material:771>, true);
+mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:0>, <magneticraft:chunks>, 1.0, <thermalfoundation:material:69>, 0.15, <thermalfoundation:material:771>, 0.10, 50, true);
+
+// Gold Rocky Chunk Sluice Box recipe removal
+mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:1>);
+mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
+
+// Gold Rocky Chunk Sluice Box & Sieve recipe without Silver Dust
+mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:1>, 1.0, <magneticraft:chunks:1>, 0.15, <thermalfoundation:material:64>, 0.15, <minecraft:cobblestone>, true);
+mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:1>, <magneticraft:chunks:1>, 1.0, <thermalfoundation:material:64>, 0.15, <thermalfoundation:material:771>, 0, 50, true);
+
+// Cobalt Rocky Chunk Sluice & Sieve Box recipe removal
+mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:4>);
+mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
+
+// Cobalt Rocky Chunk Sluice Box & Sieve recipe without Mithril Dust and Osmium Dust
+mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:4>, 1.0, <magneticraft:chunks:4>, 0.15, <minecraft:netherrack>, true);
+mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:4>, <magneticraft:chunks:4>, 1.0, <thermalfoundation:material:64>, 0, <thermalfoundation:material:771>, 0, 50, true);
+
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
  
 mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ingot>);
 mods.magneticraft.CrushingTable.addRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:32>, false);
@@ -119,14 +147,13 @@ mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:3>);
 mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:131>, <thermalfoundation:material:323>, false);
 
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:6>);
-mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:352>, false);
+
+//mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:320>, true);
  
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
 
+mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:352>, false);
 
-recipes.removeShaped(<magneticraft:nuggets:5>);
-recipes.removeShaped(<magneticraft:storage_blocks:3>);
-recipes.removeShaped(<magneticraft:tungsten_gear>);
 
 // Electric Connector craft 4 instead of 8
 recipes.addShapedMirrored(<magneticraft:connector> * 2,
@@ -138,24 +165,3 @@ recipes.addShapedMirrored(<magneticraft:connector> * 2,
     [[null, null, null],
     [null, <ore:ingotNickel>, null],
     [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
-	
-#Script by DolphinBlaster
-//Removes lead, aluminum and silver dust as biproducts
-	
-// Iron Rocky Chunk Sluice Box recipe removal
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks>);
- 
-// Iron Rocky Chunk Sluice Box recipe without Aluminum Dust
-mods.magneticraft.SluiceBox.addRecipe(<minecraft:iron_ore>, 1.0, <magneticraft:chunks>, 0.15, <thermalfoundation:material:69>, 0.15, <minecraft:cobblestone>, true);
- 
-// Gold Rocky Chunk Sluice Box recipe removal
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:1>);
- 
-// Gold Rocky Chunk Sluice Box recipe without Silver Dust
-mods.magneticraft.SluiceBox.addRecipe(<minecraft:gold_ore>, 1.0, <magneticraft:chunks:1>, 0.15, <thermalfoundation:material:64>, 0.15, <minecraft:cobblestone>, true);
- 
-// Cobalt Rocky Chunk Sluice Box recipe removal
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:4>);
- 
-// Cobalt Rocky Chunk Sluice Box recipe without Mithril Dust and Osmium Dust
-mods.magneticraft.SluiceBox.addRecipe(<minecraft:gold_ore>, 1.0, <magneticraft:chunks:4>, 0.15, <minecraft:netherrack>, true);
