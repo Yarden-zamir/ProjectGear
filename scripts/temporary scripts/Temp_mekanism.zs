@@ -192,6 +192,32 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:controlcircuit>, <ore:i
 // Basic Control Circuit: (2 Microchip (tier 1) + Red Alloy Ingot)
 mods.appliedenergistics2.Inscriber.addRecipe(<mekanism:controlcircuit>, <projectred-core:resource_item:103>, false,
                                              <opencomputers:material:7>, <opencomputers:material:7>);
+											 
+recipes.remove(<mekanism:machineblock:9>);
+recipes.addShaped("gear_shaped_purification_chamber", <mekanism:machineblock:9>,
+    [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>],
+    [<ore:ingotTin>, <mekanism:basicblock:8>, <ore:ingotTin>],
+    [<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>]]);
+ 
+recipes.remove(<mekanism:machineblock2:10>);
+recipes.addShaped("gear_shaped_prc", <mekanism:machineblock2:10>,
+    [[<ore:ingotSteel>, <ore:alloyAdvanced>, <ore:ingotSteel>],
+    [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+    [<mekanism:gastank:0>, <mekanism:basicblock:9>, <mekanism:gastank:0>]]);
+ 
+recipes.remove(<mekanism:electrolyticcore>);
+recipes.addShaped("gear_shaped_electrolytic_core", <mekanism:electrolyticcore>,
+    [[<ore:alloyAdvanced>, <ore:dustSalt>, <ore:alloyAdvanced>],
+    [<ore:dustIron>, <ore:alloyAdvanced>, <ore:dustGold>],
+    [<ore:alloyAdvanced>, <ore:dustSalt>, <ore:alloyAdvanced>]]);
+ 
+recipes.remove(<mekanism:machineblock2:0>);
+recipes.addShaped("gear_shaped_rotary_condensentrator", <mekanism:machineblock2:0>,
+    [[<ore:blockGlass>, <ore:circuitBasic>, <ore:blockGlass>],
+    [<mekanism:gastank:0>, <mekanism:energytablet>, <minecraft:bucket>],
+    [<ore:blockGlass>, <ore:circuitBasic>, <ore:blockGlass>]]);
+ 
+
 
 //Disables recipes from several Mekanism machines
 //The machines themselves are already disabled, so this prevents them from appearing in JEI and confusing players
