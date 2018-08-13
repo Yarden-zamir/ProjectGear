@@ -104,41 +104,7 @@ recipes.addShaped("multiblock_part_electrical_iron", <magneticraft:multiblock_pa
     [[plateIron, <ore:blockLapis>, plateIron],
     [<ore:blockLapis>, <ore:blockQuartz>, <ore:blockLapis>],
     [plateIron, <ore:blockLapis>, plateIron]]);
- 
- 
-mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ingot>);
-mods.magneticraft.CrushingTable.addRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:32>, false);
- 
-mods.magneticraft.CrushingTable.removeRecipe(<minecraft:gold_ingot>);
-mods.magneticraft.CrushingTable.addRecipe(<minecraft:gold_ingot>, <thermalfoundation:material:33>, false);
- 
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:2>);
-mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:128>, <thermalfoundation:material:320>, false);
- 
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:3>);
-mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:131>, <thermalfoundation:material:323>, false);
-
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:6>);
-mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:352>, false);
- 
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
-
-
-recipes.removeShaped(<magneticraft:nuggets:5>);
-recipes.removeShaped(<magneticraft:storage_blocks:3>);
-recipes.removeShaped(<magneticraft:tungsten_gear>);
-
-// Electric Connector craft 4 instead of 8
-recipes.addShapedMirrored(<magneticraft:connector> * 2,
-    [[null, null, null],
-    [null, <ore:ingotIron>, null],
-    [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
-
-recipes.addShapedMirrored(<magneticraft:connector> * 2,
-    [[null, null, null],
-    [null, <ore:ingotNickel>, null],
-    [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
-	
+    
 #Script by DolphinBlaster
 //Removes lead, aluminum and silver dust as biproducts
 	
@@ -159,3 +125,42 @@ mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:4>);
  
 // Cobalt Rocky Chunk Sluice Box recipe without Mithril Dust and Osmium Dust
 mods.magneticraft.SluiceBox.addRecipe(<minecraft:gold_ore>, 1.0, <magneticraft:chunks:4>, 0.15, <minecraft:netherrack>, true);
+
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ingot>);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:32>, false);
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<minecraft:gold_ingot>);
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:gold_ingot>, <thermalfoundation:material:33>, false);
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:2>);
+mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:128>, <thermalfoundation:material:320>, false);
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:3>);
+mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:131>, <thermalfoundation:material:323>, false);
+
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:6>);
+
+//mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:320>, true);
+ 
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
+
+mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:352>, false);
+
+
+// Electric Connector craft 4 instead of 8
+recipes.addShapedMirrored(<magneticraft:connector> * 2,
+    [[null, null, null],
+    [null, <ore:ingotIron>, null],
+    [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
+
+recipes.addShapedMirrored(<magneticraft:connector> * 2,
+    [[null, null, null],
+    [null, <ore:ingotNickel>, null],
+    [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
+
+
+recipes.removeShaped(<magneticraft:nuggets:5>);
+recipes.removeShaped(<magneticraft:storage_blocks:3>);
+recipes.removeShaped(<magneticraft:tungsten_gear>);
