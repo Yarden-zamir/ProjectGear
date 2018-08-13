@@ -84,3 +84,13 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:7>, c
 
 #renames:
 scripts.functions.rename(<immersiveengineering:ore:5>,"Uraninite Ore");
+
+//Excavator
+
+mods.immersiveengineering.Excavator.removeMineral("Bauxite");
+mods.immersiveengineering.Excavator.removeMineral("Galena");
+mods.immersiveengineering.Excavator.removeMineral("Lead");
+mods.immersiveengineering.Excavator.removeMineral("Nickel");
+mods.immersiveengineering.Excavator.removeMineral("Platinum");
+mods.immersiveengineering.Excavator.removeMineral("Silver");
+mods.immersiveengineering.Excavator.removeMineral("Uranium");
