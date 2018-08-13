@@ -9,18 +9,15 @@ mods.botania.Orechid.removeOre(<ore:oreRuby>);
 mods.botania.Orechid.removeOre(<ore:orePeridot>);
 mods.botania.Orechid.removeOre(<ore:oreCobalt>);
 mods.botania.Orechid.removeOre(<ore:oreGalena>);
-
-// Disabling certain other ores generating from Orechid
 mods.botania.Orechid.removeOre(<ore:oreApatite>);
+mods.botania.Orechid.removeOre(<ore:orePlatinum>);
 mods.botania.Orechid.removeOre(<ore:oreUranium>);
- 
+// Increased Nickel chance in orechid
+mods.botania.Orechid.addOre(<ore:oreNickel>, 12000);
+
 // Makes the oredict entry "blockMossyCobblestone" for only Moss Stone
 val myEntry = <ore:blockMossyCobblestone>;
 myEntry.add(<minecraft:mossy_cobblestone>);
  
 // Orechid: Mossy Cobblestone generates about 50% of the time
 mods.botania.Orechid.addOre(<ore:blockMossyCobblestone>, 80000);
-
-//Orechid: Disable default nickel weight & add new weight
-mods.botania.Orechid.removeOre(<ore:oreNickel>);
-mods.botania.Orechid.addOre(<ore:oreNickel>, 6000);

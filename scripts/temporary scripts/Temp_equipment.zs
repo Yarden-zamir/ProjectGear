@@ -11,10 +11,10 @@ recipes.addShaped(<projectred-expansion:jetpack>,
   [<projectred-expansion:charged_battery>, <minecraft:iron_chestplate>, <projectred-expansion:charged_battery>],
   [<minecraft:diamond>, <projectred-expansion:machine2:5>, <minecraft:diamond>]]);
   
-//Boron Spaxelhoe to Osmium Spaxelhoe
+//Boron Spaxelhoe to Steel Spaxelhoe
 recipes.remove(<nuclearcraft:spaxelhoe_boron>);
-recipes.addShapeless(<nuclearcraft:spaxelhoe_boron> , [<tconstruct:tough_tool_rod>.withTag({Material:"iron"}), <tconstruct:axe_head>.withTag({Material:"osmium"}), <tconstruct:pick_head>.withTag({Material:"osmium"}), <tconstruct:shovel_head>.withTag({Material:"osmium"}), <tconstruct:sword_blade>.withTag({Material:"osmium"})]);
-<nuclearcraft:spaxelhoe_boron>.displayName = "Osmium Spaxelhoe";
+recipes.addShapeless(<nuclearcraft:spaxelhoe_boron> , [<tconstruct:tough_tool_rod>.withTag({Material:"steel"}), <tconstruct:axe_head>.withTag({Material:"steel"}), <tconstruct:pick_head>.withTag({Material:"steel"}), <tconstruct:shovel_head>.withTag({Material:"steel"}), <tconstruct:sword_blade>.withTag({Material:"steel"})]);
+<nuclearcraft:spaxelhoe_boron>.displayName = "Steel Spaxelhoe";
 
 #Scripts by DolphinBlaster:
 

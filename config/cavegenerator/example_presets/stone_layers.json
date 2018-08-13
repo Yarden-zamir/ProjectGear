@@ -1,0 +1,29 @@
+//Make sure to list these in order from bottom to top.
+{
+	"enabled" : false,
+	"stoneLayers" :
+	{
+		"keys" : ["granite", "andesite", "stone", "diorite"],
+		
+		"granite" :
+		{
+			"state" : "stone:1",
+			"maxHeight" : 12
+		},
+		"andesite" :
+		{
+			"state" : "stone:5",
+			"maxHeight" : 23
+		},
+		"stone" :
+		{
+			"state" : "stone",
+			"maxHeight" : 44
+		},
+		"diorite" :
+		{
+			"state" : "stone:3",
+			"maxHeight" : 60
+		}
+	}
+}

@@ -1,0 +1,89 @@
+Added mods:
+-Cave Generation
+-Solar Cycler
+
+Removed mods:
+-Subterinean Waters: Made caving frustrating
+-Hopper Ducts: BitHop is better
+
+
+Updated mods:
+-Aether Legacy
+-Bind Tweaker
+-Botania Tweaks
+-Building Gadgets
+-Charset audio
+-Charset TweakCarry
+-Charset Crafting
+-Charset Lib
+-Charset StorageBarrels
+-Charset TransportCartsRails
+-Charset Tweaks
+-Chicken Chunks
+-Chisels and Bits
+-CodeChickenLib
+-Colytra
+-CompactDrawers
+-CompactDrawers
+-Dazzle
+-Factory Tech
+-Forestry
+-Forge MultiPart
+-FTBUtilities
+-FTBLib
+-Immersive Cables
+-Integrated Dynamics
+-Iron Chests
+-JEI
+-ModTweaker
+-More Overlays
+-Mystcraft
+-Natura
+-Orbis
+-p455w0rdslib
+-Pneumaticraft: Repressurized
+-Random Things
+-Random Tweaks
+-Refraction
+-Rockhounding Core
+-SilentLib
+-Translocators
+-Traverse
+-Waterworks
+-Waystones
+-WR-CBE
+
+Changes:
+-Lots of script fixes
+-Turn necrotic bones to wither ash
+-Disabled Project Red gem equipment
+-Project Red screwdriver is much more durable
+-Craft Traverse grass
+-Smoky quartz requires wither dust
+-Turn logs into sawdust
+-Menril + ash > fertilizer
+-Disabled default steel recipes
+-Gold and iron ore is more common
+-Tin ore is less common
+-Osmium ore no longer exists. All recipes that use it have been changed, except for the basic control board.
+-Fixed RF infrastructure being required to make RF infrastructure, stopping progression
+-Fixed uncraftable clay plate
+-Made rich ore veins rarer
+-Aluminum brass is now gold brass, made with gold and nickel
+-Configured Forestry backpacks
+-Added starter gear kit
+-Disabled ore block Mystcraft pages
+-Disabled AE2 storage biome Mystcraft page. This seems like it shouldn't exist.
+-Reduced number of return scrolls in RComplex holy chests
+-Fixed and updated several tips
+-Disabled several Mekanism machines. You can find a complete list here: https://github.com/PandaBoy444/ProjectGear/issues/426#issuecomment-409754100
+
+Diagram changes:
+-Revived diagram 2.0
+-Added some clerafication for how things are marked when they are implemented
+-Ported over Liquid sulphur
+-Compacted plastic making in the diagram
+-Revised the standart for the diagram to make it more compact and easy to read
+-Some more tweaks to water mesh recipes
+-Extended the legend to explain card colors
+-Ported and altered a bunch of things

@@ -1,0 +1,155 @@
+//No values here are necessary. With the exception of blockFillers, any value left out will default to
+//its original equivalent from this file. Take a look at the examples for more information.
+{
+	"enabled" : true,
+	"biomes" :
+	{
+		"names" : [],
+		"IDs" : [],
+		"types" : []
+	},
+	"//" : "See tunnels.json, flooded_vanilla.json, and stalactites.json for examples of blockFillers.",
+	"blockFillers" :
+	{
+		"fillersAreReplaceable" : true,
+		
+		"keys" : []
+	},
+	"lavaRules" :
+	{
+		"maxHeight" : 10
+	},
+	"rooms" :
+	{
+		"scale" : 6.0,
+		"scaleY" : 0.5
+	},
+	"tunnels" :
+	{
+		"frequency" : 15,		
+		"minHeight" : 8,
+		"maxHeight" : 128,
+		"//" : "Distance is automatically calculated when set to 0.",
+		"distance" : 0,
+		"//" : "Actual chance = 1 / (# + 1)",
+		"spawnInSystemInverseChance" : 4,
+		"spawnIsolatedInverseChance" : 7,
+		"vanillaNoiseYReduction" : true,
+		"extensions" :
+		{
+			"//" : "Options for these are 'vanilla_branches,' 'matching_branches,' 'preset:other_preset_name_here,' and 'room,'",
+			"beginning" : "none",
+			"random" : "vanilla_branches",
+			"end" : "none"
+		},
+		"twistXZ" :
+		{
+			"exponent" : 1.0,
+			"factor" : 0.75,
+			"randomnessFactor" : 4.0,
+			"startingValue" : 0.0
+		},
+		"twistY" :
+		{
+			"exponent" : 1.0,
+			"factor" : 0.9,
+			"randomnessFactor" : 2.0,
+			"startingValue" : 0.0
+		},
+		"scale" :
+		{
+			"exponent" : 1.0,
+			"factor" : 1.0,
+			"randomnessFactor" : 0.0,
+			"startingValue" : 0.0,
+			"startingValueRandomnessFactor" : 1.0
+		},
+		"scaleY" :
+		{
+			"exponent" : 1.0,
+			"factor" : 1.0,
+			"randomnessFactor" : 0.0,
+			"startingValue" : 1.0
+		},
+		"slopeXZ" :
+		{
+			"startingValue" : 0.0,
+			"startingValueRandomnessFactor" : 1.0
+		},
+		"slopeY" :
+		{
+			"startingValue" : 0.0,
+			"startingValueRandomnessFactor" : 0.25
+		}
+	},
+	"//" : "See caverns.json for an example of caverns. These are the default values.",
+	"caverns" :
+	{
+		"enabled" : false,
+		"minHeight" : 10,
+		"maxHeight" : 50,
+		"//" : "The opposite of frequency",
+		"spacing" : 70.0,
+		"//" : "scale(Y) is from 0 - 1.",
+		"scale" : 0.2,
+		"scaleY" : 0.5,
+		"octaves" : 1
+	},
+	"//" : "See stone_layers.json for an example of stoneLayers.",
+	"stoneLayers" :
+	{
+		"keys" : []
+	},
+	"//" : "Ravines are like tunnels, but spawn with noisier walls. You could theoretically ",
+	"//" : "use these as your main tunnels, as well, if you're using multiple presets.",
+	"ravines" : 
+	{
+		"//" : "Actual chance = 1 / (# + 1)",
+		"inverseChance" : 50,
+		"minHeight" : 20,
+		"maxHeight" : 40,
+		"//" : "Distance is automatically calculated when set to 0.",
+		"distance" : 0,
+		"twistXZ" :
+		{
+			"exponent" : 1.0,
+			"factor" : 0.5,
+			"randomnessFactor" : 4.0,
+			"startingValue" : 0.0
+		},
+		"twistY" :
+		{
+			"exponent" : 1.0,
+			"factor" : 0.8,
+			"randomnessFactor" : 2.0,
+			"startingValue" : 0.0
+		},
+		"scale" :
+		{
+			"exponent" : 1.0,
+			"factor" : 1.0,
+			"randomnessFactor" : 0.0,
+			"startingValue" : 0.0,
+			"startingValueRandomnessFactor" : 2.0
+		},
+		"scaleY" :
+		{
+			"exponent" : 1.0,
+			"factor" : 1.0,
+			"randomnessFactor" : 0.0,
+			"startingValue" : 3.0
+		},
+		"slopeXZ" :
+		{
+			"startingValue" : 0.0,
+			"startingValueRandomnessFactor" : 1.0
+		},
+		"slopeY" :
+		{
+			"startingValue" : 0.0,
+			"startingValueRandomnessFactor" : 0.25
+		},
+		"//" : "Similar to vanillaNoiseYReduction for tunnels, but not as random.",
+		"noiseYFactor" : 0.7
+	}
+}

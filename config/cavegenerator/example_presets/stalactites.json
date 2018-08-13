@@ -1,0 +1,35 @@
+//There aren't really any good stalactites / stalagmites in vanilla...
+{
+	"enabled" : false,
+	"blockFillers" :
+	{
+		"keys" : ["stalagmite", "stalactite"], 
+		
+		"stalagmite" :
+		{
+			"state" : "minecraft:cobblestone_wall",
+			"chance" : 15.0,
+			"minHeight" : 10,
+			"maxHeight" : 55,
+			"matchers" :
+			[
+				"minecraft:stone"
+			],
+			"directions" : ["down"],
+			"preference" : "replace_original"		
+		},
+		"stalactite" :
+		{
+			"state" : "minecraft:cobblestone_wall",
+			"chance" : 15.0,
+			"minHeight" : 10,
+			"maxHeight" : 55,
+			"matchers" :
+			[
+				"minecraft:stone"
+			],
+			"directions" : ["up"],
+			"preference" : "replace_original"		
+		}
+	}
+}

@@ -7,6 +7,25 @@ Added mods:
 -Gadgetry Machines
 -Refraction
 -Building Gadgets
+-Block Drops Tweaker
+-Compact Drawers
+-Subterranian Waters
+
+Updated:
+-Binnie's Mods
+-CoFH Core
+-Colytra
+-Comforts
+-Construct's Armory
+-Cucumber Library
+-Forestry
+-Immersive Railroading
+-Mystcraft
+-Pneumaticraft
+-Refraction
+-Rockhounding: Surface
+-Steve's Carts
+-TOP Addons
 
 Changes:
 -Updated to the latest build of Forge
@@ -30,3 +49,27 @@ Changes:
 -Updated Buildcraft oil biome blacklist so oil only spawns in Buildcraft oil field biomes
 -Overhauled Iron Jetpacks to so jetpacks are sidegrades instead of tiered upgrades
 -Documented Iron Jetpacks
+-Reliquary frozen core and guardian spike drop from snowmen (100%) and guardians (10%) respectively
+-Fixed some Reliquary recipes
+-Added recipes for several stone types
+-Removed the flesh > leather Industrial Squeezer recipe
+-Recurrent Complex structures no longer generate in the aether
+-Fixed bronze ingots being craftable
+-Disabled several Gadgetry machines, mostly things like oil, tanks and item movement which are done better in other mods
+-Fixed river mesh recipes
+-Fixed pebbles not generating
+-Disabled Random Things worldgen of spectre coils
+-Disabled Random Things spectre coils and spectre injector
+-Non-ops can create global waypoints with Waystones
+-Craft eye of the storm with lasers
+-Turn soul sand into ghast tears, soul beads, heat sand and tainted soil using a Forestry centrifuge
+-Added a few new wrenches to the Universal Omniwrench
+-Craft alloys more efficiently with lasers
+-Fixed Gadgetry core/transmission not working with the universal omniwrench
+-Make firewood with 9mb of blazing pyrotheum
+-Charcoal pit is no longer required to make charcoal, but you get 50% more charcoal
+-Melt deep resonance ore with an arc furnace
+-Turn molten ender/redstone/glowstone into ender pearls, redstone blocks or glowstone blocks with a smeltery
+-Crush saddles, golden apples and diamond horse armor into leather scraps, gold dust and diamond dust, respectively
+-Removed duplicate gunpowder recipes
+-Mekanism's cardboard boxes can no longer move spawners

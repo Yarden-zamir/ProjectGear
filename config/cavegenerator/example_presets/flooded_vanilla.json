@@ -1,0 +1,39 @@
+{
+	"enabled" : false,
+	"blockFillers" :
+	{
+		"keys" : ["fallenGravel", "flood", "manualObsidian"], 
+		
+		"fallenGravel" :
+		{
+			"state" : "minecraft:gravel:0",
+			"chance" : 25.0,
+			"minHeight" : 0,
+			"maxHeight" : 63,
+			"//" : "There's no need to list matchers unless you want to replace specific blocks with 'state.'",
+			"matchers" :
+			[
+				"minecraft:stone:0",
+				"minecraft:dirt:0"
+			],
+			"//" : "Options for direction are: 'up,' 'down,' 'side,' and 'all.' You don't have to specify a direction.",
+			"directions" : ["down"],
+			"//" : "Options for preference are: 'replace_match' and 'replace_original.'",
+			"preference" : "replace_match"		
+		},
+		"flood" :
+		{
+			"state" : "minecraft:water:0",
+			"chance" : 100.0,
+			"minHeight" : 12,
+			"maxHeight" : 45			
+		},
+		"manualObsidian" :
+		{
+			"state" : "minecraft:obsidian:0",
+			"chance" : 100.0,
+			"minHeight" : 11,
+			"maxHeight" : 11
+		}
+	}
+}

@@ -16,41 +16,41 @@ val goldIngot = <ore:ingotGold>;
 val nickelIngot = <ore:ingotNickel>;
 val redstone = <ore:dustRedstone>;
 val glass = <ore:blockGlass>;
-val osmiumIngot = <ore:ingotOsmium>;
+val tinIngot = <ore:ingotTin>;
 
 
 //Replace iron with osmium
 recipes.removeShaped(<appliedenergistics2:material:25>);
 recipes.addShaped(<appliedenergistics2:material:25> * 2,
-	[[goldIngot, osmiumIngot, null],
-	 [redstone, <appliedenergistics2:material:23>, osmiumIngot],
-	 [goldIngot, osmiumIngot, null]]);
+	[[goldIngot, tinIngot, null],
+	 [redstone, <appliedenergistics2:material:23>, tinIngot],
+	 [goldIngot, tinIngot, null]]);
 
 
 recipes.removeShaped(<appliedenergistics2:material:28>);
 recipes.addShaped(<appliedenergistics2:material:28> * 2,
-	[[<minecraft:diamond>, osmiumIngot, null],
-	 [redstone, <appliedenergistics2:material:23>, osmiumIngot],
-	 [<minecraft:diamond>, osmiumIngot, null]]);
+	[[<minecraft:diamond>, tinIngot, null],
+	 [redstone, <appliedenergistics2:material:23>, tinIngot],
+	 [<minecraft:diamond>, tinIngot, null]]);
 
 recipes.removeShaped(<appliedenergistics2:interface>);
 recipes.addShaped(<appliedenergistics2:interface>,
-	[[osmiumIngot, glass, osmiumIngot],
+	[[tinIngot, glass, tinIngot],
 	 [<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
-	 [osmiumIngot, glass, osmiumIngot]]);
+	 [tinIngot, glass, tinIngot]]);
 
 
 recipes.removeShaped(<appliedenergistics2:part:240>);
 recipes.addShaped(<appliedenergistics2:part:240>,
 	[[null, null, null],
 	 [null, <appliedenergistics2:material:44>, null],
-	 [osmiumIngot, <minecraft:sticky_piston>, osmiumIngot]]);
+	 [tinIngot, <minecraft:sticky_piston>, tinIngot]]);
 
 
 recipes.removeShaped(<appliedenergistics2:part:260>);
 recipes.addShaped(<appliedenergistics2:part:260>,
 	[[null, null, null],
-	 [osmiumIngot, <appliedenergistics2:material:43>, osmiumIngot],
+	 [tinIngot, <appliedenergistics2:material:43>, tinIngot],
 	 [null, <minecraft:piston>, null]]);
 
 

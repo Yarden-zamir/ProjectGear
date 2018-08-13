@@ -14,10 +14,10 @@
     "usage": 310,
     "speed_vertical": 0.79,
     "accel_vertical": 0.14,
-    "speed_sideways": 0.40,
+    "speed_sideways": 0.30,
     "speed_hover_descend": 0.37,
     "speed_hover": 0.03,
-    "sprint_speed_multi": 1.6,
+    "sprint_speed_multi": 2.6,
     "sprint_fuel_multi": 3.5
   }
 }
