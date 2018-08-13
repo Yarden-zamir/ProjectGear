@@ -11,3 +11,10 @@ val itemsToDisable =[
   <forestry:peat_bog:*>,
 ] as IItemStack[];  //note: Disabled to encourage more complex farms
 scripts.functions.disableItems(itemsToDisable);
+
+//Foresty log piles
+recipes.removeShaped(<forestry:wood_pile>);
+recipes.addShaped(<forestry:wood_pile>,
+[[<ore:logWood>,<ore:string>,<ore:logWood>],
+[<ore:string>,<ore:string>,<ore:string>],
+[<ore:logWood>,<ore:string>,<ore:logWood>]]);
