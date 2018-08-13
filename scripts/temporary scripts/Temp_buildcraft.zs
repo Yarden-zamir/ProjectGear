@@ -12,6 +12,6 @@ mods.immersiveengineering.MetalPress.addRecipe(<buildcraftcore:gear_stone>, <ore
 // diamond gears
 mods.immersiveengineering.MetalPress.addRecipe(<buildcraftcore:gear_diamond>, <ore:gemDiamond>, <immersiveengineering:mold:1>, 2000, 4);
 recipes.addShaped("diamond_gear", <buildcraftcore:gear_diamond>,
-    [[null, <ore:diamond>, null],
-    [<ore:diamond>, <ore:gearWood>, <ore:diamond>],
-    [null, <ore:diamond>, null]]);
+    [[null, <ore:gemDiamond>, null],
+    [<ore:gemDiamond>, <ore:gearWood>, <ore:gemDiamond>],
+    [null, <ore:gemDiamond>, null]]);
