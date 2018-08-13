@@ -23,4 +23,4 @@ recipes.remove(<thermalfoundation:material:165>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:signalum>);
 
 // Signalum: Silver -> Nickel (Smeltery Alloying)
-mods.tconstruct.Alloy.addRecipe(<liquid:signalum> * 576, [<liquid:copper> * 432, <liquid:nickel> * 144, <liquid:redstone> * 1000]);
+mods.tconstruct.Alloy.addRecipe(<liquid:signalum> * 576, [<liquid:copper> * 432, <liquid:ardite> * 144, <liquid:redstone> * 1000]);
