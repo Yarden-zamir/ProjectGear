@@ -185,13 +185,13 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:reinforcedalloy>, <ore:
 mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:atomicalloy>,  <ore:alloyElite>, null, 100, 512, [<ore:dustRefinedObsidian>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:otherdust:5>, <ore:dustDiamond>, null, 100, 512, [<ore:dustObsidian>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:enrichediron>, <ore:ingotIron>, null, 100, 512, [<ore:fuelCoke>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:controlcircuit:0>, <ore:ingotRedAlloy>, null, 100, 512, [<opencomputers:material:7>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:controlcircuit>, <ore:ingotRedAlloy>, null, 100, 512, [<opencomputers:material:7>]);
 
 //Inscriber recipes:
 
 // Basic Control Circuit: (2 Microchip (tier 1) + Red Alloy Ingot)
-mods.appliedenergistics2.Inscriber.addRecipe(<mekanism:controlcircuit:0>, <opencomputers:material:7>, false,
-                                             <ore:ingotRedAlloy>, <opencomputers:material:7>);
+mods.appliedenergistics2.Inscriber.addRecipe(<mekanism:controlcircuit>, <projectred-core:resource_item:103>, false,
+                                             <opencomputers:material:7>, <opencomputers:material:7>);
 
 //Disables recipes from several Mekanism machines
 //The machines themselves are already disabled, so this prevents them from appearing in JEI and confusing players
