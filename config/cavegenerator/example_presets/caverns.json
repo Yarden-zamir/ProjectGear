@@ -1,0 +1,44 @@
+{
+	"enabled" : false,
+	"rooms" :
+	{
+		"scale" : 0.0
+	},
+	"tunnels" :
+	{
+		"frequency" : 7,
+		"spawnInSystemInverseChance" : 2000,
+		"vanillaNoiseYReduction" : false,
+		"extensions" :
+		{
+			"random" : "matching_branches"
+		},
+		"twistY" :
+		{
+			"factor" : 0.5
+		},
+		"scale" :
+		{
+			"randomnessFactor" : 0.0,
+			"startingValue" : 4.5,
+			"startingValueRandomnessFactor" : 0.0
+		},
+		"scaleY" :
+		{
+			"randomnessFactor" : 0.0,
+			"startingValue" : 0.6
+		}
+	},
+	"caverns" :
+	{
+		"enabled" : true,
+		"minHeight" : 7,
+		"maxHeight" : 50,
+		"//" : "The opposite of frequency",
+		"spacing" : 50.0,
+		"//" : "scale(Y) is from 0 - 1.",
+		"scale" : 0.25,
+		"scaleY" : 0.5,
+		"octaves" : 1
+	}
+}

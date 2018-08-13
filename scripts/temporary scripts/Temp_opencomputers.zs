@@ -5,9 +5,9 @@
 // Open Computers Transistor recipe removal
 recipes.remove(<opencomputers:material:6>);
  
-// Transistor: (Osmium ingot + Printed Logic Circuit + Silicon)
+// Transistor: (Tin ingot + Printed Logic Circuit + Silicon)
 mods.appliedenergistics2.Inscriber.addRecipe(<opencomputers:material:6>, <appliedenergistics2:material:18>, false,
-                                             <mekanism:nugget:1>, <appliedenergistics2:material:5>);
+                                             <thermalfoundation:material:193>, <appliedenergistics2:material:5>);
                                              
 // Microchip (Tier 1) recipe removal
 recipes.remove(<opencomputers:material:7>);
@@ -19,23 +19,23 @@ mods.appliedenergistics2.Inscriber.addRecipe(<opencomputers:material:7>, <minecr
 // Microchip (Tier 2) recipe removal
 recipes.remove(<opencomputers:material:8>);
  
-// Microchip (Tier 2): (Osmium ingot + Microchip (Tier 1) + Gold ingot)
+// Microchip (Tier 2): (Tin ingot + Microchip (Tier 1) + Gold ingot)
 mods.appliedenergistics2.Inscriber.addRecipe(<opencomputers:material:8>, <opencomputers:material:7>, false,
-                                             <mekanism:ingot:1>, <minecraft:gold_ingot>);
+                                             <thermalfoundation:material:193>, <minecraft:gold_ingot>);
                                              
 // Microchip (Tier 3) recipe removal
 recipes.remove(<opencomputers:material:9>);
  
-// Microchip (Tier 3): (Osmium Ingot + Microchip (Tier 2) + Engineering Circuit)
+// Microchip (Tier 3): (Tin Ingot + Microchip (Tier 2) + Engineering Circuit)
 mods.appliedenergistics2.Inscriber.addRecipe(<opencomputers:material:9>, <opencomputers:material:8>, false,
-                                             <mekanism:ingot:1>, <appliedenergistics2:material:24>);
+                                             <thermalfoundation:material:129>, <appliedenergistics2:material:24>);
                                              
 // Cable (Open Computers) recipe removal
 recipes.remove(<opencomputers:cable>);
  
 // Cable (Open Computers):
 mods.appliedenergistics2.Inscriber.addRecipe(<opencomputers:cable>, <minecraft:redstone>, false,
-                                             <mekanism:nugget:1>, <mekanism:nugget:1>);
+                                             <thermalfoundation:material:193>, <ore:nuggetTin>);
 // Printed Circuit Board (Open Computers) recipe removal
 furnace.remove(<opencomputers:material:4>);
  
@@ -46,6 +46,6 @@ mods.appliedenergistics2.Inscriber.addRecipe(<opencomputers:material:4>, <projec
 // Disk Platter recipe removal
 recipes.remove(<opencomputers:material:12>);
  
-// Disk Platter: (Osmium ingot + Printed Calculation Circuit + Cobalt nugget)
+// Disk Platter: (Tin ingot + Printed Calculation Circuit + Cobalt nugget)
 mods.appliedenergistics2.Inscriber.addRecipe(<opencomputers:material:12>, <appliedenergistics2:material:16>, false,
-                                             <mekanism:ingot:1>, <tconstruct:nuggets>);
+                                             <thermalfoundation:material:129>, <tconstruct:nuggets>);

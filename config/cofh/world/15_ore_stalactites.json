@@ -82,7 +82,7 @@
 					"gen-size": 4,
 					"size-variance": 1
 				},
-			"cluster-count": 1,
+			"chunk-chance": 2,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
@@ -102,15 +102,15 @@
 					"block": [
 						{
 							"name": "minecraft:stone",
-							"weight": 89
+							"weight": 78
 						},
 						{
 							"name": "minecraft:lapis_ore",
-							"weight": 10
+							"weight": 20
 						},
 						{
 							"name": "minecraft:diamond_ore",
-							"weight": 1
+							"weight": 2
 						}
 					],
 					"material": [
@@ -129,7 +129,7 @@
 					"gen-size": 4,
 					"size-variance": 1
 				},
-			"cluster-count": 1,
+			"chunk-chance": 2,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
@@ -149,7 +149,7 @@
 					"block": [
 						{
 							"name": "minecraft:stone",
-							"weight": 70
+							"weight": 60
 						},
 						{
 							"name": "deepresonance:resonating_ore",
@@ -157,7 +157,7 @@
 						},
 						{
 							"name": "minecraft:redstone_ore",
-							"weight": 10
+							"weight": 20
 						}
 					],
 					"material": [

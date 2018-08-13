@@ -127,12 +127,6 @@ recipes.addShaped(<magneticraft:crafting:3>,
     [null, <magneticraft:copper_coil>, null],
     [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]]);
    
-// Electric Connector Nickel recipe
-recipes.addShapedMirrored(<magneticraft:connector> * 8,
-    [[null, null, null],
-    [null, <ore:ingotNickel>, null],
-    [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
-   
 // Resonating Machine Frame Nickel recipe
 recipes.addShaped(<deepresonance:machine_frame>,
     [[<ore:ingotNickel>, <deepresonance:resonating_plate>, <ore:ingotNickel>],

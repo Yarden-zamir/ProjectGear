@@ -6,7 +6,7 @@ val itemsToDisable =[
     <gadgetrytransmission:fluid_io>,    // Fluid IO
     <gadgetrytransmission:item_pipe>,   // Item Pipe
     <gadgetrytransmission:item_io>,     // Item IO
-    <gadgetrycore:redmetal_ingot>,      // Redmetal Ingot
+    //<gadgetrycore:redmetal_ingot>,      // Redmetal Ingot
     <gadgetrycore:redmetal_nugget>,     // Redmetal Nugget
     <gadgetrymachines:dust_redmetal>,   // Redmetal Dust
     <gadgetrymachines:grinder>,         // Grinder
@@ -23,4 +23,4 @@ val itemsToDisable =[
 scripts.functions.disableItems(itemsToDisable);
 
 // Red Alloy Ingot -> Signalum Ingot
-recipes.replaceAllOccurences(<projectred-core:resource_item:103>, <ore:ingotSignalum>);
+recipes.replaceAllOccurences(<gadgetrycore:redmetal_ingot>, <ore:ingotRedAlloy>);

@@ -24,7 +24,7 @@ mods.immersiveengineering.MetalPress.addRecipe(blitzRod, etherium, rodMold, 2000
 mods.immersiveengineering.MetalPress.addRecipe(blizzRod, <minecraft:packed_ice>, rodMold, 2000, 8);
  
 // Basalz Rod Metal Press recipe
-mods.immersiveengineering.MetalPress.addRecipe(blitzRod, <xreliquary:mob_ingredient:6>, rodMold, 2000, 8);
+mods.immersiveengineering.MetalPress.addRecipe(basalzRod, <xreliquary:mob_ingredient:6>, rodMold, 2000, 8);
  
 // Blaze Rod Metal Press recipe
 mods.immersiveengineering.MetalPress.addRecipe(blazeRod, blazePowder, rodMold, 2000, 8);

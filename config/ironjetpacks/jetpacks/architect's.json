@@ -17,7 +17,7 @@
     "speed_sideways": 0.20,
     "speed_hover_descend": 0.37,
     "speed_hover": 0.00,
-    "sprint_speed_multi": 1.6,
+    "sprint_speed_multi": 2.6,
     "sprint_fuel_multi": 3.5
   }
 }
