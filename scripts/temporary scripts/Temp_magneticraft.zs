@@ -114,7 +114,7 @@ mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
 
 // Iron Rocky Chunk Sluice Box & Sieve recipe without Aluminum Dust
 mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:0>, 1.0, <magneticraft:chunks>, 0.15, <thermalfoundation:material:69>, 0.15, <minecraft:cobblestone>, 0.05, <thermalfoundation:material:771>, true);
-mods.magneticraft.Sieve.addRecipe(<minecraft:rocky_chunks:0>, <magneticraft:chunks>, 1.0, <thermalfoundation:material:69>, 0.15, <thermalfoundation:material:771>, 0.10, 50, true);
+mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:0>, <magneticraft:chunks>, 1.0, <thermalfoundation:material:69>, 0.15, <thermalfoundation:material:771>, 0.10, 50, true);
 
 // Gold Rocky Chunk Sluice Box recipe removal
 mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:1>);
@@ -122,7 +122,7 @@ mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
 
 // Gold Rocky Chunk Sluice Box & Sieve recipe without Silver Dust
 mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:1>, 1.0, <magneticraft:chunks:1>, 0.15, <thermalfoundation:material:64>, 0.15, <minecraft:cobblestone>, true);
-mods.magneticraft.Sieve.addRecipe(<minecraft:rocky_chunks:1>, <magneticraft:chunks:1>, 1.0, <thermalfoundation:material:64>, 0.15, <thermalfoundation:material:771>, 0, 50, true);
+mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:1>, <magneticraft:chunks:1>, 1.0, <thermalfoundation:material:64>, 0.15, <thermalfoundation:material:771>, 0, 50, true);
 
 // Cobalt Rocky Chunk Sluice & Sieve Box recipe removal
 mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:4>);
@@ -130,7 +130,7 @@ mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
 
 // Cobalt Rocky Chunk Sluice Box & Sieve recipe without Mithril Dust and Osmium Dust
 mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:4>, 1.0, <magneticraft:chunks:4>, 0.15, <minecraft:netherrack>, true);
-mods.magneticraft.Sieve.addRecipe(<minecraft:rocky_chunks:4>, <magneticraft:chunks:4>, 1.0, <thermalfoundation:material:64>, 0, <thermalfoundation:material:771>, 0, 50, true);
+mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:4>, <magneticraft:chunks:4>, 1.0, <thermalfoundation:material:64>, 0, <thermalfoundation:material:771>, 0, 50, true);
 
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
  
