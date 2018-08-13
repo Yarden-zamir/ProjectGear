@@ -141,3 +141,6 @@ recipes.removeByRecipeName("mekanism:paper");
 
 // Centrifuge: Rotten Flesh -> [Sand Pile (Earthworks) 25%, Leather Scrap 10%, Monster Jerky 5%, Coagulated Blood 1%]
 mods.forestry.Centrifuge.addRecipe([<earthworks:item_sand> % 25, <terraqueous:item_main:100> % 10, <tconstruct:edible:10> % 5, <tconstruct:edible:33> % 1], <minecraft:rotten_flesh>, 100);
+
+// Centrifuge: Stone -> [Limestone (Quark) 10%, Marble (Quark) 10%, Diorite 10%, Andesite 10%, Granite 10%, Slate (Rustic) 10%]
+mods.forestry.Centrifuge.addRecipe([<quark:limestone> % 10, <quark:marble> % 10, <minecraft:stone:3> % 10, <minecraft:stone:5> % 10, <minecraft:stone:1> % 10, <rustic:slate> % 10], <minecraft:stone>, 100);
