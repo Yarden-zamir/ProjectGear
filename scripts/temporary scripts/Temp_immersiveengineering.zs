@@ -81,3 +81,9 @@ recipes.addShapedMirrored(<immersiveengineering:faraday_suit_feet>,
     [[null, null, null],
     [<ore:plateTin>, null, <ore:plateTin>],
     [<ore:plateTin>, null, <ore:plateTin>]]);
+	
+// Crusher: Nickel ore recipe removal
+mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
+ 
+// Crusher: Nickel ore (without Platinum dust) recipe
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:69> * 2, <ore:oreNickel>, 2048);
