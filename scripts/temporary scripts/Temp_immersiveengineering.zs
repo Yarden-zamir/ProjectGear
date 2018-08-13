@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemTransformer;
+import crafttweaker.item.IItemStack;
 
 //Script by DolphinBlaster
 //Makes Immersive Engineering relays and wire connectors require Magneticraft wire connectors. These must be made in the Thermionic Fabricator.
