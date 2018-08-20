@@ -217,7 +217,9 @@ recipes.addShaped("gear_shaped_rotary_condensentrator", <mekanism:machineblock2:
     [<mekanism:gastank:0>, <mekanism:energytablet>, <minecraft:bucket>],
     [<ore:blockGlass>, <ore:circuitBasic>, <ore:blockGlass>]]);
  
-
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:enrichedalloy>*2, <ore:ingotRedAlloy>, null, 100, 512, [<ore:ingotIron>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:enrichedalloy>*2, <ore:ingotRedAlloy>, null, 100, 512, [<ore:dustIron>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:enrichedalloy>*2, <ore:ingotIron>, null, 100, 512, [<ore:ingotRedAlloy>]);
 
 //Disables recipes from several Mekanism machines
 //The machines themselves are already disabled, so this prevents them from appearing in JEI and confusing players
