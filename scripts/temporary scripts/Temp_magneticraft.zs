@@ -132,7 +132,7 @@ mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
 mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:4>, 1.0, <magneticraft:chunks:4>, 0.15, <minecraft:netherrack>, true);
 mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:4>, <magneticraft:chunks:4>, 1.0, <thermalfoundation:material:64>, 0, <thermalfoundation:material:771>, 0, 50, true);
 
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
+#mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
  
 mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ingot>);
 mods.magneticraft.CrushingTable.addRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:32>, false);
