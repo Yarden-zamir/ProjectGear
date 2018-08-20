@@ -8,6 +8,7 @@
 <opencomputers:cable>.displayName = "Ethernet Cable";
 <buildcraftfactory:tank>.displayName = "Factory Tank";
 <pneumaticcraft:printed_circuit_board>.displayName = "Compressed Printed Circuit Board";
+<transloc:block_translocator>.displayName = "Entity Translocator";
 
 //Script segment by boblovespi
 //Rename Electrum to Corinthian Bronze
