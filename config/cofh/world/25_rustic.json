@@ -1,6 +1,6 @@
 {
 	"populate": {
-		"SLATEINALLCAPS": {
+		"slate_plate": {
 			"distribution": "uniform",
 			"generator": {
 				"type": "plate",
