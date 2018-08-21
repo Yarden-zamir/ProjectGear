@@ -16,6 +16,10 @@
 		"armorchest": "ceramics:clay_chestplate",
 		"armorlegs": "ceramics:clay_leggings",
 		"armorboots": "ceramics:clay_boots"
+	},
+	{
+		"mob": "Skeleton",
+		"result": "deny",
+		"random": 0.5
 	}
-
 ]
