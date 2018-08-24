@@ -29,3 +29,5 @@ Random Things spectres spawn 200 times more frequently during full moons. They c
 Mom's Spaghetti is an excelent food source, especially when enchanted with mending and topped with meat and red sauce.
 Chunk loaders from Chicken Chunks can be turned off with a redstone signal.
 You can use grappling hooks offensively.
+Diamonds only spawn in stalactites growing on the tops of caves. They can appear at any height.
+Rarer ores generally only appear on the tops of caves. Look up while mining.
