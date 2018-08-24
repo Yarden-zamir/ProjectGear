@@ -1,7 +1,7 @@
 import crafttweaker.item.IIngredient;
 
 //Smeltery Coal
-mods.tconstruct.Melting.addRecipe(<liquid:coal> * 144,<minecraft:coal>);
+mods.tconstruct.Melting.addRecipe(<liquid:coal> * 288,<immersive engineering:material:6>);
 mods.tconstruct.Melting.addRecipe(<liquid:coal> * 72,<minecraft:coal:1>);
 
 //Pig Iron Alloying
