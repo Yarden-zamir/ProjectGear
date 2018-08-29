@@ -97,7 +97,10 @@ recipes.remove(pyroDust);
  
 // Pyrotheum Dust recipe
 recipes.addShapeless(pyroDust * 2,
-    [blazePowder,blazePowder,<xreliquary:mob_ingredient:7>,<terraqueous:item_main:251>]);
+    [blazePowder, blazePowder, <xreliquary:mob_ingredient:7>, <ore:dustCharcoal>]);
+	
+recipes.addShapeless(pyroDust * 2,
+    [blazePowder, blazePowder, <xreliquary:mob_ingredient:7>, <ore:dustCoal>]);
 	
  
 // Mana Dust recipes
