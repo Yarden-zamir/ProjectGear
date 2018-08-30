@@ -15,7 +15,8 @@
 							"weight": 15
 						},
 						{
-							"name": "minecraft:coal_ore",
+							"name": "thermalfoundation:ore",
+							"meta": 5,
 							"weight": 15
 						}
 					],
@@ -181,7 +182,7 @@
 					"size-variance": 1
 				},
 			"cluster-count": 1,
-			"chunk-chance": 2,
+			"chunk-chance": 4,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
