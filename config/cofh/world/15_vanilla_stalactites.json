@@ -37,7 +37,7 @@
 					"size-variance": 1
 				},
 			"cluster-count": 1,
-			"chunk-chance": 6,
+			"chunk-chance": 3,
 			"ceiling": false,
 			"retrogen": false,
 			"biome": "all",
@@ -85,7 +85,7 @@
 					"size-variance": 1
 				},
 			"cluster-count": 1,
-			"chunk-chance": 20,
+			"chunk-chance": 10,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
