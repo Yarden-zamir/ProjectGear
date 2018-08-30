@@ -36,6 +36,7 @@
 					"size-variance": 1
 				},
 			"cluster-count": 1,
+			"chunk-chance": 3,
 			"ceiling": false,
 			"retrogen": false,
 			"biome": "all",
