@@ -55,11 +55,11 @@
 					"block": [
 						{
 							"name": "minecraft:stone",
-							"weight": 86
+							"weight": 76
 						},
 						{
 							"name": "minecraft:diamond_ore",
-							"weight": 10
+							"weight": 20
 						},
 						{
 							"name": "minecraft:emerald_ore",
