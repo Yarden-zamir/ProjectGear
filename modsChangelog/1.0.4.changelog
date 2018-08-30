@@ -1,12 +1,19 @@
 Removed mods:
--Automated Redstone
--Ceramics
--Dazzle
--Feeder Helmet
--Mage
--Rainbow Oaks
--Stackie
--Terraqueous
+-Automated Redstone - Buggy and unneded
+-Ceramics - Removing some clutter
+-Dazzle - Removing some clutter
+-Feeder Helmet - Pneumaticraft has an item that does this
+-Mage - Not used by the pack
+-Rainbow Oaks - Removing some clutter
+-Stackie - Causes items to stack incorrectly, dropped in favor of Clumps
+-Terraqueous - Removing some clutter
+-Simple Void World - We have a Mystcraft age that does the same thing
+-CTD Core - Only needed for Mo Glowstone which I removed a long time ago
+-Comforts - Removing some clutter
+-Enchantment Descriptions - It didn't seem to work
+-CD4017BE Library - Unneeded dependency
+-Sentek Runic Teleporters - Needlessly dangerous, not being updated
+-Lunatrius Core - Unneded dependency
 
 
 Added mods:
@@ -19,3 +26,60 @@ Added mods:
 
 
 Updated mods:
+-Apple Core
+-AutoRegLib
+-Botania
+-Botania Tweaks
+-Caliper
+-Catwalks
+-Charcoal Pit
+-Charset TweakCarry
+-Charset Crafting
+-Charset Immersion
+-Charset StorageBarrels
+-Charset Tablet
+-Chisels and Bits
+-Chunk Pregenerator
+-Code Chicken Lib
+-Construct's Armory
+-ContentTweaker
+-CyclopsCore
+-Extra Bit Manipulation
+-Factory Tech
+-Foamfix
+-Forestry
+-Forge Multipart
+-FTB Utilities
+-FTB Lib
+-Funky Locomotion
+-Grappling Hook
+-Integrated Dynamics
+-Just Enough Items
+-Just Enough Resources
+-LibrarianLib
+-Magneticraft
+-McJtyLib
+-Minecroprocessors
+-ModelLoader
+-Modular Item Frame
+-Nuclearcraft
+-OMLib
+-Open Modular Turrets
+-Placebo
+-Pneumaticraft: Repressurized
+-Quark
+-Random Things
+-Random Patches
+-Random Tweaks
+-Reborn Core
+-Refraction
+-RFTools Power
+-Rockhounding Core
+-Rockhounding Surface
+-Rustic
+-Scannable
+-Signals
+-SilentLib
+-Top Addons
+-UniDict
+-Worley's Caves
