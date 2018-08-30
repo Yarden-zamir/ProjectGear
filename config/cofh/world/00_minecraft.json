@@ -43,28 +43,6 @@
 			}
 		},
 
-
-		"coal": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "coal_ore",
-				"material": "minecraft:stone",
-				"cluster-size": 17
-			},
-			"cluster-count": 6,
-			"min-height": 0,
-			"max-height": 128,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-
 		"iron": {
 			"distribution": "uniform",
 			"generator": {
