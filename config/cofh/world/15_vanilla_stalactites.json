@@ -37,7 +37,7 @@
 					"size-variance": 1
 				},
 			"cluster-count": 1,
-			"chunk-chance": 3,
+			"chunk-chance": 6,
 			"ceiling": false,
 			"retrogen": false,
 			"biome": "all",
@@ -85,7 +85,7 @@
 					"size-variance": 1
 				},
 			"cluster-count": 1,
-			"chunk-chance": 10,
+			"chunk-chance": 20,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
@@ -129,7 +129,7 @@
 					"size-variance": 1
 				},
 			"cluster-count": 1,
-			"chunk-chance": 2,
+			"chunk-chance": 8,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
@@ -178,7 +178,7 @@
 					"size-variance": 1
 				},
 			"cluster-count": 1,
-			"chunk-chance": 4,
+			"chunk-chance": 8,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
