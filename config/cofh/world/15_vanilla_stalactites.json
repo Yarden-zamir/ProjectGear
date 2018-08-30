@@ -48,7 +48,7 @@
 			}
 		},
 		
-	"diamond_stalactite": {
+		"diamond_stalactite": {
 			"distribution": "cave",
 			"generator": {
 					"type": "stalactite",
@@ -83,6 +83,7 @@
 					"size-variance": 1
 				},
 			"cluster-count": 1,
+			"chunk-chance": 10,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
@@ -131,53 +132,6 @@
 				},
 			"cluster-count": 1,
 			"chunk-chance": 2,
-			"ceiling": true,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		
-		"resonating_stalactite": {
-			"distribution": "cave",
-			"generator": {
-					"type": "stalactite",
-					"block": [
-						{
-							"name": "minecraft:stone",
-							"weight": 60
-						},
-						{
-							"name": "deepresonance:resonating_ore",
-							"weight": 20
-						},
-						{
-							"name": "minecraft:redstone_ore",
-							"weight": 20
-						}
-					],
-					"material": [
-						"minecraft:obsidian",
-						"minecraft:stone"
-					],
-					"gen-body": [
-						"minecraft:air",
-						"minecraft:lava"
-						],
-					"smooth": false,
-					"fat": false,
-					"min-height": 10,
-					"height-variance": 6,
-					"height-mod": 3,
-					"gen-size": 4,
-					"size-variance": 1
-				},
-			"cluster-count": 1,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
