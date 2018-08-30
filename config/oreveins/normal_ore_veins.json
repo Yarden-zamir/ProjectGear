@@ -1,0 +1,319 @@
+{
+
+  "medium_uncommon_coal_vein": {
+    "type": "oreveins:cluster",
+    "ore": "minecraft:coal_ore",
+    "stone": "minecraft:stone",
+    "rarity": 20,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 50,
+    "vertical_size": 15,
+    "horizontal_size": 15
+  },
+  
+  "small_common_coal_vein": {
+    "type": "oreveins:cluster",
+    "ore": "minecraft:coal_ore",
+    "stone": "minecraft:stone",
+    "rarity": 10,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 5,
+    "horizontal_size": 10
+  },
+  
+  "tiny_rare_coal_vein": {
+    "type": "oreveins:cluster",
+    "ore": "minecraft:coal_ore",
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 1,
+    "max_y": 32,
+    "density": 20,
+    "vertical_size": 3,
+    "horizontal_size": 3
+  },
+  
+  "medium_uncommon_gold_copper_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "minecraft:gold_ore",
+        "weight": 1
+      },
+      {
+        "block": "thermalfoundation:ore",
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 5,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 15,
+    "horizontal_size": 15
+  },
+  
+  "small_common_gold_copper_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "minecraft:gold_ore",
+        "weight": 1
+      },
+      {
+        "block": "thermalfoundation:ore",
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 5,
+    "horizontal_size": 10
+  },
+  
+  "tiny_rare_gold_copper_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "minecraft:gold_ore",
+        "weight": 1
+      },
+      {
+        "block": "thermalfoundation:ore",
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 1,
+    "max_y": 32,
+    "density": 20,
+    "vertical_size": 3,
+    "horizontal_size": 3
+  },
+  
+  "medium_uncommon_iron_nickel_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 1
+      },
+      {
+        "block": "thermalfoundation:ore",
+		"meta": 5,
+        "weight": 3
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 10,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 15,
+    "horizontal_size": 15
+  },
+  
+  "small_common_iron_nickel_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 1
+      },
+      {
+        "block": "thermalfoundation:ore",
+		"meta": 5,
+        "weight": 3
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 5,
+    "horizontal_size": 10
+  },
+  
+  "tiny_rare_iron_nickel_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 1
+      },
+      {
+        "block": "thermalfoundation:ore",
+		"meta": 5,
+        "weight": 3
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 1,
+    "max_y": 32,
+    "density": 20,
+    "vertical_size": 3,
+    "horizontal_size": 3
+  },
+  
+  "medium_uncommon_copper_tin_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "thermalfoundation:ore",
+        "weight": 1
+      },
+      {
+        "block": "thermalfoundation:ore",
+		"meta": 1,
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 10,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 15,
+    "horizontal_size": 15
+  },
+  
+  "small_common_iron_nickel_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "thermalfoundation:ore",
+        "weight": 1
+      },
+      {
+        "block": "thermalfoundation:ore",
+		"meta": 1,
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 5,
+    "horizontal_size": 10
+  },
+  
+  "tiny_rare_iron_nickel_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "thermalfoundation:ore",
+        "weight": 1
+      },
+      {
+        "block": "thermalfoundation:ore",
+		"meta": 1,
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 1,
+    "max_y": 32,
+    "density": 20,
+    "vertical_size": 3,
+    "horizontal_size": 3
+  },
+  
+  "small_common_redstone_vein": {
+    "type": "oreveins:cluster",
+    "ore": "minecraft:redstone_ore",
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 5,
+    "horizontal_size": 10
+  },
+  
+  "tiny_rare_redstone_vein": {
+    "type": "oreveins:cluster",
+    "ore": "minecraft:redstone_ore",
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 1,
+    "max_y": 32,
+    "density": 20,
+    "vertical_size": 3,
+    "horizontal_size": 3
+  },
+  
+  "tiny_rare_emerald_vein_extreme_hills": {
+    "type": "oreveins:cluster",
+    "ore": "minecraft:emerald_ore",
+    "stone": "minecraft:stone",
+    "rarity": 15,
+    "min_y": 0,
+    "max_y": 1,
+    "density": 20,
+    "vertical_size": 3,
+    "horizontal_size": 3,
+    "biomes": [
+      "extreme_hills",
+      "extreme_hills_with_trees",
+      "mutated_extreme_hills",
+      "mutated_extreme_hills_with_trees"
+    ]
+  },
+
+  "tiny_rare_lapis_diamond_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "minecraft:lapis_ore",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:diamond_ore",
+        "weight": 1
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 15,
+    "min_y": 1,
+    "max_y": 32,
+    "density": 20,
+    "vertical_size": 3,
+    "horizontal_size": 3
+  },
+  
+  "small_common_certus_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "appliedenergistics2:quartz_ore",
+        "weight": 39
+      },
+      {
+        "block": "appliedenergistics2:charged_quartz_ore",
+        "weight": 1
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 5,
+    "horizontal_size": 10
+  }
+
+
+}

@@ -1,0 +1,229 @@
+{
+  "iron_nickel": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 40,
+			"meta": 5
+        },
+        {
+            "block": "minecraft:iron_ore",
+            "weight": 60
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 4000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "gold_copper": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 0
+        },
+        {
+            "block": "thermalfoundation:ore",
+            "weight": 50
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "tin_copper": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 1
+        },
+        {
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 0
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "tin_osmium": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 1
+        },
+        {
+            "block": "mekanism:oreblock",
+            "weight": 50
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 2000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "coal_diamond": {
+    "ore": [{
+            "block": "minecraft:coal_ore",
+            "weight": 99
+        },
+        {
+            "block": "minecraft:diamond_ore",
+            "weight": 1
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 4000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "TEMPERATE_BIOMES_iron_nickel": {
+    "ore": [
+			{	
+            "block": "thermalfoundation:ore",	
+            "weight": 40,	
+			"meta": 5	
+        	},	
+        	{	
+            "block": "minecraft:iron_ore",	
+            "weight": 60	
+        	}	
+ 	
+    ],	
+    "stone": "minecraft:stone",	
+    "rarity": 3000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 35,
+    "vertical_size": 30,
+    "horizontal_size": 100,
+	"biomes": [
+		"hills",
+		"mountain",
+		"forest",
+		"plains"
+    ]	
+  },
+	"HOT_BIOMES_gold_copper": {	
+   	"ore": [{	
+            "block": "thermalfoundation:ore",	
+            "weight": 50,	
+			"meta": 0	
+        },	
+        {	
+            "block": "thermalfoundation:ore",	
+            "weight": 50	
+        }	
+ 	
+    ],	
+    "stone": "minecraft:stone",	
+    "rarity": 3000,	
+    "min_y": 5,	
+    "max_y": 55,	
+    "density": 35,	
+    "vertical_size": 30,	
+    "horizontal_size": 100,	
+	"biomes": [	
+		"hot",
+		"dry",
+		"savanna"
+    ]	
+  },	
+  "TEMPERATE_BIOMES_tin_copper": {	
+    "ore": [{	
+            "block": "thermalfoundation:ore",	
+            "weight": 50,	
+			"meta": 1	
+        },	
+        {	
+            "block": "thermalfoundation:ore",	
+            "weight": 50,	
+			"meta": 0	
+        }	
+ 	
+    ],	
+    "stone": "minecraft:stone",	
+    "rarity": 3000,	
+    "min_y": 5,	
+    "max_y": 55,	
+    "density": 15,	
+    "vertical_size": 35,	
+    "horizontal_size": 100,	
+	"biomes": [	
+		"hills",
+		"mountain",
+		"forest",
+		"plains"
+    ]	
+  },	
+  "WET_BIOMES_tin_osmium": {	
+    "ore": [{	
+            "block": "thermalfoundation:ore",	
+            "weight": 50,	
+			"meta": 1	
+        },	
+        {	
+            "block": "mekanism:oreblock",	
+            "weight": 50	
+        }	
+ 	
+    ],	
+    "stone": "minecraft:stone",	
+    "rarity": 3000,	
+    "min_y": 5,	
+    "max_y": 55,	
+    "density": 15,	
+    "vertical_size": 35,	
+    "horizontal_size": 100,	
+	"biomes": [	
+		"ocean",	
+		"water",
+		"wet"
+    ]	
+  },	
+  "COLD_BIOMES_coal_diamond": {	
+    "ore": [{	
+            "block": "minecraft:coal_ore",	
+            "weight": 99	
+        },	
+        {	
+            "block": "minecraft:diamond_ore",	
+            "weight": 1	
+        }	
+ 	
+    ],	
+    "stone": "minecraft:stone",	
+    "rarity": 3000,	
+    "min_y": 5,	
+    "max_y": 55,	
+    "density": 15,	
+    "vertical_size": 35,	
+    "horizontal_size": 100,	
+	"biomes": [	
+		"cold",
+		"snowy"
+    ]	
+   }
+}
