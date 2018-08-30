@@ -68,7 +68,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 5
 			},
-			"cluster-count": 2,
+			"cluster-count": 4,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
@@ -88,7 +88,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 5,
+			"cluster-count": 7,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
@@ -109,7 +109,7 @@
 					"name": "gold_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 11
 			},
 			"cluster-count": 10,
 			"ceiling": true,
