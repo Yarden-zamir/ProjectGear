@@ -43,27 +43,6 @@
 			}
 		},
 
-		"gold": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "gold_ore",
-				"material": "minecraft:stone",
-				"cluster-size": 9
-			},
-			"cluster-count": 1,
-			"min-height": 0,
-			"max-height": 32,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-
 		"redstone": {
 			"distribution": "uniform",
 			"generator": {
