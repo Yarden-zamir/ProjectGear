@@ -105,15 +105,11 @@
 					"block": [
 						{
 							"name": "minecraft:stone",
-							"weight": 78
+							"weight": 80
 						},
 						{
 							"name": "minecraft:lapis_ore",
 							"weight": 20
-						},
-						{
-							"name": "minecraft:diamond_ore",
-							"weight": 2
 						}
 					],
 					"material": [
