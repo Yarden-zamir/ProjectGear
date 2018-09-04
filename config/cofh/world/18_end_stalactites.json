@@ -42,7 +42,7 @@
 				]
 			}
 		},
-		"endimium_ore_stalactite": {
+		"resonant_ore_stalactite": {
 			"distribution": "uniform",
 				"generator": {
 					"type": "stalactite",
@@ -52,52 +52,9 @@
 							"weight": 90
 						},
 						{
-							"name": "terraqueous:earth_ore",
+							"name": "thermalfoundation:ore_fluid",
 							"weight": 10,
-							"metadata": 0
-						}
-					],
-					"material": [
-						"minecraft:end_stone"
-					],
-					"gen-body": [
-						"minecraft:air"
-						],
-					"smooth": false,
-					"fat": false,
-					"min-height": 20,
-					"height-variance": 10,
-					"height-mod": 3,
-					"gen-size": 4,
-					"size-variance": 1
-				},
-			"cluster-count": 2,
-			"chunk-chance": 5,
-			"min-height": 0,
-			"max-height": 127,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					0,
-					-1
-				]
-			}
-		}
-		"dimensional_ore_stalactite": {
-			"distribution": "uniform",
-				"generator": {
-					"type": "stalactite",
-					"block": [
-						{
-							"name": "minecraft:end_stone",
-							"weight": 90
-						},
-						{
-							"name": "rftools:dimensional_shard_ore",
-							"weight": 10,
-							"metadata": 2
+							"metadata": 4
 						}
 					],
 					"material": [

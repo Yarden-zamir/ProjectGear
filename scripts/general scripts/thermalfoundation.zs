@@ -72,8 +72,12 @@ val craftingToDisable =[
   <thermalfoundation:material:97>,
   <thermalfoundation:material:98>,
   <thermalfoundation:material:99>,
-  <thermalfoundation:material:100>
+  <thermalfoundation:material:100>,
   //Makes electrum, bronze, constantan and invar dust uncraftable
+  <thermalfoundation:material:101>,
+  <thermalfoundation:material:102>,
+  <thermalfoundation:material:103>
+  //Makes Signalium, Lumium, and Enderium blends uncraftable.
 
 
 ] as IItemStack[];

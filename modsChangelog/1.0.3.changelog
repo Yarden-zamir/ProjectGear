@@ -1,0 +1,26 @@
+Added mods:
+-Faucets and Filters
+-Architect
+-Barikifier
+-Modular Item Frames
+-Vials
+
+Removed mods:
+-Just Enough Torches: We have more fun lighting options
+-Armory Expansion: Broken and seriously unbalanced
+
+Changes & Fixes:
+-Several script syntax/spelling fixes
+-Fixed REther pearl recipe (was made with iron ingot instead of ender pearl)
+-Faraday armor is now made with tin plates instead of aluminum
+-Rotten flesh in a centrifuge creates zombie jerky, sand piles, coagulated blood and leather scraps
+-Crushing nickel no longer creates platinum
+-Changed Forestry's log pile recipe
+-Removed Quark's bark - Use Barikifier instead
+-Fixed Gadgetry block breaker recipe
+-Magneticraft's cobalt ore no longer has an oredict tag
+-Renamed Electrum to Corinthian Bronze since it's a copper-gold alloy
+-Crush nether/certus/fluix quarts to dust in a crusher or Integrated Dynamics squeezer
+-Added Inscriber recipe for Mekanism circuits
+-Disabled the Info_gear.zs file - Equipment Tooltips does it better
+-Fixed several uncraftable Mekanism machine issues

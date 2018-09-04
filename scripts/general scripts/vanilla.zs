@@ -52,7 +52,7 @@ recipes.addShapeless(<minecraft:paper> * 2, [<minecraft:book>]);
 recipes.addShapeless(<minecraft:paper> * 3, [<minecraft:reeds> * 3]);
 
   //Shulker shell
- recipes.addShapeless(<minecraft:shulker_shell>, [<ceramics:unfired_clay:9>, <minecraft:dye:5>]);
+ recipes.addShapeless(<minecraft:shulker_shell>, [<projectred-core:resource_item>, <minecraft:dye:5>]);
 
   //Craft end rod with manyullyn
 recipes.addShaped(<minecraft:end_rod>,
