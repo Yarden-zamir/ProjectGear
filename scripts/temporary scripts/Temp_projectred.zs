@@ -69,3 +69,12 @@ recipes.addShaped("draw_plate", <projectred-core:drawplate>,
     [[null, <ore:plateIron>, null],
     [<ore:plateIron>, <ore:gemDiamond>, <ore:plateIron>],
     [null, <ore:plateIron>, null]]);
+	
+//Replacing projectred recipes with non-oredictionary versions, and fixing marble recipe conflict.
+<ore:stoneMarble>.remove(<projectred-exploration:stone>); //removing projectred marble from the ore dictionary
+recipes.removeShaped(<projectred-exploration:stone_wall>);
+recipes.addShaped(<projectred-exploration:stone_wall> * 6, [[<projectred-exploration:stone>,<projectred-exploration:stone>,<projectred-exploration:stone>],[<projectred-exploration:stone>,<projectred-exploration:stone>,<projectred-exploration:stone>],[null,null,null]]);
+recipes.removeShaped(<projectred-exploration:stone_wall:1>); //un-oredicting the projectred marble walls
+recipes.addShaped(<projectred-exploration:stone_wall:1> * 6, [[<projectred-exploration:stone:1>,<projectred-exploration:stone:1>,<projectred-exploration:stone:1>],[<projectred-exploration:stone:1>,<projectred-exploration:stone:1>,<projectred-exploration:stone:1>],[null,null,null]]); //un-oredicting the projectred brick wall
+recipes.removeShaped(<projectred-exploration:stone:1>);
+recipes.addShaped(<projectred-exploration:stone:1> * 4, [[<projectred-exploration:stone>,<projectred-exploration:stone>],[<projectred-exploration:stone>,<projectred-exploration:stone>]]); //un-oredicting the projectred bricks
