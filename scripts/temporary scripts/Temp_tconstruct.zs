@@ -42,3 +42,8 @@ mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Ma
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "lumium"}), <ore:ingotLumium>, <immersiveengineering:mold:2>, 2048);
 // Enderium
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "enderium"}), <ore:ingotEnderium>, <immersiveengineering:mold:2>, 2048);
+
+#Script by Dylan
+// Engineer's Hammer + 2 Steel Ingot -> Steel Tool Rod
+
+recipes.addShapeless(<tconstruct:tool_rod>.withTag({Material: "steel"}), [<immersiveengineering:tool>, <thermalfoundation:material:160>, <thermalfoundation:material:160>]);
