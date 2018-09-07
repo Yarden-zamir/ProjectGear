@@ -309,5 +309,10 @@ mods.mekanism.compressor.removeRecipe(<mekanism:ingot:0>);
 */
 
 // glowstone ingot
+
+// Arc Furnace: Electrum ingot + 4 Glowstone/Glowstone block -> 2 Refined Glowstone ingots
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:ingot:3> * 2, <ore:ingotElectrum>, null, 2000, 2048, [<minecraft:glowstone>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:ingot:3> * 2, <ore:ingotElectrum>, null, 2000, 2048, [<minecraft:glowstone_dust> * 4], "Alloying");
+
 // refined obsidian
 
