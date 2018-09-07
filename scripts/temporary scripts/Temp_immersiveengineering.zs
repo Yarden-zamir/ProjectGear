@@ -88,3 +88,10 @@ mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:5
  
 // Crusher: Nickel ore (without Platinum dust) recipe
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:69> * 2, <ore:oreNickel>, 2048);
+
+#Script by DolphinBlaster
+// Removes Gold ore -> 2 Gold dust Crusher recipe
+mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:1>);
+
+// Crusher: Gold ore -> 2 Gold dust (without cinnabar) recipe
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 2, <ore:oreGold>, 2048);

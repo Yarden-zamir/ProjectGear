@@ -177,14 +177,14 @@ mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveen
 
 <immersiveengineering:bullet:2>.withTag({bullet: "silver"}).displayName = "Holy Cartridge";
 
-var dustBurnium = <terraqueous:item_main:251>;
+var blazePowder = <ore:dustBlaze>;
 
 // Dragon's Breath Cartridge Blueprint recipe removal
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>.withTag({bullet: "dragonsbreath"}));
 
 // Dragon's Breath Cartridge: Aluminum Dust -> Tin Dust
 mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "dragonsbreath"}), 
-	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, dustBurnium, dustBurnium]);
+	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, blazePowder, blazePowder]);
 	
 // Flare Cartridge Blueprint recipe removal
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>.withTag({flareColour: 16777090, bullet: "flare"}));
@@ -193,11 +193,11 @@ mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>
 
 // Flare Cartridge: Aluminum Dust -> Tin Dust
 mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "flare"}).withTag({flareColour: 16777090, bullet: "flare"}), 
-	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, dustBurnium, <ore:dyeRed>]);
+	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, blazePowder, <ore:dyeRed>]);
 mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "flare"}).withTag({flareColour: 2925323, bullet: "flare"}), 
-	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, dustBurnium, <ore:dyeGreen>]);
+	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, blazePowder, <ore:dyeGreen>]);
 mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "flare"}).withTag({flareColour: 13381126, bullet: "flare"}), 
-	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, dustBurnium, <ore:dyeYellow>]);
+	[<immersiveengineering:bullet:1>, <minecraft:gunpowder>, blazePowder, <ore:dyeYellow>]);
 
 // Napalm recipe removal
 mods.immersiveengineering.Mixer.removeRecipe(<liquid:napalm>);

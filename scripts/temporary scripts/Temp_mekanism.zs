@@ -309,5 +309,22 @@ mods.mekanism.compressor.removeRecipe(<mekanism:ingot:0>);
 */
 
 // glowstone ingot
+
+// Arc Furnace: Electrum ingot + 4 Glowstone/Glowstone block -> 2 Refined Glowstone ingots
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:ingot:3> * 2, <ore:ingotElectrum>, null, 2000, 2048, [<minecraft:glowstone>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:ingot:3> * 2, <ore:ingotElectrum>, null, 2000, 2048, [<minecraft:glowstone_dust> * 4], "Alloying");
+
 // refined obsidian
+
+//Make refined glowstone and refined obsidian in a Refraction assembly table
+
+// Assembly Table: 1 Diamond dust + 6 Pulverized Obsidian -> 1 Refined Obsidian block
+mods.refraction.AssemblyTable.addRecipe("Refined Obsidian Block", <mekanism:basicblock:2>,
+    [<ore:dustDiamond>, <ore:dustObsidian> * 6],
+    16, 64, 255, 255, 0, 0, 255, 255);
+   
+// Assembly Table: 1 Electrum ingot + 6 Glowstone dust -> 1 Refined Glowstone Block
+mods.refraction.AssemblyTable.addRecipe("Refined Glowstone Block", <mekanism:basicblock:4>,
+    [<ore:ingotElectrum>, <minecraft:glowstone_dust> * 6],
+    16, 64, 255, 255, 255, 255, 0, 0);
 

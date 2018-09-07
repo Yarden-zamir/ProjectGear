@@ -1,6 +1,10 @@
 recipes.replaceAllOccurences(<ore:ingotOsmium>, <ore:ingotTin>);
 recipes.replaceAllOccurences(<mekanism:ingot:1>, <ore:ingotTin>);
 
+// Replaces Osmium dust recipes with Tin dust
+recipes.replaceAllOccurences(<mekanism:dust:2>, <ore:dustTin>);
+recipes.replaceAllOccurences(<ore:dustOsmium>, <ore:dustTin>);
+
 // ME Drive Tin recipe
 recipes.addShaped(<appliedenergistics2:drive>, 
 	[[<ore:ingotTin>, <appliedenergistics2:material:24>, <ore:ingotTin>],

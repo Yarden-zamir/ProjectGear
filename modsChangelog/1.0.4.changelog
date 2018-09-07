@@ -4,6 +4,7 @@ Removed mods:
 -Dazzle - Removing some clutter
 -Feeder Helmet - Pneumaticraft has an item that does this
 -Mage - Not used by the pack
+-MineMenu - Not used by the pack
 -Rainbow Oaks - Removing some clutter
 -Stackie - Causes items to stack incorrectly, dropped in favor of Clumps
 -Terraqueous - Removing some clutter
@@ -23,6 +24,52 @@ Added mods:
 -Guidebook
 -Linking through the Ages
 -Its The Little Things
+
+Major changes:
+-Added two custom Mystcraft dimensions, accessible with Waystones. One is a mining world, the other is a void world.
+-Major ore generation changes:
+1. All stalactites are rarer, but have more ores
+2. Gold, redstone, iron, ... cave ores are more common
+3. Certus quartz, coal, ... cave ores are less common
+4. Added a copper/gold stalactite and an iron/tin stalactite
+5. Normal ores don't generate at all outside of caves. Instead you can find ore clouds, ranging from a few ores to a few thousand.
+
+-Disabled Mystcraft profiling. This should result in a major performance improvement on weaker machines.
+-Halved the Ore Excavation block limit, but quadrupled the range. The block limit is still 8 times higher than the default.
+-Resonating and dimensional shard ore no longer generate, but they can be crafted
+
+
+Smaller Changes and Fixes:
+-Removed Nutrition death penalty
+-Searching for tooltips in JEI no longer requires the `#` prefix.
+-Added a recipe for enriched alloy
+-Filter translocators using an iron nugget instead of a dimond nugget.
+-Renamed translocator from the 'transloc' mod to Entity Translocator
+-The 'transloc' mod now has documentation in the form of JEI tooltips
+-Increased durability of Advanced Transtructors (1,000 > 10,000)
+-Removed the durability bar from Scannable scanners. They already didn't use energy, so this was unnecessary.
+-Updated JEI blacklist
+-Added some tips to the main menu explaining how to find ores
+-Molten impure steel recipes now uses coal coke instead of coal. Coal coke is worth 4 charcoal.
+-Disabled the annoying AFK timer from FTB Utilities
+-Fixed pyrothium recipe
+-Disabled Deep Resonance ore generation
+-Added resonant stalactites to the end
+-Replaced all instances of osmium dust in recipes with tin dust
+-Removed cinnabar from Immersive Engineering's gold ore crushing recipe
+-Make refined glowstone in the arc furnace
+-Make refined glowstone and refined obsidian with a Refraction assembly table
+-Make several types of Tinkers' tool rods with a metal press. Many will be used in recipes later.
+-Make Tinkers' steel tool rods with a hammer. With the next change, you won't need to make a smeltery to make a metal press.
+-Make Immersive Engineering steel fences, scaffolds and fence gates from Tinkers' steel rods instead of Immersive Engineering's option.
+-Make sawdust with logs in a crusher or when combined with a hammer
+-Traverse grass is now renewable
+-Disabled the Faucets and Filters hopper pipe
+-Fixed recipe for the Faucets and Filters faucet
+-Craft Natura's flamestring
+-Added the 'sand' ore dictionary tag to Rockhounding's white sand
+-Fixed recipe conflict between the marble items from Project Red and Quark
+-Make resonating ore from stone and molten redstone
 
 
 Updated mods:
@@ -83,3 +130,4 @@ Updated mods:
 -Top Addons
 -UniDict
 -Worley's Caves
+
