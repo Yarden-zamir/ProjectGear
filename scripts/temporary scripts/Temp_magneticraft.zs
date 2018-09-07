@@ -109,8 +109,8 @@ recipes.addShaped("multiblock_part_electrical_iron", <magneticraft:multiblock_pa
 //Removes lead, aluminum and silver dust as biproducts
 	
 // Iron Rocky Chunk Sluice Box & Sieve recipe removal
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks>);
-mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
+#mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks>);
+#mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
 
 // Iron Rocky Chunk Sluice Box & Sieve recipe without Aluminum Dust
 mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:0>, 1.0, <magneticraft:chunks>, 0.15, <thermalfoundation:material:69>, 0.15, <minecraft:cobblestone>, 0.05, <thermalfoundation:material:771>, true);

@@ -6,4 +6,4 @@
 // Arc Furnace: Resonating ore -> 16 Resonating Plates
 mods.immersiveengineering.ArcFurnace.addRecipe(<deepresonance:resonating_plate> * 16, <ore:oreResonating>, null, 2000, 2048);
 
-mods.tconstruct.Casting.addTableRecipe(<deepresonance:resonating_ore>, <ore:stone>, <liquid:redstone>, 500, true);
+mods.tconstruct.Casting.addBasinRecipe(<deepresonance:resonating_ore>, <ore:stone>, <liquid:redstone>, 250, true);
