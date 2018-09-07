@@ -168,3 +168,7 @@ mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:640>,
     [<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:gold_ingot>],
     [<minecraft:redstone>,<minecraft:iron_ingot>,<minecraft:redstone>]],
     <liquid: glass> * 500);
+	
+//Turn logs into sawdust with a hammer or a crusher
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:800> * 4, <ore:logWood>, 8000);
+recipes.addShapeless(<thermalfoundation:material:800>, [<immersiveengineering:tool>.transformDamage(), <ore:logWood>]);
