@@ -66,6 +66,21 @@ hardenedGlassIngot.register();
 var hotHardenedGlassIngot = VanillaFactory.createItem("ingot_hot_hardened_glass");
 hotHardenedGlassIngot.register();
 
+var steelInNug = VanillaFactory.createItem("impure_steel_nugget");
+steelInNug.maxStackSize = 64;
+steelInNug.rarity = "common";
+steelInNug.register();
+
+var CaS = VanillaFactory.createItem("calcium_sulfide");
+CaS.maxStackSize = 64;
+CaS.rarity = "common";
+CaS.register();
+
+var CaOS = VanillaFactory.createItem("sulfuric_quicklime");
+CaOS.maxStackSize = 64;
+CaOS.rarity = "common";
+CaOS.register();
+
 //blocks
 
 //Nether Gold Ore
@@ -76,3 +91,12 @@ netherGoldOre.setToolClass("pickaxe");
 netherGoldOre.setToolLevel(3); 
 netherGoldOre.setBlockSoundType(<soundtype:stone>);
 netherGoldOre.register();
+
+//Impure Steel Block
+var impureSteelBlock = VanillaFactory.createBlock("impure_steel_block", <blockmaterial:iron>); 
+impureSteelBlock.setBlockHardness(5.0); 
+impureSteelBlock.setBlockResistance(30.0);
+impureSteelBlock.setToolClass("pickaxe"); 
+impureSteelBlock.setToolLevel(3); 
+impureSteelBlock.setBlockSoundType(<soundtype:metal>);
+impureSteelBlock.register();

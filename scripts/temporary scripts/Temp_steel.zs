@@ -10,6 +10,7 @@ mods.tconstruct.Alloy.addRecipe(<liquid:pigiron> * 144, [<liquid:iron> * 144, <l
 
 //Smeltery Quicklime
 mods.tconstruct.Melting.addRecipe(<liquid:quicklime> * 36,<earthworks:item_quicklime>);
+mods.tconstruct.Melting.addRecipe(<liquid:quicklime> * 36,<contenttweaker:sulfuric_quicklime>);
 
 //Alloying To Impure Steel
 mods.tconstruct.Alloy.addRecipe(<liquid:impuresteel> * 144, [<liquid:pigiron> * 144, <liquid:quicklime> * 144]);
@@ -51,3 +52,31 @@ mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput(<thermalfoundation:storag
 // mekanism
 
 mods.mekanism.infuser.removeRecipe(<ore:dustSteel>);
+
+//Some boring nugget/block handling
+recipes.addShapeless("nugget_handler_1",<contenttweaker:impure_steel>,[<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>]);
+recipes.addShapeless("nugget_handler_2",<contenttweaker:impure_steel_nugget>*9,[<contenttweaker:impure_steel>]);
+recipes.addShapeless("block_handler_1",<contenttweaker:impure_steel_block>,[<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>]);
+recipes.addShapeless("block_handler_2",<contenttweaker:impure_steel>*9,[<contenttweaker:impure_steel_block>]);
+
+mods.tconstruct.Melting.addRecipe(<liquid:impuresteel> * 16,<contenttweaker:impure_steel_nugget>, 395);
+mods.tconstruct.Melting.addRecipe(<liquid:impuresteel> * 1296,<contenttweaker:impure_steel_block>, 681);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:impure_steel_nugget>, <tconstruct:cast_custom:1>, <liquid:impuresteel>, 16, false, 7);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:impure_steel_block>, null, <liquid:impuresteel>, 1296, false, 540);
+
+//Calcium Sulfate Creation
+mods.tconstruct.Casting.addTableRecipe(<nuclearcraft:compound:0>, <thermalfoundation:material:771>, <liquid:milk>, 16000, true, 80);
+mods.factorytech.Agitator.addRecipe(<liquid:milk> * 8000, null, <thermalfoundation:material:771>, null, <nuclearcraft:compound:0>);
+
+//Calcium Sulfide Creation
+mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:calcium_sulfide>, <nuclearcraft:compound:0>, 600, <forestry:ash>);
+
+//Creating Sulfuric Quicklime
+mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:sulfuric_quicklime>*16, <nuclearcraft:compound:0>*3, <contenttweaker:calcium_sulfide>, 200);
+
+//Sulfuric Quicklime to... regular quicklime.
+mods.forestry.Centrifuge.addRecipe([<botany:misc:3> % 100, <earthworks:item_quicklime> % 100], <minecraft:redstone_block>, 100);
+
+//Handling Smol Boye Sulfur Dust
+recipes.addShapeless("sulphur_big_to_small",<botany:misc:3>*4,[<thermalfoundation:material:771>]);
+recipes.addShapeless("sulfur_small_to_big",<thermalfoundation:material:771>,[<botany:misc:3>,<botany:misc:3>,<botany:misc:3>,<botany:misc:3>]);
