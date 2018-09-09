@@ -169,7 +169,7 @@ recipes.addShapedMirrored(<magneticraft:connector> * 2,
 #Script by Dr.Marx
 //Crush ore chunks in Immersive Engineering crusher to get more secondary byproducts
 //Copper
-mods.immersiveengineering.Crusher.addRecipe(<ore:dustCopper> * 2, <magneticraft:chunks:2>, 8000, <thermalfoundation:material:1>, 0.15);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:64> * 2, <magneticraft:chunks:2>, 8000, <thermalfoundation:material:1>, 0.15);
 //Tin
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:65> * 2, <magneticraft:chunks:13>, 8000, <thermalfoundation:material>, 0.25);
 //Iron
