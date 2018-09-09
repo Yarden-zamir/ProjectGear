@@ -70,3 +70,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 12,
     [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],
      [null, <tconstruct:tool_rod>.withTag({Material: "steel"}), null],
      [<tconstruct:tool_rod>.withTag({Material: "steel"}), null, <tconstruct:tool_rod>.withTag({Material: "steel"})]]);
+	 
+#Script by Dr.Marx
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <liquid:gold> * 228, <projectred-core:resource_item>, true, 60);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <liquid:alubrass> * 228, <projectred-core:resource_item>, true, 60);
