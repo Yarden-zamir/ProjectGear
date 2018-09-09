@@ -75,7 +75,7 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:calcium_sulfide
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:sulfuric_quicklime>*16, <nuclearcraft:compound:0>*3, <contenttweaker:calcium_sulfide>, 200);
 
 //Sulfuric Quicklime to... regular quicklime.
-mods.forestry.Centrifuge.addRecipe([<botany:misc:3> % 100, <earthworks:item_quicklime> % 100], <minecraft:redstone_block>, 100);
+mods.forestry.Centrifuge.addRecipe([<botany:misc:3> % 100, <earthworks:item_quicklime> % 100], <contenttweaker:sulfuric_quicklime>, 100);
 
 //Handling Smol Boye Sulfur Dust
 recipes.addShapeless("sulphur_big_to_small",<botany:misc:3>*4,[<thermalfoundation:material:771>]);
