@@ -20,15 +20,6 @@ recipes.addShaped(<projectred-expansion:machine2>,
     [[<ore:cobblestone>, <tconstruct:pick_head>.withTag({Material: "iron"}), <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:piston>, <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]]);
-    
-// Block Breaker (Gadgetry Machines) recipe removal
-recipes.remove(<gadgetrymachines:breaker>);
-
-// Block Breaker (Gadgetry Machines) Iron Pickaxe -> Iron Pickaxe Head
-recipes.addShaped(<gadgetrymachines:breaker>,
-    [[null, <minecraft:iron_ingot>, null],
-    [<minecraft:iron_ingot>, <tconstruct:pick_head>.withTag({Material: "iron"}), <minecraft:iron_ingot>], 
-    [<minecraft:redstone>, <ore:ingotSteel>, <minecraft:redstone>]]);
 
 // Block Breaker (Random Things) recipe removal
 recipes.remove(<randomthings:blockbreaker>);

@@ -48,28 +48,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Ma
 
 recipes.addShapeless(<tconstruct:tool_rod>.withTag({Material: "steel"}), [<immersiveengineering:tool>, <thermalfoundation:material:160>, <thermalfoundation:material:160>]);
 
-// Change the recipes of the Immersive Engineering steel fence, steel scaffolding and steel fence gate to require steel tool rods from Tinkers
- 
-  //Steel Fence Gate
-recipes.removeShaped(<engineersdoors:fencegate_steel>);
-recipes.addShaped(<engineersdoors:fencegate_steel> * 2,
-    [[null, null, null],
-     [<tconstruct:tool_rod>.withTag({Material: "steel"}), <thermalfoundation:material:160> , <tconstruct:tool_rod>.withTag({Material: "steel"}) ],
-     [<tconstruct:tool_rod>.withTag({Material: "steel"}), <thermalfoundation:material:160> , <tconstruct:tool_rod>.withTag({Material: "steel"}) ]]);
-     
-  //Steel Fence
-recipes.removeShaped(<immersiveengineering:metal_decoration1>);
-recipes.addShaped(<immersiveengineering:metal_decoration1> * 6,
-    [[null, null, null],
-     [<thermalfoundation:material:160>, <tconstruct:tool_rod>.withTag({Material: "steel"}) , <thermalfoundation:material:160>],
-     [<thermalfoundation:material:160>, <tconstruct:tool_rod>.withTag({Material: "steel"}) , <thermalfoundation:material:160>]]);
-     
-  //Steel Scaffolding  
-recipes.removeShaped(<immersiveengineering:metal_decoration1:1>);
-recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 12,
-    [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],
-     [null, <tconstruct:tool_rod>.withTag({Material: "steel"}), null],
-     [<tconstruct:tool_rod>.withTag({Material: "steel"}), null, <tconstruct:tool_rod>.withTag({Material: "steel"})]]);
+
 	 
 #Script by Dr.Marx
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <projectred-core:resource_item>, <liquid:gold>, 228, true, 60);
