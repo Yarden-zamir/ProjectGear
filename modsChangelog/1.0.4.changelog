@@ -16,6 +16,7 @@ Removed mods:
 -Sentek Runic Teleporters - Needlessly dangerous, not being updated
 -Lunatrius Core - Unneded dependency
 -Gadgetry - Doesn't do anything other mods can't do better
+-Storage Drawers Extras - Framed drawers exist, and they're more fun
 
 
 Added mods:
@@ -73,6 +74,7 @@ Smaller Changes and Fixes:
 -Added the 'sand' ore dictionary tag to Rockhounding's white sand
 -Fixed recipe conflict between the marble items from Project Red and Quark
 -Make resonating ore from stone and molten redstone
+-Removed Aether Legacy tips from the loading screen
 
 
 Updated mods:
