@@ -15,6 +15,7 @@ Removed mods:
 -CD4017BE Library - Unneeded dependency
 -Sentek Runic Teleporters - Needlessly dangerous, not being updated
 -Lunatrius Core - Unneded dependency
+-Gadgetry - Doesn't do anything other mods can't do better
 
 
 Added mods:
@@ -24,6 +25,8 @@ Added mods:
 -Guidebook
 -Linking through the Ages
 -Its The Little Things
+-Emojiful
+-Click Machine
 
 Major changes:
 -Added two custom Mystcraft dimensions, accessible with Waystones. One is a mining world, the other is a void world.
