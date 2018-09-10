@@ -73,3 +73,7 @@ recipes.addShaped(<appliedenergistics2:material:19>,
   [[ingotSteel,plateTin,ingotSteel],
   [plateNickel,<immersiveengineering:mold:7>,plateNickel],
   [ingotSteel,plateTin,ingotSteel]]);
+recipes.addShaped(<appliedenergistics2:material:21>,
+  [[ingotSteel,plateTin,ingotSteel],
+  [plateNickel,<immersiveengineering:mold:4>,plateNickel],
+  [ingotSteel,plateTin,ingotSteel]]);
