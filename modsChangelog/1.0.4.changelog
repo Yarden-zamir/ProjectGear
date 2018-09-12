@@ -43,7 +43,10 @@ Major changes:
 -Halved the Ore Excavation block limit, but quadrupled the range. The block limit is still 8 times higher than the default.
 -Resonating and dimensional shard ore no longer generate, but they can be crafted
 
--Added several new ways to get quicklime
+-Improved steel production:
+1. Added more ways to get quickline
+2. Added impure steel blocks and nuggets
+
 -V0id Smart Backpacks rebalance:
 1. Upgrades are crafted with a Gendustry upgrade frame instead of V0id's upgrade base
 2. Disabled the upgrade base. This cuts down on clutter and unifies recipes.
