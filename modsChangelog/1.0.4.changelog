@@ -28,6 +28,7 @@ Added mods:
 -Its The Little Things
 -Emojiful
 -Click Machine
+-V0id's Smart Backpacks
 
 Major changes:
 -Added two custom Mystcraft dimensions, accessible with Waystones. One is a mining world, the other is a void world.
@@ -41,6 +42,8 @@ Major changes:
 -Disabled Mystcraft profiling. This should result in a major performance improvement on weaker machines.
 -Halved the Ore Excavation block limit, but quadrupled the range. The block limit is still 8 times higher than the default.
 -Resonating and dimensional shard ore no longer generate, but they can be crafted
+
+-Added several new ways to get quicklime
 
 
 Smaller Changes and Fixes:
@@ -75,6 +78,13 @@ Smaller Changes and Fixes:
 -Fixed recipe conflict between the marble items from Project Red and Quark
 -Make resonating ore from stone and molten redstone
 -Removed Aether Legacy tips from the loading screen
+-Quark crystals are now renewable
+-Added a whitelist to the Dank Null's ore dictionary function. It can only convert specific dyes, dusts and metals now.
+-Magneticraft ore chunks give 2.5 dust per ore when crushed in an Immersive Engineering crusher
+-You can make a Tinkers' plate mold with a Project Red stone plate
+-Added a crafting recipe to the AE2 inscriber name press
+-Replaced all instances of Immersive Engineering steel rods with Tinkers' steel tool rods
+-Red alloy ingots now use less redstone (8 > 2)
 
 
 Updated mods:
