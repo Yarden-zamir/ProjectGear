@@ -142,7 +142,7 @@ recipes.addShaped("gear_shaped_steelWallMount", <immersiveengineering:metal_deco
  
 // ladder
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/ladder");
-recipes.addShaped("tool_rod_steel_ladder", <immersiveengineering:metal_ladder>*6,
+recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:metal_ladder>*6,
     [[steelRod, null, steelRod],
     [steelRod, steelRod, steelRod],
     [steelRod, null, steelRod]]);
