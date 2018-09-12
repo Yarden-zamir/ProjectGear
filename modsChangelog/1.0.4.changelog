@@ -44,6 +44,11 @@ Major changes:
 -Resonating and dimensional shard ore no longer generate, but they can be crafted
 
 -Added several new ways to get quicklime
+-V0id Smart Backpacks rebalance:
+1. Upgrades are crafted with a Gendustry upgrade frame instead of V0id's upgrade base
+2. Disabled the upgrade base. This cuts down on clutter and unifies recipes.
+3. Disabled the ender storage upgrade since Ender Storage is not in the pack
+4. Disabled all generator upgrades
 
 
 Smaller Changes and Fixes:
