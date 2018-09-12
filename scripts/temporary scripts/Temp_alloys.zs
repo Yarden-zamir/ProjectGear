@@ -11,7 +11,7 @@ scripts.functions.disableItems(itemsToDisable);
 furnace.remove(<projectred-core:resource_item:103>);
  
 // Red Alloy Ingot Arc Furnace recipe (1 Tin Ingot + 8 Redstone)
-mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, null, 1000, 2048, [<minecraft:redstone> * 8], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, null, 1000, 2048, [<minecraft:redstone> * 2], "Alloying");
  
 // Red Alloy Ingot Alloy Kiln recipe
 mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, <minecraft:redstone> * 8, 2000);
