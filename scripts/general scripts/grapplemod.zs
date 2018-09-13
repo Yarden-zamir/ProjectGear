@@ -29,5 +29,8 @@ recipes.addShaped(<grapplemod:longfallboots>,
 	[[<minecraft:feather>, null, <minecraft:feather>],
 	 [<ore:plateIron>, <minecraft:leather_boots>, <ore:plateIron>]]);
 	 
+	 
+recipes.replaceAllOccurences(<grapplemod:baseupgradeitem>, <gendustry:upgrade_frame>);
+	 
 
 	 
