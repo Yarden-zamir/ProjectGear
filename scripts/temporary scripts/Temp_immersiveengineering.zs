@@ -155,8 +155,15 @@ recipes.addShaped("gear_shaped_tool_rod_steel_connector", <immersiveengineering:
  
 // strip curtain
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/ladder");
-recipes.addShaped("tool_rod_steel_ladder", <immersiveengineering:metal_ladder>*6,
+recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:metal_ladder>*6,
     [[steelRod, null, steelRod],
     [steelRod, steelRod, steelRod],
     [steelRod, null, steelRod]]);
+	
+#Script by DeviantCrafter
+//Prevents hammers from creating lightning rods, functionally disabling the multiblock
+recipes.removeShaped(<immersiveengineering:tool>);
+val hammer = <immersiveengineering:tool>.withTag({multiblockInterdiction: ["IE:Lightningrod"]});
+
+recipes.addShaped(hammer, [[null, <ore:ingotIron>, <ore:string>], [null, <ore:stickWood>, <ore:ingotIron>], [<ore:stickWood>, null, null]]);
 
