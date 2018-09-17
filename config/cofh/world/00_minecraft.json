@@ -1,16 +1,18 @@
 {
 	"populate": {
-		"dirt": {
-
+		"dirt_plate": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "dirt",
+				"type": "plate",
+				"block": "minecraft:dirt",
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"radius": 21,
+				"height": 4
 			},
-			"cluster-count": 10,
-			"min-height": 32,
-			"max-height": 256,
+			"cluster-count": 1,
+			"chunk-chance": 50,
+			"min-height": 25,
+			"max-height": 50,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -22,16 +24,19 @@
 			}
 		},
 
-		"gravel": {
+		"gravel_plate": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "gravel",
+				"type": "plate",
+				"block": "minecraft:gravel",
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"radius": 21,
+				"height": 4
 			},
-			"cluster-count": 8,
-			"min-height": 32,
-			"max-height": 256,
+			"cluster-count": 1,
+			"chunk-chance": 50,
+			"min-height": 25,
+			"max-height": 50,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
