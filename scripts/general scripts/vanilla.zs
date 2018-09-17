@@ -81,31 +81,5 @@ recipes.addShaped(<minecraft:torch> * 8,
 recipes.removeShaped(<minecraft:leather>);
 mods.integrateddynamics.DryingBasin.removeRecipesWithOutput(<minecraft:leather>);
 
-#Change stack sizes:
 
-val disc1 = <minecraft:record_13>;
-val disc2 = <minecraft:record_cat>;
-val disc3 = <minecraft:record_blocks>;
-val disc4 = <minecraft:record_chirp>;
-val disc5 = <minecraft:record_far>;
-val disc6 = <minecraft:record_mall>;
-val disc7 = <minecraft:record_mellohi>;
-val disc8 = <minecraft:record_stal>;
-val disc9 = <minecraft:record_strad>;
-val disc10 = <minecraft:record_ward>;
-val disc11 = <minecraft:record_11>;
-val disc12 = <minecraft:record_wait>;
-
-disc1.maxStackSize = 16;
-disc2.maxStackSize = 16;
-disc3.maxStackSize = 16;
-disc4.maxStackSize = 16;
-disc5.maxStackSize = 16;
-disc6.maxStackSize = 16;
-disc7.maxStackSize = 16;
-disc8.maxStackSize = 16;
-disc9.maxStackSize = 16;
-disc10.maxStackSize = 16;
-disc11.maxStackSize = 16;
-disc12.maxStackSize = 16;
 
