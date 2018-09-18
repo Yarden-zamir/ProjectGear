@@ -1,0 +1,29 @@
+{
+
+"small_common_nether_gold_vein": {
+    "type": "oreveins:cluster",
+    "ore": "contenttweaker:nether_gold_ore",
+    "stone": "minecraft:netherrack",
+    "rarity": 2,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 5,
+    "horizontal_size": 10,
+	"dimensions": [-1]
+  },
+  
+  "medium_uncommon_nether_gold_vein": {
+    "type": "oreveins:cluster",
+    "ore": "contenttweaker:nether_gold_ore",
+    "stone": "minecraft:netherrack",
+    "rarity": 5,
+    "min_y": 16,
+    "max_y": 128,
+    "density": 25,
+    "vertical_size": 15,
+    "horizontal_size": 15,
+	"dimensions": [-1]
+  }
+  
+ }
