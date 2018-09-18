@@ -1,5 +1,5 @@
 {
-  "iron_nickel": {
+  "massive_exotic_iron_nickel": {
     "ore": [{
             "block": "thermalfoundation:ore",
             "weight": 40,
@@ -19,7 +19,7 @@
     "vertical_size": 30,
     "horizontal_size": 80
   },
-  "gold_copper": {
+  "massive_exotic_gold_copper": {
     "ore": [{
             "block": "thermalfoundation:ore",
             "weight": 50,
@@ -39,7 +39,8 @@
     "vertical_size": 30,
     "horizontal_size": 80
   },
-  "tin_copper": {
+  
+  "massive_exotic_tin_copper": {
     "ore": [{
             "block": "thermalfoundation:ore",
             "weight": 50,
@@ -60,30 +61,11 @@
     "vertical_size": 30,
     "horizontal_size": 80
   },
-  "tin_osmium": {
-    "ore": [{
-            "block": "thermalfoundation:ore",
-            "weight": 50,
-			"meta": 1
-        },
-        {
-            "block": "mekanism:oreblock",
-            "weight": 50
-        }
- 
-    ],
-    "stone": "minecraft:stone",
-    "rarity": 2000,
-    "min_y": 5,
-    "max_y": 55,
-    "density": 15,
-    "vertical_size": 30,
-    "horizontal_size": 80
-  },
-  "coal_diamond": {
+  
+  "massive_exotic_coal_diamond": {
     "ore": [{
             "block": "minecraft:coal_ore",
-            "weight": 99
+            "weight": 499
         },
         {
             "block": "minecraft:diamond_ore",
