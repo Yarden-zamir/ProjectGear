@@ -1,5 +1,8 @@
 import crafttweaker.item.IIngredient;
 
+//Disable steel
+mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);
+
 //Smeltery Coal
 mods.tconstruct.Melting.addRecipe(<liquid:coal> * 288,<immersive engineering:material:6>);
 mods.tconstruct.Melting.addRecipe(<liquid:coal> * 72,<minecraft:coal:1>);
@@ -80,3 +83,21 @@ mods.forestry.Centrifuge.addRecipe([<botany:misc:3> % 100, <earthworks:item_quic
 //Handling Smol Boye Sulfur Dust
 recipes.addShapeless("sulphur_big_to_small",<botany:misc:3>*4,[<thermalfoundation:material:771>]);
 recipes.addShapeless("sulfur_small_to_big",<thermalfoundation:material:771>,[<botany:misc:3>,<botany:misc:3>,<botany:misc:3>,<botany:misc:3>]);
+
+dustCobalt
+	dustIron
+	dustGold
+	dustCopper
+	dustTin
+	dustSilver
+	dustLead
+	dustAluminum
+	dustNickel
+	dustBronze
+	dustConstantan
+	dustEnderium
+	dustLumium
+	dustInvar
+	dustSignalum
+	dustManasteel
+	dustTerrasteel
