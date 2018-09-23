@@ -18,3 +18,9 @@ val itemsToDisable =[
   <rustic:marsh_mallow>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
+
+//Fixed recipe conflict
+recipes.removeShaped(<rustic:slate_roof>);
+recipes.addShaped(<rustic:slate_roof>,
+	[[<rustic:slate_brick>, <rustic:slate_brick>],
+	 [<rustic:slate_brick>, <rustic:slate_brick>]]);
