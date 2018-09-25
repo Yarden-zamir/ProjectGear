@@ -49,7 +49,7 @@ recipes.addShapeless(<minecraft:chest>, [<ore:chestWood>]);
 
   //Convenient paper recipe:
 recipes.addShapeless(<minecraft:paper> * 2, [<minecraft:book>]);
-recipes.addShapeless(<minecraft:paper> * 3, [<minecraft:reeds> * 3]);
+recipes.addShapeless(<minecraft:paper> * 3, [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]);
 
   //Shulker shell
  recipes.addShapeless(<minecraft:shulker_shell>, [<projectred-core:resource_item>, <minecraft:dye:5>]);
