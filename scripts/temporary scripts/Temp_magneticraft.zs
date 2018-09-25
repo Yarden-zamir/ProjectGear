@@ -65,7 +65,7 @@ val copperPlate = <ore:plateCopper>;
 val batteryLow = <magneticraft:battery_item_low>;
  
 recipes.remove(<magneticraft:multiblock_parts:3>);
-recipes.addShaped("multiblock_part_striped_ink_sac", <magneticraft:multiblock_parts:3>,
+recipes.addShaped("gear_shaped_multiblock_part_striped_ink_sac", <magneticraft:multiblock_parts:3> * 6,
     [[inkSac, goldPlate, inkSac],
     [goldPlate, <minecraft:stone:0>, goldPlate],
     [inkSac, goldPlate, inkSac]]);
