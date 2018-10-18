@@ -86,3 +86,15 @@ mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:8>, <o
 mods.integrateddynamics.Squeezer.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material:0>, null);
 mods.integrateddynamics.Squeezer.addRecipe(<appliedenergistics2:material:2>, <minecraft:quartz>, null);
 mods.integrateddynamics.Squeezer.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, null);
+
+val EnderPearl = <minecraft:ender_pearl>;
+val EnderDust = <appliedenergistics2:material:46>;
+
+//Crush ender pearls into ender pearl dust
+mods.immersiveengineering.Crusher.addRecipe(EnderDust, EnderPearl, 2048);
+mods.integrateddynamics.Squeezer.addRecipe(EnderPearl, EnderDust, null);
+mods.factorytech.DrillGrinder.addRecipe(EnderDust, EnderPearl, true);
+
+//Adds ore dictionary name to charged certus quartz ore:
+val oreCertusQuartzCharged = <ore:oreCertusQuartzCharged>;
+oreEtherium.add(<appliedenergistics2:charged_quartz_ore>);

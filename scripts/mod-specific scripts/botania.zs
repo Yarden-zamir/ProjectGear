@@ -23,6 +23,8 @@ val dyeBlack = <ore:dyeBlack>;
 
 val dye = <ore:dye>;
 
+//Prevent Botania's petal powder from working as dye
+//Note: Vanilla dye farms are recommended. You can also use bees.
 dyeWhite.remove(<botania:dye:0>);
 dyeOrange.remove(<botania:dye:1>);
 dyeMagenta.remove(<botania:dye:2>);
@@ -41,5 +43,14 @@ dyeRed.remove(<botania:dye:14>);
 dyeBlack.remove(<botania:dye:15>);
 
 dye.remove(<botania:dye:*>);
+
+
+//Smokey Quartz from wither ash
+val Quartz = <ore:gemQuartz>;
+recipes.remove(<botania:quartz:0>);
+recipes.addShaped(<botania:quartz:0> * 8,
+ [[Quartz, Quartz, Quartz],
+  [Quartz, <quark:black_ash>, Quartz],
+  [Quartz, Quartz, Quartz]]);
 
 

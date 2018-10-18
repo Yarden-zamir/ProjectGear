@@ -44,3 +44,7 @@ scripts.functions.rename(<nuclearcraft:ore:3>,"Thorite Ore");
 #Ore dict
 
 
+//Make obtaining Nuclearcraft glowing mushrooms more interesting
+recipes.removeShapeless(<nuclearcraft:glowing_mushroom>);
+recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<ore:mushroomAny>, <ore:mushroomAny>, <natura:nether_glowshroom:*>, <natura:nether_glowshroom:*>]);
+

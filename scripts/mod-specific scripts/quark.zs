@@ -35,3 +35,7 @@ recipes.removeShaped(<quark:bark:2>);
 recipes.removeShaped(<quark:bark:3>);
 recipes.removeShaped(<quark:bark:4>);
 recipes.removeShaped(<quark:bark:5>);
+
+
+//Craft wither ash from a necrotic bone
+recipes.addShapeless(<quark:black_ash> * 5,[<tconstruct:materials:17>]);

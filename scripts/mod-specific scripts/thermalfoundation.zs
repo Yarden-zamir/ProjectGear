@@ -291,3 +291,10 @@ recipes.addShapeless(fert*4,
 //Renames
 scripts.functions.rename(<thermalfoundation:material:832>,"Solidified Brine");
 scripts.functions.rename(<thermalfoundation:material:833>,"Flinted Ash");
+
+// Crusher: Log -> 4 Saw Dust
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:800>, <ore:logWood>, 2048);
+ 
+// Saw Dust recipe (Log + Engineer's Hammer)
+recipes.addShapeless(<thermalfoundation:material:800>,
+    [<ore:logWood>,<immersiveengineering:tool>]);

@@ -92,4 +92,23 @@ recipes.removeShaped(<minecraft:leather>);
 mods.integrateddynamics.DryingBasin.removeRecipesWithOutput(<minecraft:leather>);
 
 
+// Crusher: Diamond Horse Armor -> 2 Diamond Dust
+mods.immersiveengineering.Crusher.addRecipe(<mekanism:otherdust> * 2, <minecraft:diamond_horse_armor>, 2048);
+ 
+// Crusher: Golden Apple -> 4 Gold Dust
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 4, <minecraft:golden_apple>, 2048);
+ 
+// Crusher: Enchanted Gold Apple -> 36 Gold Dust
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 36, <minecraft:golden_apple:1>, 2048);
 
+//Remove some of the gunpowder recipes
+//Note: It's still craftable
+recipes.removeByRecipeName("immersiveengineering:material/gunpowder0");
+recipes.removeByRecipeName("immersiveengineering:material/gunpowder1");
+recipes.removeByRecipeName("natura:common/gunpowder");
+
+// Furnace: Tall grass -> Dead Grass
+furnace.addRecipe(<minecraft:tallgrass:1>, <traverse:dead_grass>);
+
+//Removes Mekanism paper recipe
+//recipes.removeByRecipeName("mekanism:paper");

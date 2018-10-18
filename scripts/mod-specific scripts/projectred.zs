@@ -52,6 +52,8 @@ val itemsToDisable =[
     <projectred-exploration:peridot_chestplate>,
     <projectred-exploration:peridot_leggings>,
     <projectred-exploration:peridot_boots>
+	//Autocrafting bench
+	<projectred-expansion:machine2:11>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
@@ -80,7 +82,11 @@ recipes.addShaped(<projectred-exploration:stone_wall:1> * 6, [[<projectred-explo
 recipes.removeShaped(<projectred-exploration:stone:1>);
 recipes.addShaped(<projectred-exploration:stone:1> * 4, [[<projectred-exploration:stone>,<projectred-exploration:stone>],[<projectred-exploration:stone>,<projectred-exploration:stone>]]); //un-oredicting the projectred bricks
 
-val itemsToDisable =[
-	<projectred-expansion:machine2:11>
-] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);
+// ProjectRed Silicon renamed "Silicon Wafer"
+<projectred-core:resource_item:301>.displayName = "Silicon Wafer";
+  
+// Redstone + Sulfuric Acid to 4 Electrotine dust
+mods.factorytech.Electroplater.addRecipe(<minecraft:redstone>, <projectred-core:resource_item:105>);
+
+// Fluxed Electrum Dust + Lapis to 4 Electrotine dust
+mods.forestry.ThermionicFabricator.addCast(<projectred-core:resource_item:105> * 4, [[<minecraft:dye:4>,<redstonearsenal:material:0>,null],[null,null,null],[null,null,null]], <liquid: glass> * 200);

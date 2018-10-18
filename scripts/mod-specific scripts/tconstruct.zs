@@ -61,3 +61,10 @@ scripts.functions.disableItems(itemsToDisable);
 //new electrum recipe
 mods.tconstruct.Alloy.removeRecipe(<liquid:electrum>);
 mods.tconstruct.Alloy.addRecipe(<liquid:electrum> * 2, [<liquid:gold> * 1, <liquid:copper> * 1]);
+
+//Make necrotic bones in a coke oven
+//Note: These no longer drop from wither skeletons
+mods.immersiveengineering.CokeOven.addRecipe(<tconstruct:materials:17>, 2, <minecraft:bone>, 200);
+
+//Pyrotheum + Plank to Lavawood
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:firewood:0>, <ore:plankWood>, <liquid:pyrotheum>, 9, true, 100);
