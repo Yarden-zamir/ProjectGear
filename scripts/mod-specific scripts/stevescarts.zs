@@ -44,3 +44,5 @@ recipes.addShaped(<stevescarts:cartmodule:42>.withTag({Data: 100 as byte}),
    
    //add drill head to oredict
 <ore:drillheadIron>.add(<stevescarts:cartmodule:42>.withTag({Data: 100 as byte}));
+
+recipes.replaceAllOccurences(<stevescarts:modulecomponents:59>, <gendustry:upgrade_frame>);
