@@ -72,3 +72,9 @@ mods.forestry.Carpenter.addRecipe(<xreliquary:glowing_bread>, [[<forestry:honeye
 
 mods.forestry.Carpenter.addRecipe(<xreliquary:glowing_bread>, [[<forestry:crated.natura.nether_glowshroom.0>, <forestry:crated.natura.nether_glowshroom.1>, <forestry:crated.natura.nether_glowshroom.2>],
 															   [<minecraft:bread>, <minecraft:bread>, <minecraft:bread>]], 30, <liquid:glowstone> * 1000);
+															   
+// You can also craft a Zombie Pigman Charm Fragment with a golden carrot instead of a golden sword. The carrot conveniently stacks to 64.
+recipes.addShaped(<xreliquary:mob_charm_fragment:5>,
+    [[<xreliquary:mob_ingredient:6>, <xreliquary:mob_ingredient:6>, <xreliquary:mob_ingredient:6>],
+    [<minecraft:rotten_flesh>, <minecraft:golden_carrot>, <minecraft:rotten_flesh>],
+    [<xreliquary:mob_ingredient:6>, <xreliquary:mob_ingredient:6>, <xreliquary:mob_ingredient:6>]]);

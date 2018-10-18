@@ -17,3 +17,10 @@ recipes.addShaped(<pneumaticcraft:compressed_iron_gear>,
 
 	//Metal press:
 mods.immersiveengineering.MetalPress.addRecipe(<pneumaticcraft:compressed_iron_gear>, <pneumaticcraft:ingot_iron_compressed>, <immersiveengineering:mold:1>, 2000, 4);
+
+
+// You can also craft the range upgrade with a piston instead of a bow. The piston conveniently stacks fo 64.
+recipes.addShaped(<pneumaticcraft:range_upgrade>,
+    [[<minecraft:dye:4>, <minecraft:arrow>, <minecraft:dye:4>],
+    [<minecraft:arrow>, <minecraft:piston>, <minecraft:arrow>],
+    [<minecraft:dye:4>, <minecraft:arrow>, <minecraft:dye:4>]]);

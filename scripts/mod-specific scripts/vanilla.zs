@@ -34,18 +34,18 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:glowstone>, null, <liquid:glow
 // Casting Table: 1000 mb Energized Glowstone -> Glowstone
 mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, null, <liquid:ender>, 250, false, 100);
 
-val aluminumIngot = <ore:ingotAluminum>;
+val tinIngot = <ore:ingotTin>;
 val steelIngot = <ore:ingotSteel>;
 
   //Bucket
 recipes.addShaped(<minecraft:bucket>,
-[[aluminumIngot, null, aluminumIngot],
- [null, aluminumIngot, null]]);
+[[tinIngot, null, tinIngot],
+ [null, tinIngot, null]]);
 
  //Piston
 recipes.addShaped(<minecraft:piston>,
  [[<ore:plankWood>,         <ore:plankWood>,     <ore:plankWood>],
-  [<minecraft:cobblestone>, aluminumIngot, <minecraft:cobblestone>],
+  [<minecraft:cobblestone>, tinIngot, <minecraft:cobblestone>],
   [<minecraft:cobblestone>, <ore:dustRedstone>, <minecraft:cobblestone>]]);
 
   //Rails
@@ -112,3 +112,9 @@ furnace.addRecipe(<minecraft:tallgrass:1>, <traverse:dead_grass>);
 
 //Removes Mekanism paper recipe
 //recipes.removeByRecipeName("mekanism:paper");
+
+// You can also craft the vanilla dispenser with a piston instead of a bow. The piston conveniently stacks to 64.
+recipes.addShaped(<minecraft:dispenser>,
+    [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+    [<ore:cobblestone>, <minecraft:piston>, <ore:cobblestone>],
+    [<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]]);

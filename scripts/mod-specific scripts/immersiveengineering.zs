@@ -242,3 +242,8 @@ mods.immersiveengineering.Excavator.removeMineral("Nickel");
 mods.immersiveengineering.Excavator.removeMineral("Platinum");
 mods.immersiveengineering.Excavator.removeMineral("Silver");
 mods.immersiveengineering.Excavator.removeMineral("Uranium");
+
+// You can also craft a bayonet with an iron sword blade, which conveniently stacks to 64
+recipes.addShaped(<immersiveengineering:toolupgrade:4>,
+    [[<tconstruct:sword_blade>.withTag({Material: "iron"}), <ore:ingotSteel>],
+    [<ore:ingotSteel>, <ore:plankTreatedWood>]]);
