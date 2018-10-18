@@ -6,7 +6,8 @@ import crafttweaker.oredict.IOreDictEntry;
 //Disable Mekanism machines
 
 val itemsToDisable =[
-  <magneticraft:small_tank>
+  <magneticraft:small_tank>,
+  <magneticraft:water_generator>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
@@ -183,9 +184,3 @@ mods.immersiveengineering.Crusher.addRecipe(<magneticraft:dusts:4> * 2, <magneti
 
 #Renames
 scripts.functions.rename(<magneticraft:light_plates>,"Basic Plate");
-
-//Disable water generator:
-val itemsToDisable =[
-  <magneticraft:water_generator>
-] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);

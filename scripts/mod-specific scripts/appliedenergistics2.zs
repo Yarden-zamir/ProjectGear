@@ -97,4 +97,4 @@ mods.factorytech.DrillGrinder.addRecipe(EnderDust, EnderPearl, true);
 
 //Adds ore dictionary name to charged certus quartz ore:
 val oreCertusQuartzCharged = <ore:oreCertusQuartzCharged>;
-oreEtherium.add(<appliedenergistics2:charged_quartz_ore>);
+oreCertusQuartzCharged.add(<appliedenergistics2:charged_quartz_ore>);

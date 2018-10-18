@@ -51,9 +51,13 @@ val itemsToDisable =[
     <projectred-exploration:peridot_helmet>,
     <projectred-exploration:peridot_chestplate>,
     <projectred-exploration:peridot_leggings>,
-    <projectred-exploration:peridot_boots>
-	//Autocrafting bench
-	<projectred-expansion:machine2:11>
+    <projectred-exploration:peridot_boots>,
+	// Autocrafting bench
+	<projectred-expansion:machine2:11>,
+	// Red Iron Compound
+	<projectred-core:resource_item:251>, 
+    // Electrotine Iron Compound	
+  <projectred-core:resource_item:252>  
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 

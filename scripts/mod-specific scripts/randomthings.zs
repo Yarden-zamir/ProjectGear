@@ -18,6 +18,6 @@ scripts.functions.disableItems(itemsToDisable);
 
 // You can also craft the block breaker with an iron pickaxe head instead of an iron pickaxe. The head conveniently stacks to 64.
 recipes.addShaped(<randomthings:blockbreaker>,
-    [[<ore:cobblestone>, <ore:partPickHead>.withTag({Material: "iron"}), <ore:cobblestone>],
+    [[<ore:cobblestone>, <tconstruct:pick_head>.withTag({Material: "iron"}), <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:redstone_torch>, <ore:cobblestone>],
     [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);

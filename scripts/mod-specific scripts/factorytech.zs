@@ -81,10 +81,6 @@ recipes.addShaped(<factorytech:machinepart:80>,
     [<ore:ingotConstantan>, null, <ore:ingotConstantan>],
     [<minecraft:redstone>, null, <minecraft:redstone>]]);
 
-val itemsToDisable =[
-] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);
-
 //adding OreDict
 <ore:wireCopper>.add(<factorytech:machinepart:20>);
 <ore:gearIron>.add(<factorytech:machinepart:3>);
