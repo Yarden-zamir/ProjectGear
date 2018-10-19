@@ -208,4 +208,4 @@ recipes.remove(<magneticraft:crafting:2>);
 recipes.addShaped(<magneticraft:inserter>, 
 	[[<minecraft:iron_ingot>, <ore:nuggetIron>, null],
 	[<ore:nuggetIron>, <ore:ingotTin>, <ore:nuggetIron>], 
-	[<magneticraft:light_plates>, <magnweticraft:crafting:2>, <magneticraft:light_plates>]]);
+	[<magneticraft:light_plates>, <magneticraft:crafting:2>, <magneticraft:light_plates>]]);
