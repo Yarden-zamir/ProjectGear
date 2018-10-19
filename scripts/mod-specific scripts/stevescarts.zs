@@ -46,3 +46,20 @@ recipes.addShaped(<stevescarts:cartmodule:42>.withTag({Data: 100 as byte}),
 <ore:drillheadIron>.add(<stevescarts:cartmodule:42>.withTag({Data: 100 as byte}));
 
 recipes.replaceAllOccurences(<stevescarts:modulecomponents:59>, <gendustry:upgrade_frame>);
+
+// Alternate recipes that use nickel instead of iron
+	// Simple PCB Nickel recipe
+recipes.addShaped(<stevescarts:modulecomponents:9>,
+    [[<ore:ingotNickel>, <minecraft:redstone>, <ore:ingotNickel>],
+    [<minecraft:redstone>, <minecraft:gold_ingot>, <minecraft:redstone>],
+    [<ore:ingotNickel>, <minecraft:redstone>, <ore:ingotNickel>]]);
+recipes.addShaped(<stevescarts:modulecomponents:9>,
+    [[<minecraft:redstone>, <ore:ingotNickel>, <minecraft:redstone>],
+    [<ore:ingotNickel>, <minecraft:gold_ingot>, <ore:ingotNickel>],
+    [<minecraft:redstone>, <ore:ingotNickel>, <minecraft:redstone>]]);
+   
+	// Advanced PCB Nickel recipe
+recipes.addShaped(<stevescarts:modulecomponents:16>,
+    [[<minecraft:redstone>, <ore:ingotNickel>, <minecraft:redstone>],
+    [<stevescarts:modulecomponents:9>, <ore:ingotNickel>, <stevescarts:modulecomponents:9>],
+    [<minecraft:redstone>, <ore:ingotNickel>, <minecraft:redstone>]]);

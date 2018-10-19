@@ -39,3 +39,11 @@ recipes.removeShaped(<quark:bark:5>);
 
 //Craft wither ash from a necrotic bone
 recipes.addShapeless(<quark:black_ash> * 5,[<tconstruct:materials:17>]);
+
+// Earthworks Chalk -> Quark Marble
+recipes.addShapeless(<earthworks:block_chalk>,
+    [<quark:marble>]);
+	
+// ProjectRed Basalt -> Quark Basalt
+recipes.addShapeless(<projectred-exploration:stone:3>,
+    [<quark:basalt>]);

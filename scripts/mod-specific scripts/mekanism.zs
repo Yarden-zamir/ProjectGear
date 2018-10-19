@@ -328,3 +328,9 @@ mods.refraction.AssemblyTable.addRecipe("Refined Glowstone Block", <mekanism:bas
     [<ore:ingotElectrum>, <minecraft:glowstone_dust> * 6],
     16, 64, 255, 255, 255, 255, 0, 0);
 
+recipes.replaceAllOccurences(<ore:ingotOsmium>, <ore:ingotTin>);
+recipes.replaceAllOccurences(<mekanism:ingot:1>, <ore:ingotTin>);
+
+// Replaces Osmium dust recipes with Tin dust
+recipes.replaceAllOccurences(<mekanism:dust:2>, <ore:dustTin>);
+recipes.replaceAllOccurences(<ore:dustOsmium>, <ore:dustTin>);

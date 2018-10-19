@@ -100,3 +100,44 @@ recipes.addShaped(<projectred-expansion:machine2>,
     [[<ore:cobblestone>, <tconstruct:pick_head>.withTag({Material: "iron"}), <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:piston>, <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]]);
+
+// Make the jetpack cheaper
+recipes.remove(<projectred-expansion:jetpack>);
+recipes.addShaped(<projectred-expansion:jetpack>,
+ [[<projectred-expansion:charged_battery>, null, <projectred-expansion:charged_battery>],
+  [<projectred-expansion:charged_battery>, <minecraft:iron_chestplate>, <projectred-expansion:charged_battery>],
+  [<minecraft:diamond>, <projectred-expansion:machine2:5>, <minecraft:diamond>]]);
+  
+// Quark Marble -> ProjectRed Marble
+recipes.addShapeless(<quark:marble>,
+    [<projectred-exploration:stone>]);
+	
+// Quark Basalt -> ProjectRed Basalt
+recipes.addShapeless(<quark:basalt>,
+    [<projectred-exploration:stone:3>]);
+	
+// Red Alloy Ingot recipes
+// Red Alloy Furnace recipe removal
+furnace.remove(<projectred-core:resource_item:103>);
+ 
+// Red Alloy Ingot Arc Furnace recipe (1 Tin Ingot + 8 Redstone)
+mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, null, 1000, 2048, [<minecraft:redstone> * 2], "Alloying");
+ 
+// Red Alloy Ingot Alloy Kiln recipe
+mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, <minecraft:redstone> * 8, 2000);
+
+//Electrotine recipes
+//Electrotine Furnace recipe removal
+furnace.remove(<projectred-core:resource_item:104>);
+ 
+// Electrotine Alloy Ingot Arc Furnace recipe (1 Tin Ingot + 8 Electrotine)
+mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, null, 1000, 2048, [<projectred-core:resource_item:105> * 8], "Alloying");
+ 
+// Electrotine Alloy Ingot Alloy Kiln recipe
+mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, <projectred-core:resource_item:105> * 8, 2000);
+
+// Electrotine Block Laser Assembly Table recipe
+mods.refraction.AssemblyTable.addRecipe("Electrotine Block", <projectred-exploration:stone:11>,
+    [<minecraft:dye:4> * 2, <redstonearsenal:material> * 2],
+    16, 64, 0, 0, 0, 0, 255, 255);
+	

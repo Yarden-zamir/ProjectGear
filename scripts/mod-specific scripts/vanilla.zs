@@ -118,3 +118,26 @@ recipes.addShaped(<minecraft:dispenser>,
     [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:piston>, <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]]);
+	
+// Alternate recipes that use nickel instead of iron
+	// Essentials piston recipe
+recipes.addShaped(<minecraft:piston>,
+    [[<ore:cobblestone>, <ore:ingotNickel>],
+    [<minecraft:redstone>, <ore:logWood>]]);
+	// Minecraft piston recipe
+recipes.addShaped(<minecraft:piston>,
+    [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:cobblestone>, <ore:ingotNickel>, <ore:cobblestone>],
+    [<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]]);
+   
+	// Minecart Nickel recipe
+recipes.addShapedMirrored(<minecraft:minecart>,
+    [[null, null, null],
+    [<ore:ingotNickel>, null, <ore:ingotNickel>],
+    [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]]);
+   
+	// Hopper Nickel recipe
+recipes.addShaped(<minecraft:hopper>,
+    [[<ore:ingotNickel>, null, <ore:ingotNickel>],
+    [<ore:ingotNickel>, <ore:chestWood>, <ore:ingotNickel>],
+    [null, <ore:ingotNickel>, null]]);

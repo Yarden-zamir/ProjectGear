@@ -68,3 +68,29 @@ mods.immersiveengineering.CokeOven.addRecipe(<tconstruct:materials:17>, 2, <mine
 
 //Pyrotheum + Plank to Lavawood
 mods.tconstruct.Casting.addBasinRecipe(<tconstruct:firewood:0>, <ore:plankWood>, <liquid:pyrotheum>, 9, true, 100);
+
+
+//Make aluminum brass an alloy of gold and copper. Rename it to gold brass.
+	// localizations
+game.setLocalization("tile.tconstruct.metal.alubrass.name","Gold Brass Block");
+game.setLocalization("item.tconstruct.ingots.alubrass.name","Gold Brass Ingot");
+game.setLocalization("item.tconstruct.nuggets.alubrass.name","Gold Brass Nugget");
+game.setLocalization("fluid.tconstruct.alubrass.name","Molten Gold Brass");
+ 
+	// TiC smeltery
+mods.tconstruct.Alloy.removeRecipe(<liquid:alubrass>);
+mods.tconstruct.Alloy.addRecipe(<liquid:alubrass> * 4, [<liquid:gold> * 3, <liquid:tin> * 1]);
+ 
+	// ie kiln
+mods.immersiveengineering.AlloySmelter.removeRecipe(<tconstruct:ingots:5>);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, <ore:ingotCopper>*3, 100);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, <ore:dustCopper>*3, 100);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, <ore:ingotCopper>*3, 100);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, <ore:dustCopper>*3, 100);
+ 
+	// ie arc furnace
+mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:5>*4);
+mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:ingotCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:dustCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:ingotCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:dustCopper>*3]);

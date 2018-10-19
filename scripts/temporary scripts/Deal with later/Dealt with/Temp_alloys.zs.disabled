@@ -1,10 +1,4 @@
-import crafttweaker.item.IItemStack;
- 
-val itemsToDisable =[
-  <projectred-core:resource_item:251>,  // Red Iron Compound
-  <projectred-core:resource_item:252>  // Electrotine Iron Compound
-] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);
+
  
 // Red Alloy Ingot recipes
 // Red Alloy Furnace recipe removal

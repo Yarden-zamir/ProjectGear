@@ -15,23 +15,16 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
-#oredics
-<ore:plateLead>.add(<nuclearcraft:part>);
-
 
 #recipes
 recipes.addShaped(<nuclearcraft:bin> * 1,
-	[[<ore:plateLead>, <botania:manaresource>, <ore:plateLead>],
+	[[<ore:plateTin>, <botania:manaresource>, <ore:plateTin>],
 	 [<botania:manaresource>, null, <botania:manaresource>],
-	 [<ore:plateLead>, <botania:manaresource>, <ore:plateLead>]]);
+	 [<ore:plateTin>, <botania:manaresource>, <ore:plateTin>]]);
 recipes.addShaped(<nuclearcraft:bin> * 1,
-	[[<ore:plateLead>, <tconstruct:ingots:1>, <ore:plateLead>],
+	[[<ore:plateTin>, <tconstruct:ingots:1>, <ore:plateTin>],
 	 [<tconstruct:ingots:1>, null, <tconstruct:ingots:1>],
-	 [<ore:plateLead>, <tconstruct:ingots:1>, <ore:plateLead>]]);
-recipes.addShaped(<nuclearcraft:bin> * 1,
-	[[<ore:plateLead>, <ore:ingotPlatinum>, <ore:plateLead>],
-	 [<ore:ingotPlatinum>, null, <ore:ingotPlatinum>],
-	 [<ore:plateLead>, <ore:ingotPlatinum>, <ore:plateLead>]]);
+	 [<ore:plateTin>, <tconstruct:ingots:1>, <ore:plateTin>]]);
 
 //## disabled through config:
 //Disabled the abilitiy for nuclearcraft's machines to process ores; see https://git.io/vxQWi for more info
@@ -48,3 +41,26 @@ scripts.functions.rename(<nuclearcraft:ore:3>,"Thorite Ore");
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>);
 recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<ore:mushroomAny>, <ore:mushroomAny>, <natura:nether_glowshroom:*>, <natura:nether_glowshroom:*>]);
 
+// Alternate recipe for copper solenoid that uses nickel instead of iron
+recipes.addShapedMirrored(<nuclearcraft:part:4> * 2,
+    [[<ore:ingotCopper>, <ore:ingotCopper>, null],
+    [<ore:ingotNickel>, <ore:ingotNickel>, null],
+    [<ore:ingotCopper>, <ore:ingotCopper>, null]]);
+	
+// Decay Generator recipe removal
+recipes.remove(<nuclearcraft:decay_generator>);
+
+// Decay Generator: Lead -> Nickel
+recipes.addShaped(<nuclearcraft:decay_generator>, 
+	[[<ore:ingotNickel>, <minecraft:cobblestone>, <ore:ingotNickel>],
+	[<minecraft:cobblestone>, <minecraft:redstone>, <minecraft:cobblestone>], 
+	[<ore:ingotNickel>, <minecraft:cobblestone>, <ore:ingotNickel>]]);
+	
+// Machine Chassis recipe removal
+recipes.remove(<nuclearcraft:part:10>);
+
+// Machine chassis: Lead -> Nickel
+recipes.addShaped(<nuclearcraft:part:10>, 
+	[[<ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotNickel>],
+	[<ore:ingotSteel>, <nuclearcraft:alloy:1>, <ore:ingotSteel>], 
+	[<ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotNickel>]]);

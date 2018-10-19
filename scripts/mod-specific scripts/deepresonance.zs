@@ -11,3 +11,16 @@ mods.tconstruct.Casting.addBasinRecipe(<deepresonance:resonating_ore>, <ore:ston
 //Adds ore dictionary entry to resonating ore:
 val oreResonatingCrystal = <ore:oreResonatingCrystal>;
 oreResonatingCrystal.add(<deepresonance:resonating_crystal>);
+
+// Alternate recipes that use nickel instead of iron
+	// Resonating Machine Frame Nickel recipe
+recipes.addShaped(<deepresonance:machine_frame>,
+    [[<ore:ingotNickel>, <deepresonance:resonating_plate>, <ore:ingotNickel>],
+    [<deepresonance:resonating_plate>, <minecraft:stone>, <deepresonance:resonating_plate>],
+    [<ore:ingotNickel>, <deepresonance:resonating_plate>, <ore:ingotNickel>]]);
+   
+	// Tank (Deep Resonance) Nickel recipe
+recipes.addShaped(<deepresonance:tank>,
+    [[<ore:ingotNickel>, <minecraft:obsidian>, <ore:ingotNickel>],
+    [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+    [<ore:ingotNickel>, <deepresonance:resonating_plate>, <ore:ingotNickel>]]);

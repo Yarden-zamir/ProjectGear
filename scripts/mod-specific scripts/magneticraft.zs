@@ -184,3 +184,28 @@ mods.immersiveengineering.Crusher.addRecipe(<magneticraft:dusts:4> * 2, <magneti
 
 #Renames
 scripts.functions.rename(<magneticraft:light_plates>,"Basic Plate");
+
+// Alternate Small Copper Coil recipe that uses nickel instead of iron
+recipes.addShaped(<magneticraft:crafting:3>,
+    [[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>],
+    [null, <magneticraft:copper_coil>, null],
+    [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]]);
+	
+	
+// Inserter recipe removal
+recipes.remove(<magneticraft:inserter>);
+
+// Inserter: Lead -> Tin
+recipes.addShaped(<magneticraft:inserter>, 
+	[[<minecraft:iron_ingot>, <ore:nuggetIron>, null],
+	[<ore:nuggetIron>, <ore:ingotTin>, <ore:nuggetIron>], 
+	[<magneticraft:light_plates>, <magneticraft:crafting:2>, <magneticraft:light_plates>]]);
+	
+// Motor recipe removal
+recipes.remove(<magneticraft:crafting:2>);
+
+// Motor: Lead -> Tin
+recipes.addShaped(<magneticraft:inserter>, 
+	[[<minecraft:iron_ingot>, <ore:nuggetIron>, null],
+	[<ore:nuggetIron>, <ore:ingotTin>, <ore:nuggetIron>], 
+	[<magneticraft:light_plates>, <magnweticraft:crafting:2>, <magneticraft:light_plates>]]);

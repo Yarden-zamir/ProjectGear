@@ -19,3 +19,6 @@ val woodProgressionArray =[
   <rockhounding_surface:cold_logs:3>
 ] as IItemStack[];
 scripts.functions.addToPureDaisyStages(woodProgressionArray, 60);
+
+// Adds 'sand' tag to Rockhounding's white sand
+<ore:sand>.add(<rockhounding_surface:white_sand>);
