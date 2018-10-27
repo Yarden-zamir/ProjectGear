@@ -1,15 +1,16 @@
 import crafttweaker.item.IItemStack;
-//disable applied energistics disc storage
+
+// disable applied energistics disc storage
 val itemsToDisable =[
   <appliedenergistics2:storage_cell_16k>,
   <appliedenergistics2:storage_cell_64k>,
-  //Note: Disabled to encourage more interesting methods for storing items.
-  //Note: The 4k drives are enabled for performance reasons. Farms that produce large amounts of one item (iron, wheat, bones...) tend to product
-  //a lot of that item, which means if you had to keep dumping them into a storage drawer it would cause a lot of tile entity updates.
+  // Note: Disabled to encourage more interesting methods for storing items.
+  // Note: The 4k drives are enabled for performance reasons. Farms that produce large amounts of one item (iron, wheat, bones...) tend to product
+  // a lot of that item, which means if you had to keep dumping them into a storage drawer it would cause a lot of tile entity updates.
   <appliedenergistics2:molecular_assembler>,
-  //note: Disabled to encourage more interesting crafting setups
+  // note: Disabled to encourage more interesting crafting setups
 ] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable); 
+scripts.functions.disableItems(itemsToDisable);
 
 
 val goldIngot = <ore:ingotGold>;
@@ -19,7 +20,7 @@ val glass = <ore:blockGlass>;
 val tinIngot = <ore:ingotTin>;
 
 
-//Replace iron with osmium
+// Replace iron with tin
 recipes.removeShaped(<appliedenergistics2:material:25>);
 recipes.addShaped(<appliedenergistics2:material:25> * 2,
 	[[goldIngot, tinIngot, null],
@@ -90,16 +91,16 @@ mods.integrateddynamics.Squeezer.addRecipe(<appliedenergistics2:material:8>, <ap
 val EnderPearl = <minecraft:ender_pearl>;
 val EnderDust = <appliedenergistics2:material:46>;
 
-//Crush ender pearls into ender pearl dust
+// Crush ender pearls into ender pearl dust
 mods.immersiveengineering.Crusher.addRecipe(EnderDust, EnderPearl, 2048);
 mods.integrateddynamics.Squeezer.addRecipe(EnderPearl, EnderDust, null);
 mods.factorytech.DrillGrinder.addRecipe(EnderDust, EnderPearl, true);
 
-//Adds ore dictionary name to charged certus quartz ore:
+// Adds ore dictionary name to charged certus quartz ore:
 val oreCertusQuartzCharged = <ore:oreCertusQuartzCharged>;
 oreCertusQuartzCharged.add(<appliedenergistics2:charged_quartz_ore>);
 
-//Alternate recipe that use tin instead of iron
+// Alternate recipe that use tin instead of iron
 	// ME Drive Tin recipe
 recipes.addShaped(<appliedenergistics2:drive>, 
 	[[<ore:ingotTin>, <appliedenergistics2:material:24>, <ore:ingotTin>],

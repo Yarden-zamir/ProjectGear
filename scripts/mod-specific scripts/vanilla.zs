@@ -110,8 +110,8 @@ recipes.removeByRecipeName("natura:common/gunpowder");
 // Furnace: Tall grass -> Dead Grass
 furnace.addRecipe(<minecraft:tallgrass:1>, <traverse:dead_grass>);
 
-//Removes Mekanism paper recipe
-//recipes.removeByRecipeName("mekanism:paper");
+//Removes duplicate sawdust > paper Mekanism paper recipe. 
+recipes.removeByRecipeName("mekanism:paper");
 
 // You can also craft the vanilla dispenser with a piston instead of a bow. The piston conveniently stacks to 64.
 recipes.addShaped(<minecraft:dispenser>,
@@ -120,10 +120,12 @@ recipes.addShaped(<minecraft:dispenser>,
     [<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]]);
 	
 // Alternate recipes that use nickel instead of iron
+
 	// Essentials piston recipe
 recipes.addShaped(<minecraft:piston>,
     [[<ore:cobblestone>, <ore:ingotNickel>],
     [<minecraft:redstone>, <ore:logWood>]]);
+	
 	// Minecraft piston recipe
 recipes.addShaped(<minecraft:piston>,
     [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
