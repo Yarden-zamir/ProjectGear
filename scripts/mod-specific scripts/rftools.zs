@@ -1,34 +1,39 @@
 import crafttweaker.item.IItemStack;
 
 val itemsToDisable =[
+   // Autocrafters
+   // Note: Disabled to encourage more interesting crafting setups
   <rftools:crafter1>,
   <rftools:crafter2>,
   <rftools:crafter3>,
-  //note: Disabled to encourage more interesting crafting setups
+  // Coal generator
+  // Note: Disabled to encourage more interesting power generation
   <rftools:coalgenerator>,
-  //Note: Too easy, too effective, too boring
+  // Quarry cards
+  // Note: Disabled because it's much more powerful than other mining options
+  // Note: The builder can still be used for its other functions, and is still useful for building.
+  // Note: There are still automatic mining options such as excavators, Buildcraft quarry, orechid or Steve's Carts.
   <rftools:shape_card:2>,
   <rftools:shape_card:3>,
   <rftools:shape_card:4>,
   <rftools:shape_card:5>,
   <rftools:shape_card:6>,
   <rftools:shape_card:7>,
-  //Note: Way too powerful compared to other mining options
 
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
-//Resonating Machine Frame
+// Resonating Machine Frame
 recipes.addShaped(<deepresonance:machine_frame>,
 [[<ore:ingotTin>,<deepresonance:resonating_plate>, <ore:ingotTin>],
  [<deepresonance:resonating_plate>,<minecraft:stone>,<deepresonance:resonating_plate>],
  [<ore:ingotTin>,<deepresonance:resonating_plate>, <ore:ingotTin>]]);
 
 
- //Replace iron with tin
- val tinIngot = <ore:ingotTin>;
- val glass = <ore:blockGlass>;
- val redstone = <ore:dustRedstone>;
+// Replace iron with tin in some recipes
+val tinIngot = <ore:ingotTin>;
+val glass = <ore:blockGlass>;
+val redstone = <ore:dustRedstone>;
 
 recipes.removeShaped(<rftools:machine_frame>);
 recipes.addShaped(<rftools:machine_frame>,

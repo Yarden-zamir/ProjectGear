@@ -9,21 +9,21 @@ val itemsToDisable =[
   <thermalfoundation:tool.hammer_steel>,
   <thermalfoundation:tool.hammer_bronze>,
   <thermalfoundation:tool.hammer_electrum>,
-  //note: Disable TF hammers
+  // note: Disable TF hammers
   <thermalfoundation:tool.bow_copper>,
   <thermalfoundation:tool.bow_tin>,
   <thermalfoundation:tool.bow_aluminum>,
   <thermalfoundation:tool.bow_steel>,
   <thermalfoundation:tool.bow_bronze>,
   <thermalfoundation:tool.bow_electrum>,
-  //note: Disable TF bow
+  // note: Disable TF bow
   <thermalfoundation:tool.sickle_copper>,
   <thermalfoundation:tool.sickle_tin>,
   <thermalfoundation:tool.sickle_aluminum>,
   <thermalfoundation:tool.sickle_steel>,
   <thermalfoundation:tool.sickle_bronze>,
   <thermalfoundation:tool.sickle_electrum>,
-  //note: Disable TF sickle
+  // note: Disable TF sickle
   <thermalfoundation:material:864>,
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
@@ -48,7 +48,7 @@ val craftingToDisable =[
   <thermalfoundation:material:290>,
   <thermalfoundation:material:289>,
   <thermalfoundation:material:288>,
-  //Makes gears uncraftable. Machines are required instead.
+  // Makes gears uncraftable. Machines are required instead.
   <thermalfoundation:material:32>,
   <thermalfoundation:material:33>,
   <thermalfoundation:material:327>,
@@ -68,22 +68,22 @@ val craftingToDisable =[
   <thermalfoundation:material:324>,
   <thermalfoundation:material:325>,
   <thermalfoundation:material:326>,
-  //Makes plates uncraftable. Machines are required instead.
+  // Makes plates uncraftable. Machines are required instead.
   <thermalfoundation:material:97>,
   <thermalfoundation:material:98>,
   <thermalfoundation:material:99>,
   <thermalfoundation:material:100>,
-  //Makes electrum, bronze, constantan and invar dust uncraftable
+  // Makes electrum, bronze, constantan and invar dust uncraftable
   <thermalfoundation:material:101>,
   <thermalfoundation:material:102>,
   <thermalfoundation:material:103>
-  //Makes Signalium, Lumium, and Enderium blends uncraftable.
+  // Makes Signalium, Lumium, and Enderium blends uncraftable.
 
 
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 furnace.remove(<thermalfoundation:material:864>);
-//get asthetic ingots through alchemy
+// get asthetic ingots through alchemy
 val ingotProgressionArray =[
   <thermalfoundation:material:130>, //silver
   <thermalfoundation:material:131>, //lead
@@ -264,11 +264,11 @@ mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:640>,
     [<minecraft:redstone>,<minecraft:iron_ingot>,<minecraft:redstone>]],
     <liquid: glass> * 500);
 	
-//Turn logs into sawdust with a hammer or a crusher
+// Turn logs into sawdust with a hammer or a crusher
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:800> * 4, <ore:logWood>, 8000);
 recipes.addShapeless(<thermalfoundation:material:800>, [<immersiveengineering:tool>.transformDamage(), <ore:logWood>]);
 
-//Blazing Pyrotheum recipes
+// Blazing Pyrotheum recipes
 mods.tconstruct.Melting.addRecipe(
   <liquid:pyrotheum>*144, <thermalfoundation:material:1024>
 );
@@ -276,7 +276,7 @@ mods.factorytech.Crucible.addRecipe(
   <liquid:pyrotheum>*144, <thermalfoundation:material:1024>, false
 );
 
-//mess with phyto-gro recipes
+// Make phyto-gro recipes use more unique ingredients
 var fert = <thermalfoundation:fertilizer:1>;
 
 recipes.remove(fert);
@@ -285,7 +285,7 @@ recipes.addShapeless(fert,
 recipes.addShapeless(fert*4,
   [<ore:dustCharcoal>, <ore:itemSlagRich>,<ore:dustSaltpeter>]);
 
-//add things to OreDict
+// add things to OreDict
 <ore:drillheadIron>.add(<thermalfoundation:material:656>);
 
 //Renames
@@ -317,8 +317,8 @@ recipes.addShaped(<thermalfoundation:upgrade:1>,
 	[<ore:ingotElectrum>, <ore:gearNickel>, <ore:ingotElectrum>], 
 	[<ore:blockGlassHardened>, <ore:ingotElectrum>, <ore:blockGlassHardened>]]);
 	
-//Adds complex recipes to hardened glass
-//Credit to πß_off
+// Adds complex recipes to hardened glass
+// Credit to πß_off
 val HardenedBase = <thermalfoundation:glass:3>;
 
 val ObsidianLiquid = <liquid:obsidian>;
@@ -361,73 +361,73 @@ val LumiumHardened = <thermalfoundation:glass_alloy:6>;
 val EnderiumLiquid = <liquid:enderium>;
 val EnderiumHardened = <thermalfoundation:glass_alloy:7>;
 
-//Base Hardened Glass Recipe
+// Base Hardened Glass Recipe
 mods.factorytech.CompressionChamber.addRecipe(HardenedBase * 4, QuartzGlass, ObsidianLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(HardenedBase * 4, QuartzGlass, ObsidianLiquid, 288, true);
 mods.botania.ElvenTrade.addRecipe([HardenedBase * 4], [SoulGlass,Obsidian]);
 mods.immersiveengineering.AlloySmelter.addRecipe(HardenedBase * 4, QuartzGlass, RawHardener, 600);
 mods.immersiveengineering.AlloySmelter.addRecipe(HardenedBase * 4, RawHardener, QuartzGlass, 600);
 
-//Copper Recipes
+// Copper Recipes
 mods.factorytech.CompressionChamber.addRecipe(CopperHardened, HardenedBase, CopperLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(CopperHardened, HardenedBase, CopperLiquid, 144, true);
 
-//Tin Recipes
+// Tin Recipes
 mods.factorytech.CompressionChamber.addRecipe(TinHardened, HardenedBase, TinLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(TinHardened, HardenedBase, TinLiquid, 144, true);
 
-//Silver Recipes
+// Silver Recipes
 mods.factorytech.CompressionChamber.addRecipe(SilverHardened, HardenedBase, SilverLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(SilverHardened, HardenedBase, SilverLiquid, 144, true);
 
-//Aluminum Recipes
+// Aluminum Recipes
 mods.factorytech.CompressionChamber.addRecipe(AluminumHardened, HardenedBase, AluminumLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(AluminumHardened, HardenedBase, AluminumLiquid, 144, true);
 
-//Nickel Recipes
+// Nickel Recipes
 mods.factorytech.CompressionChamber.addRecipe(NickelHardened, HardenedBase, NickelLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(NickelHardened, HardenedBase, NickelLiquid, 144, true);
 
-//Platinum Recipes
+// Platinum Recipes
 mods.factorytech.CompressionChamber.addRecipe(PlatinumHardened, HardenedBase, PlatinumLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(PlatinumHardened, HardenedBase, PlatinumLiquid, 144, true);
 
-//Iridium Recipes
+// Iridium Recipes
 mods.factorytech.CompressionChamber.addRecipe(IridiumHardened, HardenedBase, IridiumLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(IridiumHardened, HardenedBase, IridiumLiquid, 144, true);
 
-//Mana Recipes
+// Mana Recipes
 mods.factorytech.CompressionChamber.addRecipe(ManaHardened, HardenedBase, ManaLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(ManaHardened, HardenedBase, ManaLiquid, 144, true);
 
-//Steel Recipes
+// Steel Recipes
 mods.factorytech.CompressionChamber.addRecipe(SteelHardened, HardenedBase, SteelLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(SteelHardened, HardenedBase, SteelLiquid, 144, true);
 
-//Electrum Recipes
+// Electrum Recipes
 mods.factorytech.CompressionChamber.addRecipe(ElectrumHardened, HardenedBase, ElectrumLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(ElectrumHardened, HardenedBase, ElectrumLiquid, 144, true);
 
-//Invar Recipes
+// Invar Recipes
 mods.factorytech.CompressionChamber.addRecipe(InvarHardened, HardenedBase, InvarLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(InvarHardened, HardenedBase, InvarLiquid, 144, true);
 
-//Bronze Recipes
+// Bronze Recipes
 mods.factorytech.CompressionChamber.addRecipe(BronzeHardened, HardenedBase, BronzeLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(BronzeHardened, HardenedBase, BronzeLiquid, 144, true);
 
-//Constantan Recipes
+// Constantan Recipes
 mods.factorytech.CompressionChamber.addRecipe(ConstantanHardened, HardenedBase, ConstantanLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(ConstantanHardened, HardenedBase, ConstantanLiquid, 144, true);
 
-//Signalum Recipes
+// Signalum Recipes
 mods.factorytech.CompressionChamber.addRecipe(SignalumHardened, HardenedBase, SignalumLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(SignalumHardened, HardenedBase, SignalumLiquid, 144, true);
 
-//Lumium Recipes
+// Lumium Recipes
 mods.factorytech.CompressionChamber.addRecipe(LumiumHardened, HardenedBase, LumiumLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(LumiumHardened, HardenedBase, LumiumLiquid, 144, true);
 
-//Enderium Recipes
+// Enderium Recipes
 mods.factorytech.CompressionChamber.addRecipe(EnderiumHardened, HardenedBase, EnderiumLiquid * 144);
 mods.tconstruct.Casting.addBasinRecipe(EnderiumHardened, HardenedBase, EnderiumLiquid, 144, true);

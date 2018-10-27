@@ -19,13 +19,13 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
-//Fixed recipe conflict
+// Fixed recipe conflict
 recipes.removeShaped(<rustic:slate_roof>);
 recipes.addShaped(<rustic:slate_roof>,
 	[[<rustic:slate_brick>, <rustic:slate_brick>],
 	 [<rustic:slate_brick>, <rustic:slate_brick>]]);
 
-//Fix recipe conflict with Quark's stained planks
+// Fix recipe conflict with Quark's stained planks
 
 val treatedWood = <immersiveengineering:treated_wood>;
 val livingWood = <botania:livingwood:1>;
@@ -47,6 +47,7 @@ recipes.removeShaped(<rustic:painted_wood_green>);
 recipes.removeShaped(<rustic:painted_wood_red>);
 recipes.removeShaped(<rustic:painted_wood_black>);
 
+  //Craft with treated wood
 recipes.addShaped(<rustic:painted_wood_white> * 8,
 	[[treatedWood, treatedWood, treatedWood],
 	 [treatedWood, <ore:dyeWhite>, treatedWood],
@@ -127,7 +128,7 @@ recipes.addShaped(<rustic:painted_wood_black>* 8,
 	 [treatedWood, <ore:dyeBlack>, treatedWood],
 	 [treatedWood, treatedWood, treatedWood]]);
 	 
-	 //Craft with livingwood
+	 // Craft with livingwood
 	 
 recipes.addShaped(<rustic:painted_wood_white>* 8,
 	[[livingWood, livingWood, livingWood],

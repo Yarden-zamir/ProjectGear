@@ -8,39 +8,39 @@ mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearSton
 
 #Script by DolphinBlaster
 // Metal Press: Ingot -> Tinkers' Tool Rod
-// Iron
+	// Iron
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "iron"}), <minecraft:iron_ingot>, <immersiveengineering:mold:2>, 2048);
-// Manasteel
+	// Manasteel
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "manasteel"}), <botania:manaresource>, <immersiveengineering:mold:2>, 2048);
-// Terrasteel
+	// Terrasteel
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "terrasteel"}), <botania:manaresource:4>, <immersiveengineering:mold:2>, 2048);
-// Elementium
+	// Elementium
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "elementium"}), <botania:manaresource:7>, <immersiveengineering:mold:2>, 2048);
-// Cobalt
+	// Cobalt
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "cobalt"}), <tconstruct:ingots>, <immersiveengineering:mold:2>, 2048);
-// Ardite
+	// Ardite
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "ardite"}), <tconstruct:ingots:1>, <immersiveengineering:mold:2>, 2048);
-// Manyullyn
+	// Manyullyn
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "manyullyn"}), <tconstruct:ingots:2>, <immersiveengineering:mold:2>, 2048);
-// Copper
+	// Copper
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "copper"}), <ore:ingotCopper>, <immersiveengineering:mold:2>, 2048);
-// Tin
+	// Tin
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "tin"}), <ore:ingotTin>, <immersiveengineering:mold:2>, 2048);
-// Nickel
+	// Nickel
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "nickel"}), <ore:ingotNickel>, <immersiveengineering:mold:2>, 2048);
-// Steel
+	// Steel
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "steel"}), <ore:ingotSteel>, <immersiveengineering:mold:2>, 2048);
-// Electrum
+	// Electrum
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "electrum"}), <ore:ingotElectrum>, <immersiveengineering:mold:2>, 2048);
-// Invar
+	// Invar
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "invar"}), <ore:ingotInvar>, <immersiveengineering:mold:2>, 2048);
-// Bronze
+	// Bronze
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "bronze"}), <ore:ingotBronze>, <immersiveengineering:mold:2>, 2048);
-// Constantan
+	// Constantan
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "signalum"}), <ore:ingotSignalum>, <immersiveengineering:mold:2>, 2048);
-// Lumium
+	// Lumium
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "lumium"}), <ore:ingotLumium>, <immersiveengineering:mold:2>, 2048);
-// Enderium
+	// Enderium
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:tool_rod>.withTag({Material: "enderium"}), <ore:ingotEnderium>, <immersiveengineering:mold:2>, 2048);
 
 #Script by Dylan
@@ -51,6 +51,7 @@ recipes.addShapeless(<tconstruct:tool_rod>.withTag({Material: "steel"}), [<immer
 
 	 
 #Script by Dr.Marx
+// Craft plate molds using Project Red stone plates
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <projectred-core:resource_item>, <liquid:gold>, 228, true, 60);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <projectred-core:resource_item>, <liquid:alubrass>, 228, true, 60);
 
@@ -58,19 +59,19 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
-//new electrum recipe
+// new electrum recipe
 mods.tconstruct.Alloy.removeRecipe(<liquid:electrum>);
 mods.tconstruct.Alloy.addRecipe(<liquid:electrum> * 2, [<liquid:gold> * 1, <liquid:copper> * 1]);
 
-//Make necrotic bones in a coke oven
-//Note: These no longer drop from wither skeletons
+// Make necrotic bones in a coke oven
+// Note: These no longer drop from wither skeletons
 mods.immersiveengineering.CokeOven.addRecipe(<tconstruct:materials:17>, 2, <minecraft:bone>, 200);
 
-//Pyrotheum + Plank to Lavawood
+// Pyrotheum + Plank to Lavawood
 mods.tconstruct.Casting.addBasinRecipe(<tconstruct:firewood:0>, <ore:plankWood>, <liquid:pyrotheum>, 9, true, 100);
 
 
-//Make aluminum brass an alloy of gold and copper. Rename it to gold brass.
+// Make aluminum brass an alloy of gold and copper. Rename it to gold brass.
 	// localizations
 game.setLocalization("tile.tconstruct.metal.alubrass.name","Gold Brass Block");
 game.setLocalization("item.tconstruct.ingots.alubrass.name","Gold Brass Ingot");

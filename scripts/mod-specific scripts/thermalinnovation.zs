@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-//adding oredict
+// adding oredict
 <ore:magnet>.add(<thermalinnovation:magnet>);
 
 #Scripts by DolphinBlaster:
@@ -139,7 +139,7 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
-//Remove original recipes:
+// Remove original recipes:
 
 recipes.remove(<thermalinnovation:saw:1>);
 recipes.remove(<thermalinnovation:drill:1>);
@@ -147,7 +147,7 @@ recipes.remove(<thermalinnovation:quiver:1>);
 recipes.remove(<thermalinnovation:injector:1>);
 recipes.remove(<thermalinnovation:magnet:1>);
 
-//Steel:
+// Steel:
 	
 	// Fluxbore (Hardened) steel recipe
 recipes.addShaped(<thermalinnovation:drill:1>,
@@ -180,7 +180,7 @@ recipes.addShaped(<thermalinnovation:saw:1>,
     [nuggetEnderium, toolCasing, nuggetEnderium],
     [null, woodenGrip, nuggetEnderium]]);
    
-//Invar:
+// Invar:
 	// Fluxbore (Hardened) invar recipe
 recipes.addShaped(<thermalinnovation:drill:1>,
     [[<thermalfoundation:material:656>, nuggetInvar, null],

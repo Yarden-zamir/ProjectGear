@@ -1,8 +1,8 @@
 import crafttweaker.item.IItemStack;
 
-//Credit to xDorito for making this script
+// Credit to xDorito for making this script
 
-//Compression Chamber
+// Compression Chamber
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:0>, <minecraft:bone> * 5, null);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:2>, <minecraft:spider_eye> * 5, <liquid:blood> * 1000);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:12>, <minecraft:shulker_shell> * 5, <liquid:water_black> * 5000);
@@ -13,7 +13,7 @@ mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:4>, <tc
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:4>, <tconstruct:edible:32>, <fluid:glass> * 1000);
 mods.factorytech.CompressionChamber.addRecipe(<xreliquary:mob_ingredient:4>, <tconstruct:edible:34>, <fluid:glass> * 1000);
  
-//pressure chamber
+// Pressure Chamber
 mods.pneumaticcraft.pressurechamber.addRecipe([<minecraft:bone> * 5], 2.0, [<xreliquary:mob_ingredient:0>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<minecraft:spider_eye> * 5], 2.0, [<xreliquary:mob_ingredient:2>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<tconstruct:edible:30>, <tconstruct:materials:9>], 2.0, [<xreliquary:mob_ingredient:4>]);
@@ -26,8 +26,9 @@ mods.pneumaticcraft.pressurechamber.addRecipe([<botania:blazeblock>, <tconstruct
 mods.pneumaticcraft.pressurechamber.addRecipe([<quark:biotite> * 5, <minecraft:chorus_fruit_popped>], 2.0, [<xreliquary:mob_ingredient:11>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<minecraft:dye:0>, <minecraft:shulker_shell>* 5], 2.0, [<xreliquary:mob_ingredient:12>]);
  
- 
-//coke oven
+
+// Makes mob drops craftable. They are no longer mob drops, which means less random junk in your inventory.
+// Coke Oven
 mods.immersiveengineering.CokeOven.addRecipe(<xreliquary:mob_ingredient:1>, 0, <xreliquary:mob_ingredient:0>, 1000);
  
 //tinkers construct casting table
@@ -39,7 +40,7 @@ mods.tconstruct.Casting.addTableRecipe(<xreliquary:mob_ingredient:10>, <minecraf
 
 //mods.tconstruct.Casting.addTableRecipe(<minecraft:gold_ingot>, <minecraft:iron_ingot>, <liquid:molten_gold>, 30, true, 200);
  
-//forestry Carpenter
+// Forestry Carpenter
 mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:5>, [[<contenttweaker:oiled_leather>, <tconstruct:materials:17>]], 30, <liquid:blood> * 1000);
 mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:6>, [[<tconstruct:edible:33>, <minecraft:rotten_flesh> * 8]], 30, <liquid:blood> * 1000);
 mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:7>, [[<tconstruct:edible:34> * 4, <botania:blazeblock>]], 30, <liquid:lava> * 1000);

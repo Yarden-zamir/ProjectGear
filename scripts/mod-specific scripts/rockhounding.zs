@@ -1,5 +1,5 @@
 import crafttweaker.item.IItemStack;
-//Use pure daisy to get bog oak:
+// Use pure daisy to get bog oak:
 val woodProgressionArray =[
   <immersiveengineering:treated_wood>,
   <rockhounding_surface:bog_logs:0>,

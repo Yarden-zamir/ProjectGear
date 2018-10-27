@@ -3,16 +3,20 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 
-//Disable Mekanism machines
 
+// Disable Magneticraft machines
 val itemsToDisable =[
+  // Tank
+  // Note: We have plenty of options
   <magneticraft:small_tank>,
+  // Water generator
+  // Note: Water is designed to be a small challenge in this pack. Water is finite outside of wet biomes like oceans, rivers and swamps.
   <magneticraft:water_generator>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
 // plates
-
+// Note: Replaces Magneticraft's light and heavy plates with Thermal Foundation plates
 recipes.replaceAllOccurences(<magneticraft:light_plates>, <ore:plateIron>);
 recipes.replaceAllOccurences(<magneticraft:light_plates:1>, <ore:plateGold>);
 recipes.replaceAllOccurences(<magneticraft:light_plates:2>, <ore:plateCopper>);
@@ -23,8 +27,11 @@ recipes.replaceAllOccurences(<magneticraft:heavy_plates:1>, <ore:plateGold>);
 recipes.replaceAllOccurences(<magneticraft:heavy_plates:2>, <ore:plateCopper>);
 recipes.replaceAllOccurences(<magneticraft:heavy_plates:6>, <ore:plateSteel>);
 
+	// Note: Replaced tungsten plates with nickel plates. Tungsten doesn't exist in this pack.
 recipes.replaceAllOccurences(<ore:lightPlateTungsten>, <ore:plateNickel>);
+	// Note: Replaces lead plates with tin plates. Lead doesn't exist in this pack.
 recipes.replaceAllOccurences(<ore:lightPlateLead>, <ore:plateTin>);
+	// Note: Replaced tungsten ingots with nickel ingots. Tungsten doesn't exist in this pack.
 recipes.replaceAllOccurences(<magneticraft:ingots:5>, <ore:ingotNickel>);
 
 //Electric heater
@@ -168,18 +175,18 @@ recipes.addShapedMirrored(<magneticraft:connector> * 2,
     [<ore:stone>, <ore:ingotCopper>, <ore:stone>]]);
 	
 #Script by Dr.Marx
-//Crush ore chunks in Immersive Engineering crusher to get more secondary byproducts
-//Copper
+// Crush ore chunks in Immersive Engineering crusher to get more secondary byproducts
+	// Copper
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:64> * 2, <magneticraft:chunks:2>, 8000, <thermalfoundation:material:1>, 0.15);
-//Tin
+	// Tin
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:65> * 2, <magneticraft:chunks:13>, 8000, <thermalfoundation:material>, 0.25);
-//Iron
+	// Iron
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material> * 2, <magneticraft:chunks>, 8000, <thermalfoundation:material:69>, 0.25);
-//Gold
+	// Gold
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 2, <magneticraft:chunks:1>, 8000, <thermalfoundation:material:64>, 0.25);
-//Nickel
+	// Nickel
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:69> * 2, <magneticraft:chunks:10>, 8000, <thermalfoundation:material>, 0.25);
-//Cobalt
+	// Cobalt
 mods.immersiveengineering.Crusher.addRecipe(<magneticraft:dusts:4> * 2, <magneticraft:chunks:4>, 8000, <tconstruct:nuggets:1>*9, 0.25);
 
 #Renames

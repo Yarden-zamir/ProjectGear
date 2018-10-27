@@ -28,16 +28,17 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<quark:crystal:6> * 4, <ther
 mods.immersiveengineering.BottlingMachine.addRecipe(<quark:crystal:7> * 4, <thermalfoundation:glass:3>, <liquid:water_magenta> * 1000);
 
 
-//Remove bark recipe
+// Remove bark recipe
 recipes.removeShaped(<quark:bark:0>);
 recipes.removeShaped(<quark:bark:1>);
 recipes.removeShaped(<quark:bark:2>);
 recipes.removeShaped(<quark:bark:3>);
 recipes.removeShaped(<quark:bark:4>);
 recipes.removeShaped(<quark:bark:5>);
+// Note: Barkifier lets you make bark blocks from any log
 
 
-//Craft wither ash from a necrotic bone
+// Craft wither ash from a necrotic bone
 recipes.addShapeless(<quark:black_ash> * 5,[<tconstruct:materials:17>]);
 
 // Earthworks Chalk -> Quark Marble

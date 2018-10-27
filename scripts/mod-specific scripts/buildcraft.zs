@@ -16,8 +16,8 @@ recipes.addShaped("gear_shaped_diamond_gear", <buildcraftcore:gear_diamond>,
     [<ore:gemDiamond>, <ore:gearWood>, <ore:gemDiamond>],
     [null, <ore:gemDiamond>, null]]);
 
-//Manual auto workbench disabled through the configs
-//The laser powered workbench is still enabled
+// Manual auto workbench disabled through the configs
+// The laser powered workbench is still enabled
 
 // You can also craft the mining well with an iron pickaxe head instead of an iron pickaxe. The head conveniently stacks to 64.
 recipes.addShaped(<buildcraftfactory:mining_well>,

@@ -1,9 +1,9 @@
 import crafttweaker.item.IItemStack;
 
 val itemsToDisable =[
-  <randomthings:pitcherplant>,          //Pitcher Plant: Gives easy infinite water
-  <randomthings:enderbridge>,           //Ender bridge: Makes long range item transport too easy
-  <randomthings:prismarineenderbridge>, //Prismarine ender bridge: See above
+  <randomthings:pitcherplant>,          // Pitcher Plant: Gives easy infinite water
+  <randomthings:enderbridge>,           // Ender bridge: Makes long range item transport too easy
+  <randomthings:prismarineenderbridge>, // Prismarine ender bridge: See above
   <randomthings:spectrecoil_normal>,    // Spectre Coil: Allows teleportation of energy
   <randomthings:spectrecoil_redstone>,  // Redstone Spectre Coil: Allows teleportation of energy
   <randomthings:spectrecoil_ender>,     // Ender Spectre Coil: Allows teleportation of energy

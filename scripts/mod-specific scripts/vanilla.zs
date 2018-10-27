@@ -21,7 +21,7 @@ val customLoot = dungeon.addPool("customLoot", 1, 1, 1, 1);
 
 var dungeonPool1 = dungeon.getPool("pool1");
 dungeonPool1.addItemEntryHelper(<minecraft:redstone_block>, 20, 1, [Functions.setCount(2, 5)], []);
-///////////
+
 ////recipes
 
 #Script by JoJo Reference
@@ -37,57 +37,56 @@ mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, null, <liquid:en
 val tinIngot = <ore:ingotTin>;
 val steelIngot = <ore:ingotSteel>;
 
-  //Bucket
+  // Bucket
 recipes.addShaped(<minecraft:bucket>,
 [[tinIngot, null, tinIngot],
  [null, tinIngot, null]]);
 
- //Piston
+ // Piston
 recipes.addShaped(<minecraft:piston>,
  [[<ore:plankWood>,         <ore:plankWood>,     <ore:plankWood>],
   [<minecraft:cobblestone>, tinIngot, <minecraft:cobblestone>],
   [<minecraft:cobblestone>, <ore:dustRedstone>, <minecraft:cobblestone>]]);
 
-  //Rails
+  // Rails
 recipes.addShaped(<minecraft:rail> * 24,
 [[steelIngot, null, steelIngot],
  [steelIngot, <immersiveengineering:material:0>, steelIngot],
  [steelIngot, null, steelIngot]]);
 
-  //chest
+  // chest
 recipes.addShapeless(<minecraft:chest>, [<ore:chestWood>]);
 
-  //Convenient paper recipe:
+  // Convenient paper recipe:
 recipes.addShapeless(<minecraft:paper> * 2, [<minecraft:book>]);
 recipes.addShapeless(<minecraft:paper> * 3, [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]);
 
-  //Shulker shell
+  // Shulker shell
  recipes.addShapeless(<minecraft:shulker_shell>, [<projectred-core:resource_item>, <minecraft:dye:5>]);
 
-  //Craft end rod with manyullyn
+  // Craft end rod with manyullyn
 recipes.addShaped(<minecraft:end_rod>,
 	[[<minecraft:blaze_rod>],
 	 [<ore:ingotManyullyn>]]);
 
-  //Craft sponge:
-	//Sawdust + slime
+  // Craft sponge:
+	 // Sawdust + slime
 recipes.addShaped(<minecraft:sponge:1>,
 	[[<ore:dustWood>, <ore:slimeball>, <ore:dustWood>],
 	 [<ore:slimeball>, <ore:dustWood>, <ore:slimeball>],
 	 [<ore:dustWood>, <ore:slimeball>, <ore:dustWood>]]);
-	//Hemp + slime
+	 // Hemp + slime
 recipes.addShaped(<minecraft:sponge:1>,
 	[[<immersiveengineering:material:4>, <ore:slimeball>, <immersiveengineering:material:4>],
 	 [<ore:slimeball>, <immersiveengineering:material:4>, <ore:slimeball>],
 	 [<immersiveengineering:material:4>, <ore:slimeball>, <immersiveengineering:material:4>]]);
-	 
-  //Craft torches with tallow:
+     // Craft torches with tallow:
 recipes.addShaped(<minecraft:torch> * 8,
 	[[<quark:tallow>],
 	 [<ore:stickWood>]]);
 
 #recipe removal
-//roten flesh -> leather
+// roten flesh -> leather
 recipes.removeShaped(<minecraft:leather>);
 mods.integrateddynamics.DryingBasin.removeRecipesWithOutput(<minecraft:leather>);
 
@@ -101,8 +100,8 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 4, 
 // Crusher: Enchanted Gold Apple -> 36 Gold Dust
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 36, <minecraft:golden_apple:1>, 2048);
 
-//Remove some of the gunpowder recipes
-//Note: It's still craftable
+// Remove some of the gunpowder recipes
+// Note: It's still craftable
 recipes.removeByRecipeName("immersiveengineering:material/gunpowder0");
 recipes.removeByRecipeName("immersiveengineering:material/gunpowder1");
 recipes.removeByRecipeName("natura:common/gunpowder");

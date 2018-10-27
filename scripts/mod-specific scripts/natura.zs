@@ -109,7 +109,7 @@ recipes.addShaped(<natura:ghostwood_bow>,
 [<natura:materials:7>, <natura:nether_planks>, null]]);
 
 #Script by AtomBlade
-//140. Craft flamestring
+// Makes flamestring craftable:
 recipes.addShapeless(<natura:materials:7> * 1, [<ore:string>,<ore:cropNetherWart>,<ore:dustBlaze>]);
 
 recipes.removeShapeless(<natura:materials:2>);

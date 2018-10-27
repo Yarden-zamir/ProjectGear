@@ -8,7 +8,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<deepresonance:resonating_plate> 
 
 mods.tconstruct.Casting.addBasinRecipe(<deepresonance:resonating_ore>, <ore:stone>, <liquid:redstone>, 250, true);
 
-//Adds ore dictionary entry to resonating ore:
+// Adds ore dictionary entry to resonating ore:
 val oreResonatingCrystal = <ore:oreResonatingCrystal>;
 oreResonatingCrystal.add(<deepresonance:resonating_crystal>);
 

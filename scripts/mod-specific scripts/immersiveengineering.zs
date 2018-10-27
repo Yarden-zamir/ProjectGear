@@ -7,8 +7,8 @@ val itemsToDisable =[
   //note: Disabled to encourage more complex farms
 ] as IItemStack[];
 
-//Script by DolphinBlaster
-//Makes Immersive Engineering relays and wire connectors require Magneticraft wire connectors. These must be made in the Thermionic Fabricator.
+// Script by DolphinBlaster
+// Makes Immersive Engineering relays and wire connectors require Magneticraft wire connectors. These must be made in the Thermionic Fabricator.
 
 // MV Wire Connector recipe removal
 recipes.remove(<immersiveengineering:connector:2>);
@@ -28,10 +28,10 @@ recipes.addShapedMirrored(<immersiveengineering:connector:3> * 8,
     [null, <magneticraft:connector>, null],
     [<minecraft:hardened_clay>, <minecraft:iron_ingot>, <minecraft:hardened_clay>]]);
 	
-//Removing Industrial Squeezer Leather Recipe
+// Removing Industrial Squeezer Leather Recipe
 mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>);
 
-//Change aluminum wire to tin wire
+// Change aluminum wire to tin wire
 <immersiveengineering:material:22>.displayName = "Tin Wire";
 recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateTin>, <minecraft:shears:*>.transformDamage()]);
 recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateTin>, <immersiveengineering:tool:1>]);
@@ -88,21 +88,21 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 2, 
  val steelRod = <tconstruct:tool_rod>.withTag({Material: "steel"});
  
  
-  //Steel Fence Gate
+	// Steel Fence Gate
 recipes.removeShaped(<engineersdoors:fencegate_steel>);
 recipes.addShaped(<engineersdoors:fencegate_steel> * 2,
     [[null, null, null],
      [steelRod, <thermalfoundation:material:160> , steelRod ],
      [steelRod, <thermalfoundation:material:160> , steelRod ]]);
      
-  //Steel Fence
+	// Steel Fence
 recipes.removeShaped(<immersiveengineering:metal_decoration1>);
 recipes.addShaped(<immersiveengineering:metal_decoration1> * 6,
     [[null, null, null],
      [<thermalfoundation:material:160>, steelRod , <thermalfoundation:material:160>],
      [<thermalfoundation:material:160>, steelRod , <thermalfoundation:material:160>]]);
      
-  //Steel Scaffolding  
+	// Steel Scaffolding  
 recipes.removeShaped(<immersiveengineering:metal_decoration1:1>);
 recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 12,
     [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],
@@ -110,7 +110,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 12,
      [steelRod, null, steelRod]]);
 	
 
-// amplifier electron tube
+	// amplifier electron tube
 recipes.removeByRecipeName("immersiveengineering:toolupgrades/revolver_electro");
 recipes.addShaped("gear_shaped_amplifierElectronTube", <immersiveengineering:toolupgrade:6>,
     [[<ore:electronTube>, <ore:electronTube>, <ore:electronTube>],
@@ -118,7 +118,7 @@ recipes.addShaped("gear_shaped_amplifierElectronTube", <immersiveengineering:too
 	
 
  
-// steel wallmount
+	// steel wallmount
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/steel_wallmount");
 recipes.addShaped("gear_shaped_steelWallMount", <immersiveengineering:metal_decoration2:1> * 4,
     [[<ore:ingotSteel>, <ore:ingotSteel>],
@@ -126,20 +126,20 @@ recipes.addShaped("gear_shaped_steelWallMount", <immersiveengineering:metal_deco
 	
 
  
-// ladder
+	// ladder
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/ladder");
 recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:metal_ladder>*6,
     [[steelRod, null, steelRod],
     [steelRod, steelRod, steelRod],
     [steelRod, null, steelRod]]);
  
-// steel wallmount
+	// steel wallmount
 recipes.removeByRecipeName("immersiveengineering:connectors/connector_structural");
 recipes.addShaped("gear_shaped_tool_rod_steel_connector", <immersiveengineering:connector:6>*9,
     [[<ore:ingotSteel>, steelRod, <ore:ingotSteel>],
     [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
  
-// strip curtain
+	// strip curtain
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/ladder");
 recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:metal_ladder>*6,
     [[steelRod, null, steelRod],
@@ -153,10 +153,9 @@ val hammer = <immersiveengineering:tool>.withTag({multiblockInterdiction: ["IE:L
 
 recipes.addShaped(hammer, [[null, <ore:ingotIron>, <ore:string>], [null, <ore:stickWood>, <ore:ingotIron>], [<ore:stickWood>, null, null]]);
 
-scripts.functions.disableItems(itemsToDisable);
-//
+
+
 scripts.functions.applyOreDict(<immersiveengineering:material:18>,<ore:dustGraphite>,true);
-//
 
 val ironIngot = <ore:ingotIron>;
 val goldIngot = <ore:ingotGold>;
@@ -178,7 +177,7 @@ val goldDust = <ore:dustGold>;
 val tinNugget = <thermalfoundation:material:193>;
 val glass = <ore:blockGlass>;
 
-//Immersive Engineering capacitors
+// Capacitors
 recipes.removeShaped(<immersiveengineering:metal_device0:0>);
 recipes.addShaped(<immersiveengineering:metal_device0:0>,
 [[ironIngot, ironIngot, ironIngot],
@@ -197,33 +196,33 @@ recipes.addShaped(<immersiveengineering:metal_device0:2>,
  [nickelIngot, <ore:blockGold>, nickelIngot],
  [treatedWood, redstoneBlock, treatedWood]]);
 
-//Conveyor belt
+// Conveyor belt
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8,
 [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
  [nickelIngot, <minecraft:redstone>, nickelIngot]]);
 
-//
+// 
 recipes.addShaped(<immersiveengineering:metal_decoration0:4> * 2,
 [[nickelIngot, <immersiveengineering:material:8>, nickelIngot],
  [copperIngot, copperIngot, copperIngot],
  [nickelIngot, <immersiveengineering:material:8>, nickelIngot]]);
 
 
- //Electrum -> Corinthian Bronze
+ // Electrum -> Corinthian Bronze
 
-	//Crafting electrum grit
+	// Crafting electrum grit
 recipes.removeShapeless(<immersiveengineering:metal:16>);
 recipes.addShapeless(<immersiveengineering:metal:16> * 2,
 	[<ore:dustGold>, <ore:dustCopper>]);
 
-	//Alloy smelter
+	// Alloy smelter
 mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:7>);
 mods.immersiveengineering.AlloySmelter.addRecipe(<immersiveengineering:metal:7>, goldIngot, copperIngot, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<immersiveengineering:metal:7>, goldDust, copperDust, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<immersiveengineering:metal:7>, goldIngot, copperDust, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<immersiveengineering:metal:7>, goldDust, copperIngot, 200);
 
-	//Arc furnace
+	// Arc furnace
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:7>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:7>, copperIngot, null, 100, 512, [goldIngot]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:7>, copperDust, null, 100, 512, [goldDust]);
@@ -233,7 +232,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:7>, c
 #renames:
 scripts.functions.rename(<immersiveengineering:ore:5>,"Uraninite Ore");
 
-//Excavator
+// Excavator
 
 mods.immersiveengineering.Excavator.removeMineral("Bauxite");
 mods.immersiveengineering.Excavator.removeMineral("Galena");

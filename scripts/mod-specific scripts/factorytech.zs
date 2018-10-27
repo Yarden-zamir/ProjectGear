@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-//Script by DolphinBlaster
+// Script by DolphinBlaster
 var ingotCupronickel = <factorytech:ingot:2>;
 var dustCupronickel = <factorytech:ore_dust:10>;
 var blockCupronickel = <factorytech:oreblock:2>;
