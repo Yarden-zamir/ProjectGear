@@ -2,6 +2,23 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 val itemsToDisable =[
+  // Note: Disables Steve's Carts crop/wood farms, as well as the wood cutting core and planter range extended (now useless)
+  // note: Disabled to encourage more complex farms
+  <stevescarts:modulecomponents:17>,
+  <stevescarts:cartmodule:15>,
+  <stevescarts:cartmodule:79>,
+  <stevescarts:cartmodule:80>,
+  <stevescarts:cartmodule:14>,
+  <stevescarts:cartmodule:84>,
+  <stevescarts:cartmodule:89>,
+  // Autocrafting modules
+  // Note: Disables autocrafters. Use Buildcraft, Factory Tech or Charset for that.
+  <stevescarts:cartmodule:87>,
+  <stevescarts:cartmodule:92>,
+] as IItemStack[];
+scripts.functions.disableItems(itemsToDisable);
+
+val craftingToDisable =[
   <stevescarts:modulecomponents:17>,
   <stevescarts:cartmodule:15>,
   <stevescarts:cartmodule:79>,
@@ -10,12 +27,11 @@ val itemsToDisable =[
   <stevescarts:cartmodule:84>,
   <stevescarts:cartmodule:89>,
   // Note: Disables Steve's Carts crop/wood farms, as well as the wood cutting core and planter range extended (now useless)
-  // note: Disabled to encourage more complex farms
   <stevescarts:cartmodule:87>,
   <stevescarts:cartmodule:92>,
   // Note: Disables autocrafters. Use Buildcraft, Factory Tech or Charset for that.
 ] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);
+scripts.functions.disableCraftings(craftingToDisable);
 
 	// Alternative lump of galgador recipe using ardite instead of diamond
 recipes.addShaped(<stevescarts:modulecomponents:46> * 2,

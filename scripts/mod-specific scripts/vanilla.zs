@@ -6,9 +6,7 @@ import loottweaker.vanilla.loot.Functions;
 import crafttweaker.item.IItemStack;
 #priority 80
 
-val itemsToDisable =[
-] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);
+
 
 ////dungeon loot
 val dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");

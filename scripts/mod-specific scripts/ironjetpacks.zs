@@ -2,30 +2,61 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+// Hides items from JEI
 val itemsToDisable =[
-	// Disables coils - unneeded crafting component
-	<ironjetpacks:basic_coil>,
-	<ironjetpacks:advanced_coil>,
-	// Disables cells - unneeded crafting component
-	<ironjetpacks:survivalist_cell>,
-	<ironjetpacks:basic_cell>,
-	<ironjetpacks:architect_cell>,
-	<ironjetpacks:cloudrider_cell>,
-	<ironjetpacks:explorer_cell>,
-	// Disables thrusters - unneeded crafting component
-	<ironjetpacks:survivalist_thruster>,
-	<ironjetpacks:basic_thruster>,
-	<ironjetpacks:architect_thruster>,
-	<ironjetpacks:cloudrider_thruster>,
-	<ironjetpacks:explorer_thruster>,
-	// Disables capacitors - unneeded crafting component
-	<ironjetpacks:survivalist_capacitor>,
-	<ironjetpacks:basic_capacitor>,
-	<ironjetpacks:architect_capacitor>,
-	<ironjetpacks:cloudrider_capacitor>,
-	<ironjetpacks:explorer_capacitor>
+  // Coils
+  // Unneeded crafting component
+  <ironjetpacks:basic_coil>,
+  <ironjetpacks:advanced_coil>,
+  // Cells
+  // Unneeded crafting component
+  <ironjetpacks:survivalist_cell>,
+  <ironjetpacks:basic_cell>,
+  <ironjetpacks:architect_cell>,
+  <ironjetpacks:cloudrider_cell>,
+  <ironjetpacks:explorer_cell>,
+  // Thrusters
+  // Unneeded crafting component
+  <ironjetpacks:survivalist_thruster>,
+  <ironjetpacks:basic_thruster>,
+  <ironjetpacks:architect_thruster>,
+  <ironjetpacks:cloudrider_thruster>,
+  <ironjetpacks:explorer_thruster>,
+  // Capacitors
+  // Unneeded crafting component
+  <ironjetpacks:survivalist_capacitor>,
+  <ironjetpacks:basic_capacitor>,
+  <ironjetpacks:architect_capacitor>,
+  <ironjetpacks:cloudrider_capacitor>,
+  <ironjetpacks:explorer_capacitor>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
+
+// Disabes crafting recipes
+val craftingToDisable =[
+  // Coils
+  <ironjetpacks:basic_coil>,
+  <ironjetpacks:advanced_coil>,
+  // Cells
+  <ironjetpacks:survivalist_cell>,
+  <ironjetpacks:basic_cell>,
+  <ironjetpacks:architect_cell>,
+  <ironjetpacks:cloudrider_cell>,
+  <ironjetpacks:explorer_cell>,
+  // Thrusters
+  <ironjetpacks:survivalist_thruster>,
+  <ironjetpacks:basic_thruster>,
+  <ironjetpacks:architect_thruster>,
+  <ironjetpacks:cloudrider_thruster>,
+  <ironjetpacks:explorer_thruster>,
+  // Capacitors
+  <ironjetpacks:survivalist_capacitor>,
+  <ironjetpacks:basic_capacitor>,
+  <ironjetpacks:architect_capacitor>,
+  <ironjetpacks:cloudrider_capacitor>,
+  <ironjetpacks:explorer_capacitor>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
 
 
 // Disabled default recipes

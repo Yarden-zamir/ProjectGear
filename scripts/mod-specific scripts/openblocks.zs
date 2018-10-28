@@ -1,9 +1,5 @@
 import crafttweaker.item.IItemStack;
 
-val itemsToDisable =[
-] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);
-
 
 recipes.removeShaped(<openblocks:sponge>);
 recipes.removeShapeless(<openblocks:sponge>);

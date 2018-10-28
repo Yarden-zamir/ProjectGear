@@ -18,10 +18,28 @@ val itemsToDisable =[
   <rftools:shape_card:4>,
   <rftools:shape_card:5>,
   <rftools:shape_card:6>,
-  <rftools:shape_card:7>,
+  <rftools:shape_card:7>
 
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
+
+val craftingToDisable =[
+  // Autocrafters
+  <rftools:crafter1>,
+  <rftools:crafter2>,
+  <rftools:crafter3>,
+  // Coal generator
+  <rftools:coalgenerator>,
+  // Quarry cards
+  <rftools:shape_card:2>,
+  <rftools:shape_card:3>,
+  <rftools:shape_card:4>,
+  <rftools:shape_card:5>,
+  <rftools:shape_card:6>,
+  <rftools:shape_card:7>
+
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
 
 // Resonating Machine Frame
 recipes.addShaped(<deepresonance:machine_frame>,

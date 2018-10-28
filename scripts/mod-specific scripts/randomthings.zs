@@ -15,6 +15,20 @@ val itemsToDisable =[
 
 scripts.functions.disableItems(itemsToDisable);
 
+val craftingToDisable =[
+  <randomthings:pitcherplant>,          // Pitcher Plant
+  <randomthings:enderbridge>,           // Ender bridge
+  <randomthings:prismarineenderbridge>, // Prismarine ender bridge
+  <randomthings:spectrecoil_normal>,    // Spectre Coil
+  <randomthings:spectrecoil_redstone>,  // Redstone Spectre Coil
+  <randomthings:spectrecoil_ender>,     // Ender Spectre Coil
+  <randomthings:spectrecoil_number>,    // Spectre Coil Nr
+  <randomthings:spectrecoil_genesis>,   // Genesis Spectre Coil
+  <randomthings:spectreenergyinjector>, // Spectre Energy Injector
+  <randomthings:ingredient:12>          // Spectre String
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
+
 
 // You can also craft the block breaker with an iron pickaxe head instead of an iron pickaxe. The head conveniently stacks to 64.
 recipes.addShaped(<randomthings:blockbreaker>,

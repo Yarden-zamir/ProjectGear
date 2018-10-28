@@ -3,7 +3,10 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 val itemsToDisable =[
+  // Rustic's elixirs
+  // Note: Disabled because we don't need 4 different brewing systems.
   <rustic:elixir>,
+  // Various plants that make elixirs
   <rustic:aloe_vera>,
   <rustic:blood_orchid>,
   <rustic:chamomile>,
@@ -18,6 +21,12 @@ val itemsToDisable =[
   <rustic:marsh_mallow>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
+
+val craftingToDisable =[
+  // Rustic's elixirs
+  <rustic:elixir>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
 
 // Fixed recipe conflict
 recipes.removeShaped(<rustic:slate_roof>);

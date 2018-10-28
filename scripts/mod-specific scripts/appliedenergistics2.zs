@@ -2,15 +2,26 @@ import crafttweaker.item.IItemStack;
 
 // disable applied energistics disc storage
 val itemsToDisable =[
-  <appliedenergistics2:storage_cell_16k>,
-  <appliedenergistics2:storage_cell_64k>,
+  // 16k and 64k storage cells
   // Note: Disabled to encourage more interesting methods for storing items.
   // Note: The 4k drives are enabled for performance reasons. Farms that produce large amounts of one item (iron, wheat, bones...) tend to product
   // a lot of that item, which means if you had to keep dumping them into a storage drawer it would cause a lot of tile entity updates.
-  <appliedenergistics2:molecular_assembler>,
+  <appliedenergistics2:storage_cell_16k>,
+  <appliedenergistics2:storage_cell_64k>,
+  // Molecular Assembler
   // note: Disabled to encourage more interesting crafting setups
+  <appliedenergistics2:molecular_assembler>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
+
+val craftingToDisable =[
+  // 16k and 64k storage cells
+  <appliedenergistics2:storage_cell_16k>,
+  <appliedenergistics2:storage_cell_64k>,
+  // Molecular Assembler
+  <appliedenergistics2:molecular_assembler>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
 
 
 val goldIngot = <ore:ingotGold>;

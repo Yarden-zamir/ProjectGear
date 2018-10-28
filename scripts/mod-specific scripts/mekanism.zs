@@ -71,6 +71,63 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
+val craftingToDisable =[
+  <mekanism:machineblock:0>,
+  <mekanism:machineblock:5>.withTag({recipeType: 1}),
+  <mekanism:machineblock:6>.withTag({recipeType: 1}),
+  <mekanism:machineblock:7>.withTag({recipeType: 1}),
+  // Crusher
+  <mekanism:machineblock:3>,
+  <mekanism:machineblock:5>.withTag({recipeType: 2}),
+  <mekanism:machineblock:6>.withTag({recipeType: 2}),
+  <mekanism:machineblock:7>.withTag({recipeType: 2}),
+  // Precision sawmill
+  <mekanism:machineblock2:5>,
+  // Energized smelter
+  <mekanism:machineblock:10>,
+  <mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}}),
+  <mekanism:machineblock:6>.withTag({recipeType: 0}),
+  <mekanism:machineblock:7>.withTag({recipeType: 0}),
+  // Combiner
+  <mekanism:machineblock:2>,
+  <mekanism:machineblock:5>.withTag({recipeType: 4}),
+  <mekanism:machineblock:6>.withTag({recipeType: 4}),
+  <mekanism:machineblock:7>.withTag({recipeType: 4}),
+  // Osmium compressor
+  <mekanism:machineblock:1>,
+  <mekanism:machineblock:5>.withTag({recipeType: 3}),
+  <mekanism:machineblock:6>.withTag({recipeType: 3}),
+  <mekanism:machineblock:7>.withTag({recipeType: 3}),
+  // Disable cables, except heat and gas.
+  <mekanism:transmitter>.withTag({tier: 0}),
+  <mekanism:transmitter>.withTag({tier: 1}),
+  <mekanism:transmitter>.withTag({tier: 2}),
+  <mekanism:transmitter>.withTag({tier: 3}),
+  <mekanism:transmitter:1>.withTag({tier: 0}),
+  <mekanism:transmitter:1>.withTag({tier: 1}),
+  <mekanism:transmitter:1>.withTag({tier: 2}),
+  <mekanism:transmitter:1>.withTag({tier: 3}),
+  <mekanism:transmitter:3>.withTag({tier: 0}),
+  <mekanism:transmitter:3>.withTag({tier: 1}),
+  <mekanism:transmitter:3>.withTag({tier: 2}),
+  <mekanism:transmitter:3>.withTag({tier: 3}),
+  <mekanism:transmitter:4>.withTag({tier: 0}),
+  <mekanism:transmitter:5>.withTag({tier: 0}),
+  <mekanism:machineblock2:11>.withTag({tier: 0, mekData: {}}),
+  <mekanism:machineblock2:11>.withTag({tier: 1, mekData: {}}),
+  <mekanism:machineblock2:11>.withTag({tier: 2, mekData: {}}),
+  <mekanism:machineblock2:11>.withTag({tier: 3, mekData: {}}),
+  // Disable the digital miner
+  <mekanism:machineblock:4>,
+  // Disable bins
+  <mekanism:basicblock:6>.withTag({tier: 0, mekData: {}}),
+  <mekanism:basicblock:6>.withTag({tier: 1, mekData: {}}),
+  <mekanism:basicblock:6>.withTag({tier: 2, mekData: {}}),
+  <mekanism:basicblock:6>.withTag({tier: 3, mekData: {}})
+
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
+
 
 // Add important enrichment chamber and crusher recipes to other machines:
 

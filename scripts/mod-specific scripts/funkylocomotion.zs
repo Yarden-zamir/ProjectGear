@@ -1,9 +1,5 @@
 import crafttweaker.item.IItemStack;
 
-val itemsToDisable =[
-] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);
-
 val invarIngot = <ore:ingotInvar>;
 val electrumIngot = <ore:ingotElectrum>;
 

@@ -3,9 +3,16 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 val itemsToDisable =[
-  <immersiveengineering:metal_device1:13>,
+  // Garden cloche
   //note: Disabled to encourage more complex farms
+  <immersiveengineering:metal_device1:13>,
 ] as IItemStack[];
+
+val craftingToDisable =[
+  // Garden cloche
+  <immersiveengineering:metal_device1:13>,
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
 
 // Script by DolphinBlaster
 // Makes Immersive Engineering relays and wire connectors require Magneticraft wire connectors. These must be made in the Thermionic Fabricator.

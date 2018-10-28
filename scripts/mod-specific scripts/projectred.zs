@@ -61,6 +61,66 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
+val craftingToDisable =[
+    // Ruby Tools
+    <projectred-exploration:ruby_axe>,
+    <projectred-exploration:ruby_pickaxe>,
+    <projectred-exploration:ruby_shovel>,
+    <projectred-exploration:ruby_hoe>,
+    <projectred-exploration:ruby_sword>,
+    <projectred-exploration:ruby_saw>,
+    // Sapphire Tools
+    <projectred-exploration:sapphire_axe>,
+    <projectred-exploration:sapphire_pickaxe>,
+    <projectred-exploration:sapphire_shovel>,
+    <projectred-exploration:sapphire_hoe>,
+    <projectred-exploration:sapphire_sword>,
+    <projectred-exploration:sapphire_saw>,
+    // Peridot Tools
+    <projectred-exploration:peridot_axe>,
+    <projectred-exploration:peridot_pickaxe>,
+    <projectred-exploration:peridot_shovel>,
+    <projectred-exploration:peridot_hoe>,
+    <projectred-exploration:peridot_sword>,
+    <projectred-exploration:peridot_saw>,
+    // Sickles
+    <projectred-exploration:wooden_sickle>,
+    <projectred-exploration:stone_sickle>,
+    <projectred-exploration:iron_sickle>,
+    <projectred-exploration:golden_sickle>,
+    <projectred-exploration:ruby_sickle>,
+    <projectred-exploration:sapphire_sickle>,
+    <projectred-exploration:peridot_sickle>,
+    <projectred-exploration:diamond_sickle>,
+    // Electric Screwdriver
+    <projectred-expansion:electric_screwdriver>,
+    // Golden Saw
+    <projectred-exploration:golden_saw>,
+    // Ruby Armor
+    <projectred-exploration:ruby_helmet>,
+    <projectred-exploration:ruby_chestplate>,
+    <projectred-exploration:ruby_leggings>,
+    <projectred-exploration:ruby_boots>,
+    // Sapphire Armor
+    <projectred-exploration:sapphire_helmet>,
+    <projectred-exploration:sapphire_chestplate>,
+    <projectred-exploration:sapphire_leggings>,
+    <projectred-exploration:sapphire_boots>,
+    // Peridot Armor
+    <projectred-exploration:peridot_helmet>,
+    <projectred-exploration:peridot_chestplate>,
+    <projectred-exploration:peridot_leggings>,
+    <projectred-exploration:peridot_boots>,
+	// Autocrafting bench
+	<projectred-expansion:machine2:11>,
+	// Red Iron Compound
+	<projectred-core:resource_item:251>, 
+    // Electrotine Iron Compound	
+  <projectred-core:resource_item:252>
+
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
+
 // Screwdriver recipe removal
 recipes.remove(<projectred-core:screwdriver>);
  
@@ -70,14 +130,14 @@ recipes.addShaped(<projectred-core:screwdriver>.withTag({ench: [{lvl: 10, id: 34
     [null, <minecraft:iron_ingot>, <ore:dyeBlue>],
     [null, <ore:dyeBlue>, <minecraft:iron_ingot>]]);
 
-//Alternative draw plate recipe
+// Alternative draw plate recipe
 recipes.removeShaped(<projectred-core:drawplate>);
 recipes.addShaped("draw_plate", <projectred-core:drawplate>,
     [[null, <ore:plateIron>, null],
     [<ore:plateIron>, <ore:gemDiamond>, <ore:plateIron>],
     [null, <ore:plateIron>, null]]);
 	
-//Replacing projectred recipes with non-oredictionary versions, and fixing marble recipe conflict.
+// Replacing projectred recipes with non-oredictionary versions, and fixing marble recipe conflict.
 <ore:stoneMarble>.remove(<projectred-exploration:stone>); //removing projectred marble from the ore dictionary
 recipes.removeShaped(<projectred-exploration:stone_wall>);
 recipes.addShaped(<projectred-exploration:stone_wall> * 6, [[<projectred-exploration:stone>,<projectred-exploration:stone>,<projectred-exploration:stone>],[<projectred-exploration:stone>,<projectred-exploration:stone>,<projectred-exploration:stone>],[null,null,null]]);

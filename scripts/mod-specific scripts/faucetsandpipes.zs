@@ -3,4 +3,13 @@ recipes.remove(<faufil:faucet>);
 recipes.addShapedMirrored(<faufil:faucet> * 3, [[<minecraft:redstone_torch>, null, null],[<bithop:bithop>, <bithop:bithop>, null],[<bithop:bithop>, null, null]]);
 
 // Disabling the hopper pipe
-scripts.functions.disableItem(<faufil:hopperpipe>);
+
+val itemsToDisable =[
+  <faufil:hopperpipe>
+] as IItemStack[];
+scripts.functions.disableItems(itemsToDisable);
+
+val craftingToDisable =[
+  <faufil:hopperpipe>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);

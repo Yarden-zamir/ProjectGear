@@ -48,6 +48,55 @@ val itemsToDisable =[
     <natura:sticks:12>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
+
+val craftingToDisable =[
+    // Ghostwood Tools
+    <natura:ghostwood_pickaxe>,
+    <natura:ghostwood_sword>,
+    <natura:ghostwood_axe>,
+    <natura:ghostwood_shovel>,
+    <natura:ghostwood_kama>,
+    // Bloodwood Tools
+    <natura:bloodwood_pickaxe>,
+    <natura:bloodwood_sword>,
+    <natura:bloodwood_axe>,
+    <natura:bloodwood_shovel>,
+    <natura:bloodwood_kama>,
+    // Darkwood Tools
+    <natura:darkwood_pickaxe>,
+    <natura:darkwood_sword>,
+    <natura:darkwood_axe>,
+    <natura:darkwood_shovel>,
+    <natura:darkwood_kama>,
+    // Fusewood Tools
+    <natura:fusewood_pickaxe>,
+    <natura:fusewood_sword>,
+    <natura:fusewood_axe>,
+    <natura:fusewood_shovel>,
+    <natura:fusewood_kama>,
+    // Quartz Tools (Natura)
+    <natura:netherquartz_pickaxe>,
+    <natura:netherquartz_sword>,
+    <natura:netherquartz_axe>,
+    <natura:netherquartz_shovel>,
+    <natura:netherquartz_kama>,
+    // Natura sticks
+    <natura:sticks>,
+    <natura:sticks:1>,
+    <natura:sticks:2>,
+    <natura:sticks:3>,
+    <natura:sticks:4>,
+    <natura:sticks:5>,
+    <natura:sticks:6>,
+    <natura:sticks:7>,
+    <natura:sticks:8>,
+    <natura:sticks:9>,
+    <natura:sticks:10>,
+    <natura:sticks:11>,
+    <natura:sticks:12>
+
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
  
 // Replaces all Natura nether tree sticks with regular sticks
 recipes.replaceAllOccurences(<natura:sticks>, <ore:stickWood>);

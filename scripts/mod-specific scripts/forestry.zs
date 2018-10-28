@@ -1,7 +1,9 @@
 import crafttweaker.item.IItemStack;
 // Disable forestry multifarms
 val itemsToDisable =[
+  // Multifarm blocks
   <forestry:ffarm:*>,
+  // One-block farm machines
   <forestry:arboretum:*>,
   <forestry:farm_crops:*>,
   <forestry:farm_mushroom:*>,
@@ -11,6 +13,20 @@ val itemsToDisable =[
   <forestry:peat_bog:*>,
 ] as IItemStack[];  //note: Disabled to encourage more complex farms
 scripts.functions.disableItems(itemsToDisable);
+
+val craftingToDisable =[
+  // Multifarm blocks
+  <forestry:ffarm:*>,
+  // One-block farm machines
+  <forestry:arboretum:*>,
+  <forestry:farm_crops:*>,
+  <forestry:farm_mushroom:*>,
+  <forestry:farm_gourd:*>,
+  <forestry:farm_nether:*>,
+  <forestry:farm_ender:*>,
+  <forestry:peat_bog:*>,
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
 
 // Foresty log piles
 recipes.removeShaped(<forestry:wood_pile>);

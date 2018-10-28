@@ -15,6 +15,12 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
+val craftingToDisable =[
+  <magneticraft:small_tank>,
+  <magneticraft:water_generator>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
+
 // plates
 // Note: Replaces Magneticraft's light and heavy plates with Thermal Foundation plates
 recipes.replaceAllOccurences(<magneticraft:light_plates>, <ore:plateIron>);
