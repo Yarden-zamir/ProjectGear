@@ -98,9 +98,19 @@ Mods updated:
 -Worley's Caves
 -Natural Pledge
 
-Changes:
--Updated Forge to build 2770
+Script structure overhaul:
 
+This won't impact gameplay at all, but it will make future development faster. The scripts were starting to get a little chaotic.
+
+-All comments now use the same format
+-Each mod has had their own script file, but I also had a few other files for things like steel production or the orechid. Most of these recipes have been moved to the mod specific scripts.
+
+Changes and Fixes:
+-Fixed most disabled items still being craftable. Oops.
+-Updated Forge to build 2770
+-Fixed Quark marble being uncraftable
+-Reflective alloy now creates 2 ingots instead of 1, or 3 in an arc furnace
+-Fixed wireless charger using aluminum plates
 
 
 
