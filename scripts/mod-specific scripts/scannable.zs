@@ -7,11 +7,10 @@ val itemsToDisable =[
   <scannable:module_blank>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
+
+val craftingToDisable =[
   // Blank scanner module
   <scannable:module_blank>
-val craftingToDisable =[
-
-
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 

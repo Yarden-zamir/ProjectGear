@@ -298,7 +298,7 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:800>, <o
 
 // Alternate rich phyto-gro recipe
 recipes.addShapeless("saltpeter_charcoal_to_rich_phyto_grow", <thermalfoundation:fertilizer:1> * 1, [<ore:dustSaltpeter>,
- ore:dustCharcoal>]);
+ <ore:dustCharcoal>]);
  
 // Saw Dust recipe (Log + Engineer's Hammer)
 recipes.addShapeless(<thermalfoundation:material:800>,

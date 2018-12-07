@@ -11,6 +11,11 @@ val itemsToDisable =[
 val craftingToDisable =[
   // Garden cloche
   <immersiveengineering:metal_device1:13>,
+  // Faraday suit (new recipe added below)
+  <immersiveengineering:faraday_suit_head>,
+  <immersiveengineering:faraday_suit_chest>,
+  <immersiveengineering:faraday_suit_legs>,
+  <immersiveengineering:faraday_suit_feet>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
@@ -45,15 +50,6 @@ recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateTin>, <immer
 
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:22>);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22> * 2, <ore:ingotTin>, <immersiveengineering:mold:4>, 2000);
-
-// Faraday Armor recipe removal
-val craftingToDisable =[
-    <immersiveengineering:faraday_suit_head>,
-    <immersiveengineering:faraday_suit_chest>,
-    <immersiveengineering:faraday_suit_legs>,
-    <immersiveengineering:faraday_suit_feet>
-] as IItemStack[];
-scripts.functions.disableCraftings(craftingToDisable);
  
 // Faraday Armor (Aluminum plate replaced with Tin plate) recipes
 // Faraday Helmut

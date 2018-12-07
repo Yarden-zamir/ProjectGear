@@ -11,7 +11,7 @@ val itemsToDisable =[
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
-val craftingToDisable =[.
+val craftingToDisable =[
   // Tome of Alkahestry
   <xreliquary:alkahestry_tome>
 ] as IItemStack[];

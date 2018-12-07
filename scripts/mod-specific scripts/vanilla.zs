@@ -78,7 +78,8 @@ recipes.addShaped(<minecraft:sponge:1>,
 	[[<immersiveengineering:material:4>, <ore:slimeball>, <immersiveengineering:material:4>],
 	 [<ore:slimeball>, <immersiveengineering:material:4>, <ore:slimeball>],
 	 [<immersiveengineering:material:4>, <ore:slimeball>, <immersiveengineering:material:4>]]);
-     // Craft torches with tallow:
+
+// Craft torches with tallow:
 recipes.addShaped(<minecraft:torch> * 8,
 	[[<quark:tallow>],
 	 [<ore:stickWood>]]);
@@ -140,3 +141,6 @@ recipes.addShaped(<minecraft:hopper>,
     [[<ore:ingotNickel>, null, <ore:ingotNickel>],
     [<ore:ingotNickel>, <ore:chestWood>, <ore:ingotNickel>],
     [null, <ore:ingotNickel>, null]]);
+	
+// Turn feathers into eggs with Botania alchemy
+mods.botania.ManaInfusion.addAlchemy(<minecraft:egg>, <minecraft:feather>, 250);
