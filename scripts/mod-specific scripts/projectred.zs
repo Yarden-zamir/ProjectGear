@@ -141,10 +141,27 @@ recipes.addShaped("draw_plate", <projectred-core:drawplate>,
 <ore:stoneMarble>.remove(<projectred-exploration:stone>); //removing projectred marble from the ore dictionary
 recipes.removeShaped(<projectred-exploration:stone_wall>);
 recipes.addShaped(<projectred-exploration:stone_wall> * 6, [[<projectred-exploration:stone>,<projectred-exploration:stone>,<projectred-exploration:stone>],[<projectred-exploration:stone>,<projectred-exploration:stone>,<projectred-exploration:stone>],[null,null,null]]);
-recipes.removeShaped(<projectred-exploration:stone_wall:1>); //un-oredicting the projectred marble walls
-recipes.addShaped(<projectred-exploration:stone_wall:1> * 6, [[<projectred-exploration:stone:1>,<projectred-exploration:stone:1>,<projectred-exploration:stone:1>],[<projectred-exploration:stone:1>,<projectred-exploration:stone:1>,<projectred-exploration:stone:1>],[null,null,null]]); //un-oredicting the projectred brick wall
+recipes.removeShaped(<projectred-exploration:stone_wall:1>); // Removes projectred marble walls from the ore dictionary
+recipes.addShaped(<projectred-exploration:stone_wall:1> * 6, [[<projectred-exploration:stone:1>,<projectred-exploration:stone:1>,<projectred-exploration:stone:1>],[<projectred-exploration:stone:1>,<projectred-exploration:stone:1>,<projectred-exploration:stone:1>],[null,null,null]]); // Removes projectred brick wall from the ore dictionary
 recipes.removeShaped(<projectred-exploration:stone:1>);
 recipes.addShaped(<projectred-exploration:stone:1> * 4, [[<projectred-exploration:stone>,<projectred-exploration:stone>],[<projectred-exploration:stone>,<projectred-exploration:stone>]]); //un-oredicting the projectred bricks
+
+// Makes silver, tin and copper wall recipes use the ore dictionary
+val copperWall = <projectred-exploration:stone_wall:8>;
+val tinWall = <projectred-exploration:stone_wall:9>;
+val silverWall = <projectred-exploration:stone_wall:10>;
+ 
+recipes.addShaped("copperWall", copperWall * 6,
+    [[<ore:blockCopper>, <ore:blockCopper>, <ore:blockCopper>],
+     [<ore:blockCopper>, <ore:blockCopper>, <ore:blockCopper>]]);
+ 
+recipes.addShaped("tinWall", tinWall * 6,
+    [[<ore:blockTin>, <ore:blockTin>, <ore:blockTin>],
+     [<ore:blockTin>, <ore:blockTin>, <ore:blockTin>]]);
+ 
+recipes.addShaped("silverWall", silverWall * 6,
+    [[<ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>],
+     [<ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>]]);
 
 // ProjectRed Silicon renamed "Silicon Wafer"
 <projectred-core:resource_item:301>.displayName = "Silicon Wafer";
