@@ -397,3 +397,6 @@ recipes.replaceAllOccurences(<mekanism:ingot:1>, <ore:ingotTin>);
 // Replaces Osmium dust recipes with Tin dust
 recipes.replaceAllOccurences(<mekanism:dust:2>, <ore:dustTin>);
 recipes.replaceAllOccurences(<ore:dustOsmium>, <ore:dustTin>);
+
+// 167: salt + water = brine
+mods.factorytech.Agitator.addRecipe(<liquid:water> * 1000, null, <mekanism:salt>, <liquid:brine> * 1000, null);
