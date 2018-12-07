@@ -1,4 +1,10 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
+
+val boronOre = <ore:oreBoron>;
+val slag = <ore:crystalSlagRich>;
 
 val itemsToDisable =[
   // Water generator
@@ -41,6 +47,15 @@ scripts.functions.disableCraftings(craftingToDisable);
 
 
 #recipes
+
+// Boron + slag = 4x boron
+mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:ingot:5>*4, boronOre, slag, 100);
+mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:ingot:5>*4, slag, boronOre, 100);
+ 
+// Boron dust = salt & ash
+mods.immersiveengineering.BlastFurnace.addRecipe(<mekanism:salt>*8, <ore:dustBoron>, 1200, <forestry:ash>);
+
+// Adds alternate universal bin recipes that use manasteel or tin instead of iron
 recipes.addShaped(<nuclearcraft:bin> * 1,
 	[[<ore:plateTin>, <botania:manaresource>, <ore:plateTin>],
 	 [<botania:manaresource>, null, <botania:manaresource>],
@@ -86,3 +101,11 @@ recipes.addShaped(<nuclearcraft:part:10>,
 	[[<ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotNickel>],
 	[<ore:ingotSteel>, <nuclearcraft:alloy:1>, <ore:ingotSteel>], 
 	[<ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotNickel>]]);
+	
+// Fixes boron ore crushing recipe
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:5> * 2);
+mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:dust:5> * 2 , boronOre, 2048, <immersiveengineering:material:24>, 0.15);
+
+// 165: crushing salt
+mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:material:24>, <ore:dustSalt>, 2048, <nuclearcraft:dust:5>, 0.05);
+
