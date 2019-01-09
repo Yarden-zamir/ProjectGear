@@ -391,6 +391,9 @@ mods.refraction.AssemblyTable.addRecipe("Refined Glowstone Block", <mekanism:bas
     [<ore:ingotElectrum>, <minecraft:glowstone_dust> * 6],
     16, 64, 255, 255, 255, 255, 0, 0);
 
+// remove osmium ingot to nugget recipe so it isn't replaced with tin	
+recipes.removeShaped(<mekanism:nugget:1> * 9, [[<ore:ingotOsmium>]]);		
+	
 recipes.replaceAllOccurences(<ore:ingotOsmium>, <ore:ingotTin>);
 recipes.replaceAllOccurences(<mekanism:ingot:1>, <ore:ingotTin>);
 
