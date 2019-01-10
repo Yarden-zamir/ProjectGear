@@ -71,7 +71,7 @@ recipes.removeShaped(<ironjetpacks:survivalist_jetpack>);
 recipes.addShaped(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}),
 	[[<ore:plankWood>, <ore:dustRedstone>, <ore:plankWood>],
 	 [<ore:plankWood>, <ironjetpacks:strap>, <ore:plankWood>],
-	 [<valkyrienwarfareworld:etheriumcrystal>, null, <valkyrienwarfareworld:etheriumcrystal>]]);
+	 [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})]]);
 	 
 // Craft basic jetpack
 recipes.addShaped(<ironjetpacks:basic_jetpack>,
@@ -98,4 +98,4 @@ recipes.addShapeless("gear_shapeless_explorerJetpack", <ironjetpacks:explorer_je
   }, null);
   
 // Repair survivalist jetpack with etherium
-recipes.addShapeless(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}), [<ironjetpacks:survivalist_jetpack>, <valkyrienwarfareworld:etheriumcrystal>]);
+recipes.addShapeless(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}), [<ironjetpacks:survivalist_jetpack>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})]);
