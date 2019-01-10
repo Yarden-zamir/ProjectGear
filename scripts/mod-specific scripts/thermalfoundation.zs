@@ -97,6 +97,7 @@ scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
 #Credit to DolphinBlaster for writing this script
 
 var etherium = <valkyrienwarfareworld:etheriumcrystal>;
+val batWing = <xreliquary:mob_ingredient:5>;
 var rodMold = <immersiveengineering:mold:2>;
 var blitzRod = <thermalfoundation:material:2050>;
 var blitzPowder = <thermalfoundation:material:2051>;
@@ -114,7 +115,7 @@ var petrolDust = <thermalfoundation:material:1027>;
 // Metal Press recipes
  
 // Blitz Rod Metal Press recipe
-mods.immersiveengineering.MetalPress.addRecipe(blitzRod, etherium, rodMold, 2000, 8);
+mods.immersiveengineering.MetalPress.addRecipe(blitzRod, batwing, rodMold, 2000, 8);
  
 // Blizz Rod Metal Press recipe
 mods.immersiveengineering.MetalPress.addRecipe(blizzRod, <minecraft:packed_ice>, rodMold, 2000, 8);
@@ -128,7 +129,7 @@ mods.immersiveengineering.MetalPress.addRecipe(blazeRod, blazePowder, rodMold, 2
  
 // Crusher (Immersive Engineering) recipes
 // Blitz Rod Crusher recipe
-mods.immersiveengineering.Crusher.addRecipe(blitzPowder * 4, blitzRod, 2048, etherium, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(blitzPowder * 4, blitzRod, 2048, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), 0.5);
  
 // Blizz Rod Crusher recipe
 mods.immersiveengineering.Crusher.addRecipe(blizzPowder * 4, blizzRod, 2048, <minecraft:ice>, 0.5);
