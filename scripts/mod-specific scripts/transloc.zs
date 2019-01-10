@@ -4,7 +4,7 @@ recipes.removeShaped(<transloc:block_translocator>);
 
 recipes.addShaped(<transloc:block_translocator> * 16,
 	[[<quark:sturdy_stone>, <thermalfoundation:material:512>, <quark:sturdy_stone>],
-	 [<quark:sturdy_stone>, <waystones:warp_stone>, <quark:sturdy_stone>],
+	 [<quark:sturdy_stone>, <rftools:infused_enderpearl>, <quark:sturdy_stone>],
 	 [<quark:sturdy_stone>, <thermalfoundation:material:512>, <quark:sturdy_stone>]]);
 	 
 recipes.addShaped(<transloc:block_translocator> * 1,
