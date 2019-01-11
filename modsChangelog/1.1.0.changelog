@@ -57,6 +57,25 @@ Added mods:
 -Simple Teleporters
 -Railcraft
 -MetalChests
+-More Furnaces
 
 Updated mods:
 -Forge
+
+Changes and Fixes:
+-Dozens of script fixes
+-Changed the entity translocator recipe to use infused ender pearls instead of waystone cores. You can still craft it without one, but you get 1 instead of 16.
+-Blitz rod recipe now uses bat wings instead of etherium shards
+-Reworked survivalist jetpack recipe
+-Disabled Railcraft silver, lead and zinc ore
+-Disabled Railcraft's ingots, nuggets and plates. Some recipes might be broken as a result.
+-Enabled Quark's alternate block types. This was disabled to save block IDs, but we have Not Enough Block IDs now.
+-Reduced rarity of nickel ore in orechids so it's as rare as gold
+-Disabled negative effects of Nutrition
+-Reduced frequency of vanilla cave ores
+-Disabled massive Ore Veins veins. Railcraft fills this role now.
+-Upgrades from Grappling Hook, Scannable and Steve's Carts now use a Project Red IC Chip as a blank upgrade
+-Bats no longer drop leather
+-Disabled ender dragon death sound
+-Disabled wither spawn sound
+-Renamed both vanilla buttons to stone button/wooden button
