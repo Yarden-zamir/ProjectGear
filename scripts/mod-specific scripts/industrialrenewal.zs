@@ -3,8 +3,6 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 val itemsToDisable =[
-  // Sponge iron
-  <industrialrenewal:sponge_iron>,
   // Energy cable
   <industrialrenewal:energy_cable>,
   // Fluid pipe
