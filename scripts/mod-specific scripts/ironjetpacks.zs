@@ -69,9 +69,14 @@ recipes.removeShaped(<ironjetpacks:survivalist_jetpack>);
 // Craft survivalist's jetpack
 // Has full energy when crafter
 recipes.addShaped(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}),
-	[[<ore:plankWood>, <ore:dustRedstone>, <ore:plankWood>],
-	 [<ore:plankWood>, <ironjetpacks:strap>, <ore:plankWood>],
-	 [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})]]);
+	[[<botania:livingwood:1>, <ore:dustRedstone>, <botania:livingwood:1>],
+	 [<botania:livingwood:1>, <ironjetpacks:strap>, <botania:livingwood:1>],
+	 [<minecraft:blaze_powder>, null, <minecraft:blaze_powder>]]);
+	 
+recipes.addShaped(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}),
+	[[<ore:plankTreatedWood>, <ore:dustRedstone>, <ore:plankTreatedWood>],
+	 [<ore:plankTreatedWood>, <ironjetpacks:strap>, <ore:plankTreatedWood>],
+	 [<minecraft:blaze_powder>, null, <minecraft:blaze_powder>]]);
 	 
 // Craft basic jetpack
 recipes.addShaped(<ironjetpacks:basic_jetpack>,

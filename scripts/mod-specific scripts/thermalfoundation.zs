@@ -96,7 +96,6 @@ scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
 
 #Credit to DolphinBlaster for writing this script
 
-var etherium = <valkyrienwarfareworld:etheriumcrystal>;
 val batWing = <xreliquary:mob_ingredient:5>;
 var rodMold = <immersiveengineering:mold:2>;
 var blitzRod = <thermalfoundation:material:2050>;
@@ -115,7 +114,7 @@ var petrolDust = <thermalfoundation:material:1027>;
 // Metal Press recipes
  
 // Blitz Rod Metal Press recipe
-mods.immersiveengineering.MetalPress.addRecipe(blitzRod, batwing, rodMold, 2000, 8);
+mods.immersiveengineering.MetalPress.addRecipe(blitzRod, batWing, rodMold, 2000, 8);
  
 // Blizz Rod Metal Press recipe
 mods.immersiveengineering.MetalPress.addRecipe(blizzRod, <minecraft:packed_ice>, rodMold, 2000, 8);
@@ -169,7 +168,7 @@ recipes.remove(aeroDust);
  
 //Aerotheum Dust recipe
 recipes.addShapeless(aeroDust * 2,
-    [blitzPowder,blitzPowder,etherium,<xreliquary:mob_ingredient:5>]);
+    [blitzPowder,blitzPowder,batWing,<xreliquary:mob_ingredient:5>]);
  
 // Cryotheum Dust recipe removal
 recipes.remove(cryoDust);
