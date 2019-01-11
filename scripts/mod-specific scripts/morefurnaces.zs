@@ -3,10 +3,11 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 val itemsToDisable =[
-  // Blank scanner module
+  // Copper, silver and obsidian furnaces
   <morefurnaces:furnaceblock:5>,
   <morefurnaces:furnaceblock:6>,
   <morefurnaces:furnaceblock:3>,
+  // Copper, silver and obsidian furnace upgrades
   <morefurnaces:upgrade:3>,
   <morefurnaces:upgrade:5>,
   <morefurnaces:upgrade:6>,
@@ -15,7 +16,6 @@ val itemsToDisable =[
 scripts.functions.disableItems(itemsToDisable);
 
 val craftingToDisable =[
-  // Blank scanner module
   <morefurnaces:furnaceblock:5>,
   <morefurnaces:furnaceblock:6>,
   <morefurnaces:furnaceblock:3>,
