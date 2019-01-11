@@ -5,6 +5,9 @@ import crafttweaker.oredict.IOreDictEntry;
 val itemsToDisable =[
   // Sponge Iron
   <industrialrenewal:sponge_iron>
+<industrialrenewal:energy_cable>
+  <industrialrenewal:fluid_pipe>
+  <industrialrenewal:valve_pipe_large>
 
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
