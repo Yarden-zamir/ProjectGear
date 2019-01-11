@@ -54,7 +54,9 @@ val craftingToDisable =[
   <ironjetpacks:basic_capacitor>,
   <ironjetpacks:architect_capacitor>,
   <ironjetpacks:cloudrider_capacitor>,
-  <ironjetpacks:explorer_capacitor>
+  <ironjetpacks:explorer_capacitor>,
+  // Leather strap
+  <ironjetpacks:strap>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
@@ -65,6 +67,13 @@ recipes.removeShaped(<ironjetpacks:cloudrider_jetpack>);
 recipes.removeShaped(<ironjetpacks:explorer_jetpack>);
 recipes.removeShaped(<ironjetpacks:basic_jetpack>);
 recipes.removeShaped(<ironjetpacks:survivalist_jetpack>);
+
+// Leather strap recipe
+recipes.addShaped(<ironjetpacks:strap>,
+	[[<minecraft:leather>, <ore:ingotIron>, <minecraft:leather>]]);
+	
+recipes.addShaped(<ironjetpacks:strap>,
+	[[<minecraft:leather>, <ore:ingotTin>, <minecraft:leather>]]);
 
 // Craft survivalist's jetpack
 // Has full energy when crafter
