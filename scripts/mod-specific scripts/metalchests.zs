@@ -49,7 +49,6 @@ val craftingToDisable =[
   <metalchests:chest_upgrade:12>,
   // Iron to gold hungry chest upgrade
   <metalchests:hungry_chest_upgrade:12>
->
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 

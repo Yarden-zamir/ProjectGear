@@ -151,3 +151,20 @@ Changes and Fixes:
 -Disabled ender dragon death sound
 -Disabled wither spawn sound
 -Renamed both vanilla buttons to stone button/wooden button
+-Removed RandomTweaks' death punishment. You no longer lose XP if you die with keepInventory on.
+-Disabled crop trampling
+-Removed NoFOV. RandomTweaks adds a keybind for that.
+-Halved frequency of Quark's spelotheums
+-Disabled the Random Things' Nature Core
+-Removed rail crafting recipes
+-Disabled Quark's fairy rings
+-Temporarily disabled Open Computers inscriber recipes and restored normal crafting recipes
+-Disabled obsidian, silver and copper furnaces from More Furnaces
+-Reworked More Furnaces. Better furnaces are faster, but use more fuel. The diamond furnace can smelt one item per second, but uses one coal per item.
+-Disabled the fluid/energy pipes and solar panel from Industrial Renewal
+-Reworked Industrial Renewal safety had and safety belt recipes
+-Iron Jetpacks leather straps now require slightly less microcrafting
+-Disabled OpenModularTurrets disposable item cannon and solar power addon
+-Removed silver chests from Metal Chests. You can craft iron chests directly into gold, instead of iron > silver > gold.
+-Disabled Mekanism salt generation
+-Reduced frequency of medium ore veins to cut down on cave clutter
