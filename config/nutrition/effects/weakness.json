@@ -5,5 +5,5 @@
 	"minimum": 0,
 	"maximum": 10,
 	"detect": "average",
-	"enabled": true
+	"enabled": false
 }
