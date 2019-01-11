@@ -4,7 +4,7 @@
     "type": "oreveins:cluster",
     "ore": "minecraft:coal_ore",
     "stone": "minecraft:stone",
-    "rarity": 20,
+    "rarity": 40,
     "min_y": 16,
     "max_y": 128,
     "density": 50,
@@ -49,7 +49,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 5,
+    "rarity": 10,
     "min_y": 16,
     "max_y": 128,
     "density": 25,
@@ -113,7 +113,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 10,
+    "rarity": 20,
     "min_y": 16,
     "max_y": 128,
     "density": 25,
@@ -179,7 +179,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 10,
+    "rarity": 20,
     "min_y": 16,
     "max_y": 128,
     "density": 25,
@@ -313,27 +313,6 @@
     "density": 25,
     "vertical_size": 5,
     "horizontal_size": 10
-  },
-  
-  "tiny_common_certus_vein": {
-    "type": "oreveins:cluster",
-    "ore": [
-      {
-        "block": "appliedenergistics2:quartz_ore",
-        "weight": 39
-      },
-      {
-        "block": "appliedenergistics2:charged_quartz_ore",
-        "weight": 1
-      }
-    ],
-    "stone": "minecraft:stone",
-    "rarity": 2,
-    "min_y": 1,
-    "max_y": 32,
-    "density": 20,
-    "vertical_size": 3,
-    "horizontal_size": 3
   }
 
 
