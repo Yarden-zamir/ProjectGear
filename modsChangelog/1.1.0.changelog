@@ -48,6 +48,7 @@ Removed mods:
 -SilentLib - Unneeded core mod
 -Redstone Arsenal - No one seemed to use it, and it's outclassed by Tinkers and Botania
 -NoFOV - RandomTweaks adds a keybind for changing the FOV
+-Applied Energistics
 
 Added mods:
 -Some Like it Dry
@@ -61,6 +62,7 @@ Added mods:
 
 Updated mods:
 -Forge
+
 
 Changes and Fixes:
 -Dozens of script fixes
