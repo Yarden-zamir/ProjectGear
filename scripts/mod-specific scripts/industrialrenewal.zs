@@ -26,6 +26,19 @@ val craftingToDisable =[
   // Fluid valve
   <industrialrenewal:valve_pipe_large>,
   // Solar panel
-  <industrialrenewal:solar_panel>
+  <industrialrenewal:solar_panel>,
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
+
+recipes.removeByRecipeName("industrialrenewal:safety_belt");
+recipes.removeByRecipeName("industrialrenewal:safety_helmet");
+
+recipes.addShaped(<industrialrenewal:safety_helmet>,
+	[[null, <ore:dyeYellow>, null],
+	 [<ironjetpacks:strap>, <minecraft:iron_helmet>, <ironjetpacks:strap>],
+	 [null, <ore:gearDiamond>, null]]);
+	 
+recipes.addShaped(<industrialrenewal:safety_belt>,
+	[[<minecraft:leather>, null, <minecraft:leather>],
+	 [<ironjetpacks:strap>, <ore:gearIron>, <ironjetpacks:strap>],
+	 [<minecraft:leather>, null, <minecraft:leather>]]);
