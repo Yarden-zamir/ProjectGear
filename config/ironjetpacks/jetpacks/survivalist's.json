@@ -1,23 +1,20 @@
 {
-  "jetpack_type": {
-    "name": "survivalist",
-    "disable": false,
-    "tier": 1,
-    "color": 10981685,
-    "armor_points": 2,
-    "enchantability": 18,
-    "crafting_material": "ore:plankWood",
-    "force_recipes": false
-  },
-	"jetpack_info": {
-    "capacity": 10000,
-    "usage": 2,
-    "speed_vertical": 0.41,
-    "accel_vertical": 0.8,
-    "speed_sideways": 0.20,
-    "speed_hover_descend": 0.27,
-    "speed_hover": 0.075,
-    "sprint_speed_multi": 1.1,
-    "sprint_fuel_multi": 2.1
-  }
+  "name": "survivalist",
+  "disable": false,
+  "tier": 1,
+  "color": "a79135",
+  "armorPoints": 2,
+  "enchantability": 18,
+  "craftingMaterial": "ore:plankWood",
+  "forceRecipes": false,
+  "rarity": 0,
+  "capacity": 10000,
+  "usage": 2,
+  "speedVertical": 0.41,
+  "accelVertical": 0.8,
+  "speedSideways": 0.2,
+  "speedHoverDescend": 0.27,
+  "speedHover": 0.075,
+  "sprintSpeedMulti": 1.1,
+  "sprintFuelMulti": 2.1
 }
