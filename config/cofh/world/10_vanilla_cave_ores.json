@@ -9,7 +9,7 @@
 				"cluster-size": 34
 			},
 			"cluster-count": 1,
-			"chunk-chance": 2,
+			"chunk-chance": 1,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
@@ -29,7 +29,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 4,
+			"cluster-count": 2,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
@@ -49,7 +49,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 9,
+			"cluster-count": 5,
 			"ceiling": false,
 			"retrogen": false,
 			"biome": "all",
@@ -69,7 +69,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 7,
+			"cluster-count": 4,
 			"ceiling": true,
 			"retrogen": false,
 			"biome": "all",
@@ -130,8 +130,8 @@
 				"cluster-size": 1
 			},
 			"cluster-count": {
-				"min": 3,
-				"max": 6
+				"min": 1,
+				"max": 2
 			},
 			"ceiling": false,
 			"retrogen": false,
