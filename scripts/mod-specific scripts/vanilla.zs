@@ -46,12 +46,6 @@ recipes.addShaped(<minecraft:piston>,
   [<minecraft:cobblestone>, tinIngot, <minecraft:cobblestone>],
   [<minecraft:cobblestone>, <ore:dustRedstone>, <minecraft:cobblestone>]]);
 
-  // Rails
-recipes.addShaped(<minecraft:rail> * 24,
-[[steelIngot, null, steelIngot],
- [steelIngot, <immersiveengineering:material:0>, steelIngot],
- [steelIngot, null, steelIngot]]);
-
   // chest
 recipes.addShapeless(<minecraft:chest>, [<ore:chestWood>]);
 
