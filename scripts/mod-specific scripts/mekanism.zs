@@ -254,7 +254,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<mekanism:controlcircuit>, <ore:i
 
 // Basic Control Circuit: (2 Microchip (tier 1) + Red Alloy Ingot)
 // mods.appliedenergistics2.Inscriber.addRecipe(<mekanism:controlcircuit>, <projectred-core:resource_item:103>, false,
-                                             <opencomputers:material:7>, <opencomputers:material:7>);
+//                                            <opencomputers:material:7>, <opencomputers:material:7>);
 											 
 recipes.remove(<mekanism:machineblock:9>);
 recipes.addShaped("gear_shaped_purification_chamber", <mekanism:machineblock:9>,

@@ -85,7 +85,7 @@ val craftingToDisable =[
   // Wood > silver chest upgrade
   <metalchests:chest_upgrade:2>,
   // Hungry chest > silver hungry chest upgrade
-  <metalchests:hungry_chest_upgrade:2>
+  <metalchests:hungry_chest_upgrade:2>,
   // Wood > metal chest upgrades
   <metalchests:chest_upgrade:0>,
   <metalchests:chest_upgrade:1>,
