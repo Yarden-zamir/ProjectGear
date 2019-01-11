@@ -72,7 +72,7 @@ mods.botania.Orechid.removeOre(<ore:oreUranium>);
 <ore:oreCobalt>.remove(<magneticraft:ores:2>);
 
 // Increased Nickel chance in orechid
-mods.botania.Orechid.addOre(<ore:oreNickel>, 12000);
+mods.botania.Orechid.addOre(<ore:oreNickel>, 2970);
 
 // Makes the oredict entry "blockMossyCobblestone" which only contains mossy cobblestone
 val myEntry = <ore:blockMossyCobblestone>;
