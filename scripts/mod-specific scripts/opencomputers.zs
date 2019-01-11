@@ -1,6 +1,8 @@
 //Script by DolphinBlaster
 
 // Applied Energistics 2 Inscriber recipes
+
+/*
  
 // Open Computers Transistor recipe removal
 recipes.remove(<opencomputers:material:6>);
@@ -49,3 +51,5 @@ recipes.remove(<opencomputers:material:12>);
 // Disk Platter: (Tin ingot + Printed Calculation Circuit + Cobalt nugget)
 mods.appliedenergistics2.Inscriber.addRecipe(<opencomputers:material:12>, <appliedenergistics2:material:16>, false,
                                              <thermalfoundation:material:129>, <tconstruct:nuggets>);
+											 
+*/
