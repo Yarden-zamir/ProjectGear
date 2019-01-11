@@ -26,7 +26,7 @@ recipes.addShaped(<grapplemod:longfallboots>,
 	 [<ore:plateIron>, <minecraft:leather_boots>, <ore:plateIron>]]);
 	 
 // Changes all upgrade recipes to use the Gendustry upgrade frame. All upgrades/augments use this item for the base. 
-recipes.replaceAllOccurences(<grapplemod:baseupgradeitem>, <gendustry:upgrade_frame>);
+recipes.replaceAllOccurences(<grapplemod:baseupgradeitem>, <projectred-fabrication:ic_chip>);
 	 
 
 	 

@@ -23,4 +23,4 @@ recipes.addShaped(<scannable:scanner>.withTag({energy: 5000}),
 */
 // Changes the scanner modules to use a Gendustry upgrade frame
 // All upgrades and augments use the same frame to make the pack feel more consistent
-recipes.replaceAllOccurences(<scannable:module_blank>, <gendustry:upgrade_frame>);
+recipes.replaceAllOccurences(<scannable:module_blank>, <projectred-fabrication:ic_chip>);
