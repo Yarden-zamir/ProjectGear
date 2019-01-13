@@ -199,9 +199,9 @@ mods.immersiveengineering.Crusher.addRecipe(<magneticraft:dusts:4> * 2, <magneti
 scripts.functions.rename(<magneticraft:light_plates>,"Basic Plate");
 
 // Alternate Small Copper Coil recipe that uses nickel instead of iron
-recipes.addShaped(<magneticraft:crafting:3>,
+recipes.addShaped(<magneticraft:crafting:3> * 8,
     [[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>],
-    [null, <magneticraft:copper_coil>, null],
+    [<ore:ingotNickel>, <magneticraft:copper_coil>, <ore:ingotNickel>],
     [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]]);
 	
 	
