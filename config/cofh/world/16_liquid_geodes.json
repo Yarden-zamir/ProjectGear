@@ -11,7 +11,7 @@
 				],
 				"hollow": true,
 				"filler": "thermalfoundation:fluid_redstone",
-				"crust": "appliedenergistics2:sky_stone_block"
+				"crust": "quark:basalt"
 			},
 			"cluster-count": 1,
 			"chunk-chance": 5,
@@ -39,7 +39,7 @@
 				],
 				"hollow": true,
 				"filler": "thermalfoundation:fluid_ender",
-				"crust": "appliedenergistics2:sky_stone_block"
+				"crust": "quark:basalt"
 			},
 			"cluster-count": 1,
 			"chunk-chance": 5,
@@ -67,7 +67,7 @@
 				],
 				"hollow": true,
 				"filler": "thermalfoundation:fluid_glowstone",
-				"crust": "appliedenergistics2:sky_stone_block"
+				"crust": "quark:basalt"
 			},
 			"cluster-count": 1,
 			"chunk-chance": 5,
