@@ -170,7 +170,7 @@ recipes.addShaped("silverWall", silverWall * 6,
 mods.factorytech.Electroplater.addRecipe(<minecraft:redstone>, <projectred-core:resource_item:105>);
 
 // Fluxed Electrum Dust + Lapis to 4 Electrotine dust
-mods.forestry.ThermionicFabricator.addCast(<projectred-core:resource_item:105> * 4, [[<minecraft:dye:4>,<redstonearsenal:material:0>,null],[null,null,null],[null,null,null]], <liquid: glass> * 200);
+mods.forestry.ThermionicFabricator.addCast(<projectred-core:resource_item:105> * 4, [[<minecraft:dye:4>,<ore:dustCobalt>,null],[null,null,null],[null,null,null]], <liquid: glass> * 200);
 
 // You can also craft the Block Breaker with an iron pickaxe head instead of an iron pickaxe. The head conveniently stacks to 64.
 recipes.addShaped(<projectred-expansion:machine2>,
@@ -215,6 +215,6 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:
 
 // Electrotine Block Laser Assembly Table recipe
 mods.refraction.AssemblyTable.addRecipe("Electrotine Block", <projectred-exploration:stone:11>,
-    [<minecraft:dye:4> * 2, <redstonearsenal:material> * 2],
+    [<minecraft:dye:4> * 2, <ore:blockCobalt> * 2],
     16, 64, 0, 0, 0, 0, 255, 255);
 	

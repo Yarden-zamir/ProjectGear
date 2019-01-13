@@ -206,7 +206,7 @@ recipes.addShapeless(manaDust * 4,
     [<botania:manaresource:23>,<projectred-core:resource_item:510>,<botania:manaresource:1>,<botania:manabottle>]);
    
 recipes.addShapeless(manaDust * 4,
-[<ore:dustCobalt>,<projectred-core:resource_item:510>,<minecraft:ender_pearl>,<redstonearsenal:material>]);
+[<ore:dustCobalt>,<projectred-core:resource_item:510>,<minecraft:ender_pearl>,<thermalfoundation:material:1024>]);
 
 
 // Redstone Reception Coil recipe removal
@@ -327,10 +327,10 @@ recipes.addShaped(<thermalfoundation:upgrade:1>,
 val HardenedBase = <thermalfoundation:glass:3>;
 
 val ObsidianLiquid = <liquid:obsidian>;
-val QuartzGlass = <appliedenergistics2:quartz_glass>;
 val SoulGlass = <natura:nether_glass:0>;
 val Obsidian = <minecraft:obsidian>;
 val RawHardener = <stevescarts:modulecomponents:18>;
+val InsulatingGlass = <immersiveengineering:stone_decoration:8>;
 
 val CopperLiquid = <liquid:copper>;
 val CopperHardened = <thermalfoundation:glass:0>;
@@ -367,11 +367,11 @@ val EnderiumLiquid = <liquid:enderium>;
 val EnderiumHardened = <thermalfoundation:glass_alloy:7>;
 
 // Base Hardened Glass Recipe
-mods.factorytech.CompressionChamber.addRecipe(HardenedBase * 4, QuartzGlass, ObsidianLiquid * 144);
-mods.tconstruct.Casting.addBasinRecipe(HardenedBase * 4, QuartzGlass, ObsidianLiquid, 288, true);
-mods.botania.ElvenTrade.addRecipe([HardenedBase * 4], [SoulGlass,Obsidian]);
-mods.immersiveengineering.AlloySmelter.addRecipe(HardenedBase * 4, QuartzGlass, RawHardener, 600);
-mods.immersiveengineering.AlloySmelter.addRecipe(HardenedBase * 4, RawHardener, QuartzGlass, 600);
+mods.factorytech.CompressionChamber.addRecipe(HardenedBase * 16, InsulatingGlass, ObsidianLiquid * 144);
+mods.tconstruct.Casting.addBasinRecipe(HardenedBase * 16, InsulatingGlass, ObsidianLiquid, 288, true);
+mods.botania.ElvenTrade.addRecipe([HardenedBase * 16], [SoulGlass,Obsidian]);
+mods.immersiveengineering.AlloySmelter.addRecipe(HardenedBase * 16, InsulatingGlass, RawHardener, 600);
+mods.immersiveengineering.AlloySmelter.addRecipe(HardenedBase * 16, RawHardener, InsulatingGlass, 600);
 
 // Copper Recipes
 mods.factorytech.CompressionChamber.addRecipe(CopperHardened, HardenedBase, CopperLiquid * 144);
