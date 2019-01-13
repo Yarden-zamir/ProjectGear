@@ -62,7 +62,7 @@ recipes.addShaped(<metalchests:metal_chest:3>,
 	 [gold, ironchest, gold],
 	 [gold, gold, gold]]);
 	 
-recipes.addShaped(<metalchests:metal_hungry_chest:3>,
+recipes.addShaped(<metalchests:hungry_metal_chest:3>,
 	[[gold, gold, gold],
 	 [gold, ironhungrychest, gold],
 	 [gold, gold, gold]]);

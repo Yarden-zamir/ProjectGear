@@ -24,15 +24,22 @@ scripts.functions.disableItems(itemsToDisable);
 
 val craftingToDisable =[
   // Rustic's elixirs
-  <rustic:elixir>
+  <rustic:elixir>,
+  <rustic:chain>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
-// Fixed recipe conflict
+// Fixes recipe conflict
 recipes.removeShaped(<rustic:slate_roof>);
 recipes.addShaped(<rustic:slate_roof>,
 	[[<rustic:slate_brick>, <rustic:slate_brick>],
 	 [<rustic:slate_brick>, <rustic:slate_brick>]]);
+	 
+// Fixes recipe conflict
+recipes.addShaped(<rustic:chain>,
+	[[<ore:nuggetIron>],
+	 [<ore:nuggetIron>],
+	 [<ore:nuggetIron>]]);
 
 // Fix recipe conflict with Quark's stained planks
 
