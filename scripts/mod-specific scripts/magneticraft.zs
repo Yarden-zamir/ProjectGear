@@ -47,7 +47,7 @@ recipes.addShaped(<magneticraft:electric_heater>,
 	 [<ore:ingotIron>, <ore:ingotNickel>, <ore:ingotIron>],
 	 [<ore:ingotIron>, <magneticraft:crafting:3>, <ore:ingotIron>]]);
 	 
-recipes.removeShapeless(<magneticraft:nuggets:5>);
+recipes.removeShaped(<magneticraft:nuggets:5>);
 recipes.removeShaped(<magneticraft:tungsten_gear>);
 recipes.removeShaped(<magneticraft:storage_blocks:3>);
 
