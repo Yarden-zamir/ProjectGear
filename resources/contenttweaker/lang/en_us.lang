@@ -11,7 +11,9 @@ item.contenttweaker.guano.name=Guano
 item.contenttweaker.guano_ingot.name=Guano Ingot
 item.contenttweaker.sinew.name=Sinew
 item.contenttweaker.aluminum_brass_plate.name=Aluminum Brass Plate
-item.contenttweaker.aluminum_brass_gear.name=Aluminum Brass Gear
+item.contenttweaker.hardened_glass_ingot.name=Hardened Glass Ingot
+item.contenttweaker.hot_hardened_glass_ingot.name=Hot Hardened Glass Ingot
+
 
 // Fluids
 fluid.quicklime=Molten Quicklime
