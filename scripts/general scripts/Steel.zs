@@ -19,16 +19,16 @@ mods.tconstruct.Melting.addRecipe(<liquid:quicklime> * 36,<contenttweaker:sulfur
 mods.tconstruct.Alloy.addRecipe(<liquid:impuresteel> * 144, [<liquid:pigiron> * 144, <liquid:quicklime> * 144]);
 
 //Casting Impure Steel
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:impure_steel>, <tconstruct:cast_custom:0>, <liquid:impuresteel>, 144, false, 60);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:impure_steel_ingot>, <tconstruct:cast_custom:0>, <liquid:impuresteel>, 144, false, 60);
 
 //Re-melt Impure Steel
-mods.tconstruct.Melting.addRecipe(<liquid:impuresteel> * 144,<contenttweaker:impure_steel>, 490);
+mods.tconstruct.Melting.addRecipe(<liquid:impuresteel> * 144,<contenttweaker:impure_steel_ingot>, 490);
 
 //Purification (Blast Furnace)
-mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160>, <contenttweaker:impure_steel>, 2000, <immersiveengineering:material:7>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160>, <contenttweaker:impure_steel_ingot>, 2000, <immersiveengineering:material:7>);
 
 //Purification (Pressure Chamber)
-mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:impure_steel>, <pneumaticcraft:ingot_iron_compressed>], 2.0, [<thermalfoundation:material:160> * 2]);
+mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:impure_steel_ingot>, <pneumaticcraft:ingot_iron_compressed>], 2.0, [<thermalfoundation:material:160> * 2]);
 
 //Purification (Oxygen)
 mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 288, [<liquid:impuresteel> * 144, <liquid:liquidoxygen> * 2000]);
@@ -37,7 +37,7 @@ mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 288, [<liquid:impuresteel> * 14
 
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160>, <contenttweaker:impure_steel>, 2000, <immersiveengineering:material:7>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160>, <contenttweaker:impure_steel_ingot>, 2000, <immersiveengineering:material:7>);
 
 // ie arc furnace
 
@@ -57,10 +57,10 @@ mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput(<thermalfoundation:storag
 mods.mekanism.infuser.removeRecipe(<ore:dustSteel>);
 
 //Some boring nugget/block handling
-recipes.addShapeless("nugget_handler_1",<contenttweaker:impure_steel>,[<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>]);
-recipes.addShapeless("nugget_handler_2",<contenttweaker:impure_steel_nugget>*9,[<contenttweaker:impure_steel>]);
-recipes.addShapeless("block_handler_1",<contenttweaker:impure_steel_block>,[<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>,<contenttweaker:impure_steel>]);
-recipes.addShapeless("block_handler_2",<contenttweaker:impure_steel>*9,[<contenttweaker:impure_steel_block>]);
+recipes.addShapeless("nugget_handler_1",<contenttweaker:impure_steel_ingot>,[<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>]);
+recipes.addShapeless("nugget_handler_2",<contenttweaker:impure_steel_nugget>*9,[<contenttweaker:impure_steel_ingot>]);
+recipes.addShapeless("block_handler_1",<contenttweaker:impure_steel_block>,[<contenttweaker:impure_steel_ingot>,<contenttweaker:impure_steel_ingot>,<contenttweaker:impure_steel_ingot>,<contenttweaker:impure_steel_ingot>,<contenttweaker:impure_steel_ingot>,<contenttweaker:impure_steel_ingot>,<contenttweaker:impure_steel_ingot>,<contenttweaker:impure_steel_ingot>,<contenttweaker:impure_steel_ingot>]);
+recipes.addShapeless("block_handler_2",<contenttweaker:impure_steel_ingot>*9,[<contenttweaker:impure_steel_block>]);
 
 mods.tconstruct.Melting.addRecipe(<liquid:impuresteel> * 16,<contenttweaker:impure_steel_nugget>, 395);
 mods.tconstruct.Melting.addRecipe(<liquid:impuresteel> * 1296,<contenttweaker:impure_steel_block>, 681);

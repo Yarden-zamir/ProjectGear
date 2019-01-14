@@ -17,11 +17,6 @@ liquidatedIrradiatedBlood.register();
 var monsterEssence = VanillaFactory.createFluid("monster_essence", Color.fromHex("39A00A"));
 monsterEssence.register();
 
-//Impure Steel Ingot
-var steelIn = VanillaFactory.createItem("impure_steel");
-steelIn.maxStackSize = 64;
-steelIn.rarity = "common";
-steelIn.register();
 
 //Molten Quicklime
 var meltLime = VanillaFactory.createFluid("quicklime", Color.fromHex("E6E2D9"));
@@ -45,8 +40,20 @@ meltImSt.register();
 
 //items
 
+//Impure Steel Ingot
+var steelIn = VanillaFactory.createItem("impure_steel_ingot");
+steelIn.maxStackSize = 64;
+steelIn.rarity = "common";
+steelIn.register();
+
 var treatedPlate = VanillaFactory.createItem("treated_plate");
 treatedPlate.register();
+
+var guano = VanillaFactory.createItem("guano");
+guano.register();
+
+var sinew = VanillaFactory.createItem("sinew");
+sinew.register();
 
 var oiledLeather = VanillaFactory.createItem("oiled_leather");
 oiledLeather.register();
@@ -54,16 +61,13 @@ oiledLeather.register();
 var irradiatedFlesh = VanillaFactory.createItem("irradiated_flesh");
 irradiatedFlesh.register();
 
-var crudeSteelIngot = VanillaFactory.createItem("ingot_crude_steel");
-crudeSteelIngot.register();
+var ingotGuano = VanillaFactory.createItem("guano_ingot");
+ingotGuano.register();
 
-var guanoIngot = VanillaFactory.createItem("ingot_guano");
-guanoIngot.register();
-
-var hardenedGlassIngot = VanillaFactory.createItem("ingot_hardened_glass");
+var hardenedGlassIngot = VanillaFactory.createItem("hardened_glass_ingot");
 hardenedGlassIngot.register();
 
-var hotHardenedGlassIngot = VanillaFactory.createItem("ingot_hot_hardened_glass");
+var hotHardenedGlassIngot = VanillaFactory.createItem("hot_hardened_glass_ingot");
 hotHardenedGlassIngot.register();
 
 var steelInNug = VanillaFactory.createItem("impure_steel_nugget");
@@ -100,3 +104,48 @@ impureSteelBlock.setToolClass("pickaxe");
 impureSteelBlock.setToolLevel(3); 
 impureSteelBlock.setBlockSoundType(<soundtype:metal>);
 impureSteelBlock.register();
+
+//Nether Boron Ore
+var netherBoronOre = VanillaFactory.createBlock("nether_boron_ore", <blockmaterial:rock>); 
+netherBoronOre.setBlockHardness(5.0); 
+netherBoronOre.setBlockResistance(30.0);
+netherBoronOre.setToolClass("pickaxe"); 
+netherBoronOre.setToolLevel(3); 
+netherBoronOre.setBlockSoundType(<soundtype:metal>);
+netherBoronOre.register();
+
+//Nether Magnesium Ore
+var netherMagnesiumOre = VanillaFactory.createBlock("nether_magnesium_ore", <blockmaterial:rock>); 
+netherMagnesiumOre.setBlockHardness(5.0); 
+netherMagnesiumOre.setBlockResistance(30.0);
+netherMagnesiumOre.setToolClass("pickaxe"); 
+netherMagnesiumOre.setToolLevel(3); 
+netherMagnesiumOre.setBlockSoundType(<soundtype:metal>);
+netherMagnesiumOre.register();
+
+//Nether Lithium Ore
+var netherLithiumOre = VanillaFactory.createBlock("nether_lithium_ore", <blockmaterial:rock>); 
+netherLithiumOre.setBlockHardness(5.0); 
+netherLithiumOre.setBlockResistance(30.0);
+netherLithiumOre.setToolClass("pickaxe"); 
+netherLithiumOre.setToolLevel(3); 
+netherLithiumOre.setBlockSoundType(<soundtype:metal>);
+netherLithiumOre.register();
+
+//Nether Thorium Ore
+var netherThoriumOre = VanillaFactory.createBlock("nether_thorium_ore", <blockmaterial:rock>); 
+netherThoriumOre.setBlockHardness(5.0); 
+netherThoriumOre.setBlockResistance(30.0);
+netherThoriumOre.setToolClass("pickaxe"); 
+netherThoriumOre.setToolLevel(3); 
+netherThoriumOre.setBlockSoundType(<soundtype:metal>);
+netherThoriumOre.register();
+
+//Nether Uranium Ore
+var netherUraniumOre = VanillaFactory.createBlock("nether_uranium_ore", <blockmaterial:rock>); 
+netherUraniumOre.setBlockHardness(5.0); 
+netherUraniumOre.setBlockResistance(30.0);
+netherUraniumOre.setToolClass("pickaxe"); 
+netherUraniumOre.setToolLevel(3); 
+netherUraniumOre.setBlockSoundType(<soundtype:metal>);
+netherUraniumOre.register();
