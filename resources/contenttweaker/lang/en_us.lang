@@ -10,12 +10,16 @@ item.contenttweaker.sulfuric_quicklime.name=Sulfuric Quicklime
 item.contenttweaker.guano.name=Guano
 item.contenttweaker.guano_ingot.name=Guano Ingot
 item.contenttweaker.sinew.name=Sinew
+item.contenttweaker.aluminum_brass_plate.name=Aluminum Brass Plate
+item.contenttweaker.aluminum_brass_gear.name=Aluminum Brass Gear
+
 // Fluids
 fluid.quicklime=Molten Quicklime
 fluid.impuresteel=Molten Impure Steel
 fluid.brine=Brine
 fluid.irradiated_Blood=Irratiated Blood
 fluid.monster_essence=Monster Essence
+
 // Blocks
 tile.contenttweaker.nether_gold_ore.name=Nether Gold Ore
 tile.contenttweaker.impure_steel_block.name=Block of Impure Steel

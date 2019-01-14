@@ -85,6 +85,12 @@ CaOS.maxStackSize = 64;
 CaOS.rarity = "common";
 CaOS.register();
 
+var aluminumBrassGear = VanillaFactory.createItem("aluminum_brass_gear");
+aluminumBrassGear.register();
+
+var aluminumBrassPlate = VanillaFactory.createItem("aluminum_brass_plate");
+aluminumBrassPlate.register();
+
 //blocks
 
 //Nether Gold Ore
