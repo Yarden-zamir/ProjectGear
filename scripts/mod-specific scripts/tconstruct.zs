@@ -98,3 +98,12 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ing
 mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:dustCopper>*3]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:ingotCopper>*3]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:dustCopper>*3]);
+
+
+
+// Make aluminum brass and brass equivilant
+<ore:nuggetBrass>.add(<tconstruct:nuggets:5>);
+<ore:ingotBrass>.add(<tconstruct:ingots:5>);
+<ore:blockBrass>.add(<tconstruct:metal:5>);
+<ore:plateBrass>.add(<contenttweaker:aluminum_brass_plate>);
+<ore:gearBrass>.add(<contenttweaker:aluminum_brass_gear>);
