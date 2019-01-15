@@ -24,6 +24,39 @@
     "vertical_size": 15,
     "horizontal_size": 15,
 	"dimensions": [-1]
+  },
+  
+  "massive_rare_nether_nuclearcraft_ore_vein": {
+    "type": "oreveins:cluster",
+    "ore": [
+      {
+        "block": "contenttweaker:nether_boron_ore",
+        "weight": 20
+      },
+	  {
+        "block": "contenttweaker:nether_magnesium_ore",
+        "weight": 20
+      },
+	  {
+        "block": "contenttweaker:nether_lithium_ore",
+        "weight": 20
+      },
+	  {
+        "block": "contenttweaker:nether_uranium_ore",
+        "weight": 20
+      },
+	  {
+        "block": "contenttweaker:nether__ore",
+        "weight": 20
+      },
+	"stone": "minecraft:netherrack",
+    "rarity": 4000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+	"dimensions": [-1]
   }
   
- }
+}

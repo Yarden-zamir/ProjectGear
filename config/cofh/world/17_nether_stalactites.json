@@ -89,8 +89,67 @@
 				]
 			}
 
-	},
-	"dimensional_ore_stalactite": {
+		},
+		"nuclearcraft_ore_stalactite": {
+			"distribution": "uniform",
+				"generator": {
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "minecraft:netherrack",
+							"weight": 50
+						},
+						{
+							"name": "contenttweaker:nether_thorium_ore",
+							"weight": 10
+						},
+						{
+							"name": "contenttweaker:nether_boron_ore",
+							"weight": 10
+						},
+						{
+							"name": "contenttweaker:nether_lithium_ore",
+							"weight": 10
+						},
+						{
+							"name": "contenttweaker:nether_uranium_ore",
+							"weight": 10
+						},
+						{
+							"name": "contenttweaker:nether_magnesium_ore",
+							"weight": 10
+						}
+					],
+					"material": [
+						"minecraft:netherrack"
+					],
+					"gen-body": [
+						"minecraft:air"
+						],
+					"smooth": false,
+					"fat": true,
+					"min-height": 15,
+					"height-variance": 8,
+					"height-mod": 3,
+					"gen-size": 8,
+					"size-variance": 1
+				},
+			"cluster-count": 1,
+			"chunk-chance": 5,
+			"min-height": 100,
+ 			"max-height": 127,
+ 			"retrogen": "true",
+ 			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,
+					1
+				]
+			}
+
+		},
+		"dimensional_ore_stalactite": {
 			"distribution": "uniform",
 				"generator": {
 					"type": "stalactite",
