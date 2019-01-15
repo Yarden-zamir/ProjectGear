@@ -5,3 +5,13 @@ Added mods:
 -MagicBees
 -ModLister (will be removed on release)
 -Industrial Renewal
+
+Changes and fixes:
+-Lots of script fixes
+-Fixed liquid geodes generating without a shell
+-Set biome size to default (reverts 1.1.0 change)
+-Created aluminum brass gears and plates with ContentTweaker
+-Made brass and aluminum brass items interchangeable. This fixes a few Railcraft recipes.
+-Oil now only spawns in oceans, deserts and wasteland biomes
+-Nuclearcraft ores now generate in the nether. They can be found in stalactites or sparse ore veins. Note that all veins include all Nuclearcraft ores.
+-Improved impure steel textures. Credit to boblovespi.
