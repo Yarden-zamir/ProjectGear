@@ -262,6 +262,13 @@ recipes.addShaped("basicControlCircuit", <mekanism:controlcircuit>,
             [[<factorytech:machinepart:22>, <factorytech:machinepart:22>, <factorytech:machinepart:22>],
              [<projectred-core:resource_item:103>, <ore:plateCopper>, <projectred-core:resource_item:103>],
              [<factorytech:machinepart:22>, <factorytech:machinepart:22>, <factorytech:machinepart:22>]]);
+			 
+// Fixes speed upgrade recipe
+recipes.remove(<mekanism:speedupgrade>);
+recipes.addShaped("speedUpgrade", <mekanism:speedupgrade>,
+            [[null, <ore:blockGlass>, null],
+             [<mekanism:enrichedalloy>, <ore:dustNickel>, <mekanism:enrichedalloy>],
+             [null, <ore:blockGlass>, null]]);
 											 
 recipes.remove(<mekanism:machineblock:9>);
 recipes.addShaped("gear_shaped_purification_chamber", <mekanism:machineblock:9>,
