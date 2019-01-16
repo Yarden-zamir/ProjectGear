@@ -1,6 +1,34 @@
 {
 	"populate": 
 	{
+		"oil_orb": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": "buildcraftenergy:fluid_block_oil_heat_0",
+				"material": [
+					"minecraft:stone"
+				],
+				"hollow": true,
+				"filler": "buildcraftenergy:fluid_block_oil_heat_0",
+				"crust": "quark:basalt"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 5,
+			"min-height": 5,
+			"max-height": 32,
+			"biome": "all",
+			"in-village": false,
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
 		"redstone_orb": {
 			"distribution": "uniform",
 			"generator": {
