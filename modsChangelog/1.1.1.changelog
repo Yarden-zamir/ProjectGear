@@ -5,6 +5,7 @@ Added mods:
 -MagicBees
 -ModLister (will be removed on release)
 -Industrial Renewal
+-Connected Textures Mod
 
 Removed mods:
 -Integrated Tunnels (Integrated Dynamics is still included)
@@ -21,3 +22,11 @@ Changes and fixes:
 -Oil now only spawns in oceans, deserts and wasteland biomes
 -Nuclearcraft ores now generate in the nether. They can be found in stalactites or sparse ore veins. Note that all veins include all Nuclearcraft ores.
 -Improved impure steel textures. Credit to boblovespi.
+-Added a recipe to the Mekanism control circuit that requires Mekanism gold wire
+-Greatwood trees now drop amber when they are broken or decay
+-Added 16 new colored ceramic blocks. These will be used to construct Mystcraft portal frames in the future.
+-Disabled Nuclearcraft loot via config
+-Many worldgen changes to cut down on cascade worldgen lag:
+1. Disabled liquid geodes, giant gravel/dirt spheres, and copper stalactites
+2. Disabled Railcraft ore generation in favor of Realistic Ore Veins
+3. CoFH World cave coal ore veins are smaller
