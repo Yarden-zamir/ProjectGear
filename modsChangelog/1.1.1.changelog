@@ -6,6 +6,11 @@ Added mods:
 -ModLister (will be removed on release)
 -Industrial Renewal
 
+Removed mods:
+-Integrated Tunnels (Integrated Dynamics is still included)
+
+
+
 Changes and fixes:
 -Lots of script fixes
 -Fixed liquid geodes generating without a shell
