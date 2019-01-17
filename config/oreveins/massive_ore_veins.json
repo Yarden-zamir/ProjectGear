@@ -11,8 +11,8 @@
         }
  
     ],
-    "stone": "minecraft:stone",
-    "rarity": 4000,
+    "stone": "minecraft:air",
+    "rarity": 2000,
     "min_y": 5,
     "max_y": 55,
     "density": 15,
@@ -31,7 +31,7 @@
         }
  
     ],
-    "stone": "minecraft:stone",
+    "stone": "minecraft:air",
     "rarity": 2000,
     "min_y": 5,
     "max_y": 55,
@@ -53,7 +53,7 @@
         }
  
     ],
-    "stone": "minecraft:stone",
+    "stone": "minecraft:air",
     "rarity": 2000,
     "min_y": 5,
     "max_y": 55,
@@ -73,8 +73,8 @@
         }
  
     ],
-    "stone": "minecraft:stone",
-    "rarity": 4000,
+    "stone": "minecraft:air",
+    "rarity": 2000,
     "min_y": 5,
     "max_y": 55,
     "density": 15,
@@ -94,8 +94,8 @@
         	}	
  	
     ],	
-    "stone": "minecraft:stone",	
-    "rarity": 3000,
+    "stone": "minecraft:air",	
+    "rarity": 1500,
     "min_y": 5,
     "max_y": 55,
     "density": 35,
@@ -120,8 +120,8 @@
         }	
  	
     ],	
-    "stone": "minecraft:stone",	
-    "rarity": 3000,	
+    "stone": "minecraft:air",	
+    "rarity": 1500,	
     "min_y": 5,	
     "max_y": 55,	
     "density": 35,	
@@ -146,7 +146,7 @@
         }	
  	
     ],	
-    "stone": "minecraft:stone",	
+    "stone": "minecraft:air",	
     "rarity": 3000,	
     "min_y": 5,	
     "max_y": 55,	
@@ -160,20 +160,21 @@
 		"plains"
     ]	
   },	
-  "WET_BIOMES_tin_osmium": {	
+  "WET_BIOMES_tin_nickel": {	
     "ore": [{	
             "block": "thermalfoundation:ore",	
             "weight": 50,	
 			"meta": 1	
         },	
-        {	
-            "block": "mekanism:oreblock",	
-            "weight": 50	
-        }	
+		{	
+            "block": "thermalfoundation:ore",	
+            "weight": 50,	
+			"meta": 4	
+        }
  	
     ],	
-    "stone": "minecraft:stone",	
-    "rarity": 3000,	
+    "stone": "minecraft:air",	
+    "rarity": 1500,	
     "min_y": 5,	
     "max_y": 55,	
     "density": 15,	
@@ -185,7 +186,7 @@
 		"wet"
     ]	
   },	
-  "COLD_BIOMES_coal_diamond": {	
+  "COLD_BIOMES_coal_diamond": {
     "ore": [{	
             "block": "minecraft:coal_ore",	
             "weight": 99	
@@ -196,8 +197,8 @@
         }	
  	
     ],	
-    "stone": "minecraft:stone",	
-    "rarity": 3000,	
+    "stone": "minecraft:air",	
+    "rarity": 1500,	
     "min_y": 5,	
     "max_y": 55,	
     "density": 15,	
