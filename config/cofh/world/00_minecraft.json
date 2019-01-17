@@ -1,18 +1,17 @@
 {
+	"priority": 1000000000000,
 	"populate": {
-		"dirt_plate": {
+		"dirt": {
+
 			"distribution": "uniform",
 			"generator": {
-				"type": "plate",
-				"block": "minecraft:dirt",
+				"block": "dirt",
 				"material": "minecraft:stone",
-				"radius": 21,
-				"height": 4
+				"cluster-size": 33
 			},
-			"cluster-count": 1,
-			"chunk-chance": 50,
-			"min-height": 25,
-			"max-height": 50,
+			"cluster-count": 10,
+			"min-height": 40,
+			"max-height": 256,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -24,19 +23,16 @@
 			}
 		},
 
-		"gravel_plate": {
+		"gravel": {
 			"distribution": "uniform",
 			"generator": {
-				"type": "plate",
-				"block": "minecraft:gravel",
+				"block": "gravel",
 				"material": "minecraft:stone",
-				"radius": 21,
-				"height": 4
+				"cluster-size": 33
 			},
-			"cluster-count": 1,
-			"chunk-chance": 50,
-			"min-height": 25,
-			"max-height": 50,
+			"cluster-count": 8,
+			"min-height": 40,
+			"max-height": 256,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -86,29 +82,6 @@
 					1
 				]
 			}
-		},
-
-		"quartz": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "quartz_ore",
-				"material": "minecraft:netherrack",
-				"cluster-size": 14
-			},
-			"cluster-count": 16,
-			"min-height": 10,
-			"max-height": 118,
-			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "NETHER"
-					}
-				]
-			},
-			"dimension": "all"
 		}
 	}
 }
