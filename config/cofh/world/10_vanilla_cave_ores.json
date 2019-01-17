@@ -6,11 +6,11 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 34
+				"cluster-size": 17
 			},
-			"cluster-count": 1,
+			"cluster-count": 20,
 			"chunk-chance": 1,
-			"ceiling": true,
+			"ceiling": false,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
