@@ -131,23 +131,23 @@ recipes.addShaped("gear_shaped_steelWallMount", <immersiveengineering:metal_deco
  
 	// ladder
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/ladder");
-recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:metal_ladder>*6,
+recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:metal_ladder> * 6,
     [[steelRod, null, steelRod],
     [steelRod, steelRod, steelRod],
     [steelRod, null, steelRod]]);
  
 	// steel wallmount
 recipes.removeByRecipeName("immersiveengineering:connectors/connector_structural");
-recipes.addShaped("gear_shaped_tool_rod_steel_connector", <immersiveengineering:connector:6>*9,
+recipes.addShaped("gear_shaped_tool_rod_steel_connector", <immersiveengineering:connector:6> * 9,
     [[<ore:ingotSteel>, steelRod, <ore:ingotSteel>],
     [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
  
 	// strip curtain
-recipes.removeByRecipeName("immersiveengineering:metal_decoration/ladder");
-recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:metal_ladder>*6,
-    [[steelRod, null, steelRod],
-    [steelRod, steelRod, steelRod],
-    [steelRod, null, steelRod]]);
+recipes.removeByRecipeName("immersiveengineering:cloth_devices/strip_curtain");
+recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:metal_ladder> * 3,
+    [[steelRod, steelRod, steelRod],
+    [<immersiveengineering:material:5>, <immersiveengineering:material:5>, <immersiveengineering:material:5>],
+    [<immersiveengineering:material:5>, <immersiveengineering:material:5>, <immersiveengineering:material:5>]]);
 	
 #Script by DeviantCrafter
 //Prevents hammers from creating lightning rods, functionally disabling the multiblock
