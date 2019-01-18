@@ -15,3 +15,10 @@ recipes.addShaped("fluxUnloader", <railcraft:manipulator:11>,
             [[<minecraft:redstone_block>, <railcraft:detector:7>, <minecraft:redstone_block>],
              [<ore:blockNickel>, <minecraft:redstone_block>, <ore:blockNickel>],
              [<minecraft:redstone_block>, <ore:blockNickel>, <minecraft:redstone_block>]]);
+			 
+			 
+recipes.remove(<railcraft:cart_redstone_flux>);
+recipes.addShaped("RedstoneFluxCart", <railcraft:cart_redstone_flux>,
+	[[<ore:ingotNickel>, <minecraft:redstone_block>,<ore:ingotNickel>],
+	 [<minecraft:redstone_block>,<minecraft:minecart>,<minecraft:redstone_block>],
+	 [<ore:ingotNickel>,<minecraft:redstone_block>,<ore:ingotNickel>]]);
