@@ -132,7 +132,7 @@ mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:0>, <magneticraft:c
 
 // Gold Rocky Chunk Sluice Box recipe removal
 mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:1>);
-mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
+mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:1>);
 
 // Gold Rocky Chunk Sluice Box & Sieve recipe without Silver Dust
 mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:1>, 1.0, <magneticraft:chunks:1>, 0.15, <thermalfoundation:material:64>, 0.15, <minecraft:cobblestone>, true);
@@ -140,7 +140,7 @@ mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:1>, <magneticraft:c
 
 // Cobalt Rocky Chunk Sluice & Sieve Box recipe removal
 mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:4>);
-mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:0>);
+mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:4>);
 
 // Cobalt Rocky Chunk Sluice Box & Sieve recipe without Mithril Dust and Osmium Dust
 mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:4>, 1.0, <magneticraft:chunks:4>, 0.15, <minecraft:netherrack>, true);
