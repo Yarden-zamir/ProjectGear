@@ -43,6 +43,6 @@ abandoned_mineshaft_main.removeEntry("nuclearcraft:plating");
 // Add Thaumcraft items:
 abandoned_mineshaft_inject.addItemEntryHelper(<thaumcraft:amber>, 20, 1, [Functions.setCount(19, 37)], []);
 abandoned_mineshaft_inject.addItemEntryHelper(<thaumcraft:curio>, 5, 1, [Functions.setCount(1,3)], []);
-abandoned_mineshaft_inject.addItemEntryHelper(<thaumcraft:nugget>, 5, 1, [Functions.setDamage(10, 10)], []);
+// abandoned_mineshaft_inject.addItemEntryHelper(<thaumcraft:nugget>, 5, 1, [Functions.setDamage(10, 10)], []);
 
 
