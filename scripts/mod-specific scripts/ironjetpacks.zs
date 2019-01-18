@@ -8,6 +8,8 @@ val itemsToDisable =[
   // Unneeded crafting component
   <ironjetpacks:basic_coil>,
   <ironjetpacks:advanced_coil>,
+  <ironjetpacks:elite_coil>,
+  <ironjetpacks:ultimate_coil>,
   // Cells
   // Unneeded crafting component
   <ironjetpacks:survivalist_cell>,
@@ -37,6 +39,8 @@ val craftingToDisable =[
   // Coils
   <ironjetpacks:basic_coil>,
   <ironjetpacks:advanced_coil>,
+  <ironjetpacks:elite_coil>,
+  <ironjetpacks:ultimate_coil>,
   // Cells
   <ironjetpacks:survivalist_cell>,
   <ironjetpacks:basic_cell>,
