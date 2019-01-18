@@ -1,6 +1,3 @@
-Added mods:
--Random Portals
-
 Updated mods:
 -/dank/null
 -Buildcraft
@@ -24,3 +21,14 @@ Updated mods:
 
 Removed mods:
 -Lost Cities
+
+Changes:
+-Several bug fixes
+-Updated the Universal Guide to include books from newer mods, and removed books from removed mods
+-Updated the Universal Omniwrench to include wrenches from newer mods, and removed wrenches from removed mods
+(Note: There's a good chance I missed a few)
+-Disabled Thaumcraft's cinnabar and amber generation. These can be found in decaying silverwood and greatwood leaves, respectively.
+-Updated the starter inventory to include a Universal Guide and Universal Omniwrench
+-Disabled two silver Metal Chests upgrades and two Iron Jetpack coils that don't have any uses
+-Stopped rare earths from generating as dungeon loot. The current script is broken because I don't know how to tell LootTweaker to use metadata.
+-Mystcraft void and mining ages now generate with a freshly generated spawn. This fixes the ID scrambling problem.
