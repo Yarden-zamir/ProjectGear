@@ -91,6 +91,15 @@ aluminumBrassGear.register();
 var aluminumBrassPlate = VanillaFactory.createItem("aluminum_brass_plate");
 aluminumBrassPlate.register();
 
+var arditeChunk = VanillaFactory.createItem("ardite_chunk");
+arditeChunk.register();
+
+var arditeRockyChunk = VanillaFactory.createItem("ardite_rocky_chunk");
+arditeRockyChunk.register();
+
+var arditeDust = VanillaFactory.createItem("ardite_dust");
+arditeDust.register();
+
 //blocks
 
 //Nether Gold Ore

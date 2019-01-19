@@ -13,7 +13,9 @@ item.contenttweaker.sinew.name=Sinew
 item.contenttweaker.aluminum_brass_plate.name=Aluminum Brass Plate
 item.contenttweaker.hardened_glass_ingot.name=Hardened Glass Ingot
 item.contenttweaker.hot_hardened_glass_ingot.name=Hot Hardened Glass Ingot
-
+item.contenttweaker.ardite_chunk.name=Ardite Chunk
+item.contenttweaker.ardite_rocky_chunk.name=Ardite Rocky Chunk
+item.contenttweaker.ardite_dust.name=Ardite Dust
 
 // Fluids
 fluid.quicklime=Molten Quicklime
