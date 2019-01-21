@@ -107,3 +107,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ing
 <ore:blockBrass>.add(<tconstruct:metal:5>);
 <ore:plateBrass>.add(<contenttweaker:aluminum_brass_plate>);
 <ore:gearBrass>.add(<contenttweaker:aluminum_brass_gear>);
+
+// recipes for melting ardite dust/chunks
+mods.tconstruct.Melting.addRecipe(<liquid:ardite> * 288,<contenttweaker:ardite_rocky_chunk>);
+mods.tconstruct.Melting.addRecipe(<liquid:ardite> * 288,<contenttweaker:ardite_chunk>);

@@ -77,3 +77,13 @@ recipes.addShaped(<contenttweaker:age_portal_white>,
 	 [<ore:ingotBrickSeared>, <minecraft:clay_ball>, <ore:ingotBrickSeared>]]);
 	 
 // Age portal blocks:
+
+// ardite ore processing recipes and oredict
+furnace.addRecipe(<tconstruct:ingots:1>, <contenttweaker:ardite_rocky_chunk>);
+furnace.addRecipe(<tconstruct:ingots:1> * 2, <contenttweaker:ardite_chunk>);
+furnace.addRecipe(<tconstruct:ingots:1>, <contenttweaker:ardite_dust>);
+recipes.addShapeless(<contenttweaker:ardite_dust>, [<immersiveengineering:tool>.transformDamage(), <ore:oreArdite>]);
+
+<ore:dustArdite>.add(<contenttweaker:ardite_dust>);
+<ore:chunkArdite>.add(<contenttweaker:ardite_chunk>);
+<ore:rockyChunkArdite>.add(<contenttweaker:ardite_rocky_chunk>);

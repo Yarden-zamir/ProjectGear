@@ -320,3 +320,8 @@ mods.immersiveengineering.Mixer.removeRecipe(<liquid:napalm>);
 
 // Napalm: Aluminum Dust -> Tin Dust
 mods.immersiveengineering.Mixer.addRecipe(<liquid:napalm>, <liquid:gasoline>, [<ore:dustTin>, <ore:dustTin>, <ore:dustTin>], 2048);
+
+// ardite crusher recipes
+mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust>, <ore:ingotArdite>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust> * 2, <contenttweaker:ardite_chunk>, 2048, <tconstruct:nuggets:0> * 9, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust> * 2, <ore:oreArdite>, 2048);

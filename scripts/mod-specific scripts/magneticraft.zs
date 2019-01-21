@@ -222,3 +222,11 @@ recipes.addShaped(<magneticraft:inserter>,
 	[[<minecraft:iron_ingot>, <ore:nuggetIron>, null],
 	[<ore:nuggetIron>, <ore:ingotTin>, <ore:nuggetIron>], 
 	[<magneticraft:light_plates>, <magneticraft:crafting:2>, <magneticraft:light_plates>]]);
+	
+// magneticraft recipes for ardite ore processing
+mods.magneticraft.SluiceBox.addRecipe(<contenttweaker:ardite_rocky_chunk>,1.0,<contenttweaker:ardite_chunk>,0.15, <minecraft:netherrack>, true);
+mods.magneticraft.Sieve.addRecipe(<contenttweaker:ardite_rocky_chunk>, <contenttweaker:ardite_chunk>, 1.0, <magneticraft:dusts:6>, 0, <magneticraft:dusts:10>, 0, 50, true);
+
+mods.magneticraft.CrushingTable.addRecipe(<tconstruct:ore:1>, <contenttweaker:ardite_rocky_chunk>, true);
+mods.magneticraft.Grinder.addRecipe(<tconstruct:ore:1>, <contenttweaker:ardite_rocky_chunk>, <minecraft:gravel>, 0.15, 50, true);
+mods.magneticraft.Grinder.addRecipe(<tconstruct:ingots:1>, <contenttweaker:ardite_dust>, <minecraft:stone>, 0, 50, true);
