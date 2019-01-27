@@ -1,0 +1,6 @@
+Changes:
+Fixed ores generating in air
+
+This is a HOTFIX. If you've already downloaded version 1.1.3, you don't need to update unless you plan to play singleplayer. It affects world generation only.
+
+If you have, replace the file at `config/oreveins/massive_ore_veins.json` with this: https://pastebin.com/X20K2yXg

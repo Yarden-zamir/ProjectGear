@@ -157,6 +157,9 @@ recipes.addShaped(<natura:ghostwood_bow>,
 [<natura:materials:7>, null, <natura:nether_planks>],
 [<natura:materials:7>, <natura:nether_planks>, null]]);
 
+// Makes berry medly stack to 64 like other soups do in this pack
+<natura:berry_medley>.maxStackSize = 64;
+
 #Script by AtomBlade
 // Makes flamestring craftable:
 recipes.addShapeless(<natura:materials:7> * 1, [<ore:string>,<ore:cropNetherWart>,<ore:dustBlaze>]);
