@@ -109,3 +109,6 @@ mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:dust:5> * 2 , boronOre
 // 165: crushing salt
 mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:material:24>, <ore:dustSalt>, 2048, <nuclearcraft:dust:5>, 0.05);
 
+// 16 Nitrate Dusts in an Alloy Smelter makes 1 Rhodocrosite
+mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:gem_dust:1>, <ore:dustSaltpeter>, null, 2000);
+
