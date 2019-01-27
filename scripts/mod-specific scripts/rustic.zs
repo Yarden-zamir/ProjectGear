@@ -29,11 +29,12 @@ val craftingToDisable =[
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
-// Fixes recipe conflict
+/*
 recipes.removeShaped(<rustic:slate_roof>);
 recipes.addShaped(<rustic:slate_roof>,
 	[[<rustic:slate_brick>, <rustic:slate_brick>],
 	 [<rustic:slate_brick>, <rustic:slate_brick>]]);
+*/
 	 
 // Fixes recipe conflict
 recipes.addShaped(<rustic:chain>,
