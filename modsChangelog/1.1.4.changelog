@@ -17,3 +17,13 @@ Mods removed:
 -Architect
 
 Changes:
+-Disabled Thermal Foundation excavators for invalid metals like silver and platinum
+-You can now process ardite ore with Magneticraft
+-Berry medley and Natura mushroom soup stack to 64 to match vanilla soup items
+-Possibly fixed Rustic's slate recipe
+-Railcraft and Immersive Engineering coal coke are ore dictionary compatible
+-Added recipe to Nulcearcraft rhodocrosite dust
+-The click machine now requires RF to run
+-The Fore Lexicon can now convert coal coke
+-Increased chance of amber dropping from greatwood leaves (1% > 5%)
+-Fixed nether gold ore not being smeltable in a vanilla furnace
