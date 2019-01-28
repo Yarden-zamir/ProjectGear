@@ -1,6 +1,3 @@
-// Nether Gold Ore works like Gold Ore
-<ore:oreGold>.add(<contenttweaker:nether_gold_ore>);
-
 // Nuclearcraft nether ores work like overworld ores
 <ore:oreMagnesium>.add(<contenttweaker:nether_magnesium_ore>);
 <ore:oreLithium>.add(<contenttweaker:nether_lithium_ore>);
