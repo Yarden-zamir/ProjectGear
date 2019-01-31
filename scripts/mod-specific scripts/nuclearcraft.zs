@@ -102,6 +102,32 @@ recipes.addShaped(<nuclearcraft:part:10>,
 	[<ore:ingotSteel>, <nuclearcraft:alloy:1>, <ore:ingotSteel>], 
 	[<ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotNickel>]]);
 	
+// Add recipes to Nuclearcraft plating
+	// Basic plating
+recipes.addShapedMirrored(<nuclearcraft:part>,
+	[[<ore:ingotNickel>, <ore:dustGraphite>],
+	 [<ore:dustGraphite>, <ore:ingotNickel>]]);
+	 
+	// Advanced plating
+recipes.addShapedMirrored(<nuclearcraft:part:1>,
+	[[<ore:dustRedstone>, <ore:ingotTough>, <ore:dustRedstone>],
+	 [<ore:ingotTough>, <ore:plateBasic>, <ore:ingotTough>],
+	 [<ore:dustRedstone>, <ore:ingotTough>, <ore:dustRedstone>]]);
+	 
+	// DU plating
+recipes.addShapedMirrored(<nuclearcraft:part:2>,
+	[[<ore:dustSulfur>, <ore:ingotUranium238Base>, <ore:dustSulfur>],
+	 [<ore:ingotUranium238Base>, <ore:plateAdvanced>, <ore:ingotUranium238Base>],
+	 [<ore:dustSulfur>, <ore:ingotUranium238Base>, <ore:dustSulfur>]]);
+	 
+	// Elite plating
+recipes.addShapedMirrored(<nuclearcraft:part:3>,
+	[[<ore:dustRhodochrosite>, <ore:ingotBoron>, <ore:dustRhodochrosite>],
+	 [<ore:ingotBoron>, <ore:plateDU>, <ore:ingotBoron>],
+	 [<ore:dustRhodochrosite>, <ore:ingotBoron>, <ore:dustRhodochrosite>]]);
+	 
+
+	
 // Fixes boron ore crushing recipe
 mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:5> * 2);
 mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:dust:5> * 2 , boronOre, 2048, <immersiveengineering:material:24>, 0.15);
