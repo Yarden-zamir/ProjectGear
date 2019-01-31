@@ -83,6 +83,8 @@ recipes.addShaped(<minecraft:torch> * 8,
 recipes.removeShaped(<minecraft:leather>);
 mods.integrateddynamics.DryingBasin.removeRecipesWithOutput(<minecraft:leather>);
 
+// Mekanism's rail recipe
+
 
 // Crusher: Diamond Horse Armor -> 2 Diamond Dust
 mods.immersiveengineering.Crusher.addRecipe(<mekanism:otherdust> * 2, <minecraft:diamond_horse_armor>, 2048);
@@ -138,3 +140,6 @@ recipes.addShaped(<minecraft:hopper>,
 	
 // Turn feathers into eggs with Botania alchemy
 mods.botania.ManaInfusion.addAlchemy(<minecraft:egg>, <minecraft:feather>, 250);
+
+// Adds tooltip to the bucket to tell you about finite water
+<minecraft:water_bucket>.addTooltip("Infinite water pools only work in wet and snowy biomes, such as oceans, swamps and ice spikes. You can also get water from the Waterworks mod, an everful urn, or by moving water from a wet biome to your base.");
