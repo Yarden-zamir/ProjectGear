@@ -23,5 +23,8 @@ recipes.addShaped("RedstoneFluxCart", <railcraft:cart_redstone_flux>,
 	 [<minecraft:redstone_block>,<minecraft:minecart>,<minecraft:redstone_block>],
 	 [<ore:ingotNickel>,<minecraft:redstone_block>,<ore:ingotNickel>]]);
 	 
+	 recipes.remove(<railcraft:cart_redstone_flux>);
+recipes.addShaped("RedstoneFluxCart", <railcraft:cart_redstone_flux>, [[<ore:ingotNickel>, <minecraft:redstone_block>,<ore:ingotNickel>],[<minecraft:redstone_block>,<minecraft:minecart>,<minecraft:redstone_block>],[<ore:ingotNickel>,<minecraft:redstone_block>,<ore:ingotNickel>]]);
+	 
 // Makes Railcraft slag ore dictionary compatible with Immersive Engineering
 <ore:itemSlag>.add(<railcraft:dust:4>);
