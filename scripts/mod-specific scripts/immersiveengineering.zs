@@ -90,7 +90,27 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 2, 
  
  val steelRod = <tconstruct:tool_rod>.withTag({Material: "steel"});
  
+ stickSteel.add(steelRod);
  
+
+recipes.remove(<immersiveengineering:metal_decoration1:1>);
+recipes.remove(<engineersdoors:fencegate_steel>);
+recipes.remove(<immersiveengineering:metal_decoration1>);
+/*
+recipes.remove(<immersiveengineering:metal_laddar>);
+recipes.remove(<immersiveengineering:toolupgrade:6>);
+recipes.remove(<immersiveengineering:metal_decoration2:1>);
+recipes.remove(<immersiveengineering:material:14>);
+*/
+recipes.addShaped("Gear_SteelScaffoldOreDict", <immersiveengineering:metal_decoration1:1>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[null,<ore:stickSteel>,null],[<ore:stickSteel>,null,<ore:stickSteel>]]);
+recipes.addShaped("Gear_SteelScaffoldOreDictTicon",<immersiveengineering:metal_decoration1:1>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[null,steelRod,null],[steelRod,null,steelRod]]);
+recipes.addShaped("Gear_SteelFenceGateOreDict", <engineersdoors:fencegate_steel>,[[<ore:ingotSteel>,<ore:stickSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:stickSteel>,<ore:ingotSteel>]]);
+recipes.addShaped("Gear_SteelFenceGateOreDictTicon",<engineersdoors:fencegate_steel>,[[<ore:ingotSteel>,steelRod,<ore:ingotSteel>],[<ore:ingotSteel>,steelRod,<ore:ingotSteel>]]);
+recipes.addShaped("Gear_SteelFenceOreDict",<immersiveengineering:metal_decoration1:1>,[[<ore:stickSteel>,<ore:ingotSteel>,<ore:stickSteel>],[<ore:stickSteel>,<ore:ingotSteel>,<ore:stickSteel>]]);
+recipes.addShaped("Gear_SteelFenceOreDictTicon",<immersiveengineering:metal_decoration1:1>,[[steelRod,<ore:ingotSteel>,steelRod],[steelRod,<ore:ingotSteel>,steelRod]]);
+//recipes.addShaped("Gear_SteelLaddarOreDict", <immersiveengineering:metal_laddar>
+ 
+/*
 	// Steel Fence Gate
 recipes.removeShaped(<engineersdoors:fencegate_steel>);
 recipes.addShaped(<engineersdoors:fencegate_steel> * 2,
@@ -148,6 +168,8 @@ recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:met
     [[steelRod, steelRod, steelRod],
     [<immersiveengineering:material:5>, <immersiveengineering:material:5>, <immersiveengineering:material:5>],
     [<immersiveengineering:material:5>, <immersiveengineering:material:5>, <immersiveengineering:material:5>]]);
+	
+*/
 	
 #Script by DeviantCrafter
 //Prevents hammers from creating lightning rods, functionally disabling the multiblock
