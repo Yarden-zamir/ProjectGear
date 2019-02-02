@@ -1,5 +1,9 @@
 Added mods:
 -Random PSIdeas
+-Thaumic Restoration
+
+Removed mods:
+-Thaumcraft 6 Aspects for JEI - Thaumic JEI is better
 
 Changes:
 -Ore generation:
@@ -9,4 +13,15 @@ Changes:
 >Tin cave ores are 25% rarer
 >Thaumcraft overworld quartz ore now generates on cave walls instead of in solid rock
 
+-Several smaller script fixes
 -Updated the list of biomes that have infinite water. Added ocean oil field and cold biomes, removed aether highlands and temperate rainforest.
+-Added a tooltip to the water bucket
+-Mekanism machines no longer produce light. This should cause a minor FPS increase.
+-Deleted several configs from mods long since removed from the pack
+-Fixed UniDict not doing anything
+-Enabled and fixed the rotten flesh > leather processing chain
+-Fixed Nuclearcraft plating being uncraftable
+-Binnie's Genetics machines are now much faster. Their energy drain is per operation, so you now need much more power for them to run at full speed.
+-Disabled `allowEmissiveItems` in the Forge.cfg file. This fixes an issue where some Mekanism machines were invisible in item form.
+-Changed the dimension ID of the wasteland biome (4598 > 598). Packing IDs close together improves performance.
+-Disabled Modular Powersuits' invisibility module due to troll potential
