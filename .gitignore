@@ -86,3 +86,4 @@ config/ichunutil.cfg
 config/InvTweaks.cfg
 config/jei/worldSettings.cfg
 config/randomtweaks/data.json
+.DS_Store
