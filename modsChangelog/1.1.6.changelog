@@ -66,3 +66,8 @@ Added mods:
 -Login Shield
 -EZStorage 2
 -Logistics Pipes
+
+Changes:
+-Fixed UniDict being aggressive and stripping items of their Ore Dictionary tags
+-All three sizes of iron/nickel ore veins are now twice as common
+-Random Things' Time in a Bottle now accumulates time 5x as fast (20 >100 ticks per second)
