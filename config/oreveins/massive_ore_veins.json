@@ -17,7 +17,10 @@
     "max_y": 55,
     "density": 15,
     "vertical_size": 30,
-    "horizontal_size": 80
+    "horizontal_size": 80,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
+	
   },
   "massive_exotic_gold_copper": {
     "ore": [{
@@ -37,7 +40,9 @@
     "max_y": 55,
     "density": 15,
     "vertical_size": 30,
-    "horizontal_size": 80
+    "horizontal_size": 80,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "massive_exotic_tin_copper": {
@@ -59,7 +64,9 @@
     "max_y": 55,
     "density": 15,
     "vertical_size": 30,
-    "horizontal_size": 80
+    "horizontal_size": 80,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "massive_exotic_coal_diamond": {
@@ -79,7 +86,9 @@
     "max_y": 55,
     "density": 15,
     "vertical_size": 30,
-    "horizontal_size": 80
+    "horizontal_size": 80,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   "TEMPERATE_BIOMES_iron_nickel": {
     "ore": [
@@ -106,7 +115,9 @@
 		"mountain",
 		"forest",
 		"plains"
-    ]	
+    ],
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
 	"HOT_BIOMES_gold_copper": {	
    	"ore": [{	
@@ -131,7 +142,9 @@
 		"hot",
 		"dry",
 		"savanna"
-    ]	
+    ],
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },	
   "TEMPERATE_BIOMES_tin_copper": {	
     "ore": [{	
@@ -158,7 +171,9 @@
 		"mountain",
 		"forest",
 		"plains"
-    ]	
+    ],
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },	
   "WET_BIOMES_tin_nickel": {	
     "ore": [{	
@@ -184,7 +199,9 @@
 		"ocean",	
 		"water",
 		"wet"
-    ]	
+    ],
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false	
   },	
   "COLD_BIOMES_coal_diamond": {
     "ore": [{	
@@ -207,6 +224,8 @@
 	"biomes": [	
 		"cold",
 		"snowy"
-    ]	
+    ],
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false	
    }
 }

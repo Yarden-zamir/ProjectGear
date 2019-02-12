@@ -9,7 +9,9 @@
     "max_y": 128,
     "density": 50,
     "vertical_size": 15,
-    "horizontal_size": 15
+    "horizontal_size": 15,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "small_common_coal_vein": {
@@ -21,7 +23,9 @@
     "max_y": 128,
     "density": 25,
     "vertical_size": 5,
-    "horizontal_size": 10
+    "horizontal_size": 10,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "tiny_rare_coal_vein": {
@@ -33,7 +37,9 @@
     "max_y": 32,
     "density": 20,
     "vertical_size": 3,
-    "horizontal_size": 3
+    "horizontal_size": 3,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "medium_uncommon_gold_copper_vein": {
@@ -54,7 +60,9 @@
     "max_y": 128,
     "density": 25,
     "vertical_size": 15,
-    "horizontal_size": 15
+    "horizontal_size": 15,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "small_common_gold_copper_vein": {
@@ -75,7 +83,9 @@
     "max_y": 128,
     "density": 25,
     "vertical_size": 5,
-    "horizontal_size": 10
+    "horizontal_size": 10,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "tiny_common_gold_copper_vein": {
@@ -96,7 +106,9 @@
     "max_y": 32,
     "density": 20,
     "vertical_size": 3,
-    "horizontal_size": 3
+    "horizontal_size": 3,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "medium_uncommon_iron_nickel_vein": {
@@ -118,7 +130,9 @@
     "max_y": 128,
     "density": 25,
     "vertical_size": 15,
-    "horizontal_size": 15
+    "horizontal_size": 15,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "small_common_iron_nickel_vein": {
@@ -140,7 +154,9 @@
     "max_y": 128,
     "density": 25,
     "vertical_size": 5,
-    "horizontal_size": 10
+    "horizontal_size": 10,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "tiny_common_iron_nickel_vein": {
@@ -162,7 +178,9 @@
     "max_y": 32,
     "density": 20,
     "vertical_size": 3,
-    "horizontal_size": 3
+    "horizontal_size": 3,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "medium_uncommon_copper_tin_vein": {
@@ -184,51 +202,9 @@
     "max_y": 128,
     "density": 25,
     "vertical_size": 15,
-    "horizontal_size": 15
-  },
-  
-  "small_common_iron_nickel_vein": {
-    "type": "oreveins:cluster",
-    "ore": [
-      {
-        "block": "thermalfoundation:ore",
-        "weight": 1
-      },
-      {
-        "block": "thermalfoundation:ore",
-		"meta": 1,
-        "weight": 5
-      }
-    ],
-    "stone": "minecraft:stone",
-    "rarity": 2,
-    "min_y": 16,
-    "max_y": 128,
-    "density": 25,
-    "vertical_size": 5,
-    "horizontal_size": 10
-  },
-  
-  "tiny_common_iron_nickel_vein": {
-    "type": "oreveins:cluster",
-    "ore": [
-      {
-        "block": "thermalfoundation:ore",
-        "weight": 1
-      },
-      {
-        "block": "thermalfoundation:ore",
-		"meta": 1,
-        "weight": 5
-      }
-    ],
-    "stone": "minecraft:stone",
-    "rarity": 1,
-    "min_y": 1,
-    "max_y": 32,
-    "density": 20,
-    "vertical_size": 3,
-    "horizontal_size": 3
+    "horizontal_size": 15,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "small_common_redstone_vein": {
@@ -252,7 +228,9 @@
     "max_y": 32,
     "density": 20,
     "vertical_size": 3,
-    "horizontal_size": 3
+    "horizontal_size": 3,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "tiny_rare_emerald_vein_extreme_hills": {
@@ -270,7 +248,9 @@
       "extreme_hills_with_trees",
       "mutated_extreme_hills",
       "mutated_extreme_hills_with_trees"
-    ]
+    ],
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
 
   "tiny_rare_lapis_diamond_vein": {
@@ -291,7 +271,9 @@
     "max_y": 32,
     "density": 20,
     "vertical_size": 3,
-    "horizontal_size": 3
+    "horizontal_size": 3,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   },
   
   "small_common_certus_vein": {
@@ -312,7 +294,9 @@
     "max_y": 128,
     "density": 25,
     "vertical_size": 5,
-    "horizontal_size": 10
+    "horizontal_size": 10,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
   }
 
 
