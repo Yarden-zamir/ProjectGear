@@ -12,7 +12,7 @@
  
     ],
     "stone": "minecraft:stone",
-    "rarity": 2000,
+    "rarity": 1000,
     "min_y": 5,
     "max_y": 55,
     "density": 15,
