@@ -37,7 +37,7 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<quark:crystal:7> * 4, <ther
 recipes.addShapeless(<quark:black_ash> * 5,[<tconstruct:materials:17>]);
 
 // Earthworks Chalk -> Quark Marble
-recipes.addShapeless(<earthworks:block_chalk>,
+recipes.addShapeless(<projectred-exploration:stone>,
     [<quark:marble>]);
 	
 // ProjectRed Basalt -> Quark Basalt
