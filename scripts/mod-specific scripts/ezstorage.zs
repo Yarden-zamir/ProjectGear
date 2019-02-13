@@ -5,9 +5,6 @@ print("Beginning ezstorage.zs");
 
 
 val itemsToDisable =[
-
-] as IItemStack[];
-scripts.functions.disableItems(itemsToDisable);
 	// Extraction, output and input ports
 	// Note: EZStorage is intended to be an early game option. It's supposed to be a giant chest with a search bar.
 	// Note: With these items disabled, it can't interact with hoppers or pipes. It's manual only.
@@ -15,12 +12,16 @@ scripts.functions.disableItems(itemsToDisable);
 	<ezstorage:extract_port>,
 	<ezstorage:output_port>,
 	<ezstorage:input_port>
-val craftingToDisable =[
-
 ] as IItemStack[];
-scripts.functions.disableCraftings(craftingToDisable);
+scripts.functions.disableItems(itemsToDisable);
+
+	
+val craftingToDisable =[
 	// Extraction, output and input ports
 	<ezstorage:extract_port>,
 	<ezstorage:output_port>,
 	<ezstorage:input_port>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
+
 print("Completed ezstorage.zs");
