@@ -16,6 +16,21 @@ item.contenttweaker.hot_hardened_glass_ingot.name=Hot Hardened Glass Ingot
 item.contenttweaker.ardite_chunk.name=Ardite Chunk
 item.contenttweaker.ardite_rocky_chunk.name=Ardite Rocky Chunk
 item.contenttweaker.ardite_dust.name=Ardite Dust
+item.contenttweaker.sand_pile.name=Sand Pile
+item.contenttweaker.quicklime_pile.name=Quicklime Pile
+
+	// Pebbles
+item.contenttweaker.diorite_pebble.name=Diorite Pebble
+item.contenttweaker.granite_pebble.name=Granite Pebble
+item.contenttweaker.andesite_pebble.name=Andesite Pebble
+item.contenttweaker.marble_pebble.name=Marble Pebble
+item.contenttweaker.basalt_pebble.name=Basalt Pebble
+item.contenttweaker.limestone_pebble.name=Limestone Pebble
+item.contenttweaker.quarried_pebble.name=Quarried Stone Pebble
+item.contenttweaker.abyssal_pebble.name=Abyssal Stone Pebble
+item.contenttweaker.slate_pebble.name=Slate Pebble
+item.contenttweaker.red_rock_pebble.name=Red Rock Pebble
+item.contenttweaker.crag_rock_pebble.name=Crag Rock Pebble
 
 // Fluids
 fluid.quicklime=Molten Quicklime

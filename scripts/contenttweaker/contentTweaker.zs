@@ -147,14 +147,6 @@ pileQuicklime.register();
 
 // Blocks
 
-// Coarse Gravel
-var coarseGravel = VanillaFactory.createBlock("nether_boron_ore", <blockmaterial:dirt>); 
-coarseGravel.setBlockHardness(1.0); 
-coarseGravel.setBlockResistance(5.0);
-coarseGravel.setToolClass("shovel"); 
-coarseGravel.setToolLevel(3); 
-coarseGravel.setBlockSoundType(<soundtype:dirt>);
-coarseGravel.register();
 
 // Nether Gold Ore
 var netherGoldOre = VanillaFactory.createBlock("nether_gold_ore", <blockmaterial:rock>); 
