@@ -145,6 +145,16 @@ pileSand.register();
 var pileQuicklime = VanillaFactory.createItem("quicklime_pile");
 pileQuicklime.register();
 
+// Upgrade Frame
+
+var upgradeFrame = VanillaFactory.createItem("upgrade_frame");
+upgradeFrame.register();
+
+// Wooden Casing
+
+var woodenCasing = VanillaFactory.createItem("wooden_casing");
+woodenCasing.register();
+
 // Blocks
 
 

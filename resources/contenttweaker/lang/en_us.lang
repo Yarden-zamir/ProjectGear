@@ -18,6 +18,8 @@ item.contenttweaker.ardite_rocky_chunk.name=Ardite Rocky Chunk
 item.contenttweaker.ardite_dust.name=Ardite Dust
 item.contenttweaker.sand_pile.name=Sand Pile
 item.contenttweaker.quicklime_pile.name=Quicklime Pile
+item.contenttweaker.wooden_casing.name=Wooden Casing
+item.contenttweaker.upgrade_frame.name=Upgrade Frame
 
 	// Pebbles
 item.contenttweaker.diorite_pebble.name=Diorite Pebble
