@@ -274,29 +274,6 @@
     "horizontal_size": 3,
 	"dimensions": [ -2 ],
 	"dimensions_is_whitelist": false
-  },
-  
-  "small_common_certus_vein": {
-    "type": "oreveins:cluster",
-    "ore": [
-      {
-        "block": "appliedenergistics2:quartz_ore",
-        "weight": 39
-      },
-      {
-        "block": "appliedenergistics2:charged_quartz_ore",
-        "weight": 1
-      }
-    ],
-    "stone": "minecraft:stone",
-    "rarity": 2,
-    "min_y": 16,
-    "max_y": 128,
-    "density": 25,
-    "vertical_size": 5,
-    "horizontal_size": 10,
-	"dimensions": [ -2 ],
-	"dimensions_is_whitelist": false
   }
 
 
