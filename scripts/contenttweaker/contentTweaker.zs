@@ -100,9 +100,63 @@ arditeRockyChunk.register();
 var arditeDust = VanillaFactory.createItem("ardite_dust");
 arditeDust.register();
 
-//blocks
+// Pebbles
 
-//Nether Gold Ore
+var pebbleAndesite = VanillaFactory.createItem("andesite_pebble");
+pebbleAndesite.register();
+
+var pebbleDiorite = VanillaFactory.createItem("diorite_pebble");
+pebbleDiorite.register();
+
+var pebbleGranite = VanillaFactory.createItem("granite_pebble");
+pebbleGranite.register();
+
+var pebbleMarble = VanillaFactory.createItem("marble_pebble");
+pebbleMarble.register();
+
+var pebbleLimestone = VanillaFactory.createItem("limestone_pebble");
+pebbleLimestone.register();
+
+var pebbleBasalt = VanillaFactory.createItem("basalt_pebble");
+pebbleBasalt.register();
+
+var pebbleSlate = VanillaFactory.createItem("slate_pebble");
+pebbleSlate.register();
+
+var pebbleCragRock = VanillaFactory.createItem("crag_rock_pebble");
+pebbleCragRock.register();
+
+var pebbleRedRock = VanillaFactory.createItem("red_rock_pebble");
+pebbleRedRock.register();
+
+var pebbleAbyssal = VanillaFactory.createItem("abyssal_pebble");
+pebbleAbyssal.register();
+
+var pebbleQuarried = VanillaFactory.createItem("quarried_pebble");
+pebbleQuarried.register();
+
+// Sand pile
+
+var pileSand = VanillaFactory.createItem("sand_pile");
+pileSand.register();
+
+// Quicklime
+
+var pileQuicklime = VanillaFactory.createItem("quicklime_pile");
+pileQuicklime.register();
+
+// Blocks
+
+// Coarse Gravel
+var coarseGravel = VanillaFactory.createBlock("nether_boron_ore", <blockmaterial:dirt>); 
+coarseGravel.setBlockHardness(1.0); 
+coarseGravel.setBlockResistance(5.0);
+coarseGravel.setToolClass("shovel"); 
+coarseGravel.setToolLevel(3); 
+coarseGravel.setBlockSoundType(<soundtype:dirt>);
+coarseGravel.register();
+
+// Nether Gold Ore
 var netherGoldOre = VanillaFactory.createBlock("nether_gold_ore", <blockmaterial:rock>); 
 netherGoldOre.setBlockHardness(3.0); 
 netherGoldOre.setBlockResistance(15.0);
@@ -111,7 +165,7 @@ netherGoldOre.setToolLevel(3);
 netherGoldOre.setBlockSoundType(<soundtype:stone>);
 netherGoldOre.register();
 
-//Impure Steel Block
+// Impure Steel Block
 var impureSteelBlock = VanillaFactory.createBlock("impure_steel_block", <blockmaterial:iron>); 
 impureSteelBlock.setBlockHardness(5.0); 
 impureSteelBlock.setBlockResistance(30.0);
@@ -120,7 +174,7 @@ impureSteelBlock.setToolLevel(3);
 impureSteelBlock.setBlockSoundType(<soundtype:metal>);
 impureSteelBlock.register();
 
-//Nether Boron Ore
+// Nether Boron Ore
 var netherBoronOre = VanillaFactory.createBlock("nether_boron_ore", <blockmaterial:rock>); 
 netherBoronOre.setBlockHardness(5.0); 
 netherBoronOre.setBlockResistance(30.0);
@@ -129,7 +183,7 @@ netherBoronOre.setToolLevel(3);
 netherBoronOre.setBlockSoundType(<soundtype:metal>);
 netherBoronOre.register();
 
-//Nether Magnesium Ore
+// Nether Magnesium Ore
 var netherMagnesiumOre = VanillaFactory.createBlock("nether_magnesium_ore", <blockmaterial:rock>); 
 netherMagnesiumOre.setBlockHardness(5.0); 
 netherMagnesiumOre.setBlockResistance(30.0);
@@ -138,7 +192,7 @@ netherMagnesiumOre.setToolLevel(3);
 netherMagnesiumOre.setBlockSoundType(<soundtype:metal>);
 netherMagnesiumOre.register();
 
-//Nether Lithium Ore
+// Nether Lithium Ore
 var netherLithiumOre = VanillaFactory.createBlock("nether_lithium_ore", <blockmaterial:rock>); 
 netherLithiumOre.setBlockHardness(5.0); 
 netherLithiumOre.setBlockResistance(30.0);
@@ -147,7 +201,7 @@ netherLithiumOre.setToolLevel(3);
 netherLithiumOre.setBlockSoundType(<soundtype:metal>);
 netherLithiumOre.register();
 
-//Nether Thorium Ore
+// Nether Thorium Ore
 var netherThoriumOre = VanillaFactory.createBlock("nether_thorium_ore", <blockmaterial:rock>); 
 netherThoriumOre.setBlockHardness(5.0); 
 netherThoriumOre.setBlockResistance(30.0);
@@ -156,7 +210,7 @@ netherThoriumOre.setToolLevel(3);
 netherThoriumOre.setBlockSoundType(<soundtype:metal>);
 netherThoriumOre.register();
 
-//Nether Uranium Ore
+// Nether Uranium Ore
 var netherUraniumOre = VanillaFactory.createBlock("nether_uranium_ore", <blockmaterial:rock>); 
 netherUraniumOre.setBlockHardness(5.0); 
 netherUraniumOre.setBlockResistance(30.0);

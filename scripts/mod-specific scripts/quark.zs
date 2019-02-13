@@ -3,25 +3,12 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemTransformer;
 
 val itemsToDisable =[
-  // Bark blocks
-  // Barkifier lets you make bark from any mod, so these items were redundant
-  <quark:bark:0>,
-  <quark:bark:1>,
-  <quark:bark:2>,
-  <quark:bark:3>,
-  <quark:bark:4>,
-  <quark:bark:5>
+
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
   
 val craftingToDisable =[
-  // Bark blocks
-  <quark:bark:0>,
-  <quark:bark:1>,
-  <quark:bark:2>,
-  <quark:bark:3>,
-  <quark:bark:4>,
-  <quark:bark:5>
+
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
