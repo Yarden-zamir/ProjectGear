@@ -12,7 +12,7 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:pigiron>);
 mods.tconstruct.Alloy.addRecipe(<liquid:pigiron> * 144, [<liquid:iron> * 144, <liquid:blood> * 40, <liquid:coal> * 72]);
 
 //Smeltery Quicklime
-mods.tconstruct.Melting.addRecipe(<liquid:quicklime> * 36,<earthworks:item_quicklime>);
+mods.tconstruct.Melting.addRecipe(<liquid:quicklime> * 36,<contenttweaker:quicklime_pile>);
 mods.tconstruct.Melting.addRecipe(<liquid:quicklime> * 36,<contenttweaker:sulfuric_quicklime>);
 
 //Alloying To Impure Steel
@@ -78,7 +78,7 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:calcium_sulfide
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:sulfuric_quicklime>*16, <nuclearcraft:compound:0>*3, <contenttweaker:calcium_sulfide>, 200);
 
 //Sulfuric Quicklime to... regular quicklime.
-mods.forestry.Centrifuge.addRecipe([<botany:misc:3> % 100, <earthworks:item_quicklime> % 100], <contenttweaker:sulfuric_quicklime>, 100);
+mods.forestry.Centrifuge.addRecipe([<botany:misc:3> % 100, <contenttweaker:quicklime_pile> % 100], <contenttweaker:sulfuric_quicklime>, 100);
 
 //Handling Smol Boye Sulfur Dust
 recipes.addShapeless("sulphur_big_to_small",<botany:misc:3>*4,[<thermalfoundation:material:771>]);

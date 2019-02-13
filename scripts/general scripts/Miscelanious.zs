@@ -31,7 +31,7 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:leather> * 2, <contenttweaker:oi
 mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:sinew> * 2, <minecraft:saddle>, 2048);
 
 // Centrifuge: Rotten Flesh -> [Sand Pile (Earthworks) 25%, Leather Scrap 10%, Monster Jerky 5%, Coagulated Blood 1%]
-mods.forestry.Centrifuge.addRecipe([<earthworks:item_sand> % 25, <contenttweaker:sinew> % 20, <tconstruct:edible:10> % 5, <tconstruct:edible:33> % 1], <minecraft:rotten_flesh>, 100);
+mods.forestry.Centrifuge.addRecipe([<contenttweaker:sand_pile> % 25, <contenttweaker:sinew> % 20, <tconstruct:edible:10> % 5, <tconstruct:edible:33> % 1], <minecraft:rotten_flesh>, 100);
 
 mods.forestry.Carpenter.addRecipe(<contenttweaker:oiled_leather>, [[<contenttweaker:sinew>,<contenttweaker:sinew>],[<contenttweaker:sinew>,<contenttweaker:sinew>]], 60, <liquid:seed.oil> * 1000);
 
