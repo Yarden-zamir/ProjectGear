@@ -67,8 +67,9 @@ Added mods:
 -EZStorage 2
 -Logistics Pipes
 -Added Apathetic Mobs
+-Advanced Inventory Management
 
-Changes:
+Changes and Fixes:
 -Fixed UniDict being aggressive and stripping items of their Ore Dictionary tags
 -All three sizes of iron/nickel ore veins are now twice as common
 -Random Things' Time in a Bottle now accumulates time 5x as fast (20 >100 ticks per second)
