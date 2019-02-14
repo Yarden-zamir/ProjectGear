@@ -90,7 +90,7 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 2, 
  
  val steelRod = <tconstruct:tool_rod>.withTag({Material: "steel"});
  
- stickSteel.add(steelRod);
+ //stickSteel.add(steelRod);
  
 
 recipes.remove(<immersiveengineering:metal_decoration1:1>);
