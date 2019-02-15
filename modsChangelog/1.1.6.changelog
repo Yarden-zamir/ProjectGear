@@ -53,11 +53,11 @@ Updated mods:
 -Toast Control
 
 Removed mods:
--Earthworks
--Barkifier
--Nutrition
--Track API
--Immersive Railroading
+-Earthworks - I'm not a fan of the textures
+-Barkifier - Incompatible with Logistics Pipes
+-Nutrition - Without negative debuffs, this mod didn't impact gameplay
+-Track API - Only required for Immersive Railroading
+-Immersive Railroading - Fun to automate, but lags JEI and uses up a lot of RAM for a fairly niche mod
 
 
 Added mods:
@@ -72,4 +72,21 @@ Added mods:
 Changes and Fixes:
 -Fixed UniDict being aggressive and stripping items of their Ore Dictionary tags
 -All three sizes of iron/nickel ore veins are now twice as common
--Random Things' Time in a Bottle now accumulates time 5x as fast (20 >100 ticks per second)
+-Random Things' Time in a Bottle now accumulates time 5x as fast (20 > 100 ticks per second)
+-Apathetic Mobs now only takes effect in easy difficulty. In normal and hard, mob will attack you as always.
+-Disabled those annoying one-block waterfalls in caves
+-Disabled CrossroadsMC's copper and tin ore generation
+-Fixed ore veins only generating in the overworld
+-Disabled Tome of Alkahestry in the config. It was already disabled, but this is cleaner and hided the JEI recipe tab.
+-Enabled Quark logs
+-Disabled Reliquary's pedestal. This was making some automation tasks too easy.
+-Disabled the ejection, injection and input ports from EZStorage 2. The mod no longer interacts with hoppers or pipes. The mod is intended to be an early game storage option before you set up tons of automation.
+-Updated Universal Guide and Universal Omniwrench to include the new guide books and wrenches
+-Disabled Itemducts, Fluiducts, retrievers, filters and 
+
+New Content Tweaker items:
+-Pebbles for various stone types (quarried stone, granite, marble, etc)
+-Sand pile (replaces Earthworks item)
+-Quicklime pile (replaces Earthworks item)
+-Upgrade frame
+-Wooden frame

@@ -64,6 +64,11 @@ recipes.addShaped(<minecraft:sponge:1>,
 recipes.addShaped(<minecraft:torch> * 8,
 	[[<quark:tallow>],
 	 [<ore:stickWood>]]);
+	 
+// Craft sand piles into sand
+recipes.addShapeless(<minecraft:sand>, [<contenttweaker:sand_pile>, <contenttweaker:sand_pile>, <contenttweaker:sand_pile>, <contenttweaker:sand_pile>]);
+// Craft sand into sand piles
+recipes.addShapeless(<contenttweaker:sand_pile> * 4, [<minecraft:sand>]);
 
 #recipe removal
 // roten flesh -> leather
