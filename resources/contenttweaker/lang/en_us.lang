@@ -49,6 +49,7 @@ tile.contenttweaker.nether_lithium_ore.name=Nether Lithium Ore
 tile.contenttweaker.nether_boron_ore.name=Nether Boron Ore
 tile.contenttweaker.nether_thorium_ore.name=Nether Thorium Ore
 tile.contenttweaker.nether_uranium_ore.name=Nether Uranium Ore
+tile.contenttweaker.coarse_gravel.name=Coarse Gravel
 
 // Age portal blocks:
 tile.contenttweaker.age_portal_black.name=Black Ceramic Frame

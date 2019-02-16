@@ -220,3 +220,14 @@ netherUraniumOre.setToolClass("pickaxe");
 netherUraniumOre.setToolLevel(3); 
 netherUraniumOre.setBlockSoundType(<soundtype:metal>);
 netherUraniumOre.register();
+
+
+// Coarse Gravel
+val coarse_gravel = VanillaFactory.createBlock("coarse_gravel", <blockmaterial:rock>);
+coarse_gravel.setBlockHardness(0.5);
+coarse_gravel.setBlockResistance(2.5);
+coarse_gravel.setGravity(true);
+coarse_gravel.setBlockSoundType(<soundtype:ground>);
+coarse_gravel.setToolClass("shovel");
+coarse_gravel.setToolLevel(0);
+coarse_gravel.register();
