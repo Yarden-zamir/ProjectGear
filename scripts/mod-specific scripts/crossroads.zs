@@ -15,7 +15,7 @@ recipes.addShaped(<crossroads:gear_iron> * 9,
 	 [null, <ore:ingotIron>, null]]);
 	 
 recipes.addShaped(<crossroads:gear_gold>,
-	[[null, <ore:nuggetGold>, null,
+	[[null, <ore:nuggetGold>, null],
 	 [<ore:nuggetGold>, <ore:ingotGold>, <ore:nuggetGold>],
 	 [null, <ore:nuggetGold>, null]]);
 	 
