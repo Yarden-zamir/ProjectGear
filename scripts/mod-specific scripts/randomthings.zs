@@ -38,3 +38,7 @@ recipes.addShaped(<randomthings:blockbreaker>,
 	
 // Craft glowing mushrooms
 recipes.addShapeless(<randomthings:glowingmushroom>, [<ore:mushroomAny>, <ore:mushroomAny>, <natura:nether_glowshroom:*>, <natura:nether_glowshroom:*>]);
+
+// Alternative luminous dust recipes that use other glowing mushroom types:.
+recipes.addShaped("gear_crafting_luminouspowder_alt1", <randomthings:ingredient:5> * 4, [[<minecraft:glowstone_dust>, <ore:blockGlassColorless>], [null, <quark:glowshroom>]]);
+recipes.addShaped("gear_crafting_luminouspowder_alt2", <randomthings:ingredient:5> * 4, [[<minecraft:glowstone_dust>, <ore:blockGlassColorless>], [null, <nuclearcraft:glowing_mushroom>]]);
