@@ -48,6 +48,7 @@ scripts.functions.disableCraftings(craftingToDisable);
 
 #recipes
 
+
 // Boron + slag = 4x boron
 mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:ingot:5>*4, boronOre, slag, 100);
 mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:ingot:5>*4, slag, boronOre, 100);
@@ -76,7 +77,7 @@ scripts.functions.rename(<nuclearcraft:ore:3>,"Thorite Ore");
 
 // Make obtaining Nuclearcraft glowing mushrooms more interesting
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>);
-recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<ore:mushroomAny>, <ore:mushroomAny>, <natura:nether_glowshroom:*>, <natura:nether_glowshroom:*>]);
+recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<natura:nether_mushroom:*>, <ore:dustGlowstone>])
 
 // Alternate recipe for copper solenoid that uses nickel instead of iron
 recipes.addShapedMirrored(<nuclearcraft:part:4> * 2,

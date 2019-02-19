@@ -35,3 +35,6 @@ recipes.addShaped(<randomthings:blockbreaker>,
     [[<ore:cobblestone>, <tconstruct:pick_head>.withTag({Material: "iron"}), <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:redstone_torch>, <ore:cobblestone>],
     [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+	
+// Craft glowing mushrooms
+recipes.addShapeless(<randomthings:glowingmushroom>, [<ore:mushroomAny>, <ore:mushroomAny>, <natura:nether_glowshroom:*>, <natura:nether_glowshroom:*>]);
