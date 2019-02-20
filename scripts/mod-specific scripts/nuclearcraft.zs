@@ -77,7 +77,7 @@ scripts.functions.rename(<nuclearcraft:ore:3>,"Thorite Ore");
 
 // Make obtaining Nuclearcraft glowing mushrooms more interesting
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>);
-recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<natura:nether_mushroom:*>, <ore:dustGlowstone>])
+recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<natura:nether_glowshroom:*>, <ore:dustGlowstone>]);
 
 // Alternate recipe for copper solenoid that uses nickel instead of iron
 recipes.addShapedMirrored(<nuclearcraft:part:4> * 2,

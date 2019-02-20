@@ -45,7 +45,15 @@ val itemsToDisable =[
     <natura:sticks:9>,
     <natura:sticks:10>,
     <natura:sticks:11>,
-    <natura:sticks:12>
+    <natura:sticks:12>,
+	// Cotton and barley
+	<natura:materials:3>,
+	<natura:materials>,
+	<natura:materials:1>,
+	<natura:overworld_seeds>,
+	<natura:overworld_seeds:1>,
+	<natura:overworld_seed_bags>,
+	<natura:overworld_seed_bags:1>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
