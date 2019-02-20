@@ -20,8 +20,6 @@ val craftingToDisable =[
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
-
-// Script by DolphinBlaster
 // Makes Immersive Engineering relays and wire connectors require Magneticraft wire connectors. These must be made in the Thermionic Fabricator.
 
 // MV Wire Connector recipe removal
@@ -349,3 +347,20 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:napalm>, <liquid:gasoline>, [<
 mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust>, <ore:ingotArdite>, 2048);
 mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust> * 2, <contenttweaker:ardite_chunk>, 2048, <tconstruct:nuggets:0> * 9, 0.25);
 mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust> * 2, <ore:oreArdite>, 2048);
+
+// Change aluminum items to tin:
+	// Scaffolding
+recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_scaffolding");
+recipes.addShaped(<immersiveengineering:metal_decoration1:5> * 6, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [null, <ore:stickAluminum>, null], [<ore:stickAluminum>, null, <ore:stickAluminum>]]);
+
+	// Fence
+recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_fence");
+recipes.addShaped(<immersiveengineering:metal_decoration1:4> * 3, [[<ore:ingotAluminum>, <ore:stickAluminum>, <ore:ingotAluminum>], [<ore:ingotAluminum>, <ore:stickAluminum>, <ore:ingotAluminum>]]);
+
+	// Sheet metal
+recipes.removeByRecipeName("immersiveengineering:sheetmetal/aluminum_sheetmetal");
+recipes.addShaped(<immersiveengineering:sheetmetal:1> * 4, [[null, <ore:plateAluminum>, null], [<ore:plateAluminum>, null, <ore:plateAluminum>], [null, <ore:plateAluminum>, null]]);
+
+	// Wall mount
+recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_wallmount");
+recipes.addShaped(<immersiveengineering:metal_decoration2:3> * 4, [[<ore:ingotAluminum>, <ore:ingotAluminum>], [<ore:ingotAluminum>, <ore:stickAluminum>]]);

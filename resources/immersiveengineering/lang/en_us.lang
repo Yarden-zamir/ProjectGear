@@ -1,0 +1,18 @@
+// Rename aluminum items to tin (except ingot, dust, plate, block, slab and nugget)
+item.immersiveengineering.material.wire_aluminum.name=Tin Wire
+tile.immersiveengineering.metal_decoration1.aluminum_fence.name=Tin Fence
+tile.immersiveengineering.metal_decoration1.aluminum_fence.name=Tin Fence
+tile.immersiveengineering.metal_decoration1.aluminum_scaffolding_0.name=Tin Scaffolding
+tile.immersiveengineering.metal_decoration1.aluminum_scaffolding_1.name=Tin Scaffolding
+tile.immersiveengineering.metal_decoration1.aluminum_scaffolding_2.name=Tin Scaffolding
+tile.immersiveengineering.metal_decoration2.aluminum_post.name=Tin Post
+tile.immersiveengineering.metal_decoration2.aluminum_wallmount.name=Tin Wallmount
+tile.immersiveengineering.metal_decoration1_slab.aluminum_scaffolding_0.name=Tin Scaffolding Slab
+tile.immersiveengineering.metal_decoration1_slab.aluminum_scaffolding_1.name=Tin Scaffolding Slab
+tile.immersiveengineering.metal_decoration1_slab.aluminum_scaffolding_2.name=Tin Scaffolding Slab
+tile.immersiveengineering.aluminum_scaffolding_stairs0.name=Tin Scaffolding Stairs
+tile.immersiveengineering.aluminum_scaffolding_stairs1.name=Tin Scaffolding Stairs
+tile.immersiveengineering.aluminum_scaffolding_stairs2.name=Tin Scaffolding Stairs
+item.immersiveengineering.material.stick_aluminum.name=Tin Rod
+tile.immersiveengineering.sheetmetal.aluminum.name=Tin Sheetmetal
+tile.immersiveengineering.sheetmetal_slab.aluminum.name=Tin Sheetmetal Slab
