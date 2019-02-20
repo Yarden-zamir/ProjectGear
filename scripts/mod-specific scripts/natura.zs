@@ -101,7 +101,10 @@ val craftingToDisable =[
     <natura:sticks:9>,
     <natura:sticks:10>,
     <natura:sticks:11>,
-    <natura:sticks:12>
+    <natura:sticks:12>,
+	// Barley and cotton seed bags
+	<natura:overworld_seed_bags>,
+	<natura:overworld_seed_bags:1>
 
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
