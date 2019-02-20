@@ -184,7 +184,7 @@
 		{	
             "block": "thermalfoundation:ore",	
             "weight": 50,	
-			"meta": 4	
+			"meta": 5
         }
  	
     ],	
@@ -192,7 +192,7 @@
     "rarity": 1500,	
     "min_y": 5,	
     "max_y": 55,	
-    "density": 15,	
+    "density": 15,
     "vertical_size": 35,	
     "horizontal_size": 100,	
 	"biomes": [	
