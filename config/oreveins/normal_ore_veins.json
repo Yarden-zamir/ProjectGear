@@ -269,9 +269,9 @@
     "rarity": 15,
     "min_y": 1,
     "max_y": 32,
-    "density": 20,
+    "density": 50,
     "vertical_size": 3,
-    "horizontal_size": 3,
+    "horizontal_size": 9,
 	"dimensions": [ -2 ],
 	"dimensions_is_whitelist": false
   }
