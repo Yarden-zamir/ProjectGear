@@ -169,7 +169,8 @@ mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
 mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:352>, false);
 
 
-// Electric Connector craft 4 instead of 8
+// Electric Connector craft 2 instead of 8
+recipes.removeShaped(<magneticraft:connector>);
 recipes.addShapedMirrored(<magneticraft:connector> * 2,
     [[null, null, null],
     [null, <ore:ingotIron>, null],
