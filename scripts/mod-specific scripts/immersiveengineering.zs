@@ -395,7 +395,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration2:1> * 4, [[<ore:ingotSt
 recipes.addShaped(<immersiveengineering:toolupgrade:6>, [[<immersiveengineering:material:26>, <immersiveengineering:material:26>, <immersiveengineering:material:26>], [steelStickOrRod, <ore:wireCopper>, steelStickOrRod]]);
 
 	// Metal laddar
-recipes.addShaped(<immersiveengineering:metal_ladder> * 3, [[null, null, null], [null, null, null], [null, null, null]]);
+recipes.addShaped(<immersiveengineering:metal_ladder> * 3, [[steelStickOrRod, null, steelStickOrRod], [steelStickOrRod, steelStickOrRod, steelStickOrRod], [steelStickOrRod, null, steelStickOrRod]]);
 
 	// Structural Cable Connector
 recipes.addShaped(<immersiveengineering:connector:6> * 8, [[<ore:ingotSteel>, steelStickOrRod, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
@@ -404,7 +404,7 @@ recipes.addShaped(<immersiveengineering:connector:6> * 8, [[<ore:ingotSteel>, st
 recipes.addShaped(<engineersdoors:fencegate_steel>, [[steelStickOrRod, <ore:ingotSteel>, steelStickOrRod], [steelStickOrRod, <ore:ingotSteel>, steelStickOrRod]]);
 
 	// Strip curtain
-recipes.addShaped(<immersiveengineering:cloth_device:2> * 3, [[null, null, null], [<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>], [<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>]]);
+recipes.addShaped(<immersiveengineering:cloth_device:2> * 3, [[steelStickOrRod, steelStickOrRod, steelStickOrRod], [<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>], [<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>]]);
 
 	// Revolver barrel
 recipes.addShaped(<immersiveengineering:material:14>, [[steelStickOrRod, steelStickOrRod]]);
