@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemTransformer;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
 
 val itemsToDisable =[
   // Garden cloche
@@ -92,16 +93,16 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 2, 
  
  //stickSteel.add(steelRod);
  
-
+/*
 recipes.remove(<immersiveengineering:metal_decoration1:1>);
 recipes.remove(<engineersdoors:fencegate_steel>);
 recipes.remove(<immersiveengineering:metal_decoration1>);
-/*
+
 recipes.remove(<immersiveengineering:metal_laddar>);
 recipes.remove(<immersiveengineering:toolupgrade:6>);
 recipes.remove(<immersiveengineering:metal_decoration2:1>);
 recipes.remove(<immersiveengineering:material:14>);
-*/
+
 recipes.addShaped("Gear_SteelScaffoldOreDict", <immersiveengineering:metal_decoration1:1>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[null,<ore:stickSteel>,null],[<ore:stickSteel>,null,<ore:stickSteel>]]);
 recipes.addShaped("Gear_SteelScaffoldOreDictTicon",<immersiveengineering:metal_decoration1:1>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[null,steelRod,null],[steelRod,null,steelRod]]);
 recipes.addShaped("Gear_SteelFenceGateOreDict", <engineersdoors:fencegate_steel>,[[<ore:ingotSteel>,<ore:stickSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:stickSteel>,<ore:ingotSteel>]]);
@@ -110,7 +111,7 @@ recipes.addShaped("Gear_SteelFenceOreDict",<immersiveengineering:metal_decoratio
 recipes.addShaped("Gear_SteelFenceOreDictTicon",<immersiveengineering:metal_decoration1:1>,[[steelRod,<ore:ingotSteel>,steelRod],[steelRod,<ore:ingotSteel>,steelRod]]);
 //recipes.addShaped("Gear_SteelLaddarOreDict", <immersiveengineering:metal_laddar>
  
-/*
+
 	// Steel Fence Gate
 recipes.removeShaped(<engineersdoors:fencegate_steel>);
 recipes.addShaped(<engineersdoors:fencegate_steel> * 2,
@@ -305,6 +306,9 @@ mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>
 // Casull Cartridge: Lead Nugget -> Copper Nugget
 mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "casull"}), 
 	[<immersiveengineering:bullet>, <minecraft:gunpowder>, <ore:nuggetCopper>, <ore:nuggetCopper>]);
+	
+mods.immersiveengineering.Blueprint.addRecipe("Common Projectiles", <immersiveengineering:bullet:2>.withTag({bullet: "casull"}),
+	[<immersiveengineering:bullet>, <minecraft:gunpowder>, <ore:nuggetCopper>, <ore:nuggetCopper>]);
 
 // Silver Cartridge Blueprint recipe removal
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>.withTag({bullet: "silver"}));
@@ -349,6 +353,10 @@ mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust> * 2, <c
 mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust> * 2, <ore:oreArdite>, 2048);
 
 // Change aluminum items to tin:
+	// Adds stickTin ore dictionary tag to aluminium rod
+var stickTin = <ore:stickTin>; //Declares new ore dictionary tag
+stickTin.add(<immersiveengineering:material:3>);
+
 	// Scaffolding
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_scaffolding");
 recipes.addShaped(<immersiveengineering:metal_decoration1:5> * 6, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [null, <ore:stickAluminum>, null], [<ore:stickAluminum>, null, <ore:stickAluminum>]]);
@@ -359,8 +367,44 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:4> * 3, [[<ore:ingotAl
 
 	// Sheet metal
 recipes.removeByRecipeName("immersiveengineering:sheetmetal/aluminum_sheetmetal");
-recipes.addShaped(<immersiveengineering:sheetmetal:1> * 4, [[null, <ore:plateAluminum>, null], [<ore:plateAluminum>, null, <ore:plateAluminum>], [null, <ore:plateAluminum>, null]]);
+recipes.addShaped(<immersiveengineering:sheetmetal:1> * 4, [[null, <ore:plateTin>, null], [<ore:plateTin>, null, <ore:plateTin>], [null, <ore:plateTin>, null]]);
 
 	// Wall mount
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_wallmount");
 recipes.addShaped(<immersiveengineering:metal_decoration2:3> * 4, [[<ore:ingotAluminum>, <ore:ingotAluminum>], [<ore:ingotAluminum>, <ore:stickAluminum>]]);
+
+	// Rod
+ recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_wallmount");
+ recipes.addShaped(<immersiveengineering:material:3> * 4, [[<ore:ingotTin>], [<ore:ingotTin>]]);
+ 
+ 
+// Steel:
+
+val steelStickOrRod = <ore:stickSteel> | <tconstruct:tool_rod>.withTag({Material: "steel"});
+
+	// Fence
+recipes.addShaped(<immersiveengineering:metal_decoration1> * 3, [[<ore:ingotSteel>, steelStickOrRod, <ore:ingotSteel>], [<ore:ingotSteel>, steelStickOrRod, <ore:ingotSteel>]]);
+
+	// Scaffolding
+recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 6, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [null, steelStickOrRod, null], [steelStickOrRod, null, steelStickOrRod]]);
+
+	// Wallmound
+recipes.addShaped(<immersiveengineering:metal_decoration2:1> * 4, [[<ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, steelStickOrRod]]);
+
+	// Amplifier electron tube
+recipes.addShaped(<immersiveengineering:toolupgrade:6>, [[<immersiveengineering:material:26>, <immersiveengineering:material:26>, <immersiveengineering:material:26>], [steelStickOrRod, <ore:wireCopper>, steelStickOrRod]]);
+
+	// Metal laddar
+recipes.addShaped(<immersiveengineering:metal_ladder> * 3, [[null, null, null], [null, null, null], [null, null, null]]);
+
+	// Structural Cable Connector
+recipes.addShaped(<immersiveengineering:connector:6> * 8, [[<ore:ingotSteel>, steelStickOrRod, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
+
+	// Fence gate
+recipes.addShaped(<engineersdoors:fencegate_steel>, [[steelStickOrRod, <ore:ingotSteel>, steelStickOrRod], [steelStickOrRod, <ore:ingotSteel>, steelStickOrRod]]);
+
+	// Strip curtain
+recipes.addShaped(<immersiveengineering:cloth_device:2> * 3, [[null, null, null], [<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>], [<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>]]);
+
+	// Revolver barrel
+recipes.addShaped(<immersiveengineering:material:14>, [[steelStickOrRod, steelStickOrRod]]);
