@@ -1,0 +1,9 @@
+Added mods:
+-Simple Storage Network
+-Custom Main Menu
+
+Changes and fixes:
+-Iron Jetpack tweaks:
+1. Increased power drain to 833 RF/t on all jetpacks (except the survivalist's jetpack). A 1M RF charge should last 20 minutes.
+2. Reduced jetpack speeds across the board. This should encourage you to pick and choose which jetpack you want.
+3. Reduced RF capacity of survivalist jetpack (10k > 5k). It will still last about 40 minutes.

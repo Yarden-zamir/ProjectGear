@@ -80,7 +80,7 @@ recipes.addShaped(<ironjetpacks:strap>,
 	[[<minecraft:leather>, <ore:ingotTin>, <minecraft:leather>]]);
 
 // Craft survivalist's jetpack
-// Has full energy when crafter
+// Has full energy when crafted
 recipes.addShaped(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}),
 	[[<botania:livingwood:1>, <ore:dustRedstone>, <botania:livingwood:1>],
 	 [<botania:livingwood:1>, <ironjetpacks:strap>, <botania:livingwood:1>],
@@ -116,4 +116,4 @@ recipes.addShapeless("gear_shapeless_explorerJetpack", <ironjetpacks:explorer_je
   }, null);
   
 // Repair survivalist jetpack with etherium
-recipes.addShapeless(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}), [<ironjetpacks:survivalist_jetpack>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})]);
+recipes.addShapeless(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}), [<ironjetpacks:survivalist_jetpack>, <minecraft:blaze_powder>]);
