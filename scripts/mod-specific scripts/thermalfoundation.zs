@@ -4,32 +4,13 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.integrateddynamics.MechanicalSqueezer;
 
 val itemsToDisable =[
-  <thermalfoundation:tool.hammer_copper>,
-  <thermalfoundation:tool.hammer_tin>,
-  <thermalfoundation:tool.hammer_aluminum>,
-  <thermalfoundation:tool.hammer_steel>,
-  <thermalfoundation:tool.hammer_bronze>,
-  <thermalfoundation:tool.hammer_electrum>,
-  // note: Disable TF hammers
-  <thermalfoundation:tool.bow_copper>,
-  <thermalfoundation:tool.bow_tin>,
-  <thermalfoundation:tool.bow_aluminum>,
-  <thermalfoundation:tool.bow_steel>,
-  <thermalfoundation:tool.bow_bronze>,
-  <thermalfoundation:tool.bow_electrum>,
-  // note: Disable TF bow
-  <thermalfoundation:tool.sickle_copper>,
-  <thermalfoundation:tool.sickle_tin>,
-  <thermalfoundation:tool.sickle_aluminum>,
-  <thermalfoundation:tool.sickle_steel>,
-  <thermalfoundation:tool.sickle_bronze>,
-  <thermalfoundation:tool.sickle_electrum>,
-  // note: Disable TF sickle
+  // Slag
   <thermalfoundation:material:864>,
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
 val craftingToDisable =[
+  // Makes gears uncraftable. Machines are required instead.
   <thermalfoundation:material:24>,
   <thermalfoundation:material:25>,
   <thermalfoundation:material:156>,
@@ -49,7 +30,7 @@ val craftingToDisable =[
   <thermalfoundation:material:290>,
   <thermalfoundation:material:289>,
   <thermalfoundation:material:288>,
-  // Makes gears uncraftable. Machines are required instead.
+  // Makes plates uncraftable. Machines are required instead.
   <thermalfoundation:material:32>,
   <thermalfoundation:material:33>,
   <thermalfoundation:material:327>,
@@ -69,17 +50,15 @@ val craftingToDisable =[
   <thermalfoundation:material:324>,
   <thermalfoundation:material:325>,
   <thermalfoundation:material:326>,
-  // Makes plates uncraftable. Machines are required instead.
+  // Makes electrum, bronze, constantan and invar dust uncraftable
   <thermalfoundation:material:97>,
   <thermalfoundation:material:98>,
   <thermalfoundation:material:99>,
   <thermalfoundation:material:100>,
-  // Makes electrum, bronze, constantan and invar dust uncraftable
+  // Makes Signalium, Lumium, and Enderium blends uncraftable.
   <thermalfoundation:material:101>,
   <thermalfoundation:material:102>,
   <thermalfoundation:material:103>
-  // Makes Signalium, Lumium, and Enderium blends uncraftable.
-
 
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
