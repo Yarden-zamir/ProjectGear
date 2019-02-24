@@ -81,12 +81,12 @@ recipes.addShaped(<ironjetpacks:strap>,
 
 // Craft survivalist's jetpack
 // Has full energy when crafted
-recipes.addShaped(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}),
+recipes.addShaped(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 5000}),
 	[[<botania:livingwood:1>, <ore:dustRedstone>, <botania:livingwood:1>],
 	 [<botania:livingwood:1>, <ironjetpacks:strap>, <botania:livingwood:1>],
 	 [<minecraft:blaze_powder>, null, <minecraft:blaze_powder>]]);
 	 
-recipes.addShaped(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}),
+recipes.addShaped(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 5000}),
 	[[<ore:plankTreatedWood>, <ore:dustRedstone>, <ore:plankTreatedWood>],
 	 [<ore:plankTreatedWood>, <ironjetpacks:strap>, <ore:plankTreatedWood>],
 	 [<minecraft:blaze_powder>, null, <minecraft:blaze_powder>]]);
