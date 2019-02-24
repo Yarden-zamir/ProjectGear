@@ -141,3 +141,6 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:egg>, <minecraft:feather>, 250);
 CrushingTable.addRecipe(<minecraft:cobblestone>, <minecraft:gravel>, true);
 // Crush gravel into sand
 CrushingTable.addRecipe(<minecraft:gravel>, <minecraft:sand>, true);
+
+// Melt cows to get milk
+mods.tconstruct.Melting.addEntityMelting(<entity:minecraft:cow>, <liquid:milk>);
