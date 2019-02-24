@@ -266,6 +266,26 @@ mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:640>,
     [<minecraft:redstone>,<minecraft:iron_ingot>,<minecraft:redstone>]],
     <liquid: glass> * 500);
 	
+//Craft tool casings from either manasteel or compressed iron
+recipes.addShaped(<thermalfoundation:material:640>,
+ [[null, <minecraft:redstone>, null],
+  [<botania:manaresource>, <minecraft:redstone>, <botania:manaresource>],
+  [<minecraft:redstone>, <minecraft:gold_ingot>, <minecraft:redstone>]]);
+recipes.addShaped(<thermalfoundation:material:640>,
+ [[null, <minecraft:redstone>, null],
+  [<pneumaticcraft:ingot_iron_compressed>, <minecraft:redstone>, <pneumaticcraft:ingot_iron_compressed>],
+  [<minecraft:redstone>, <minecraft:gold_ingot>, <minecraft:redstone>]]);
+ 
+//Craft servos from either manasteel or compressed iron
+recipes.addShaped(<thermalfoundation:material:512>,
+ [[null, <minecraft:redstone>, null],
+  [null, <pneumaticcraft:ingot_iron_compressed>, null],
+  [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<thermalfoundation:material:512>,
+ [[null, <minecraft:redstone>, null],
+  [null, <botania:manaresource>, null],
+  [null, <minecraft:redstone>, null]]);
+	
 // Turn logs into sawdust with a hammer or a crusher
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:800> * 4, <ore:logWood>, 8000);
 recipes.addShapeless(<thermalfoundation:material:800>, [<immersiveengineering:tool>.transformDamage(), <ore:logWood>]);
@@ -330,9 +350,6 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:768>, <m
 // Squeezing coal in an Integrated Dynamics squeezer gives 32mb of liquid clay as a byproduct
 MechanicalSqueezer.removeRecipe(<minecraft:coal>, <thermalfoundation:material:768>, null);
 MechanicalSqueezer.addRecipe(<minecraft:coal>, <thermalfoundation:material:768>, <liquid:dirt> * 36);
-
-
-
 
 	
 // Adds complex recipes to hardened glass
