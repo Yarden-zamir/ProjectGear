@@ -2,7 +2,7 @@
   "name": "basic",
   "disable": false,
   "tier": 2,
-  "color": "ce7201",
+  "color": "5F7777",
   "armorPoints": 2,
   "enchantability": 18,
   "craftingMaterial": "ore:ingotTin",

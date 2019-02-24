@@ -2,7 +2,7 @@
   "name": "explorer",
   "disable": false,
   "tier": 3,
-  "color": "3e72114",
+  "color": "A20000",
   "armorPoints": 2,
   "enchantability": 18,
   "craftingMaterial": "ore:ingotTin",

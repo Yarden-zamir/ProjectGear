@@ -1,8 +1,8 @@
 {
-  "name": "cloudrider",
+  "name": "architect",
   "disable": false,
   "tier": 3,
-  "color": "5bdd0f2",
+  "color": "E89E00",
   "armorPoints": 2,
   "enchantability": 18,
   "craftingMaterial": "ore:ingotTin",
