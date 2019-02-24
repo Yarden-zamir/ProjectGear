@@ -322,6 +322,10 @@ recipes.addShaped(<thermalfoundation:upgrade:1>,
 	[<ore:ingotElectrum>, <ore:gearNickel>, <ore:ingotElectrum>], 
 	[<ore:blockGlassHardened>, <ore:ingotElectrum>, <ore:blockGlassHardened>]]);
 	
+// Change Immersive Engineering coal crushing recipe to also give sulfur
+Crusher.removeRecipe(coalDust);
+Crusher.addRecipe(<ore:coalDust>, <minecraft:coal>, 2048, <ore:sulfur>, 0.1);
+	
 // Adds complex recipes to hardened glass
 // Credit to πß_off
 val HardenedBase = <thermalfoundation:glass:3>;
