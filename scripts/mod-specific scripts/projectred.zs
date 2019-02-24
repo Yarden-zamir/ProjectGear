@@ -172,6 +172,9 @@ mods.factorytech.Electroplater.addRecipe(<minecraft:redstone>, <projectred-core:
 // Fluxed Electrum Dust + Lapis to 4 Electrotine dust
 mods.forestry.ThermionicFabricator.addCast(<projectred-core:resource_item:105> * 4, [[<minecraft:dye:4>,<ore:dustCobalt>,null],[null,null,null],[null,null,null]], <liquid: glass> * 200);
 
+// Crafting recipes for electrotine:
+recipes.addShapeless(<projectred-core:resource_item:105> * 8, [<ore:dustCobalt>, <ore:dustSignalum>]);
+
 // You can also craft the Block Breaker with an iron pickaxe head instead of an iron pickaxe. The head conveniently stacks to 64.
 recipes.addShaped(<projectred-expansion:machine2>,
     [[<ore:cobblestone>, <tconstruct:pick_head>.withTag({Material: "iron"}), <ore:cobblestone>],
