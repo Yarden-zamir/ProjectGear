@@ -70,6 +70,17 @@ mods.forestry.ThermionicFabricator.addCast(<magneticraft:connector> * 8,
     [<ore:stone>,<ore:ingotCopper>,<ore:stone>]],
     <liquid: glass> * 500);
 	
+// Craft connectors from manasteel
+recipes.addShaped(<magneticraft:connector>*8,
+ [[null, null, null],
+  [null, <botania:manaresource>, null],
+  [<minecraft:stone>, <thermalfoundation:material:128>, <minecraft:stone>]]);
+// Craft connectors from compressed iron
+recipes.addShaped(<magneticraft:connector>*8,
+ [[null, null, null],
+  [null, <pneumaticcraft:ingot_iron_compressed>, null],
+  [<minecraft:stone>, <thermalfoundation:material:128>, <minecraft:stone>]]);
+	
 #Script segment by boblovepsi
  
 // misc
