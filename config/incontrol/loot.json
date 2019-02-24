@@ -61,6 +61,10 @@
 	},
 	{
 		"mob": "minecraft:witch",
+		"remove": "minecraft:gunpowder"
+	},
+	{
+		"mob": "minecraft:witch",
 		"item": "minecraft:redstone",
 		"random": 0.5,
 		"itemcount": "5-9/6-11/7-13/8-15"
@@ -76,6 +80,17 @@
 		"item": "minecraft:blaze_rod",
 		"random": 0.5,
 		"itemcount": "1"
+	},
+	{
+		"mob": "minecraft:spider",
+		"item": "minecraft:spider_eye",
+		"random": 0.5,
+		"itemcount": "1"
+	},
+	{
+		"mob": "minecraft:cave_spider",
+		"item": "minecraft:spider_eye",
+		"random": 0.5,
+		"itemcount": "1"
 	}
-	
 ]
