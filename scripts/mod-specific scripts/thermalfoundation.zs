@@ -293,9 +293,6 @@ recipes.addShapeless(fert*4,
 scripts.functions.rename(<thermalfoundation:material:832>,"Solidified Brine");
 scripts.functions.rename(<thermalfoundation:material:833>,"Flinted Ash");
 
-// Crusher: Log -> 4 Saw Dust
-mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:800>, <ore:logWood>, 2048);
-
 // Alternate rich phyto-gro recipe
 recipes.addShapeless("saltpeter_charcoal_to_rich_phyto_grow", <thermalfoundation:fertilizer:1> * 1, [<ore:dustSaltpeter>,
  <ore:dustCharcoal>]);
