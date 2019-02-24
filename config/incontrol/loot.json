@@ -34,5 +34,34 @@
 		"random": 0.5,
 		"fire": true,
 		"itemcount": "1-3/1-4/1-5/1-6"
+	},
+	{
+		"mob": "minecraft:witch",
+		"remove": "minecraft:redstone"
+	},
+	{
+		"mob": "minecraft:witch",
+		"remove": "minecraft:glowstone_dust"
+	},
+	{
+		"mob": "minecraft:witch",
+		"remove": "minecraft:stick"
+	},
+	{
+		"mob": "minecraft:witch",
+		"remove": "minecraft:spider_eye"
+	},
+	{
+		"mob": "minecraft:witch",
+		"item": "redstone",
+		"random": 0.5,
+		"itemcount": "5-9/6-11/7-13/8-15"
+	},
+	{
+		"mob": "minecraft:witch",
+		"item": "glowstone_dust",
+		"random": 0.5,
+		"itemcount": "5-9/6-11/7-13/8-15"
 	}
+	
 ]
