@@ -28,6 +28,20 @@
 	"dimensions_is_whitelist": false
   },
   
+  "tiny_rare_coal_vein": {
+    "type": "oreveins:cluster",
+    "ore": "minecraft:coal_ore",
+    "stone": "minecraft:stone",
+    "rarity": 2,
+    "min_y": 1,
+    "max_y": 32,
+    "density": 50,
+    "vertical_size": 3,
+    "horizontal_size": 9,
+	"dimensions": [ -2 ],
+	"dimensions_is_whitelist": false
+  },
+  
   "medium_uncommon_gold_copper_vein": {
     "type": "oreveins:cluster",
     "ore": [

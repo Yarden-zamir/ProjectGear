@@ -142,5 +142,5 @@ CrushingTable.addRecipe(<minecraft:cobblestone>, <minecraft:gravel>, true);
 // Crush gravel into sand
 CrushingTable.addRecipe(<minecraft:gravel>, <minecraft:sand>, true);
 
-// Melt cows to get milk
+// Melt cows in a smeltery to get milk
 mods.tconstruct.Melting.addEntityMelting(<entity:minecraft:cow>, <liquid:milk>);
