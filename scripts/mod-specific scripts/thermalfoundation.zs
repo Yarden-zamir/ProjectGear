@@ -327,9 +327,7 @@ recipes.addShaped(<thermalfoundation:upgrade:1>,
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:768>);
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
 
-// Squeezing coal in an Integrated Dynamics squeezer gives an extra dust 10% of the time
-
-
+// Squeezing coal in an Integrated Dynamics squeezer gives 32mb of liquid clay as a byproduct
 MechanicalSqueezer.removeRecipe(<minecraft:coal>, <thermalfoundation:material:768>, null);
 MechanicalSqueezer.addRecipe(<minecraft:coal>, <thermalfoundation:material:768>, <liquid:dirt> * 36);
 

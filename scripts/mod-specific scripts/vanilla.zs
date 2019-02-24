@@ -4,6 +4,7 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.item.IItemStack;
+import mods.magneticraft.CrushingTable;
 #priority 80
 
 
@@ -135,3 +136,8 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:egg>, <minecraft:feather>, 250);
 
 // Adds tooltip to the bucket to tell you about finite water
 <minecraft:water_bucket>.addTooltip("Infinite water pools only work in wet and snowy biomes, such as oceans, swamps and ice spikes. You can also get water from the Waterworks mod, an everful urn, or by moving water from a wet biome to your base.");
+ 
+// Crush cobblestone into gravel
+CrushingTable.addRecipe(<minecraft:cobblestone>, <minecraft:gravel>, true);
+// Crush gravel into sand
+CrushingTable.addRecipe(<minecraft:gravel>, <minecraft:sand>, true);
