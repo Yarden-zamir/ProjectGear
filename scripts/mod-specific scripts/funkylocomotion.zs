@@ -1,7 +1,25 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+// Hides items from JEI
+val itemsToDisable =[
+	// Frame teleporter
+	<funkylocomotion:teleporter>
+] as IItemStack[];
+scripts.functions.disableItems(itemsToDisable);
+
+// Disabes crafting recipes
+val craftingToDisable =[
+	// Frame teleporter
+	<funkylocomotion:teleporter>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
 
 val invarIngot = <ore:ingotInvar>;
 val electrumIngot = <ore:ingotElectrum>;
+
+<funkylocomotion:teleporter>
 
 
 recipes.removeShaped(<funkylocomotion:frame_0:0>);
