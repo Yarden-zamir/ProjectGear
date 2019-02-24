@@ -19,9 +19,6 @@ scripts.functions.disableCraftings(craftingToDisable);
 val invarIngot = <ore:ingotInvar>;
 val electrumIngot = <ore:ingotElectrum>;
 
-<funkylocomotion:teleporter>
-
-
 recipes.removeShaped(<funkylocomotion:frame_0:0>);
 recipes.addShaped(<funkylocomotion:frame_0:0> * 8,
 	[[invarIngot, invarIngot, invarIngot],
