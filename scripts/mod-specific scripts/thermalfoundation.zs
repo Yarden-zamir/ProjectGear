@@ -324,16 +324,18 @@ recipes.addShaped(<thermalfoundation:upgrade:1>,
 	[<ore:blockGlassHardened>, <ore:ingotElectrum>, <ore:blockGlassHardened>]]);
 	
 // Crushing coal in an Immersive Engineering crusher also gives sulfur 10% of the time
-Crusher.removeRecipe(<ore:dustCoal>);
-Crusher.addRecipe(<ore:dustCoal>, <minecraft:coal>, 2048, <ore:sulfur>, 0.1);
+mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:768>);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:768>, <minecraft:coal>, 2048, <thermalfoundation:material:771>, 0.1);
 
 // Squeezing coal in an Integrated Dynamics squeezer gives an extra dust 10% of the time
 
-MechanicalSqueezer.removeRecipe(<thermalfoundation:material:768>);
-MechanicalSqueezer.addRecipe(<minecraft:coal>, <thermalfoundation:material:768>, <liquid:dirt> * 36, 0.1);
 
-//MechanicalSqueezer.addRecipe(IItemStack inputStack, @Optional IItemStack outputStack, @Optional ILiquidStack outputFluid, @Optional(10) int duration);
-MechanicalSqueezer.addRecipe(<minecraft:melon>, <minecraft:stick>, <liquid:water> * 100, 10);
+MechanicalSqueezer.removeRecipe(<minecraft:coal>, <thermalfoundation:material:768>, null);
+MechanicalSqueezer.addRecipe(<minecraft:coal>, <thermalfoundation:material:768>, <liquid:dirt> * 36);
+
+
+
+
 	
 // Adds complex recipes to hardened glass
 // Credit to πß_off
