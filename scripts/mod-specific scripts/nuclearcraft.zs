@@ -139,3 +139,5 @@ mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:material:24>, 
 // 16 Nitrate Dusts in an Alloy Smelter makes 1 Rhodocrosite
 mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:gem_dust:1>, <ore:dustSaltpeter>, null, 2000);
 
+mods.tconstruct.Melting.addRecipe(<liquid:sulfur> * 144, <ore:dustSulfur>);
+
