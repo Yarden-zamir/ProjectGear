@@ -8,3 +8,6 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     event.addItem(<thaumcraft:amber>.weight(0.05)); //adds amber to the drop list with a 1% chance
   }
 });
+
+// Craft ambient grass
+recipes.addShapeless(<thaumcraft:grass_ambient>, [<minecraft:grass>, <thaumcraft:crystal_essence>]);
