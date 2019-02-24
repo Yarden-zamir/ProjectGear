@@ -53,15 +53,29 @@
 	},
 	{
 		"mob": "minecraft:witch",
-		"item": "redstone",
+		"remove": "minecraft:sugar"
+	},
+	{
+		"mob": "minecraft:witch",
+		"remove": "minecraft:glass_bottle"
+	},
+	{
+		"mob": "minecraft:witch",
+		"item": "minecraft:redstone",
 		"random": 0.5,
 		"itemcount": "5-9/6-11/7-13/8-15"
 	},
 	{
 		"mob": "minecraft:witch",
-		"item": "glowstone_dust",
+		"item": "minecraft:glowstone_dust",
 		"random": 0.5,
 		"itemcount": "5-9/6-11/7-13/8-15"
+	},
+	{
+		"mob": "minecraft:blaze",
+		"item": "minecraft:blaze_rod",
+		"random": 0.5,
+		"itemcount": "1"
 	}
 	
 ]
