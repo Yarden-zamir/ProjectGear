@@ -43,3 +43,6 @@ recipes.addShapeless(<projectred-exploration:stone>,
 // ProjectRed Basalt -> Quark Basalt
 recipes.addShapeless(<projectred-exploration:stone:3>,
     [<quark:basalt>]);
+	
+// Casting Basin: 144 mb Molten Quicklime -> 1 Block of Limestone
+mods.tconstruct.Casting.addBasinRecipe(<quark:limestone>, null, <liquid:quicklime>, 144);
