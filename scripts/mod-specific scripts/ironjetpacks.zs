@@ -116,4 +116,4 @@ recipes.addShapeless("gear_shapeless_explorerJetpack", <ironjetpacks:explorer_je
   }, null);
   
 // Repair survivalist jetpack with etherium
-recipes.addShapeless(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 10000}), [<ironjetpacks:survivalist_jetpack>, <minecraft:blaze_powder>]);
+recipes.addShapeless(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 5000}), [<ironjetpacks:survivalist_jetpack>, <minecraft:blaze_powder>]);
