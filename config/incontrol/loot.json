@@ -17,8 +17,8 @@
 		"random": 0.1
 	},
 	{
-		"mob": "minecraft:zombie",
-		"item": "terraqueous:item_main@100",
-		"random": 0.1
+		"mob": "minecraft:bat",
+		"item": "contenttweaker:guano",
+		"random": 0.5
 	}
 ]
