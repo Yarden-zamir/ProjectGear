@@ -1,17 +1,19 @@
 **WARNING: The next update will remove Charset Barrels and EZ Storage 2. Move your items somewhere else immediately, or they could be lost!**
 
-Added mods:
+This update focuses on bug fixes and small tweaks.
+
+**Added mods:**
 -Simple Storage Network
 -Custom Main Menu
 -Tips
 
-Removes mods:
+**Removes mods:**
 -Just The Tips
 
-Forge:
+**Forge:**
 -Updated to 14.23.5.2815
 
-Updated mods:
+**Updated mods:**
 -AutoRegLib
 -B.A.S.E
 -Binnie's Mods
@@ -42,12 +44,13 @@ Updated mods:
 -Reborn Core
 -RFTools
 
-Changes and fixes:
+**Changes and fixes:**
 -Iron Jetpack tweaks:
 1. Increased power drain to 833 RF/t on all jetpacks (except the survivalist's jetpack). A jetpack fully charged with 1,000,000 RF should last 20 minutes.
 2. Reduced jetpack speeds across the board. This should encourage you to pick and choose which jetpack you want.
 3. Reduced RF capacity of survivalist jetpack (10k > 5k). It will still last about 40 minutes.
 4. Survivalist jetpack is now recharged with blaze powder instead of aer vis crystals
+5. Improved the colors of each jetpack
 
 -Fixed several Immersive Engineering issues:
 1. All aluminum cosmetic items were renamed to tin. The aluminum block, slab, ingot, dust and nugget were unchanged.
@@ -55,6 +58,15 @@ Changes and fixes:
 3. Any recipes requiring steel rods can now use Tinkers' steel tool rods as well
 4. Added the 'stickTin' ore dictionary tag to the aluminum rod to make future recipes easier
 
+-Mob drop changes:
+1. Bats drop guano 50% of the time
+2. Husks drop sand
+3. If they're on fire, husks drop red sand instead
+4. Removed all witch drops. They have a 50% chance to drop 5-9 glowstone and a 50% chance to drop 5-9 redstone instead
+5. Blazes drop 1 blaze rod 50% of the time even if not killed by a player
+6. Spiders and cave spiders drop 1 spider eye 50% of the time even if not killed by a player
+
+-Many script fixes
 -Fixed the enchanted book script
 -Enchanted book runic altar recipes now require book and quill
 -Buffed diesel generator power generation by 4x (4,096 RF/t > 16,384)
@@ -70,3 +82,18 @@ Changes and fixes:
 -Made most realistic ore veins larger. Lapis, emerald and diamond veins got a drastic buff (1-3 blocks to around 15 per vein)
 -Gold ore now generates on cave walls
 -Updated the JEI hidded items list
+-The runic alter enchanted book recipes now require a book and quill
+-Looting, fortune, soulbound and all CoFH enchantments cost more mana than other enchantments. Mending and frost walker cost much more.
+-You can turn 144mb of molten quicklime into limestone in a casting basin
+-Added documentation to all Open Blocks items using JEI tooltips
+-Crushing coal in an Immersive Engineering crusher gives coal 10% of the time
+-Added alternative recipes for Magneticraft wire connector, Thermal Foundation servo and tool casing, and Project Red electrotine
+-Disabled the teleport pipes from Additional Buildcraft Pipes
+-Made Autoverse barrels require slightly more iron
+-Melting a cow in a smeltery gives milk
+-You can now smelt sulfur in a smeltery to get molten sulfur
+-Moved all of the tips from Just The Tips to the new Tips mod
+-Added several tips suggested by the community
+-Disabled Funky Locomation's frame teleporter
+-Added a recipe to Thaumcraft ambient grass
+-Disabled Simple Storage Networks' import/export cables
