@@ -10,7 +10,12 @@ val itemsToDisable =[
   <appliedenergistics2:storage_cell_64k>,
   // Molecular Assembler
   // note: Disabled to encourage more interesting crafting setups
-  <appliedenergistics2:molecular_assembler>
+  <appliedenergistics2:molecular_assembler>,
+  // Fluid cells:
+  // Note: Fluids can still be stored, just not directly. Store them in cans or buckets and make a loader/unloader setup.
+  <appliedenergistics2:fluid_storage_cell_1k>,
+  <appliedenergistics2:fluid_storage_cell_16k>,
+  <appliedenergistics2:fluid_storage_cell_64k>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
@@ -19,7 +24,11 @@ val craftingToDisable =[
   <appliedenergistics2:storage_cell_16k>,
   <appliedenergistics2:storage_cell_64k>,
   // Molecular Assembler
-  <appliedenergistics2:molecular_assembler>
+  <appliedenergistics2:molecular_assembler>,
+  // Fluid cells:
+  <appliedenergistics2:fluid_storage_cell_1k>,
+  <appliedenergistics2:fluid_storage_cell_16k>,
+  <appliedenergistics2:fluid_storage_cell_64k>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
