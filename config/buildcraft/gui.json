@@ -1,4 +1,9 @@
 {
+  "buildcraftbuilders:gui/filler": {
+    "ledger_progress.is_open": {
+      "boolean": true
+    }
+  },
   "buildcraftlib:base": {
     "debugging_is_enabled": {
       "boolean": false

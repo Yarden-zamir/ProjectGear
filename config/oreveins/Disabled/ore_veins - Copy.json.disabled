@@ -1,0 +1,312 @@
+{
+  "iron_nickel": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 40,
+			"meta": 5
+        },
+        {
+            "block": "minecraft:iron_ore",
+            "weight": 60
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 4000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "gold_copper": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 0
+        },
+        {
+            "block": "thermalfoundation:ore",
+            "weight": 50
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 4000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "tin_copper": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 1
+        },
+        {
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 0
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 4000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "tin_osmium": {
+    "ore": [{
+            "block": "thermalfoundation:ore",
+            "weight": 50,
+			"meta": 1
+        },
+        {
+            "block": "mekanism:oreblock",
+            "weight": 50
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 4000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "coal_diamond": {
+    "ore": [{
+            "block": "minecraft:coal_ore",
+            "weight": 99
+        },
+        {
+            "block": "minecraft:diamond_ore",
+            "weight": 1
+        }
+ 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 4000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 15,
+    "vertical_size": 30,
+    "horizontal_size": 80
+  },
+  "TEMPERATE_BIOMES_iron_nickel": {
+    "ore": [
+			{	
+            "block": "thermalfoundation:ore",	
+            "weight": 40,	
+			"meta": 5	
+        	},	
+        	{	
+            "block": "minecraft:iron_ore",	
+            "weight": 60	
+        	}	
+ 	
+    ],	
+    "stone": "minecraft:stone",	
+    "rarity": 6000,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 35,
+    "vertical_size": 30,
+    "horizontal_size": 100,
+	"biomes": [
+		"minecraft:smaller_extreme_hills",	
+		"minecraft:forest_hills",	
+		"minecraft:extreme_hills_with_trees",	
+		"minecraft:savanna",	
+		"minecraft:savanna_rock",	
+		"minecraft:mesa",	
+		"minecraft:mesa_rock",	
+		"traverse:autumnal_woods",	
+		"traverse:woodlands",	
+		"minecraft:mesa_clear_rock",	
+		"integrateddynamics:biome_meneglin",	
+		"traverse:meadow",	
+		"traverse:temperate_rainforest",	
+		"traverse:forested_hills",	
+		"traverse:birch_forested_hills",	
+		"traverse:autumnal_wooded_hills",	
+		"traverse:lush_hills",	
+		"traverse:thicket",	
+		"traverse:arid_highland",	
+		"traverse:rocky_plains",	
+		"minecraft:mutated_extreme_hills",	
+		"minecraft:mutated_plains"	
+    ]	
+  },
+	"HOT_BIOMES_gold_copper": {	
+   	"ore": [{	
+            "block": "thermalfoundation:ore",	
+            "weight": 50,	
+			"meta": 0	
+        },	
+        {	
+            "block": "thermalfoundation:ore",	
+            "weight": 50	
+        }	
+ 	
+    ],	
+    "stone": "minecraft:stone",	
+    "rarity": 6000,	
+    "min_y": 5,	
+    "max_y": 55,	
+    "density": 35,	
+    "vertical_size": 30,	
+    "horizontal_size": 100,	
+	"biomes": [	
+		"minecraft:desert",	
+		"minecraft:desert_hills",	
+		"minecraft:jungle",	
+		"minecraft:jungle_hills",	
+		"minecraft:jungle_edge",	
+		"minecraft:birch_forest",	
+		"minecraft:birch_forest_hills",	
+		"minecraft:roofed_forest",	
+		"buildcraftenergy:oil_desert",	
+		"nuclearcraft:nuclear_wasteland",	
+		"rockhounding_surface:white_sands",	
+		"traverse:mini_jungle",	
+		"traverse:red_desert",	
+		"traverse:badlands",	
+		"traverse:mountainous_desert",	
+		"traverse:rocky_plateau",	
+		"traverse:desert_shrubland",	
+		"minecraft:mutated_desert",	
+		"minecraft:mutated_savanna",	
+		"minecraft:mutated_savanna_rock",	
+		"minecraft:mutated_mesa",	
+		"minecraft:mutated_mesa_rock",	
+		"minecraft:mutated_mesa_clear_rock"	
+    ]	
+  },	
+  "TEMPERATE_BIOMES_tin_copper": {	
+    "ore": [{	
+            "block": "thermalfoundation:ore",	
+            "weight": 50,	
+			"meta": 1	
+        },	
+        {	
+            "block": "thermalfoundation:ore",	
+            "weight": 50,	
+			"meta": 0	
+        }	
+ 	
+    ],	
+    "stone": "minecraft:stone",	
+    "rarity": 6000,	
+    "min_y": 5,	
+    "max_y": 55,	
+    "density": 15,	
+    "vertical_size": 35,	
+    "horizontal_size": 100,	
+	"biomes": [	
+		"minecraft:smaller_extreme_hills",	
+		"minecraft:forest_hills",	
+		"minecraft:extreme_hills_with_trees",	
+		"minecraft:savanna",	
+		"minecraft:savanna_rock",	
+		"minecraft:mesa",	
+		"minecraft:mesa_rock",	
+		"traverse:autumnal_woods",	
+		"traverse:woodlands",	
+		"minecraft:mesa_clear_rock",	
+		"integrateddynamics:biome_meneglin",	
+		"traverse:meadow",	
+		"traverse:temperate_rainforest",	
+		"traverse:forested_hills",	
+		"traverse:birch_forested_hills",	
+		"traverse:autumnal_wooded_hills",	
+		"traverse:lush_hills",	
+		"traverse:thicket",	
+		"traverse:arid_highland",	
+		"traverse:rocky_plains",	
+		"minecraft:mutated_extreme_hills",	
+		"minecraft:mutated_plains"	
+    ]	
+  },	
+  "WET_BIOMES_tin_osmium": {	
+    "ore": [{	
+            "block": "thermalfoundation:ore",	
+            "weight": 50,	
+			"meta": 1	
+        },	
+        {	
+            "block": "mekanism:oreblock",	
+            "weight": 50	
+        }	
+ 	
+    ],	
+    "stone": "minecraft:stone",	
+    "rarity": 6000,	
+    "min_y": 5,	
+    "max_y": 55,	
+    "density": 15,	
+    "vertical_size": 35,	
+    "horizontal_size": 100,	
+	"biomes": [	
+		"minecraft:ocean",	
+		"minecraft:swampland",                         	
+		"minecraft:river",	
+		"minecraft:mushroom_island",	
+		"minecraft:mushroom_island_shore",	
+		"minecraft:beaches",	
+		"minecraft:deep_ocean",   	
+		"minecraft:stone_beach",	
+		"buildcraftenergy:oil_ocean",	
+		"traverse:green_swamp",	
+		"minecraft:mutated_swampland"	
+    ]	
+  },	
+  "COLD_BIOMES_coal_diamond": {	
+    "ore": [{	
+            "block": "minecraft:coal_ore",	
+            "weight": 99	
+        },	
+        {	
+            "block": "minecraft:diamond_ore",	
+            "weight": 1	
+        }	
+ 	
+    ],	
+    "stone": "minecraft:stone",	
+    "rarity": 6000,	
+    "min_y": 5,	
+    "max_y": 55,	
+    "density": 15,	
+    "vertical_size": 35,	
+    "horizontal_size": 100,	
+	"biomes": [	
+		"minecraft:taiga",	
+		"minecraft:frozen_ocean",	
+		"minecraft:frozen_river",	
+		"minecraft:ice_flats",	
+		"minecraft:ice_mountains",	
+		"minecraft:taiga_hills",	
+		"minecraft:cold_beach",	
+		"minecraft:taiga_cold",	
+		"minecraft:taiga_cold_hills",	
+		"minecraft:redwood_taiga",	
+		"minecraft:redwood_taiga_hills",	
+		"traverse:cliffs",	
+		"traverse:glacier",	
+		"traverse:glacier_spikes",	
+		"traverse:snowy_coniferous_forest",	
+		"traverse:crag_cliffs",	
+		"minecraft:mutated_taiga",	
+		"minecraft:mutated_ice_flats",	
+		"minecraft:mutated_taiga_cold",	
+		"minecraft:mutated_redwood_taiga",	
+		"minecraft:mutated_redwood_taiga_hills"	
+    ]	
+   }
+}

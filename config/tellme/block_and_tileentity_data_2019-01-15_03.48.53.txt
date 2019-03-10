@@ -1,5 +1,0 @@
-Netherrack (minecraft:netherrack - 87:0) no TileEntity
-Full block state: minecraft:netherrack
-Hardness: 0.4000, Resistance: 2.0000, Material: ROCK
-Block class: net.minecraft.block.BlockNetherrack
-IBlockState properties: <none>
