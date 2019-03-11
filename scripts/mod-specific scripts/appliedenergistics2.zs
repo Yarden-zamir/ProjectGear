@@ -14,6 +14,7 @@ val itemsToDisable =[
   // Fluid cells:
   // Note: Fluids can still be stored, just not directly. Store them in cans or buckets and make a loader/unloader setup.
   <appliedenergistics2:fluid_storage_cell_1k>,
+  <appliedenergistics2:fluid_storage_cell_4k>,
   <appliedenergistics2:fluid_storage_cell_16k>,
   <appliedenergistics2:fluid_storage_cell_64k>
 ] as IItemStack[];
@@ -27,6 +28,7 @@ val craftingToDisable =[
   <appliedenergistics2:molecular_assembler>,
   // Fluid cells:
   <appliedenergistics2:fluid_storage_cell_1k>,
+  <appliedenergistics2:fluid_storage_cell_4k>,
   <appliedenergistics2:fluid_storage_cell_16k>,
   <appliedenergistics2:fluid_storage_cell_64k>
 ] as IItemStack[];
