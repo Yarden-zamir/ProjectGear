@@ -21,6 +21,7 @@ val craftingToDisable =[
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
+
 // Makes Immersive Engineering relays and wire connectors require Magneticraft wire connectors. These must be made in the Thermionic Fabricator.
 
 // MV Wire Connector recipe removal
@@ -91,86 +92,7 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 2, 
  
  val steelRod = <tconstruct:tool_rod>.withTag({Material: "steel"});
  
- //stickSteel.add(steelRod);
- 
-/*
-recipes.remove(<immersiveengineering:metal_decoration1:1>);
-recipes.remove(<engineersdoors:fencegate_steel>);
-recipes.remove(<immersiveengineering:metal_decoration1>);
 
-recipes.remove(<immersiveengineering:metal_laddar>);
-recipes.remove(<immersiveengineering:toolupgrade:6>);
-recipes.remove(<immersiveengineering:metal_decoration2:1>);
-recipes.remove(<immersiveengineering:material:14>);
-
-recipes.addShaped("Gear_SteelScaffoldOreDict", <immersiveengineering:metal_decoration1:1>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[null,<ore:stickSteel>,null],[<ore:stickSteel>,null,<ore:stickSteel>]]);
-recipes.addShaped("Gear_SteelScaffoldOreDictTicon",<immersiveengineering:metal_decoration1:1>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[null,steelRod,null],[steelRod,null,steelRod]]);
-recipes.addShaped("Gear_SteelFenceGateOreDict", <engineersdoors:fencegate_steel>,[[<ore:ingotSteel>,<ore:stickSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:stickSteel>,<ore:ingotSteel>]]);
-recipes.addShaped("Gear_SteelFenceGateOreDictTicon",<engineersdoors:fencegate_steel>,[[<ore:ingotSteel>,steelRod,<ore:ingotSteel>],[<ore:ingotSteel>,steelRod,<ore:ingotSteel>]]);
-recipes.addShaped("Gear_SteelFenceOreDict",<immersiveengineering:metal_decoration1:1>,[[<ore:stickSteel>,<ore:ingotSteel>,<ore:stickSteel>],[<ore:stickSteel>,<ore:ingotSteel>,<ore:stickSteel>]]);
-recipes.addShaped("Gear_SteelFenceOreDictTicon",<immersiveengineering:metal_decoration1:1>,[[steelRod,<ore:ingotSteel>,steelRod],[steelRod,<ore:ingotSteel>,steelRod]]);
-//recipes.addShaped("Gear_SteelLaddarOreDict", <immersiveengineering:metal_laddar>
- 
-
-	// Steel Fence Gate
-recipes.removeShaped(<engineersdoors:fencegate_steel>);
-recipes.addShaped(<engineersdoors:fencegate_steel> * 2,
-    [[null, null, null],
-     [steelRod, <thermalfoundation:material:160> , steelRod ],
-     [steelRod, <thermalfoundation:material:160> , steelRod ]]);
-     
-	// Steel Fence
-recipes.removeShaped(<immersiveengineering:metal_decoration1>);
-recipes.addShaped(<immersiveengineering:metal_decoration1> * 6,
-    [[null, null, null],
-     [<thermalfoundation:material:160>, steelRod , <thermalfoundation:material:160>],
-     [<thermalfoundation:material:160>, steelRod , <thermalfoundation:material:160>]]);
-     
-	// Steel Scaffolding  
-recipes.removeShaped(<immersiveengineering:metal_decoration1:1>);
-recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 12,
-    [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],
-     [null, steelRod, null],
-     [steelRod, null, steelRod]]);
-	
-
-	// amplifier electron tube
-recipes.removeByRecipeName("immersiveengineering:toolupgrades/revolver_electro");
-recipes.addShaped("gear_shaped_amplifierElectronTube", <immersiveengineering:toolupgrade:6>,
-    [[<ore:electronTube>, <ore:electronTube>, <ore:electronTube>],
-    [steelRod, <ore:wireCopper>, steelRod]]);
-	
-
- 
-	// steel wallmount
-recipes.removeByRecipeName("immersiveengineering:metal_decoration/steel_wallmount");
-recipes.addShaped("gear_shaped_steelWallMount", <immersiveengineering:metal_decoration2:1> * 4,
-    [[<ore:ingotSteel>, <ore:ingotSteel>],
-    [<ore:ingotSteel>, steelRod]]);
-	
-
- 
-	// ladder
-recipes.removeByRecipeName("immersiveengineering:metal_decoration/ladder");
-recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:metal_ladder> * 6,
-    [[steelRod, null, steelRod],
-    [steelRod, steelRod, steelRod],
-    [steelRod, null, steelRod]]);
- 
-	// steel wallmount
-recipes.removeByRecipeName("immersiveengineering:connectors/connector_structural");
-recipes.addShaped("gear_shaped_tool_rod_steel_connector", <immersiveengineering:connector:6> * 9,
-    [[<ore:ingotSteel>, steelRod, <ore:ingotSteel>],
-    [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
- 
-	// strip curtain
-recipes.removeByRecipeName("immersiveengineering:cloth_devices/strip_curtain");
-recipes.addShaped("gear_shaped_tool_rod_steel_ladder", <immersiveengineering:metal_ladder> * 3,
-    [[steelRod, steelRod, steelRod],
-    [<immersiveengineering:material:5>, <immersiveengineering:material:5>, <immersiveengineering:material:5>],
-    [<immersiveengineering:material:5>, <immersiveengineering:material:5>, <immersiveengineering:material:5>]]);
-	
-*/
 	
 #Script by DeviantCrafter
 //Prevents hammers from creating lightning rods, functionally disabling the multiblock
