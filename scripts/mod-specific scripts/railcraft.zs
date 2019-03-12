@@ -25,3 +25,5 @@ recipes.addShaped("RedstoneFluxCart", <railcraft:cart_redstone_flux>,
 	 
 // Makes Railcraft slag ore dictionary compatible with Immersive Engineering
 <ore:itemSlag>.add(<railcraft:dust:4>);
+
+recipes.removeShaped(<railcraft:plate:*>);
