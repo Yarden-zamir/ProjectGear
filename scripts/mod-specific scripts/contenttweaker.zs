@@ -76,7 +76,6 @@ recipes.addShaped(<contenttweaker:age_portal_white>,
 	 [<minecraft:clay_ball>, <ore:dyeWhite>, <minecraft:clay_ball>],
 	 [<ore:ingotBrickSeared>, <minecraft:clay_ball>, <ore:ingotBrickSeared>]]);
 	 
-// Age portal blocks:
 
 // ardite ore processing recipes and oredict
 furnace.addRecipe(<tconstruct:ingots:1>, <contenttweaker:ardite_rocky_chunk>);
@@ -87,3 +86,10 @@ recipes.addShapeless(<contenttweaker:ardite_dust>, [<immersiveengineering:tool>.
 <ore:dustArdite>.add(<contenttweaker:ardite_dust>);
 <ore:chunkArdite>.add(<contenttweaker:ardite_chunk>);
 <ore:rockyChunkArdite>.add(<contenttweaker:ardite_rocky_chunk>);
+
+// Brass plate:
+recipes.addShapeless(<contenttweaker:aluminum_brass_plate>, [<immersiveengineering:tool>.transformDamage(), <ore:ingotBrass>]);
+
+// Brass gear:
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:aluminum_brass_gear>, <tconstruct:cast_custom:4>, <liquid:alubrass>, 576, 140);
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:aluminum_brass_gear>, <ore:ingotBrass>, <immersiveengineering:mold:1>, 2000, 4);
