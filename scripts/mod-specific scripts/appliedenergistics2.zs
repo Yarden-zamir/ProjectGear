@@ -40,6 +40,9 @@ val nickelIngot = <ore:ingotNickel>;
 val redstone = <ore:dustRedstone>;
 val glass = <ore:blockGlass>;
 val tinIngot = <ore:ingotTin>;
+val quartz = <minecraft:quartz>;
+val certus = <appliedenergistics2:material>;
+val chargedCertus = <appliedenergistics2:material:1>;
 
 
 // Replace iron with tin
@@ -163,5 +166,34 @@ recipes.addShaped(<appliedenergistics2:material:41>,
 	// Wireless Booster Tin Recipe
 recipes.addShaped(<appliedenergistics2:material:42> * 2,
 	[[null, null, null],
-	[<appliedenergistics2:material:8>, <ore:crystalCertusQuartz>, <ore:dustEnder>], 
-	[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
+	 [<appliedenergistics2:material:8>, <ore:crystalCertusQuartz>, <ore:dustEnder>], 
+	 [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
+	
+// Recipes for certus quartz
+// Note: Certus quartz does not generate in the world. It's made from nether quartz.
+recipes.addShaped(certus * 8,
+	[[quartz, quartz, quartz],
+	 [quartz, <nuclearcraft:compound:1>, quartz],
+	 [quartz, quartz, quartz]]);
+	 
+recipes.addShaped(certus * 8,
+	[[quartz, quartz, quartz],
+	 [quartz, <prodigytech:energion_crystal_seed>, quartz],
+	 [quartz, quartz, quartz]]);
+	
+
+recipes.addShapeless(certus, [quartz, <thermalfoundation:glass:3>, <thermalfoundation:glass:3>]);
+recipes.addShapeless(certus * 2, [quartz, quartz, <projectred-core:resource_item:105>]);
+
+
+// Change the charger recipes so it doesn't require charged certus quartz:
+// Note: This means you don't need to find a single charged certus quartz ore to get started with the mod
+recipes.removeShaped(<appliedenergistics2:charger>);
+recipes.addShaped(<appliedenergistics2:charger>,
+	[[<ore:ingotTin>, certus, <ore:ingotTin>],
+	 [<ore:ingotTin>, null, null],
+	 [<ore:ingotTin>, certus, <ore:ingotTin>]]);
+	 
+mods.botania.ElvenTrade.addRecipe([certus * 16], [<botania:quartz:1> * 16, <botania:manaresource:2>]);
+
+mods.botania.PureDaisy.addRecipe(<minecraft:quartz_block>, <appliedenergistics2:quartz_block>);
