@@ -210,8 +210,8 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:
 //Electrotine Furnace recipe removal
 furnace.remove(<projectred-core:resource_item:104>);
  
-// Electrotine Alloy Ingot Arc Furnace recipe (1 Tin Ingot + 8 Electrotine)
-mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, null, 1000, 2048, [<projectred-core:resource_item:105> * 8], "Alloying");
+// Electrotine Alloy Ingot Arc Furnace recipe (1 Tin Ingot + 4 Electrotine)
+mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, null, 1000, 2048, [<projectred-core:resource_item:105> * 4], "Alloying");
  
 // Electrotine Alloy Ingot Alloy Kiln recipe
 mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, <projectred-core:resource_item:105> * 8, 2000);
