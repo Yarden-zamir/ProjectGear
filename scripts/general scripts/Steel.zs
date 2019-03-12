@@ -75,7 +75,8 @@ mods.factorytech.Agitator.addRecipe(<liquid:milk> * 8000, null, <thermalfoundati
 mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:calcium_sulfide>, <nuclearcraft:compound:0>, 600, <forestry:ash>);
 
 //Creating Sulfuric Quicklime
-mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:sulfuric_quicklime>*16, <nuclearcraft:compound:0>*3, <contenttweaker:calcium_sulfide>, 200);
+mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:sulfuric_quicklime> * 16, <nuclearcraft:compound:0>*3, <contenttweaker:calcium_sulfide>, 200);
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:sulfuric_quicklime> * 16, <nuclearcraft:compound:0>*3, null, 2000, 2048, [<contenttweaker:calcium_sulfide>]);
 
 //Sulfuric Quicklime to... regular quicklime.
 mods.forestry.Centrifuge.addRecipe([<botany:misc:3> % 100, <contenttweaker:quicklime_pile> % 100], <contenttweaker:sulfuric_quicklime>, 100);

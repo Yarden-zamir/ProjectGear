@@ -52,6 +52,7 @@ scripts.functions.disableCraftings(craftingToDisable);
 // Boron + slag = 4x boron
 mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:ingot:5>*4, boronOre, slag, 100);
 mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:ingot:5>*4, slag, boronOre, 100);
+mods.immersiveengineering.ArcFurnace.addRecipe(<nuclearcraft:ingot:5>*4, boronOre, null, 2000, 2048, [slag]);
  
 // Boron dust = salt & ash
 mods.immersiveengineering.BlastFurnace.addRecipe(<mekanism:salt>*8, <ore:dustBoron>, 1200, <forestry:ash>);
@@ -138,6 +139,7 @@ mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:material:24>, 
 
 // 16 Nitrate Dusts in an Alloy Smelter makes 1 Rhodocrosite
 mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:gem_dust:1>, <ore:dustSaltpeter>, null, 2000);
+
 
 mods.tconstruct.Melting.addRecipe(<liquid:sulfur> * 144, <ore:dustSulfur>);
 
