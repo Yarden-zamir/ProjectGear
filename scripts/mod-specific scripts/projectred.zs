@@ -218,6 +218,6 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:
 
 // Electrotine Block Laser Assembly Table recipe
 mods.refraction.AssemblyTable.addRecipe("Electrotine Block", <projectred-exploration:stone:11>,
-    [<minecraft:dye:4> * 2, <ore:blockCobalt> * 2],
+    [<minecraft:dye:4> * 2, <ore:ingotCobalt> * 2],
     16, 64, 0, 0, 0, 0, 255, 255);
 	
