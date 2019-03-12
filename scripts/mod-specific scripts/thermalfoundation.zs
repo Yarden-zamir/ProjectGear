@@ -374,8 +374,8 @@ val EnderiumHardened = <thermalfoundation:glass_alloy:7>;
 
 // Base Hardened Glass Recipe
 mods.factorytech.CompressionChamber.addRecipe(HardenedBase * 16, InsulatingGlass, ObsidianLiquid * 144);
-mods.tconstruct.Casting.addBasinRecipe(HardenedBase * 16, InsulatingGlass, ObsidianLiquid, 288, true);
-mods.botania.ElvenTrade.addRecipe([HardenedBase * 16], [SoulGlass,Obsidian]);
+mods.tconstruct.Casting.addBasinRecipe(HardenedBase * 8, InsulatingGlass, ObsidianLiquid, 288, true);
+mods.botania.ElvenTrade.addRecipe([HardenedBase * 8], [SoulGlass,Obsidian]);
 mods.immersiveengineering.AlloySmelter.addRecipe(HardenedBase * 16, InsulatingGlass, RawHardener, 600);
 mods.immersiveengineering.AlloySmelter.addRecipe(HardenedBase * 16, RawHardener, InsulatingGlass, 600);
 
