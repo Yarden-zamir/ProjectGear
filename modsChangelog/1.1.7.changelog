@@ -1,0 +1,69 @@
+**Mods added:**
+-Storage Drawers
+-Compact Drawers
+-Applied Energistics 2
+-Wireless Crafting Terminal 2
+-Immersive Cables
+-FTB Backup???
+
+**Mods updated:**
+-Apple Core
+-B.A.S.E
+-Better Builders Wands
+-Block Craftery
+-Bookshelf
+-Building Gadgets
+-Common Capabilities
+-CraftTweaker
+-CyclopsCore
+-Deep Resonance
+-ElecCore
+-Factory Tech
+-Forestry
+-FTB Utilities
+-In Control
+-Incorporeal
+-Integrated Dynamics
+-Journeymap
+-JEI
+-Mekanism
+-MTLib
+-MysticalLib
+-Patchouli
+-Plus TiC
+-PneumaticCraft: Repressurized
+-Random PSIdeas
+-Random Patches
+-Ore Veins
+-Reborn Core
+-Thaumic Restoration
+-Worse Solars
+
+**Changes:**
+
+-Applied Energistics 2 changes:
+1. Significantly increased power drain. Running even a small network on passive power is not viable.
+2. Removed all liquid storage cells. You can use a tank in the world, or store buckets and create a loader/unloader.
+3. Removed storage cells larger than 4k. External storage is recommended for storing millions of items.
+4. Disabled the molecular assembler. Other mods add autocrafters, and they're slightly more complex to use.
+5. Certus quartz ore no longer generates. There are several ways to turn nether quartz into certus quartz.
+
+-Storage changes:
+1. 1x1 Storage Drawers, 1x1 Compact Drawers and Autoverse barrels store 256 stacks per block.
+2. 1x2 Storage Drawers store 128 stacks per slot, and 2x2 drawers store 64 stacks per block. This also applies to Compact Drawers.
+3. Disabled the Storage Drawers upgrades that increase storage size
+4. Magneticraft shipping containers have been buffed. They now store 1,032,192 items instead of 65,536. This is the equivilant of storing a 3 x 3 x 7 block of barrels.
+
+-Prevented spectre coils from generating RF in case you get one somehow
+-Reduced the speed of Open Blocks block breakers (16 > 1 blocks per tick)
+-Buffed Open Blocks sprinklers considerably. They consume a lot of water, but are now faster than lilypads of fertility.
+-Changed the output of some of the hardened glass recipes. More complex machines now give more hardened glass than simpler ones.
+-Botania's weight and bore lenses can now break obsidian
+-Made the electrotine ingot's arc furnace recipe cheaper so it's better than using an alloy furnace
+-Added a recipe to aluminum brass plates and gears
+
+
+**Fixes:**
+-Fixed gold brass's alloy furnace and arc furnace recipes. You can now use dust or ingots.
+-Fixed Prodigy Tech's carbon plate not having a recipe
+-Fixed Railcraft plates being craftable
