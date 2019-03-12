@@ -89,15 +89,15 @@ mods.tconstruct.Alloy.addRecipe(<liquid:alubrass> * 4, [<liquid:gold> * 3, <liqu
 mods.immersiveengineering.AlloySmelter.removeRecipe(<tconstruct:ingots:5>);
 mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, <ore:ingotCopper>*3, 100);
 mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, <ore:dustCopper>*3, 100);
-mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, <ore:ingotCopper>*3, 100);
-mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, <ore:dustCopper>*3, 100);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:dustGold>, <ore:dustCopper>*3, 100);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:ingots:5>*4, <ore:dustGold>, <ore:ingotCopper>*3, 100);
  
 	// ie arc furnace
 mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:5>*4);
 mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:ingotCopper>*3]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:dustCopper>*3]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:ingotCopper>*3]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:ingotGold>, null, 100, 512, [<ore:dustCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:dustGold>, null, 100, 512, [<ore:dustCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:5>*4, <ore:dustGold>, null, 100, 512, [<ore:ingotCopper>*3]);
 
 
 
