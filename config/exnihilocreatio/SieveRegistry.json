@@ -95,58 +95,6 @@
       "meshLevel": 4
     }
   ],
-  "exnihilocreatio:block_netherrack_crushed:0": [
-    {
-      "drop": "exnihilocreatio:item_ore_gold:0",
-      "chance": 0.25,
-      "meshLevel": 2
-    },
-    {
-      "drop": "exnihilocreatio:item_ore_gold:0",
-      "chance": 0.25,
-      "meshLevel": 3
-    },
-    {
-      "drop": "exnihilocreatio:item_ore_gold:0",
-      "chance": 0.4,
-      "meshLevel": 4
-    },
-    {
-      "drop": "exnihilocreatio:item_ore_ardite:0",
-      "chance": 0.1,
-      "meshLevel": 2
-    },
-    {
-      "drop": "exnihilocreatio:item_ore_ardite:0",
-      "chance": 0.2,
-      "meshLevel": 3
-    },
-    {
-      "drop": "exnihilocreatio:item_ore_ardite:0",
-      "chance": 0.3,
-      "meshLevel": 4
-    },
-    {
-      "drop": "exnihilocreatio:item_ore_cobalt:0",
-      "chance": 0.1,
-      "meshLevel": 2
-    },
-    {
-      "drop": "exnihilocreatio:item_ore_cobalt:0",
-      "chance": 0.2,
-      "meshLevel": 3
-    },
-    {
-      "drop": "exnihilocreatio:item_ore_cobalt:0",
-      "chance": 0.3,
-      "meshLevel": 4
-    },
-    {
-      "drop": "minecraft:blaze_powder:-1",
-      "chance": 0.05,
-      "meshLevel": 3
-    }
-  ],
   "ore:gravel": [
     {
       "drop": "minecraft:flint:-1",
