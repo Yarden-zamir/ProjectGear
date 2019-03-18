@@ -1,0 +1,26 @@
+{
+  "ore:treeSapling": {
+    "fluid": "water",
+    "amount": 250,
+    "color": "minecraft:leaves:0"
+  },
+  "ore:treeLeaves": {
+    "fluid": "water",
+    "amount": 250
+  },
+  "minecraft:apple:0": {
+    "fluid": "water",
+    "amount": 250,
+    "color": "minecraft:leaves:0"
+  },
+  "ore:listAllveggie": {
+    "fluid": "water",
+    "amount": 250,
+    "color": "minecraft:leaves:0"
+  },
+  "ore:listAllfruit": {
+    "fluid": "water",
+    "amount": 250,
+    "color": "minecraft:leaves:0"
+  }
+}

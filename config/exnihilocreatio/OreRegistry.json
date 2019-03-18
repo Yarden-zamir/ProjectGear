@@ -1,0 +1,60 @@
+[
+  {
+    "name": "gold",
+    "color": "ffff00",
+    "result": "minecraft:gold_ingot:-1"
+  },
+  {
+    "name": "iron",
+    "color": "bf8040",
+    "result": "minecraft:iron_ingot:-1"
+  },
+  {
+    "name": "copper",
+    "color": "ff9933"
+  },
+  {
+    "name": "tin",
+    "color": "e6fff2"
+  },
+  {
+    "name": "aluminium",
+    "color": "bfbfbf"
+  },
+  {
+    "name": "lead",
+    "color": "330066"
+  },
+  {
+    "name": "silver",
+    "color": "f2f2f2"
+  },
+  {
+    "name": "nickel",
+    "color": "ffffcc"
+  },
+  {
+    "name": "ardite",
+    "color": "ff751a",
+    "result": "tconstruct:ingots:1"
+  },
+  {
+    "name": "cobalt",
+    "color": "3333ff",
+    "result": "tconstruct:ingots:0"
+  },
+  {
+    "name": "osmium",
+    "color": "bbddff"
+  },
+  {
+    "name": "aluminum",
+    "color": "cdcdcf",
+    "result": "thermalfoundation:material:132"
+  },
+  {
+    "name": "platinum",
+    "color": "d7dfe7",
+    "result": "thermalfoundation:material:134"
+  }
+]

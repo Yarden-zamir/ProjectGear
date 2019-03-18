@@ -1,0 +1,197 @@
+{
+  "ore:flower": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "ore:treeSapling": {
+    "value": 0.125,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "minecraft:apple:0": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "fff68f"
+  },
+  "minecraft:cactus:0": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "deffb5"
+  },
+  "ore:listAllveggie": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "fff1b5"
+  },
+  "minecraft:porkchop:0": {
+    "value": 0.2,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ffa091"
+  },
+  "minecraft:chicken:0": {
+    "value": 0.2,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ffe8e8"
+  },
+  "minecraft:rotten_flesh:0": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "c45631"
+  },
+  "ore:listAllmeatraw": {
+    "value": 0.15,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ffa091"
+  },
+  "minecraft:pumpkin_pie:0": {
+    "value": 0.16,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "e39a6d"
+  },
+  "ore:listAllseed": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "35a82a"
+  },
+  "minecraft:potato:0": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "fff1b5"
+  },
+  "ore:listAllfruit": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "35a82a"
+  },
+  "minecraft:brown_mushroom:0": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "cfbfb6"
+  },
+  "minecraft:lit_pumpkin:0": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ffdb66"
+  },
+  "minecraft:wheat_seeds:0": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "35a82a"
+  },
+  "minecraft:carrot:0": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ff9b0f"
+  },
+  "minecraft:wheat:0": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "e3e162"
+  },
+  "minecraft:nether_wart:0": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ff2b52"
+  },
+  "minecraft:red_mushroom:0": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "d6a8a5"
+  },
+  "minecraft:egg:0": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "fffa66"
+  },
+  "ore:treeLeaves": {
+    "value": 0.125,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "minecraft:beef:0": {
+    "value": 0.2,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ff4242"
+  },
+  "minecraft:string:0": {
+    "value": 0.04,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ffffff"
+  },
+  "minecraft:melon:0": {
+    "value": 0.04,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ff443b"
+  },
+  "minecraft:reeds:0": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "9bff8a"
+  },
+  "minecraft:bread:0": {
+    "value": 0.16,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "d1af60"
+  },
+  "exnihilocreatio:item_cooked_silkworm:0": {
+    "value": 0.04,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "cc6600"
+  },
+  "minecraft:vine:0": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "23630e"
+  },
+  "minecraft:spider_eye:0": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "963e44"
+  },
+  "minecraft:tallgrass:1": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "23630e"
+  },
+  "minecraft:poisonous_potato:0": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "e0ff8a"
+  },
+  "minecraft:waterlily:0": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "269900"
+  },
+  "exnihilocreatio:item_material:2": {
+    "value": 0.04,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ff9966"
+  },
+  "ore:listAllGrain": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "e3e162"
+  },
+  "minecraft:baked_potato:0": {
+    "value": 0.08,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "fff1b5"
+  },
+  "ore:fish": {
+    "value": 0.15,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "minecraft:melon_block:0": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ff443b"
+  },
+  "minecraft:pumpkin:0": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ffdb66"
+  },
+  "ore:listAllmeatcooked": {
+    "value": 0.2,
+    "compostBlock": "minecraft:dirt:0"
+  }
+}
