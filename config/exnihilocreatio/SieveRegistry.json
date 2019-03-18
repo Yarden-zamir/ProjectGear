@@ -46,43 +46,6 @@
       "meshLevel": 4
     }
   ],
-  "exnihilocreatio:block_skystone_crushed:0": [
-    {
-      "drop": "appliedenergistics2:material:0",
-      "chance": 0.01,
-      "meshLevel": 3
-    },
-    {
-      "drop": "appliedenergistics2:material:0",
-      "chance": 0.02,
-      "meshLevel": 4
-    },
-    {
-      "drop": "appliedenergistics2:crystal_seed:0",
-      "chance": 0.01,
-      "meshLevel": 1
-    },
-    {
-      "drop": "appliedenergistics2:crystal_seed:0",
-      "chance": 0.01,
-      "meshLevel": 2
-    },
-    {
-      "drop": "appliedenergistics2:crystal_seed:0",
-      "chance": 0.02,
-      "meshLevel": 3
-    },
-    {
-      "drop": "appliedenergistics2:crystal_seed:0",
-      "chance": 0.02,
-      "meshLevel": 4
-    },
-    {
-      "drop": "appliedenergistics2:material:1",
-      "chance": 0.001,
-      "meshLevel": 4
-    }
-  ],
   "ore:sand": [
     {
       "drop": "minecraft:dye:3",
