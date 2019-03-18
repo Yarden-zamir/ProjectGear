@@ -81,66 +81,6 @@
     }
   "ore:dirt": [
     {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 1.0,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 1.0,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 0.5,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 0.5,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 0.1,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 0.1,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:1",
-      "chance": 0.5,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:1",
-      "chance": 0.1,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:2",
-      "chance": 0.5,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:2",
-      "chance": 0.1,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:3",
-      "chance": 0.5,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:3",
-      "chance": 0.1,
-      "meshLevel": 1
-    },
-    {
       "drop": "minecraft:wheat_seeds:-1",
       "chance": 0.7,
       "meshLevel": 1
