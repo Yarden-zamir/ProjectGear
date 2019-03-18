@@ -9,41 +9,6 @@
       "drop": "minecraft:gunpowder:-1",
       "chance": 0.07,
       "meshLevel": 1
-    },
-    {
-      "drop": "minecraft:redstone:-1",
-      "chance": 0.125,
-      "meshLevel": 3
-    },
-    {
-      "drop": "minecraft:redstone:-1",
-      "chance": 0.25,
-      "meshLevel": 4
-    },
-    {
-      "drop": "minecraft:glowstone_dust:-1",
-      "chance": 0.0625,
-      "meshLevel": 3
-    },
-    {
-      "drop": "minecraft:blaze_powder:-1",
-      "chance": 0.05,
-      "meshLevel": 3
-    },
-    {
-      "drop": "appliedenergistics2:material:45",
-      "chance": 0.1,
-      "meshLevel": 2
-    },
-    {
-      "drop": "appliedenergistics2:material:45",
-      "chance": 0.2,
-      "meshLevel": 3
-    },
-    {
-      "drop": "appliedenergistics2:material:45",
-      "chance": 0.3,
-      "meshLevel": 4
     }
   ],
   "ore:sand": [
@@ -51,18 +16,68 @@
       "drop": "minecraft:dye:3",
       "chance": 0.03,
       "meshLevel": 1
-    },
-    {
-      "drop": "minecraft:prismarine_shard:-1",
-      "chance": 0.02,
-      "meshLevel": 4
     }
   ],
   "ore:gravel": [
     {
       "drop": "minecraft:flint:-1",
       "chance": 0.25,
-      "meshLevel": 2
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:diorite_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:andesite_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:granite_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:limestone_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:marble_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:basalt_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:red_rock_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:crag_rock_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:quarried_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:abyssal_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:slate_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
     }
   "ore:dirt": [
     {
@@ -203,14 +218,7 @@
     {
       "drop": "integrateddynamics:menril_sapling:-1",
       "chance": 0.02,
-      "meshLevel": 4
-    }
-  ],
-  "minecraft:dirt:1": [
-    {
-      "drop": "integrateddynamics:menril_sapling:-1",
-      "chance": 0.1,
-      "meshLevel": 4
+      "meshLevel": 1
     }
   ]
 }
