@@ -1,19 +1,15 @@
 {
   "ore:gravel": {
     "fluid": "lava",
-    "amount": 200
-  },
-  "ore:cobblestone": {
-    "fluid": "lava",
-    "amount": 250
+    "amount": 100
   },
   "ore:netherrack": {
     "fluid": "lava",
-    "amount": 1000
-  },
-  "ore:stone": {
-    "fluid": "lava",
     "amount": 250
+  },
+  "ore:ingotNetherBrick": {
+    "fluid": "lava",
+    "amount": 1000
   },
   "ore:obsidian": {
     "fluid": "lava",
@@ -25,6 +21,10 @@
   },
   "exnihilocreatio:block_dust:0": {
     "fluid": "lava",
-    "amount": 50
+    "amount": 100
+  },
+  "pre:dustBlazePowder": {
+    "fluid": "lava",
+    "amount": 500
   }
 }
