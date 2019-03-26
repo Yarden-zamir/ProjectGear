@@ -204,7 +204,7 @@ furnace.remove(<projectred-core:resource_item:103>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, null, 200, 256, [<minecraft:redstone> * 2], "Alloying");
  
 // Red Alloy Ingot Alloy Kiln recipe
-mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, <minecraft:redstone> * 8, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, <minecraft:redstone> * 4, 2000);
 
 //Electrotine recipes
 //Electrotine Furnace recipe removal
