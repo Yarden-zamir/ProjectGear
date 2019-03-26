@@ -1,0 +1,2 @@
+recipes.addShapeless(<practicallogistics2:sapphire> * 2, [<minecraft:dye:4>, <ore:crystalCertusQuartz> | <ore:crystalPureCertusQuartz>]);
+recipes.addShapeless(<practicallogistics2:sapphire> * 2, [<minecraft:dye:4>, <ore:gemRuby>]);
