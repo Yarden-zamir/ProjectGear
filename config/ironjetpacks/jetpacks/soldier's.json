@@ -1,10 +1,10 @@
 {
-  "name": "explorer",
+  "name": "soldier",
   "disable": false,
-  "tier": 3,
-  "color": "A20000",
-  "armorPoints": 2,
-  "enchantability": 18,
+  "tier": 2,
+  "color": "4b5320",
+  "armorPoints": 8,
+  "enchantability": 30,
   "craftingMaterial": "ore:ingotTin",
   "forceRecipes": false,
   "rarity": 0,
@@ -12,9 +12,9 @@
   "usage": 833,
   "speedVertical": 0.5,
   "accelVertical": 0.14,
-  "speedSideways": 0.3,
+  "speedSideways": 0.15,
   "speedHoverDescend": 0.37,
   "speedHover": 0.03,
-  "sprintSpeedMulti": 2.1,
+  "sprintSpeedMulti": 2.6,
   "sprintFuelMulti": 3.5
 }

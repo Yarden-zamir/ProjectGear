@@ -17,6 +17,7 @@ val itemsToDisable =[
   <ironjetpacks:architect_cell>,
   <ironjetpacks:cloudrider_cell>,
   <ironjetpacks:explorer_cell>,
+  <ironjetpacks:soldier_cell>,
   // Thrusters
   // Unneeded crafting component
   <ironjetpacks:survivalist_thruster>,
@@ -24,13 +25,15 @@ val itemsToDisable =[
   <ironjetpacks:architect_thruster>,
   <ironjetpacks:cloudrider_thruster>,
   <ironjetpacks:explorer_thruster>,
+  <ironjetpacks:soldier_thruster>,
   // Capacitors
   // Unneeded crafting component
   <ironjetpacks:survivalist_capacitor>,
   <ironjetpacks:basic_capacitor>,
   <ironjetpacks:architect_capacitor>,
   <ironjetpacks:cloudrider_capacitor>,
-  <ironjetpacks:explorer_capacitor>
+  <ironjetpacks:explorer_capacitor>,
+  <ironjetpacks:soldier_capacitor>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
@@ -47,18 +50,21 @@ val craftingToDisable =[
   <ironjetpacks:architect_cell>,
   <ironjetpacks:cloudrider_cell>,
   <ironjetpacks:explorer_cell>,
+  <ironjetpacks:soldier_cell>,
   // Thrusters
   <ironjetpacks:survivalist_thruster>,
   <ironjetpacks:basic_thruster>,
   <ironjetpacks:architect_thruster>,
   <ironjetpacks:cloudrider_thruster>,
   <ironjetpacks:explorer_thruster>,
+  <ironjetpacks:soldier_thruster>,
   // Capacitors
   <ironjetpacks:survivalist_capacitor>,
   <ironjetpacks:basic_capacitor>,
   <ironjetpacks:architect_capacitor>,
   <ironjetpacks:cloudrider_capacitor>,
-  <ironjetpacks:explorer_capacitor>,
+  <ironjetpacks:explorer_capacitor>,,
+  <ironjetpacks:soldier_capacitor>
   // Leather strap
   <ironjetpacks:strap>
 ] as IItemStack[];
@@ -115,5 +121,11 @@ recipes.addShapeless("gear_shapeless_explorerJetpack", <ironjetpacks:explorer_je
     return out.withTag(ins.basic_jetpack.tag);
   }, null);
   
-// Repair survivalist jetpack with etherium
+// Upgrade basic jetpack to soldier jetpack
+// Maintains the RF stored in the basic jetpack
+recipes.addShapeless("gear_shapeless_explorerJetpack", <ironjetpacks:soldier_jetpack>, [<minecraft:diamond>, <minecraft:diamond>, <ironjetpacks:basic_jetpack>.marked("basic_jetpack").noReturn()], function(out, ins, cInfo) {
+    return out.withTag(ins.basic_jetpack.tag);
+  }, null);
+  
+// Repair survivalist jetpack with blaze powder
 recipes.addShapeless(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 5000}), [<ironjetpacks:survivalist_jetpack>, <minecraft:blaze_powder>]);
