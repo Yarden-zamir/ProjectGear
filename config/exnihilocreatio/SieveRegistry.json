@@ -79,6 +79,7 @@
       "chance": 0.25,
       "meshLevel": 1
     }
+	],
   "ore:dirt": [
     {
       "drop": "minecraft:wheat_seeds:-1",
@@ -157,6 +158,41 @@
     },
     {
       "drop": "integrateddynamics:menril_sapling:-1",
+      "chance": 0.02,
+      "meshLevel": 1
+    },
+	{
+      "drop": "minecraft:dye:3",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+	{
+      "drop": "immersiveengineering:seed:-1",
+      "chance": 0.15,
+      "meshLevel": 1
+    },
+	{
+      "drop": "rustic:chili_pepper_seeds:-1",
+      "chance": 0.01,
+      "meshLevel": 1
+    },
+	{
+      "drop": "rustic:tomato_seeds:-1",
+      "chance": 0.01,
+      "meshLevel": 1
+    },
+	{
+      "drop": "rustic:apple_seeds:-1",
+      "chance": 0.02,
+      "meshLevel": 1
+    },
+	{
+      "drop": "randomthings:lotusseeds:-1",
+      "chance": 0.01,
+      "meshLevel": 1
+    },
+	{
+      "drop": "minecraft:beetroot_seeds:-1",
       "chance": 0.02,
       "meshLevel": 1
     }
