@@ -201,7 +201,7 @@ recipes.addShapeless(<quark:basalt>,
 furnace.remove(<projectred-core:resource_item:103>);
  
 // Red Alloy Ingot Arc Furnace recipe (1 Tin Ingot + 8 Redstone)
-mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, null, 1000, 2048, [<minecraft:redstone> * 2], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, null, 200, 256, [<minecraft:redstone> * 2], "Alloying");
  
 // Red Alloy Ingot Alloy Kiln recipe
 mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, <minecraft:redstone> * 8, 2000);
@@ -211,7 +211,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:
 furnace.remove(<projectred-core:resource_item:104>);
  
 // Electrotine Alloy Ingot Arc Furnace recipe (1 Tin Ingot + 4 Electrotine)
-mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, null, 1000, 2048, [<projectred-core:resource_item:105> * 4], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, null, 200, 256, [<projectred-core:resource_item:105> * 4], "Alloying");
  
 // Electrotine Alloy Ingot Alloy Kiln recipe
 mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, <projectred-core:resource_item:105> * 8, 2000);
