@@ -17,7 +17,7 @@ val itemsToDisable =[
 	<exnihilocreatio:item_mesh:3>,
 	<exnihilocreatio:item_mesh:4>,
 	// Stone, andesite, diorite and granite pebbles
-	<exnihilocreatio:item_pebble"*>
+	<exnihilocreatio:item_pebble:*>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
@@ -36,6 +36,6 @@ val craftingToDisable =[
 	<exnihilocreatio:item_mesh:3>,
 	<exnihilocreatio:item_mesh:4>,
 	// Stone, andesite, diorite and granite pebbles
-	<exnihilocreatio:item_pebble"*>
+	<exnihilocreatio:item_pebble:*>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);

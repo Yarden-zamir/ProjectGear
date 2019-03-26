@@ -63,8 +63,8 @@ val craftingToDisable =[
   <ironjetpacks:basic_capacitor>,
   <ironjetpacks:architect_capacitor>,
   <ironjetpacks:cloudrider_capacitor>,
-  <ironjetpacks:explorer_capacitor>,,
-  <ironjetpacks:soldier_capacitor>
+  <ironjetpacks:explorer_capacitor>,
+  <ironjetpacks:soldier_capacitor>,
   // Leather strap
   <ironjetpacks:strap>
 ] as IItemStack[];
