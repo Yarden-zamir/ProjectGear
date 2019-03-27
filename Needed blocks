@@ -1,10 +1,12 @@
-4. Automatic Attacker:
+This is a list of blocks that I would really like to exist, but currently don't.
+
+1. Automatic Attacker:
 
 A block that can hold a sword. This sword must be enchanted and not unbreakable. It will attack any mob directly in front of it, hitting mobs as soon as the sword is fully raised.
 
-The sword can deal sweap attacks, counts as a player kill, and takes enchantments such as looting into account. However, to work 
+The sword can deal sweap attacks, counts as a player kill, and takes enchantments such as looting into account. However, to effectively use the block you need to consistently feed the machine swords. This either requires an enchanting setup, or a mob farm that frequently gives enchanted swords (ie: zombie pigmen).
 
-5. Gravity Coil:
+2. Gravity Coil:
 
 This consists of two parts, the electromagnet and the blade.
 
@@ -28,7 +30,7 @@ When this blade runs into a mob, it will deal 20 hearts of damage to that mob. T
 
 When this block runs into a block, it will break that block. It will continue at a rate of one block every 5 game ticks regardless of the block's hardness. It can break obsidian, but not bedrock or other unbreakable blocks.
 
-6. Ender Gateway Transmitter/Receiver
+3. Ender Gateway Transmitter/Receiver
 
 The Ender Gateway Transmitter is a block that looks similar to an ender chest in appearance. When an item is inserted using a pipe, it is teleported to the world spawn point of the dimension it's in. The items will appear in item entity form. This works just like dropping items in an end portal in vanilla, but it stays in the same dimension.
 
@@ -42,4 +44,4 @@ The Transmitter has ornate artwork similar to a Project E alchemical chest. It h
 
 A config option would exist (disabled by default) which would cause the reciever to become unbreakable and unmovable with mods like Funky Locomotion.
 
-Note: The reason I want this feature instead of ender chests is to allow item teleportation while still encouraging Railcraft for moving items between bases. I plan to make the transmitter craftable, but the reciever will only be found in rare structures. Since you can't move or craft a reciever, you'll need to either build your bsae next to a structure or set up a rail line to the closest one.
+Note: The reason I want this feature instead of ender chests is to allow item teleportation while still encouraging Railcraft for moving items between bases. I plan to make the transmitter craftable, but the reciever will only be found in rare structures. Since you can't move or craft a reciever, you'll need to either build your base next to a structure or set up a rail line to the closest one.
