@@ -1,0 +1,45 @@
+4. Automatic Attacker:
+
+A block that can hold a sword. This sword must be enchanted and not unbreakable. It will attack any mob directly in front of it, hitting mobs as soon as the sword is fully raised.
+
+The sword can deal sweap attacks, counts as a player kill, and takes enchantments such as looting into account. However, to work 
+
+5. Gravity Coil:
+
+This consists of two parts, the electromagnet and the blade.
+
+Two electromagnets must be placed within 15 blocks of each other. They must have direct line of sight, and cannot be diagonal. One block must be able to see the other by searching in one of the six basic directions.
+
+Then, the blade is placed somewhere between the electromagnets. When one electromagnet has a redstone signal and the other does not, the blade will move towards the electromagnet with the signal. Then you can switch their redstone states and the blade will return to the first electromagnet.
+
+If an electromagnet is activated and the other electromagnet is not off and does not turn off within the next 2 game ticks, both electromagnets will break. This causes them to turn red, and they will not work until right clicked.
+
+If the blade is not touching the activated electromagnet during the tick it is activated or during the next 2 game ticks, it will also enter this fail state.
+
+The goal of this system is to require a small amount of clever redstone to work. The block breaker is useful for tree and crop farms. The mob masher is intended for mob farms. They're great for getting bones and other common drops, but in my pack I want people to make dedicated farms for nether stars and experience.
+
+Two blades exist:
+
+	1. Mob-mashing blade:
+
+When this blade runs into a mob, it will deal 20 hearts of damage to that mob. The mob will then drop 5 times as much loot as it normally does if it dies (done by rolling the drop table 5 times similar to Astral Sourcery's inner wealth effect), but this does NOT count as a player kill.
+
+	2. Block-mashing blade:
+
+When this block runs into a block, it will break that block. It will continue at a rate of one block every 5 game ticks regardless of the block's hardness. It can break obsidian, but not bedrock or other unbreakable blocks.
+
+6. Ender Gateway Transmitter/Receiver
+
+The Ender Gateway Transmitter is a block that looks similar to an ender chest in appearance. When an item is inserted using a pipe, it is teleported to the world spawn point of the dimension it's in. The items will appear in item entity form. This works just like dropping items in an end portal in vanilla, but it stays in the same dimension.
+
+The Ender Gateway Receiver looks similar, but it's orange instead of cyan. Holding an Ender Gateway Reciever and clicking on a Transmitter (or vise versa) will bind the two blocks together. The Transmitter will then teleport items to the inventory of the Reciever.
+
+The Reciever can only recieve items, and the Transmitter can only send them. It's not a two-way teleporter like an ender chest. The Reciever has an inventory the size of a vanilla chest. The Transmitter has an inventory with only one slot, but instantly teleports items to either the Reciever or the world spawn.
+
+The Transmitter will stop transmitting items if the Reciever its bound to has a full inventory. If it's set to teleport items to the world spawn, it will send an item stack every 5 game ticks.
+
+The Transmitter has ornate artwork similar to a Project E alchemical chest. It has orange lines when pointing to a transmitter, or blue lines when pointing to a world spawn. While active, it would behave like bedrock.
+
+A config option would exist (disabled by default) which would cause the reciever to become unbreakable and unmovable with mods like Funky Locomotion.
+
+Note: The reason I want this feature instead of ender chests is to allow item teleportation while still encouraging Railcraft for moving items between bases. I plan to make the transmitter craftable, but the reciever will only be found in rare structures. Since you can't move or craft a reciever, you'll need to either build your bsae next to a structure or set up a rail line to the closest one.
