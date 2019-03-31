@@ -44,5 +44,10 @@ recipes.addShapeless(<projectred-exploration:stone>,
 recipes.addShapeless(<projectred-exploration:stone:3>,
     [<quark:basalt>]);
 	
+// Craft limestone, marble and basalt from pebbles
+recipes.addShapeless(<quark:marble>, [<contenttweaker:marble_pebble>, <contenttweaker:marble_pebble>, <contenttweaker:marble_pebble>, <contenttweaker:marble_pebble>]);
+recipes.addShapeless(<quark:basalt>, [<contenttweaker:basalt_pebble>, <contenttweaker:basalt_pebble>, <contenttweaker:basalt_pebble>, <contenttweaker:basalt_pebble>]);
+recipes.addShapeless(<quark:limestone>, [<contenttweaker:limestone_pebble>, <contenttweaker:limestone_pebble>, <contenttweaker:limestone_pebble>, <contenttweaker:limestone_pebble>]);
+	
 // Casting Basin: 144 mb Molten Quicklime -> 1 Block of Limestone
 mods.tconstruct.Casting.addBasinRecipe(<quark:limestone>, null, <liquid:quicklime>, 144);

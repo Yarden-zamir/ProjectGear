@@ -23,6 +23,10 @@ recipes.addShaped("RedstoneFluxCart", <railcraft:cart_redstone_flux>,
 	 [<minecraft:redstone_block>,<minecraft:minecart>,<minecraft:redstone_block>],
 	 [<ore:ingotNickel>,<minecraft:redstone_block>,<ore:ingotNickel>]]);
 	 
+// Craft abyssal stone and quarried stone from pebbles
+recipes.addShapeless(<railcraft:generic:8>, [<contenttweaker:abyssal_pebble>, <contenttweaker:abyssal_pebble>, <contenttweaker:abyssal_pebble>, <contenttweaker:abyssal_pebble>]);
+recipes.addShapeless(<railcraft:generic:9>, [<contenttweaker:quarried_pebble>, <contenttweaker:quarried_pebble>, <contenttweaker:quarried_pebble>, <contenttweaker:quarried_pebble>]);
+	 
 // Makes Railcraft slag ore dictionary compatible with Immersive Engineering
 <ore:itemSlag>.add(<railcraft:dust:4>);
 

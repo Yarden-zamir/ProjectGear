@@ -135,6 +135,9 @@ pebbleAbyssal.register();
 var pebbleQuarried = VanillaFactory.createItem("quarried_pebble");
 pebbleQuarried.register();
 
+var pebbleSkystone = VanillaFactory.createItem("skystone_pebble");
+pebbleSkystone.register();
+
 // Sand pile
 
 var pileSand = VanillaFactory.createItem("sand_pile");

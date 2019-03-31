@@ -41,6 +41,9 @@ recipes.addShaped(<rustic:chain>,
 	[[<ore:nuggetIron>],
 	 [<ore:nuggetIron>],
 	 [<ore:nuggetIron>]]);
+	 
+// Craft slate from pebbles
+recipes.addShapeless(<rustic:slate>, [<contenttweaker:slate_pebble>, <contenttweaker:slate_pebble>, <contenttweaker:slate_pebble>, <contenttweaker:slate_pebble>]);
 
 // Fix recipe conflict with Quark's stained planks
 

@@ -78,6 +78,9 @@ recipes.addShaped(<appliedenergistics2:part:260>,
 	[[null, null, null],
 	 [tinIngot, <appliedenergistics2:material:43>, tinIngot],
 	 [null, <minecraft:piston>, null]]);
+	 
+// Craft sky stone from sky stone pebbles
+recipes.addShapeless(<appliedenergistics2:sky_stone_block>, [<contenttweaker:skystone_pebble>, <contenttweaker:skystone_pebble>, <contenttweaker:skystone_pebble>, <contenttweaker:skystone_pebble>]);
 
 // Add recipes to presses
 var ingotSteel = <ore:ingotSteel>;
