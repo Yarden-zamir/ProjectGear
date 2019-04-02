@@ -88,3 +88,20 @@ recipes.addShaped(<factorytech:machinepart:80>,
 
 scripts.functions.rename(<factorytech:machinepart:180>,"Water Mesh");
 //recipes.removeShaped(<factorytech:machinepart:33>); will remove recipe when adding the alternative that's in the diagram.
+
+// Adds new recipes for the plane shifter
+// Note: This stops it from being gated behind Factory Tech
+recipes.addShaped(<factorytech:planeshifter>, 
+	[[<botania:manaresource>, <botania:manaresource>, <botania:manaresource>],
+	 [<botania:manaresource:12>, <minecraft:end_stone>, <botania:manaresource:12>],
+	 [<botania:manaresource>, <botania:manaresource>, <botania:manaresource>]]);
+	 
+recipes.addShaped(<factorytech:planeshifter>,
+	[[<appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>],
+	 [<botania:manaresource:12>, <minecraft:end_stone>, <botania:manaresource:12>],
+	 [<appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>]]);
+	 
+recipes.addShaped(<factorytech:planeshifter>,
+	[[<thermalfoundation:material:167>, <thermalfoundation:material:167>, <thermalfoundation:material:167>],
+	 [<thermalfoundation:glass_alloy:7>, <minecraft:end_stone>, <thermalfoundation:glass_alloy:7>],
+	 [<thermalfoundation:material:167>, <thermalfoundation:material:167>, <thermalfoundation:material:167>]]);
