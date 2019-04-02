@@ -1,7 +1,7 @@
 {
-  "ore:gravel": {
+  "ore:ingotBrickSeared": {
     "fluid": "lava",
-    "amount": 100
+    "amount": 200
   },
   "ore:netherrack": {
     "fluid": "lava",
@@ -15,16 +15,12 @@
     "fluid": "lava",
     "amount": 1000
   },
-  "ore:sand": {
-    "fluid": "lava",
-    "amount": 100
-  },
-  "exnihilocreatio:block_dust:0": {
-    "fluid": "lava",
-    "amount": 100
-  },
-  "pre:dustBlazePowder": {
+  "ore:dustBlazePowder": {
     "fluid": "lava",
     "amount": 500
+  },
+  "tconstruct:soil": {
+    "fluid": "lava",
+    "amount": 250
   }
 }
