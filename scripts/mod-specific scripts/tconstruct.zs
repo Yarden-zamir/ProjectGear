@@ -9,6 +9,11 @@ mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearWood
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:gold>, 288, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:alubrass>, 144, true);
 
+// Make melting grout in a smeltery give 4 ingots instead of 1
+mods.tconstruct.Melting.removeRecipe(<liquid:stone> * 144, <tconstruct:soil>);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 576, <tconstruct:soil>, 442);
+
+
 #Script by DolphinBlaster
 // Metal Press: Ingot -> Tinkers' Tool Rod
 	// Iron
