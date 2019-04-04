@@ -1,4 +1,4 @@
-Added mods:
+**Added mods:**
 -Chisel
 -Unlimited Chisel Works
 -Ex Nihilo Creatio
@@ -6,8 +6,11 @@ Added mods:
 -Practical Logistics 2
 -Online Picture Frame
 -Better mobGriefing Gamerule
+-FTB Backups
+-Phosphor
+-Numina
 
-Removed mods:
+**Removed mods:**
 -Charset Storage
 -Charset Crafting
 -Charset Lib
@@ -17,3 +20,44 @@ Removed mods:
 -EZ Storage 2
 -No Endermen Pickup
 -Logistics Pipes
+
+**Updated mods:**
+-Apathetic Mobs
+-Apple Core
+-Better Builders Wands
+-Buildcraft
+-Chisels and Bits
+-Common Capabilities
+-CraftTweaker
+-Creative Core
+-Cyclops Core
+-Factory Tech
+-FTB Lib
+-FTB Utilities
+-Hammer Core
+-Integrated Dynamics
+-Just Enough Items
+-Just Enough Resources
+-Little Tiles
+-Loot Tweaker
+-Mantle
+-Mekanism
+-Mod Tweaker
+-Modular Powersuits
+-Not Enough IDs
+-NuclearCraft
+-Placebo
+-Railcraft
+-Random Things
+-Random Patches
+-Reborn Core
+-Thaumic Additions
+-Thaumic JEI
+-Thaumic Restoration
+-Thermal Dynamics
+-Tinkers JEI
+-Tinkers Construct
+-Tip The Scales
+-Worse Solars
+
+**Changes and fixes:**
