@@ -21,6 +21,11 @@ val craftingToDisable =[
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
+// Alternate conveyor belt recipe which requires more iron, but paper instead of leather
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),
+	[[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+	 [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>]]);
+
 
 // Makes Immersive Engineering relays and wire connectors require Magneticraft wire connectors. These must be made in the Thermionic Fabricator.
 

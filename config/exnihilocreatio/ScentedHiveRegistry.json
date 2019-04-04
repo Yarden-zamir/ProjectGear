@@ -1,0 +1,119 @@
+[
+  {
+    "hive": "forestry:beehives:0",
+    "dim": 0,
+    "adjacentBlocks": {
+      "ore:treeLeaves": 1,
+      "ore:logWood": 1
+    }
+  },
+  {
+    "hive": "forestry:beehives:1",
+    "dim": 0,
+    "adjacentBlocks": {
+      "ore:flower": 1
+    }
+  },
+  {
+    "hive": "forestry:beehives:2",
+    "dim": 0,
+    "adjacentBlocks": {
+      "ore:sand": 1
+    }
+  },
+  {
+    "hive": "forestry:beehives:3",
+    "dim": 0,
+    "adjacentBlocks": {
+      "minecraft:log:3": 1,
+      "ore:treeLeaves": 1
+    }
+  },
+  {
+    "hive": "forestry:beehives:4",
+    "dim": 1,
+    "adjacentBlocks": {
+      "minecraft:end_stone:0": 1
+    }
+  },
+  {
+    "hive": "forestry:beehives:5",
+    "dim": 0,
+    "adjacentBlocks": {
+      "minecraft:snow:0": 1,
+      "minecraft:ice:0": 1
+    }
+  },
+  {
+    "hive": "forestry:beehives:6",
+    "dim": 0,
+    "adjacentBlocks": {
+      "ore:dirt": 1
+    }
+  },
+  {
+    "hive": "extrabees:hive:0",
+    "dim": 0,
+    "adjacentBlocks": {
+      "ore:water": 1
+    }
+  },
+  {
+    "hive": "extrabees:hive:1",
+    "dim": 0,
+    "adjacentBlocks": {
+      "ore:stone": 4
+    }
+  },
+  {
+    "hive": "extrabees:hive:2",
+    "dim": -1,
+    "adjacentBlocks": {
+      "ore:minecraft:netherrack": 3
+    }
+  },
+  {
+    "hive": "magicbees:hiveblock:0",
+    "dim": 0,
+    "adjacentBlocks": {
+      "ore:grass": 1
+    }
+  },
+  {
+    "hive": "magicbees:hiveblock:1",
+    "dim": 0,
+    "adjacentBlocks": {
+      "ore:grass": 1
+    }
+  },
+  {
+    "hive": "magicbees:hiveblock:2",
+    "dim": 0,
+    "adjacentBlocks": {
+      "ore:stone": 2
+    }
+  },
+  {
+    "hive": "magicbees:hiveblock:3",
+    "dim": 0,
+    "adjacentBlocks": {
+      "ore:minecraft:redstone_block": 3
+    }
+  },
+  {
+    "hive": "magicbees:hiveblock:4",
+    "dim": -1,
+    "adjacentBlocks": {
+      "ore:minecraft:netherrack": 1,
+      "ore:minecraft:glowstone": 2
+    }
+  },
+  {
+    "hive": "magicbees:hiveblock:5",
+    "dim": 1,
+    "adjacentBlocks": {
+      "ore:minecraft:end_stone": 1,
+      "ore:minecraft:obsidian": 2
+    }
+  }
+]
