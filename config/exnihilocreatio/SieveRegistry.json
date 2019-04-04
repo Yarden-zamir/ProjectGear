@@ -20,10 +20,12 @@
   ],
   "ore:gravel": [
     {
-      "drop": "minecraft:flint:-1",
+	  "drop": "minecraft:flint:-1",
       "chance": 0.25,
       "meshLevel": 1
-    },
+    }
+  ],
+  "contenttweaker:coarse_gravel": [
 	{
       "drop": "contenttweaker:diorite_pebble",
       "chance": 0.25,
