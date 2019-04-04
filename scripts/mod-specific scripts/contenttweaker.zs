@@ -1,4 +1,5 @@
-
+import crafttweaker.item.IItemStack;
+import mods.integrateddynamics.Squeezer;
 
 // Craft the white ceramic tile
 recipes.addShaped(<contenttweaker:age_portal_black>,
@@ -91,5 +92,14 @@ recipes.addShapeless(<contenttweaker:ardite_dust>, [<immersiveengineering:tool>.
 recipes.addShapeless(<contenttweaker:aluminum_brass_plate>, [<immersiveengineering:tool>.transformDamage(), <ore:ingotBrass>]);
 
 // Brass gear:
-mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:aluminum_brass_gear>, <tconstruct:cast_custom:4>, <liquid:alubrass>, 576, 140);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:aluminum_brass_gear>, <tconstruct:cast_custom:4>, <liquid:alubrass>, 576, false, 140);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:aluminum_brass_gear>, <ore:ingotBrass>, <immersiveengineering:mold:1>, 2000, 4);
+
+// Crushing sturdy stone into coarse gravel
+	// Immersive Engineering crusher:
+mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:coarse_gravel>, <quark:sturdy_stone>, 2048, <minecraft:gravel>, 0.5);
+	// Factory Tech drill press:
+mods.factorytech.DrillGrinder.addRecipe(<contenttweaker:coarse_gravel> * 2, <quark:sturdy_stone>, true);
+
+	// Integrated Dynamics squeezer:
+Squeezer.addRecipe(<quark:sturdy_stone>, <contenttweaker:coarse_gravel>, <liquid:dirt> * 50);
