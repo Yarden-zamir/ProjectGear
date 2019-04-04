@@ -22,7 +22,7 @@ val craftingToDisable =[
 scripts.functions.disableCraftings(craftingToDisable);
 
 // Alternate conveyor belt recipe which requires more iron, but paper instead of leather
-recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4,
 	[[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
 	 [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>]]);
 

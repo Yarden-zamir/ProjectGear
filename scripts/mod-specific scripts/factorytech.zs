@@ -97,9 +97,9 @@ recipes.addShaped(<factorytech:planeshifter>,
 	 [<botania:manaresource>, <botania:manaresource>, <botania:manaresource>]]);
 	 
 recipes.addShaped(<factorytech:planeshifter>,
-	[[<appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>],
-	 [<botania:manaresource:12>, <minecraft:end_stone>, <botania:manaresource:12>],
-	 [<appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>]]);
+	[[<appliedenergistics2:material:12>, <appliedenergistics2:material:12>, <appliedenergistics2:material:12>],
+	 [<appliedenergistics2:material:44>, <minecraft:end_stone>, <appliedenergistics2:material:43>],
+	 [<appliedenergistics2:material:12>, <appliedenergistics2:material:12>, <appliedenergistics2:material:12>]]);
 	 
 recipes.addShaped(<factorytech:planeshifter>,
 	[[<thermalfoundation:material:167>, <thermalfoundation:material:167>, <thermalfoundation:material:167>],
