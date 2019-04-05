@@ -80,6 +80,11 @@
       "drop": "contenttweaker:slate_pebble",
       "chance": 0.25,
       "meshLevel": 1
+    },
+	{
+      "drop": "contenttweaker:skystone_pebble",
+      "chance": 0.25,
+      "meshLevel": 1
     }
 	],
   "ore:dirt": [
