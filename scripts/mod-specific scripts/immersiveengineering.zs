@@ -279,6 +279,11 @@ mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust>, <ore:i
 mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust> * 2, <contenttweaker:ardite_chunk>, 2048, <tconstruct:nuggets:0> * 9, 0.25);
 mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:ardite_dust> * 2, <ore:oreArdite>, 2048);
 
+// Gives hemp seeds the `listAllSeeds` ore dictionary tag
+// Note: This allows you to use it in an Ex Nihilo Creatio compost barrel
+val listAllSeed = <ore:listAllSeed>;
+listAllSeed.add(<immersiveengineering:seed>);
+
 // Change aluminum items to tin:
 	// Adds stickTin ore dictionary tag to aluminium rod
 var stickTin = <ore:stickTin>; //Declares new ore dictionary tag

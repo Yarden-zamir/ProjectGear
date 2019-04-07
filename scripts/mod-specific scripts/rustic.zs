@@ -45,6 +45,14 @@ recipes.addShaped(<rustic:chain>,
 // Craft slate from pebbles
 recipes.addShapeless(<rustic:slate>, [<contenttweaker:slate_pebble>, <contenttweaker:slate_pebble>, <contenttweaker:slate_pebble>, <contenttweaker:slate_pebble>]);
 
+// Adds ore dictionary tags to seeds
+// Note: This allows it to be used in an Ex Nihilo Creatio compost barrel
+val listAllseed = <ore:listAllseed>;
+listAllseed.add(<rustic:tomato_seeds>);
+listAllseed.add(<rustic:chili_pepper_seeds>);
+listAllseed.add(<rustic:apple_seeds>);
+listAllseed.add(<rustic:grape_stem>);
+
 // Fix recipe conflict with Quark's stained planks
 
 val treatedWood = <immersiveengineering:treated_wood>;

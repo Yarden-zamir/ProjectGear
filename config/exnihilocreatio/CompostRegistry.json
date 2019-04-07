@@ -1,4 +1,4 @@
-{
+	{
   "ore:flower": {
     "value": 0.1,
     "compostBlock": "minecraft:dirt:0"
@@ -193,5 +193,113 @@
   "ore:listAllmeatcooked": {
     "value": 0.2,
     "compostBlock": "minecraft:dirt:0"
+  },
+  "minecraft:feather": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "minecraft:dye:3": {
+    "value": 0.2,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "ore:dustAsh": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "ore:slimeball": {
+    "value": 0.112,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "rustic:honeycomb": {
+    "value": 0.1,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "minecraft:chorus_flower": {
+    "value": 1,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "immersiveengineering:material:4": {
+    "value": 0.01,
+    "compostBlock": "minecraft:dirt:0"
+  },
+  "botania:petal:0": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "C1C1C1"
+  },
+  "botania:petal:1": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "FF8C00"
+  },
+  "botania:petal:2": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "FF55FF"
+  },
+  "botania:petal:3": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "89cff0"
+  },
+  "botania:petal:4": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "FFFF00"
+  },
+  "botania:petal:5": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "FFB6C1"
+  },
+  "botania:petal:6": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "55FF55"
+  },
+  "botania:petal:7": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "555555"
+  },
+  "botania:petal:8": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "AAAAAA"
+  },
+  "botania:petal:9": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "00AAAA"
+  },
+  "botania:petal:10": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "800080"
+  },
+  "botania:petal:11": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "0000FF"
+  },
+  "botania:petal:12": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "8B4513"
+  },
+  "botania:petal:13": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "228B22"
+  },
+  "botania:petal:14": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "B22222"
+  },
+  "botania:petal:15": {
+    "value": 0.16666667,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "212121"
   }
 }

@@ -1,5 +1,6 @@
 #Script by DolphinBlaster		
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
 
 val itemsToDisable =[
     // Ghostwood Tools
@@ -179,6 +180,13 @@ recipes.addShaped(<natura:ghostwood_bow>,
 <natura:soups:7>.maxStackSize = 64;
 <natura:soups:8>.maxStackSize = 64;
 <natura:soups:9>.maxStackSize = 64;
+
+// Add ore dictionary tags to imphide
+// Note: This allows it to be used in an Ex Nihilo creatio compost barrel
+val listAllCookedMeat = <ore:listAllCookedMeat>;
+val meatRaw = <ore:meatRaw>;
+listAllCookedMeat.add(<natura:edibles:1>);
+meatRaw.add(<natura:edibles:1>);
 
 
 #Script by AtomBlade
