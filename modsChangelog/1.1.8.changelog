@@ -36,6 +36,8 @@
 -FTB Utilities
 -Hammer Core
 -Integrated Dynamics
+-Immersive Cables
+-Immersive Engineering
 -Just Enough Items
 -Just Enough Resources
 -Little Tiles
@@ -61,3 +63,44 @@
 -Worse Solars
 
 **Changes and fixes:**
+
+Ex Nihilo Creatio changes:
+1. Disabled most sieving recipes, including, leaves, ores and default pebbles pebbles
+2. Created pebbles with Content Tweaker for various rock types (limestone, marble, basalt, abyssal, quarried, slate, red rock, crag rock, sky stone, diorite, granite, andesite)
+3. Created a new coarse gravel block which can be made by crushing Quark's sturdy stone. The Factory Tech drill grinder gives 2, the Immersive Engineering crusher gives 1 with a 50% chance of gravel, and the Integrated Dynamics squeezer gives 1 plus 50mb of liquid dirt.
+4. Sieving coarse gravel gives every type of pebbles
+5. 4 pebbles can be crafted into a block of the same type. For example, 4 sky stone pebbles gives 1 sky stone block.
+6. Disabled all meshes except string, Ex Nihilo pebbles, and silver/osmium/lead/aluminum/platinum items
+7. Infested leaves no longer spread, but always drop string. This is mostly to stop people from accidentally trashing a forest.
+8. Changed which items can be melted into lava to make that more interesting
+9. You can get more seeds from sieving dirt
+
+Iron Jetpacks changes:
+-Added a Soldier Jetpack with default stats, except with better armor and enchantability.
+-Nerfed the sprint speed multiplier of all jetpacks
+-Buffed default horizontal speed of Explorer Jetpack
+-Buffed the default vertical speed of the Cloudrider Jetpack
+
+Chisel changes:
+-Disabled Chisel stone generation
+-The Auto Chisel now requires power
+-Increased diamond chisel durability by a factor of 10
+-Disabled the chiseling of stone bricks > mossy stone bricks
+
+Other changes and Fixes:
+-Buffed the Open Blocks sprinkler fairly dramatically
+-Making red alloy ingots in the arc furnace now requires less RF
+-Making red alloy ingots requires less redstone (4 > 8). It's not 1 redstone per red alloy wire.
+-Disabled Practical Logistics sapphire ore generation
+-Added recipes to Practical Logistics sapphire
+-Melting grout in a smeltery gives more stone (1 > 4 ingots)
+-Added 3 new recipes to the dimensional shifter. It's no longer gated behind Factory Tech.
+-Added an alternative conveyor belt recipe that uses paper instead of leather
+-Buffed Quark endermite burrowing. Endermite will now always burrow into purpur if able, turning into shulkers.
+-Fixes Immersive Engineering tesla coil requiring aluminum
+-Fixed recipe conflict between Magneticraft pneumatic press blueprint and Prodigy Tech circuit blueprint
+-Fixed broken certus quartz elven trade recipe. It used to require a mana diamond, which would turn into dragonstone. It now uses a regular diamond instead.
+-Added a shapeless recipe to turn Thaumcraft blass plates into ContentTweaker aluminum brass plates and back.
+-Fixed a metal press recipe conflict between steel rods and Tinkers' steel tool rods.
+-Disabled several unbalanced Mystcraft liquid pages, such as liquid metals and Thaumcraft liquid death
+
