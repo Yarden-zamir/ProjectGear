@@ -227,6 +227,10 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "componen
 	[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], 
 	[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 	
+// Tesla Coil Aluminum > Tin
+recipes.removeByRecipeName("immersiveengineering:metal_devices/tesla_coil");
+recipes.addShaped("gear_shaped_tesla_coil", <immersiveengineering:metal_device1:8>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [null, <immersiveengineering:metal_decoration0>, null], [<immersiveengineering:metal_device0:2>, <immersiveengineering:metal_decoration0>, <immersiveengineering:metal_device0:2>]]);
+	
 // Casull Cartridge Blueprint recipe removal
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:bullet:2>.withTag({bullet: "casull"}));
 
