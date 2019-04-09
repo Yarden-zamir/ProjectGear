@@ -1,6 +1,9 @@
 import crafttweaker.item.IItemStack;
 import mods.integrateddynamics.Squeezer;
 
+// Craft Thaumcraft brass plates into aluminum brass plates
+recipes.addShapeless(<contenttweaker:aluminum_brass_plate>, [<thaumcraft:plate>]);
+
 // Craft the white ceramic tile
 recipes.addShaped(<contenttweaker:age_portal_black>,
 	[[<ore:ingotBrickSeared>, <minecraft:clay_ball>, <ore:ingotBrickSeared>],

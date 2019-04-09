@@ -11,3 +11,6 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
 
 // Craft ambient grass
 recipes.addShapeless(<thaumcraft:grass_ambient>, [<minecraft:grass>, <thaumcraft:crystal_essence>]);
+
+// Craft ContentTweaker aluminum brass plates into Thaumcraft brass plates
+recipes.addShapeless(<thaumcraft:plate>, [<contenttweaker:aluminum_brass_plate>]);
