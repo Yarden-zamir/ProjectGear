@@ -197,6 +197,6 @@ recipes.addShaped(<appliedenergistics2:charger>,
 	 [<ore:ingotTin>, null, null],
 	 [<ore:ingotTin>, certus, <ore:ingotTin>]]);
 	 
-mods.botania.ElvenTrade.addRecipe([certus * 16], [<botania:quartz:1> * 16, <botania:manaresource:2>]);
+mods.botania.ElvenTrade.addRecipe([certus * 16], [<botania:quartz:1> * 16, <ore:gemDiamond>]);
 
 mods.botania.PureDaisy.addRecipe(<minecraft:quartz_block>, <appliedenergistics2:quartz_block>);
