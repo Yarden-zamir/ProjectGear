@@ -7,7 +7,7 @@
     "fluid": "lava",
     "amount": 250
   },
-  "ore:ingotNetherBrick": {
+  "ore:ingotBrickNether": {
     "fluid": "lava",
     "amount": 1000
   },
@@ -19,7 +19,7 @@
     "fluid": "lava",
     "amount": 500
   },
-  "tconstruct:soil": {
+  "tconstruct:soil:0": {
     "fluid": "lava",
     "amount": 250
   }
