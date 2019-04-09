@@ -316,6 +316,10 @@ recipes.addShaped(<immersiveengineering:metal_decoration2:3> * 4, [[<ore:ingotAl
  
 // Steel:
 
+// Removes the metal press recipe for the steel rod
+// Note: Steel tool rods from Tinkers' are used instead
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:2>);
+
 val steelStickOrRod = <ore:stickSteel> | <tconstruct:tool_rod>.withTag({Material: "steel"});
 
 	// Fence
