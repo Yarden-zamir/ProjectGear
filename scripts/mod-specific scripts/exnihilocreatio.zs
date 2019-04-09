@@ -11,6 +11,7 @@ val itemsToDisable =[
 	<exnihilocreatio:item_ore_silver:*>,
 	<exnihilocreatio:item_ore_lead:*>,
 	<exnihilocreatio:item_ore_osmium:*>,
+	<exnihilocreatio:item_ore_platinum:*>,
 	// Flint, iron and diamond meshes
 	// Note: String meshes still exist
 	<exnihilocreatio:item_mesh:2>,
@@ -30,6 +31,7 @@ val craftingToDisable =[
 	<exnihilocreatio:item_ore_silver:*>,
 	<exnihilocreatio:item_ore_lead:*>,
 	<exnihilocreatio:item_ore_osmium:*>,
+	<exnihilocreatio:item_ore_platinum:2>,
 	// Flint, iron and diamond meshes
 	// Note: String meshes still exist
 	<exnihilocreatio:item_mesh:2>,
