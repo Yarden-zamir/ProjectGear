@@ -1,34 +1,60 @@
 import crafttweaker.item.IItemStack;
-import crafttweaker.liquid.ILiquidStack;
 
 print("Beginning thermaldynamics.zs");
 
 
 val itemsToDisable =[
-	// Fluiducts
-	// Note: Disabled to encourage Buildcraft, Immersive Engineering or Logistics Pipes for fluid transfer
-	<thermaldynamics:duct_16:*>,
+	// Fluiducts except hardened
+	// Note: Disabled to encourage people to use multiple ducts in parallel
+	<thermaldynamics:duct_16:0>,
+	<thermaldynamics:duct_16:1>,
+	<thermaldynamics:duct_16:4>,
+	<thermaldynamics:duct_16:5>,
+	<thermaldynamics:duct_16:6>,
+	<thermaldynamics:duct_16:7>,	
 	// Itemducts
 	// Note: Disabled to encourage conveyor belts, Buildcraft, Factory Tech or Logistics Pipes for item transfer
 	<thermaldynamics:duct_32:*>,
 	// Servos
 	// Note: Disabled because they're useless without itemducts or fluiducts
-	<thermaldynamics:servo:*>,
+	<thermaldynamics:servo:0>,
+	<thermaldynamics:servo:2>,
+	<thermaldynamics:servo:3>,
+	<thermaldynamics:servo:4>,
 	// Retrievers
 	// Note: Disabled because they're useless without itemducts or fluiducts
 	<thermaldynamics:retriever:*>,
-	// Filters
-	// Note: Disabled because they're useless without itemducts or fluiducts
-	<thermaldynamics:filter:*>
+	// Filters except hardened
+	// Note: Hardened are the best filter needed for fluiducts
+	<thermaldynamics:filter:0>,
+	<thermaldynamics:filter:1>,
+	<thermaldynamics:filter:3>,
+	<thermaldynamics:filter:4>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
 val craftingToDisable =[
-	// Fluiducts
-	<thermaldynamics:duct_16:*>,
+	// Fluiducts except hardened
+	<thermaldynamics:duct_16:0>,
+	<thermaldynamics:duct_16:1>,
+	<thermaldynamics:duct_16:4>,
+	<thermaldynamics:duct_16:5>,
+	<thermaldynamics:duct_16:6>,
+	<thermaldynamics:duct_16:7>,	
+	// Itemducts
 	<thermaldynamics:duct_32:*>,
-	<thermaldynamics:servo:*>,
+	// Servos
+	<thermaldynamics:servo:0>,
+	<thermaldynamics:servo:2>,
+	<thermaldynamics:servo:3>,
+	<thermaldynamics:servo:4>,
+	// Retrievers
 	<thermaldynamics:retriever:*>,
+	// Filters except hardened
+	<thermaldynamics:filter:0>,
+	<thermaldynamics:filter:1>,
+	<thermaldynamics:filter:3>,
+	<thermaldynamics:filter:4>
 	
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
