@@ -60,3 +60,21 @@ val craftingToDisable =[
 scripts.functions.disableCraftings(craftingToDisable);
 
 print("Completed thermaldynamics.zs");
+
+# Recipes
+
+// Long Range Viaduct (Lead > Tin);
+recipes.removeByRecipeName("thermaldynamics:duct_64_1");
+recipes.addShaped(<thermaldynamics:duct_64:1> * 8, [[<ore:ingotTin>, <ore:blockGlassHardened>, <ore:ingotTin>], [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>], [<ore:ingotTin>, <ore:blockGlassHardened>, <ore:ingotTin>]]);
+
+// Structural duct recipe overhaul
+recipes.removeByRecipeName("thermaldynamics:duct_48");
+recipes.addShaped(<thermaldynamics:duct_48> * 6, [[<ore:ingotIron>, <ore:stone>, <ore:ingotIron>]]);
+
+// Leadstone fluxduct (Lead > Tin)
+recipes.removeByRecipeName("thermaldynamics:duct_0");
+recipes.addShaped(<thermaldynamics:duct_0> * 6, [[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], [<ore:ingotTin>, <ore:blockGlass>, <ore:ingotTin>], [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]]);
+
+// Redstone Relay (Lead > Nickel)
+recipes.removeByRecipeName("thermaldynamics:relay");
+recipes.addShaped(<thermaldynamics:relay> * 2, [[<ore:nuggetSignalum>, <ore:gemQuartz>, <ore:nuggetSignalum>], [<ore:ingotNickel>, <ore:dustRedstone>, <ore:ingotNickel>]]);

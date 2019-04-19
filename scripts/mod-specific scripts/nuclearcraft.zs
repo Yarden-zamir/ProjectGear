@@ -48,6 +48,13 @@ scripts.functions.disableCraftings(craftingToDisable);
 
 #recipes
 
+// Light Radiation Shielding (Lead > Tin)
+recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.rad_shielding.light");
+recipes.addShaped(<nuclearcraft:rad_shielding>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:coal>, <ore:coal>, <ore:coal>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
+
+// Radiation Badge (Lead > Tin);
+recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.radiation_badge");
+recipes.addShaped(<nuclearcraft:radiation_badge>, [[null, <ore:ingotCopper>, null], [<ore:string>, <ore:dustRedstone>, <ore:string>], [null, <ore:ingotTin>, null]]);
 
 // Boron + slag = 4x boron
 mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:ingot:5>*4, boronOre, slag, 100);

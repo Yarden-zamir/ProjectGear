@@ -310,9 +310,8 @@ recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_wallm
 recipes.addShaped(<immersiveengineering:metal_decoration2:3> * 4, [[<ore:ingotAluminum>, <ore:ingotAluminum>], [<ore:ingotAluminum>, <ore:stickAluminum>]]);
 
 	// Rod
- recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_wallmount");
- recipes.addShaped(<immersiveengineering:material:3> * 4, [[<ore:ingotTin>], [<ore:ingotTin>]]);
- 
+recipes.removeByRecipeName("immersiveengineering:material/stick_aluminum");
+recipes.addShaped(<immersiveengineering:material:3> * 4, [[<ore:ingotTin>], [<ore:ingotTin>]]);
  
 // Steel:
 
