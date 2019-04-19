@@ -188,6 +188,10 @@ recipes.addShaped(<projectred-expansion:jetpack>,
   [<projectred-expansion:charged_battery>, <minecraft:iron_chestplate>, <projectred-expansion:charged_battery>],
   [<minecraft:diamond>, <projectred-expansion:machine2:5>, <minecraft:diamond>]]);
   
+// Change athame to require certus quartz instead of silver
+recipes.removeByRecipeName("projectred-exploration:tools/athame"
+recipes.addShaped(<projectred-exploration:athame>, [[<ore:crystalCertusQuartz> | <ore:gemQuartz>], [<ore:stickWood>]]);
+  
 // Quark Marble -> ProjectRed Marble
 recipes.addShapeless(<quark:marble>,
     [<projectred-exploration:stone>]);
