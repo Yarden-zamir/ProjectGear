@@ -1,4 +1,4 @@
-VERSION = 411;
+VERSION = 412;
 {
 	circuit_ticks = [20, 5, 1]#; !min operation delay in ticks for each tier of circuit casing
 	Loc range = 20; !maximum range for sensor modules in blocks
@@ -55,4 +55,7 @@ INIT() {
 	add("shaped", it("m.ram_plate", 2), "1/0", slab, it("rsp1bitN"));
 	add("shaped", it("m.logic_prc", 8), "010/121/010", "dustRedstone", it("minecraft:redstone_torch"), "stone");
 	add("shaped", it("m.calc_prc", 2), "010/010/222", it("m.logic_prc"), "gemQuartz", "nuggetGold");
+	if (hasmod("opencomputers")) {
+		add("shaped", it("tile.oc_adc"), "010/234/050", slab, it("opencomputers:material", 1, 11), it("opencomputers:card", 1, 6), it("opencomputers:card", 1, 5), it("tile.rsp_32bit"), it("opencomputers:component", 1, 6));
+	}
 }
