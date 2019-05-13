@@ -72,9 +72,9 @@ recipes.addShapeless(<minecraft:sand>, [<contenttweaker:sand_pile>, <contenttwea
 recipes.addShapeless(<contenttweaker:sand_pile> * 4, [<minecraft:sand>]);
 
 // Craft granite, diorite and andesite from pebbles
-recipes.addShapeless(<minecraft:stone:1>, [<contenttweaker:granite_pebble>, <contenttweaker:granite_pebble> <contenttweaker:granite_pebble>, <contenttweaker:granite_pebble>]);
-recipes.addShapeless(<minecraft:stone:3>, [<contenttweaker:diorite_pebble>, <contenttweaker:diorite_pebble> <contenttweaker:diorite_pebble>, <contenttweaker:diorite_pebble>]);
-recipes.addShapeless(<minecraft:stone:5>, [<contenttweaker:andesite_pebble>, <contenttweaker:andesite_pebble> <contenttweaker:andesite_pebble>, <contenttweaker:andesite_pebble>]);
+recipes.addShapeless(<minecraft:stone:1>, [<contenttweaker:granite_pebble>, <contenttweaker:granite_pebble>, <contenttweaker:granite_pebble>, <contenttweaker:granite_pebble>]);
+recipes.addShapeless(<minecraft:stone:3>, [<contenttweaker:diorite_pebble>, <contenttweaker:diorite_pebble>, <contenttweaker:diorite_pebble>, <contenttweaker:diorite_pebble>]);
+recipes.addShapeless(<minecraft:stone:5>, [<contenttweaker:andesite_pebble>, <contenttweaker:andesite_pebble>, <contenttweaker:andesite_pebble>, <contenttweaker:andesite_pebble>]);
 #recipe removal
 // roten flesh -> leather
 recipes.removeShaped(<minecraft:leather>);

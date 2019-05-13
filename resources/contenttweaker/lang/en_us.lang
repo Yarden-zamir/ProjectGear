@@ -11,6 +11,7 @@ item.contenttweaker.guano.name=Guano
 item.contenttweaker.guano_ingot.name=Guano Ingot
 item.contenttweaker.sinew.name=Sinew
 item.contenttweaker.aluminum_brass_plate.name=Aluminum Brass Plate
+item.contenttweaker.aluminum_brass_gear.name=Aluminum Brass Gear
 item.contenttweaker.hardened_glass_ingot.name=Hardened Glass Ingot
 item.contenttweaker.hot_hardened_glass_ingot.name=Hot Hardened Glass Ingot
 item.contenttweaker.ardite_chunk.name=Ardite Chunk
@@ -33,6 +34,7 @@ item.contenttweaker.abyssal_pebble.name=Abyssal Stone Pebble
 item.contenttweaker.slate_pebble.name=Slate Pebble
 item.contenttweaker.red_rock_pebble.name=Red Rock Pebble
 item.contenttweaker.crag_rock_pebble.name=Crag Rock Pebble
+item.contenttweaker.skystone_pebble.name=Sky Stone Pebble
 
 // Fluids
 fluid.quicklime=Molten Quicklime
@@ -68,7 +70,3 @@ tile.contenttweaker.age_portal_light_blue.name=Light Blue Ceramic Frame
 tile.contenttweaker.age_portal_magenta.name=Magenta Ceramic Frame
 tile.contenttweaker.age_portal_orange.name=Orange Ceramic Frame
 tile.contenttweaker.age_portal_white.name=White Ceramic Frame
-
-
-
-tile.transloc.block_translocator.name=Entity Translocator
