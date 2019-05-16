@@ -27,14 +27,14 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 	 [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>]]);
 
 
-// Makes Immersive Engineering relays and wire connectors require Magneticraft wire connectors. These must be made in the Thermionic Fabricator.
+// Makes Immersive Engineering relays and wire connectors require red alloy ingots. These must be made in the Thermionic Fabricator.
 
 // MV Wire Connector recipe removal
 recipes.remove(<immersiveengineering:connector:2>);
  
 // MV Wire Connector Electric Connector recipe
 recipes.addShaped(<immersiveengineering:connector:2> * 4,
-    [[null, <magneticraft:connector>, null],
+    [[null, <projectred-core:resource_item:103>, null],
     [<minecraft:hardened_clay>, <minecraft:iron_ingot>, <minecraft:hardened_clay>],
     [<minecraft:hardened_clay>, <minecraft:iron_ingot>, <minecraft:hardened_clay>]]);
  
@@ -44,7 +44,7 @@ recipes.remove(<immersiveengineering:connector:3>);
 // MV Wire Relay Electric Connector recipe
 recipes.addShapedMirrored(<immersiveengineering:connector:3> * 8,
     [[null, null, null],
-    [null, <magneticraft:connector>, null],
+    [null, <projectred-core:resource_item:103>, null],
     [<minecraft:hardened_clay>, <minecraft:iron_ingot>, <minecraft:hardened_clay>]]);
 	
 // Removing Industrial Squeezer Leather Recipe
@@ -205,7 +205,7 @@ recipes.remove(<immersiveengineering:connector:5>);
 
 // HV Wire Relay: Aluminum -> Nickel
 recipes.addShaped(<immersiveengineering:connector:5> * 8, 
-	[[null, <magneticraft:connector>, null],
+	[[null, <projectred-core:resource_item:103>, null],
 	[<immersiveengineering:stone_decoration:8>, <ore:ingotNickel>, <immersiveengineering:stone_decoration:8>], 
 	[<immersiveengineering:stone_decoration:8>, <ore:ingotNickel>, <immersiveengineering:stone_decoration:8>]]);
 	
@@ -214,7 +214,7 @@ recipes.remove(<immersiveengineering:connector:4>);
 
 // HV Wire Connector: Aluminum -> Nickel
 recipes.addShaped(<immersiveengineering:connector:4> * 4, 
-	[[null, <magneticraft:connector>, null],
+	[[null, <projectred-core:resource_item:103>, null],
 	[<minecraft:hardened_clay>, <ore:ingotNickel>, <minecraft:hardened_clay>], 
 	[<minecraft:hardened_clay>, <ore:ingotNickel>, <minecraft:hardened_clay>]]);
 	

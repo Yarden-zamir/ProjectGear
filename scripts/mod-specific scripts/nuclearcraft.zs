@@ -62,7 +62,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:ingot:5>*4, slag,
 mods.immersiveengineering.ArcFurnace.addRecipe(<nuclearcraft:ingot:5>*4, boronOre, null, 2000, 2048, [slag]);
  
 // Boron dust = salt & ash
-mods.immersiveengineering.BlastFurnace.addRecipe(<mekanism:salt>*8, <ore:dustBoron>, 1200, <forestry:ash>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<crossroads:dust_salt>*8, <ore:dustBoron>, 1200, <forestry:ash>);
 
 // Adds alternate universal bin recipes that use manasteel or tin instead of iron
 recipes.addShaped(<nuclearcraft:bin> * 1,

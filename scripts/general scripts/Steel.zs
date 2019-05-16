@@ -48,13 +48,6 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:160>,
  
 mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput(<thermalfoundation:material:160>);
 mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput(<thermalfoundation:storage_alloy:0>);
- 
-// gadgetry alloy furnace
-// idk how to crafttweak gadgetry
-
-// mekanism
-
-mods.mekanism.infuser.removeRecipe(<ore:dustSteel>);
 
 //Some boring nugget/block handling
 recipes.addShapeless("nugget_handler_1",<contenttweaker:impure_steel_ingot>,[<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>]);

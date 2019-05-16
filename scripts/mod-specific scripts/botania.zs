@@ -68,9 +68,6 @@ mods.botania.Orechid.removeOre(<ore:oreApatite>);
 mods.botania.Orechid.removeOre(<ore:orePlatinum>);
 mods.botania.Orechid.removeOre(<ore:oreUranium>);
 
-// Removes Cobaltite ore from Cobalt oredictionary
-<ore:oreCobalt>.remove(<magneticraft:ores:2>);
-
 // Increased Nickel chance in orechid
 mods.botania.Orechid.addOre(<ore:oreNickel>, 2970);
 

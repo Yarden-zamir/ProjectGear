@@ -158,7 +158,7 @@ recipes.addShaped(<appliedenergistics2:storage_cell_1k>,
 recipes.addShaped(<appliedenergistics2:storage_cell_4k>, 
 	[[<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
 	[<minecraft:redstone>, <appliedenergistics2:material:36>, <minecraft:redstone>], 
-	[<mekanism:ingot:1>, <mekanism:ingot:1>, <mekanism:ingot:1>]]);
+	[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
 	
 	// Wireless Receiver Tin recipe
 recipes.addShaped(<appliedenergistics2:material:41>, 
