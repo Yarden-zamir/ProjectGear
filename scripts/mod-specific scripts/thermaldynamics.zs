@@ -78,3 +78,8 @@ recipes.addShaped(<thermaldynamics:duct_0> * 6, [[<ore:dustRedstone>, <ore:dustR
 // Redstone Relay (Lead > Nickel)
 recipes.removeByRecipeName("thermaldynamics:relay");
 recipes.addShaped(<thermaldynamics:relay> * 2, [[<ore:nuggetSignalum>, <ore:gemQuartz>, <ore:nuggetSignalum>], [<ore:ingotNickel>, <ore:dustRedstone>, <ore:ingotNickel>]]);
+
+// Hardened fluiduct (opaque) (lead > nickel)
+recipes.removeByRecipeName("thermaldynamics:duct_16_3");
+recipes.addShaped(<thermaldynamics:duct_16:3> * 6, [[<ore:ingotInvar>, <ore:ingotNickel>, <ore:ingotInvar>]]);
+recipes.addShapeless(<thermaldynamics:duct_16:3> * 6, [<thermaldynamics:duct_16:2>, <thermaldynamics:duct_16:2>, <thermaldynamics:duct_16:2>, <thermaldynamics:duct_16:2>, <thermaldynamics:duct_16:2>, <thermaldynamics:duct_16:2>, <ore:ingotNickel>]);
