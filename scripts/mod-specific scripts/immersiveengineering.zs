@@ -299,7 +299,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:5> * 6, [[<ore:ingotTi
 
 	// Fence
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_fence");
-recipes.addShaped(<immersiveengineering:metal_decoration1:4> * 3, [[<ore:ingotAluminum>, <ore:stickAluminum>, <ore:ingotAluminum>], [<ore:ingotAluminum>, <ore:stickAluminum>, <ore:ingotAluminum>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration1:4> * 3, [[<ore:ingotAluminum>, <ore:stickAluminum>, <ore:ingotTin>], [<ore:ingotTin>, <ore:stickAluminum>, <ore:ingotTin>]]);
 
 	// Sheet metal
 recipes.removeByRecipeName("immersiveengineering:sheetmetal/aluminum_sheetmetal");
@@ -307,7 +307,7 @@ recipes.addShaped(<immersiveengineering:sheetmetal:1> * 4, [[null, <ore:plateTin
 
 	// Wall mount
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_wallmount");
-recipes.addShaped(<immersiveengineering:metal_decoration2:3> * 4, [[<ore:ingotAluminum>, <ore:ingotAluminum>], [<ore:ingotAluminum>, <ore:stickAluminum>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration2:3> * 4, [[<ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <ore:stickAluminum>]]);
 
 	// Rod
 recipes.removeByRecipeName("immersiveengineering:material/stick_aluminum");
