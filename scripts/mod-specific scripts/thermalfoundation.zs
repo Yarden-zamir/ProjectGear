@@ -262,7 +262,45 @@ recipes.addShaped(<thermalfoundation:material:512>,
  [[null, <minecraft:redstone>, null],
   [null, <botania:manaresource>, null],
   [null, <minecraft:redstone>, null]]);
+
+  
+// Craft basic plates using thermionic fabricator:
+
+	// Iron
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:32> * 4,
+	[[<ore:ingotIron>,<ore:ingotIron>,null],
+     [<ore:ingotIron>,<ore:ingotIron>, null],
+	 [null, null, null]],
+    <liquid: glass> * 500);
+
+	// Gold
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:33> * 4,
+	[[<ore:ingotGold>,<ore:ingotGold>,null],
+     [<ore:ingotGold>,<ore:ingotGold>, null],
+	 [null, null, null]],
+    <liquid: glass> * 500);
+
+	// Copper
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:320> * 4,
+	[[<ore:ingotCopper>,<ore:ingotCopper>,null],
+     [<ore:ingotCopper>,<ore:ingotCopper>, null],
+	 [null, null, null]],
+    <liquid: glass> * 500);
 	
+	// Tin
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:321> * 4,
+	[[<ore:ingotTin>,<ore:ingotTin>,null],
+     [<ore:ingotTin>,<ore:ingotTin>, null],
+	 [null, null, null]],
+    <liquid: glass> * 500);
+
+	// Nickel
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:325> * 4,
+	[[<ore:ingotNickel>,<ore:ingotNickel>,null],
+     [<ore:ingotNickel>,<ore:ingotNickel>, null],
+	 [null, null, null]],
+    <liquid: glass> * 500);
+
 // Turn logs into sawdust with a hammer or a crusher
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:800> * 4, <ore:logWood>, 8000);
 recipes.addShapeless(<thermalfoundation:material:800>, [<immersiveengineering:tool>.transformDamage(), <ore:logWood>]);
