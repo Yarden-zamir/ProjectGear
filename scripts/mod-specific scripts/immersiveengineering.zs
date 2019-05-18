@@ -299,7 +299,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:5> * 6, [[<ore:ingotTi
 
 	// Fence
 recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_fence");
-recipes.addShaped(<immersiveengineering:metal_decoration1:4> * 3, [[<ore:ingotAluminum>, <ore:stickAluminum>, <ore:ingotTin>], [<ore:ingotTin>, <ore:stickAluminum>, <ore:ingotTin>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration1:4> * 3, [[<ore:ingotTin>, <ore:stickAluminum>, <ore:ingotTin>], [<ore:ingotTin>, <ore:stickAluminum>, <ore:ingotTin>]]);
 
 	// Sheet metal
 recipes.removeByRecipeName("immersiveengineering:sheetmetal/aluminum_sheetmetal");
