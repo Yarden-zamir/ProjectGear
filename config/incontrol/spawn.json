@@ -9,15 +9,6 @@
 		"armorboots": ["1=thermalfoundation:armor.boots_copper", "1=thermalfoundation:armor.boots_tin"]
 	},
 	{
-		"mob": "Zombie",
-		"result": "default",
-		"random": 0.2,
-		"armorhelmet": "ceramics:clay_hemlet",
-		"armorchest": "ceramics:clay_chestplate",
-		"armorlegs": "ceramics:clay_leggings",
-		"armorboots": "ceramics:clay_boots"
-	},
-	{
 		"mob": "Skeleton",
 		"result": "deny",
 		"random": 0.5

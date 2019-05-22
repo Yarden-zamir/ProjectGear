@@ -3,6 +3,12 @@
 		"mob": "minecraft:enderman",
 		"item": "minecraft:ender_pearl" 
 	},
+	{ 
+		"mob": "minecraft:zombie",
+		"item": "thermalfoundation:material@160",
+		"random": 0.00125,
+		"realplayer": true
+	},
 	{
 		"mob": "minecraft:wither_skeleton",
 		"remove": "tconstruct:materials@17"
