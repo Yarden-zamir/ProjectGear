@@ -83,29 +83,29 @@ recipes.addShaped(<appliedenergistics2:part:260>,
 recipes.addShapeless(<appliedenergistics2:sky_stone_block>, [<contenttweaker:skystone_pebble>, <contenttweaker:skystone_pebble>, <contenttweaker:skystone_pebble>, <contenttweaker:skystone_pebble>]);
 
 // Add recipes to presses
-var ingotSteel = <ore:ingotSteel>;
+var ingotTin = <ore:ingotTin>;
 var plateTin = <ore:plateTin>;
 var plateNickel = <ore:plateNickel>;
 recipes.addShaped(<appliedenergistics2:material:13>,
-  [[ingotSteel,plateTin,ingotSteel],
+  [[ingotTin,plateTin,ingotTin],
   [plateNickel,<immersiveengineering:mold>,plateNickel],
-  [ingotSteel,plateTin,ingotSteel]]);
+  [ingotTin,plateTin,ingotTin]]);
 recipes.addShaped(<appliedenergistics2:material:14>,
-  [[ingotSteel,plateTin,ingotSteel],
+  [[ingotTin,plateTin,ingotTin],
   [plateNickel,<immersiveengineering:mold:2>,plateNickel],
-  [ingotSteel,plateTin,ingotSteel]]);
+  [ingotTin,plateTin,ingotTin]]);
 recipes.addShaped(<appliedenergistics2:material:15>,
-  [[ingotSteel,plateTin,ingotSteel],
+  [[ingotTin,plateTin,ingotTin],
   [plateNickel,<immersiveengineering:mold:1>,plateNickel],
-  [ingotSteel,plateTin,ingotSteel]]);
+  [ingotTin,plateTin,ingotTin]]);
 recipes.addShaped(<appliedenergistics2:material:19>,
-  [[ingotSteel,plateTin,ingotSteel],
+  [[ingotTin,plateTin,ingotTin],
   [plateNickel,<immersiveengineering:mold:7>,plateNickel],
-  [ingotSteel,plateTin,ingotSteel]]);
+  [ingotTin,plateTin,ingotTin]]);
 recipes.addShaped(<appliedenergistics2:material:21>,
-  [[ingotSteel,plateTin,ingotSteel],
+  [[ingotTin,plateTin,ingotTin],
   [plateNickel,<immersiveengineering:mold:4>,plateNickel],
-  [ingotSteel,plateTin,ingotSteel]]);
+  [ingotTin,plateTin,ingotTin]]);
   
  // Crush quartz into dust with Immersive Engineering or Integrated Dynamics
 mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:2>, <ore:crystalCertusQuartz>, 2048);
