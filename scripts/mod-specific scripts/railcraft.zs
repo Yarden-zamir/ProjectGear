@@ -1,3 +1,24 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+val itemsToDisable =[
+	// Coke oven
+	<railcraft:coke_oven>,
+	// Blast furnace
+	<railcraft:blast_furnace>
+] as IItemStack[];
+scripts.functions.disableItems(itemsToDisable);
+
+val craftingToDisable =[
+	// Coke oven
+	<railcraft:coke_oven>,
+	// Blast furnace
+	<railcraft:blast_furnace>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
+
+
 
 // Changes recipes to not use lead, zinc or silver
 recipes.remove(<railcraft:wire>);
