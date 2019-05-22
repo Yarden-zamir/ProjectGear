@@ -16,3 +16,25 @@
 **Updated Forge**
 
 **Changes and Fixes:**
+
+-Worldgen performance changes:
+1. Stones such as diorite, red rock and marble now generate using Realistic Ore Veins. This should cut down on cascading worldgen issues.
+2. Disabled several unbalanced Mystcraft pages including liquid death
+3. Disabled the Huge Trees Mystcraft page because it causes immense lag
+4. Halved Quark spelotheum spawn rate to reduce cascading worldgen lag
+5. Halved frequency of Thaumcraft crystal veins to reduce cascading worldgen lag
+
+-Added two steel processing chains. One using Botania and one using Crossroads+Factory Tech.
+-Enabled and disabled a lot of Thermal Foundation tools so that only the obtainable ingots can be made into tools. Disabled all alloy tools except steel since they're not very important.
+-Disabled the entire butterfly module from Forestry for performance reasons
+-RFTools powercells now lose large amounts of power beyond 20 blocks
+-Enabled CraftTweaker documentation in Crossroads manual
+-Fixed CoFH World not replacing all vanilla worldgen
+-Enabled hardened fluiducts, hardened servos and filters
+-Fixed the Athame recipe. It now uses quartz instead of silver.
+-Fixed several recipes that used lead, silver or aluminum
+-Bosses are now always hostile, even on easy difficulty
+-Ender Fold destination blocks are now unbreakable
+-You can craft coils, redstone servos and tool casings in a thermionic fabricator, which gives twice as many items
+-You can craft iron, gold, copper, tin and nickel plates in a thermionic fabricator
+-Increased the contrast of the coarse gravel texture
