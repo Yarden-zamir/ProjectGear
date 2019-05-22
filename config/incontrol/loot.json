@@ -6,7 +6,7 @@
 	{ 
 		"mob": "minecraft:zombie",
 		"item": "thermalfoundation:material@160",
-		"random": 0.00125,
+		"random": 0.0008,
 		"realplayer": true
 	},
 	{

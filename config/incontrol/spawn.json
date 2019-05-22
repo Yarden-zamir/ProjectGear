@@ -2,11 +2,11 @@
 	{
 		"mob": ["Zombie", "Skeleton"],
 		"result": "default",
-		"random": 0.2,
-		"armorhelmet": ["1=thermalfoundation:armor.hemlet_copper", "1=thermalfoundation:armor.helmet_tin"],
-		"armorchest": ["1=thermalfoundation:armor.plate_copper", "1=thermalfoundation:armor.plate_tin"],
-		"armorlegs": ["1=thermalfoundation:armor.legs_copper", "1=thermalfoundation:armor.legs_tin"],
-		"armorboots": ["1=thermalfoundation:armor.boots_copper", "1=thermalfoundation:armor.boots_tin"]
+		"random": 0.1,
+		"armorhelmet": ["1=thermalfoundation:armor.hemlet_copper", "1=thermalfoundation:armor.helmet_tin", "1=thermalfoundation:armor.helmet_nickel"],
+		"armorchest": ["1=thermalfoundation:armor.plate_copper", "1=thermalfoundation:armor.plate_tin", "1=thermalfoundation:armor.plate_nickel"],
+		"armorlegs": ["1=thermalfoundation:armor.legs_copper", "1=thermalfoundation:armor.legs_tin", "1=thermalfoundation:armor.legs_nickel"],
+		"armorboots": ["1=thermalfoundation:armor.boots_copper", "1=thermalfoundation:armor.boots_tin", "1=thermalfoundation:armor.boots_nickel"]
 	},
 	{
 		"mob": "Skeleton",
