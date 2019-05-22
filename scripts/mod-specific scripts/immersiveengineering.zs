@@ -17,7 +17,11 @@ val craftingToDisable =[
   <immersiveengineering:faraday_suit_head>,
   <immersiveengineering:faraday_suit_chest>,
   <immersiveengineering:faraday_suit_legs>,
-  <immersiveengineering:faraday_suit_feet>
+  <immersiveengineering:faraday_suit_feet>,
+  // Thermoelectric generator
+  <immersiveengineering:metal_device1:3>,
+  // Water wheel
+  <immersiveengineering:wooden_device1>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
@@ -25,6 +29,18 @@ scripts.functions.disableCraftings(craftingToDisable);
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4,
 	[[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
 	 [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>]]);
+	 
+// Change water wheel recipe to not require steel
+recipes.addShaped(<immersiveengineering:wooden_device1>, 
+	[[null, <immersiveengineering:material:10>, null], 
+	 [<immersiveengineering:material:10>, <ore:ingotIron>, <immersiveengineering:material:10>], 
+	  [null, <immersiveengineering:material:10>, null]]);
+	  
+// Change thermoelectric generator recipe to not require steel
+recipes.addShaped(<immersiveengineering:metal_device1:3>, 
+	[[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+	 [<ore:plateConstantan>, <immersiveengineering:metal_decoration0>, <ore:plateConstantan>], 
+	 [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]]);
 
 
 // Makes Immersive Engineering relays and wire connectors require red alloy ingots. These must be made in the Thermionic Fabricator.
