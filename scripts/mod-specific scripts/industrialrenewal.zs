@@ -28,8 +28,8 @@ val craftingToDisable =[
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
+// Nerfs safety helmet slightly
 recipes.removeByRecipeName("industrialrenewal:safety_helmet");
-
 recipes.addShaped(<industrialrenewal:safety_helmet>,
 	[[null, <ore:dyeYellow>, null],
 	 [<ironjetpacks:strap>, <minecraft:iron_helmet>, <ironjetpacks:strap>],
