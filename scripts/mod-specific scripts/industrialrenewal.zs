@@ -28,18 +28,12 @@ val craftingToDisable =[
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
-recipes.removeByRecipeName("industrialrenewal:safety_belt");
 recipes.removeByRecipeName("industrialrenewal:safety_helmet");
 
 recipes.addShaped(<industrialrenewal:safety_helmet>,
 	[[null, <ore:dyeYellow>, null],
 	 [<ironjetpacks:strap>, <minecraft:iron_helmet>, <ironjetpacks:strap>],
 	 [null, <ore:gearDiamond>, null]]);
-	 
-recipes.addShaped(<industrialrenewal:safety_belt>,
-	[[<minecraft:leather>, null, <minecraft:leather>],
-	 [<ironjetpacks:strap>, <ore:gearIron>, <ironjetpacks:strap>],
-	 [<minecraft:leather>, null, <minecraft:leather>]]);
 	 
 // Make steel items accept steel tool rods:
 val steelStickOrRod = <ore:stickSteel> | <tconstruct:tool_rod>.withTag({Material: "steel"});
