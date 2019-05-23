@@ -208,7 +208,7 @@ furnace.remove(<projectred-core:resource_item:103>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, null, 200, 256, [<minecraft:redstone> * 2], "Alloying");
  
 // Red Alloy Ingot Alloy Kiln recipe
-mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, <minecraft:redstone> * 4, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:103>, <ore:ingotTin>, <minecraft:redstone> * 4, 200);
 
 //Electrotine recipes
 //Electrotine Furnace recipe removal
@@ -218,7 +218,7 @@ furnace.remove(<projectred-core:resource_item:104>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, null, 200, 256, [<projectred-core:resource_item:105> * 4], "Alloying");
  
 // Electrotine Alloy Ingot Alloy Kiln recipe
-mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, <projectred-core:resource_item:105> * 8, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, <projectred-core:resource_item:105> * 8, 200);
 
 // Electrotine Block Laser Assembly Table recipe
 mods.refraction.AssemblyTable.addRecipe("Electrotine Block", <projectred-exploration:stone:11>,
