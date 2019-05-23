@@ -1,3 +1,10 @@
 **Mods added:**
 -Thaumic Bases
 -Thaumic Wonders
+
+**Changes and fixes:**
+-Fixed red alloy and electrotine ingots taking WAY too long in an alloy kiln.
+-Buffed Worse Solars drastically (2 > 100 RF/t). This should make them better than other truly passive power generators.
+-Apathetic mobs now fight back when attacked
+-Fixed vanilla bosses not being hostile. All bosses are now hostile even on easy difficulty.
+-Disabled the custom recipe for the Industrial Renewal safety belt. It used to be equivilant to diamond armor, but it has been nerfed, so the custom recipe isn't needed.

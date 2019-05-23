@@ -40,3 +40,6 @@
 -You can craft coils, redstone servos and tool casings in a thermionic fabricator, which gives twice as many items
 -You can craft iron, gold, copper, tin and nickel plates in a thermionic fabricator
 -Increased the contrast of the coarse gravel texture
+-Reworked Modular Powersuits recipes. They now require steel plates, steel ingots, electrum, and a few more exotic items such as engineering processors.
+-Zombies now have a rare change to drop steel ingots, but only if killed by a REAL player. Fake players will not work.
+-Water wheels, thermoelectric generators and AE2 presses no longer require steel. This means it's not needed for any early game tech.
