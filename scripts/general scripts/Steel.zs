@@ -61,8 +61,8 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:impure_steel_nugget>, <tc
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:impure_steel_block>, null, <liquid:impuresteel>, 1296, false, 540);
 
 //Calcium Sulfate Creation
-mods.tconstruct.Casting.addTableRecipe(<nuclearcraft:compound:0>, <thermalfoundation:material:771>, <liquid:milk>, 16000, true, 80);
-mods.factorytech.Agitator.addRecipe(<liquid:milk> * 8000, null, <thermalfoundation:material:771>, null, <nuclearcraft:compound:0>);
+mods.tconstruct.Casting.addTableRecipe(<nuclearcraft:compound:0>, <thermalfoundation:material:771>, <liquid:milk>, 4000, true, 80);
+mods.factorytech.Agitator.addRecipe(<liquid:milk> * 2000, null, <thermalfoundation:material:771>, null, <nuclearcraft:compound:0>);
 
 //Calcium Sulfide Creation
 mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:calcium_sulfide>, <nuclearcraft:compound:0>, 600, <forestry:ash>);
