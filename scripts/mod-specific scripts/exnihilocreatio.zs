@@ -41,3 +41,9 @@ val craftingToDisable =[
 	<exnihilocreatio:item_pebble:*>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
+
+// Crush sand to dust in other machines:
+mods.immersiveengineering.Crusher.addRecipe(<exnihilocreatio:block_dust>, <minecraft:sand>, 2048); // 2048 is the energy required, feel free to change as fit
+mods.factorytech.DrillGrinder.addRecipe(<exnihilocreatio:block_dust>, <minecraft:sand>, true);
+mods.crossroads.Grindstone.addRecipe(<minecraft:sand>, <exnihilocreatio:block_dust>);
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:sand>, <exnihilocreatio:block_dust>);
