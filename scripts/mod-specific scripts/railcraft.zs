@@ -52,3 +52,8 @@ recipes.addShapeless(<railcraft:generic:9>, [<contenttweaker:quarried_pebble>, <
 <ore:itemSlag>.add(<railcraft:dust:4>);
 
 recipes.removeShaped(<railcraft:plate:*>);
+
+recipes.addShaped(<railcraft:equipment>, 
+	[[<ore:ingotBronze>, <minecraft:piston:*>, <ore:ingotBronze>], 
+	 [<minecraft:piston:*>, <ore:workbench>, <minecraft:piston:*>], 
+	 [<ore:ingotBronze>, <minecraft:piston:*>, <ore:ingotBronze>]]);
