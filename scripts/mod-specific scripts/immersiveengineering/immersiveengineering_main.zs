@@ -151,6 +151,36 @@ recipes.addShaped(<immersiveengineering:toolupgrade:4>,
     [[<tconstruct:sword_blade>.withTag({Material: "iron"}), <ore:ingotSteel>],
     [<ore:ingotSteel>, <ore:plankTreatedWood>]]);
 	
+// HV Wire Relay recipe removal
+recipes.remove(<immersiveengineering:connector:5>);
+
+// HV Wire Relay: Aluminum -> Nickel
+recipes.addShaped(<immersiveengineering:connector:5> * 8, 
+	[[null, <projectred-core:resource_item:103>, null],
+	[<immersiveengineering:stone_decoration:8>, <ore:ingotNickel>, <immersiveengineering:stone_decoration:8>], 
+	[<immersiveengineering:stone_decoration:8>, <ore:ingotNickel>, <immersiveengineering:stone_decoration:8>]]);
+	
+// HV Wire Connector recipe removal
+recipes.remove(<immersiveengineering:connector:4>);
+
+// HV Wire Connector: Aluminum -> Nickel
+recipes.addShaped(<immersiveengineering:connector:4> * 4, 
+	[[null, <projectred-core:resource_item:103>, null],
+	[<minecraft:hardened_clay>, <ore:ingotNickel>, <minecraft:hardened_clay>], 
+	[<minecraft:hardened_clay>, <ore:ingotNickel>, <minecraft:hardened_clay>]]);
+	
+// Engineer's Blueprint (Crafting Components) recipe removal
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));
+
+// Engineer's Blueprint (Crafting Components) Aluminum -> Tin
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "components"}), 
+	[[<ore:ingotCopper>, <ore:ingotTin>, <minecraft:iron_ingot>],
+	[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], 
+	[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+	
+// Tesla Coil Aluminum > Tin
+recipes.removeByRecipeName("immersiveengineering:metal_devices/tesla_coil");
+recipes.addShaped("gear_shaped_tesla_coil", <immersiveengineering:metal_device1:8>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [null, <immersiveengineering:metal_decoration0>, null], [<immersiveengineering:metal_device0:2>, <immersiveengineering:metal_decoration0>, <immersiveengineering:metal_device0:2>]]);
 
 
 

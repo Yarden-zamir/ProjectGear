@@ -199,7 +199,7 @@ recipes.addShaped(<thermalfoundation:material:514>,
 	 [<ore:dustRedstone>, null, null]]);
  
 // Redstone Reception Coil Thermionic Fabricator recipe
-mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:513>,
+mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:513> * 2,
     [[null,null,<minecraft:redstone>],
     [null,<minecraft:gold_ingot>,null],
     [<minecraft:redstone>,null,null]],
@@ -254,11 +254,11 @@ recipes.addShaped(<thermalfoundation:material:640> * 2,
   [<minecraft:redstone>, <minecraft:gold_ingot>, <minecraft:redstone>]]);
  
 //Craft servos from either manasteel or compressed iron
-recipes.addShaped(<thermalfoundation:material:512>,
+recipes.addShaped(<thermalfoundation:material:512> * 2,
  [[null, <minecraft:redstone>, null],
   [null, <pneumaticcraft:ingot_iron_compressed>, null],
   [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<thermalfoundation:material:512>,
+recipes.addShaped(<thermalfoundation:material:512> * 2,
  [[null, <minecraft:redstone>, null],
   [null, <botania:manaresource>, null],
   [null, <minecraft:redstone>, null]]);
