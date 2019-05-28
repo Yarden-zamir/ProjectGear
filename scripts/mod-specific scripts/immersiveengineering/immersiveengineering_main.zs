@@ -4,20 +4,47 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
 val itemsToDisable =[
-
+  <immersiveengineering:metal_device1:13>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
 val craftingToDisable =[
   // Garden cloche
   <immersiveengineering:metal_device1:13>,
+  <immersiveengineering:material:5>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
+
+val ironIngot = <ore:ingotIron>;
+val goldIngot = <ore:ingotGold>;
+val copperIngot = <ore:ingotCopper>;
+val tinIngot = <ore:ingotTin>;
+val leadIngot = <ore:ingotLead>;
+val nickelIngot = <ore:ingotNickel>;
+val electrumIngot = <ore:ingotElectrum>;
+val steelIngot = <ore:ingotSteel>;
+
+val treatedWood = <ore:plankTreatedWood>;
+
+val redstone = <ore:dustRedstone>;
+val redstoneBlock = <ore:blockRedstone>;
+
+val electrumDust = <thermalfoundation:material:97>;
+val copperDust = <ore:dustCopper>;
+val goldDust = <ore:dustGold>;
+val tinNugget = <thermalfoundation:material:193>;
+val glass = <ore:blockGlass>;
 
 // Alternate conveyor belt recipe which requires more iron, but paper instead of leather
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4,
 	[[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
 	 [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>]]);
+	 
+// Changes windmill sail recipe to require less hemp (384 > 64), but more treated wood (40 > 64)
+recipes.addShaped(<immersiveengineering:material:5>,
+	[[null, <immersiveengineering:material>, <immersiveengineering:material>],
+	 [<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
+	 [<immersiveengineering:material>, <immersiveengineering:material>, null]);
 
 
 // Makes Immersive Engineering relays and wire connectors require red alloy ingots. These must be made in the Thermionic Fabricator.
@@ -81,25 +108,6 @@ recipes.addShaped(hammer, [[null, <ore:ingotIron>, <ore:string>], [null, <ore:st
 
 scripts.functions.applyOreDict(<immersiveengineering:material:18>,<ore:dustGraphite>,true);
 
-val ironIngot = <ore:ingotIron>;
-val goldIngot = <ore:ingotGold>;
-val copperIngot = <ore:ingotCopper>;
-val tinIngot = <ore:ingotTin>;
-val leadIngot = <ore:ingotLead>;
-val nickelIngot = <ore:ingotNickel>;
-val electrumIngot = <ore:ingotElectrum>;
-val steelIngot = <ore:ingotSteel>;
-
-val treatedWood = <ore:plankTreatedWood>;
-
-val redstone = <ore:dustRedstone>;
-val redstoneBlock = <ore:blockRedstone>;
-
-val electrumDust = <thermalfoundation:material:97>;
-val copperDust = <ore:dustCopper>;
-val goldDust = <ore:dustGold>;
-val tinNugget = <thermalfoundation:material:193>;
-val glass = <ore:blockGlass>;
 
 // Capacitors
 recipes.removeShaped(<immersiveengineering:metal_device0:0>);
