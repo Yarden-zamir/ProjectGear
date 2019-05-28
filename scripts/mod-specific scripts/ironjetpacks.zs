@@ -101,7 +101,7 @@ recipes.addShaped(<ironjetpacks:survivalist_jetpack>.withTag({Energy: 5000}),
 recipes.addShaped(<ironjetpacks:basic_jetpack>,
 	[[<ore:ingotTin>, <projectred-expansion:charged_battery>, <ore:ingotTin>],
 	 [<ore:ingotTin>, <ironjetpacks:strap>, <ore:ingotTin>],
-	 [<ore:dustAerotheum>, null, <ore:dustAerotheum>]]);
+	 [<ore:dustBlaze>, null, <ore:dustBlaze>]]);
 	
 // Upgrade basic jetpack to architect jetpack
 // Maintains the RF stored in the basic jetpack
