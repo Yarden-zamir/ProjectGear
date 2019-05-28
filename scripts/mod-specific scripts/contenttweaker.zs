@@ -106,3 +106,5 @@ mods.factorytech.DrillGrinder.addRecipe(<contenttweaker:coarse_gravel> * 2, <qua
 
 	// Integrated Dynamics squeezer:
 Squeezer.addRecipe(<quark:sturdy_stone>, <contenttweaker:coarse_gravel>, <liquid:dirt> * 50);
+
+furnace.setFuel(<contenttweaker:guano>, 4800);
