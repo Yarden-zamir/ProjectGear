@@ -77,3 +77,18 @@ myEntry.add(<minecraft:mossy_cobblestone>);
  
 // Orechid: Mossy Cobblestone generates about 50% of the time
 mods.botania.Orechid.addOre(<ore:blockMossyCobblestone>, 80000);
+
+// Cheaper life aggregator
+recipes.removeShaped(<botania:spawnermover>);
+
+	// Botania recipe:
+recipes.addShaped(<botania:spawnermover>,
+	[[<ore:dustMana>, <ore:ingotManasteel>, <ore:dustMana>],
+	 [<ore:ingotManasteel>, <ore:manaDiamond>, <ore:ingotManasteel>],
+	 [<ore:dustMana>, <ore:ingotManasteel>, <ore:dustMana>]]);
+	
+	// Tech recipe:
+recipes.addShaped(<botania:spawnermover>,
+	[[<ore:dustMana>, <ore:ingotEnderium>, <ore:dustMana>],
+	 [<ore:ingotEnderium>, <ore:gemDiamond>, <ore:ingotEnderium>],
+	 [<ore:dustMana>, <ore:ingotEnderium>, <ore:dustMana>]]);

@@ -44,7 +44,7 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 recipes.addShaped(<immersiveengineering:material:5>,
 	[[null, <immersiveengineering:material>, <immersiveengineering:material>],
 	 [<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
-	 [<immersiveengineering:material>, <immersiveengineering:material>, null]);
+	 [<immersiveengineering:material>, <immersiveengineering:material>, null]]);
 
 
 // Makes Immersive Engineering relays and wire connectors require red alloy ingots. These must be made in the Thermionic Fabricator.
