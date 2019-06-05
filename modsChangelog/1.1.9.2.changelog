@@ -2,5 +2,38 @@
 -Thaumic Basis (for real this time)
 
 **Mods updated:**
+-Random PSIdeas
+-Quark
+-Plus TiC
+-Natura
+-Metal Chests
+-McJty Lib
+-Mantle
+-Integrated Dynamics
+-Industrial Renewal
+-Cyclops Core
+-CraftTweaker
+-Common Capabilities
+-CD4017BE Lib
+-AutoRegLib
 
 **Changes and Fixes:**
+-Ore generation changes:
+1. Gold cave ore in the overworld is more common
+2. Iron cave ore in the overworld is more common
+3. Normal gold ore generation in the nether is more common
+4. Sparse gold ore veins in the nether are more common
+
+-Arc furnace electrode blueprints are now craftable
+-Caves are now 50% bigger
+-Fixed graphite electrodes breaking instantly
+-Reduced milk required for calcium sulfate
+-Fermenter and squeezer now require half as much power
+-Added alternate click machine recipe that uses tech instead of exploration gated resources
+-Windmill now require less hemp to make (386 > 64) but slightly more treated wood (40 > 64)
+-Made life aggregators cheaper and added a non-Botania recipe
+-Fixed calcium sulfate not being craftable in an arc furnace
+-You can now crush sand to dust in other machines
+-Basic jetpacks no longer require aerothium
+-Guano can now be used as a furnace fuel, smelting 24 items
+-Manual rolling machine no longer requires gears
