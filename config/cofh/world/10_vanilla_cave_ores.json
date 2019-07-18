@@ -82,6 +82,26 @@
 			}
 		},
 		
+		"redstone_bottom": {
+			"distribution": "cave",
+			"generator": {
+				"block": "redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 2,
+			"ceiling": false,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
 		"gold_top": {
 			"distribution": "cave",
 			"generator": {
@@ -110,26 +130,6 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 3,
-			"ceiling": false,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		
-		"redstone_bottom": {
-			"distribution": "cave",
-			"generator": {
-				"block": "redstone_ore",
-				"material": "minecraft:stone",
-				"cluster-size": 8
-			},
-			"cluster-count": 4,
 			"ceiling": false,
 			"retrogen": false,
 			"biome": "all",
