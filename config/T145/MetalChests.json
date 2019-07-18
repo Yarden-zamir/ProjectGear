@@ -1,0 +1,53 @@
+{
+  "_comment_version": "The mod version this config was generated under. If this mismatches the current version, this config will be regenerated.",
+  "version": "v5.8.1+mc1.12.2",
+  "_comment_enabled_auto": "The enabled auto option will enable the variant if it finds its corresponding oredict name existing.",
+  "_comment_enabled_auto_1": "Automatically configured variants behave as though they do not exist when first loading the mod,",
+  "_comment_enabled_auto_2": "so label their index at the *expected* position in the order if they are loaded.",
+  "_comment_enabled_toggle": "Set enabled to true or false for explicit variant toggling.",
+  "_comment_size": "Change the number of rows and columns for chest inventories (max 8 rows x 23 cols., or 192 slots)",
+  "chests": {
+    "copper": {
+      "index": 0,
+      "enabled": "auto",
+      "rows": 5,
+      "cols": 9,
+      "holding": 1
+    },
+    "iron": {
+      "index": 0,
+      "enabled": true,
+      "rows": 6,
+      "cols": 9,
+      "holding": 1
+    },
+    "silver": {
+      "index": 2,
+      "enabled": "auto",
+      "rows": 6,
+      "cols": 12,
+      "holding": 2
+    },
+    "gold": {
+      "index": 1,
+      "enabled": true,
+      "rows": 5,
+      "cols": 16,
+      "holding": 2
+    },
+    "diamond": {
+      "index": 2,
+      "enabled": true,
+      "rows": 6,
+      "cols": 18,
+      "holding": 3
+    },
+    "obsidian": {
+      "index": 3,
+      "enabled": true,
+      "rows": 6,
+      "cols": 18,
+      "holding": 4
+    }
+  }
+}
