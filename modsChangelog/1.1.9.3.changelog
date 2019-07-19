@@ -78,3 +78,6 @@
 -Wirelesss Crafting Terminal
 -Worley's Caves
 -Worse Solars
+
+**Changes and Fixes:**
+-Fixed UniDict being disabled
