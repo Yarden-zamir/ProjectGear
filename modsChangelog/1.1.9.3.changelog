@@ -83,3 +83,4 @@
 -Fixed UniDict being disabled
 -Changed how gear crafting recipes are disabled so gears from other mods aren't disabled by mistake
 -Crafting TNT now gives 5 instead of 1
+-Added a recipe to Nuclearcraft's wastland earth to make it renewable
