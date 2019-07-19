@@ -82,3 +82,4 @@
 **Changes and Fixes:**
 -Fixed UniDict being disabled
 -Changed how gear crafting recipes are disabled so gears from other mods aren't disabled by mistake
+-Crafting TNT now gives 5 instead of 1
