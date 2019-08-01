@@ -7,6 +7,15 @@
 -Storage Drawers Unlimited
 -Popcorn Smelting
 
+**Changes and Fixes:**
+-Fixed UniDict being disabled
+-Changed how gear crafting recipes are disabled so gears from other mods aren't disabled by mistake
+-Crafting TNT now gives 5 instead of 1
+-Added a recipe to Nuclearcraft's wastland earth to make it renewable
+-Popcorn smelting has a 25% chance to destroy the item you're smelting 
+-Railcraft chunk loaders no longer require fuel
+-Increased the amount of power HV cables can carry
+
 **Mods updated:**
 -AE2 Wireless Terminal Library
 -Autoreglib
@@ -81,10 +90,3 @@
 -Worley's Caves
 -Worse Solars
 
-**Changes and Fixes:**
--Fixed UniDict being disabled
--Changed how gear crafting recipes are disabled so gears from other mods aren't disabled by mistake
--Crafting TNT now gives 5 instead of 1
--Added a recipe to Nuclearcraft's wastland earth to make it renewable
--Railcraft chunk loaders no longer require fuel
--Popcorn smelting has a 25% chance to destroy the item you're smelting 
