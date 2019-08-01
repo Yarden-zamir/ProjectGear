@@ -5,6 +5,7 @@
 -Logistics Pipes
 -Rats
 -Storage Drawers Unlimited
+-Popcorn Smelting
 
 **Mods updated:**
 -AE2 Wireless Terminal Library
@@ -86,3 +87,4 @@
 -Crafting TNT now gives 5 instead of 1
 -Added a recipe to Nuclearcraft's wastland earth to make it renewable
 -Railcraft chunk loaders no longer require fuel
+-Popcorn smelting has a 25% chance to destroy the item you're smelting 
