@@ -1,0 +1,22 @@
+[
+  {
+    "content": "lootbags:itemlootbag:0",
+    "unitWorth": 400,
+    "weight": 100
+  },
+  {
+    "content": "lootbags:itemlootbag:1",
+    "unitWorth": 600,
+    "weight": 100
+  },
+  {
+    "content": "lootbags:itemlootbag:2",
+    "unitWorth": 600,
+    "weight": 100
+  },
+  {
+    "content": "lootbags:itemlootbag:3",
+    "unitWorth": 700,
+    "weight": 100
+  }
+]
