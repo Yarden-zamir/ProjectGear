@@ -38,5 +38,11 @@ Mods removed:
 -NoNausea - Apparently this is worse than regular nausea. It's clientside anyway.
 -Refraction - Laggy and not currently being worked on. If it gets updated, I may add it in the future.
 
+Bounty Changes:
+-Fixed some loot bags dropping from mobs
+-Made magic loot bags slightly rarer
+-Added worse solar panel, thermoelectric generator, steel ingot, and iron mechanical component to machine bag
+
 Changes and Fixes:
 -Fixed the Ender Folds jar file being in the wrong location of the Twitch modpack export file
+-Increased rat spawn rate slightly (spawn weight 40 > 60). Note that the default is 80.

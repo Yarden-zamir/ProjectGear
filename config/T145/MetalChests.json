@@ -1,6 +1,6 @@
 {
   "_comment_version": "The mod version this config was generated under. If this mismatches the current version, this config will be regenerated.",
-  "version": "v5.8.9+mc1.12.2",
+  "version": "v6.1.0+mc1.12.2",
   "_comment_enabled_auto": "The enabled auto option will enable the variant if it finds its corresponding oredict name existing.",
   "_comment_enabled_auto_1": "Automatically configured variants behave as though they do not exist when first loading the mod,",
   "_comment_enabled_auto_2": "so label their index at the *expected* position in the order if they are loaded.",

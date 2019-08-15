@@ -1,0 +1,78 @@
+Hopper (minecraft:hopper - 154:0) has a TileEntity
+Full block state: minecraft:hopper[enabled=true,facing=down]
+Hardness: 3.0000, Explosion resistance: 4.8000, Material: IRON
+Block class: com.rwtema.diethopper.BlockDietHopper
+IBlockState properties, including getActualState():
+PropertyBool{name=enabled, clazz=class java.lang.Boolean, values=[true, false]}: true
+PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[down, north, south, west, east]}: down
+TileEntity class: pl.asie.foamfix.common.TileEntityFasterHopper
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('TransferCooldown'): 0
+    TAG_Int (3) ('x'): 791
+    TAG_Int (3) ('y'): 63
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Compound (10) ('nuclearcraft:capability_default_radiation_resistance')
+        {
+            TAG_Double (6) ('radiationResistance'): 0.0
+        }
+    }
+    TAG_Int (3) ('z'): -3
+    TAG_List (9) ('Items') (1 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 0
+            TAG_String (8) ('id'): "lootbags:itemlootbag"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_Byte (1) ('generated'): 1
+                TAG_List (9) ('inventory') (5 entries of TAG_Compound (10))
+                {
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Int (3) ('Slot'): 0
+                        TAG_String (8) ('id'): "minecraft:air"
+                        TAG_Byte (1) ('Count'): 1
+                        TAG_Short (2) ('Damage'): 0
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Int (3) ('Slot'): 1
+                        TAG_String (8) ('id'): "minecraft:air"
+                        TAG_Byte (1) ('Count'): 1
+                        TAG_Short (2) ('Damage'): 0
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Int (3) ('Slot'): 2
+                        TAG_String (8) ('id'): "minecraft:air"
+                        TAG_Byte (1) ('Count'): 1
+                        TAG_Short (2) ('Damage'): 0
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Int (3) ('Slot'): 3
+                        TAG_String (8) ('id'): "minecraft:air"
+                        TAG_Byte (1) ('Count'): 1
+                        TAG_Short (2) ('Damage'): 0
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Int (3) ('Slot'): 4
+                        TAG_String (8) ('id'): "minecraft:air"
+                        TAG_Byte (1) ('Count'): 1
+                        TAG_Short (2) ('Damage'): 0
+                    }
+                }
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+    }
+    TAG_String (8) ('id'): "minecraft:hopper"
+    TAG_String (8) ('Lock'): ""
+}
