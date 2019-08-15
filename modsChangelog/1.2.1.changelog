@@ -42,6 +42,40 @@ Bounty Changes:
 -Fixed some loot bags dropping from mobs
 -Made magic loot bags slightly rarer
 -Added worse solar panel, thermoelectric generator, steel ingot, and iron mechanical component to machine bag
+-Tweaked the rarity of several loot bag rewards
+-Increased the number of items per loot bag (1-5 > 3-5)
+
+-Added items to machine bag:
+  -Worse solar panel
+  -Thermoelectric generator
+  -Steel ingot
+  -Iron mechanical component
+  -Buildcraft flood gate
+  -Auto clicker
+  -Entity translocator
+
+-Added items to redstone bag:
+  -Redstone wire connector
+  -Redstone wire coil
+  
+-Added items to exploration bag:
+  -Sponge
+  -Packed ice
+  -Ice
+  -Lily pad
+  -Natura, Rustic, Traverse, sapling
+
+-Added items to magic bag:
+  -Assorted lamps from Fancy Lamps
+  -Quark runes, tomes and crystals
+  -Black lotus
+  -Ghast tear
+  -Mana in a Bottle
+  -Steadfast drone or princess
+  -Golden apple
+  -Enchanted golden apple
+  -Aeternalis fuel
+  -Random Things' lava charm and mob pendulum
 
 Changes and Fixes:
 -Fixed the Ender Folds jar file being in the wrong location of the Twitch modpack export file

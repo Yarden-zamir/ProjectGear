@@ -13,8 +13,8 @@
     "unitWorth": 20,
     "weight": 100,
 	"amount": {
-      "min": 16,
-      "max": 32
+      "min": 2,
+      "max": 8
     }
   },
   {
@@ -31,8 +31,8 @@
     "unitWorth": 20,
     "weight": 100,
 	"amount": {
-      "min": 4,
-      "max": 32
+      "min": 2,
+      "max": 8
     }
   },
   {
@@ -54,42 +54,6 @@
     }
   },
   {
-    "content": "thermalfoundation:material:640",
-    "unitWorth": 100,
-    "weight": 100,
-	"amount": {
-      "min": 2,
-      "max": 8
-    }
-  },
-  {
-    "content": "thaumcraft:nitor_yellow",
-    "unitWorth": 200,
-    "weight": 100,
-	"amount": {
-      "min": 1,
-      "max": 4
-    }
-  },
-  {
-    "content": "thaumcraft:alumentum",
-    "unitWorth": 200,
-    "weight": 100,
-	"amount": {
-      "min": 1,
-      "max": 4
-    }
-  },
-  {
-    "content": "thaumcraft:salis_mundus",
-    "unitWorth": 50,
-    "weight": 100,
-	"amount": {
-      "min": 8,
-      "max": 16
-    }
-  },
-  {
     "content": "railcraft:fluid_bottle_creosote",
     "unitWorth": 50,
     "weight": 100,
@@ -99,21 +63,12 @@
     }
   },
   {
-    "content": "botania:manaresource:22",
-    "unitWorth": 100,
-    "weight": 100,
-	"amount": {
-      "min": 2,
-      "max": 8
-    }
-  },
-  {
     "content": "botania:felpumpkin",
-    "unitWorth": 30,
+    "unitWorth": 15,
     "weight": 100,
 	"amount": {
-      "min": 8,
-      "max": 32
+      "min": 32,
+      "max": 64
     }
   },
   {
@@ -127,38 +82,38 @@
   },
   {
     "content": "botania:fertilizer",
-    "unitWorth": 30,
+    "unitWorth": 15,
     "weight": 100,
 	"amount": {
-      "min": 8,
-      "max": 32
+      "min": 16,
+      "max": 64
     }
   },
   {
     "content": "botania:cellblock",
-    "unitWorth": 50,
+    "unitWorth": 25,
     "weight": 100,
 	"amount": {
-      "min": 8,
-      "max": 32
+      "min": 16,
+      "max": 64
     }
   },
   {
     "content": "botania:livingrock",
-    "unitWorth": 10,
+    "unitWorth": 5,
     "weight": 100,
 	"amount": {
-      "min": 32,
-      "max": 128
+      "min": 64,
+      "max": 256
     }
   },
   {
     "content": "prodigytech:fuel_pellet_1",
-    "unitWorth": 10,
+    "unitWorth": 5,
     "weight": 100,
 	"amount": {
-      "min": 32,
-      "max": 128
+      "min": 64,
+      "max": 256
     }
   },
   {
@@ -168,15 +123,6 @@
 	"amount": {
       "min": 4,
       "max": 16
-    }
-  },
-  {
-    "content": "forestry:ash",
-    "unitWorth": 30,
-    "weight": 100,
-	"amount": {
-      "min": 8,
-      "max": 32
     }
   },
   {
@@ -190,11 +136,11 @@
   },
   {
     "content": "tconstruct:materials",
-    "unitWorth": 20,
+    "unitWorth": 10,
     "weight": 100,
 	"amount": {
-      "min": 32,
-      "max": 128
+      "min": 64,
+      "max": 256
     }
   },
   {
@@ -208,47 +154,47 @@
   },
   {
     "content": "minecraft:paper",
-    "unitWorth": 30,
+    "unitWorth": 10,
     "weight": 100,
 	"amount": {
-      "min": 16,
-      "max": 64
+      "min": 32,
+      "max": 128
     }
   },
   {
     "content": "minecraft:sand",
-    "unitWorth": 5,
+    "unitWorth": 2,
     "weight": 100,
 	"amount": {
-      "min": 64,
-      "max": 256
+      "min": 128,
+      "max": 512
     }
   },
   {
     "content": "minecraft:stone",
-    "unitWorth": 5,
+    "unitWorth": 2,
     "weight": 100,
 	"amount": {
-      "min": 64,
-      "max": 256
+      "min": 128,
+      "max": 512
     }
   },
   {
     "content": "minecraft:gravel",
-    "unitWorth": 5,
+    "unitWorth": 2,
     "weight": 100,
 	"amount": {
-      "min": 64,
-      "max": 265
+      "min": 128,
+      "max": 512
     }
   },
   {
     "content": "minecraft:wool",
-    "unitWorth": 50,
+    "unitWorth": 10,
     "weight": 100,
 	"amount": {
-      "min": 16,
-      "max": 64
+      "min": 32,
+      "max": 128
     }
   },
   {
@@ -256,8 +202,8 @@
     "unitWorth": 10,
     "weight": 100,
 	"amount": {
-      "min": 16,
-      "max": 64
+      "min": 32,
+      "max": 128
     }
   },
   {
@@ -265,17 +211,53 @@
     "unitWorth": 10,
     "weight": 100,
 	"amount": {
+      "min": 32,
+      "max": 128
+    }
+  },
+  {
+    "content": "minecraft:cooked_beef",
+    "unitWorth": 20,
+    "weight": 100,
+	"amount": {
       "min": 16,
       "max": 64
     }
   },
   {
-    "content": "minecraft:cooked_beef",
+    "content": "forestry:honey_drop",
     "unitWorth": 50,
-    "weight": 100,
+    "weight": 50,
 	"amount": {
       "min": 8,
       "max": 32
+    }
+  },
+  {
+    "content": "forestry:beeswax",
+    "unitWorth": 50,
+    "weight": 50,
+	"amount": {
+      "min": 8,
+      "max": 32
+    }
+  },
+  {
+    "content": "prodigytech:meat_patty",
+    "unitWorth": 50,
+    "weight": 50,
+	"amount": {
+      "min": 8,
+      "max": 32
+    }
+  },
+  {
+    "content": "appliedenergistics2:material:22",
+    "unitWorth": 200,
+    "weight": 50,
+	"amount": {
+      "min": 2,
+      "max": 8
     }
   }
 ]
