@@ -44,6 +44,9 @@ Bounty Changes:
 -Added worse solar panel, thermoelectric generator, steel ingot, and iron mechanical component to machine bag
 -Tweaked the rarity of several loot bag rewards
 -Increased the number of items per loot bag (1-5 > 3-5)
+-Removed some difficult to automate items from the bounty task list, most notably all Thaumcraft items
+-Added bees wax, honey, meat patties, cheese and logic processors to the bounty list
+-Rarer bounties now give substantially better rewards, but are still rare.
 
 -Added items to machine bag:
   -Worse solar panel
