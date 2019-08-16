@@ -86,3 +86,4 @@ Other Changes and Fixes:
 -Fixed broken tough fabric recipe
 -Tough fabric recipe now gives 2 items instead of 1, making wind power cheaper
 -The Arcane Base from Fancy Lamps now requires Thaumcraft crystals
+-Disabled a broken log > sawdust recipe using the Engineer's hammer
