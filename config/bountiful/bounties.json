@@ -13,8 +13,8 @@
     "unitWorth": 20,
     "weight": 100,
 	"amount": {
-      "min": 2,
-      "max": 8
+      "min": 16,
+      "max": 32
     }
   },
   {
@@ -22,8 +22,8 @@
     "unitWorth": 20,
     "weight": 100,
 	"amount": {
-      "min": 16,
-      "max": 32
+      "min": 2,
+      "max": 8
     }
   },
   {
@@ -55,7 +55,7 @@
   },
   {
     "content": "railcraft:fluid_bottle_creosote",
-    "unitWorth": 50,
+    "unitWorth": 80,
     "weight": 100,
 	"amount": {
       "min": 4,
@@ -72,15 +72,15 @@
     }
   },
   {
-    "content": "botania:manaresource",
-    "unitWorth": 50,
+    "content": "botania:manaresource:23",
+	"unitWorth": 15,
     "weight": 100,
 	"amount": {
-      "min": 4,
-      "max": 16
-    }
-  },
-  {
+      "min": 32,
+      "max": 64
+      }
+	},
+	{
     "content": "botania:fertilizer",
     "unitWorth": 15,
     "weight": 100,
@@ -118,7 +118,7 @@
   },
   {
     "content": "projectred-core:resource_item:103",
-    "unitWorth": 100,
+    "unitWorth": 50,
     "weight": 100,
 	"amount": {
       "min": 4,
@@ -216,17 +216,8 @@
     }
   },
   {
-    "content": "minecraft:cooked_beef",
-    "unitWorth": 20,
-    "weight": 100,
-	"amount": {
-      "min": 16,
-      "max": 64
-    }
-  },
-  {
     "content": "forestry:honey_drop",
-    "unitWorth": 50,
+    "unitWorth": 40,
     "weight": 50,
 	"amount": {
       "min": 8,
@@ -244,8 +235,8 @@
   },
   {
     "content": "prodigytech:meat_patty",
-    "unitWorth": 50,
-    "weight": 50,
+    "unitWorth": 40,
+    "weight": 100,
 	"amount": {
       "min": 8,
       "max": 32
@@ -258,6 +249,24 @@
 	"amount": {
       "min": 2,
       "max": 8
+    }
+  },
+  {
+    "content": "contenttweaker:oiled_leather",
+    "unitWorth": 25,
+    "weight": 50,
+	"amount": {
+      "min": 16,
+      "max": 64
+    }
+  },
+  {
+    "content": "rats:cheese",
+    "unitWorth": 40,
+    "weight": 50,
+	"amount": {
+      "min": 8,
+      "max": 32
     }
   }
 ]
