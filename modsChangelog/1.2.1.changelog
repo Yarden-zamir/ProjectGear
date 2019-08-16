@@ -80,6 +80,9 @@ Bounty Changes:
   -Aeternalis fuel
   -Random Things' lava charm and mob pendulum
 
-Changes and Fixes:
+Other Changes and Fixes:
 -Fixed the Ender Folds jar file being in the wrong location of the Twitch modpack export file
 -Increased rat spawn rate slightly (spawn weight 40 > 60). Note that the default is 80.
+-Fixed broken tough fabric recipe
+-Tough fabric recipe now gives 2 items instead of 1, making wind power cheaper
+-The Arcane Base from Fancy Lamps now requires Thaumcraft crystals
