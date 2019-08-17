@@ -1,44 +1,17 @@
-Mods updated:
--Buildcraft
--CD4017BE Lib
--Chicken Chunks
--Code Chicken Lib
--Creative Core
--Cyclops Core
--Ender Folds
--Forestry
--Forge Multipart
--FTB Utilities Backups
--Industrial Renewal
--Integrated Dynamics
--Journeymap
--Little Tiles
--Logistics Pipes
--Metal Chests
--Mystcraft
--MysticalLib
--Nuclearcraft
--PneumaticCraft
--Quark
--Random Things
--Random Tweaks
--Realistic Ore Veins
--Reborn Core
--TBone
--Thaumic Restoration
--Translocators
+**Mods added:**
 
-Mods added:
-
-Mods removed:
+**Mods removed:**
 -Dank Null - Pulled from Curse, and therefor cannot be in packs.
 -Ion chests - Doesn't do anything without Iron Chests or Charset Storage
 -Waterworks - Other water generators are faster, namely Additional Pipes and Factory Tech
 -Platforms - Janky and not compatible with most modded blocks
 -NoNausea - Apparently this is worse than regular nausea. It's clientside anyway.
 -Refraction - Laggy and not currently being worked on. If it gets updated, I may add it in the future.
+-ShetiPhianCore - Unused library mod, was required for Platforms
+-Light Bending Additions - Refraction addon
+-Model Loader - Unused library mod. Was used by Magneticraft.
 
-Bounty Changes:
+**Bounty and Lootbag Changes:**
 -Fixed some loot bags dropping from mobs
 -Made magic loot bags slightly rarer
 -Added worse solar panel, thermoelectric generator, steel ingot, and iron mechanical component to machine bag
@@ -80,10 +53,41 @@ Bounty Changes:
   -Aeternalis fuel
   -Random Things' lava charm and mob pendulum
 
-Other Changes and Fixes:
+**Other Changes and Fixes:**
 -Fixed the Ender Folds jar file being in the wrong location of the Twitch modpack export file
 -Increased rat spawn rate slightly (spawn weight 40 > 60). Note that the default is 80.
 -Fixed broken tough fabric recipe
 -Tough fabric recipe now gives 2 items instead of 1, making wind power cheaper
 -The Arcane Base from Fancy Lamps now requires Thaumcraft crystals
 -Disabled a broken log > sawdust recipe using the Engineer's hammer
+-Fixed being able to purify impure steel using water. It now uses Nuclearcraft oxygen.
+
+**Mods updated:**
+-Buildcraft
+-CD4017BE Lib
+-Chicken Chunks
+-Code Chicken Lib
+-Creative Core
+-Cyclops Core
+-Ender Folds
+-Forestry
+-Forge Multipart
+-FTB Utilities Backups
+-Industrial Renewal
+-Integrated Dynamics
+-Journeymap
+-Little Tiles
+-Logistics Pipes
+-Metal Chests
+-Mystcraft
+-MysticalLib
+-Nuclearcraft
+-PneumaticCraft
+-Quark
+-Random Things
+-Random Tweaks
+-Realistic Ore Veins
+-Reborn Core
+-TBone
+-Thaumic Restoration
+-Translocators
