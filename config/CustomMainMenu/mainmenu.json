@@ -1,0 +1,179 @@
+{
+    "images":
+    {
+       
+
+         "gear":
+        {
+            "image" : "lordsmenu:textures/gui/new.png",
+            "posX" : -50,
+            "posY" : 50,
+             "imageWidth":1024,
+            "imageHeight": 1024,
+            "width" : 100,
+            "height" : 100,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "texture" : "lordsmenu:textures/gui/menu_btn.png",
+            "imageWidth":512,
+            "imageHeight":128,
+            
+            "posX" : -200,
+            "posY" : 82,
+            "width" : 100,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "texture" : "lordsmenu:textures/gui/menu_btn.png",
+            "imageWidth":512,
+            "imageHeight":128,
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 90,
+            "width" : 100,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+         "mp":
+        {
+            "texture" : "lordsmenu:textures/gui/menu_btn.png",
+            "imageWidth":512,
+            "imageHeight":128,
+            "text" : "Official Server",
+            "posX" : 0,
+            "posY" : 90,
+            "width" : 100,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "192.99.233.220:25567"
+            }
+        },
+        
+        
+        "mods":
+        {
+            "texture" : "lordsmenu:textures/gui/mods.png",
+            "imageWidth":128,
+            "imageHeight":128,
+            "tooltip" : "fml.menu.mods",
+            "text" : "",
+            "posX" : 195,
+            "posY" : 180,
+            "width" : 20,
+            "height" : 20,
+            "text" : "",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "texture" : "lordsmenu:textures/gui/menu_btn.png",
+            "imageWidth":512,
+            "imageHeight":128,
+            "text" : "menu.options",
+            "posX" : 100,
+            "posY" : 82,
+            "width" : 100,
+            "height" : 20,
+            
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "texture" : "lordsmenu:textures/gui/exit.png",
+            "imageWidth":128,
+            "imageHeight":128,
+            "tooltip" : "menu.quit",
+            "text" : "",
+            "posX" : 215,
+            "posY" : 180,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "texture" : "lordsmenu:textures/gui/language.png",
+            "imageWidth":128,
+            "imageHeight":128,
+            "tooltip" : "Change Language Settings",
+            "text" : "",
+            "posX" : -235,
+            "posY" : 180,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+        
+       
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -4132,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+     
+    },
+    
+    "other":
+    {
+       
+        
+        "background":
+        {
+            "image" : "lordsmenu:textures/bg/background.jpg",
+            "mode": "stretch"
+         	
+        }   
+    }
+}
