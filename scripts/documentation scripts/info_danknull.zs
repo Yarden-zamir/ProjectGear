@@ -1,8 +1,8 @@
+#modloaded danknull
+
 import scripts.functions.addDesc;
 import scripts.functions.addDescBatch;
 import crafttweaker.item.IItemStack;
-
-
 
 val batch = {
   <danknull:dank_null:0> : "9 slots. Stores 128 items per slot. It will pick up any item that matches an item inside it. If it picks up more of that item than it can store, it will destroy them instead of cluttering your inventory. Hover over an item in the GUI to see how to change the extraction mode. Position/extraction settings are maintained even if you take all the items out and put them back in.",
