@@ -1,0 +1,22 @@
+**WARNING: AE2 will be removed in the next update! Remove everything from your ME drives, or they will be lost!**
+
+**Mods removed:**
+-Thaumcraft - A great mod for another pack. Most of the mod doesn't involve solving puzzles, but instead working around the mod's systems such as research and infusion.
+-Bibliocraft - Doesn't really get used, and it eats up a fair amount of RAM.
+-Popcorn smelting - It's causing some issues
+
+**Mods added:**
+-Metal Transport - Required to put metal chests in minecarts
+-Energy Converters - Convert MJ into RF and back, allowing one energy ecosystem to power the other.
+-BC Ore Generation - Complex 3x ore processing using Buildcraft
+-Extra Anvils - Dropping a diamond anvil on a mob counts as a player kill
+-Glassential - Adds Extra Utilities style glass, great for mob farms
+-Nature's Aura - A fairly complex magic mod inspired by Botania
+
+**Changes and Fixes:**
+-Dozens of script fixes
+-Added a casting recipe to the aluminum brass plate
+-Added universal guide/wrench to JEI bookmarks
+-Fixed a broken steel recipe. You can no longer get steel by mixing steel and iron.
+-Added a crafting recipe to Nuclearcraft's wasteland earth
+-Disabled all Buildcraft gears

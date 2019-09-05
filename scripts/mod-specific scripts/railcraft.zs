@@ -14,7 +14,27 @@ val craftingToDisable =[
 	// Coke oven
 	<railcraft:coke_oven>,
 	// Blast furnace
-	<railcraft:blast_furnace>
+	<railcraft:blast_furnace>,
+	// Ingots and blocks - these are coded poorly and therefor immune to UniDuct
+	<railcraft:ingot:0>,
+	<railcraft:ingot:1>,
+	<railcraft:ingot:2>,
+	<railcraft:ingot:3>,
+	<railcraft:ingot:4>,
+	<railcraft:ingot:5>,
+	<railcraft:ingot:6>,
+	<railcraft:ingot:7>,
+	<railcraft:metal:0>,
+	<railcraft:metal:1>,
+	<railcraft:metal:2>,
+	<railcraft:metal:3>,
+	<railcraft:metal:4>,
+	<railcraft:metal:5>,
+	<railcraft:metal:6>,
+	<railcraft:metal:7>,
+	// Gears - Use Thermal Foundation gears instead
+	<railcraft:gear:*>
+	
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 

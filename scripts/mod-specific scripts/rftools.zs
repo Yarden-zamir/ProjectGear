@@ -76,18 +76,6 @@ recipes.addShaped(<rftools:syringe:0>,
  [[tinIngot, null, null],
   [null, tinIngot, null],
   [null, null, <minecraft:glass_bottle>]]);
-
-recipes.removeShaped(<waterworks:water_pipe>);
-recipes.addShaped(<waterworks:water_pipe> * 8,
- [[tinIngot, <minecraft:iron_bars>, tinIngot],
-  [tinIngot, <minecraft:iron_bars>, tinIngot],
-  [tinIngot, <minecraft:iron_bars>, tinIngot]]);
-
-recipes.removeShaped(<waterworks:groundwater_pump>);
-recipes.addShaped(<waterworks:groundwater_pump>,
- [[<minecraft:iron_bars>, <waterworks:materials:0>, <minecraft:iron_bars>],
-  [tinIngot, <waterworks:rain_tank_wood>, tinIngot],
-  [tinIngot, <waterworks:water_pipe>, tinIngot]]);
 /*
 recipes.removeShaped(<opencomputers:cable:0>);
 recipes.addShaped(<opencomputers:cable:0> * 4,

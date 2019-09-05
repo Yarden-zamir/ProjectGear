@@ -105,8 +105,12 @@ val craftingToDisable =[
     <natura:sticks:12>,
 	// Barley and cotton seed bags
 	<natura:overworld_seed_bags>,
-	<natura:overworld_seed_bags:1>
-
+	<natura:overworld_seed_bags:1>,
+	// Bows:
+	<natura:fusewood_bow>,
+	<natura:darkwood_bow>,
+	<natura:bloodwood_bow>,
+	<natura:ghostwood_bow>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
  
@@ -124,28 +128,6 @@ recipes.replaceAllOccurences(<natura:sticks:9>, <ore:stickWood>);
 recipes.replaceAllOccurences(<natura:sticks:10>, <ore:stickWood>);
 recipes.replaceAllOccurences(<natura:sticks:11>, <ore:stickWood>);
 recipes.replaceAllOccurences(<natura:sticks:12>, <ore:stickWood>);
- 
-// Natura Bow Vanilla Stick recipe removal
-// Fusewood Bow
-recipes.removeShaped(<natura:fusewood_bow>,
-[[<natura:materials:7>, <ore:stickWood>, null],
-[<natura:materials:7>, null, <ore:stickWood>],
-[<natura:materials:7>, <ore:stickWood>, null]]);
-// Darkwood Bow
-recipes.removeShaped(<natura:darkwood_bow>,
-[[<natura:materials:7>, <ore:stickWood>, null],
-[<natura:materials:7>, null, <ore:stickWood>],
-[<natura:materials:7>, <ore:stickWood>, null]]);
-// Bloodwood Bow
-recipes.removeShaped(<natura:bloodwood_bow>,
-[[<natura:materials:7>, <ore:stickWood>, null],
-[<natura:materials:7>, null, <ore:stickWood>],
-[<natura:materials:7>, <ore:stickWood>, null]]);
-// Ghostwood Bow
-recipes.removeShaped(<natura:ghostwood_bow>,
-[[<natura:materials:7>, <ore:stickWood>, null],
-[<natura:materials:7>, null, <ore:stickWood>],
-[<natura:materials:7>, <ore:stickWood>, null]]);
  
 // Natura Bow recipe (Natura Sticks -> Corresponding Natura Wooden Plank)
 // Fusewood Bow
@@ -198,3 +180,53 @@ recipes.removeShapeless(<natura:materials:2>);
 <ore:dustWheat>.add(<natura:materials:2>);
 
 //Disabled barley and cotton in the config
+
+// Adds petal apothacary recipe for Natura saplings
+	// Maple
+mods.botania.Apothecary.addRecipe(<natura:overworld_sapling:0>, [<ore:treeSapling>, <ore:petalOrange>, <ore:petalOrange>, <ore:petalOrange>, <ore:petalOrange>]);
+	// Silverbell
+mods.botania.Apothecary.addRecipe(<natura:overworld_sapling:1>, [<ore:treeSapling>, <ore:petalLime>, <ore:petalLime>, <ore:petalLime>, <ore:petalLime>]);
+	// Amaranth
+mods.botania.Apothecary.addRecipe(<natura:overworld_sapling:2>, [<ore:treeSapling>, <ore:petalPurple>, <ore:petalPurple>, <ore:petalPurple>, <ore:petalPurple>]);
+	// Tigerwood
+mods.botania.Apothecary.addRecipe(<natura:overworld_sapling:3>, [<ore:treeSapling>, <ore:petalBrown>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalGreen>]);
+	// Willow
+mods.botania.Apothecary.addRecipe(<natura:overworld_sapling2:0>, [<ore:treeSapling>, <ore:petalBlack>, <ore:petalBlack>, <ore:petalGreen>, <ore:petalGreen>]);
+	// Eucalypsus
+mods.botania.Apothecary.addRecipe(<natura:overworld_sapling2:1>, [<ore:treeSapling>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalLime>, <ore:petalLime>]);
+	// Hopseed
+mods.botania.Apothecary.addRecipe(<natura:overworld_sapling2:2>, [<ore:treeSapling>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalGreen>, <ore:petalGreen>]);
+	// Sakura
+mods.botania.Apothecary.addRecipe(<natura:overworld_sapling2:3>, [<ore:treeSapling>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalPink>, <ore:petalPink>]);
+	// Redwood
+mods.botania.Apothecary.addRecipe(<natura:redwood_sapling:0>, [<ore:treeSapling>, <ore:petalBrown>, <ore:petalBrown>, <ore:petalGreen>, <ore:petalGreen>]);
+
+// Turn apples into overworld Natura berries with alchemy
+mods.botania.ManaInfusion.addAlchemy(<natura:edibles:2>, <minecraft:apple>, 250);
+mods.botania.ManaInfusion.addAlchemy(<natura:edibles:3>, <natura:edibles:2>, 250);
+mods.botania.ManaInfusion.addAlchemy(<natura:edibles:4>, <natura:edibles:3>, 250);
+mods.botania.ManaInfusion.addAlchemy(<natura:edibles:5>, <natura:edibles:4>, 250);
+
+// Craft a Natura saguaro cactus with a cactus and a water rune
+recipes.addShapeless(<natura:saguaro_baby>, [<minecraft:cactus>, <botania:rune:0>]);
+
+// Craft overworld Natura berry bushes with berries and oak leaves
+recipes.addShaped(<natura:overworld_berrybush_raspberry>,
+ [[<natura:edibles:2>, <natura:edibles:2>, <natura:edibles:2>],
+  [<natura:edibles:2>, <ore:treeLeaves>, <natura:edibles:2>],
+  [<natura:edibles:2>, <natura:edibles:2>, <natura:edibles:2>]]);
+  
+recipes.addShaped(<natura:overworld_berrybush_blueberry>,
+ [[<natura:edibles:3>, <natura:edibles:3>, <natura:edibles:3>],
+  [<natura:edibles:3>, <ore:treeLeaves>, <natura:edibles:3>],
+  [<natura:edibles:3>, <natura:edibles:3>, <natura:edibles:3>]]);
+  
+recipes.addShaped(<natura:overworld_berrybush_blackberry>,
+ [[<natura:edibles:4>, <natura:edibles:4>, <natura:edibles:4>],
+  [<natura:edibles:4>, <ore:treeLeaves>, <natura:edibles:4>],
+  [<natura:edibles:4>, <natura:edibles:4>, <natura:edibles:4>]]);
+  
+recipes.addShaped(<natura:overworld_berrybush_maloberry>,
+ [[<natura:edibles:5>, <natura:edibles:5>, <natura:edibles:5>],
+  [<natura:edibles:5>, <ore:treeLeaves>, <natura:edibles:5>],
+  [<natura:edibles:5>, <natura:edibles:5>, <natura:edibles:5>]]);

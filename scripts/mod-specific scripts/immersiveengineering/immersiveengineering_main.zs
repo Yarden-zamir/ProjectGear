@@ -40,12 +40,12 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 	[[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
 	 [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>]]);
 	 
-// Changes windmill sail recipe to require less hemp (384 > 64), but more treated wood (40 > 64)
-recipes.addShaped(<immersiveengineering:material:5>,
-	[[null, <immersiveengineering:material>, <immersiveengineering:material>],
-	 [<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
-	 [<immersiveengineering:material>, <immersiveengineering:material>, null]]);
 
+// Increase yield of tough fabric recipe
+recipes.addShaped(<immersiveengineering:material:5> * 2, 
+	[[<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>], 
+	 [<ore:fiberHemp>, <ore:stickWood>, <ore:fiberHemp>], 
+	 [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>]]);
 
 // Makes Immersive Engineering relays and wire connectors require red alloy ingots. These must be made in the Thermionic Fabricator.
 
@@ -185,10 +185,6 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "componen
 	[[<ore:ingotCopper>, <ore:ingotTin>, <minecraft:iron_ingot>],
 	[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], 
 	[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
-	
-// Tesla Coil Aluminum > Tin
-recipes.removeByRecipeName("immersiveengineering:metal_devices/tesla_coil");
-recipes.addShaped("gear_shaped_tesla_coil", <immersiveengineering:metal_device1:8>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [null, <immersiveengineering:metal_decoration0>, null], [<immersiveengineering:metal_device0:2>, <immersiveengineering:metal_decoration0>, <immersiveengineering:metal_device0:2>]]);
 
 
 
