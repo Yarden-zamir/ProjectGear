@@ -119,7 +119,7 @@
       }
 	 ],
 	"stone": "minecraft:netherrack",
-    "rarity": 500,
+    "rarity": 250,
     "min_y": 5,
     "max_y": 120,
     "density": 15,
