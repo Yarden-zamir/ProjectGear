@@ -31,7 +31,7 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160
 mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:impure_steel_ingot>, <pneumaticcraft:ingot_iron_compressed>], 2.0, [<thermalfoundation:material:160> * 2]);
 
 //Purification (Oxygen)
-mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 288, [<liquid:impuresteel> * 144, <liquid:liquidoxygen> * 2000]);
+mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 288, [<liquid:impuresteel> * 144, <liquid:oxygen> * 2000]);
 
 // ie blast furnace
 
