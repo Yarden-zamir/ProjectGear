@@ -48,6 +48,9 @@ scripts.functions.disableCraftings(craftingToDisable);
 
 #recipes
 
+// Dust + dirt > wasteland earth
+recipes.addShapeless(<nuclearcraft:dry_earth> * 2, [<minecraft:dirt>, <exnihilocreatio:block_dust>]);
+
 // Light Radiation Shielding (Lead > Tin)
 recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.rad_shielding.light");
 recipes.addShaped(<nuclearcraft:rad_shielding>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:coal>, <ore:coal>, <ore:coal>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
