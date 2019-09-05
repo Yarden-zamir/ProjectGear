@@ -1,115 +1,163 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.oredict.IOreDict;
+
+
+val craftingToDisable =[
+	// Disables default gear recipes
+	// These are crafted from Thermal Foundation gears instead
+	<crossroads:gear_copper>,
+	<crossroads:gear_copshowium>, 
+	<crossroads:gear_electrum>,
+	<crossroads:gear_gold>, 
+	<crossroads:gear_invar>,
+	<crossroads:gear_iron>, 
+	<crossroads:gear_lead>,
+	<crossroads:gear_nickel>, 
+	<crossroads:gear_bronze>,
+	<crossroads:gear_platinum>, 
+	<crossroads:gear_silver>, 
+	<crossroads:gear_tin>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
+
+// Removes ore dictionary tags from Crossroads gears, preventing UniDict from tampering with them.
+<ore:gearCopper>.remove(<crossroads:gear_copper>);
+<ore:gearCopshowium>.remove(<crossroads:gear_copshowium>);
+<ore:gearElectrum>.remove(<crossroads:gear_electrum>);
+<ore:gearGold>.remove(<crossroads:gear_gold>);
+<ore:gearInvar>.remove(<crossroads:gear_invar>);
+<ore:gearIron>.remove(<crossroads:gear_iron>);
+<ore:gearLead>.remove(<crossroads:gear_lead>);
+<ore:gearNickel>.remove(<crossroads:gear_nickel>);
+<ore:gearBronze>.remove(<crossroads:gear_bronze>);
+<ore:gearPlatinum>.remove(<crossroads:gear_platinum>);
+<ore:gearSilver>.remove(<crossroads:gear_silver>);
+<ore:gearTin>.remove(<crossroads:gear_tin>);
+
+// Craft copshowium gears with machines
+mods.immersiveengineering.MetalPress.addRecipe(<crossroads:gear_copshowium>, <ore:ingotCopshowium>, <immersiveengineering:mold:1>, 2400, 4);
+mods.tconstruct.Casting.addBasinRecipe(<crossroads:gear_copshowium>, <tconstruct:cast_custom:4>, <liquid:copshowium>, 576, false, 100);
 
 
 
-// Adds recipes to small gears
-// Note: These are the default recipes. UniDict removes gear recipes, so I have to add these back manually
+// Craft Crossroads gears with Thermal Foundation gears
+// Note: These can be crafted back into Thermal Foundation gears, but those recipes are in thermalfoundation.zs
 
-recipes.addShaped(<crossroads:gear_iron>,
-	[[null, <ore:nuggetIron>, null],
-	 [<ore:nuggetIron>, <ore:ingotIron>, <ore:nuggetIron>],
-	 [null, <ore:nuggetIron>, null]]);
+recipes.addShapeless(<crossroads:gear_copper>, [<ore:gearCopper>]);
+recipes.addShapeless(<crossroads:gear_electrum>, [<ore:gearElectrum>]);
+recipes.addShapeless(<crossroads:gear_gold>, [<ore:gearGold>]);
+recipes.addShapeless(<crossroads:gear_invar>, [<ore:gearInvar>]);
+recipes.addShapeless(<crossroads:gear_iron>, [<ore:gearIron>]);
+recipes.addShapeless(<crossroads:gear_lead>, [<ore:gearLead>]);
+recipes.addShapeless(<crossroads:gear_nickel>, [<ore:gearNickel>]);
+recipes.addShapeless(<crossroads:gear_bronze>, [<ore:gearBronze>]);
+recipes.addShapeless(<crossroads:gear_platinum>, [<ore:gearPlatinum>]);
+recipes.addShapeless(<crossroads:gear_silver>, [<ore:gearSilver>]);
+recipes.addShapeless(<crossroads:gear_tin>, [<ore:gearTin>]);
+
+/*
+
+val metals = ["Copper”, “Tin”, “Bronze”, “Iron”, “Gold”, “Electrum”, “ Invar”, “Nickel”] as string[];
+val redstone = <ore:dustRedstone>;
+val ironStick = <ore:stickIron>;
+for item in metals {
+    val gear = oredict.get("gear” + item);
+    val cr_gear = itemUtils.getItem(“crossroads:gear_” + item);
+    val ing_gear = cr_gear | gear;
+
+    recipes.addShaped(itemUtils.getItem(“crossroads:large_gear_” + item.toLowerCase),
+    [[ing_gear, ing_gear, ing_gear],
+    [ing_gear, <ore:blockElectrum>, ing_gear],
+    [ing_gear, ing_gear, ing_gear]]);
+
+    recipes.addShapeless(itemUtils.getItem(“crossroads:toggle_gear_” + item.toLowerCase),
+    [redstone,redstone,ironStick,ing_gear]);
+}
+
+*/
+
+
+// Craft large gears using either Thermal Foundation gears or Crossroads gears
+
+/*
+
+val gearcopper = <ore:gearCopper> | <crossroads:gear_copper>;
+val gearcopshowium = <ore:gearCopper> | <crossroads:gear_copper>;
+val gearelectrum = <ore:gearCopper> | <crossroads:gear_copper>;
+val geargold = <ore:gearCopper> | <crossroads:gear_copper>;
+val gearinvar = <ore:gearCopper> | <crossroads:gear_copper>;
+val geariron = <ore:gearCopper> | <crossroads:gear_copper>;
+val gear = <ore:gearCopper> | <crossroads:gear_copper>;
+val gear = <ore:gearCopper> | <crossroads:gear_copper>;
+val gear = <ore:gearCopper> | <crossroads:gear_copper>;
+val gear = <ore:gearCopper> | <crossroads:gear_copper>;
+val gear = <ore:gearCopper> | <crossroads:gear_copper>;
+val gear = <ore:gearCopper> | <crossroads:gear_copper>;
+val gear = <ore:gearCopper> | <crossroads:gear_copper>;
+
+recipes.addShaped(<crossroads:large_gear_copshowium>,
+	[[gearcopshowium, gearcopshowium, gearcopshowium],
+	 [gearcopshowium, <ore:blockElectrum>, gearcopshowium],
+	 [gearcopshowium, gearcopshowium, gearcopshowium]]);
 	 
-recipes.addShaped(<crossroads:gear_iron> * 9,
-	[[null, <ore:ingotIron>, null],
-	 [<ore:ingotIron>, <ore:blockIron>, <ore:ingotIron>],
-	 [null, <ore:ingotIron>, null]]);
+recipes.addShaped(<crossroads:large_gear_electrum>,
+	[[gearelectrum, gearelectrum, gearelectrum],
+	 [gearelectrum, <ore:blockCopper>, gearelectrum],
+	 [gearelectrum, gearelectrum, gearelectrum]]);
 	 
-recipes.addShaped(<crossroads:gear_gold>,
-	[[null, <ore:nuggetGold>, null],
-	 [<ore:nuggetGold>, <ore:ingotGold>, <ore:nuggetGold>],
-	 [null, <ore:nuggetGold>, null]]);
+recipes.addShaped(<crossroads:large_gear_gold>,
+	[[geargold, geargold, geargold],
+	 [geargold, <ore:blockCopper>, geargold],
+	 [geargold, geargold, geargold]]);
 	 
-recipes.addShaped(<crossroads:gear_gold> * 9,
-	[[null, <ore:ingotGold>, null],
-	 [<ore:ingotGold>, <ore:blockGold>, <ore:ingotGold>],
-	 [null, <ore:ingotGold>, null]]);
+recipes.addShaped(<crossroads:large_gear_copper>,
+	[[gearcopper, gearcopper, gearcopper],
+	 [gearcopper, <ore:blockCopper>, gearcopper],
+	 [gearcopper, gearcopper, gearcopper]]);
 	 
-recipes.addShaped(<crossroads:gear_copper>,
-	[[null, <ore:nuggetCopper>, null],
-	 [<ore:nuggetCopper>, <ore:ingotCopper>, <ore:nuggetCopper>],
-	 [null, <ore:nuggetCopper>, null]]);
+recipes.addShaped(<crossroads:large_gear_invar>,
+	[[gearinvar, gearinvar, gearinvar],
+	 [gearinvar, <ore:blockCopper>, gearinvar],
+	 [gearinvar, gearinvar, gearinvar]]);
 	 
-recipes.addShaped(<crossroads:gear_copper> * 9,
-	[[null, <ore:ingotCopper>, null],
-	 [<ore:ingotCopper>, <ore:blockCopper>, <ore:ingotCopper>],
-	 [null, <ore:ingotCopper>, null]]);
+recipes.addShaped(<crossroads:large_gear_iron>,
+	[[geariron, geariron, geariron],
+	 [geariron, <ore:blockCopper>, geariron],
+	 [geariron, geariron, geariron]]);
 	 
-recipes.addShaped(<crossroads:gear_tin>,
-	[[null, <ore:nuggetTin>, null],
-	 [<ore:nuggetTin>, <ore:ingotTin>, <ore:nuggetTin>],
-	 [null, <ore:nuggetTin>, null]]);
+recipes.addShaped(<crossroads:large_gear_lead>,
+	[[gearlead, gearlead, gearlead],
+	 [gearlead, <ore:blockCopper>, gearlead],
+	 [gearlead, gearlead, gearlead]]);
 	 
-recipes.addShaped(<crossroads:gear_tin> * 9,
-	[[null, <ore:ingotTin>, null],
-	 [<ore:ingotTin>, <ore:blockTin>, <ore:ingotTin>],
-	 [null, <ore:ingotTin>, null]]);
+recipes.addShaped(<crossroads:large_gear_nickel>,
+	[[gearnickel, gearnickel, gearnickel],
+	 [gearnickel, <ore:blockCopper>, gearnickel],
+	 [gearnickel, gearnickel, gearnickel]]);
 	 
-recipes.addShaped(<crossroads:gear_bronze>,
-	[[null, <ore:nuggetBronze>, null],
-	 [<ore:nuggetBronze>, <ore:ingotBronze>, <ore:nuggetBronze>],
-	 [null, <ore:nuggetBronze>, null]]);
+recipes.addShaped(<crossroads:large_gear_bronze>,
+	[[gearbronze, gearbronze, gearbronze],
+	 [gearbronze, <ore:blockCopper>, gearbronze],
+	 [gearbronze, gearbronze, gearbronze]]);
 	 
-recipes.addShaped(<crossroads:gear_bronze> * 9,
-	[[null, <ore:ingotBronze>, null],
-	 [<ore:ingotBronze>, <ore:blockBronze>, <ore:ingotBronze>],
-	 [null, <ore:ingotBronze>, null]]);
+recipes.addShaped(<crossroads:large_gear_platinum>,
+	[[gearplatinum, gearplatinum, gearplatinum],
+	 [gearplatinum, <ore:blockCopper>, gearplatinum],
+	 [gearplatinum, gearplatinum, gearplatinum]]);
 	 
-recipes.addShaped(<crossroads:gear_silver>,
-	[[null, <ore:nuggetSilver>, null],
-	 [<ore:nuggetSilver>, <ore:ingotSilver>, <ore:nuggetSilver>],
-	 [null, <ore:nuggetSilver>, null]]);
+recipes.addShaped(<crossroads:large_gear_silver>,
+	[[gearsilver, gearsilver, gearsilver],
+	 [gearsilver, <ore:blockCopper>, gearsilver],
+	 [gearsilver, gearsilver, gearsilver]]);
 	 
-recipes.addShaped(<crossroads:gear_silver> * 9,
-	[[null, <ore:ingotSilver>, null],
-	 [<ore:ingotSilver>, <ore:blockSilver>, <ore:ingotSilver>],
-	 [null, <ore:ingotSilver>, null]]);
+recipes.addShaped(<crossroads:large_gear_tin>,
+	[[geartin, geartin, geartin],
+	 [geartin, <ore:blockCopper>, geartin],
+	 [geartin, geartin, geartin]]);
 	 
-recipes.addShaped(<crossroads:gear_nickel>,
-	[[null, <ore:nuggetNickel>, null],
-	 [<ore:nuggetNickel>, <ore:ingotNickel>, <ore:nuggetNickel>],
-	 [null, <ore:nuggetNickel>, null]]);
-	 
-recipes.addShaped(<crossroads:gear_nickel> * 9,
-	[[null, <ore:ingotNickel>, null],
-	 [<ore:ingotNickel>, <ore:blockNickel>, <ore:ingotNickel>],
-	 [null, <ore:ingotNickel>, null]]);
-	 
-recipes.addShaped(<crossroads:gear_invar>,
-	[[null, <ore:nuggetInvar>, null],
-	 [<ore:nuggetInvar>, <ore:ingotInvar>, <ore:nuggetInvar>],
-	 [null, <ore:nuggetInvar>, null]]);
-	 
-recipes.addShaped(<crossroads:gear_invar> * 9,
-	[[null, <ore:ingotInvar>, null],
-	 [<ore:ingotInvar>, <ore:blockInvar>, <ore:ingotInvar>],
-	 [null, <ore:ingotInvar>, null]]);
-	 
-recipes.addShaped(<crossroads:gear_electrum>,
-	[[null, <ore:nuggetElectrum>, null],
-	 [<ore:nuggetElectrum>, <ore:ingotElectrum>, <ore:nuggetElectrum>],
-	 [null, <ore:nuggetElectrum>, null]]);
-	 
-recipes.addShaped(<crossroads:gear_electrum> * 9,
-	[[null, <ore:ingotElectrum>, null],
-	 [<ore:ingotElectrum>, <ore:blockElectrum>, <ore:ingotElectrum>],
-	 [null, <ore:ingotElectrum>, null]]);
-	 
-recipes.addShaped(<crossroads:gear_platinum>,
-	[[null, <ore:nuggetPlatinum>, null],
-	 [<ore:nuggetPlatinum>, <ore:ingotPlatinum>, <ore:nuggetPlatinum>],
-	 [null, <ore:nuggetPlatinum>, null]]);
-	 
-recipes.addShaped(<crossroads:gear_platinum> * 9,
-	[[null, <ore:ingotPlatinum>, null],
-	 [<ore:ingotPlatinum>, <ore:blockPlatinum>, <ore:ingotPlatinum>],
-	 [null, <ore:ingotPlatinum>, null]]);
-	 
-recipes.addShaped(<crossroads:gear_copshowium>,
-	[[null, <ore:nuggetCopshowium>, null],
-	 [<ore:nuggetCopshowium>, <ore:ingotCopshowium>, <ore:nuggetCopshowium>],
-	 [null, <ore:nuggetCopshowium>, null]]);
-	 
-recipes.addShaped(<crossroads:gear_copshowium> * 9,
-	[[null, <ore:ingotCopshowium>, null],
-	 [<ore:ingotCopshowium>, <ore:blockCopshowium>, <ore:ingotCopshowium>],
-	 [null, <ore:ingotIron>, null]]);
+// Craft toggle gears using either Thermal Foundation or Crossroads gears
+recipes.addShapeless(<crossroads:toggle_gear_copper>, [<ore:dustRedstone>, <ore:dustRedstone>, <ore:stickIron>, gearcopper]);
+
+*/

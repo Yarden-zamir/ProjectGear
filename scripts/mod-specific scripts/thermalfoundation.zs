@@ -13,6 +13,8 @@ val craftingToDisable =[
   // Makes gears uncraftable. Machines are required instead.
   <thermalfoundation:material:24>,
   <thermalfoundation:material:25>,
+  <thermalfoundation:material:26>,
+  <thermalfoundation:material:27>,
   <thermalfoundation:material:156>,
   <thermalfoundation:material:256>,
   <thermalfoundation:material:258>,
@@ -30,6 +32,7 @@ val craftingToDisable =[
   <thermalfoundation:material:290>,
   <thermalfoundation:material:289>,
   <thermalfoundation:material:288>,
+  <thermalfoundation:material:295>,
   // Makes plates uncraftable. Machines are required instead.
   <thermalfoundation:material:32>,
   <thermalfoundation:material:33>,
@@ -50,6 +53,7 @@ val craftingToDisable =[
   <thermalfoundation:material:324>,
   <thermalfoundation:material:325>,
   <thermalfoundation:material:326>,
+  
   // Makes electrum, bronze, constantan and invar dust uncraftable
   <thermalfoundation:material:97>,
   <thermalfoundation:material:98>,
@@ -73,6 +77,36 @@ val ingotProgressionArray =[
 ] as IItemStack[];
 scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
 
+// Add machine recipes to stone, diamond and emerald gears:
+
+	// Diamond:
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:26>, <ore:gemDiamond>, <immersiveengineering:mold:1>, 2400, 4);
+mods.tconstruct.Casting.addBasinRecipe(<thermalfoundation:material:26>, <tconstruct:cast_custom:4>, <liquid:diamond>, 576, false, 100);
+
+	// Emerald:
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:27>, <ore:gemEmerald>, <immersiveengineering:mold:1>, 2400, 4);
+mods.tconstruct.Casting.addBasinRecipe(<thermalfoundation:material:27>, <tconstruct:cast_custom:4>, <liquid:emerald>, 576, false, 100);
+
+	// Stone:
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:23>, <tconstruct:cast_custom:4>, <liquid:stone>, 576);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:23>, <ore:stone>, <immersiveengineering:mold:1>, 2000, 4);
+
+// Craft Crossroads gears with Thermal Foundation gears
+// Note: These can be crafted back into Crossroads gears, but those recipes are in crossroads.zs
+
+recipes.addShapeless(<thermalfoundation:material:256>, [<crossroads:gear_copper>]);
+recipes.addShapeless(<thermalfoundation:material:289>, [<crossroads:gear_electrum>]);
+recipes.addShapeless(<thermalfoundation:material:25>, [<crossroads:gear_gold>]);
+recipes.addShapeless(<thermalfoundation:material:290>, [<crossroads:gear_invar>]);
+recipes.addShapeless(<thermalfoundation:material:24>, [<crossroads:gear_iron>]);
+recipes.addShapeless(<thermalfoundation:material:259>, [<crossroads:gear_lead>]);
+recipes.addShapeless(<thermalfoundation:material:261>, [<crossroads:gear_nickel>]);
+recipes.addShapeless(<thermalfoundation:material:292>, [<crossroads:gear_bronze>]);
+recipes.addShapeless(<thermalfoundation:material:262>, [<crossroads:gear_platinum>]);
+recipes.addShapeless(<thermalfoundation:material:258>, [<crossroads:gear_silver>]);
+recipes.addShapeless(<thermalfoundation:material:257>, [<crossroads:gear_tin>]);
+
+
 
 #Credit to DolphinBlaster for writing this script
 
@@ -94,7 +128,7 @@ var petrolDust = <thermalfoundation:material:1027>;
 // Metal Press recipes
  
 // Blitz Rod Metal Press recipe
-mods.immersiveengineering.MetalPress.addRecipe(blitzRod, batWing, rodMold, 2000, 8);
+mods.immersiveengineering.MetalPress.addRecipe(blitzRod, batWing, rodMold, 2000, 1);
  
 // Blizz Rod Metal Press recipe
 mods.immersiveengineering.MetalPress.addRecipe(blizzRod, <minecraft:packed_ice>, rodMold, 2000, 8);
@@ -108,7 +142,7 @@ mods.immersiveengineering.MetalPress.addRecipe(blazeRod, blazePowder, rodMold, 2
  
 // Crusher (Immersive Engineering) recipes
 // Blitz Rod Crusher recipe
-mods.immersiveengineering.Crusher.addRecipe(blitzPowder * 4, blitzRod, 2048, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), 0.5);
+mods.immersiveengineering.Crusher.addRecipe(blitzPowder * 4, blitzRod, 2048, <minecraft:sand>, 0.5);
  
 // Blizz Rod Crusher recipe
 mods.immersiveengineering.Crusher.addRecipe(blizzPowder * 4, blizzRod, 2048, <minecraft:ice>, 0.5);
@@ -303,7 +337,7 @@ mods.forestry.ThermionicFabricator.addCast(<thermalfoundation:material:325> * 4,
 
 // Turn logs into sawdust with a hammer or a crusher
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:800> * 4, <ore:logWood>, 8000);
-recipes.addShapeless(<thermalfoundation:material:800>, [<immersiveengineering:tool>.transformDamage(), <ore:logWood>]);
+//recipes.addShapeless(<thermalfoundation:material:800>, [<immersiveengineering:tool>.transformDamage(1), <ore:logWood>]); - Recipe broken
 
 // Blazing Pyrotheum recipes
 mods.tconstruct.Melting.addRecipe(
@@ -414,7 +448,7 @@ mods.tconstruct.Casting.addBasinRecipe(HardenedBase * 2, InsulatingGlass, Obsidi
 mods.botania.ElvenTrade.addRecipe([HardenedBase * 2], [SoulGlass,Obsidian]);
 mods.immersiveengineering.AlloySmelter.addRecipe(HardenedBase * 12, InsulatingGlass, RawHardener, 600);
 mods.immersiveengineering.AlloySmelter.addRecipe(HardenedBase * 12, RawHardener, InsulatingGlass, 600);
-mods.immersiveengineering.ArcFurnace.addRecipe(HardenedBase * 16, RawHardener, null, 2000, 2048, [InsulatingGlass]);
+mods.immersiveengineering.ArcFurnace.addRecipe(HardenedBase * 16, RawHardener, null, 20, 512, [InsulatingGlass]);
 
 // Copper Recipes
 mods.factorytech.CompressionChamber.addRecipe(CopperHardened, HardenedBase, CopperLiquid * 144);
