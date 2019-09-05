@@ -65,9 +65,10 @@ mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:6>, [[<tconstruct:e
 mods.forestry.Carpenter.addRecipe(<xreliquary:mob_ingredient:7>, [[<tconstruct:edible:34> * 4, <botania:blazeblock>]], 30, <liquid:lava> * 1000);
 
 // Eye of the Storm Laser Assembly Table recipe
-mods.refraction.AssemblyTable.addRecipe("Eye of the Storm", <xreliquary:mob_ingredient:8>,
-    [<minecraft:ender_eye>, <xreliquary:mob_ingredient:9> * 3, <thermalfoundation:material:102> * 5],
-    16, 64, 255, 255, 255, 255, 0, 0);
+//mods.refraction.AssemblyTable.addRecipe("Eye of the Storm", <xreliquary:mob_ingredient:8>,
+//    [<minecraft:ender_eye>, <xreliquary:mob_ingredient:9> * 3, <thermalfoundation:material:102> * 5],
+//    16, 64, 255, 255, 255, 255, 0, 0);
+// Disabled because Refraction is no longer in the pack.
 	
 //Make glowing bread recipe more interesting:
 recipes.removeShapeless(<xreliquary:glowing_bread>);
