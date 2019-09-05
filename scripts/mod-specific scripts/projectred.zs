@@ -219,9 +219,4 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:10
  
 // Electrotine Alloy Ingot Alloy Kiln recipe
 mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, <projectred-core:resource_item:105> * 8, 200);
-
-// Electrotine Block Laser Assembly Table recipe
-mods.refraction.AssemblyTable.addRecipe("Electrotine Block", <projectred-exploration:stone:11>,
-    [<minecraft:dye:4> * 2, <ore:ingotCobalt> * 2],
-    16, 64, 0, 0, 0, 0, 255, 255);
 	
