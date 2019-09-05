@@ -10,7 +10,7 @@ val itemsToDisable =[
   <forestry:farm_gourd:*>,
   <forestry:farm_nether:*>,
   <forestry:farm_ender:*>,
-  <forestry:peat_bog:*>,
+  <forestry:peat_bog:*>
 ] as IItemStack[];  //note: Disabled to encourage more complex farms
 scripts.functions.disableItems(itemsToDisable);
 
@@ -25,6 +25,9 @@ val craftingToDisable =[
   <forestry:farm_nether:*>,
   <forestry:farm_ender:*>,
   <forestry:peat_bog:*>,
+  <forestry:gear_copper>,
+  <forestry:gear_bronze>,
+  <forestry:gear_tin>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
