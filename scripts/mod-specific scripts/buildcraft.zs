@@ -1,4 +1,21 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+
+val craftingToDisable =[
+	// Gears - Use Thermal Foundation gears instead
+	<buildcraftcore:gear_wood>,
+	<buildcraftcore:gear_stone>,
+	<buildcraftcore:gear_gold>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
+
+val itemsToDisable =[
+	<buildcraftcore:gear_wood>,
+	<buildcraftcore:gear_stone>,
+	<buildcraftcore:gear_gold>
+] as IItemStack[];
+scripts.functions.disableItems(itemsToDisable);
 
 recipes.removeShaped(<buildcraftcore:gear_iron>);
 
