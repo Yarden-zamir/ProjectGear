@@ -47,38 +47,27 @@ recipes.addShaped("menril_to_fertilizer", <forestry:fertilizer_compound> * 16,
 
 // Craft iron, gold, copper, tin, bronze and nickel gears in the thermionic fabricator.
 val gearStone = <ore:gearStone>;
-var metalObjects as IOreDictEntry[string][string] = {
-    iron: {
-        gear: <ore:gearIron>,
-        ingot: <ore:ingotIron>
-    },
-    gold: {
-        gear: <ore:gearGold>,
-        ingot: <ore:ingotGold>
-    },
-    copper: {
-        gear: <ore:gearCopper>,
-        ingot: <ore:ingotCopper>
-    },
-    tin: {
-        gear: <ore:gearTin>,
-        ingot: <ore:ingotTin>
-    },
-    bronze: {
-        gear: <ore:gearBronze>,
-        ingot: <ore:ingotBronze>
-    },
-	nickel: {
-        gear: <ore:gearNickel>,
-        ingot: <ore:ingotNickel>
-    }
+var metalObjects as IOreDictEntry[IItemStack]= {
+	// Gear Iron
+    <thermalfoundation:material:24> : <ore:ingotIron>,
+	// Gear Gold
+    <thermalfoundation:material:25> : <ore:ingotGold>,
+	// Gear Copper
+    <thermalfoundation:material:256> : <ore:ingotCopper>,
+	// Gear Tin
+    <thermalfoundation:material:257> : <ore:ingotTin>,
+	// Gear Bronze
+	<thermalfoundation:material:291> : <ore:ingotBronze>,
+	// Gear Nickel
+    <thermalfoundation:material:261> : <ore:ingotNickel>
 };
 
-for key, value in metalObjects {
-    mods.forestry.ThermionicFabricator.addCast(value.gear.firstItem,
-        [[null, value.ingot, null],
-        [value.ingot, gearStone, value.ingot],
-        [null, value.ingot, null]],
+// For every gear, create the corresponding ThermFabri recipe.
+for gear, ingot in metalObjects {
+    mods.forestry.ThermionicFabricator.addCast(gear,
+        [[null, ingot, null],
+        [ingot, gearStone, ingot],
+        [null, ingot, null]],
         <liquid: glass> * 200
     ); 
 }
