@@ -1,3 +1,5 @@
+#modloaded thermalinnovation
+
 import scripts.functions.addDesc;
 import scripts.functions.addDescBatch;
 import crafttweaker.item.IItemStack;
