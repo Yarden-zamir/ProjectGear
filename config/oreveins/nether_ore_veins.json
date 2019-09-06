@@ -1,7 +1,7 @@
 {
 
 "small_common_nether_gold_vein": {
-    "type": "oreveins:cluster",
+    "type": "cluster",
     "ore": "contenttweaker:nether_gold_ore",
     "stone": "minecraft:netherrack",
     "rarity": 1,
@@ -27,7 +27,7 @@
   },
   
   "small_common_nether_nuclearcraft_ore_vein": {
-    "type": "oreveins:cluster",
+    "type": "cluster",
     "ore": [
       {
         "block": "contenttweaker:nether_boron_ore",
@@ -61,7 +61,7 @@
   },
   
   "medium_uncommon_nether_nuclearcraft_ore_vein": {
-    "type": "oreveins:cluster",
+    "type": "cluster",
    "ore": [
       {
         "block": "contenttweaker:nether_boron_ore",
@@ -95,7 +95,7 @@
   },
   
   "massive_rare_nether_nuclearcraft_ore_vein": {
-    "type": "oreveins:cluster",
+    "type": "cluster",
     "ore": [
       {
         "block": "contenttweaker:nether_boron_ore",

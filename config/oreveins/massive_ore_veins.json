@@ -1,5 +1,6 @@
 {
   "massive_exotic_iron_nickel": {
+	"type": "cluster",
     "ore": [{
             "block": "thermalfoundation:ore",
             "weight": 40,
@@ -12,7 +13,7 @@
  
     ],
     "stone": "minecraft:stone",
-    "rarity": 500,
+    "rarity": 8000,
     "min_y": 5,
     "max_y": 55,
     "density": 15,
@@ -20,9 +21,10 @@
     "horizontal_size": 80,
 	"dimensions": [ -2 ],
 	"dimensions_is_whitelist": false
-	
   },
+  
   "massive_exotic_gold_copper": {
+	"type": "cluster",
     "ore": [{
             "block": "thermalfoundation:ore",
             "weight": 50,
@@ -35,7 +37,7 @@
  
     ],
     "stone": "minecraft:stone",
-    "rarity": 1000,
+    "rarity": 16000,
     "min_y": 5,
     "max_y": 55,
     "density": 15,
@@ -46,6 +48,7 @@
   },
   
   "massive_exotic_tin_copper": {
+	"type": "cluster",
     "ore": [{
             "block": "thermalfoundation:ore",
             "weight": 50,
@@ -59,7 +62,7 @@
  
     ],
     "stone": "minecraft:stone",
-    "rarity": 1000,
+    "rarity": 16000,
     "min_y": 5,
     "max_y": 55,
     "density": 15,
@@ -70,6 +73,7 @@
   },
   
   "massive_exotic_coal_diamond": {
+	"type": "cluster",
     "ore": [{
             "block": "minecraft:coal_ore",
             "weight": 499
@@ -81,7 +85,7 @@
  
     ],
     "stone": "minecraft:stone",
-    "rarity": 1000,
+    "rarity": 16000,
     "min_y": 5,
     "max_y": 55,
     "density": 15,
@@ -91,6 +95,7 @@
 	"dimensions_is_whitelist": false
   },
   "TEMPERATE_BIOMES_iron_nickel": {
+	"type": "cluster",
     "ore": [
 			{	
             "block": "thermalfoundation:ore",	
@@ -104,7 +109,7 @@
  	
     ],	
     "stone": "minecraft:stone",	
-    "rarity": 750,
+    "rarity": 12000,
     "min_y": 5,
     "max_y": 55,
     "density": 35,
@@ -120,6 +125,7 @@
 	"dimensions_is_whitelist": false
   },
 	"HOT_BIOMES_gold_copper": {	
+	"type": "cluster",
    	"ore": [{	
             "block": "thermalfoundation:ore",	
             "weight": 50,	
@@ -132,7 +138,7 @@
  	
     ],	
     "stone": "minecraft:stone",	
-    "rarity": 750,	
+    "rarity": 12000,	
     "min_y": 5,	
     "max_y": 55,	
     "density": 35,	
@@ -147,6 +153,7 @@
 	"dimensions_is_whitelist": false
   },	
   "TEMPERATE_BIOMES_tin_copper": {	
+	"type": "cluster",
     "ore": [{	
             "block": "thermalfoundation:ore",	
             "weight": 50,	
@@ -160,7 +167,7 @@
  	
     ],	
     "stone": "minecraft:stone",	
-    "rarity": 1500,	
+    "rarity": 12000,	
     "min_y": 5,	
     "max_y": 55,	
     "density": 15,	
@@ -176,6 +183,7 @@
 	"dimensions_is_whitelist": false
   },	
   "WET_BIOMES_tin_nickel": {	
+	"type": "cluster",
     "ore": [{	
             "block": "thermalfoundation:ore",	
             "weight": 50,	
@@ -189,7 +197,7 @@
  	
     ],	
     "stone": "minecraft:stone",	
-    "rarity": 750,	
+    "rarity": 12000,	
     "min_y": 5,	
     "max_y": 55,	
     "density": 15,
@@ -204,6 +212,7 @@
 	"dimensions_is_whitelist": false	
   },	
   "COLD_BIOMES_coal_diamond": {
+	"type": "cluster",
     "ore": [{	
             "block": "minecraft:coal_ore",	
             "weight": 99	
@@ -215,7 +224,7 @@
  	
     ],	
     "stone": "minecraft:stone",	
-    "rarity": 750,	
+    "rarity": 12000,	
     "min_y": 5,	
     "max_y": 55,	
     "density": 15,	
