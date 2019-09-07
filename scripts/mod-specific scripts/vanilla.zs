@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.integrateddynamics.Squeezer;
 #priority 80
 
 
@@ -13,6 +14,10 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:glowstone>, null, <liquid:glow
  
 // Casting Table: 1000 mb Energized Glowstone -> Glowstone
 mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, null, <liquid:ender>, 250, false, 100);
+
+// Increase output of vanilla TNT recipe to 5
+recipes.removeByRecipeName("minecraft:tnt");
+recipes.addShaped(<minecraft:tnt> * 5, [[<ore:gunpowder>, <minecraft:sand> | <minecraft:sand:1>, <ore:gunpowder>], [<minecraft:sand> | <minecraft:sand:1>, <ore:gunpowder>, <minecraft:sand> | <minecraft:sand:1>], [<ore:gunpowder>, <minecraft:sand> | <minecraft:sand:1>, <ore:gunpowder>]]);
 
 val tinIngot = <ore:ingotTin>;
 val steelIngot = <ore:ingotSteel>;
@@ -73,8 +78,6 @@ recipes.addShapeless(<minecraft:stone:5>, [<contenttweaker:andesite_pebble>, <co
 // roten flesh -> leather
 recipes.removeShaped(<minecraft:leather>);
 mods.integrateddynamics.DryingBasin.removeRecipesWithOutput(<minecraft:leather>);
-
-// Mekanism's rail recipe
 
 
 // Crusher: Diamond Horse Armor -> 2 Diamond Dust
@@ -138,3 +141,13 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:egg>, <minecraft:feather>, 250);
 
 // Melt cows in a smeltery to get milk
 mods.tconstruct.Melting.addEntityMelting(<entity:minecraft:cow>, <liquid:milk>);
+
+// Squeeze gravel into sand instead of flint
+Squeezer.removeRecipe(<minecraft:gravel>,
+	<minecraft:gravel>, 0.5);
+	
+Squeezer.addRecipe(<minecraft:gravel>, <minecraft:sand>);
+
+//////////Stack sizes
+// Makes beetroot soup stack to 64 like other soups do in this pack
+<minecraft:beetroot_soup>.maxStackSize = 64;
