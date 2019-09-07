@@ -123,7 +123,7 @@ recipes.addShapeless("gear_shapeless_explorerJetpack", <ironjetpacks:explorer_je
   
 // Upgrade basic jetpack to soldier jetpack
 // Maintains the RF stored in the basic jetpack
-recipes.addShapeless("gear_shapeless_explorerJetpack", <ironjetpacks:soldier_jetpack>, [<minecraft:diamond>, <minecraft:diamond>, <ironjetpacks:basic_jetpack>.marked("basic_jetpack").noReturn()], function(out, ins, cInfo) {
+recipes.addShapeless("gear_shapeless_soldierJetpack", <ironjetpacks:soldier_jetpack>, [<minecraft:diamond>, <minecraft:diamond>, <ironjetpacks:basic_jetpack>.marked("basic_jetpack").noReturn()], function(out, ins, cInfo) {
     return out.withTag(ins.basic_jetpack.tag);
   }, null);
   

@@ -1,4 +1,6 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.integrateddynamics.Squeezer;
 
 // Craft Thaumcraft brass plates in a smeltery
