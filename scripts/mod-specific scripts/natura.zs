@@ -230,3 +230,7 @@ recipes.addShaped(<natura:overworld_berrybush_maloberry>,
  [[<natura:edibles:5>, <natura:edibles:5>, <natura:edibles:5>],
   [<natura:edibles:5>, <ore:treeLeaves>, <natura:edibles:5>],
   [<natura:edibles:5>, <natura:edibles:5>, <natura:edibles:5>]]);
+  
+// Grinding wheat in a Crossroads grindstone gives flour instead of seeds
+mods.crossroads.Grindstone.removeRecipe(<minecraft:wheat>);
+mods.crossroads.Grindstone.addRecipe(<minecraft:wheat>, <natura:materials:2>);
