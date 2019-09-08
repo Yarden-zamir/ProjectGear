@@ -1,10 +1,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.oredict.IOreDictEntry;
-import mods.integrateddynamics.Squeezer;
+import crafttweaker.oredict.IOreDictEntry;	
 
 // Craft Thaumcraft brass plates in a smeltery
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:aluminum_brass_plate>, <tconstruct:cast_custom:3>, <liquid:alubrass>, 144, 0);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:aluminum_brass_plate>, <tconstruct:cast_custom:3>, <liquid:alubrass>, 144, false, 0);
 
 // Craft the white ceramic tile
 recipes.addShaped(<contenttweaker:age_portal_black>,
