@@ -397,6 +397,33 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:768>, <m
 //MechanicalSqueezer.removeRecipe(<minecraft:coal>, <thermalfoundation:material:768>, null);
 //MechanicalSqueezer.addRecipe(<minecraft:coal>, <thermalfoundation:material:768>, <liquid:dirt> * 36);
 
+// Craft iron, gold, copper, tin, bronze and nickel gears in the thermionic fabricator.
+val gearStone = <ore:gearStone>;
+var metalObjects as IOreDictEntry[IItemStack]= {
+    // Gear Iron
+    <thermalfoundation:material:24> : <ore:ingotIron>,
+    // Gear Gold
+    <thermalfoundation:material:25> : <ore:ingotGold>,
+    // Gear Copper
+    <thermalfoundation:material:256> : <ore:ingotCopper>,
+    // Gear Tin
+    <thermalfoundation:material:257> : <ore:ingotTin>,
+    // Gear Bronze
+    <thermalfoundation:material:291> : <ore:ingotBronze>,
+    // Gear Nickel
+    <thermalfoundation:material:261> : <ore:ingotNickel>
+};
+
+// For every gear, create the corresponding ThermFabri recipe.
+for gear, ingot in metalObjects {
+    mods.forestry.ThermionicFabricator.addCast(gear,
+        [[null, ingot, null],
+        [ingot, gearStone, ingot],
+        [null, ingot, null]],
+        <liquid: glass> * 200
+    ); 
+}
+
 	
 // Adds complex recipes to hardened glass
 // Credit to πß_off
