@@ -53,6 +53,57 @@ listAllseed.add(<rustic:chili_pepper_seeds>);
 listAllseed.add(<rustic:apple_seeds>);
 listAllseed.add(<rustic:grape_stem>);
 
+
+
+// Craft Rustic crops in a petal apothacary
+	// Aloe Vera
+mods.botania.Apothecary.addRecipe(<rustic:aloe_vera>, [<natura:edibles:1>, <rustic:chili_pepper>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalGreen>]);
+
+
+mods.botania.Apothecary.addRecipe(<rustic:deathstalk_mushroom>, [<ore:mushroomAny>, <quark:black_ash>, <ore:petalGreen>, <ore:petalBlack>, <ore:petalBrown>]);
+
+
+mods.botania.Apothecary.addRecipe(<rustic:horsetail>, [<natura:edibles:6>, <natura:edibles:8>, <ore:petalGreen>, <ore:petalGreen>, <ore:petalGreen>]);
+
+
+mods.botania.Apothecary.addRecipe(<rustic:mooncap_mushroom>, [<ore:mushroomAny>, <natura:edibles:7>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalWhite>]);
+
+
+mods.botania.Apothecary.addRecipe(<rustic:wind_thistle>, [<rustic:grapes>, <minecraft:reeds>, <ore:petalPurple>, <ore:petalPurple>, <ore:petalPurple>]);
+
+
+mods.botania.Apothecary.addRecipe(<rustic:cloudsbluff>, [<minecraft:feather>, <rustic:wildberries>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalWhite>]);
+
+
+mods.botania.Apothecary.addRecipe(<rustic:core_root>, [<botania:manaresource:6>, <minecraft:sugar>, <ore:petalBrown>, <ore:petalWhite>, <ore:petalWhite>]);
+
+
+mods.botania.Apothecary.addRecipe(<rustic:marsh_mallow>, [<botania:manaresource:6>, <minecraft:melon>, <ore:petalBrown>, <ore:petalGreen>, <ore:petalRed>]);
+
+
+mods.botania.Apothecary.addRecipe(<rustic:ginseng>, [<botania:manaresource:6>, <natura:edibles:9>, <ore:petalBrown>, <ore:petalRed>, <ore:petalRed>]);
+
+
+mods.botania.Apothecary.addRecipe(<rustic:blood_orchid>, [<rustic:tomato>, <natura:nether_sapling2:0>, <ore:petalRed>, <ore:petalRed>, <ore:petalRed>]);
+
+
+mods.botania.Apothecary.addRecipe(<rustic:cohosh>, [<natura:materials:3>, <natura:edibles:10>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalWhite>]);
+
+mods.botania.Apothecary.addRecipe(<rustic:chamomile>, [<natura:materials:3>, <minecraft:gold_nugget>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalWhite>]);
+
+// Convert Natura maloberries into Rustic wildberries
+mods.botania.ManaInfusion.addAlchemy(<rustic:wildberries>, <natura:edibles:5>, 250);
+
+// Convert Cacoons of Caprice into bee hives with Botania alchemy
+mods.botania.ManaInfusion.addAlchemy(<rustic:beehive>, <botania:cocoon>, 5000);
+
+// Turn Botania's cell blocks into fertile soil
+mods.botania.PureDaisy.addRecipe(<botania:cellblock>, <rustic:fertile_soil>);
+
+
+
+
+
 // Fix recipe conflict with Quark's stained planks
 
 val treatedWood = <immersiveengineering:treated_wood>;
