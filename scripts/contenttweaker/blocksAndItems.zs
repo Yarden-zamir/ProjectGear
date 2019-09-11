@@ -224,6 +224,15 @@ netherUraniumOre.setToolLevel(3);
 netherUraniumOre.setBlockSoundType(<soundtype:metal>);
 netherUraniumOre.register();
 
+// Nether Uranium Ore
+var netherLeadOre = VanillaFactory.createBlock("nether_lead_ore", <blockmaterial:rock>); 
+netherLeadOre.setBlockHardness(5.0); 
+netherLeadOre.setBlockResistance(30.0);
+netherLeadOre.setToolClass("pickaxe"); 
+netherLeadOre.setToolLevel(3); 
+netherLeadOre.setBlockSoundType(<soundtype:metal>);
+netherLeadOre.register();
+
 
 // Coarse Gravel
 val coarse_gravel = VanillaFactory.createBlock("coarse_gravel", <blockmaterial:rock>);
