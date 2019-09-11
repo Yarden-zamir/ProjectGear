@@ -13,3 +13,15 @@
 <ore:blockImpureSteel>.add(<contenttweaker:impure_steel_block>);
 <ore:ingotImpureSteel>.add(<contenttweaker:impure_steel_ingot>);
 <ore:nuggetImpureSteel>.add(<contenttweaker:impure_steel_nugget>);
+
+// Nether Gold Ore works like Gold Ore
+<ore:oreGold>.add(<contenttweaker:nether_gold_ore>);
+<ore:oreNetherGold>.add(<contenttweaker:nether_gold_ore>);
+
+// Smelt ores into ingots
+furnace.addRecipe(<minecraft:gold_ingot>, <contenttweaker:nether_gold_ore>, 1.0);
+furnace.addRecipe(<nuclearcraft:ingot:7>, <contenttweaker:nether_magnesium_ore>, 1.0);
+furnace.addRecipe(<nuclearcraft:ingot:6>, <contenttweaker:nether_lithium_ore>, 1.0);
+furnace.addRecipe(<nuclearcraft:ingot:5>, <contenttweaker:nether_boron_ore>, 1.0);
+furnace.addRecipe(<nuclearcraft:ingot:4>, <contenttweaker:nether_uranium_ore>, 1.0);
+furnace.addRecipe(<nuclearcraft:ingot:3>, <contenttweaker:nether_thorium_ore>, 1.0);
