@@ -82,6 +82,16 @@ myEntry.add(<minecraft:mossy_cobblestone>);
 mods.botania.Orechid.addOre(<ore:blockMossyCobblestone>, 80000);
 */
 
+// Add ores to Orechid Ignem
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherGold>, 500);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherThorium>, 500);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherUranium>, 500);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherMagnesium>, 500);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherBoron>, 500);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherLithium>, 500);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherLead>, 500);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherRuby>, 500);
+
 // Cheaper life aggregator
 recipes.removeShaped(<botania:spawnermover>);
 
