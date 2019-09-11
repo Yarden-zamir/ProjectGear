@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
-
+import crafttweaker.item.IIngredient;
 
 val craftingToDisable =[
 	// Disables default gear recipes
@@ -57,26 +57,28 @@ recipes.addShapeless(<crossroads:gear_platinum>, [<ore:gearPlatinum>]);
 recipes.addShapeless(<crossroads:gear_silver>, [<ore:gearSilver>]);
 recipes.addShapeless(<crossroads:gear_tin>, [<ore:gearTin>]);
 
-/*
 
-val metals = ["Copper”, “Tin”, “Bronze”, “Iron”, “Gold”, “Electrum”, “ Invar”, “Nickel”] as string[];
+
+
+
+val metals = ["Copper", "Tin", "Bronze", "Iron", "Gold", "Electrum", "Invar", "Nickel", "Copshowium"] as string[];
 val redstone = <ore:dustRedstone>;
 val ironStick = <ore:stickIron>;
+
 for item in metals {
-    val gear = oredict.get("gear” + item);
-    val cr_gear = itemUtils.getItem(“crossroads:gear_” + item);
+    val block = oreDict.get(("block" + item) as string);
+    val gear = oreDict.get(("gear" + item) as string);
+    val cr_gear = itemUtils.getItem("crossroads:gear_" + item);
     val ing_gear = cr_gear | gear;
 
-    recipes.addShaped(itemUtils.getItem(“crossroads:large_gear_” + item.toLowerCase),
+    recipes.addShaped(itemUtils.getItem("crossroads:large_gear_" + item.toLowerCase),
     [[ing_gear, ing_gear, ing_gear],
-    [ing_gear, <ore:blockElectrum>, ing_gear],
+    [ing_gear, block, ing_gear],
     [ing_gear, ing_gear, ing_gear]]);
 
-    recipes.addShapeless(itemUtils.getItem(“crossroads:toggle_gear_” + item.toLowerCase),
+    recipes.addShapeless(itemUtils.getItem("crossroads:toggle_gear_" + item.toLowerCase),
     [redstone,redstone,ironStick,ing_gear]);
 }
-
-*/
 
 
 // Craft large gears using either Thermal Foundation gears or Crossroads gears
