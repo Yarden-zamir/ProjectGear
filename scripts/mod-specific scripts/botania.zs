@@ -67,16 +67,20 @@ mods.botania.Orechid.removeOre(<ore:oreGalena>);
 mods.botania.Orechid.removeOre(<ore:oreApatite>);
 mods.botania.Orechid.removeOre(<ore:orePlatinum>);
 mods.botania.Orechid.removeOre(<ore:oreUranium>);
+mods.botania.Orechid.removeOre(<ore:oreZinc>);
 
 // Increased Nickel chance in orechid
 mods.botania.Orechid.addOre(<ore:oreNickel>, 2970);
 
+/*
+// Nerfs the Orechid for balance reasons - Currently not needed 
 // Makes the oredict entry "blockMossyCobblestone" which only contains mossy cobblestone
 val myEntry = <ore:blockMossyCobblestone>;
 myEntry.add(<minecraft:mossy_cobblestone>);
  
 // Orechid: Mossy Cobblestone generates about 50% of the time
 mods.botania.Orechid.addOre(<ore:blockMossyCobblestone>, 80000);
+*/
 
 // Cheaper life aggregator
 recipes.removeShaped(<botania:spawnermover>);
