@@ -118,6 +118,10 @@
 						{
 							"name": "contenttweaker:nether_magnesium_ore",
 							"weight": 10
+						},
+						{
+							"name": "contenttweaker:nether_lead_ore",
+							"weight": 10
 						}
 					],
 					"material": [
