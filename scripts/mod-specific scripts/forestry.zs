@@ -1,4 +1,6 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+
 // Disable forestry multifarms
 val itemsToDisable =[
   // Multifarm blocks
@@ -42,3 +44,30 @@ recipes.addShaped("menril_to_fertilizer", <forestry:fertilizer_compound> * 16,
 	[[<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>], 
 	 [<ore:dustAsh>, <integrateddynamics:crystalized_menril_chunk>, <ore:dustAsh>], 
 	 [<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>]]);
+
+// Craft iron, gold, copper, tin, bronze and nickel gears in the thermionic fabricator.
+val gearStone = <ore:gearStone>;
+var metalObjects as IOreDictEntry[IItemStack]= {
+	// Gear Iron
+    <thermalfoundation:material:24> : <ore:ingotIron>,
+	// Gear Gold
+    <thermalfoundation:material:25> : <ore:ingotGold>,
+	// Gear Copper
+    <thermalfoundation:material:256> : <ore:ingotCopper>,
+	// Gear Tin
+    <thermalfoundation:material:257> : <ore:ingotTin>,
+	// Gear Bronze
+	<thermalfoundation:material:291> : <ore:ingotBronze>,
+	// Gear Nickel
+    <thermalfoundation:material:261> : <ore:ingotNickel>
+};
+
+// For every gear, create the corresponding ThermFabri recipe.
+for gear, ingot in metalObjects {
+    mods.forestry.ThermionicFabricator.addCast(gear,
+        [[null, ingot, null],
+        [ingot, gearStone, ingot],
+        [null, ingot, null]],
+        <liquid: glass> * 200
+    ); 
+}
