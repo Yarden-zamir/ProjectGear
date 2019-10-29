@@ -57,7 +57,7 @@ recipes.addShapeless(<crossroads:gear_platinum>, [<ore:gearPlatinum>]);
 recipes.addShapeless(<crossroads:gear_silver>, [<ore:gearSilver>]);
 recipes.addShapeless(<crossroads:gear_tin>, [<ore:gearTin>]);
 
-
+<ore:oreNetherRuby>.add(<crossroads:ore_ruby>);
 
 
 

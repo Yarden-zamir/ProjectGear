@@ -68,6 +68,7 @@ mods.botania.Orechid.removeOre(<ore:oreApatite>);
 mods.botania.Orechid.removeOre(<ore:orePlatinum>);
 mods.botania.Orechid.removeOre(<ore:oreUranium>);
 mods.botania.Orechid.removeOre(<ore:oreZinc>);
+mods.botania.Orechid.removeOre(<ore:oreMithril>);
 
 // Increased Nickel chance in orechid
 mods.botania.Orechid.addOre(<ore:oreNickel>, 2970);

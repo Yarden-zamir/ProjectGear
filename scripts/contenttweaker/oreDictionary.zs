@@ -4,6 +4,15 @@
 <ore:oreBoron>.add(<contenttweaker:nether_boron_ore>);
 <ore:oreUranium>.add(<contenttweaker:nether_uranium_ore>);
 <ore:oreThorium>.add(<contenttweaker:nether_thorium_ore>);
+<ore:oreThorium>.add(<contenttweaker:nether_lead_ore>);
+
+// Adds a second ore dictionary tag so they work with the Orechid
+<ore:oreNetherMagnesium>.add(<contenttweaker:nether_magnesium_ore>);
+<ore:oreNetherLithium>.add(<contenttweaker:nether_lithium_ore>);
+<ore:oreNetherBoron>.add(<contenttweaker:nether_boron_ore>);
+<ore:oreNetherUranium>.add(<contenttweaker:nether_uranium_ore>);
+<ore:oreNetherThorium>.add(<contenttweaker:nether_thorium_ore>);
+<ore:oreNetherThorium>.add(<contenttweaker:nether_lead_ore>);
 
 // Items:
 <ore:plateTreated>.add(<contenttweaker:treated_plate>);
