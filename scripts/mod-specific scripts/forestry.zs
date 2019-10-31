@@ -42,3 +42,6 @@ recipes.addShaped("menril_to_fertilizer", <forestry:fertilizer_compound> * 16,
 	[[<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>], 
 	 [<ore:dustAsh>, <integrateddynamics:crystalized_menril_chunk>, <ore:dustAsh>], 
 	 [<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>]]);
+	 
+// Turn packed ice into ice shards:
+mods.immersiveengineering.Crusher.addRecipe(<forestry:crafting_material:4>, <minecraft:packed_ice>, 2048, <xreliquary:mob_ingredient:10>, 1.5625);
