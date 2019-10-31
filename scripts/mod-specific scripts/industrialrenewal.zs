@@ -58,3 +58,7 @@ recipes.addShaped(<industrialrenewal:catwalk_steel_pillar> * 12, [[<ore:ingotSte
 
 	// Column
 recipes.addShaped(<industrialrenewal:catwalk_column_steel> * 12, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [steelStickOrRod, steelStickOrRod, steelStickOrRod], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+
+// Tooltips:
+	// Solar panel:
+<industrialrenewal:solar_panel_frame>.addTooltip(format.red("Cosmetic only! Does not generate power!"));
