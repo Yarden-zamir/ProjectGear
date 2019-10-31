@@ -27,6 +27,7 @@ https://gist.github.com/TheDeviantCrafter/bc907b30d10ad529d2702fa7a6c61a2d
 -Oiled leather recipes are now cheaper (1000mb seed oil > 250mb, 5 minutes to dry > 1 minute)
 -Crushing packed ice in an Immersive Engineering crusher now gives ice shards with a 1/64 chance of a frozen core.
 -Added a text file to /minecraft/scripts that explains how scripts are organized.
+-Made Reliquary mob ingredients cheaper, added alternate recipes for some of them.
 
 **Fixes:**
 -Fixed nether ores being unsmetable

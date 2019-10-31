@@ -5,13 +5,15 @@ import crafttweaker.item.IItemStack;
 val craftingToDisable =[
 	// Gears - Use Thermal Foundation gears instead
 	<buildcraftcore:gear_wood>,
-	<buildcraftcore:gear_stone>
+	<buildcraftcore:gear_stone>,
+	<buildcraftcore:gear_diamond>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
 val itemsToDisable =[
 	<buildcraftcore:gear_wood>,
-	<buildcraftcore:gear_stone>
+	<buildcraftcore:gear_stone>,
+	<buildcraftcore:gear_diamond>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 

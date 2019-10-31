@@ -81,14 +81,14 @@ scripts.functions.addAlchemyStages(ingotProgressionArray, 100);
 
 	// Diamond:
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:26>, <ore:gemDiamond>, <immersiveengineering:mold:1>, 2400, 4);
-mods.tconstruct.Casting.addBasinRecipe(<thermalfoundation:material:26>, <tconstruct:cast_custom:4>, <liquid:diamond>, 576, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:26>, <tconstruct:cast_custom:4>, <liquid:diamond>, 666, false, 100);
 
 	// Emerald:
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:27>, <ore:gemEmerald>, <immersiveengineering:mold:1>, 2400, 4);
-mods.tconstruct.Casting.addBasinRecipe(<thermalfoundation:material:27>, <tconstruct:cast_custom:4>, <liquid:emerald>, 576, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:27>, <tconstruct:cast_custom:4>, <liquid:emerald>, 666, false, 100);
 
 	// Stone:
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:23>, <tconstruct:cast_custom:4>, <liquid:stone>, 576);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:23>, <tconstruct:cast_custom:4>, <liquid:stone>, 1152);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:23>, <ore:stone>, <immersiveengineering:mold:1>, 2000, 4);
 
 // Craft Crossroads gears with Thermal Foundation gears
