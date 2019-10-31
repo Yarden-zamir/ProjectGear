@@ -10,7 +10,7 @@ import crafttweaker.oredict.IOreDictEntry;
 	//Carpenter step:
 #mods.forestry.Carpenter.addRecipe(<contenttweaker:oiled_leather>, [[<terraqueous:item_main:100>, <terraqueous:item_main:100>], [<terraqueous:item_main:100>, <terraqueous:item_main:100>]], 30, <liquid:seed.oil> * 100);
 	//Drying rack step:
-mods.tconstruct.Drying.addRecipe(<minecraft:leather>, <contenttweaker:oiled_leather>, 6000);
+mods.tconstruct.Drying.addRecipe(<minecraft:leather>, <contenttweaker:oiled_leather>, 1200);
 
 //Run soul sand through a Centrifuge to get a heat sand (25%), tainted soil (25%), soul bead (1%), or ghast tear (1%)
 mods.forestry.Centrifuge.addRecipe([(<natura:nether_heat_sand>) % 25, <natura:nether_tainted_soil> % 25, <quark:soul_bead> % 1, <minecraft:ghast_tear> % 1], <minecraft:soul_sand>, 100);
@@ -33,7 +33,7 @@ mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:sinew> * 2, <minecra
 // Centrifuge: Rotten Flesh -> [Sand Pile (Earthworks) 25%, Leather Scrap 10%, Monster Jerky 5%, Coagulated Blood 1%]
 mods.forestry.Centrifuge.addRecipe([<contenttweaker:sand_pile> % 25, <contenttweaker:sinew> % 20, <tconstruct:edible:10> % 5, <tconstruct:edible:33> % 1], <minecraft:rotten_flesh>, 100);
 
-mods.forestry.Carpenter.addRecipe(<contenttweaker:oiled_leather>, [[<contenttweaker:sinew>,<contenttweaker:sinew>],[<contenttweaker:sinew>,<contenttweaker:sinew>]], 60, <liquid:seed.oil> * 1000);
+mods.forestry.Carpenter.addRecipe(<contenttweaker:oiled_leather>, [[<contenttweaker:sinew>,<contenttweaker:sinew>],[<contenttweaker:sinew>,<contenttweaker:sinew>]], 60, <liquid:seed.oil> * 100);
 
 // Centrifuge: Stone -> [Limestone (Quark) 10%, Marble (Quark) 10%, Diorite 10%, Andesite 10%, Granite 10%, Slate (Rustic) 10%]
 mods.forestry.Centrifuge.addRecipe([(<quark:limestone>) % 10, <quark:marble> % 10, <minecraft:stone:3> % 10, <minecraft:stone:5> % 10, <minecraft:stone:1> % 10, <rustic:slate> % 10], <minecraft:stone>, 100);
