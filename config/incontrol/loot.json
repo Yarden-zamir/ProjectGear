@@ -99,5 +99,15 @@
 		"item": "minecraft:spider_eye",
 		"random": 0.5,
 		"itemcount": "1"
+	},
+	{
+		"mob": "minecraft:skeleton",
+		"item": 
+			[
+			"minecraft:spider_eye",
+			"minecraft:string"
+			],
+		"random": 0.5,
+		"itemcount": "1"
 	}
 ]
