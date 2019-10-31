@@ -1,0 +1,13 @@
+Folders:
+
+
+contenttweaker: Contains scripts that create NEW blocks, items, liquids, etc. Recipes relating to these items are in scripts/mod-specific-scripts
+
+documentation: Adds JEI info tags and tooltips to various items, explaining how they work
+
+general scripts: Anything that doesn't fit into another folder. I try to avoid using this as much as possible.
+
+mod-specific scripts: Each mod gets its own script folder. 90% of recipes are in here. Recipes are sorted into files by OUTPUT.
+
+production chains: This pack has some long, multi-step production chains. I find it's easier to give each chain their own file because many of these chains use items from several mods.
+
