@@ -47,7 +47,7 @@ mods.pneumaticcraft.pressurechamber.addRecipe([<minecraft:dye:0> * 10], 2.0, [<x
 
 // Tinkers' casting table:
 	// Nebulous heart:
-mods.tconstruct.Casting.addBasinRecipe(<xreliquary:mob_ingredient:11>, <xreliquary:mob_ingredient:6>, <liquid:ender>, 4000, true, 140);
+mods.tconstruct.Casting.addTableRecipe(<xreliquary:mob_ingredient:11>, <xreliquary:mob_ingredient:6>, <liquid:ender>, 4000, true, 140);
 	// Catalyzing gland:
 mods.tconstruct.Casting.addTableRecipe(<xreliquary:mob_ingredient:3>, <minecraft:blaze_powder>, <fluid:sulfur>, 666, true, 60);
 	// Frozen core:
