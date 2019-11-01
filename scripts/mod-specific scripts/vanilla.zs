@@ -19,6 +19,10 @@ mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, null, <liquid:en
 recipes.removeByRecipeName("minecraft:tnt");
 recipes.addShaped(<minecraft:tnt> * 5, [[<ore:gunpowder>, <minecraft:sand> | <minecraft:sand:1>, <ore:gunpowder>], [<minecraft:sand> | <minecraft:sand:1>, <ore:gunpowder>, <minecraft:sand> | <minecraft:sand:1>], [<ore:gunpowder>, <minecraft:sand> | <minecraft:sand:1>, <ore:gunpowder>]]);
 
+// Craft Tinkers' clear glass into vanilla glass
+// Allows you to make vanilla glass in the smeltery
+recipes.addShapeless(<minecraft:glass>, [<tconstruct:clear_glass>]);
+
 val tinIngot = <ore:ingotTin>;
 val steelIngot = <ore:ingotSteel>;
 

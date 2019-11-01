@@ -11,3 +11,8 @@ mod-specific scripts: Each mod gets its own script folder. 90% of recipes are in
 
 production chains: This pack has some long, multi-step production chains. I find it's easier to give each chain their own file because many of these chains use items from several mods.
 
+
+Files:
+
+
+functions.zs: Contains various functions that can be accessed by other scripts.
