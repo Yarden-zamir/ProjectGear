@@ -13,10 +13,5 @@
     "content": "lootbags:itemlootbag:2",
     "unitWorth": 600,
     "weight": 100
-  },
-  {
-    "content": "lootbags:itemlootbag:3",
-    "unitWorth": 800,
-    "weight": 100
   }
 ]
