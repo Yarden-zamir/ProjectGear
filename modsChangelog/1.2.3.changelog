@@ -35,3 +35,9 @@ https://gist.github.com/TheDeviantCrafter/bc907b30d10ad529d2702fa7a6c61a2d
 -Fixed incorrect gold brass ratio (3mb gold + 1mb copper > 1mb gold + 3mb copper. The intention of this recipe is to let you save some gold early on.)
 -Fixed Extra Trees having no trees
 -Fixed electrum ingot machine recipes giving only 1 ingot
+
+**Bounty and lootbag changes:**
+-New bounty: obsidian
+-New bounty: brick
+-Changed sand bounty to glass
+-Changed creosote bottle bounty to treated wood
