@@ -54,16 +54,25 @@
     }
   },
   {
-    "content": "railcraft:fluid_bottle_creosote",
-    "unitWorth": 80,
+    "content": "immersiveengineering:treated_wood",
+    "unitWorth": 5,
     "weight": 100,
 	"amount": {
-      "min": 4,
-      "max": 16
+      "min": 64,
+      "max": 256
     }
   },
   {
     "content": "botania:felpumpkin",
+    "unitWorth": 15,
+    "weight": 100,
+	"amount": {
+      "min": 32,
+      "max": 64
+    }
+  },
+  {
+    "content": "minecraft:obsidian",
     "unitWorth": 15,
     "weight": 100,
 	"amount": {
@@ -162,7 +171,16 @@
     }
   },
   {
-    "content": "minecraft:sand",
+    "content": "minecraft:glass",
+    "unitWorth": 2,
+    "weight": 100,
+	"amount": {
+      "min": 128,
+      "max": 512
+    }
+  },
+  {
+    "content": "minecraft:brick",
     "unitWorth": 2,
     "weight": 100,
 	"amount": {
@@ -240,15 +258,6 @@
 	"amount": {
       "min": 8,
       "max": 32
-    }
-  },
-  {
-    "content": "appliedenergistics2:material:22",
-    "unitWorth": 200,
-    "weight": 50,
-	"amount": {
-      "min": 2,
-      "max": 8
     }
   },
   {
