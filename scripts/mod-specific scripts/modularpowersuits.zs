@@ -146,8 +146,8 @@ recipes.addShaped(<powersuits:powerarmorcomponent:19>,
 
 	// Computer chip
 recipes.addShaped(<powersuits:powerarmorcomponent:20>,
-	[[<powersuits:powerarmorcomponent:0>, <powersuits:powerarmorcomponent:0>, <powersuits:powerarmorcomponent:0>],
-	 [<appliedenergistics2:material:24>, <ore:plateSteel>, <appliedenergistics2:material:24>],
+	[[null, null, null],
+	 [<prodigytech:circuit_plate>, <prodigytech:circuit_plate>, <prodigytech:circuit_plate>],
 	 [<powersuits:powerarmorcomponent:0>, <powersuits:powerarmorcomponent:0>, <powersuits:powerarmorcomponent:0>]]);
 	 
 // Tinker table
