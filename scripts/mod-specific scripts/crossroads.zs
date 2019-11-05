@@ -22,6 +22,17 @@ val craftingToDisable =[
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
+
+// Change ruby block recipe from a 2x2 recipe to a 3x3 recipe
+recipes.removeByRecipeName("crossroads:gem_ruby");
+recipes.removeByRecipeName("crossroads:block_ruby");
+recipes.addShapeless(<crossroads:gem_ruby> * 9, [<crossroads:block_ruby>]);
+recipes.addShaped(<crossroads:block_ruby>,
+	[[<ore:gemRuby>, <ore:gemRuby>, <ore:gemRuby>],
+	 [<ore:gemRuby>, <ore:gemRuby>, <ore:gemRuby>],
+	 [<ore:gemRuby>, <ore:gemRuby>, <ore:gemRuby>]]);
+
+
 // Removes ore dictionary tags from Crossroads gears, preventing UniDict from tampering with them.
 <ore:gearCopper>.remove(<crossroads:gear_copper>);
 <ore:gearCopshowium>.remove(<crossroads:gear_copshowium>);
