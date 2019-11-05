@@ -40,6 +40,13 @@ https://gist.github.com/TheDeviantCrafter/bc907b30d10ad529d2702fa7a6c61a2d
 -Doubled the output of Worse Solar panels to 200 RF/t
 -Reduced RF output of thermoelectric generator by 75%
 
+**Magneticraft:**
+-Disabled the water generator
+-Unified Magneticraft's plates. Recipes that use light plates not use Thermal Foundation plates.
+-Disabled lead and tungsten ore. Recipes that use them should not use nickel or tin.
+-Sieving iron ore no longer gives aluminum as a byproduct
+-Magneticraft can process ardite ore
+
 **Fixes:**
 -Fixed nether ores being unsmetable
 -Fixed missing copshowium gear recipes
