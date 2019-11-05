@@ -51,14 +51,6 @@ scripts.functions.disableCraftings(craftingToDisable);
 // Dust + dirt > wasteland earth
 recipes.addShapeless(<nuclearcraft:dry_earth> * 2, [<minecraft:dirt>, <exnihilocreatio:block_dust>]);
 
-// Light Radiation Shielding (Lead > Tin)
-recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.rad_shielding.light");
-recipes.addShaped(<nuclearcraft:rad_shielding>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:coal>, <ore:coal>, <ore:coal>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
-
-// Radiation Badge (Lead > Tin);
-recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.radiation_badge");
-recipes.addShaped(<nuclearcraft:radiation_badge>, [[null, <ore:ingotCopper>, null], [<ore:string>, <ore:dustRedstone>, <ore:string>], [null, <ore:ingotTin>, null]]);
-
 // Boron + slag = 4x boron
 mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:ingot:5>*4, boronOre, slag, 100);
 mods.immersiveengineering.AlloySmelter.addRecipe(<nuclearcraft:ingot:5>*4, slag, boronOre, 100);
@@ -98,47 +90,9 @@ recipes.addShapedMirrored(<nuclearcraft:part:4> * 2,
 	
 // Decay Generator recipe removal
 recipes.remove(<nuclearcraft:decay_generator>);
-
-// Decay Generator: Lead -> Nickel
-recipes.addShaped(<nuclearcraft:decay_generator>, 
-	[[<ore:ingotNickel>, <minecraft:cobblestone>, <ore:ingotNickel>],
-	[<minecraft:cobblestone>, <minecraft:redstone>, <minecraft:cobblestone>], 
-	[<ore:ingotNickel>, <minecraft:cobblestone>, <ore:ingotNickel>]]);
 	
 // Machine Chassis recipe removal
-recipes.remove(<nuclearcraft:part:10>);
-
-// Machine chassis: Lead -> Nickel
-recipes.addShaped(<nuclearcraft:part:10>, 
-	[[<ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotNickel>],
-	[<ore:ingotSteel>, <nuclearcraft:alloy:1>, <ore:ingotSteel>], 
-	[<ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotNickel>]]);
-	
-// Add recipes to Nuclearcraft plating
-	// Basic plating
-recipes.addShapedMirrored(<nuclearcraft:part>,
-	[[<ore:ingotNickel>, <ore:dustGraphite>],
-	 [<ore:dustGraphite>, <ore:ingotNickel>]]);
-	 
-	// Advanced plating
-recipes.addShapedMirrored(<nuclearcraft:part:1>,
-	[[<ore:dustRedstone>, <ore:ingotTough>, <ore:dustRedstone>],
-	 [<ore:ingotTough>, <ore:plateBasic>, <ore:ingotTough>],
-	 [<ore:dustRedstone>, <ore:ingotTough>, <ore:dustRedstone>]]);
-	 
-	// DU plating
-recipes.addShapedMirrored(<nuclearcraft:part:2>,
-	[[<ore:dustSulfur>, <ore:ingotUranium238Base>, <ore:dustSulfur>],
-	 [<ore:ingotUranium238Base>, <ore:plateAdvanced>, <ore:ingotUranium238Base>],
-	 [<ore:dustSulfur>, <ore:ingotUranium238Base>, <ore:dustSulfur>]]);
-	 
-	// Elite plating
-recipes.addShapedMirrored(<nuclearcraft:part:3>,
-	[[<ore:dustRhodochrosite>, <ore:ingotBoron>, <ore:dustRhodochrosite>],
-	 [<ore:ingotBoron>, <ore:plateDU>, <ore:ingotBoron>],
-	 [<ore:dustRhodochrosite>, <ore:ingotBoron>, <ore:dustRhodochrosite>]]);
-	 
-
+recipes.remove(<nuclearcraft:part:10>); 
 	
 // Fixes boron ore crushing recipe
 mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:5> * 2);
