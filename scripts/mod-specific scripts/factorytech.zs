@@ -96,11 +96,11 @@ recipes.addShaped(<factorytech:planeshifter>,
 	 [<botania:manaresource>, <botania:manaresource>, <botania:manaresource>]]);
 	 
 recipes.addShaped(<factorytech:planeshifter>,
-	[[<appliedenergistics2:material:12>, <appliedenergistics2:material:12>, <appliedenergistics2:material:12>],
-	 [<appliedenergistics2:material:44>, <minecraft:end_stone>, <appliedenergistics2:material:43>],
-	 [<appliedenergistics2:material:12>, <appliedenergistics2:material:12>, <appliedenergistics2:material:12>]]);
-	 
-recipes.addShaped(<factorytech:planeshifter>,
 	[[<thermalfoundation:material:167>, <thermalfoundation:material:167>, <thermalfoundation:material:167>],
 	 [<thermalfoundation:glass_alloy:7>, <minecraft:end_stone>, <thermalfoundation:glass_alloy:7>],
 	 [<thermalfoundation:material:167>, <thermalfoundation:material:167>, <thermalfoundation:material:167>]]);
+	 
+recipes.addShaped(<factorytech:planeshifter>,
+	[[<prodigytech:zorrasteel_ingot>, <prodigytech:zorrasteel_ingot>, <prodigytech:zorrasteel_ingot>],
+	 [<prodigytech:energion_crystal_seed>, <prodigytech:circuit_perfected>, <prodigytech:energion_crystal_seed>],
+	 [<prodigytech:zorrasteel_ingot>, <prodigytech:zorrasteel_ingot>, <prodigytech:zorrasteel_ingot>]]);
