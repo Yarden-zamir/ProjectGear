@@ -220,3 +220,6 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:10
 // Electrotine Alloy Ingot Alloy Kiln recipe
 mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:104>, <ore:ingotTin>, <projectred-core:resource_item:105> * 8, 200);
 	
+// Stop silicon from requiring a saw:
+recipes.removeByRecipeName("projectred-core:resource/silicon");
+recipes.addShapeless(<projectred-core:resource_item:301>, [<projectred-core:resource_item:300>]);
