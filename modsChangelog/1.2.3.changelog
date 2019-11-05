@@ -6,7 +6,10 @@
 
 **Mods removed:**
 -Worley's Caves: Dropped in favor of Yung's Better Caves
--Vaultopic - Spamming the log multiple times per tick. May add back once it's fixed. 
+-Vaultopic: Spamming the log multiple times per tick. May add back once it's fixed.
+-Applied Energistics 2: Simplifies too many automation puzzles. Logistics Pipes, Rats, and Corporea can do the same thing in a more interesting way.
+-Wireless Crafting Terminal: AE2 addon, no longer needed
+-AE2WTLib: Wireless Crafting Terminal dependency, no longer needed
 
 **Mods updated:**
 
@@ -14,13 +17,13 @@ https://gist.github.com/TheDeviantCrafter/bc907b30d10ad529d2702fa7a6c61a2d
 
 **Changes:**
 -Added toolkits to JEI favorites
--Disabled a couple of Loot Bags items
 -Removed Zinc, mithril and other unnecessary ores from the Orechid
 -Added Nuclearcraft ores and ruby ore to Orechid Ignem
 -Renamed a few files
 -Added recipes to Rustic saplings, berries and bee hives
 -Created a nether lead ore block
 -Nether lead ore now generates in stalactites and veins in the nether with other Nuclearcraft ores
+-Removed some old recipe changes that replaced lead ingots with tin in Nuclearcraft recipes
 -Added some low level gear recipes to thermionic fabricator
 -Assembling Steve's Carts is now instant
 -Increased output of the resonant plate arc furnace recipe. It now gives 32 plates (smelting gies 8).
@@ -28,6 +31,8 @@ https://gist.github.com/TheDeviantCrafter/bc907b30d10ad529d2702fa7a6c61a2d
 -Crushing packed ice in an Immersive Engineering crusher now gives ice shards with a 1/64 chance of a frozen core.
 -Added a text file to /minecraft/scripts that explains how scripts are organized.
 -Made Reliquary mob ingredients cheaper, added alternate recipes for some of them.
+-Added two more alternate crafting recipes to the Factory Tech plane shifter. It's the only good cross-dimensional item teleporter, so it shouldn't be locked behind one particular mod.
+-Enabled Rustic brewing.
 
 **Fixes:**
 -Fixed nether ores being unsmetable
@@ -35,9 +40,15 @@ https://gist.github.com/TheDeviantCrafter/bc907b30d10ad529d2702fa7a6c61a2d
 -Fixed incorrect gold brass ratio (3mb gold + 1mb copper > 1mb gold + 3mb copper. The intention of this recipe is to let you save some gold early on.)
 -Fixed Extra Trees having no trees
 -Fixed electrum ingot machine recipes giving only 1 ingot
+-Fixed several recipes requiring AE2 items
 
 **Bounty and lootbag changes:**
+-Disabled lootbag recycler and lootbag storage blocks
 -New bounty: obsidian
 -New bounty: brick
 -Changed sand bounty to glass
 -Changed creosote bottle bounty to treated wood
+-Added LV Relay, cactus, and liquid hopper to loot bags
+-Removed the magic lootbag, since without Thaumcraft it didn't add much. Added the drops to the explorer's lootbag.
+-Removed Fancy Lamps items from loot bags
+-Substantially increased the amount of steel, ender pearls, and Reliquary crafting materials found in loot bags
