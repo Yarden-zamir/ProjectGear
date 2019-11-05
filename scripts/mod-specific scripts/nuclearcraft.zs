@@ -18,9 +18,13 @@ val itemsToDisable =[
   // Note: Cobblestone generators are intended to be done in world with block breakers or with quarries, etc
   <nuclearcraft:cobblestone_generator>,
   <nuclearcraft:cobblestone_generator_compact>,
+  <nuclearcraft:cobblestone_generator_dense>,
   // Solar panel
   // Note: There are more fun ways to generate power
   <nuclearcraft:solar_panel_basic>,
+  <nuclearcraft:solar_panel_elite>,
+  <nuclearcraft:solar_panel_du>,
+  <nuclearcraft:solar_panel_advanced>,
   // Manufactory
   // A one block RF-powered machine with many functions
   // Note: Disabled because it's a magic block
