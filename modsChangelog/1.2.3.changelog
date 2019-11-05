@@ -2,7 +2,7 @@
 -Yung's Better Caves
 -Dank Null: It's BAAACK!
 -Realistic Terrain Generation
--
+-Energy Converters
 
 **Mods removed:**
 -Worley's Caves: Dropped in favor of Yung's Better Caves
@@ -33,6 +33,12 @@ https://gist.github.com/TheDeviantCrafter/bc907b30d10ad529d2702fa7a6c61a2d
 -Made Reliquary mob ingredients cheaper, added alternate recipes for some of them.
 -Added two more alternate crafting recipes to the Factory Tech plane shifter. It's the only good cross-dimensional item teleporter, so it shouldn't be locked behind one particular mod.
 -Enabled Rustic brewing.
+
+**RF Generator changes:**
+-Doubled the output of Immersive Engineering dynamos
+-Doubled the output of Immersive Engineering biodiesel generators. They were already buffed, but are now 4x their default values.
+-Doubled the output of Worse Solar panels to 200 RF/t
+-Reduced RF output of thermoelectric generator by 75%
 
 **Fixes:**
 -Fixed nether ores being unsmetable
