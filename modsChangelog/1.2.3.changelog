@@ -41,6 +41,7 @@ https://gist.github.com/TheDeviantCrafter/bc907b30d10ad529d2702fa7a6c61a2d
 -Fixed Extra Trees having no trees
 -Fixed electrum ingot machine recipes giving only 1 ingot
 -Fixed several recipes requiring AE2 items
+-Fixed a duplication glitch
 
 **Bounty and lootbag changes:**
 -Disabled lootbag recycler and lootbag storage blocks

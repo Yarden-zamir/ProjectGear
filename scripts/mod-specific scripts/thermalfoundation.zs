@@ -101,7 +101,8 @@ recipes.addShapeless(<thermalfoundation:material:290>, [<crossroads:gear_invar>]
 recipes.addShapeless(<thermalfoundation:material:24>, [<crossroads:gear_iron>]);
 recipes.addShapeless(<thermalfoundation:material:259>, [<crossroads:gear_lead>]);
 recipes.addShapeless(<thermalfoundation:material:261>, [<crossroads:gear_nickel>]);
-recipes.addShapeless(<thermalfoundation:material:292>, [<crossroads:gear_bronze>]);
+recipes.addShapeless(<thermalfoundation:material:291>, [<crossroads:gear_bronze>]);
+recipes.addShapeless(<thermalfoundation:material:292>, [<crossroads:gear_constantan>]);
 recipes.addShapeless(<thermalfoundation:material:262>, [<crossroads:gear_platinum>]);
 recipes.addShapeless(<thermalfoundation:material:258>, [<crossroads:gear_silver>]);
 recipes.addShapeless(<thermalfoundation:material:257>, [<crossroads:gear_tin>]);
