@@ -155,16 +155,16 @@ mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:4>, <magneticraft:c
 
 #mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
  
-mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ingot>);
+//mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ingot>);
 mods.magneticraft.CrushingTable.addRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:32>, false);
  
-mods.magneticraft.CrushingTable.removeRecipe(<minecraft:gold_ingot>);
+//mods.magneticraft.CrushingTable.removeRecipe(<minecraft:gold_ingot>);
 mods.magneticraft.CrushingTable.addRecipe(<minecraft:gold_ingot>, <thermalfoundation:material:33>, false);
  
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:2>);
+//mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:2>);
 mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:128>, <thermalfoundation:material:320>, false);
  
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:3>);
+//mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:3>);
 mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:131>, <thermalfoundation:material:323>, false);
 
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:6>);
