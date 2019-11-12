@@ -222,4 +222,4 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<projectred-core:resource_item:
 	
 // Stop silicon from requiring a saw:
 recipes.removeByRecipeName("projectred-core:resource/silicon");
-recipes.addShapeless(<projectred-core:resource_item:301>, [<projectred-core:resource_item:300>]);
+recipes.addShapeless(<projectred-core:resource_item:301> * 8, [<projectred-core:resource_item:300>]);
