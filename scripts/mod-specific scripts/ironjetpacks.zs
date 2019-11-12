@@ -77,6 +77,7 @@ recipes.removeShaped(<ironjetpacks:cloudrider_jetpack>);
 recipes.removeShaped(<ironjetpacks:explorer_jetpack>);
 recipes.removeShaped(<ironjetpacks:basic_jetpack>);
 recipes.removeShaped(<ironjetpacks:survivalist_jetpack>);
+recipes.removeShaped(<ironjetpacks:soldier_jetpack>);
 
 // Leather strap recipe
 recipes.addShaped(<ironjetpacks:strap>,

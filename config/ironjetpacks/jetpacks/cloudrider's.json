@@ -9,12 +9,12 @@
   "forceRecipes": false,
   "rarity": 0,
   "capacity": 10000000,
-  "usage": 833,
+  "usage": 277,
   "speedVertical": 2.5,
   "accelVertical": 0.14,
   "speedSideways": 0.15,
   "speedHoverDescend": 0.37,
   "speedHover": 0.03,
-  "sprintSpeedMulti": 1.5,
+  "sprintSpeedMulti": 2,
   "sprintFuelMulti": 3.5
 }
