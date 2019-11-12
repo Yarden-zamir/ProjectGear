@@ -147,11 +147,16 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:egg>, <minecraft:feather>, 250);
 mods.tconstruct.Melting.addEntityMelting(<entity:minecraft:cow>, <liquid:milk>);
 
 // Squeeze gravel into sand instead of flint
-Squeezer.removeRecipe(<minecraft:gravel>,
-	<minecraft:gravel>, 0.5);
+mods.integrateddynamics.Squeezer.removeRecipesWithOutput(<minecraft:flint>, null);
 	
 Squeezer.addRecipe(<minecraft:gravel>, <minecraft:sand>);
 
 //////////Stack sizes
 // Makes beetroot soup stack to 64 like other soups do in this pack
 <minecraft:beetroot_soup>.maxStackSize = 64;
+
+// Disabled pebble > stone recipes added by Ex Nihilo Creatio since pebbles are disabled
+recipes.removeByRecipeName("exnihilocreatio:cobblestone");
+recipes.removeByRecipeName("exnihilocreatio:stone_1");
+recipes.removeByRecipeName("exnihilocreatio:stone_3");
+recipes.removeByRecipeName("exnihilocreatio:stone_5");
