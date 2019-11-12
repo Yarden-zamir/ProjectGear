@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/brown_mushroom",
+    "textures": {
+        "cross": "contenttweaker:blocks/iron_metalcap"
+    }
+}
