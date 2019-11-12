@@ -169,10 +169,6 @@ mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:131>, <the
 
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:6>);
 
-//mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:320>, true);
- 
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ingots:5>);
-
 mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:352>, false);
 
 
