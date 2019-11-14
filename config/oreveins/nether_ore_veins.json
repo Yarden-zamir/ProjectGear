@@ -14,7 +14,7 @@
   },
   
   "medium_uncommon_nether_gold_vein": {
-    "type": "oreveins:cluster",
+    "type": "cluster",
     "ore": "contenttweaker:nether_gold_ore",
     "stone": "minecraft:netherrack",
     "rarity": 3,

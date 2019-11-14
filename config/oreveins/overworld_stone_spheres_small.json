@@ -1,5 +1,5 @@
 {
-	"large_granite_sphere": {
+	"small_granite_sphere": {
 	  "type": "sphere",
 	  "ore": [
 	  {
@@ -8,14 +8,14 @@
       }
 	],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 29,
-    "horizontal_size": 45
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_diorite_sphere": {
+  "small_diorite_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -24,14 +24,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 26,
-    "horizontal_size": 42
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_andesite_sphere": {
+  "small_andesite_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -40,14 +40,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 29,
-    "horizontal_size": 49
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_marble_sphere": {
+  "small_marble_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -56,14 +56,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 22,
-    "horizontal_size": 37
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_limestone_sphere": {
+  "small_limestone_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -72,14 +72,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 31,
-    "horizontal_size": 47
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_quarried_stone_sphere": {
+  "small_quarried_stone_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -88,14 +88,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 31,
-    "horizontal_size": 46
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_abyssal_stone_sphere": {
+  "small_abyssal_stone_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -104,14 +104,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 33,
-    "horizontal_size": 49
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_slate_sphere": {
+  "small_slate_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -120,14 +120,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 28,
-    "horizontal_size": 41
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_basalt_sphere": {
+  "small_basalt_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -136,14 +136,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 26,
-    "horizontal_size": 46
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "crag_rock_sphere": {
+  "small_crag_rock_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -152,14 +152,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 34
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_red_rock_sphere": {
+  "small_red_rock_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -168,14 +168,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 29,
-    "horizontal_size": 40
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_quark_slate_sphere": {
+  "small_quark_slate_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -184,14 +184,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 29,
-    "horizontal_size": 40
+    "vertical_size": 11,
+    "horizontal_size": 11
   },
-  "large_jasper_sphere": {
+  "small_jasper_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -200,11 +200,11 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 2500,
+    "rarity": 100,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 29,
-    "horizontal_size": 40
+    "vertical_size": 11,
+    "horizontal_size": 11
   }
  }

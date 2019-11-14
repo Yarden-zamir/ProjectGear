@@ -8,12 +8,12 @@
       }
 	],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 29,
+    "horizontal_size": 45
   },
   "large_diorite_sphere": {
     "type": "sphere",
@@ -24,12 +24,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 26,
+    "horizontal_size": 42
   },
   "large_andesite_sphere": {
     "type": "sphere",
@@ -40,12 +40,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 29,
+    "horizontal_size": 49
   },
   "large_marble_sphere": {
     "type": "sphere",
@@ -56,12 +56,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 22,
+    "horizontal_size": 37
   },
   "large_limestone_sphere": {
     "type": "sphere",
@@ -72,12 +72,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 31,
+    "horizontal_size": 47
   },
   "large_quarried_stone_sphere": {
     "type": "sphere",
@@ -88,12 +88,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 31,
+    "horizontal_size": 46
   },
   "large_abyssal_stone_sphere": {
     "type": "sphere",
@@ -104,12 +104,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 33,
+    "horizontal_size": 49
   },
   "large_slate_sphere": {
     "type": "sphere",
@@ -120,12 +120,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 28,
+    "horizontal_size": 41
   },
   "large_basalt_sphere": {
     "type": "sphere",
@@ -136,14 +136,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 26,
+    "horizontal_size": 46
   },
-  "crag_rock_sphere": {
+  "large_crag_rock_sphere": {
     "type": "sphere",
     "ore": [
 	  {
@@ -152,12 +152,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
     "vertical_size": 25,
-    "horizontal_size": 25
+    "horizontal_size": 34
   },
   "large_red_rock_sphere": {
     "type": "sphere",
@@ -168,12 +168,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 29,
+    "horizontal_size": 40
   },
   "large_quark_slate_sphere": {
     "type": "sphere",
@@ -184,12 +184,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 29,
+    "horizontal_size": 40
   },
   "large_jasper_sphere": {
     "type": "sphere",
@@ -200,11 +200,11 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 50000,
     "min_y": 1,
     "max_y": 64,
     "density": 2000,
-    "vertical_size": 25,
-    "horizontal_size": 25
+    "vertical_size": 29,
+    "horizontal_size": 40
   }
  }
