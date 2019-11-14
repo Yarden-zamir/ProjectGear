@@ -71,3 +71,6 @@ tile.contenttweaker.age_portal_light_blue.name=Light Blue Ceramic Frame
 tile.contenttweaker.age_portal_magenta.name=Magenta Ceramic Frame
 tile.contenttweaker.age_portal_orange.name=Orange Ceramic Frame
 tile.contenttweaker.age_portal_white.name=White Ceramic Frame
+
+//Metalcaps:
+tile.contenttweaker.iron_metalcap.name=Iron Metalcap
