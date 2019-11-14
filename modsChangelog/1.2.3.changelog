@@ -1,8 +1,10 @@
 **Mods added:**
--Yung's Better Caves
+-Yung's Better Caves: It looks better than Worley's Caves
 -Dank Null: It's BAAACK!
--Realistic Terrain Generation
--Energy Converters
+-Realistic Terrain Generation: The best world generator I'm aware of for 1.12
+-Energy Converters: Convert Buildcraft power to RF and back
+-Magneticraft: It's getting updated again!
+-Buildcraft Ore Processing: An interesting way to get 3 ingots per ore using Buildcraft
 
 **Mods removed:**
 -Worley's Caves: Dropped in favor of Yung's Better Caves
@@ -33,12 +35,50 @@ https://gist.github.com/TheDeviantCrafter/bc907b30d10ad529d2702fa7a6c61a2d
 -Made Reliquary mob ingredients cheaper, added alternate recipes for some of them.
 -Added two more alternate crafting recipes to the Factory Tech plane shifter. It's the only good cross-dimensional item teleporter, so it shouldn't be locked behind one particular mod.
 -Enabled Rustic brewing.
+-Repairing Worse Solar panels now require copper instead of iron
+-Repairing Worse Solar panels is now cheaper when using the Thermionic Fabricator instead of a crafting table
+-You can craft PneumaticCraft plastic into Nuclearcraft plastic. Before this hazmat suits were unobtainable.
+-Buffed charcoal pit. You now get 2 charcoal per log.
+
+**Iron Jetpack changes:**
+-Increased energy effifiency significantly. All jetpacks exept the survivalist jetpack will last for 30 minutes, or 12 minutes when sprinting.
+-Nerfed the speed of the explorer jetpack from ludicrus speed down to just fast
+-The soldier jetpack is now even more enchantable, making it an effective armor piece.	
+
+**Four new Mystcraft ages!**
+
+https://imgur.com/a/D4xMZCR
+
+(Note: These are currently not accessible in survival mode)
+
+1. A mountainous landscape with mesas, autumn forests and a deep crimson color.
+
+2. A winter wonderland with eternal snow, several cold biomes, and a pale pink sky
+
+3. A purple skylands age inspired by a tropical island
+
+4. An age designed to mimic The Aether
+
+**Ore and stone generation revamped!**
+
+https://i.imgur.com/HuLrebF.jpg
+
+Veins of varying sizes now generate in solid rock. These range from tiny deposits containing a dozen ores, to rare but massive veins containing a few thousand.
+
+Ores generate much more frequently in caves when compared to in solid rock, so caving is still highly recommended. These veins are primarily intended for quarries.
+
+Stone generation for all stone types that generate underground has been unified and improved. Instead of mod adding its own stone generation rules, they all use Realistic Ore Generation.
+
+Stones will generate as uncommon but large boulders underground. When you find stone, you'll find a lot of it all at once.
+
+This should make inventory management while mining easier, and should improve performance.
 
 **RF Generator changes:**
 -Doubled the output of Immersive Engineering dynamos
 -Doubled the output of Immersive Engineering biodiesel generators. They were already buffed, but are now 4x their default values.
 -Doubled the output of Worse Solar panels to 200 RF/t
 -Reduced RF output of thermoelectric generator by 75%
+-Reduced RF output of Nuclearcraft's RTGs by 50%. Uranium RTGs are not affected.
 
 **Magneticraft:**
 -Disabled the water generator
