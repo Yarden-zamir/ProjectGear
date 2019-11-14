@@ -17,12 +17,12 @@
     "type": "cluster",
     "ore": "contenttweaker:nether_gold_ore",
     "stone": "minecraft:netherrack",
-    "rarity": 3,
+    "rarity": 8,
     "min_y": 16,
     "max_y": 128,
     "density": 25,
     "vertical_size": 15,
-    "horizontal_size": 15,
+    "horizontal_size": 10,
 	"dimensions": [-1]
   },
   
@@ -93,7 +93,7 @@
       }
 	 ],
     "stone": "minecraft:netherrack",
-    "rarity": 5,
+    "rarity": 10,
     "min_y": 16,
     "max_y": 128,
     "density": 25,
