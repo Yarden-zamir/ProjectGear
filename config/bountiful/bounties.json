@@ -261,7 +261,7 @@
     }
   },
   {
-    "content": "contenttweaker:oiled_leather",
+    "content": "minecraft:leather",
     "unitWorth": 25,
     "weight": 50,
 	"amount": {
