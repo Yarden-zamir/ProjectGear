@@ -5,6 +5,7 @@ import mods.contenttweaker.Color;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.Commands;
+import mods.contenttweaker.AxisAlignedBB;
 
 //fluids
 
@@ -37,6 +38,35 @@ meltImSt.viscosity = 10000;
 meltImSt.stillLocation = "tconstruct:blocks/fluids/molten_metal";
 meltImSt.flowingLocation = "tconstruct:blocks/fluids/molten_metal_flow";
 meltImSt.register();
+
+/*
+var unrefinedMoltenIron = VanillaFactory.createFluid("unrefined_molten_iron", Color.fromHex("59040A"));
+unrefinedMoltenIron.material = <blockmaterial:lava>;
+unrefinedMoltenIron.density = 2000;
+unrefinedMoltenIron.temperature = 681;
+unrefinedMoltenIron.viscosity = 10000;
+unrefinedMoltenIron.stillLocation = "tconstruct:blocks/fluids/molten_metal";
+unrefinedMoltenIron.flowingLocation = "tconstruct:blocks/fluids/molten_metal_flow";
+unrefinedMoltenIron.register();
+
+var unPrecipitateMoltenGold = VanillaFactory.createFluid("un_precipitated_molten_gold", Color.fromHex("F4B908"));
+unPrecipitateMoltenGold.material = <blockmaterial:lava>;
+unPrecipitateMoltenGold.density = 2000;
+unPrecipitateMoltenGold.temperature = 681;
+unPrecipitateMoltenGold.viscosity = 10000;
+unPrecipitateMoltenGold.stillLocation = "tconstruct:blocks/fluids/molten_metal";
+unPrecipitateMoltenGold.flowingLocation = "tconstruct:blocks/fluids/molten_metal_flow";
+unPrecipitateMoltenGold.register();
+
+var liquidCrudeSteel = VanillaFactory.createFluid("crude_steel", Color.fromHex("454141"));
+liquidCrudeSteel.material = <blockmaterial:lava>;
+liquidCrudeSteel.density = 2000;
+liquidCrudeSteel.temperature = 681;
+liquidCrudeSteel.viscosity = 10000;
+liquidCrudeSteel.stillLocation = "tconstruct:blocks/fluids/molten_metal";
+liquidCrudeSteel.flowingLocation = "tconstruct:blocks/fluids/molten_metal_flow";
+liquidCrudeSteel.register();
+*/
 
 //items
 
@@ -243,3 +273,14 @@ coarse_gravel.setBlockSoundType(<soundtype:ground>);
 coarse_gravel.setToolClass("shovel");
 coarse_gravel.setToolLevel(0);
 coarse_gravel.register();
+
+// Iron metalcap
+var iron_metalcap = mods.contenttweaker.VanillaFactory.createBlock("iron_metalcap", <blockmaterial:plants>);
+iron_metalcap.setPassable(true);
+iron_metalcap.setBlockHardness(0);
+iron_metalcap.setBlockResistance(0);
+	// This doesn't work and I have no idea how to fix it:
+	//iron_metalcap.setAxisAlignedBB = AxisAlignedBB.create(1.0, 0.0, 0.0, 0.0, 0.1875, 1.0);
+iron_metalcap.setFullBlock(false);
+iron_metalcap.setToolLevel(0);
+iron_metalcap.register();
