@@ -34,6 +34,3 @@ mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:sinew> * 2, <minecra
 mods.forestry.Centrifuge.addRecipe([<contenttweaker:sand_pile> % 25, <contenttweaker:sinew> % 20, <tconstruct:edible:10> % 5, <tconstruct:edible:33> % 1], <minecraft:rotten_flesh>, 100);
 
 mods.forestry.Carpenter.addRecipe(<contenttweaker:oiled_leather>, [[<contenttweaker:sinew>,<contenttweaker:sinew>],[<contenttweaker:sinew>,<contenttweaker:sinew>]], 60, <liquid:seed.oil> * 100);
-
-// Centrifuge: Stone -> [Limestone (Quark) 10%, Marble (Quark) 10%, Diorite 10%, Andesite 10%, Granite 10%, Slate (Rustic) 10%]
-mods.forestry.Centrifuge.addRecipe([(<quark:limestone>) % 10, <quark:marble> % 10, <minecraft:stone:3> % 10, <minecraft:stone:5> % 10, <minecraft:stone:1> % 10, <rustic:slate> % 10], <minecraft:stone>, 100);
