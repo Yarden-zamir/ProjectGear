@@ -1,3 +1,19 @@
+**Highlights:**
+
+-Magneticraft and Dank Null return
+-Four new custom Mystcraft dimensions
+-AE2 has been removed
+-Improved ore, cave and stone generation
+-Lots of new recipes, fixed and balance changes
+
+**Why remove AE2?**
+
+The goal of the pack is to encourage the player to solve interesting automation puzzles. AE2 unfortunately did not fit with that objective.
+
+While it's fun, it simplified too many challenges. Keep in mind that this is a pack where mods like Buildcraft are often the most effective solution.
+
+Rats, Logistics Pipes, Corporea and Project Red's tube system offer the same high level logistical power if you're willing to learn a more interesting and less powerful mod.
+
 **Mods added:**
 -Yung's Better Caves: It looks better than Worley's Caves
 -Dank Null: It's BAAACK!
@@ -39,6 +55,7 @@ https://gist.github.com/TheDeviantCrafter/bc907b30d10ad529d2702fa7a6c61a2d
 -Repairing Worse Solar panels is now cheaper when using the Thermionic Fabricator instead of a crafting table
 -You can craft PneumaticCraft plastic into Nuclearcraft plastic. Before this hazmat suits were unobtainable.
 -Buffed charcoal pit. You now get 2 charcoal per log.
+-Removed a recipe that would let you turn stone into 6 other types of stone in a Forestry centrifuge. Ex Nihilo Creatio is the intended way to do this.
 
 **Iron Jetpack changes:**
 -Increased energy effifiency significantly. All jetpacks exept the survivalist jetpack will last for 30 minutes, or 12 minutes when sprinting.
@@ -87,6 +104,18 @@ This should make inventory management while mining easier, and should improve pe
 -Sieving iron ore no longer gives aluminum as a byproduct
 -Magneticraft can process ardite ore
 
+**Bounty and lootbag changes:**
+-Disabled lootbag recycler and lootbag storage blocks
+-New bounty: obsidian
+-New bounty: brick
+-Changed sand bounty to glass
+-Changed oiled leather bounty to regular leather
+-Changed creosote bottle bounty to treated wood
+-Added LV Relay, cactus, and liquid hopper to loot bags
+-Removed the magic lootbag, since without Thaumcraft it didn't add much. Added the drops to the explorer's lootbag.
+-Removed Fancy Lamps items from loot bags
+-Substantially increased the amount of steel, ender pearls, and Reliquary crafting materials found in loot bags
+
 **Fixes:**
 -Fixed nether ores being unsmetable
 -Fixed missing copshowium gear recipes
@@ -95,14 +124,3 @@ This should make inventory management while mining easier, and should improve pe
 -Fixed electrum ingot machine recipes giving only 1 ingot
 -Fixed several recipes requiring AE2 items
 -Fixed a duplication glitch
-
-**Bounty and lootbag changes:**
--Disabled lootbag recycler and lootbag storage blocks
--New bounty: obsidian
--New bounty: brick
--Changed sand bounty to glass
--Changed creosote bottle bounty to treated wood
--Added LV Relay, cactus, and liquid hopper to loot bags
--Removed the magic lootbag, since without Thaumcraft it didn't add much. Added the drops to the explorer's lootbag.
--Removed Fancy Lamps items from loot bags
--Substantially increased the amount of steel, ender pearls, and Reliquary crafting materials found in loot bags
