@@ -12,7 +12,7 @@
 <ore:oreNetherBoron>.add(<contenttweaker:nether_boron_ore>);
 <ore:oreNetherUranium>.add(<contenttweaker:nether_uranium_ore>);
 <ore:oreNetherThorium>.add(<contenttweaker:nether_thorium_ore>);
-<ore:oreNetherThorium>.add(<contenttweaker:nether_lead_ore>);
+<ore:oreNetherLead>.add(<contenttweaker:nether_lead_ore>);
 
 // Items:
 <ore:plateTreated>.add(<contenttweaker:treated_plate>);
