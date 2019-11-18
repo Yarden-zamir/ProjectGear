@@ -95,9 +95,6 @@ recipes.addShapedMirrored(<nuclearcraft:part:4> * 2,
 // Decay Generator recipe removal
 recipes.remove(<nuclearcraft:decay_generator>);
 	
-// Machine Chassis recipe removal
-recipes.remove(<nuclearcraft:part:10>); 
-	
 // Fixes boron ore crushing recipe
 mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:5> * 2);
 mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:dust:5> * 2 , boronOre, 2048, <immersiveengineering:material:24>, 0.15);
