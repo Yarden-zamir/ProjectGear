@@ -29,7 +29,7 @@ val itemsToDisable =[
   // A one block RF-powered machine with many functions
   // Note: Disabled because it's a magic block
   // Note: All of it's functions have been moved to other machines
-  <nuclearcraft:manufactory_idle>
+  #<nuclearcraft:manufactory_idle>
 ] as IItemStack[];
 scripts.functions.disableItems(itemsToDisable);
 
@@ -44,7 +44,7 @@ val craftingToDisable =[
   // Solar panel
   <nuclearcraft:solar_panel_basic>,
   // Manufactory
-  <nuclearcraft:manufactory_idle>
+  #<nuclearcraft:manufactory_idle>
 
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);

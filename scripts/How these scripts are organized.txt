@@ -16,3 +16,5 @@ Files:
 
 
 functions.zs: Contains various functions that can be accessed by other scripts.
+
+templates.txt: Contains templates for scripts that I can copy paste into other files. Some of this should probably be turned into a function.

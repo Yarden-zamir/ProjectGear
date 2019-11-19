@@ -1,0 +1,33 @@
+#### Common imports:
+import crafttweaker.item.IItemTransformer;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+
+
+#### Crushers:
+
+// Third argument is whether the recipe works in a machine with stone parts.
+mods.factorytech.DrillGrinder.addRecipe(<OUTPUT>, <INPUT>, true);
+
+// Third argument is how much power the Crusher will use for this recipe.
+mods.immersiveengineering.Crusher.addRecipe(<OUTPUT>, <INPUT>, 2048);
+
+mods.integrateddynamics.Squeezer.addRecipe(INPUT, <OUTPUT>);
+
+
+### Disable things:
+// This disables a list of items.
+
+
+val itemsToDisable =[
+
+] as IItemStack[];
+scripts.functions.disableItems(itemsToDisable);
+	<ITEM>,
+	<ITEM>
+val craftingToDisable =[
+	<ITEM>,
+	<ITEM>
+] as IItemStack[];
+scripts.functions.disableCraftings(craftingToDisable);
