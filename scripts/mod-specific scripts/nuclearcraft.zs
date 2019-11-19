@@ -139,5 +139,5 @@ mods.integrateddynamics.Squeezer.addRecipe(<minecraft:end_stone>, <nuclearcraft:
 // Smelt Crushed Villiaumite into Sodium Fluoride
 furnace.addRecipe(<nuclearcraft:compound:3>, <nuclearcraft:gem_dust:8>, 1.0);
 
-// Smelt Crushed Carobbiite into Postassium Fluoride
+// Smelt Crushed Carobbiite into Potassium Fluoride
 furnace.addRecipe(<nuclearcraft:compound:4>, <nuclearcraft:gem_dust:9>, 1.0);
