@@ -110,3 +110,14 @@ mods.tconstruct.Melting.addRecipe(<liquid:sulfur> * 144, <ore:dustSulfur>);
 
 // Turn PneumaticCraft plastic sheets into Nuclearcraft plasic sheets using an Immersive Engineering metal press
 mods.immersiveengineering.MetalPress.addRecipe(<nuclearcraft:part:6>, <pneumaticcraft:plastic:*>, <immersiveengineering:mold:0>, 2000);
+
+
+// Turn Tinkers' gelatinous slime or congealed blood into Nuclearcraft gelatin using an Immersive Engineering metal press
+mods.immersiveengineering.MetalPress.addRecipe(<nuclearcraft:gelatin>, <tconstruct:edible:30>, <immersiveengineering:mold:0>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<nuclearcraft:gelatin>, <tconstruct:edible:31>, <immersiveengineering:mold:0>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<nuclearcraft:gelatin>, <tconstruct:edible:32>, <immersiveengineering:mold:0>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<nuclearcraft:gelatin>, <tconstruct:edible:33>, <immersiveengineering:mold:0>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<nuclearcraft:gelatin>, <tconstruct:edible:34>, <immersiveengineering:mold:0>, 2000);
+
+
+// Crush roasted cocoa beans into cocoa nibs
