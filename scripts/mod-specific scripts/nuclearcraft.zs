@@ -121,18 +121,23 @@ mods.immersiveengineering.MetalPress.addRecipe(<nuclearcraft:gelatin>, <tconstru
 
 
 // Crush roasted cocoa beans into cocoa nibs
-// Third argument is whether the recipe works in a machine with stone parts.
+
 mods.factorytech.DrillGrinder.addRecipe(<nuclearcraft:ground_cocoa_nibs>, <nuclearcraft:roasted_cocoa_beans>, true);
 
-// Third argument is how much power the Crusher will use for this recipe.
 mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:ground_cocoa_nibs>, <nuclearcraft:roasted_cocoa_beans>, 2048);
 
 mods.integrateddynamics.Squeezer.addRecipe(<nuclearcraft:roasted_cocoa_beans>, <nuclearcraft:ground_cocoa_nibs>);
 
 // Crush end stone into crushed end stone
+mods.factorytech.DrillGrinder.addRecipe(<nuclearcraft:gem_dust:11>, <minecraft:end_stone>, true);
+
+mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:gem_dust:11>, <minecraft:end_stone>, 2048);
+
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:end_stone>, <nuclearcraft:gem_dust:11>);
 
 
 // Smelt Crushed Villiaumite into Sodium Fluoride
-
+furnace.addRecipe(<nuclearcraft:compound:3>, <nuclearcraft:gem_dust:8>, 1.0);
 
 // Smelt Crushed Carobbiite into Postassium Fluoride
+furnace.addRecipe(<nuclearcraft:compound:4>, <nuclearcraft:gem_dust:9>, 1.0);
