@@ -8,12 +8,12 @@ import crafttweaker.oredict.IOreDictEntry;
 #### Crushers:
 
 // Third argument is whether the recipe works in a machine with stone parts.
-mods.factorytech.DrillGrinder.addRecipe(<OUTPUT>, <INPUT>, true);
+mods.factorytech.DrillGrinder.addRecipe(OUTPUT, INPUT, true);
 
 // Third argument is how much power the Crusher will use for this recipe.
-mods.immersiveengineering.Crusher.addRecipe(<OUTPUT>, <INPUT>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(OUTPUT, INPUT, 2048);
 
-mods.integrateddynamics.Squeezer.addRecipe(INPUT, <OUTPUT>);
+mods.integrateddynamics.Squeezer.addRecipe(INPUT, OUTPUT);
 
 
 ### Disable things:
