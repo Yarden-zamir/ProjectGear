@@ -55,6 +55,19 @@ for i, item in petals {
     [managlass,managlass,managlass]]);
 }
 
+// Craft nether smoker
+
+	// With fire rune:
+recipes.addShaped(<quark:smoker>,
+	[[<ore:netherrack>, <ore:netherrack>, <ore:netherrack>],
+	 [<ore:netherrack>, <botania:rune:1>, <ore:netherrack>],
+	 [<ore:netherrack>, <ore:netherrack>, <ore:netherrack>]]);
+
+	// With molten core:
+recipes.addShaped(<quark:smoker>,
+	[[<ore:netherrack>, <ore:netherrack>, <ore:netherrack>],
+	 [<ore:netherrack>, <xreliquary:mob_ingredient:7>, <ore:netherrack>],
+	 [<ore:netherrack>, <ore:netherrack>, <ore:netherrack>]]);
 
 // Craft wither ash from a necrotic bone
 recipes.addShapeless(<quark:black_ash> * 5,[<tconstruct:materials:17>]);
