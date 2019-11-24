@@ -50,22 +50,22 @@ mods.chisel.Carving.addVariation("planks-spruce", <quark:carved_wood:1>);
 mods.chisel.Carving.addVariation("planks-birch", <quark:carved_wood:2>);
 mods.chisel.Carving.addVariation("planks-jungle", <quark:carved_wood:3>);
 mods.chisel.Carving.addVariation("planks-acacia", <quark:carved_wood:4>);
-mods.chisel.Carving.addVariation("planks-dark_oak", <quark:carved_wood:5>);
+mods.chisel.Carving.addVariation("planks-dark-oak", <quark:carved_wood:5>);
 
 	// Bookshelves:
 mods.chisel.Carving.addVariation("bookshelf_spruce", <quark:custom_bookshelf:0>);
 mods.chisel.Carving.addVariation("bookshelf_birch", <quark:custom_bookshelf:1>);
 mods.chisel.Carving.addVariation("bookshelf_jungle", <quark:custom_bookshelf:2>);
 mods.chisel.Carving.addVariation("bookshelf_acacia", <quark:custom_bookshelf:3>);
-mods.chisel.Carving.addVariation("bookshelf_dark_oak", <quark:custom_bookshelf:4>);
+mods.chisel.Carving.addVariation("bookshelf_darkoak", <quark:custom_bookshelf:4>);
 	
 	// Quark vertical planks
-mods.chisel.Carving.addVariation("planks_oak", <quark:vertical_planks:0>);
-mods.chisel.Carving.addVariation("planks_spruce", <quark:vertical_planks:1>);
-mods.chisel.Carving.addVariation("planks_birch", <quark:vertical_planks:2>);
-mods.chisel.Carving.addVariation("planks_jungle", <quark:vertical_planks:3>);
-mods.chisel.Carving.addVariation("planks_acacia", <quark:vertical_planks:4>);
-mods.chisel.Carving.addVariation("planks_dark_oak", <quark:vertical_planks:5>);
+mods.chisel.Carving.addVariation("planks-oak", <quark:vertical_planks:0>);
+mods.chisel.Carving.addVariation("planks-spruce", <quark:vertical_planks:1>);
+mods.chisel.Carving.addVariation("planks-birch", <quark:vertical_planks:2>);
+mods.chisel.Carving.addVariation("planks-jungle", <quark:vertical_planks:3>);
+mods.chisel.Carving.addVariation("planks-acacia", <quark:vertical_planks:4>);
+mods.chisel.Carving.addVariation("planks-dark-oak", <quark:vertical_planks:5>);
 
 	// Sandstone
 mods.chisel.Carving.addVariation("sandstoneyellow", <quark:sandstone_new>);
