@@ -20,6 +20,7 @@ mods.chisel.Carving.addVariation("limestone", <quark:world_stone_pavement:5>);
 mods.chisel.Carving.addVariation("limestone", <magneticraft:limestone>);
 mods.chisel.Carving.addVariation("limestone", <magneticraft:limestone:1>);
 mods.chisel.Carving.addVariation("limestone", <magneticraft:limestone:2>);
+mods.chisel.Carving.addVariation("limestone", <magneticraft:burnt_limestone:0>);
 mods.chisel.Carving.addVariation("limestone", <magneticraft:burnt_limestone:1>);
 mods.chisel.Carving.addVariation("limestone", <magneticraft:burnt_limestone:2>);
 mods.chisel.Carving.addVariation("limestone", <magneticraft:tile_limestone>);
