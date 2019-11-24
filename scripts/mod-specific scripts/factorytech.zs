@@ -20,6 +20,10 @@ val craftingToDisable =[
     blockCupronickel
 ] as IItemStack[];
  
+// Change ash brick recipe to require ash:
+recipes.removeByRecipeName("factorytech:deco/bricks_charcoal");
+recipes.addShaped(<factorytech:bricks:3>, [[null, <minecraft:brick>, null], [<minecraft:brick>, <ore:dustAsh>, <minecraft:brick>], [null, <minecraft:brick>, null]]);
+ 
 // Renames Cupronickel to "Burnt Constantan"
 ingotCupronickel.displayName = "Burnt Constantan";
 blockCupronickel.displayName = "Burnt Constantan Block";
