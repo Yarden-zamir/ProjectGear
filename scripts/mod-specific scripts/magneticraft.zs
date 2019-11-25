@@ -234,3 +234,8 @@ mods.magneticraft.Sieve.addRecipe(<contenttweaker:ardite_rocky_chunk>, <contentt
 mods.magneticraft.CrushingTable.addRecipe(<tconstruct:ore:1>, <contenttweaker:ardite_rocky_chunk>, true);
 mods.magneticraft.Grinder.addRecipe(<tconstruct:ore:1>, <contenttweaker:ardite_rocky_chunk>, <minecraft:gravel>, 0.15, 50, true);
 mods.magneticraft.Grinder.addRecipe(<tconstruct:ingots:1>, <contenttweaker:ardite_dust>, <minecraft:stone>, 0, 50, true);
+
+
+// Adds `oreOilSource` ore dictionary tag to oil sources, allowing Scannable to detect them
+val oreOilSource= <ore:oreOilSource>;
+oreOilSource.add(<magneticraft:oil_source>);
