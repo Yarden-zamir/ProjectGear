@@ -31,3 +31,8 @@ val craftingToDisable =[
 	<ITEM>
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
+
+
+### Ore dictionary:
+val exampleOreDictEntry= <ore:exampleOreDictEntry>;
+oreDictEnt.add(<minecraft:grass>);
