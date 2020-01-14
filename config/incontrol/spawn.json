@@ -9,8 +9,10 @@
 		"armorboots": ["1=thermalfoundation:armor.boots_copper", "1=thermalfoundation:armor.boots_tin", "1=thermalfoundation:armor.boots_nickel"]
 	},
 	{
-		"mob": "Skeleton",
-		"result": "deny",
-		"random": 0.5
+		"mob": ["Zombie", "Skeleton"],
+		"result": "default",
+		"random": 0.005,
+		"armorhelmet": ["1=industrialrenewal:safety_helmet"],
+		"armorchest": ["1=industrialrenewal:safety_belt"]
 	}
 ]
