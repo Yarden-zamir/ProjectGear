@@ -56,7 +56,7 @@ tile.contenttweaker.coarse_gravel.name=Coarse Gravel
 
 // Age portal blocks:
 tile.contenttweaker.age_portal_black.name=Black Ceramic Frame
-tile.contenttweaker.age_portal_red.name=Red Ceramic Frame
+tile.contenttweaker.age_portal_red.name=Galifrean Portal Frame
 tile.contenttweaker.age_portal_green.name=Green Ceramic Frame
 tile.contenttweaker.age_portal_brown.name=Brown Ceramic Frame
 tile.contenttweaker.age_portal_blue.name=Blue Ceramic Frame
@@ -68,9 +68,9 @@ tile.contenttweaker.age_portal_pink.name=Pink Ceramic Frame
 tile.contenttweaker.age_portal_lime_green.name=Lime Green Ceramic Frame
 tile.contenttweaker.age_portal_yellow.name=Yellow Ceramic Frame
 tile.contenttweaker.age_portal_light_blue.name=Light Blue Ceramic Frame
-tile.contenttweaker.age_portal_magenta.name=Magenta Ceramic Frame
+tile.contenttweaker.age_portal_magenta.name=Lavender Skies Age Portal Frame
 tile.contenttweaker.age_portal_orange.name=Orange Ceramic Frame
-tile.contenttweaker.age_portal_white.name=White Ceramic Frame
+tile.contenttweaker.age_portal_white.name=Ice Age Portal Frame
 
 //Metalcaps:
 tile.contenttweaker.iron_metalcap.name=Iron Metalcap
