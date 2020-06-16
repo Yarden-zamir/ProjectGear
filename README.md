@@ -1,5 +1,5 @@
 # ProjectGear
-[Discord link](https://discord.gg/hAPKbx6)   
+[Discord link](https://discord.gg/ag8CMhs)   
 [Crafttweaker sheet (for devs)](https://docs.google.com/spreadsheets/d/1ZLVyJLpkx0KLtgc767xVIRuc7oNlD0oYepN72T79YBw/edit?usp=sharing)  
 
 Project Gear is a pack designed around large, complex, and interesting factories. Expect to build Immersive Engineering multiblock crushers, Botania tree farms and Buildcraft laser-powered crafting tables.
