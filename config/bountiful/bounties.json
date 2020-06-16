@@ -126,15 +126,6 @@
     }
   },
   {
-    "content": "thermalfoundation:material:801",
-    "unitWorth": 30,
-    "weight": 100,
-	"amount": {
-      "min": 8,
-      "max": 32
-    }
-  },
-  {
     "content": "tconstruct:materials",
     "unitWorth": 10,
     "weight": 100,
