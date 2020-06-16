@@ -117,15 +117,6 @@
     }
   },
   {
-    "content": "prodigytech:fuel_pellet_1",
-    "unitWorth": 5,
-    "weight": 100,
-	"amount": {
-      "min": 64,
-      "max": 256
-    }
-  },
-  {
     "content": "projectred-core:resource_item:103",
     "unitWorth": 50,
     "weight": 100,
@@ -231,33 +222,6 @@
 	"amount": {
       "min": 32,
       "max": 128
-    }
-  },
-  {
-    "content": "forestry:honey_drop",
-    "unitWorth": 40,
-    "weight": 50,
-	"amount": {
-      "min": 8,
-      "max": 32
-    }
-  },
-  {
-    "content": "forestry:beeswax",
-    "unitWorth": 50,
-    "weight": 50,
-	"amount": {
-      "min": 8,
-      "max": 32
-    }
-  },
-  {
-    "content": "prodigytech:meat_patty",
-    "unitWorth": 40,
-    "weight": 100,
-	"amount": {
-      "min": 8,
-      "max": 32
     }
   },
   {
