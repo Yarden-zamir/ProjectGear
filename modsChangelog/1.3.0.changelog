@@ -1,0 +1,76 @@
+Project Gear 1.3.0 Prelimary Changelog:
+
+
+**The Great Decluttering:**
+
+Project Gear has existed for over two years now. Every major update seems to complete two tasks and create two more. This hydra of a content cycle needs to be slain if we ever want to release this pack.
+
+To kick development back into high gear, I want to start a new project: The Great Decluttering.
+
+The goal is simple. I want to remove content that doesn't add to the core experience, especially if that content is only half done or needs some tweaking. Until this project is complete, I will not be adding any new features to the pack.
+
+**Major mods and features getting removed:**
+
+
+
+1. Finite water:
+
+There are very few engaging ways to automate water. This mod turned out to be more of an early game annoyance than a real automation puzzle.
+
+
+
+2. Nuclearcraft:
+
+Unfortunately this mod's progression is not a fit for the pack. It has a strong reliance on magic blocks.
+
+Designing reactors is fun, but that's a small part of the mod.
+
+Getting the mod to work well with the pack would require an enormous amount of machine recipe changes.
+
+
+
+3. Mystcraft:
+
+Custom Mystcraft ages accessible via custom portals is something I've dreamed of adding to a modpack since I saw the Forgecraft crew play with the mod back in Minecraft 1.6.4.
+
+Project Gear is not that pack. Mystcraft is an adventure-focused mod, and Project Gear is all about automation.
+
+Getting this just the way I wanted would require hours and hours of creating custom Mystcraft ages, setting up custom portals, balancing Mystcraft to avoid OP ore ages, and so many other little tweaks.
+
+
+
+4. Practical Logistics 2:
+
+This mod is cool on paper, but I can't find any documentation for it aside from an out of date Youtube video. I doubt many will touch the mod.
+
+
+
+5. ProdigyTech:
+
+This mod is not a good fit for the pack. It tends to encourage boring machine walls. The heat mechanic is interesting on the surface, but trivial to work around in practice.
+
+-----------------------
+
+**Mod changes:**
+
+-Updated several dozen mods
+
+Removed mods:
+-Mystcraft
+-Myst Lib
+-RandomPortals
+-WaterControlExtreme
+-Nuclearcraft
+-OpenComputers
+-Practical Logistics 2
+-Sonar Core
+
+
+**Bounty changes:**
+-Removed the Redstone loot bag
+-Removed the compressed sawdust bounty task as it was boring to automate
+-Added new bounties: Lavawood, necrotic bone, snow block, monster jerky, ectoplasm
+
+
+
+**Script and Config changes:**
