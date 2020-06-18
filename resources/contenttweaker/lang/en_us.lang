@@ -46,31 +46,25 @@ fluid.monster_essence=Monster Essence
 // Blocks
 tile.contenttweaker.nether_gold_ore.name=Nether Gold Ore
 tile.contenttweaker.impure_steel_block.name=Block of Impure Steel
-tile.contenttweaker.nether_magnesium_ore.name=Nether Magnesium Ore
-tile.contenttweaker.nether_lithium_ore.name=Nether Lithium Ore
-tile.contenttweaker.nether_boron_ore.name=Nether Boron Ore
-tile.contenttweaker.nether_thorium_ore.name=Nether Thorium Ore
-tile.contenttweaker.nether_uranium_ore.name=Nether Uranium Ore
-tile.contenttweaker.nether_lead_ore.name=Nether Lead Ore
 tile.contenttweaker.coarse_gravel.name=Coarse Gravel
 
 // Age portal blocks:
 tile.contenttweaker.age_portal_black.name=Black Ceramic Frame
-tile.contenttweaker.age_portal_red.name=Galifrean Portal Frame
+tile.contenttweaker.age_portal_red.name=Red Ceramic Frame
 tile.contenttweaker.age_portal_green.name=Green Ceramic Frame
 tile.contenttweaker.age_portal_brown.name=Brown Ceramic Frame
 tile.contenttweaker.age_portal_blue.name=Blue Ceramic Frame
-tile.contenttweaker.age_portal_purple.name=Void Age Portal Frame
+tile.contenttweaker.age_portal_purple.name=Purple Portal Frame
 tile.contenttweaker.age_portal_cyan.name=Cyan Ceramic Frame
 tile.contenttweaker.age_portal_light_gray.name=Light Gray Ceramic Frame
-tile.contenttweaker.age_portal_gray.name=Mining Age Portal Frame
+tile.contenttweaker.age_portal_gray.name=Gray Portal Frame
 tile.contenttweaker.age_portal_pink.name=Pink Ceramic Frame
 tile.contenttweaker.age_portal_lime_green.name=Lime Green Ceramic Frame
 tile.contenttweaker.age_portal_yellow.name=Yellow Ceramic Frame
 tile.contenttweaker.age_portal_light_blue.name=Light Blue Ceramic Frame
-tile.contenttweaker.age_portal_magenta.name=Lavender Skies Age Portal Frame
+tile.contenttweaker.age_portal_magenta.name=Magenta Ceramic Frame
 tile.contenttweaker.age_portal_orange.name=Orange Ceramic Frame
-tile.contenttweaker.age_portal_white.name=Ice Age Portal Frame
+tile.contenttweaker.age_portal_white.name=White Ceramic Frame
 
 //Metalcaps:
 tile.contenttweaker.iron_metalcap.name=Iron Metalcap
