@@ -19,7 +19,7 @@ val craftingToDisable =[
     dustCupronickel,
     blockCupronickel
 ] as IItemStack[];
- 
+
 // Change ash brick recipe to require ash:
 recipes.removeByRecipeName("factorytech:deco/bricks_charcoal");
 recipes.addShaped(<factorytech:bricks:3>, [[null, <minecraft:brick>, null], [<minecraft:brick>, <ore:dustAsh>, <minecraft:brick>], [null, <minecraft:brick>, null]]);
@@ -92,19 +92,10 @@ recipes.addShaped(<factorytech:machinepart:80>,
 scripts.functions.rename(<factorytech:machinepart:180>,"Water Mesh");
 //recipes.removeShaped(<factorytech:machinepart:33>); will remove recipe when adding the alternative that's in the diagram.
 
-// Adds new recipes for the plane shifter
+// Makes Factory Tech dimensional shifter much cheaper
 // Note: This stops it from being gated behind Factory Tech
+recipes.removeShaped(<factorytech:planeshifter>);
 recipes.addShaped(<factorytech:planeshifter>, 
-	[[<botania:manaresource>, <botania:manaresource>, <botania:manaresource>],
-	 [<botania:manaresource:12>, <minecraft:end_stone>, <botania:manaresource:12>],
-	 [<botania:manaresource>, <botania:manaresource>, <botania:manaresource>]]);
-	 
-recipes.addShaped(<factorytech:planeshifter>,
-	[[<thermalfoundation:material:167>, <thermalfoundation:material:167>, <thermalfoundation:material:167>],
-	 [<thermalfoundation:glass_alloy:7>, <minecraft:end_stone>, <thermalfoundation:glass_alloy:7>],
-	 [<thermalfoundation:material:167>, <thermalfoundation:material:167>, <thermalfoundation:material:167>]]);
-	 
-recipes.addShaped(<factorytech:planeshifter>,
-	[[<prodigytech:zorrasteel_ingot>, <prodigytech:zorrasteel_ingot>, <prodigytech:zorrasteel_ingot>],
-	 [<prodigytech:energion_crystal_seed>, <prodigytech:circuit_perfected>, <prodigytech:energion_crystal_seed>],
-	 [<prodigytech:zorrasteel_ingot>, <prodigytech:zorrasteel_ingot>, <prodigytech:zorrasteel_ingot>]]);
+	[[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+	 [<ore:gemLapis>, <minecraft:ender_eye>, <ore:gemLapis>],
+	 [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
