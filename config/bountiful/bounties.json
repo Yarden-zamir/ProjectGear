@@ -36,6 +36,15 @@
     }
   },
   {
+    "content": "randomthings:ingredient:2",
+    "unitWorth": 200,
+    "weight": 100,
+	"amount": {
+      "min": 2,
+      "max": 8
+    }
+  },
+  {
     "content": "factorytech:machinepart:0",
     "unitWorth": 20,
     "weight": 100,
@@ -216,6 +225,15 @@
     }
   },
   {
+    "content": "minecraft:snow",
+    "unitWorth": 10,
+    "weight": 100,
+	"amount": {
+      "min": 32,
+      "max": 128
+    }
+  },
+  {
     "content": "minecraft:leather",
     "unitWorth": 25,
     "weight": 50,
@@ -225,7 +243,34 @@
     }
   },
   {
+    "content": "tconstruct:firewood",
+    "unitWorth": 25,
+    "weight": 50,
+	"amount": {
+      "min": 16,
+      "max": 64
+    }
+  },
+  {
+    "content": "tconstruct:materials:17",
+    "unitWorth": 25,
+    "weight": 50,
+	"amount": {
+      "min": 16,
+      "max": 64
+    }
+  },
+  {
     "content": "rats:cheese",
+    "unitWorth": 40,
+    "weight": 50,
+	"amount": {
+      "min": 8,
+      "max": 32
+    }
+  },
+  {
+    "content": "tconstruct:edible:10",
     "unitWorth": 40,
     "weight": 50,
 	"amount": {
