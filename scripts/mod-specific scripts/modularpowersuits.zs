@@ -30,7 +30,7 @@ val craftingToDisable =[
 		// Magnet
 	<powersuits:powerarmorcomponent:19>,
 		// Computer chip
-	<powersuits:powerarmorcomponent:20>,
+   #<powersuits:powerarmorcomponent:20>,
 ] as IItemStack[];
 scripts.functions.disableCraftings(craftingToDisable);
 
@@ -117,9 +117,9 @@ recipes.addShaped(<powersuits:powerarmorcomponent:9>,
 	 
 	// Iron plating
 recipes.addShaped(<powersuits:powerarmorcomponent:10>,
-	[[<ore:plateSteel>, <ore:plateSteel>],
-	 [<ore:componentWiring>, <ore:plateSteel>], 
-	 [<ore:plateSteel>, <ore:plateSteel>]]);
+	[[<ore:plateIron>, <ore:plateIron>],
+	 [<ore:componentWiring>, <ore:plateIron>], 
+	 [<ore:plateIron>, <ore:plateIron>]]);
 
 	// Carbon myofiber
 recipes.addShaped(<powersuits:powerarmorcomponent:14>,
@@ -145,10 +145,10 @@ recipes.addShaped(<powersuits:powerarmorcomponent:19>,
 	 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 	// Computer chip
-recipes.addShaped(<powersuits:powerarmorcomponent:20>,
-	[[null, null, null],
-	 [<prodigytech:circuit_plate>, <prodigytech:circuit_plate>, <prodigytech:circuit_plate>],
-	 [<powersuits:powerarmorcomponent:0>, <powersuits:powerarmorcomponent:0>, <powersuits:powerarmorcomponent:0>]]);
+#recipes.addShaped(<powersuits:powerarmorcomponent:20>,
+#	[[null, null, null],
+#	 [<prodigytech:circuit_plate>, <prodigytech:circuit_plate>, <prodigytech:circuit_plate>],
+#	 [<powersuits:powerarmorcomponent:0>, <powersuits:powerarmorcomponent:0>, <powersuits:powerarmorcomponent:0>]]);
 	 
 // Tinker table
 recipes.addShaped(<powersuits:tinkertable>,
