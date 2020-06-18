@@ -55,9 +55,7 @@ for i, item in petals {
     [managlass,managlass,managlass]]);
 }
 
-// Craft nether smoker
-
-	// With fire rune:
+// With fire rune:
 recipes.addShaped(<quark:smoker>,
 	[[<ore:netherrack>, <ore:netherrack>, <ore:netherrack>],
 	 [<ore:netherrack>, <botania:rune:1>, <ore:netherrack>],

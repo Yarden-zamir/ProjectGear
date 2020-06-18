@@ -97,7 +97,6 @@ mods.chisel.Carving.addVariation("andesite", <quark:world_stone_pavement:2>);
 mods.chisel.Carving.addVariation("andesite", <quark:world_stone_carved:2>);
 
 	// Ash brick:
-mods.chisel.Carving.addVariation("forestry:ash_brick_0", <prodigytech:ash_bricks>);
 mods.chisel.Carving.addVariation("forestry:ash_brick_0", <factorytech:bricks:3>);
 
 
