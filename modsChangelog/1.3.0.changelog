@@ -75,12 +75,20 @@ Removed mods:
 -RandomPortals
 -WaterControlExtreme
 -Nuclearcraft
--OpenComputers
 -Practical Logistics 2
 -Sonar Core
+-Automated Redstone - Dropped in favor of Redstone Control
+-Waila Harvestability - WAILA hasn't been in the pack for ages
 
-+RedstonePlusPlus
-+Stone Catalysts
++RedstonePlusPlus - The block rotator has potential
++Stone Catalysts - Makes stones like marble and slate renewable with custom cobble generators
++Item Filters - Powerful item filters
++Redstone Control - A better version of Redstone Control
++Condition Overload - Should encourage some interesting Tinkers' weapon builds
++Chisels and Bits - Inferior to Little Tiles, but it's more well known
++Extra Bit Manipulation - Important C&B addon
++Cosmetic Armor Reworked - I want to see some neat Chisels and Bits armor
++Growthcraft Community Edition - Looks like a perfect fit for the pack
 
 
 **Bounty changes:**
