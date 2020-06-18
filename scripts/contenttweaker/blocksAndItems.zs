@@ -209,60 +209,6 @@ impureSteelBlock.setToolLevel(3);
 impureSteelBlock.setBlockSoundType(<soundtype:metal>);
 impureSteelBlock.register();
 
-// Nether Boron Ore
-var netherBoronOre = VanillaFactory.createBlock("nether_boron_ore", <blockmaterial:rock>); 
-netherBoronOre.setBlockHardness(5.0); 
-netherBoronOre.setBlockResistance(30.0);
-netherBoronOre.setToolClass("pickaxe"); 
-netherBoronOre.setToolLevel(3); 
-netherBoronOre.setBlockSoundType(<soundtype:metal>);
-netherBoronOre.register();
-
-// Nether Magnesium Ore
-var netherMagnesiumOre = VanillaFactory.createBlock("nether_magnesium_ore", <blockmaterial:rock>); 
-netherMagnesiumOre.setBlockHardness(5.0); 
-netherMagnesiumOre.setBlockResistance(30.0);
-netherMagnesiumOre.setToolClass("pickaxe"); 
-netherMagnesiumOre.setToolLevel(3); 
-netherMagnesiumOre.setBlockSoundType(<soundtype:metal>);
-netherMagnesiumOre.register();
-
-// Nether Lithium Ore
-var netherLithiumOre = VanillaFactory.createBlock("nether_lithium_ore", <blockmaterial:rock>); 
-netherLithiumOre.setBlockHardness(5.0); 
-netherLithiumOre.setBlockResistance(30.0);
-netherLithiumOre.setToolClass("pickaxe"); 
-netherLithiumOre.setToolLevel(3); 
-netherLithiumOre.setBlockSoundType(<soundtype:metal>);
-netherLithiumOre.register();
-
-// Nether Thorium Ore
-var netherThoriumOre = VanillaFactory.createBlock("nether_thorium_ore", <blockmaterial:rock>); 
-netherThoriumOre.setBlockHardness(5.0); 
-netherThoriumOre.setBlockResistance(30.0);
-netherThoriumOre.setToolClass("pickaxe"); 
-netherThoriumOre.setToolLevel(3); 
-netherThoriumOre.setBlockSoundType(<soundtype:metal>);
-netherThoriumOre.register();
-
-// Nether Uranium Ore
-var netherUraniumOre = VanillaFactory.createBlock("nether_uranium_ore", <blockmaterial:rock>); 
-netherUraniumOre.setBlockHardness(5.0); 
-netherUraniumOre.setBlockResistance(30.0);
-netherUraniumOre.setToolClass("pickaxe"); 
-netherUraniumOre.setToolLevel(3); 
-netherUraniumOre.setBlockSoundType(<soundtype:metal>);
-netherUraniumOre.register();
-
-// Nether Uranium Ore
-var netherLeadOre = VanillaFactory.createBlock("nether_lead_ore", <blockmaterial:rock>); 
-netherLeadOre.setBlockHardness(5.0); 
-netherLeadOre.setBlockResistance(30.0);
-netherLeadOre.setToolClass("pickaxe"); 
-netherLeadOre.setToolLevel(3); 
-netherLeadOre.setBlockSoundType(<soundtype:metal>);
-netherLeadOre.register();
-
 
 // Coarse Gravel
 val coarse_gravel = VanillaFactory.createBlock("coarse_gravel", <blockmaterial:rock>);
