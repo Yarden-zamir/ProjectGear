@@ -30,15 +30,14 @@ val craftingToDisable =[
 scripts.functions.disableCraftings(craftingToDisable);
 
 
-// You can also craft the block breaker with an iron pickaxe head instead of an iron pickaxe. The head conveniently stacks to 64.
+	// You can also craft the block breaker with an iron pickaxe head instead of an iron pickaxe. The head conveniently stacks to 64.
 recipes.addShaped(<randomthings:blockbreaker>,
     [[<ore:cobblestone>, <tconstruct:pick_head>.withTag({Material: "iron"}), <ore:cobblestone>],
     [<ore:cobblestone>, <minecraft:redstone_torch>, <ore:cobblestone>],
     [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 	
-// Craft glowing mushrooms
+	// Craft glowing mushrooms
 recipes.addShapeless(<randomthings:glowingmushroom>, [<ore:mushroomAny>, <ore:mushroomAny>, <natura:nether_glowshroom:*>, <natura:nether_glowshroom:*>]);
 
-// Alternative luminous dust recipes that use other glowing mushroom types:.
+	// Alternative luminous dust recipes that use other glowing mushroom types:.
 recipes.addShaped("gear_crafting_luminouspowder_alt1", <randomthings:ingredient:5> * 4, [[<minecraft:glowstone_dust>, <ore:blockGlassColorless>], [null, <quark:glowshroom>]]);
-recipes.addShaped("gear_crafting_luminouspowder_alt2", <randomthings:ingredient:5> * 4, [[<minecraft:glowstone_dust>, <ore:blockGlassColorless>], [null, <nuclearcraft:glowing_mushroom>]]);
