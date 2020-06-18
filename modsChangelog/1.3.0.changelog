@@ -89,13 +89,29 @@ Removed mods:
 +Extra Bit Manipulation - Important C&B addon
 +Cosmetic Armor Reworked - I want to see some neat Chisels and Bits armor
 +Growthcraft Community Edition - Looks like a perfect fit for the pack
++Waystones - Now that Mystcraft has been removed, we need another early game teleporter.
++Aroma1997's Mining Dimension - Replacement for the Mystcraft mining age
++Simple Void World - Replacement for the Mystcraft void age
++Forgiving Void - A nice quality of life mod for void worlds
 
 
 **Bounty changes:**
--Removed the Redstone loot bag
+-Removed the Redstone loot bag as it wasn't very useful
 -Removed the compressed sawdust bounty task as it was boring to automate
+-Removed ProdigyTech items from bounties as this mod was removed
+-Removed Forestry items from bounties as this mod may be removed in the near future
 -Added new bounties: Lavawood, necrotic bone, snow block, monster jerky, ectoplasm
+-Added a handful of redstone components to the machine loot bag
+-Added Waystones' warp stone to explorer bag
+
 
 
 **Script and Config changes:**
 -Stone Catalysts can now create quarried stone, abyssal stone, red rock, crag rock and slate
+-Tweaked MJ-RF energy convertion ratio of Energy Converters slightly
+-Updated some loading screen tips
+-Enabled Quark clay generation
+-Enabled Quark fairy rings
+-Scannable can now detect Magneticraft oil wells with the rare ore upgrade
+-Updated the Universal Guide and Omniwrench to include some of the new mods, and remove some old ones
+-Quark cave crystals now generate as semi-rare stalactites on the tops of caves
