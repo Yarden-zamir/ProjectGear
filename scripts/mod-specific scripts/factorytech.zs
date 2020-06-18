@@ -34,7 +34,6 @@ furnace.addRecipe(blockCupronickel, <ore:blockConstantan>);
  
 // Disables Cupronickel furnace recipes
 furnace.remove(ingotCupronickel, dustCupronickel);
-furnace.remove(ingotCupronickel, <factorytech:salvage:5>);
  
 // Disables Cupronickel Electric Furnace (Factory Tech) recipes
 mods.factorytech.ElectricFurnace.removeRecipe(ingotCupronickel);
