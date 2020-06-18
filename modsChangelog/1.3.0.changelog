@@ -49,6 +49,20 @@ This mod is cool on paper, but I can't find any documentation for it aside from 
 
 This mod is not a good fit for the pack. It tends to encourage boring machine walls. The heat mechanic is interesting on the surface, but trivial to work around in practice.
 
+
+
+6. Steel Production:
+
+The old steel production chain was fun to automate, but gating steel behind something so convoluted isn't in the spirit of the pack.
+
+Nothing in the pack requires more than a few stacks of steel, so there's no reason to actually automate it. Instead it was a do-one-and-forget process.
+
+This also caused some problems early on, such as gating early game Immersive Engineering behind a fairly late game factory.
+
+Instead, I will be adapting this into a 5x ore processing chain. The old fashioned Immersive Engineering steel route is currently enabled.
+
+There may be a less complex custom steel processing chain at some point, but not today.
+
 -----------------------
 
 **Mod changes:**
@@ -65,6 +79,9 @@ Removed mods:
 -Practical Logistics 2
 -Sonar Core
 
++RedstonePlusPlus
++Stone Catalysts
+
 
 **Bounty changes:**
 -Removed the Redstone loot bag
@@ -72,5 +89,5 @@ Removed mods:
 -Added new bounties: Lavawood, necrotic bone, snow block, monster jerky, ectoplasm
 
 
-
 **Script and Config changes:**
+-Stone Catalysts can now create quarried stone, abyssal stone, red rock, crag rock and slate
