@@ -35,19 +35,14 @@ mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 288, [<liquid:impuresteel> * 14
 
 // ie blast furnace
 
-mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
-mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160>, <contenttweaker:impure_steel_ingot>, 2000, <immersiveengineering:material:7>);
+#mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
+#mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
+#mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160>, <contenttweaker:impure_steel_ingot>, 2000, <immersiveengineering:material:7>);
 
 // ie arc furnace
 
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:160>, <ore:dustSteel>, null, 100, 512);
- 
-// nuclearcraft alloy furnace
- 
-mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput(<thermalfoundation:material:160>);
-mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput(<thermalfoundation:storage_alloy:0>);
 
 //Some boring nugget/block handling
 recipes.addShapeless("nugget_handler_1",<contenttweaker:impure_steel_ingot>,[<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>,<contenttweaker:impure_steel_nugget>]);
