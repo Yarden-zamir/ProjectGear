@@ -85,7 +85,7 @@ mods.integrateddynamics.DryingBasin.removeRecipesWithOutput(<minecraft:leather>)
 
 
 // Crusher: Diamond Horse Armor -> 2 Diamond Dust
-mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:gem_dust> * 2, <minecraft:diamond_horse_armor>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_horse_armor>, 2048);
  
 // Crusher: Golden Apple -> 4 Gold Dust
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1> * 4, <minecraft:golden_apple>, 2048);
